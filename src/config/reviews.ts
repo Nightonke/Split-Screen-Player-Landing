@@ -13,33 +13,23 @@ import type { Review } from "@/types/content";
  */
 export const reviews: Review[] = [
 	{
-		author: "Lily S.",
+		author: "Promo022",
 		rating: 5,
-		text: "Coloray has made recording my daily life so joyful! The colorful interface is so eye-pleasing, and the daily check-in and mood recording features are exactly what I need for a lovely life journal.",
+		text: "Does what it advertises",
 	},
 	{
-		author: "Noah K.",
+		author: "jamannalalsnna",
 		rating: 5,
-		text: "I've been using this app for a month now and it's become my go-to app for tracking my days. The operation is super intuitive, and the colorful theme customization makes every record feel special.",
+		text: "It was great using this app. I definety enjoyed it.",
 	},
 	{
-		author: "Sophia L.",
+		author: "KeepGoingWhatever",
 		rating: 5,
-		text: "Finally an app that blends daily tracking with a beautiful, colorful design! Coloray is lightweight but has all the features I need for journaling and planning—10/10 recommend!",
+		text: "I’ve been searching for an app that lets me watch multiple movies at one screen-watching just one doesn’t cut it anymore…",
 	},
 	{
-		author: "Ethan M.",
-		rating: 4,
-		text: "Great app for daily recording with a really unique colorful interface. The core functions work perfectly, and I just hope there's a desktop sync feature added in the future to make it even better.",
-	},
-	{
-		author: "Olivia P.",
+		author: "仁哥12345",
 		rating: 5,
-		text: "The mood and daily activity tracking in Coloray is game-changing for me! It’s so easy to log my days with just a few taps, and the colorful visualizations make it fun to look back on my memories.",
-	},
-	{
-		author: "Lucas T.",
-		rating: 5,
-		text: "I love how this app turns plain daily recording into a colorful experience. No complicated setup, just simple and beautiful journaling—this app has quickly become a part of my daily routine!",
+		text: "神奇播放器",
 	},
 ];

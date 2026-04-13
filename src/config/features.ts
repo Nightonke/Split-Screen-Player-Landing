@@ -13,59 +13,43 @@ import type { Feature } from "@/types/content";
  */
 export const features: Feature[] = [
 	{
-		title: "Intuitive & Clear",
-		description: "The main page features 12 columns representing 12 months, neatly displaying all 365 days. Each day fills with color as you record your activities.",
-		icon: "FiEye",
+		title: "Play Multiple Videos Simultaneously",
+		description: "125 layout options + custom layouts, supporting 2–36 videos at once; select videos from files or albums.",
+		icon: "FiGrid",
 	},
 	{
-		title: "Edit",
-		description: "Pull down on the side margins to edit today, swipe up to edit yesterday. Choose tag colors, text entries, photos, and mark important days. Coloray automatically populates steps, weather, and location.",
-		icon: "FiEdit2",
+		title: "Supports Multiple Formats",
+		description: "mp4, mov, avi, mkv, flv, f4v, wmv, m4v, rmvb, 3gp, webm.",
+		icon: "FiFilm",
 	},
 	{
-		title: "View",
-		description: "Tap a date to quickly preview daily details. Release to access additional actions.",
-		icon: "FiMousePointer",
+		title: "The Video Player That Understands You Best",
+		description: "Multiple gesture controls, video frame previews (to help you quickly find highlights), and checkpoints (to let you revisit your favorite moments).",
+		icon: "FiPlay",
 	},
 	{
-		title: "Settings",
-		description: "↑↑. Two fingers swipe up to access settings where you can customize skins and daily palette styles.",
-		icon: "FiSettings",
+		title: "Bookmark Memory",
+		description: "No need to re-select layouts and videos every time—save bookmarks for future use.",
+		icon: "FiBookmark",
 	},
 	{
-		title: "Statistics",
-		description: "→←. Pinch to view statistics. Analyze tag distribution and trend changes across time periods.",
-		icon: "FiBarChart",
+		title: "Synchronized Control",
+		description: "Activate the control lock to control one video, and the others will automatically sync—for example, pausing, playing, fast-forwarding, or rewinding simultaneously.",
+		icon: "FiLock",
 	},
 	{
-		title: "Memories",
-		description: "←→. Pinch out to memories. Your days transform into a starry sky, automatically playing and randomly recalling your cherished moments.",
-		icon: "FiClock",
+		title: "Image Playback",
+		description: "Not only does it support video playback, but you can also select image folders to view photos in a slideshow.",
+		icon: "FiImage",
 	},
 	{
-		title: "Photo Wall",
-		description: "↙↗. Shake your phone. Each day becomes a photo from your records. From the Photo Wall, you can continue to Memories and Share.",
-		icon: "FiSmartphone",
+		title: "Web Browsing",
+		description: "Browse multiple webpages simultaneously and quickly open them from the clipboard to save time.",
+		icon: "FiGlobe",
 	},
 	{
-		title: "Share",
-		description: "Long-press on both blank sides with two fingers to share. You can share cards in various styles with family, friends, or yourself.",
-		icon: "FiShare2",
+		title: "PDF Viewing",
+		description: "View multiple PDF files at the same time.",
+		icon: "FiFileText",
 	},
-	{
-		title: "Filter",
-		description: "Long-press on either blank side with one finger to filter. You can quickly view the distribution percentage of a specific tag within the current year.",
-		icon: "FiFilter",
-	},
-	{
-		title: "Search",
-		description: "↓↓. Two fingers swipe down to search. You can find all recorded days and conveniently analyze trends for numerical changes like weight or savings.",
-		icon: "FiSearch",
-	},
-	{
-		title: "Switch Years",
-		description: "←←/→→. Swipe left or right with two fingers to switch years.",
-		icon: "FiCalendar",
-	},
-	// Add more features here...
 ];
