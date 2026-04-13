@@ -27,4 +27,15 @@ export const screenshots: Screenshots = {
 		"/assets/screenshots/iphone/8.png",
 		"/assets/screenshots/iphone/9.png",
 	],
+	ipad: [
+		"/assets/screenshots/ipad/1.png",
+		"/assets/screenshots/ipad/2.png",
+		"/assets/screenshots/ipad/3.png",
+		"/assets/screenshots/ipad/4.png",
+		"/assets/screenshots/ipad/5.png",
+		"/assets/screenshots/ipad/6.png",
+		"/assets/screenshots/ipad/7.png",
+		"/assets/screenshots/ipad/8.png",
+		"/assets/screenshots/ipad/9.png",
+	],
 };
