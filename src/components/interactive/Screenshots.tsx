@@ -29,7 +29,7 @@ const Screenshots = ({ images }: ScreenshotsGallery) => {
                   alt={`Screenshot ${index + 1}`}
                   className={`rounded-xl border border-gray-300 dark:border-white/10 object-cover shadow-lg ${activeDevice === "iphone"
                     ? "aspect-[9/19.5] w-[260px]"
-                    : "aspect-[4/3] w-[360px]"
+                    : "aspect-[2048/2732] w-[360px]"
                   }`}
                   loading="lazy"
                 />
