@@ -7,7 +7,7 @@ export const storeDataConfig = {
 
 export const siteConfig = {
 	/** Your app name (displayed in header, footer, page title) */
-	name: "Coloray",
+	name: "Split Screen Player",
 
 	/** Brief description of your app (shown in hero section and meta tags) */
 	description:
