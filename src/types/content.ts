@@ -22,9 +22,14 @@ export interface SocialLink {
 	label: string;
 }
 
+export interface ScreenshotItem {
+	src: string;
+	alt?: string;
+}
+
 export interface Screenshots {
-	iphone: string[];
-	ipad: string[];
+	iphone: ScreenshotItem[];
+	ipad: ScreenshotItem[];
 }
 
 export interface StoreData {
@@ -39,10 +44,7 @@ export interface StoreData {
 	version?: string;
 	minimumOS?: string;
 	releaseDate?: string;
-	screenshots: {
-		iphone: string[];
-		ipad: string[];
-	};
+	screenshots: Screenshots;
 	storeLinks: {
 		apple: string;
 		google: string;

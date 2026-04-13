@@ -7,11 +7,11 @@ export const storeDataConfig = {
 
 export const siteConfig = {
 	/** Your app name (displayed in header, footer, page title) */
-	name: "Split Screen Player",
+	name: "Split Screen Player - Play Multiple Videos Simultaneously on iOS",
 
 	/** Brief description of your app (shown in hero section and meta tags) */
 	description:
-		"Too many great videos to choose from? Why choose at all? You can watch them all at once! Split Screen Player lets you play up to 36 videos simultaneously, giving you a comprehensive overview.",
+		"Watch up to 36 videos at once with Split Screen Player. Supports synchronized control, multiple formats, and web browsing. The ultimate multitasking video player for iPhone and iPad.",
 
 	/** SEO keywords for better search engine visibility */
 	keywords: ["Split Screen Player-Dual Video", "Play Multiple Videos Parallel", "multi","window","playback","together","multitasking","grid","pip","sync","view","download","web","save","browser","sniffer","分屏","多窗","多视频","同时","播放","双屏","多屏","同屏","多任务","九宫格","画中画","同步","并排","并行","浏览器","追剧","监控","对比","分栏","小窗","投屏","网页","视频","下载","离线","缓存","提取","抓取","嗅探","网址","多开","万能"],

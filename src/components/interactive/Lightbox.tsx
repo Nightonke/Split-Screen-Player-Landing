@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { memo, useCallback, useEffect, useState } from "react";
 import { FiChevronLeft, FiChevronRight, FiX } from "react-icons/fi";
 import type { Lightbox as LightboxProps } from "@/types/components";
+import type { ScreenshotItem } from "@/types/content";
 import { areImagesEqual } from "@/types/content";
 
 declare global {
@@ -111,8 +112,8 @@ const Lightbox = ({ images }: LightboxProps) => {
 						animate={{ opacity: 1, scale: 1 }}
 						exit={{ opacity: 0, scale: 0.9 }}
 						transition={{ duration: 0.2 }}
-						src={currentImages[currentIndex]}
-						alt={`Screenshot ${currentIndex + 1}`}
+						src={currentImages[currentIndex].src}
+						alt={currentImages[currentIndex].alt || `Screenshot ${currentIndex + 1}`}
 						className="max-h-[95vh] max-w-[95vw] md:max-h-[90vh] md:max-w-[85vw] object-contain rounded-xl shadow-2xl"
 						onClick={(e) => e.stopPropagation()}
 						onKeyDown={(e) => {
@@ -145,10 +146,10 @@ const Lightbox = ({ images }: LightboxProps) => {
 						transition={{ duration: 0.2 }}
 						className="absolute bottom-4 left-0 right-0 flex justify-center gap-2"
 					>
-						{currentImages.map((image, index) => (
+						{currentImages.map((item: ScreenshotItem, index: number) => (
 							<button
 								type="button"
-								key={image}
+								key={item.src}
 								onClick={(e) => {
 									e.stopPropagation();
 									setCurrentIndex(index);

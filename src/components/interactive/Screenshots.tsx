@@ -1,5 +1,6 @@
 import { memo, useState } from "react";
 import type { ScreenshotsGallery } from "@/types/components";
+import type { ScreenshotItem } from "@/types/content";
 import { areImagesEqual } from "@/types/content";
 import DeviceToggle from "@/ui/DeviceToggle";
 
@@ -18,15 +19,15 @@ const Screenshots = ({ images }: ScreenshotsGallery) => {
 			<div className="relative overflow-hidden">
 				<div className="screenshots-scrollbar overflow-x-scroll pb-4" style={{ maxHeight: '600px', scrollbarGutter: 'stable' }}>
 					<div className="flex gap-6">
-						{currentImages.map((image: string, index: number) => (
+						{currentImages.map((item: ScreenshotItem, index: number) => (
 							<button
 								key={`${activeDevice}-${index}`}
 								type="button"
 								className="relative flex-shrink-0 overflow-hidden rounded-xl focus:outline-none"
 							>
                 <img
-                  src={image}
-                  alt={`Screenshot ${index + 1}`}
+                  src={item.src}
+                  alt={item.alt || `Screenshot ${index + 1}`}
                   className={`rounded-xl border border-gray-300 dark:border-white/10 object-cover shadow-lg ${activeDevice === "iphone"
                     ? "aspect-[9/19.5] w-[260px]"
                     : "aspect-[2048/2732] w-[360px]"

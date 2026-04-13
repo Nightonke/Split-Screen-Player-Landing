@@ -58,10 +58,10 @@ export async function fetchStoreData(): Promise<Partial<StoreData>> {
             version: data.version,
             minimumOS: data.minimumOsVersion,
             releaseDate: formatReleaseDate(data.currentVersionReleaseDate),
-            screenshots: {
-                iphone: (data.screenshotUrls || []).slice(0, 5),
-                ipad: (data.ipadScreenshotUrls || []).slice(0, 5),
-            },
+			screenshots: {
+				iphone: (data.screenshotUrls || []).slice(0, 5).map((url: string, i: number) => ({ src: url, alt: `iPhone screenshot ${i + 1}` })),
+				ipad: (data.ipadScreenshotUrls || []).slice(0, 5).map((url: string, i: number) => ({ src: url, alt: `iPad screenshot ${i + 1}` })),
+			},
             storeLinks: {
                 apple: data.trackViewUrl,
                 google: "#",

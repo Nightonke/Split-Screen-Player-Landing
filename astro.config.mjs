@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://duocairi.com",
+  site: "https://splitscreenplayer.com",
   integrations: [tailwind(), react()],
   output: "static", // optional
   vite: {
