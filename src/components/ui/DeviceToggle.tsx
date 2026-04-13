@@ -28,8 +28,25 @@ const DeviceButton = ({ isActive, onClick, label, icon }: DeviceButtonProps) => 
 
 const DeviceToggle = ({ activeDevice, onToggle }: DeviceToggleProps) => {
 	return (
-		<div>
-		</div>
+		<motion.div
+			initial={{ opacity: 0, scale: 0.9 }}
+			animate={{ opacity: 1, scale: 1 }}
+			transition={{ duration: 0.3 }}
+			className="flex items-center justify-center gap-1 rounded-xl border border-gray-300 bg-white p-1 shadow-lg dark:border-white/10 dark:bg-white/[0.04]"
+		>
+			<DeviceButton
+				isActive={activeDevice === "iphone"}
+				onClick={() => onToggle("iphone")}
+				label="iPhone"
+				icon={<IoPhonePortraitOutline className="h-4 w-4" />}
+			/>
+			<DeviceButton
+				isActive={activeDevice === "ipad"}
+				onClick={() => onToggle("ipad")}
+				label="iPad"
+				icon={<FiTablet className="h-4 w-4" />}
+			/>
+		</motion.div>
 	);
 };
 
