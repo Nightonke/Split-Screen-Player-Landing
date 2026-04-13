@@ -17,7 +17,6 @@ import type { Screenshots } from "@/types/content";
  */
 export const screenshots: Screenshots = {
 	iphone: [
-		"/assets/screenshots/iphone/videoCover.png",
 		"/assets/screenshots/iphone/1.png",
 		"/assets/screenshots/iphone/2.png",
 		"/assets/screenshots/iphone/3.png",
@@ -27,6 +26,5 @@ export const screenshots: Screenshots = {
 		"/assets/screenshots/iphone/7.png",
 		"/assets/screenshots/iphone/8.png",
 		"/assets/screenshots/iphone/9.png",
-		"/assets/screenshots/iphone/10.png",
 	],
 };

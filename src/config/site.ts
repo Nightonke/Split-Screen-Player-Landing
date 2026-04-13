@@ -11,7 +11,7 @@ export const siteConfig = {
 
 	/** Brief description of your app (shown in hero section and meta tags) */
 	description:
-		"If exercise is red, outings are green, and early bedtimes are blue, what colors would your 365 days of the year be? Coloray helps you tag daily priorities with vibrant hues, making every year and every day dazzlingly colorful.",
+		"Too many great videos to choose from? Why choose at all? You can watch them all at once! Split Screen Player lets you play up to 36 videos simultaneously, giving you a comprehensive overview.",
 
 	/** SEO keywords for better search engine visibility */
 	keywords: ["Coloray", "多彩日", "iOS", "mobile app", "landing page", "astro", "react", "typescript"],
