@@ -1,10 +1,9 @@
 import { memo, useState } from "react";
 import type { ScreenshotsGallery } from "@/types/components";
 import type { ScreenshotItem } from "@/types/content";
-import { areImagesEqual } from "@/types/content";
 import DeviceToggle from "@/ui/DeviceToggle";
 
-const Screenshots = ({ images, labels }: ScreenshotsGallery) => {
+const Screenshots = ({ images, appPreview, labels }: ScreenshotsGallery) => {
 	const [activeDevice, setActiveDevice] = useState<"iphone" | "ipad">("iphone");
 	const currentImages = images[activeDevice];
 
@@ -19,6 +18,22 @@ const Screenshots = ({ images, labels }: ScreenshotsGallery) => {
 			<div className="relative overflow-hidden">
 				<div className="screenshots-scrollbar overflow-x-scroll pb-4" style={{ maxHeight: '600px', scrollbarGutter: 'stable' }}>
 					<div className="flex gap-6">
+						{activeDevice === "iphone" && appPreview && (
+							<div className="relative flex-shrink-0 overflow-hidden rounded-xl">
+								<video
+									src={appPreview.videoSrc}
+									poster={appPreview.posterSrc}
+									aria-label={appPreview.ariaLabel}
+									className="aspect-[9/19.5] w-[260px] rounded-xl border border-gray-300 bg-black object-cover shadow-lg dark:border-white/10"
+									autoPlay
+									muted
+									loop
+									playsInline
+									controls
+									preload="metadata"
+								/>
+							</div>
+						)}
 						{currentImages.map((item: ScreenshotItem, index: number) => (
 							<button
 								key={`${activeDevice}-${index}`}
@@ -45,4 +60,12 @@ const Screenshots = ({ images, labels }: ScreenshotsGallery) => {
 	);
 };
 
-export default memo(Screenshots, areImagesEqual);
+const areScreenshotsEqual = (
+	prev: ScreenshotsGallery,
+	next: ScreenshotsGallery,
+) =>
+	prev.images === next.images &&
+	prev.appPreview === next.appPreview &&
+	prev.labels === next.labels;
+
+export default memo(Screenshots, areScreenshotsEqual);

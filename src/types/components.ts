@@ -1,4 +1,5 @@
 import type {
+	AppPreviewVideo,
 	FAQ,
 	Feature,
 	LanguageLink,
@@ -31,6 +32,7 @@ export interface Lightbox {
 
 export interface ScreenshotsGallery {
 	images: Screenshots;
+	appPreview?: AppPreviewVideo;
 	labels: UiLabels;
 }
 

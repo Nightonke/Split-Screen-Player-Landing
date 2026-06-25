@@ -32,3 +32,12 @@ Screenshot assets are stored under `public/assets/screenshots/`.
 - Traditional Chinese: `public/assets/screenshots/zh-Hant/`
 
 The current website screenshots are resized from `/Users/mac/Documents/NVideoAppStore/screenshots/` for faster loading.
+
+## App Preview Video
+
+The website video preview lives in `public/assets/videos/`.
+
+- Video: `public/assets/videos/app-preview-iphone.mp4`
+- Poster: `public/assets/videos/app-preview-iphone-poster.jpg`
+
+The current MP4 and poster are converted from `/Users/mac/Documents/preview.mov`.

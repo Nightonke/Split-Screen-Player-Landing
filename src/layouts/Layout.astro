@@ -38,6 +38,16 @@ const canonicalURL = Astro.site
 const appleTouchIconURL = Astro.site
 	? new URL(siteConfig.logo, Astro.site).href
 	: siteConfig.logo;
+const previewVideoURL = appData?.appPreview
+	? Astro.site
+		? new URL(appData.appPreview.videoSrc, Astro.site).href
+		: appData.appPreview.videoSrc
+	: undefined;
+const previewPosterURL = appData?.appPreview
+	? Astro.site
+		? new URL(appData.appPreview.posterSrc, Astro.site).href
+		: appData.appPreview.posterSrc
+	: undefined;
 ---
 
 <!DOCTYPE html>
@@ -60,10 +70,14 @@ const appleTouchIconURL = Astro.site
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:type" content="website" />
     {description && <meta property="og:description" content={description} />}
+    {previewPosterURL && <meta property="og:image" content={previewPosterURL} />}
+    {previewVideoURL && <meta property="og:video" content={previewVideoURL} />}
+    {previewVideoURL && <meta property="og:video:type" content="video/mp4" />}
     
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     {description && <meta name="twitter:description" content={description} />}
+    {previewPosterURL && <meta name="twitter:image" content={previewPosterURL} />}
     
     <link rel="icon" type="image/png" sizes="32x32" href={siteConfig.logo} />
     <link rel="icon" type="image/png" sizes="16x16" href={siteConfig.logo} />

@@ -55,9 +55,12 @@ const termsHref = localizedPath(content.locale, "terms");
 			releaseDate={content.releaseDate}
 			client:load
 		/>
-		<div class="mb-16">
-			<Screenshots images={content.screenshots} labels={content.labels} client:load />
-		</div>
+		<Screenshots
+			images={content.screenshots}
+			appPreview={content.appPreview}
+			labels={content.labels}
+			client:load
+		/>
 		<Features items={content.features} title={content.labels.features} client:load />
 		<FAQ items={content.faqs} title={content.labels.faq} client:load />
 		<Reviews items={content.reviews} title={content.labels.userReviews} client:visible />

@@ -44,7 +44,26 @@ const sharedStoreData = {
 	version: "1.0.20",
 	minimumOS: "15.0",
 	releaseDate: "June 25, 2026",
+	appPreview: {
+		videoSrc: "/assets/videos/app-preview-iphone.mp4",
+		posterSrc: "/assets/videos/app-preview-iphone-poster.jpg",
+	},
 } as const;
+
+const enAppPreview = {
+	...sharedStoreData.appPreview,
+	ariaLabel: "App preview video for Split Screen Player on iPhone",
+};
+
+const zhHansAppPreview = {
+	...sharedStoreData.appPreview,
+	ariaLabel: "分屏播放器 iPhone App 预览视频",
+};
+
+const zhHantAppPreview = {
+	...sharedStoreData.appPreview,
+	ariaLabel: "分屏播放器 iPhone App 預覽影片",
+};
 
 const reviews: Review[] = [
 	{
@@ -721,6 +740,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		faqs: enFaqs,
 		reviews,
 		labels: enLabels,
+		appPreview: enAppPreview,
 		screenshots: buildScreenshots(
 			"en-US",
 			[
@@ -783,6 +803,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		faqs: zhHansFaqs,
 		reviews,
 		labels: zhHansLabels,
+		appPreview: zhHansAppPreview,
 		screenshots: buildScreenshots(
 			"zh-Hans",
 			[
@@ -845,6 +866,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		faqs: zhHantFaqs,
 		reviews,
 		labels: zhHantLabels,
+		appPreview: zhHantAppPreview,
 		screenshots: buildScreenshots(
 			"zh-Hant",
 			[

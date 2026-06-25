@@ -32,6 +32,12 @@ export interface Screenshots {
 	ipad: ScreenshotItem[];
 }
 
+export interface AppPreviewVideo {
+	videoSrc: string;
+	posterSrc: string;
+	ariaLabel: string;
+}
+
 export interface UiLabels {
 	features: string;
 	faq: string;
@@ -69,6 +75,7 @@ export interface StoreData {
 	minimumOS?: string;
 	releaseDate?: string;
 	screenshots: Screenshots;
+	appPreview: AppPreviewVideo;
 	storeLinks: {
 		apple: string;
 	};
