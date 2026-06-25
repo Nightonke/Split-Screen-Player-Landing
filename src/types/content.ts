@@ -32,8 +32,32 @@ export interface Screenshots {
 	ipad: ScreenshotItem[];
 }
 
+export interface UiLabels {
+	features: string;
+	faq: string;
+	screenshots: string;
+	userReviews: string;
+	downloadOn: string;
+	appStore: string;
+	ratings: string;
+	version: string;
+	requires: string;
+	updated: string;
+	iphone: string;
+	ipad: string;
+	privacy: string;
+	terms: string;
+	allRightsReserved: string;
+	languageLabel: string;
+	closeLightbox: string;
+	previousImage: string;
+	nextImage: string;
+	goToImage: string;
+}
+
 export interface StoreData {
 	name: string;
+	shortName?: string;
 	description: string;
 	logo: string;
 	rating: {
@@ -48,6 +72,14 @@ export interface StoreData {
 	storeLinks: {
 		apple: string;
 	};
+}
+
+export interface LanguageLink {
+	locale: string;
+	label: string;
+	href: string;
+	hrefLang: string;
+	isActive: boolean;
 }
 
 export interface TocItem {

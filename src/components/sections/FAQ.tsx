@@ -1,10 +1,10 @@
 import { memo } from "react";
 import type { FAQList } from "@/types/components";
 
-const FAQ = ({ items }: FAQList) => (
+const FAQ = ({ items, title }: FAQList) => (
 	<div className="mb-0">
 		<h2 className="mb-6 text-2xl font-semibold text-heading">
-			FAQ
+			{title}
 		</h2>
 		<div className="space-y-4">
 			{items.map((item) => (

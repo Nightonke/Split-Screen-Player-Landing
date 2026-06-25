@@ -2,7 +2,7 @@
 	"name": "split-screen-player-landing",
 	"version": "1.0.0",
 	"private": true,
-	"description": "Official landing page for Split Screen Player, an iOS multi-video player.",
+	"description": "Multilingual landing page for Split Screen Player, an iOS multi-video player with sync and export.",
 	"author": "Nightonke",
 	"license": "MIT",
 	"repository": {
@@ -18,8 +18,12 @@
 		"react",
 		"tailwindcss",
 		"split screen player",
+		"36 videos",
 		"ios video player",
 		"multi video player",
+		"video sync",
+		"split screen export",
+		"IPTV",
 		"iphone video player",
 		"ipad video player"
 	],

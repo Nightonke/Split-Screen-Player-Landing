@@ -1,0 +1,37 @@
+---
+import { landingContent } from "@/i18n/content";
+import { defaultLocale, getLanguageLinks, localizedPath, locales, type Locale } from "@/i18n/locales";
+import Layout from "@layouts/Layout.astro";
+import MarkdownContent from "@layouts/MarkdownContent.astro";
+
+export function getStaticPaths() {
+	return locales
+		.filter((locale) => locale !== defaultLocale)
+		.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: Locale };
+const content = landingContent[locale];
+const languageLinks = getLanguageLinks(locale, "privacy");
+---
+
+<Layout
+	title={`${content.legal.privacyTitle} - ${content.shortName}`}
+	description={content.legal.privacyDescription}
+	lang={content.htmlLang}
+	keywords={content.keywords}
+	alternates={languageLinks}
+	appData={content}
+	homeHref={localizedPath(locale)}
+	privacyHref={localizedPath(locale, "privacy")}
+	termsHref={localizedPath(locale, "terms")}
+	labels={content.labels}
+>
+	<MarkdownContent
+		breadcrumbLabel={content.legal.privacyTitle}
+		content={content.legal.privacy}
+		homeHref={localizedPath(locale)}
+		languageLinks={languageLinks}
+		languageLabel={content.labels.languageLabel}
+	/>
+</Layout>

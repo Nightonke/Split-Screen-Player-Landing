@@ -3,8 +3,9 @@ import { useEffect, useState } from "react";
 import { FaApple } from "react-icons/fa";
 import SocialLinks from "@/sections/SocialLinks";
 import type { FloatingNavbar as FloatingNavbarProps } from "@/types/components";
+import LanguageSwitcher from "@/ui/LanguageSwitcher";
 
-const FloatingNavbar = ({ logo, title, storeLinks, socialLinks }: FloatingNavbarProps) => {
+const FloatingNavbar = ({ logo, title, homeHref, storeLinks, socialLinks, labels, languageLinks }: FloatingNavbarProps) => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
@@ -26,7 +27,7 @@ const FloatingNavbar = ({ logo, title, storeLinks, socialLinks }: FloatingNavbar
                     >
                         <div className="px-5 md:px-8 py-4 md:py-4">
                             <div className="flex md:grid md:grid-cols-3 items-center justify-between md:gap-4">
-                                <a href="/" className="flex items-center gap-3 md:gap-4 justify-start group">
+                                <a href={homeHref} className="flex items-center gap-3 md:gap-4 justify-start group">
                                     <div className="relative">
                                         <div className="absolute inset-0 bg-gradient-to-br from-gray-200/50 to-gray-300/50 dark:from-white/5 dark:to-white/10 rounded-xl blur-sm group-hover:blur-md transition-all" />
                                         <img
@@ -39,15 +40,15 @@ const FloatingNavbar = ({ logo, title, storeLinks, socialLinks }: FloatingNavbar
                                 </a>
 
                                 <div className="hidden md:flex gap-2.5 justify-center">
-                                    
+                                    <LanguageSwitcher links={languageLinks} label={labels.languageLabel} />
                                 </div>
 
                                 <div className="flex gap-2.5 md:gap-3 md:justify-end">
                                     <a href={storeLinks.apple} target="_blank" rel="noopener noreferrer" className="group store-button">
                                         <FaApple className="text-gray-600 dark:text-gray-300 group-hover:scale-110 group-hover:text-gray-800 dark:group-hover:text-white transition-all w-6 h-6 md:w-6 md:h-6" />
                                         <span className="hidden lg:block text-left min-w-0">
-                                            <div className="text-xs font-medium text-gray-500 dark:text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300 leading-tight transition-colors">Download on the</div>
-                                            <div className="text-base font-semibold tracking-wide text-heading group-hover:text-gray-900 dark:group-hover:text-white leading-tight transition-colors">App Store</div>
+                                            <div className="text-xs font-medium text-gray-500 dark:text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300 leading-tight transition-colors">{labels.downloadOn}</div>
+                                            <div className="text-base font-semibold tracking-wide text-heading group-hover:text-gray-900 dark:group-hover:text-white leading-tight transition-colors">{labels.appStore}</div>
                                         </span>
                                     </a>
                                 </div>

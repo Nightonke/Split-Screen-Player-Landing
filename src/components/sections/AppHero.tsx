@@ -3,7 +3,7 @@ import { FaApple } from "react-icons/fa";
 import type { AppHero as AppHeroProps } from "@/types/components";
 import RatingStars from "@/ui/RatingStars";
 
-const AppHero = ({ title, description, storeLinks, logo, rating, ageRating, version, minimumOS, releaseDate }: AppHeroProps) => (
+const AppHero = ({ title, description, storeLinks, logo, rating, labels, ageRating, version, minimumOS, releaseDate }: AppHeroProps) => (
 	<div className="mb-16 flex flex-col md:flex-row gap-8 items-start">
 		<div className="flex flex-1 flex-col md:flex-row gap-8 items-start text-center md:text-left">
 			<div className="flex-shrink-0 self-center md:self-start">
@@ -23,7 +23,7 @@ const AppHero = ({ title, description, storeLinks, logo, rating, ageRating, vers
 					<div className="flex items-center gap-3 mb-3 justify-center md:justify-start flex-wrap">
 						<div className="flex items-center gap-1.5">
 							<RatingStars rating={rating.score} />
-							<span className="text-sm font-medium text-body ml-1">· {rating.count} ratings</span>
+							<span className="text-sm font-medium text-body ml-1">· {rating.count} {labels.ratings}</span>
 						</div>
 						<div className="px-2 py-0.5 rounded-md border border-gray-300 dark:border-white/20 bg-gray-100 dark:bg-white/[0.05] text-xs font-semibold text-gray-700 dark:text-gray-300">
 							{ageRating}
@@ -34,19 +34,19 @@ const AppHero = ({ title, description, storeLinks, logo, rating, ageRating, vers
 						<div className="flex items-center gap-2 mb-4 justify-center md:justify-start flex-wrap text-xs">
 							{version && (
 							<div className="info-badge">
-									<span className="font-semibold text-heading">Version</span>
+									<span className="font-semibold text-heading">{labels.version}</span>
 									<span className="text-body">{version}</span>
 								</div>
 							)}
 							{minimumOS && (
 							<div className="info-badge">
-									<span className="font-semibold text-heading">Requires</span>
+									<span className="font-semibold text-heading">{labels.requires}</span>
 									<span className="text-body">iOS {minimumOS}+</span>
 								</div>
 							)}
 							{releaseDate && (
 							<div className="info-badge">
-									<span className="font-semibold text-heading">Updated</span>
+									<span className="font-semibold text-heading">{labels.updated}</span>
 									<span className="text-body">{releaseDate}</span>
 								</div>
 							)}
@@ -60,7 +60,7 @@ const AppHero = ({ title, description, storeLinks, logo, rating, ageRating, vers
 
 		<div className="w-full max-w-md mx-auto grid grid-cols-1 gap-3 md:flex md:flex-col md:mx-0 md:w-auto md:flex-shrink-0">
 			{[
-				{ href: storeLinks.apple, icon: FaApple, label: "Download on the", store: "App Store", iconSize: "w-6 h-6" },
+				{ href: storeLinks.apple, icon: FaApple, label: labels.downloadOn, store: labels.appStore, iconSize: "w-6 h-6" },
 			].map(({ href, icon: Icon, label, store, iconSize }) => (
 				<a
 					key={store}

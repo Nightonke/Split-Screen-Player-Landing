@@ -1,8 +1,27 @@
 # Split Screen Player Landing
 
-Official static landing page for Split Screen Player, an iOS app for watching multiple videos, images, web pages, and PDFs side by side on iPhone and iPad.
+Official multilingual static landing page for Split Screen Player, an iOS app for playing, comparing, synchronizing, and exporting multiple videos on iPhone and iPad.
 
 The site is built with Astro, React, TypeScript, and Tailwind CSS, then deployed to GitHub Pages at https://splitscreenplayer.com.
+
+## Current App Store Baseline
+
+- App: Split Screen Player: 36 Videos
+- Version: 1.0.20
+- Updated: June 25, 2026
+- Rating copy: 4.5 / 15 ratings
+- Core message: play, compare, sync, and export up to 36 videos with 134 layouts
+- New release highlight: IPTV / Xtream Codes live channel support
+
+## Languages
+
+The site currently publishes:
+
+- `/` for English
+- `/zh-Hans/` for Simplified Chinese
+- `/zh-Hant/` for Traditional Chinese
+
+Each localized page has language switcher links, localized legal pages, localized SEO metadata, and `hreflang` alternates.
 
 ## Tech Stack
 
@@ -39,33 +58,28 @@ The production build is written to `dist/`.
 
 ## Content Map
 
-Most website content lives in `src/config/`:
+Primary localized content lives in:
 
-| File | Purpose |
-|------|---------|
-| `site.ts` | App name, description, App Store link, rating, version, SEO keywords |
-| `features.ts` | Feature cards shown on the homepage |
-| `screenshots.ts` | iPhone and iPad screenshot lists |
-| `reviews.ts` | App Store review excerpts |
-| `faqs.ts` | FAQ copy |
-| `socialLinks.ts` | Social profile links |
+- `src/i18n/content.ts`
+- `src/i18n/locales.ts`
 
-Legal page copy lives in:
-
-- `src/pages/content/privacy.md`
-- `src/pages/content/terms.md`
+Legacy config files in `src/config/` re-export or mirror the English content for compatibility with older helper code.
 
 Static assets live in:
 
 - `public/assets/favicon.png`
 - `public/assets/screenshots/iphone/`
 - `public/assets/screenshots/ipad/`
+- `public/assets/screenshots/zh-Hans/`
+- `public/assets/screenshots/zh-Hant/`
+
+Legal page copy is generated from `src/i18n/content.ts`.
 
 ## App Store Data
 
-The site can optionally fetch App Store metadata at build time through `src/utils/fetchStoreData.ts`.
+The source copy is aligned with `/Users/mac/Documents/NVideoAppStore/metadata/` and current public App Store lookup data for app ID `6758291951`.
 
-By default, `fetchRealData` is disabled in `src/config/site.ts`, so the site uses manually maintained copy and screenshots.
+Screenshot assets are resized from `/Users/mac/Documents/NVideoAppStore/screenshots/` for web delivery.
 
 ## Deployment
 

@@ -7,16 +7,31 @@ import Footer from "@/sections/Footer";
 import type { LayoutWithAppDataProps } from "@/types/layout";
 import BackToTop from "@/ui/BackToTop";
 import FloatingNavbar from "@/ui/FloatingNavbar";
+import { landingContent } from "@/i18n/content";
+import { defaultLocale, getLanguageLinks, localizedPath } from "@/i18n/locales";
 
 interface Props extends LayoutWithAppDataProps {}
 
-const { title, description, appData } = Astro.props;
+const {
+	title,
+	description,
+	appData,
+	lang = "en",
+	keywords = siteConfig.keywords,
+	alternates = getLanguageLinks(defaultLocale),
+	homeHref = localizedPath(defaultLocale),
+	privacyHref = localizedPath(defaultLocale, "privacy"),
+	termsHref = localizedPath(defaultLocale, "terms"),
+	labels = landingContent[defaultLocale].labels,
+} = Astro.props;
 const navData = appData || {
 	name: siteConfig.name,
+	shortName: siteConfig.name,
 	logo: siteConfig.logo,
 	description: siteConfig.description,
 	storeLinks: siteConfig.storeLinks,
 };
+const navTitle = navData.shortName || navData.name;
 const canonicalURL = Astro.site
 	? new URL(Astro.url.pathname, Astro.site)
 	: Astro.url;
@@ -26,17 +41,21 @@ const appleTouchIconURL = Astro.site
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="keywords" content={siteConfig.keywords.join(", ")} />
+    <meta name="keywords" content={keywords.join(", ")} />
     
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     
     <link rel="canonical" href={canonicalURL} />
+    {alternates.map((alternate) => (
+      <link rel="alternate" hreflang={alternate.hrefLang} href={Astro.site ? new URL(alternate.href, Astro.site).href : alternate.href} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={Astro.site ? new URL("/", Astro.site).href : "/"} />
     <meta property="og:title" content={title} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:type" content="website" />
@@ -67,10 +86,29 @@ const appleTouchIconURL = Astro.site
     </script>
   </head>
   <body class="bg-gray-50 text-gray-900 dark:bg-black dark:text-white">
-    <FloatingNavbar logo={navData.logo} title={navData.name} storeLinks={navData.storeLinks} socialLinks={siteConfig.socialLinks} client:load />
+    <FloatingNavbar
+      logo={navData.logo}
+      title={navTitle}
+      homeHref={homeHref}
+      storeLinks={navData.storeLinks}
+      socialLinks={siteConfig.socialLinks}
+      labels={labels}
+      languageLinks={alternates}
+      client:load
+    />
     <div class="mx-auto h-screen max-w-full px-2 lg:max-w-[1500px]">
       <main><slot /></main>
-      <Footer name={navData.name} logo={navData.logo} description={navData.description} client:load />
+      <Footer
+        name={navTitle}
+        logo={navData.logo}
+        description={navData.description}
+        homeHref={homeHref}
+        privacyHref={privacyHref}
+        termsHref={termsHref}
+        labels={labels}
+        languageLinks={alternates}
+        client:load
+      />
     </div>
     <BackToTop client:load />
   </body>

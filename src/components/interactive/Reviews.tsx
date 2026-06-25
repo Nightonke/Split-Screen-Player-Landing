@@ -3,10 +3,10 @@ import type { ReviewsList } from "@/types/components";
 import type { Review } from "@/types/content";
 import RatingStars from "@/ui/RatingStars";
 
-const Reviews = ({ items }: ReviewsList) => (
+const Reviews = ({ items, title }: ReviewsList) => (
 	<div className="mb-16">
 		<h2 className="mb-6 text-2xl font-semibold text-heading">
-			User Reviews
+			{title}
 		</h2>
 
 		<div className="grid grid-cols-1 gap-4 md:grid-cols-2">

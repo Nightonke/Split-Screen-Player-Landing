@@ -11,7 +11,7 @@ declare global {
 	}
 }
 
-const Lightbox = ({ images }: LightboxProps) => {
+const Lightbox = ({ images, labels }: LightboxProps) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [activeDevice, setActiveDevice] = useState<"iphone" | "ipad">("iphone");
@@ -85,7 +85,7 @@ const Lightbox = ({ images }: LightboxProps) => {
 						type="button"
 						onClick={() => setIsOpen(false)}
 						className="button-base absolute right-4 top-4 p-3 text-heading transition-colors rounded-full bg-white/80 dark:bg-black/60 hover:bg-white/90 dark:hover:bg-black/80 backdrop-blur-sm border-gray-200/50 dark:border-white/10 shadow-lg"
-						aria-label="Close lightbox"
+						aria-label={labels.closeLightbox}
 					>
 						<FiX size={20} />
 					</motion.button>
@@ -101,7 +101,7 @@ const Lightbox = ({ images }: LightboxProps) => {
 							handlePrevious();
 						}}
 						className="button-base absolute left-4 top-1/2 -translate-y-1/2 p-3 text-heading transition-colors rounded-full bg-white/80 dark:bg-black/60 hover:bg-white/90 dark:hover:bg-black/80 backdrop-blur-sm border-gray-200/50 dark:border-white/10 shadow-lg"
-						aria-label="Previous image"
+						aria-label={labels.previousImage}
 					>
 						<FiChevronLeft size={20} />
 					</motion.button>
@@ -134,7 +134,7 @@ const Lightbox = ({ images }: LightboxProps) => {
 							handleNext();
 						}}
 						className="button-base absolute right-4 top-1/2 -translate-y-1/2 p-3 text-heading transition-colors rounded-full bg-white/80 dark:bg-black/60 hover:bg-white/90 dark:hover:bg-black/80 backdrop-blur-sm border-gray-200/50 dark:border-white/10 shadow-lg"
-						aria-label="Next image"
+						aria-label={labels.nextImage}
 					>
 						<FiChevronRight size={20} />
 					</motion.button>
@@ -158,7 +158,7 @@ const Lightbox = ({ images }: LightboxProps) => {
 									? "bg-gray-800 dark:bg-white"
 									: "bg-gray-500 dark:bg-white/60 hover:bg-gray-700 dark:hover:bg-white/80"
 									}`}
-								aria-label={`Go to image ${index + 1}`}
+								aria-label={`${labels.goToImage} ${index + 1}`}
 							/>
 						))}
 					</motion.div>

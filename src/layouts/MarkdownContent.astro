@@ -4,18 +4,30 @@
 
 import type { MarkdownContentProps } from "@/types/layout";
 import Breadcrumbs from "@/ui/Breadcrumbs";
+import LanguageSwitcher from "@/ui/LanguageSwitcher";
 import TableOfContents from "@/ui/TableOfContents";
 import { parseMarkdown } from "@/utils/parseMarkdown";
 
 interface Props extends MarkdownContentProps {}
 
-const { breadcrumbLabel, content } = Astro.props;
+const {
+	breadcrumbLabel,
+	content,
+	homeHref = "/",
+	languageLinks = [],
+	languageLabel = "Language",
+} = Astro.props;
 const htmlContent = await parseMarkdown(content);
 ---
 
 <main class="pt-8 md:pt-12 px-4 md:px-6">
 	<div class="max-w-[1500px] mx-auto">
-		<Breadcrumbs items={[{ label: breadcrumbLabel }]} client:load />
+		<Breadcrumbs items={[{ label: breadcrumbLabel }]} homeHref={homeHref} client:load />
+		{languageLinks.length > 0 && (
+			<div class="mb-8">
+				<LanguageSwitcher links={languageLinks} label={languageLabel} />
+			</div>
+		)}
 		<div class="flex gap-16">
 			<article class="flex-1 min-w-0">
 				<div class="prose">

@@ -1,7 +1,7 @@
 {
-  "name": "Split Screen Player",
+  "name": "Split Screen Player: 36 Videos",
   "short_name": "Split Screen",
-  "description": "Watch up to 36 videos at once on iPhone and iPad with synchronized controls, custom layouts, web browsing, and PDF viewing.",
+  "description": "Play, compare, sync, and export up to 36 videos with 134 layouts, IPTV/Xtream live channels, downloads, images, PDFs, and web pages.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

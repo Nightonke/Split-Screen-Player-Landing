@@ -26,7 +26,7 @@ const DeviceButton = ({ isActive, onClick, label, icon }: DeviceButtonProps) => 
 	</motion.button>
 );
 
-const DeviceToggle = ({ activeDevice, onToggle }: DeviceToggleProps) => {
+const DeviceToggle = ({ activeDevice, onToggle, labels }: DeviceToggleProps) => {
 	return (
 		<motion.div
 			initial={{ opacity: 0, scale: 0.9 }}
@@ -37,13 +37,13 @@ const DeviceToggle = ({ activeDevice, onToggle }: DeviceToggleProps) => {
 			<DeviceButton
 				isActive={activeDevice === "iphone"}
 				onClick={() => onToggle("iphone")}
-				label="iPhone"
+				label={labels.iphone}
 				icon={<IoPhonePortraitOutline className="h-4 w-4" />}
 			/>
 			<DeviceButton
 				isActive={activeDevice === "ipad"}
 				onClick={() => onToggle("ipad")}
-				label="iPad"
+				label={labels.ipad}
 				icon={<FiTablet className="h-4 w-4" />}
 			/>
 		</motion.div>

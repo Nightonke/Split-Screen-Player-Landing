@@ -1,10 +1,10 @@
 import { memo } from "react";
 import type { FeaturesList } from "@/types/components";
 
-const Features = ({ items }: FeaturesList) => {
+const Features = ({ items, title }: FeaturesList) => {
 	return (
 		<div className="mb-16">
-			<h2 className="mb-6 text-2xl font-semibold text-heading">Features</h2>
+			<h2 className="mb-6 text-2xl font-semibold text-heading">{title}</h2>
 			<div className="grid grid-cols-1 gap-6 md:grid-cols-3">
 				{items.map((feature) => (
 					<div key={feature.title} className="card-base p-5 md:p-6">

@@ -1,20 +1,30 @@
 ---
-/** biome-ignore-all lint/correctness/noUnusedImports: MarkdownContent component renders markdown content */
-/** biome-ignore-all lint/correctness/noUnusedVariables: Content and config variables used in Layout props */
-
-import { siteConfig } from "@config/site";
+import { landingContent } from "@/i18n/content";
+import { defaultLocale, getLanguageLinks, localizedPath } from "@/i18n/locales";
 import Layout from "@layouts/Layout.astro";
 import MarkdownContent from "@layouts/MarkdownContent.astro";
 
-const termsContent = Object.values(
-	import.meta.glob("./content/terms.md", { eager: true }),
-)[0] as { rawContent(): string };
-const markdownContent = termsContent.rawContent();
+const content = landingContent[defaultLocale];
+const languageLinks = getLanguageLinks(defaultLocale, "terms");
 ---
 
-<Layout 
-  title={`Terms of Service - ${siteConfig.name}`} 
-  description="Read the terms for using Split Screen Player, including local media, web browsing, downloads, purchases, and third-party content."
+<Layout
+	title={`${content.legal.termsTitle} - ${content.shortName}`}
+	description={content.legal.termsDescription}
+	lang={content.htmlLang}
+	keywords={content.keywords}
+	alternates={languageLinks}
+	appData={content}
+	homeHref={localizedPath(defaultLocale)}
+	privacyHref={localizedPath(defaultLocale, "privacy")}
+	termsHref={localizedPath(defaultLocale, "terms")}
+	labels={content.labels}
 >
-  <MarkdownContent breadcrumbLabel="Terms of Service" content={markdownContent} />
+	<MarkdownContent
+		breadcrumbLabel={content.legal.termsTitle}
+		content={content.legal.terms}
+		homeHref={localizedPath(defaultLocale)}
+		languageLinks={languageLinks}
+		languageLabel={content.labels.languageLabel}
+	/>
 </Layout>

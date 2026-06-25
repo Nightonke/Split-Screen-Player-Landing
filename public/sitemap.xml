@@ -1,26 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://splitscreenplayer.com/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/" />
   </url>
   <url>
-    <loc>https://splitscreenplayer.com/privacy</loc>
+    <loc>https://splitscreenplayer.com/zh-Hans/</loc>
     <lastmod>2026-06-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/" />
   </url>
   <url>
-    <loc>https://splitscreenplayer.com/terms</loc>
+    <loc>https://splitscreenplayer.com/zh-Hant/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/" />
+  </url>
+  <url>
+    <loc>https://splitscreenplayer.com/privacy/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/privacy/" />
   </url>
-
+  <url>
+    <loc>https://splitscreenplayer.com/zh-Hans/privacy/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/privacy/" />
+  </url>
+  <url>
+    <loc>https://splitscreenplayer.com/zh-Hant/privacy/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/privacy/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/privacy/" />
+  </url>
+  <url>
+    <loc>https://splitscreenplayer.com/terms/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/terms/" />
+  </url>
+  <url>
+    <loc>https://splitscreenplayer.com/zh-Hans/terms/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/terms/" />
+  </url>
+  <url>
+    <loc>https://splitscreenplayer.com/zh-Hant/terms/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://splitscreenplayer.com/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://splitscreenplayer.com/zh-Hans/terms/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://splitscreenplayer.com/zh-Hant/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://splitscreenplayer.com/terms/" />
+  </url>
 </urlset>

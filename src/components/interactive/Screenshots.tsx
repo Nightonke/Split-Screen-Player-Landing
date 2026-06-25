@@ -4,7 +4,7 @@ import type { ScreenshotItem } from "@/types/content";
 import { areImagesEqual } from "@/types/content";
 import DeviceToggle from "@/ui/DeviceToggle";
 
-const Screenshots = ({ images }: ScreenshotsGallery) => {
+const Screenshots = ({ images, labels }: ScreenshotsGallery) => {
 	const [activeDevice, setActiveDevice] = useState<"iphone" | "ipad">("iphone");
 	const currentImages = images[activeDevice];
 
@@ -12,9 +12,9 @@ const Screenshots = ({ images }: ScreenshotsGallery) => {
 		<div className="mb-16">
 			<div className="mb-6 flex items-center justify-between">
 				<h2 className="text-2xl font-semibold text-heading">
-					Screenshots
+					{labels.screenshots}
 				</h2>
-				<DeviceToggle activeDevice={activeDevice} onToggle={setActiveDevice} />
+				<DeviceToggle activeDevice={activeDevice} onToggle={setActiveDevice} labels={labels} />
 			</div>
 			<div className="relative overflow-hidden">
 				<div className="screenshots-scrollbar overflow-x-scroll pb-4" style={{ maxHeight: '600px', scrollbarGutter: 'stable' }}>
@@ -23,7 +23,9 @@ const Screenshots = ({ images }: ScreenshotsGallery) => {
 							<button
 								key={`${activeDevice}-${index}`}
 								type="button"
+								onClick={() => window.openLightbox?.(index, activeDevice)}
 								className="relative flex-shrink-0 overflow-hidden rounded-xl focus:outline-none"
+								aria-label={`${labels.goToImage} ${index + 1}`}
 							>
                 <img
                   src={item.src}

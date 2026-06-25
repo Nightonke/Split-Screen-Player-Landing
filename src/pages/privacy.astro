@@ -1,20 +1,30 @@
 ---
-/** biome-ignore-all lint/correctness/noUnusedImports: MarkdownContent component renders markdown content */
-/** biome-ignore-all lint/correctness/noUnusedVariables: Content and config variables used in Layout props */
-
-import { siteConfig } from "@config/site";
+import { landingContent } from "@/i18n/content";
+import { defaultLocale, getLanguageLinks, localizedPath } from "@/i18n/locales";
 import Layout from "@layouts/Layout.astro";
 import MarkdownContent from "@layouts/MarkdownContent.astro";
 
-const privacyContent = Object.values(
-	import.meta.glob("./content/privacy.md", { eager: true }),
-)[0] as { rawContent: () => string };
-const markdownContent = privacyContent.rawContent();
+const content = landingContent[defaultLocale];
+const languageLinks = getLanguageLinks(defaultLocale, "privacy");
 ---
 
-<Layout 
-  title={`Privacy Policy - ${siteConfig.name}`} 
-  description="Learn how Split Screen Player handles local media, browsing activity, diagnostics, and privacy-related choices."
+<Layout
+	title={`${content.legal.privacyTitle} - ${content.shortName}`}
+	description={content.legal.privacyDescription}
+	lang={content.htmlLang}
+	keywords={content.keywords}
+	alternates={languageLinks}
+	appData={content}
+	homeHref={localizedPath(defaultLocale)}
+	privacyHref={localizedPath(defaultLocale, "privacy")}
+	termsHref={localizedPath(defaultLocale, "terms")}
+	labels={content.labels}
 >
-  <MarkdownContent breadcrumbLabel="Privacy Policy" content={markdownContent} />
+	<MarkdownContent
+		breadcrumbLabel={content.legal.privacyTitle}
+		content={content.legal.privacy}
+		homeHref={localizedPath(defaultLocale)}
+		languageLinks={languageLinks}
+		languageLabel={content.labels.languageLabel}
+	/>
 </Layout>

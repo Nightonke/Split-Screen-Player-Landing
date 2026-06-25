@@ -7,14 +7,31 @@ export const storeDataConfig = {
 
 export const siteConfig = {
 	/** App name displayed in the header, footer, and page title */
-	name: "Split Screen Player",
+	name: "Split Screen Player: 36 Videos",
 
 	/** Brief app description shown in the hero section and meta tags */
 	description:
-		"Watch up to 36 videos at once with Split Screen Player. Supports synchronized control, multiple formats, and web browsing. The ultimate multitasking video player for iPhone and iPad.",
+		"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 134 layouts, and turn split-screen views into shareable videos.",
 
 	/** SEO keywords for better search engine visibility */
-	keywords: ["Split Screen Player-Dual Video", "Play Multiple Videos Parallel", "multi","window","playback","together","multitasking","grid","pip","sync","view","download","web","save","browser","sniffer","分屏","多窗","多视频","同时","播放","双屏","多屏","同屏","多任务","九宫格","画中画","同步","并排","并行","浏览器","追剧","监控","对比","分栏","小窗","投屏","网页","视频","下载","离线","缓存","提取","抓取","嗅探","网址","多开","万能"],
+	keywords: [
+		"split screen player",
+		"36 videos",
+		"multi video player",
+		"134 layouts",
+		"video sync",
+		"compare videos",
+		"split screen export",
+		"IPTV",
+		"Xtream Codes",
+		"M3U8",
+		"RTSP",
+		"web video download",
+		"分屏",
+		"多视频",
+		"同步",
+		"分屏导出",
+	],
 
 	/** Path to the app logo/icon */
 	logo: "/assets/favicon.png",
@@ -26,21 +43,21 @@ export const siteConfig = {
 
 	/** App rating and reviews */
 	rating: {
-		score: 4.9,
-		count: "9",
+		score: 4.5,
+		count: "15",
 	},
 
 	/** Age rating (e.g., 4+, 12+, 17+) */
 	ageRating: "4+",
 
 	/** App version */
-	version: "1.0.11",
+	version: "1.0.20",
 
 	/** Minimum iOS version required */
 	minimumOS: "15.0",
 
 	/** Last update date */
-	releaseDate: "April 13, 2026",
+	releaseDate: "June 25, 2026",
 
 	/** Social media links (edit in socialLinks.ts) */
 	socialLinks,

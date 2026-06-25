@@ -1,0 +1,76 @@
+---
+/** biome-ignore-all lint/correctness/noUnusedImports: React components are rendered through Astro directives */
+
+import FAQ from "@/sections/FAQ";
+import AppHero from "@/sections/AppHero";
+import Features from "@/sections/Features";
+import Lightbox from "@/interactive/Lightbox";
+import Reviews from "@/interactive/Reviews";
+import Screenshots from "@/interactive/Screenshots";
+import LanguageSwitcher from "@/ui/LanguageSwitcher";
+import type { LanguageLink } from "@/types/content";
+import type { landingContent } from "@/i18n/content";
+import { localizedPath } from "@/i18n/locales";
+import Layout from "./Layout.astro";
+
+type LandingContent = (typeof landingContent)[keyof typeof landingContent];
+
+interface Props {
+	content: LandingContent;
+	languageLinks: LanguageLink[];
+}
+
+const { content, languageLinks } = Astro.props;
+const homeHref = localizedPath(content.locale);
+const privacyHref = localizedPath(content.locale, "privacy");
+const termsHref = localizedPath(content.locale, "terms");
+---
+
+<Layout
+	title={content.seoTitle}
+	description={content.metaDescription}
+	lang={content.htmlLang}
+	keywords={content.keywords}
+	alternates={languageLinks}
+	appData={content}
+	homeHref={homeHref}
+	privacyHref={privacyHref}
+	termsHref={termsHref}
+	labels={content.labels}
+>
+	<main class="min-h-screen py-8 container mx-auto px-3 md:px-6">
+		<div class="mb-8 flex justify-end">
+			<LanguageSwitcher links={languageLinks} label={content.labels.languageLabel} />
+		</div>
+		<AppHero
+			title={content.name}
+			description={content.description}
+			storeLinks={content.storeLinks}
+			logo={content.logo}
+			rating={content.rating}
+			labels={content.labels}
+			ageRating={content.ageRating}
+			version={content.version}
+			minimumOS={content.minimumOS}
+			releaseDate={content.releaseDate}
+			client:load
+		/>
+		<div class="mb-16">
+			<Screenshots images={content.screenshots} labels={content.labels} client:load />
+		</div>
+		<Features items={content.features} title={content.labels.features} client:load />
+		<FAQ items={content.faqs} title={content.labels.faq} client:load />
+		<Reviews items={content.reviews} title={content.labels.userReviews} client:visible />
+	</main>
+</Layout>
+
+<Lightbox images={content.screenshots} labels={content.labels} client:load />
+
+<style is:global>
+	.screenshots-scroll {
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: none;
+		&::-webkit-scrollbar { display: none; }
+	}
+</style>
