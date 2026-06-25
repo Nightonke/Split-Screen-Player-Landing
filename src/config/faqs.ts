@@ -12,16 +12,19 @@ import type { FAQ } from "@/types/content";
  */
 export const faqs: FAQ[] = [
 	{
-		question: "Is Coloray Free to Use?",
-		answer: "Yes, you can use Coloray's basic features. You can also choose to become a premium member for access to over 18 advanced features. Premium membership automatically renews, with a 7-day free trial available for cancellation anytime.",
+		question: "How many videos can I play at once?",
+		answer: "Split Screen Player supports layouts for 2 to 36 videos. Actual playback performance depends on your device, video resolution, format, and file size.",
 	},
 	{
-		question: "Who is Coloray Suitable for?",
-		answer: "Coloray is ideal for anyone who wants to see what important things they did each day throughout the year. It not only helps you record significant events but also clearly displays how your annual activities are distributed across each day. It also assists in analyzing, recalling, and searching these precious memories.",
+		question: "Which media types are supported?",
+		answer: "You can play common video formats, view image folders as slideshows, open multiple web pages, and display PDF files side by side.",
 	},
 	{
-		question: "Is Data Secure on Coloray?",
-		answer: "Yes, your Coloray data is stored locally on your phone and comes with built-in encryption protection. We make every effort to ensure the security of your data.",
+		question: "Can playback be synchronized?",
+		answer: "Yes. When control lock is enabled, playback actions such as play, pause, fast-forward, rewind, and seeking can be applied across videos together.",
 	},
-	// Add more questions here...
+	{
+		question: "Does it work offline?",
+		answer: "Local videos, images, and PDFs can be used offline after they are available on your device. Web browsing and web video downloads require a network connection.",
+	},
 ];

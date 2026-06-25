@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { FaApple, FaGooglePlay } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
 import type { AppHero as AppHeroProps } from "@/types/components";
 import RatingStars from "@/ui/RatingStars";
 

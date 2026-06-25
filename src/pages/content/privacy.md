@@ -1,67 +1,40 @@
 # Privacy Policy
 
-**Last updated:** February 1, 2025
+**Last updated:** June 25, 2026
 
-We value your privacy and are committed to protecting your personal information. This policy explains how we collect, use, and safeguard your data.
+Split Screen Player is designed for local media playback, split-screen layouts, web browsing, and optional web video downloads. This policy explains what information may be handled when you use the app and this website.
 
-## Data Collection
+## Information The App Handles
 
-We collect the following types of information:
+Split Screen Player may access information you choose to open in the app, including:
 
-- **Anonymous usage metrics** to understand how you interact with our app
-- **App performance data** to identify and fix technical issues
-- **Device information** including OS version and device model
-- **Error reports** to improve app stability and reliability
+- Videos, images, folders, and PDF files selected from your device
+- Layouts, bookmarks, checkpoints, and playback preferences saved in the app
+- Web pages and downloadable media URLs you open through the in-app browser
+- Basic diagnostics or crash information provided through Apple system settings
 
-## Data Usage
+## How Information Is Used
 
-We use the collected data exclusively to:
+Information is used to provide app features such as playback, synchronized controls, bookmarks, file viewing, web browsing, and downloads.
 
-- **Improve app performance** by identifying bottlenecks and optimizing features
-- **Fix technical issues** quickly and efficiently
-- **Enhance features** based on user behavior and feedback
-- **Optimize your experience** with personalized recommendations
+Local media files remain on your device unless you choose to share, export, upload, or open them with another app.
 
-## Security Measures
+## Web Browsing And Downloads
 
-Your data is protected with industry-standard security:
+When you use the browser or download features, the websites you visit may receive standard web request information such as IP address, user agent, cookies, and requested URLs. Those third-party websites operate under their own privacy policies.
 
-- **Encryption protocols** for data transmission and storage
-- **Regular security audits** to identify and address vulnerabilities
-- **Secure storage systems** with access controls and monitoring
-- **Data anonymization** to protect your identity
+## Data Sharing
 
-## Data Sharing Policy
+We do not sell personal information. We may disclose information only when required by law, needed to operate the app, or requested by you through an explicit action such as sharing or exporting content.
 
-We respect your privacy and **do not sell your data** to third parties. We may share data only in these limited circumstances:
+## Security
 
-- With **essential service providers** who help us operate the app
-- When **legally required** by court order or regulatory authorities
-- When **you explicitly request it** for data portability
+The app uses the security protections provided by iOS and iPadOS for local files and app storage. You are responsible for the legality, privacy, and security of the media and websites you choose to open.
 
-## User Rights
+## Changes
 
-You have full control over your data:
-
-- **View your data** at any time through your account settings
-- **Delete your data** permanently from our systems
-- **Stop analytics** by opting out in app preferences
-- **Download your data** in a portable format
-- **Update your information** to keep it accurate
-
-## Policy Updates
-
-We may update this policy from time to time. When we make significant changes:
-
-- You will receive **in-app notifications**
-- We will send **email updates** to your registered address
-- The **effective date** at the top will be updated
-- You can review the full history of changes in our changelog
+This policy may be updated when app features, legal requirements, or platform policies change. The date at the top of this page will be updated when changes are made.
 
 ## Contact
 
-If you have questions about this privacy policy:
-
-- **Email:** daysinyear@foxmail.com
-- **Support:** daysinyear@foxmail.com
-- **Response time:** Within 48 hours
+For privacy questions, use the support channel listed on the Split Screen Player App Store product page.

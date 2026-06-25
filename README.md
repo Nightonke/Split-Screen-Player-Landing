@@ -1,135 +1,78 @@
-<div align="center">
-  <img src="public/assets/favicon.png" alt="Mobile Landing" width="120" height="120" style="border-radius: 24px;">
+# Split Screen Player Landing
 
-  <h1>🚀 Mobile App Landing Page</h1>
+Official static landing page for Split Screen Player, an iOS app for watching multiple videos, images, web pages, and PDFs side by side on iPhone and iPad.
 
-  <p><strong>Modern, fast, and customizable landing page template for mobile apps</strong></p>
+The site is built with Astro, React, TypeScript, and Tailwind CSS, then deployed to GitHub Pages at https://splitscreenplayer.com.
 
-  <p>Built with <strong>Astro</strong> · <strong>React</strong> · <strong>TypeScript</strong> · <strong>Tailwind CSS</strong></p>
+## Tech Stack
 
-  <p>
-    <a href="#-quick-start">Quick Start</a> ·
-    <a href="#-customization">Customization</a> ·
-    <a href="https://landing.bohd4n.dev">Demo</a>
-  </p>
-</div>
+- Astro 5
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
----
+## Local Development
 
-## ✨ Features
+Requirements:
 
-| Feature | Description |
-|---------|-------------|
-| 📱 **Responsive Design** | Perfect on mobile, tablet, and desktop |
-| 🖼️ **Screenshot Gallery** | iPhone/iPad preview with lightbox |
-| 🎨 **Modern UI** | Clean design with Framer Motion animations |
-| 🌗 **Theme Switcher** | Light/Dark/System modes with persistence |
-| ⚡ **Fast Performance** | Astro for optimal loading speed |
-| 🔍 **SEO Ready** | Meta tags and semantic HTML |
-| 📊 **Review System** | Star ratings and testimonials |
-| 🎯 **TypeScript** | Type-safe configuration |
-| 🍎 **App Store Integration** | Auto-fetch data from Apple App Store |
-| 📖 **Enhanced Typography** | Optimized readability for legal pages |
+- Node.js 18.17 or newer
+- npm
 
----
-
-## 🆕 Recent Updates
-
-- ✅ **App Store Data Fetching** - Automatically pull app info, ratings, version from App Store
-- ✅ **Improved Mobile UI** - Larger floating navbar on mobile devices
-- ✅ **Enhanced Download Buttons** - Responsive layout with color gradients
-- ✅ **Better Typography** - Improved font sizes and spacing for Privacy/Terms pages
-- ✅ **Desktop Layout** - Optimized AppHero layout with logo + text left, buttons right
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Node.js 20+
-- npm, yarn, or pnpm
-
-### Installation
+Commands:
 
 ```bash
-# Clone repository
-git clone https://github.com/bohd4nx/mobile-landing.git
-cd mobile-landing
-
-# Install dependencies
 npm install
-
-# Start dev server
 npm run dev
 ```
 
-Your site runs at `http://localhost:4321` 🎉
+The development server runs at `http://localhost:4321`.
 
-### Build & Deploy
+## Production
 
 ```bash
-# Build for production
 npm run build
-
-# Preview build
 npm run preview
 ```
 
----
+The production build is written to `dist/`.
 
-## 🎨 Customization
+## Content Map
 
-### 📁 Configuration Structure
+Most website content lives in `src/config/`:
 
-All content is in `src/config/` - each file handles one aspect:
+| File | Purpose |
+|------|---------|
+| `site.ts` | App name, description, App Store link, rating, version, SEO keywords |
+| `features.ts` | Feature cards shown on the homepage |
+| `screenshots.ts` | iPhone and iPad screenshot lists |
+| `reviews.ts` | App Store review excerpts |
+| `faqs.ts` | FAQ copy |
+| `socialLinks.ts` | Social profile links |
 
-```
-src/config/
-├── site.ts          # App name, description, store links
-├── features.ts      # Feature cards
-├── reviews.ts       # User testimonials
-├── faqs.ts          # FAQ section
-├── screenshots.ts   # Image paths
-└── socialLinks.ts   # Social media
-```
+Legal page copy lives in:
 
-**📖 [Full Configuration Guide](src/config/README.md)**
+- `src/pages/content/privacy.md`
+- `src/pages/content/terms.md`
 
----
+Static assets live in:
 
-## 📄 Legal Pages
+- `public/assets/favicon.png`
+- `public/assets/screenshots/iphone/`
+- `public/assets/screenshots/ipad/`
 
-Edit Markdown files for Privacy & Terms:
+## App Store Data
 
-- **Privacy Policy:** `src/pages/content/privacy.md`
-- **Terms of Service:** `src/pages/content/terms.md`
+The site can optionally fetch App Store metadata at build time through `src/utils/fetchStoreData.ts`.
 
-Both support full Markdown and auto-styling.
+By default, `fetchRealData` is disabled in `src/config/site.ts`, so the site uses manually maintained copy and screenshots.
 
----
+## Deployment
 
-## 🎯 Common Tasks
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the Astro site and deploys `dist/` to GitHub Pages.
 
-| Task | File to Edit |
-|------|-------------|
-| Change app name | `src/config/site.ts` |
-| Add/remove features | `src/config/features.ts` |
-| Update store links | `src/config/site.ts` |
-| Replace screenshots | `src/config/screenshots.ts` |
-| Modify reviews | `src/config/reviews.ts` |
-| Update FAQ | `src/config/faqs.ts` |
-| Add social media | `src/config/socialLinks.ts` |
+The custom domain is configured in `public/CNAME`.
 
----
+## License
 
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file
-
----
-
-<div align="center">
-  <p>Made with ❤️ by <a href="https://t.me/bohd4nx">Bohdan</a></p>
-  <p>⭐ Star this repo if you find it useful!</p>
-</div>
+MIT. See `LICENSE`.

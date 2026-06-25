@@ -1,7 +1,6 @@
 import type { FAQ, Feature, Review, Screenshots, SocialLink } from "./content";
 export interface StoreLinks {
 	apple: string;
-	google: string;
 }
 
 export interface AppHero {

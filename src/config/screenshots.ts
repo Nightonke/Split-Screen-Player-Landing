@@ -3,7 +3,7 @@ import type { Screenshots } from "@/types/content";
 /**
  * App screenshots configuration
  * 
- * Showcase your app with device-specific screenshots.
+ * Showcase Split Screen Player with device-specific screenshots.
  * 
  * iPhone screenshots:
  * - Recommended size: 1170x2532px (iPhone 13 Pro)

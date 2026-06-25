@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { FaApple, FaGooglePlay } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
 import SocialLinks from "@/sections/SocialLinks";
 import type { FloatingNavbar as FloatingNavbarProps } from "@/types/components";
 

@@ -1,9 +1,8 @@
 /* TEAM */
 
-Developer: Bohdan
-Contact: hello@bohd4n.dev
-GitHub: github.com/bohd4nx
-Location: Ukraine
+Maintainer: Nightonke
+Site: splitscreenplayer.com
+Repository: github.com/Nightonke/Split-Screen-Player-Landing
 
 /* THANKS */
 
@@ -13,8 +12,7 @@ React: reactjs.org
 
 /* SITE */
 
-Last update: 2026/01/11
+Last update: 2026/06/25
 Language: English
 Doctype: HTML5
-IDE: Visual Studio Code
 Technologies: Astro, React, TypeScript, Tailwind CSS

@@ -10,7 +10,7 @@ export interface LayoutWithAppDataProps extends LayoutProps {
 		name: string;
 		logo: string;
 		description: string;
-		storeLinks: { apple: string; google: string };
+		storeLinks: { apple: string };
 	};
 }
 

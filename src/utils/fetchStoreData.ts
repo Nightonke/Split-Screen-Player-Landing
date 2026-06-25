@@ -64,7 +64,6 @@ export async function fetchStoreData(): Promise<Partial<StoreData>> {
 			},
             storeLinks: {
                 apple: data.trackViewUrl,
-                google: "#",
             },
         };
     } catch (error) {

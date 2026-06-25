@@ -1,7 +1,7 @@
 {
-  "name": "Your App Name",
-  "short_name": "YourApp",
-  "description": "Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
+  "name": "Split Screen Player",
+  "short_name": "Split Screen",
+  "description": "Watch up to 36 videos at once on iPhone and iPad with synchronized controls, custom layouts, web browsing, and PDF viewing.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "en",
-  "categories": ["productivity", "utilities"],
+  "categories": ["entertainment", "utilities", "productivity"],
   "icons": [
     {
       "src": "/assets/favicon.png",

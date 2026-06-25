@@ -1,107 +1,41 @@
 # Terms of Service
 
-**Effective date:** February 1, 2025
+**Effective date:** June 25, 2026
 
-Welcome to our service. By accessing or using our application, you agree to be bound by these Terms of Service. Please read them carefully.
+By using Split Screen Player or this website, you agree to these terms.
 
-## Acceptance of Terms
+## Use Of The App
 
-By creating an account or using this service, you acknowledge that:
+Split Screen Player lets you play and view videos, images, web pages, and PDF files in multi-window layouts. You agree to use the app only for lawful purposes and in compliance with the rights of content owners, website operators, and applicable laws.
 
-- You have **read and understood** these terms
-- You **agree to comply** with all provisions
-- You are **legally able** to enter into this agreement
-- You will use the service in accordance with all applicable laws
+## Your Content
 
-## Account Rules
+You are responsible for the files, URLs, downloads, bookmarks, and other content you choose to open or manage with the app. You must have the necessary rights or permissions for any media you play, download, copy, share, or store.
 
-To maintain a safe and reliable service, you must:
+## Web Browsing And Downloads
 
-- **Provide accurate information** when creating your account
-- **Keep your account secure** with a strong password
-- **Maintain one account per person** - duplicate accounts may be suspended
-- **Protect your login credentials** and not share them with others
+The app may help you browse websites or download web media. Third-party websites have their own terms, privacy policies, technical restrictions, and copyright rules. You are responsible for following them.
 
-We reserve the right to **terminate accounts** that violate these terms without prior notice.
+## Purchases
 
-## Billing and Payments
+If the app offers paid features, purchases, renewals, cancellations, and refunds are handled by Apple through your Apple ID and the App Store. Apple's purchase terms apply.
 
-Our billing terms are straightforward:
+## Availability
 
-- **All prices are in USD** unless otherwise specified
-- **Auto-renewal is enabled** by default for subscriptions
-- **You can cancel anytime** through your account settings
-- **No partial refunds** are provided for unused portions of billing periods
-- **Price changes** will be communicated 30 days in advance
-
-## Acceptable Use
-
-You agree **not to**:
-
-- **Break laws** or regulations in your jurisdiction
-- **Infringe copyrights** or intellectual property rights
-- **Share harmful content** including malware or viruses
-- **Hack or disrupt** the service or its infrastructure
-- **Abuse support** or harass other users
-- **Scrape or data mine** without written permission
-
-## Content Policy
-
-The following content is strictly prohibited:
-
-- **Illegal materials** of any kind
-- **Harmful or abusive content** targeting individuals or groups
-- **Spam or unsolicited advertising**
-- **Malware, viruses, or malicious code**
-- **Content that violates** others' privacy or rights
+The app and website are provided as available. Features may change, and playback performance can vary based on device model, operating system, file format, network quality, and third-party website behavior.
 
 ## Intellectual Property
 
-Ownership and rights:
+Split Screen Player, the website, branding, interface, and related materials are protected by intellectual property laws. You may not copy, modify, redistribute, reverse engineer, or misuse them except as allowed by law.
 
-- **We own** the application, design, and related intellectual property
-- **You own** the content you create and upload
-- **You grant us** a license to use your content for service operation
-- **We respect** intellectual property rights and respond to DMCA notices
+## Limitation Of Liability
 
-## Service Availability
+To the maximum extent permitted by law, we are not responsible for indirect, incidental, special, or consequential damages, including data loss, service interruption, website restrictions, or issues caused by third-party content and services.
 
-Please note:
+## Changes To These Terms
 
-- Service is provided **"as is"** without warranties
-- We do **not guarantee** 100% uptime
-- **Scheduled maintenance** will be announced in advance
-- We are **not liable** for service interruptions
+These terms may be updated when app features, legal requirements, or platform policies change. The effective date at the top of this page will be updated when changes are made.
 
-## Limitation of Liability
+## Contact
 
-To the maximum extent permitted by law:
-
-- We are not liable for **indirect or consequential damages**
-- Our total liability is **limited to fees paid** in the last 12 months
-- We do not guarantee **data accuracy or availability**
-
-## Termination
-
-Either party may terminate this agreement:
-
-- **You can cancel** your account at any time
-- **We may suspend** accounts for terms violations
-- **Data deletion** occurs 30 days after account closure
-- **Billing stops** immediately upon cancellation
-
-## Changes to Terms
-
-We may modify these terms:
-
-- **Changes will be posted** on this page
-- **Notice will be sent** via email for material changes
-- **Continued use** constitutes acceptance of new terms
-
-## Contact Information
-
-For questions about these terms:
-
-- **Email:** daysinyear@foxmail.com
-- **Business hours:** Monday-Friday, 9AM-5PM PST
-
+For questions about these terms, use the support channel listed on the Split Screen Player App Store product page.

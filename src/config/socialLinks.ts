@@ -22,5 +22,5 @@ import type { SocialLink } from "@/types/content";
  * More icons: https://react-icons.github.io/react-icons/
  */
 export const socialLinks: SocialLink[] = [
-	// Add more social links here...
+	// No public social links are configured yet.
 ];

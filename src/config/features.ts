@@ -3,7 +3,7 @@ import type { Feature } from "@/types/content";
 /**
  * App features configuration
  *
- * Add or remove features to showcase your app's capabilities.
+ * Add or remove features to showcase Split Screen Player's capabilities.
  * Each feature should have:
  * - title: Short, catchy name (2-4 words)
  * - description: Brief explanation (1-2 sentences)

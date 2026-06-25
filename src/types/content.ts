@@ -47,7 +47,6 @@ export interface StoreData {
 	screenshots: Screenshots;
 	storeLinks: {
 		apple: string;
-		google: string;
 	};
 }
 

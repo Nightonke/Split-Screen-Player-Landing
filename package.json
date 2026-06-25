@@ -1,27 +1,27 @@
 {
-	"name": "landing.bohd4n.dev",
-	"version": "2026.1.21",
+	"name": "split-screen-player-landing",
+	"version": "1.0.0",
 	"private": true,
-	"description": "Modern landing page template built with Astro, React, and Tailwind CSS",
-	"author": "Bohdan <https://bohd4n.dev>",
+	"description": "Official landing page for Split Screen Player, an iOS multi-video player.",
+	"author": "Nightonke",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bohd4n/landing.bohd4n.dev"
+		"url": "https://github.com/Nightonke/Split-Screen-Player-Landing.git"
 	},
 	"bugs": {
-		"url": "https://github.com/bohd4n/landing.bohd4n.dev/issues"
+		"url": "https://github.com/Nightonke/Split-Screen-Player-Landing/issues"
 	},
-	"homepage": "https://landing.bohd4n.dev",
+	"homepage": "https://splitscreenplayer.com",
 	"keywords": [
 		"astro",
-		"landing-page",
 		"react",
 		"tailwindcss",
-		"template",
-		"mobile landing page",
-		"modern landing page",
-		"landing page template"
+		"split screen player",
+		"ios video player",
+		"multi video player",
+		"iphone video player",
+		"ipad video player"
 	],
 	"scripts": {
 		"dev": "astro dev",
