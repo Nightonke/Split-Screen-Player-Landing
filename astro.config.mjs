@@ -1,21 +1,9 @@
-import react from "@astrojs/react";
+import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
   site: "https://splitscreenplayer.com",
-  integrations: [tailwind(), react()],
+  integrations: [tailwind(), sitemap()],
   output: "static", // optional
-  vite: {
-    build: {
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            'framer-motion': ['framer-motion'],
-            'react-icons': ['react-icons/fi', 'react-icons/ri', 'react-icons/fa'],
-          },
-        },
-      },
-    },
-  },
 });

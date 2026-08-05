@@ -1,0 +1,62 @@
+---
+import type { LanguageLink } from "@/types/content";
+
+interface Props {
+	name: string;
+	logo: string;
+	tagline: string;
+	homeHref: string;
+	privacyHref: string;
+	termsHref: string;
+	storeHref: string;
+	privacyLabel: string;
+	termsLabel: string;
+	getAppLabel: string;
+	languageLinks: LanguageLink[];
+}
+
+const {
+	name,
+	logo,
+	tagline,
+	homeHref,
+	privacyHref,
+	termsHref,
+	storeHref,
+	privacyLabel,
+	termsLabel,
+	getAppLabel,
+	languageLinks,
+} = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+	<div class="site-shell footer-grid">
+		<a class="footer-brand" href={homeHref}>
+			<img src={logo} width="46" height="46" alt="" loading="lazy" />
+			<span>
+				<strong>{name}</strong>
+				<span>{tagline}</span>
+			</span>
+		</a>
+
+		<div class="footer-meta">
+			<nav class="footer-links" aria-label="Footer navigation">
+				<a href={privacyHref}>{privacyLabel}</a>
+				<a href={termsHref}>{termsLabel}</a>
+				<a href={storeHref} target="_blank" rel="noopener noreferrer">{getAppLabel}</a>
+				{languageLinks.map((link) => (
+					<a
+						href={link.href}
+						hreflang={link.hrefLang}
+						aria-current={link.isActive ? "page" : undefined}
+					>
+						{link.label}
+					</a>
+				))}
+			</nav>
+			<div class="footer-copyright">© 2025–{year} Smith Night</div>
+		</div>
+	</div>
+</footer>

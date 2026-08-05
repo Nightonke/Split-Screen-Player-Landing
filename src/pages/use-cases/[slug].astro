@@ -1,0 +1,25 @@
+---
+import {
+	marketingContent,
+	type UseCaseSlug,
+	useCaseSlugs,
+} from "@/i18n/marketing";
+import { defaultLocale, getLanguageLinks } from "@/i18n/locales";
+import MarketingDetail from "@layouts/MarketingDetail.astro";
+
+export function getStaticPaths() {
+	return useCaseSlugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params as { slug: UseCaseSlug };
+const page = marketingContent[defaultLocale].details.useCases[slug];
+const languageLinks = getLanguageLinks(defaultLocale, `use-cases/${slug}`);
+---
+
+<MarketingDetail
+	locale={defaultLocale}
+	category="use-cases"
+	slug={slug}
+	page={page}
+	languageLinks={languageLinks}
+/>

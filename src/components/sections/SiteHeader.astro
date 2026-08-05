@@ -1,0 +1,87 @@
+---
+import type { LanguageLink } from "@/types/content";
+
+interface Props {
+	name: string;
+	logo: string;
+	homeHref: string;
+	storeHref: string;
+	languageLinks: LanguageLink[];
+	nav: {
+		features: string;
+		workflow: string;
+		useCases: string;
+		faq: string;
+		getApp: string;
+		menu: string;
+	};
+}
+
+const { name, logo, homeHref, storeHref, languageLinks, nav } = Astro.props;
+const currentLanguage =
+	languageLinks.find((link) => link.isActive)?.label ?? languageLinks[0]?.label;
+const homeAnchor = (anchor: string) =>
+	homeHref === "/" ? `/${anchor}` : `${homeHref}${anchor}`;
+---
+
+<div class="site-header-wrap">
+	<header class="site-header site-shell" aria-label="Site header">
+		<a class="brand-link" href={homeHref} aria-label={`${name} home`}>
+			<img src={logo} width="43" height="43" alt="" />
+			<span>{name}</span>
+		</a>
+
+		<nav class="primary-nav" aria-label="Primary navigation">
+			<a href={homeAnchor("#features")}>{nav.features}</a>
+			<a href={homeAnchor("#workflow")}>{nav.workflow}</a>
+			<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
+			<a href={homeAnchor("#faq")}>{nav.faq}</a>
+		</nav>
+
+		<div class="header-actions">
+			<details class="language-menu">
+				<summary aria-label={currentLanguage}>{currentLanguage}</summary>
+				<div class="language-popover">
+					{languageLinks.map((link) => (
+						<a
+							href={link.href}
+							hreflang={link.hrefLang}
+							aria-current={link.isActive ? "page" : undefined}
+						>
+							{link.label}
+						</a>
+					))}
+				</div>
+			</details>
+
+			<a
+				class="button button-dark button-small"
+				href={storeHref}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				{nav.getApp}
+			</a>
+
+			<details class="mobile-menu">
+				<summary>{nav.menu}</summary>
+				<nav class="mobile-popover" aria-label="Mobile navigation">
+					<a href={homeAnchor("#features")}>{nav.features}</a>
+					<a href={homeAnchor("#workflow")}>{nav.workflow}</a>
+					<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
+					<a href={homeAnchor("#faq")}>{nav.faq}</a>
+					<a href={storeHref} target="_blank" rel="noopener noreferrer">{nav.getApp}</a>
+					{languageLinks.map((link) => (
+						<a
+							href={link.href}
+							hreflang={link.hrefLang}
+							aria-current={link.isActive ? "page" : undefined}
+						>
+							{link.label}
+						</a>
+					))}
+				</nav>
+			</details>
+		</div>
+	</header>
+</div>

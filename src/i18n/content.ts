@@ -37,15 +37,15 @@ const sharedStoreData = {
 		apple: appleStoreUrl,
 	},
 	rating: {
-		score: 4.5,
-		count: "15",
+		score: 4.4,
+		count: "24",
 	},
 	ageRating: "4+",
-	version: "1.0.20",
+	version: "1.0.26",
 	minimumOS: "15.0",
-	releaseDate: "June 25, 2026",
+	releaseDate: "August 4, 2026",
 	appPreview: {
-		videoSrc: "/assets/videos/app-preview-iphone.mp4",
+		videoSrc: "/assets/videos/app-preview-iphone-optimized.m4v",
 		posterSrc: "/assets/videos/app-preview-iphone-poster.jpg",
 	},
 } as const;
@@ -364,7 +364,7 @@ const enFaqs: FAQ[] = [
 	{
 		question: "Does it support IPTV or live streams?",
 		answer:
-			"Yes. Version 1.0.20 adds IPTV and Xtream Codes live channel support, alongside HLS, M3U8, and RTSP stream links.",
+			"Yes. Split Screen Player supports IPTV and Xtream Codes live channels, alongside HLS, M3U8, and RTSP stream links.",
 	},
 	{
 		question: "Is Split Screen Player free?",
@@ -392,7 +392,7 @@ const zhHansFaqs: FAQ[] = [
 	{
 		question: "支持 IPTV 或直播流吗？",
 		answer:
-			"支持。1.0.20 新增 IPTV 和 Xtream Codes 直播频道支持，同时也支持 HLS、M3U8、RTSP 等流媒体链接。",
+			"支持。分屏播放器支持 IPTV 和 Xtream Codes 直播频道，也支持 HLS、M3U8、RTSP 等流媒体链接。",
 	},
 	{
 		question: "分屏播放器是免费的吗？",
@@ -420,7 +420,7 @@ const zhHantFaqs: FAQ[] = [
 	{
 		question: "支援 IPTV 或直播流嗎？",
 		answer:
-			"支援。1.0.20 新增 IPTV 和 Xtream Codes 直播頻道支援，同時也支援 HLS、M3U8、RTSP 等串流連結。",
+			"支援。分屏播放器支援 IPTV 和 Xtream Codes 直播頻道，也支援 HLS、M3U8、RTSP 等串流連結。",
 	},
 	{
 		question: "分屏播放器是免費的嗎？",
@@ -716,9 +716,9 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		description:
 			"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 134 layouts, and turn split-screen views into shareable videos.",
 		seoTitle:
-			"Split Screen Player: 36 Videos - Multi-Video Playback, Sync, and Export",
+			"Split Screen Player: Play, Sync & Export 36 Videos",
 		metaDescription:
-			"Play up to 36 videos at once, compare clips, sync motion, export split-screen videos, stream IPTV/Xtream channels, and browse images, PDFs, and web pages on iPhone and iPad.",
+			"Play, sync, compare, and export up to 36 videos on one screen with 134 layouts, frame-level controls, IPTV, and custom multi-view workspaces.",
 		keywords: [
 			"split screen player",
 			"36 videos",
@@ -777,9 +777,9 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		shortName: "分屏播放器",
 		description:
 			"在同一屏幕上播放、对比、同步和导出多个视频。最多同时播放 36 个视频，提供 134 种布局，并可将分屏画面合成为可分享的视频。",
-		seoTitle: "分屏播放器：36 个视频 - 多视频播放、同步、对比与导出",
+		seoTitle: "iPhone 与 iPad 多视频播放器｜同步、对比与分屏导出",
 		metaDescription:
-			"在 iPhone 和 iPad 上同时播放最多 36 个视频，使用 134 种布局，对比动作，同步播放，导出分屏视频，播放 IPTV/Xtream 频道，并浏览图片、PDF 和网页。",
+			"在 iPhone 和 iPad 上同时播放、同步、对比并导出最多 36 个视频，支持 134 种布局、逐帧控制、IPTV 与自定义多画面工作台。",
 		keywords: [
 			"分屏",
 			"多窗",
@@ -840,9 +840,9 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		shortName: "分屏播放器",
 		description:
 			"在同一個畫面上播放、比較、同步和匯出多支影片。最多同時播放 36 支影片，提供 134 種排版，並可將分屏畫面合成為可分享的影片。",
-		seoTitle: "分屏播放器：36 支影片 - 多影片播放、同步、比較與匯出",
+		seoTitle: "iPhone 與 iPad 多影片播放器｜同步、比較與分屏匯出",
 		metaDescription:
-			"在 iPhone 和 iPad 上同時播放最多 36 支影片，使用 134 種排版，比較動作，同步播放，匯出分屏影片，播放 IPTV/Xtream 頻道，並瀏覽圖片、PDF 和網頁。",
+			"在 iPhone 和 iPad 上同時播放、同步、比較並匯出最多 36 支影片，支援 134 種排版、逐格控制、IPTV 與自訂多畫面工作台。",
 		keywords: [
 			"分屏",
 			"多視窗",

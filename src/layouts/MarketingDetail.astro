@@ -1,0 +1,208 @@
+---
+import { landingContent } from "@/i18n/content";
+import {
+	featureSlugs,
+	localizedScreenshot,
+	marketingContent,
+	type FeatureSlug,
+	type MarketingDetailPage,
+	type UseCaseSlug,
+	useCaseSlugs,
+} from "@/i18n/marketing";
+import { localizedPath, type Locale } from "@/i18n/locales";
+import type { LanguageLink } from "@/types/content";
+import Layout from "./Layout.astro";
+
+interface Props {
+	locale: Locale;
+	category: "features" | "use-cases";
+	slug: FeatureSlug | UseCaseSlug;
+	page: MarketingDetailPage;
+	languageLinks: LanguageLink[];
+}
+
+const { locale, category, slug, page, languageLinks } = Astro.props;
+const content = landingContent[locale];
+const marketing = marketingContent[locale];
+const homeHref = localizedPath(locale);
+const pagePath = `${category}/${slug}`;
+const pageHref = localizedPath(locale, pagePath);
+const categoryLabel =
+	category === "features" ? marketing.nav.features : marketing.nav.useCases;
+const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
+const relatedFeatureSlugs = featureSlugs.filter((item) => item !== slug).slice(0, 3);
+const relatedUseCaseSlugs = useCaseSlugs.filter((item) => item !== slug).slice(0, 3);
+
+const structuredData = [
+	{
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		name: page.title,
+		description: page.metaDescription,
+		url: new URL(pageHref, siteURL).href,
+		inLanguage: content.htmlLang,
+		isPartOf: {
+			"@type": "WebSite",
+			name: content.shortName,
+			url: new URL(homeHref, siteURL).href,
+		},
+		about: {
+			"@type": "MobileApplication",
+			name: content.name,
+			operatingSystem: "iOS 15.0 or later, iPadOS 15.0 or later",
+			applicationCategory: "UtilitiesApplication",
+			downloadUrl: content.storeLinks.apple,
+		},
+	},
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		itemListElement: [
+			{
+				"@type": "ListItem",
+				position: 1,
+				name: marketing.detailLabels.home,
+				item: new URL(homeHref, siteURL).href,
+			},
+			{
+				"@type": "ListItem",
+				position: 2,
+				name: categoryLabel,
+				item: new URL(`${homeHref}#${category === "features" ? "features" : "use-cases"}`, siteURL).href,
+			},
+			{
+				"@type": "ListItem",
+				position: 3,
+				name: page.title,
+				item: new URL(pageHref, siteURL).href,
+			},
+		],
+	},
+];
+---
+
+<Layout
+	title={page.seoTitle}
+	description={page.metaDescription}
+	lang={content.htmlLang}
+	alternates={languageLinks}
+	appData={content}
+	homeHref={homeHref}
+	privacyHref={localizedPath(locale, "privacy")}
+	termsHref={localizedPath(locale, "terms")}
+	labels={content.labels}
+	ogImageAlt={`${content.shortName} — ${page.title}`}
+	structuredData={structuredData}
+>
+	<main id="main-content" class="detail-main">
+		<div class="site-shell">
+			<nav class="detail-breadcrumb" aria-label="Breadcrumb">
+				<a href={homeHref}>{marketing.detailLabels.home}</a>
+				<a href={`${homeHref}#${category === "features" ? "features" : "use-cases"}`}>
+					{categoryLabel}
+				</a>
+				<span aria-current="page">{page.kindLabel}</span>
+			</nav>
+
+			<section class="detail-hero">
+				<div>
+					<p class="eyebrow">{page.kindLabel}</p>
+					<h1 class="display-title">{page.title}</h1>
+					<p class="detail-intro">{page.intro}</p>
+					<p class="detail-promise">{page.promise}</p>
+					<div class="hero-actions">
+						<a
+							class="button button-dark"
+							href={content.storeLinks.apple}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{marketing.hero.primaryCta}
+						</a>
+						<a class="text-link" href={homeHref}>{marketing.detailLabels.backHome}</a>
+					</div>
+				</div>
+
+				<div class="detail-visual" data-reveal>
+					<img
+						src={localizedScreenshot(locale, "iphone", page.imageIndex)}
+						alt={page.imageAlt}
+						width="1290"
+						height="2796"
+					/>
+				</div>
+			</section>
+		</div>
+
+		<section class="detail-section">
+			<div class="site-shell">
+				<p class="section-kicker">{marketing.detailLabels.keyBenefits}</p>
+				<h2 class="section-title">{page.promise}</h2>
+				<div class="benefit-grid">
+					{page.highlights.map((item) => (
+						<article class="benefit-card" data-reveal>
+							<h3>{item.title}</h3>
+							<p>{item.description}</p>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="detail-section">
+			<div class="site-shell">
+				<p class="section-kicker">{marketing.detailLabels.howItWorks}</p>
+				<h2 class="section-title">
+					{locale === "en-US"
+						? "Three steps from source to clarity."
+						: locale === "zh-Hans"
+							? "三个步骤，从素材到清晰结论。"
+							: "三個步驟，從素材到清楚結論。"}
+				</h2>
+				<div class="steps-list" style="margin-top: 50px">
+					{page.steps.map((item) => (
+						<article class="step-card" data-reveal>
+							<h3>{item.title}</h3>
+							<p>{item.description}</p>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="detail-section">
+			<div class="site-shell">
+				<p class="section-kicker">{marketing.detailLabels.exploreMore}</p>
+				<div class="detail-related">
+					{relatedFeatureSlugs.map((relatedSlug) => (
+						<a href={localizedPath(locale, `features/${relatedSlug}`)}>
+							{marketing.details.features[relatedSlug].kindLabel}
+						</a>
+					))}
+					{relatedUseCaseSlugs.map((relatedSlug) => (
+						<a href={localizedPath(locale, `use-cases/${relatedSlug}`)}>
+							{marketing.details.useCases[relatedSlug].kindLabel}
+						</a>
+					))}
+				</div>
+				<a class="detail-back" href={homeHref}>← {marketing.detailLabels.backHome}</a>
+			</div>
+		</section>
+
+		<section class="section closing">
+			<div class="site-shell closing-panel" data-reveal>
+				<p class="eyebrow">{page.kindLabel}</p>
+				<h2 class="section-title">{page.closingTitle}</h2>
+				<p class="section-lede">{page.closingDescription}</p>
+				<a
+					class="button button-dark"
+					href={content.storeLinks.apple}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{marketing.closing.cta}
+				</a>
+			</div>
+		</section>
+	</main>
+</Layout>

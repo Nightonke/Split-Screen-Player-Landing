@@ -1,0 +1,26 @@
+---
+import { landingContent } from "@/i18n/content";
+import {
+	featureSlugs,
+	marketingContent,
+	type FeatureSlug,
+} from "@/i18n/marketing";
+import { defaultLocale, getLanguageLinks } from "@/i18n/locales";
+import MarketingDetail from "@layouts/MarketingDetail.astro";
+
+export function getStaticPaths() {
+	return featureSlugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params as { slug: FeatureSlug };
+const page = marketingContent[defaultLocale].details.features[slug];
+const languageLinks = getLanguageLinks(defaultLocale, `features/${slug}`);
+---
+
+<MarketingDetail
+	locale={defaultLocale}
+	category="features"
+	slug={slug}
+	page={page}
+	languageLinks={languageLinks}
+/>

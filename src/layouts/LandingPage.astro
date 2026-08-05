@@ -1,16 +1,8 @@
 ---
-/** biome-ignore-all lint/correctness/noUnusedImports: React components are rendered through Astro directives */
-
-import FAQ from "@/sections/FAQ";
-import AppHero from "@/sections/AppHero";
-import Features from "@/sections/Features";
-import Lightbox from "@/interactive/Lightbox";
-import Reviews from "@/interactive/Reviews";
-import Screenshots from "@/interactive/Screenshots";
-import LanguageSwitcher from "@/ui/LanguageSwitcher";
 import type { LanguageLink } from "@/types/content";
 import type { landingContent } from "@/i18n/content";
 import { localizedPath } from "@/i18n/locales";
+import { localizedScreenshot, marketingContent } from "@/i18n/marketing";
 import Layout from "./Layout.astro";
 
 type LandingContent = (typeof landingContent)[keyof typeof landingContent];
@@ -21,59 +13,390 @@ interface Props {
 }
 
 const { content, languageLinks } = Astro.props;
+const marketing = marketingContent[content.locale];
 const homeHref = localizedPath(content.locale);
 const privacyHref = localizedPath(content.locale, "privacy");
 const termsHref = localizedPath(content.locale, "terms");
+const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
+const canonicalHome = new URL(homeHref, siteURL).href;
+const storeURL = content.storeLinks.apple;
+
+const structuredData = [
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		name: "Smith Night",
+		url: canonicalHome,
+		logo: new URL(content.logo, siteURL).href,
+		sameAs: [storeURL],
+	},
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		name: content.shortName,
+		url: canonicalHome,
+		inLanguage: content.htmlLang,
+	},
+	{
+		"@context": "https://schema.org",
+		"@type": "MobileApplication",
+		name: content.name,
+		description: content.metaDescription,
+		url: canonicalHome,
+		downloadUrl: storeURL,
+		operatingSystem: "iOS 15.0 or later, iPadOS 15.0 or later",
+		applicationCategory: "UtilitiesApplication",
+		softwareVersion: content.version,
+		image: new URL(content.logo, siteURL).href,
+		screenshot: [
+			new URL(localizedScreenshot(content.locale, "iphone", 1), siteURL).href,
+			new URL(localizedScreenshot(content.locale, "iphone", 4), siteURL).href,
+			new URL(localizedScreenshot(content.locale, "iphone", 5), siteURL).href,
+		],
+		featureList: marketing.capabilities,
+		offers: {
+			"@type": "Offer",
+			price: 0,
+			priceCurrency: "USD",
+			availability: "https://schema.org/InStock",
+		},
+		aggregateRating: {
+			"@type": "AggregateRating",
+			ratingValue: content.rating.score,
+			ratingCount: Number(content.rating.count),
+			bestRating: 5,
+			worstRating: 1,
+		},
+	},
+	{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		mainEntity: content.faqs.map((item) => ({
+			"@type": "Question",
+			name: item.question,
+			acceptedAnswer: {
+				"@type": "Answer",
+				text: item.answer,
+			},
+		})),
+	},
+];
 ---
 
 <Layout
 	title={content.seoTitle}
 	description={content.metaDescription}
 	lang={content.htmlLang}
-	keywords={content.keywords}
 	alternates={languageLinks}
 	appData={content}
 	homeHref={homeHref}
 	privacyHref={privacyHref}
 	termsHref={termsHref}
 	labels={content.labels}
+	ogImageAlt={`${content.shortName} — ${marketing.hero.title}`}
+	structuredData={structuredData}
 >
-	<main class="min-h-screen py-8 container mx-auto px-3 md:px-6">
-		<div class="mb-8 flex justify-end">
-			<LanguageSwitcher links={languageLinks} label={content.labels.languageLabel} />
+	<main id="main-content" class="landing-main">
+		<section class="hero">
+			<div class="site-shell">
+				<div class="hero-grid">
+					<div class="hero-copy">
+						<p class="eyebrow">{marketing.hero.eyebrow}</p>
+						<h1 class="display-title hero-title">{marketing.hero.title}</h1>
+						<p class="hero-description">{marketing.hero.description}</p>
+						<div class="hero-actions">
+							<a
+								class="button button-dark"
+								href={storeURL}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<span aria-hidden="true">●</span>
+								{marketing.hero.primaryCta}
+							</a>
+							<a class="text-link" href="#film">{marketing.hero.secondaryCta}</a>
+						</div>
+						<p class="hero-proof">
+							<span>{marketing.hero.ratingText}</span>
+							<span>{marketing.hero.privacyText}</span>
+						</p>
+						<a
+							class="hero-qr"
+							href={storeURL}
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={marketing.hero.primaryCta}
+						>
+							<img
+								src="/assets/app-store-qr.png"
+								width="72"
+								height="72"
+								alt=""
+							/>
+							<span>
+								<strong>
+									{content.locale === "en-US"
+										? "Scan with iPhone"
+										: content.locale === "zh-Hans"
+											? "使用 iPhone 扫描"
+											: "使用 iPhone 掃描"}
+								</strong>
+								<small>{marketing.nav.getApp}</small>
+							</span>
+						</a>
+					</div>
+
+					<div
+						id="film"
+						class="film-card"
+						data-label={marketing.hero.filmLabel}
+						data-reveal
+					>
+						<div class="film-window">
+							<video
+								src={content.appPreview.videoSrc}
+								poster={content.appPreview.posterSrc}
+								aria-label={content.appPreview.ariaLabel}
+								autoplay
+								muted
+								loop
+								playsinline
+								controls
+								preload="metadata"
+							></video>
+						</div>
+						<div class="film-meta">
+							<span>{marketing.hero.soundHint}</span>
+							<strong>{marketing.hero.filmTitle}</strong>
+						</div>
+					</div>
+				</div>
+
+				<div class="stats" aria-label="Product highlights" data-reveal>
+					{marketing.stats.map((stat) => (
+						<div class="stat">
+							<strong>{stat.value}</strong>
+							<span>{stat.label}</span>
+						</div>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<div class="capability-strip" aria-label={marketing.capabilitiesLabel}>
+			<div class="capability-track">
+				{[0, 1].map(() => (
+					<div class="capability-group" aria-hidden="true">
+						<strong>{marketing.capabilitiesLabel}</strong>
+						{marketing.capabilities.map((item) => <span>{item}</span>)}
+					</div>
+				))}
+			</div>
 		</div>
-		<AppHero
-			title={content.name}
-			description={content.description}
-			storeLinks={content.storeLinks}
-			logo={content.logo}
-			rating={content.rating}
-			labels={content.labels}
-			ageRating={content.ageRating}
-			version={content.version}
-			minimumOS={content.minimumOS}
-			releaseDate={content.releaseDate}
-			client:load
-		/>
-		<Screenshots
-			images={content.screenshots}
-			appPreview={content.appPreview}
-			labels={content.labels}
-			client:load
-		/>
-		<Features items={content.features} title={content.labels.features} client:load />
-		<FAQ items={content.faqs} title={content.labels.faq} client:load />
-		<Reviews items={content.reviews} title={content.labels.userReviews} client:visible />
+
+		<section id="workflow" class="section">
+			<div class="site-shell">
+				<div class="section-heading">
+					<div>
+						<p class="section-kicker">{marketing.workflow.eyebrow}</p>
+						<h2 class="section-title">{marketing.workflow.title}</h2>
+					</div>
+					<p class="section-lede">{marketing.workflow.description}</p>
+				</div>
+
+				<div class="workflow-list" data-reveal>
+					{marketing.workflow.items.map((item, index) => (
+						<a class="workflow-item" href={item.target}>
+							<span class="workflow-number">0{index + 1}</span>
+							<strong>{item.title}</strong>
+							<p>{item.description}</p>
+						</a>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<div id="features">
+			{marketing.chapters.map((chapter) => (
+				<section id={chapter.id} class="chapter">
+					<div class="site-shell chapter-grid">
+						<div class="chapter-copy" data-reveal>
+							<div class="chapter-number">
+								<strong>{chapter.number}</strong>
+								<span>{chapter.kicker}</span>
+							</div>
+							<h2 class="chapter-title">{chapter.title}</h2>
+							<p class="chapter-description">{chapter.description}</p>
+							<ul class="chapter-points">
+								{chapter.points.map((point) => <li>{point}</li>)}
+							</ul>
+							<a
+								class="text-link"
+								href={localizedPath(content.locale, chapter.linkPath)}
+							>
+								{chapter.linkLabel}
+							</a>
+						</div>
+						<div class="chapter-visual" data-reveal>
+							<img
+								src={localizedScreenshot(content.locale, "iphone", chapter.imageIndex)}
+								alt={chapter.imageAlt}
+								loading="lazy"
+								width="1290"
+								height="2796"
+							/>
+						</div>
+					</div>
+				</section>
+			))}
+		</div>
+
+		<section id="use-cases" class="section use-cases">
+			<div class="site-shell">
+				<div class="section-heading">
+					<div>
+						<p class="section-kicker">{marketing.useCases.eyebrow}</p>
+						<h2 class="section-title">{marketing.useCases.title}</h2>
+					</div>
+					<p class="section-lede">{marketing.useCases.description}</p>
+				</div>
+
+				<div class="use-case-grid">
+					{marketing.useCases.items.map((item) => (
+						<a
+							class="use-case-card"
+							href={localizedPath(content.locale, `use-cases/${item.slug}`)}
+							data-reveal
+						>
+							<div class="use-case-image">
+								<img
+									src={localizedScreenshot(content.locale, "iphone", item.imageIndex)}
+									alt=""
+									loading="lazy"
+									width="1290"
+									height="2796"
+								/>
+							</div>
+							<div class="use-case-copy">
+								<p class="section-kicker">{item.number}</p>
+								<h3>{item.title}</h3>
+								<p>{item.description}</p>
+								<span class="text-link">{item.linkLabel}</span>
+							</div>
+						</a>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="site-shell">
+				<div class="section-heading">
+					<div>
+						<p class="section-kicker">{marketing.comparison.eyebrow}</p>
+						<h2 class="section-title">{marketing.comparison.title}</h2>
+					</div>
+					<p class="section-lede">{marketing.comparison.description}</p>
+				</div>
+
+				<div
+					class="comparison-wrap"
+					role="region"
+					aria-label={marketing.comparison.title}
+					tabindex="0"
+					data-reveal
+				>
+					<table class="comparison-table">
+						<thead>
+							<tr>
+								{marketing.comparison.columns.map((column) => <th scope="col">{column}</th>)}
+							</tr>
+						</thead>
+						<tbody>
+							{marketing.comparison.rows.map((row) => (
+								<tr>
+									<th scope="row">{row.label}</th>
+									{row.values.map((value) => <td>{value}</td>)}
+								</tr>
+							))}
+						</tbody>
+					</table>
+				</div>
+				<p class="comparison-note">{marketing.comparison.note}</p>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="site-shell trust-panel" data-reveal>
+				<div class="trust-heading">
+					<div>
+						<p class="section-kicker">{marketing.trust.eyebrow}</p>
+						<h2 class="section-title">{marketing.trust.title}</h2>
+					</div>
+					<p class="section-lede">{marketing.trust.description}</p>
+				</div>
+				<div class="trust-grid">
+					{marketing.trust.items.map((item) => (
+						<article class="trust-card">
+							<strong>{item.value}</strong>
+							<h3>{item.title}</h3>
+							<p>{item.description}</p>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="site-shell">
+				<p class="section-kicker">{marketing.steps.eyebrow}</p>
+				<h2 class="section-title">{marketing.steps.title}</h2>
+				<div class="steps-list" style="margin-top: 50px">
+					{marketing.steps.items.map((item) => (
+						<article class="step-card" data-reveal>
+							<h3>{item.title}</h3>
+							<p>{item.description}</p>
+						</article>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section id="faq" class="section">
+			<div class="site-shell">
+				<p class="section-kicker" style="text-align: center">{content.labels.faq}</p>
+				<h2 class="section-title" style="margin-inline: auto; text-align: center">
+					{content.locale === "en-US"
+						? "Questions before your first layout."
+						: content.locale === "zh-Hans"
+							? "第一次创建布局前，常见的问题。"
+							: "第一次建立排版前，常見的問題。"}
+				</h2>
+				<div class="faq-list">
+					{content.faqs.map((item) => (
+						<details class="faq-item">
+							<summary>{item.question}</summary>
+							<div class="faq-answer">{item.answer}</div>
+						</details>
+					))}
+				</div>
+			</div>
+		</section>
+
+		<section class="section closing">
+			<div class="site-shell closing-panel" data-reveal>
+				<p class="eyebrow">{marketing.closing.eyebrow}</p>
+				<h2 class="section-title">{marketing.closing.title}</h2>
+				<p class="section-lede">{marketing.closing.description}</p>
+				<a
+					class="button button-dark"
+					href={storeURL}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{marketing.closing.cta}
+				</a>
+			</div>
+		</section>
 	</main>
 </Layout>
-
-<Lightbox images={content.screenshots} labels={content.labels} client:load />
-
-<style is:global>
-	.screenshots-scroll {
-		scroll-behavior: smooth;
-		-webkit-overflow-scrolling: touch;
-		scrollbar-width: none;
-		&::-webkit-scrollbar { display: none; }
-	}
-</style>

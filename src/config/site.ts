@@ -43,21 +43,21 @@ export const siteConfig = {
 
 	/** App rating and reviews */
 	rating: {
-		score: 4.5,
-		count: "15",
+		score: 4.4,
+		count: "24",
 	},
 
 	/** Age rating (e.g., 4+, 12+, 17+) */
 	ageRating: "4+",
 
 	/** App version */
-	version: "1.0.20",
+	version: "1.0.26",
 
 	/** Minimum iOS version required */
 	minimumOS: "15.0",
 
 	/** Last update date */
-	releaseDate: "June 25, 2026",
+	releaseDate: "August 4, 2026",
 
 	/** Social media links (edit in socialLinks.ts) */
 	socialLinks,
