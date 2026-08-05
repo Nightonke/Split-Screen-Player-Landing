@@ -3,6 +3,7 @@ import * as OpenCC from "opencc-js";
 
 export const featureSlugs = [
 	"multi-video-player",
+	"global-video-controls",
 	"video-sync-comparison",
 	"split-screen-export",
 	"iptv-streaming",
@@ -83,7 +84,6 @@ export interface MarketingContent {
 	comparison: {
 		eyebrow: string;
 		title: string;
-		description: string;
 		columns: string[];
 		rows: Array<{ label: string; values: string[] }>;
 		note: string;
@@ -188,7 +188,7 @@ const en: MarketingContent = {
 			visualSrc: "/assets/chapters/chapter-control.jpg",
 			visualCaption: "Customize the bottom controls and manage every video your way",
 			linkLabel: "Explore global controls",
-			linkPath: "features/multi-video-player",
+			linkPath: "features/global-video-controls",
 		},
 		{
 			id: "align",
@@ -247,7 +247,7 @@ const en: MarketingContent = {
 		items: [
 			{
 				slug: "sports-motion-analysis",
-				number: "A / 01",
+				number: "01",
 				title: "Sports & motion",
 				description: "Compare form, timing, posture, or technique from multiple sessions and angles.",
 				imageIndex: 4,
@@ -255,7 +255,7 @@ const en: MarketingContent = {
 			},
 			{
 				slug: "multi-angle-review",
-				number: "A / 02",
+				number: "02",
 				title: "Takes & camera angles",
 				description: "Review edits, performances, references, and multi-camera footage on one timeline.",
 				imageIndex: 1,
@@ -263,7 +263,7 @@ const en: MarketingContent = {
 			},
 			{
 				slug: "learning-reference",
-				number: "A / 03",
+				number: "03",
 				title: "Learning & reference",
 				description: "Keep a lesson, source video, PDF, image, and web page visible together.",
 				imageIndex: 7,
@@ -273,17 +273,15 @@ const en: MarketingContent = {
 	},
 	comparison: {
 		eyebrow: "The workflow gap",
-		title: "A second player adds a window. This adds a system.",
-		description:
-			"See how much manual setup remains after the files are opened.",
-		columns: ["What you need", "Separate players", "Video editor", "Split Screen Player"],
+		title: "Split Screen Player is the best way to watch multiple videos at once.",
+		columns: ["What you need", "System Picture in Picture", "Video editor", "Split Screen Player"],
 		rows: [
-			{ label: "2–36 views together", values: ["Manual", "Partial", "Built in"] },
-			{ label: "Live synchronized playback", values: ["Missing", "Partial", "Built in"] },
-			{ label: "Frame-level comparison", values: ["Manual", "Built in", "Built in"] },
-			{ label: "Custom multi-view layouts", values: ["Manual", "Built in", "Built in"] },
-			{ label: "Instant split-screen export", values: ["Missing", "Built in", "Built in"] },
-			{ label: "Streams, PDFs, and web pages", values: ["Partial", "Missing", "Built in"] },
+			{ label: "2–36 views together", values: ["Up to 2", "Partial", "Supported"] },
+			{ label: "Live synchronized playback", values: ["Not supported", "Not supported", "Supported"] },
+			{ label: "Frame-level comparison", values: ["Manual", "Supported", "Supported"] },
+			{ label: "Custom multi-view layouts", values: ["Not supported", "Supported", "Supported"] },
+			{ label: "Instant split-screen export", values: ["Not supported", "Supported", "Supported"] },
+			{ label: "Streams, PDFs, and web pages", values: ["Partial", "Supported", "Supported"] },
 		],
 		note: "“Partial” and “Manual” describe the typical workflow. Individual apps may vary.",
 	},
@@ -304,7 +302,7 @@ const en: MarketingContent = {
 	details: {
 		features: {
 			"multi-video-player": {
-				kindLabel: "Feature / multi-video playback",
+				kindLabel: "Multi-video playback",
 				title: "A multi-video player built for the whole picture.",
 				seoTitle: "Multi-Video Player for iPhone & iPad | Split Screen Player",
 				metaDescription:
@@ -327,8 +325,32 @@ const en: MarketingContent = {
 				closingTitle: "Stop switching between players.",
 				closingDescription: "Put every clip on one screen and keep the context visible.",
 			},
+			"global-video-controls": {
+				kindLabel: "Global controls",
+				title: "Control every video from one toolbar.",
+				seoTitle: "Global Multi-Video Controls for iPhone & iPad | Split Screen Player",
+				metaDescription:
+					"Customize one bottom toolbar to play, pause, seek, mute, step, rotate, reorder, and manage every video in a split-screen workspace.",
+				intro:
+					"Multi-video playback should not mean repeating the same gesture in every view. The bottom toolbar turns common actions into one-tap commands for the complete workspace.",
+				promise: "Build the controls you use most, then apply them to every view.",
+				imageIndex: 9,
+				imageAlt: "Customizable bottom controls for every video",
+				highlights: [
+					{ title: "Customize the toolbar", description: "Add, remove, and reorder the actions that belong in your workflow." },
+					{ title: "Act on every view", description: "Play, seek, step, mute, rotate, or switch content across compatible players." },
+					{ title: "Keep advanced tools close", description: "Open checkpoints, sync, export, layout sizing, and comparison tools without leaving playback." },
+				],
+				steps: [
+					{ title: "Open Bottom Buttons", description: "Enter the toolbar editor from the player settings." },
+					{ title: "Choose and reorder", description: "Move actions between Added and Not Added, then drag them into your preferred order." },
+					{ title: "Control the workspace", description: "Use the saved toolbar whenever multiple sources are open." },
+				],
+				closingTitle: "One gesture should be enough.",
+				closingDescription: "Turn a wall of independent players into one coherent workspace.",
+			},
 			"video-sync-comparison": {
-				kindLabel: "Feature / sync & comparison",
+				kindLabel: "Sync & comparison",
 				title: "Compare the same moment, not just two videos.",
 				seoTitle: "Sync and Compare Videos Frame by Frame | Split Screen Player",
 				metaDescription:
@@ -352,7 +374,7 @@ const en: MarketingContent = {
 				closingDescription: "Keep every angle aligned long enough to see it.",
 			},
 			"split-screen-export": {
-				kindLabel: "Feature / split-screen export",
+				kindLabel: "Split-screen export",
 				title: "Export the comparison exactly as you see it.",
 				seoTitle: "Split-Screen Video Export on iPhone & iPad | Split Screen Player",
 				metaDescription:
@@ -376,7 +398,7 @@ const en: MarketingContent = {
 				closingDescription: "Turn the view on your screen into the video you send.",
 			},
 			"iptv-streaming": {
-				kindLabel: "Feature / streams & sources",
+				kindLabel: "Multitasking workspace",
 				title: "One workspace for streams, files, and reference material.",
 				seoTitle: "IPTV, Xtream, M3U8 & RTSP Multi-View Player | Split Screen Player",
 				metaDescription:
@@ -531,7 +553,7 @@ const zhHans: MarketingContent = {
 			imageIndex: 9, imageAlt: "同时控制多个视频的播放进度和状态",
 			visualSrc: "/assets/chapters/chapter-control.jpg",
 			visualCaption: "自定义顺手的底部按键，随心控制所有视频",
-			linkLabel: "了解全局控制", linkPath: "features/multi-video-player",
+			linkLabel: "了解全局控制", linkPath: "features/global-video-controls",
 		},
 		{
 			id: "align", number: "03", kicker: "精准同步 · 匹配动作", title: "对齐动作，而不只是对齐时间。",
@@ -563,22 +585,21 @@ const zhHans: MarketingContent = {
 	useCases: {
 		eyebrow: "为对比而生", title: "当一个画面不足以说明问题。", description: "只要时间、角度或上下文会改变结果，分屏播放器就能派上用场。",
 		items: [
-			{ slug: "sports-motion-analysis", number: "A / 01", title: "运动与动作分析", description: "从多个训练阶段和角度对比动作、节奏、姿势与技术细节。", imageIndex: 4, linkLabel: "查看运动分析工作流" },
-			{ slug: "multi-angle-review", number: "A / 02", title: "多机位与多个版本", description: "在同一条时间线上回看不同剪辑、表演、机位和参考素材。", imageIndex: 1, linkLabel: "查看多角度工作流" },
-			{ slug: "learning-reference", number: "A / 03", title: "学习与参考", description: "让课程、参考视频、PDF、图片和网页一直同时可见。", imageIndex: 7, linkLabel: "查看学习工作流" },
+			{ slug: "sports-motion-analysis", number: "01", title: "运动与动作分析", description: "从多个训练阶段和角度对比动作、节奏、姿势与技术细节。", imageIndex: 4, linkLabel: "查看运动分析工作流" },
+			{ slug: "multi-angle-review", number: "02", title: "多机位与多个版本", description: "在同一条时间线上回看不同剪辑、表演、机位和参考素材。", imageIndex: 1, linkLabel: "查看多角度工作流" },
+			{ slug: "learning-reference", number: "03", title: "学习与参考", description: "让课程、参考视频、PDF、图片和网页一直同时可见。", imageIndex: 7, linkLabel: "查看学习工作流" },
 		],
 	},
 	comparison: {
-		eyebrow: "工作流差距", title: "第二个播放器只是多一个窗口，这里是一整套系统。",
-		description: "打开文件之后，看看还需要多少手动操作。",
-		columns: ["你需要的能力", "多个播放器", "视频编辑器", "分屏播放器"],
+		eyebrow: "工作流差距", title: "在同时看多个视频方面，分屏播放器是最好的",
+		columns: ["你需要的能力", "系统画中画", "视频编辑器", "分屏播放器"],
 		rows: [
-			{ label: "2～36 个画面同屏", values: ["手动", "部分支持", "内置"] },
-			{ label: "实时同步播放", values: ["缺少", "部分支持", "内置"] },
-			{ label: "逐帧对比", values: ["手动", "内置", "内置"] },
-			{ label: "自定义多画面布局", values: ["手动", "内置", "内置"] },
-			{ label: "直接导出分屏视频", values: ["缺少", "内置", "内置"] },
-			{ label: "直播流、PDF 与网页", values: ["部分支持", "缺少", "内置"] },
+			{ label: "2～36 个画面同屏", values: ["最多2个", "部分支持", "支持"] },
+			{ label: "实时同步播放", values: ["不支持", "不支持", "支持"] },
+			{ label: "逐帧对比", values: ["手动", "支持", "支持"] },
+			{ label: "自定义多画面布局", values: ["不支持", "支持", "支持"] },
+			{ label: "直接导出分屏视频", values: ["不支持", "支持", "支持"] },
+			{ label: "直播流、PDF 与网页", values: ["部分支持", "支持", "支持"] },
 		],
 		note: "“部分支持”和“手动”描述常见工作流，具体播放器或编辑器可能有所不同。",
 	},
@@ -591,7 +612,7 @@ const zhHans: MarketingContent = {
 	details: {
 		features: {
 			"multi-video-player": {
-				kindLabel: "功能 / 多视频播放", title: "为完整画面而生的多视频播放器。",
+				kindLabel: "多视频播放", title: "为完整画面而生的多视频播放器。",
 				seoTitle: "iPhone 与 iPad 多视频播放器｜分屏播放器",
 				metaDescription: "在 iPhone 和 iPad 上同时播放 2～36 个视频，使用 144 种布局、自定义分屏、播放列表和外接屏幕。",
 				intro: "大多数播放器围绕一个文件设计。分屏播放器为每个视频保留独立画面，同时用一套控制管理整个工作台。",
@@ -608,8 +629,26 @@ const zhHans: MarketingContent = {
 				],
 				closingTitle: "不用再来回切换播放器。", closingDescription: "把所有视频放到一个屏幕，并始终保留完整上下文。",
 			},
+			"global-video-controls": {
+				kindLabel: "全局控制", title: "用一条工具栏控制所有视频。",
+				seoTitle: "iPhone 与 iPad 多视频全局控制｜分屏播放器",
+				metaDescription: "自定义底部工具栏，一键播放、暂停、跳转、静音、逐帧、旋转、换位并管理分屏工作台中的所有视频。",
+				intro: "同时看多个视频，不应该意味着在每个画面里重复相同操作。底部工具栏把常用动作变成作用于整个工作台的一键命令。",
+				promise: "只保留你常用的按键，再把操作一次应用到所有画面。", imageIndex: 9, imageAlt: "控制所有视频的自定义底部按键",
+				highlights: [
+					{ title: "自定义工具栏", description: "添加、移除并重新排列真正适合你工作流的按键。" },
+					{ title: "一次控制全部", description: "对兼容播放器统一播放、跳转、逐帧、静音、旋转或切换内容。" },
+					{ title: "高级工具随手可用", description: "播放过程中直接打开存档点、同步、导出、布局尺寸和对比工具。" },
+				],
+				steps: [
+					{ title: "打开底部按键", description: "从播放器设置进入底部工具栏编辑器。" },
+					{ title: "选择并排序", description: "在已添加与未添加之间移动按键，再拖动成顺手的顺序。" },
+					{ title: "控制整个工作台", description: "保存后，在打开多个来源时随时使用这套工具栏。" },
+				],
+				closingTitle: "一个动作，就该足够。", closingDescription: "把一组独立播放器变成真正统一的工作台。",
+			},
 			"video-sync-comparison": {
-				kindLabel: "功能 / 同步与对比", title: "对比同一个瞬间，而不只是两个视频。",
+				kindLabel: "同步与对比", title: "对比同一个瞬间，而不只是两个视频。",
 				seoTitle: "同步视频并逐帧对比｜分屏播放器",
 				metaDescription: "通过同步点和同步锁定对齐多个视频，再使用逐帧回看、毫秒时间、缩放和存档点进行动作对比。",
 				intro: "不同录制很少从同一时刻开始。同步点可以为每个视频定义真正重要的动作，同步锁定则会保持它们之间的关系。",
@@ -627,7 +666,7 @@ const zhHans: MarketingContent = {
 				closingTitle: "重要差异可能只持续一帧。", closingDescription: "让所有角度保持同步，直到你真正看清它。",
 			},
 			"split-screen-export": {
-				kindLabel: "功能 / 分屏导出", title: "按照你看到的样子导出整个对比。",
+				kindLabel: "分屏导出", title: "按照你看到的样子导出整个对比。",
 				seoTitle: "iPhone 与 iPad 分屏视频导出｜分屏播放器",
 				metaDescription: "将多视频布局导出为一个视频，支持裁切、缩放、片段范围、速度、清晰度、帧率、边框、水印、BGM 和音频控制。",
 				intro: "工作台不必留在 App 里。分屏导出可以把完整布局变成教程、回看、反应或短视频素材。",
@@ -645,7 +684,7 @@ const zhHans: MarketingContent = {
 				closingTitle: "对比画面已经编辑完成。", closingDescription: "把屏幕上的工作台变成你真正要发送的视频。",
 			},
 			"iptv-streaming": {
-				kindLabel: "功能 / 直播流与来源", title: "一个工作台容纳直播流、文件和参考资料。",
+				kindLabel: "多任务工作台", title: "一个工作台容纳直播流、文件和参考资料。",
 				seoTitle: "IPTV、Xtream、M3U8 与 RTSP 多画面播放器",
 				metaDescription: "在 iPhone 和 iPad 上播放 IPTV、Xtream Codes、HLS、M3U8 和 RTSP，并与本地视频、图片、PDF 和网页同屏。",
 				intro: "真实对比经常不止本地视频。把直播链接、IPTV 频道、图片文件夹、PDF 和网页放进同一个多画面布局。",
@@ -878,22 +917,21 @@ const zhHant: MarketingContent = {
 	useCases: {
 		eyebrow: "為比較而生", title: "當一個畫面不足以說明問題。", description: "只要時間、角度或上下文會改變結果，分屏播放器就能派上用場。",
 		items: [
-			{ slug: "sports-motion-analysis", number: "A / 01", title: "運動與動作分析", description: "從多個訓練階段和角度比較動作、節奏、姿勢與技術細節。", imageIndex: 4, linkLabel: "查看運動分析工作流程" },
-			{ slug: "multi-angle-review", number: "A / 02", title: "多機位與多個版本", description: "在同一條時間軸上回看不同剪輯、表演、機位和參考素材。", imageIndex: 1, linkLabel: "查看多角度工作流程" },
-			{ slug: "learning-reference", number: "A / 03", title: "學習與參考", description: "讓課程、參考影片、PDF、圖片和網頁一直同時可見。", imageIndex: 7, linkLabel: "查看學習工作流程" },
+			{ slug: "sports-motion-analysis", number: "01", title: "運動與動作分析", description: "從多個訓練階段和角度比較動作、節奏、姿勢與技術細節。", imageIndex: 4, linkLabel: "查看運動分析工作流程" },
+			{ slug: "multi-angle-review", number: "02", title: "多機位與多個版本", description: "在同一條時間軸上回看不同剪輯、表演、機位和參考素材。", imageIndex: 1, linkLabel: "查看多角度工作流程" },
+			{ slug: "learning-reference", number: "03", title: "學習與參考", description: "讓課程、參考影片、PDF、圖片和網頁一直同時可見。", imageIndex: 7, linkLabel: "查看學習工作流程" },
 		],
 	},
 	comparison: {
-		eyebrow: "工作流程差距", title: "第二個播放器只是多一個視窗，這裡是一整套系統。",
-		description: "開啟檔案之後，看看還需要多少手動操作。",
-		columns: ["你需要的能力", "多個播放器", "影片編輯器", "分屏播放器"],
+		eyebrow: "工作流程差距", title: "在同時觀看多支影片方面，分屏播放器是最好的",
+		columns: ["你需要的能力", "系統子母畫面", "影片編輯器", "分屏播放器"],
 		rows: [
-			{ label: "2～36 個畫面同屏", values: ["手動", "部分支援", "內建"] },
-			{ label: "即時同步播放", values: ["缺少", "部分支援", "內建"] },
-			{ label: "逐格比較", values: ["手動", "內建", "內建"] },
-			{ label: "自訂多畫面排版", values: ["手動", "內建", "內建"] },
-			{ label: "直接匯出分屏影片", values: ["缺少", "內建", "內建"] },
-			{ label: "直播串流、PDF 與網頁", values: ["部分支援", "缺少", "內建"] },
+			{ label: "2～36 個畫面同屏", values: ["最多 2 個", "部分支援", "支援"] },
+			{ label: "即時同步播放", values: ["不支援", "不支援", "支援"] },
+			{ label: "逐格比較", values: ["手動", "支援", "支援"] },
+			{ label: "自訂多畫面排版", values: ["不支援", "支援", "支援"] },
+			{ label: "直接匯出分屏影片", values: ["不支援", "支援", "支援"] },
+			{ label: "直播串流、PDF 與網頁", values: ["部分支援", "支援", "支援"] },
 		],
 		note: "「部分支援」和「手動」描述常見工作流程，具體播放器或編輯器可能有所不同。",
 	},

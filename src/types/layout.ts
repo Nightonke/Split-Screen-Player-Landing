@@ -26,6 +26,4 @@ export interface MarkdownContentProps {
 	breadcrumbLabel: string;
 	content: string;
 	homeHref?: string;
-	languageLinks?: LanguageLink[];
-	languageLabel?: string;
 }

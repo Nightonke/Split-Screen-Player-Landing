@@ -2,7 +2,7 @@
 import type { LanguageLink } from "@/types/content";
 import type { landingContent } from "@/i18n/content";
 import { localizedPath } from "@/i18n/locales";
-import { localizedScreenshot, marketingContent } from "@/i18n/marketing";
+import { marketingContent } from "@/i18n/marketing";
 import { FaApple } from "react-icons/fa";
 import Layout from "./Layout.astro";
 
@@ -21,6 +21,11 @@ const termsHref = localizedPath(content.locale, "terms");
 const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
 const canonicalHome = new URL(homeHref, siteURL).href;
 const storeURL = content.storeLinks.apple;
+const useCaseVisuals = [
+	"/assets/use-cases/sports-multi-view.jpg",
+	"/assets/use-cases/music-multi-view.jpg",
+	"/assets/chapters/chapter-media.jpg",
+];
 
 const structuredData = [
 	{
@@ -49,11 +54,7 @@ const structuredData = [
 		applicationCategory: "UtilitiesApplication",
 		softwareVersion: content.version,
 		image: new URL(content.logo, siteURL).href,
-		screenshot: [
-			new URL(localizedScreenshot(content.locale, "iphone", 1), siteURL).href,
-			new URL(localizedScreenshot(content.locale, "iphone", 4), siteURL).href,
-			new URL(localizedScreenshot(content.locale, "iphone", 5), siteURL).href,
-		],
+		screenshot: useCaseVisuals.map((src) => new URL(src, siteURL).href),
 		featureList: marketing.capabilities,
 		offers: {
 			"@type": "Offer",
@@ -250,11 +251,11 @@ const structuredData = [
 								</>
 							) : (
 								<img
-									src={localizedScreenshot(content.locale, "iphone", chapter.imageIndex)}
+									src={content.appPreview.posterSrc}
 									alt={chapter.imageAlt}
 									loading="lazy"
-									width="1290"
-									height="2796"
+									width="720"
+									height="1564"
 								/>
 							)}
 						</div>
@@ -274,7 +275,7 @@ const structuredData = [
 				</div>
 
 				<div class="use-case-grid">
-					{marketing.useCases.items.map((item) => (
+					{marketing.useCases.items.map((item, itemIndex) => (
 						<a
 							class="use-case-card"
 							href={localizedPath(content.locale, `use-cases/${item.slug}`)}
@@ -282,11 +283,11 @@ const structuredData = [
 						>
 							<div class="use-case-image">
 								<img
-									src={localizedScreenshot(content.locale, "iphone", item.imageIndex)}
-									alt=""
+									src={useCaseVisuals[itemIndex]}
+									alt={item.title}
 									loading="lazy"
-									width="1290"
-									height="2796"
+									width="720"
+									height="1564"
 								/>
 							</div>
 							<div class="use-case-copy">
@@ -308,7 +309,6 @@ const structuredData = [
 						<p class="section-kicker">{marketing.comparison.eyebrow}</p>
 						<h2 class="section-title">{marketing.comparison.title}</h2>
 					</div>
-					<p class="section-lede">{marketing.comparison.description}</p>
 				</div>
 
 				<div
@@ -343,10 +343,10 @@ const structuredData = [
 				<p class="section-kicker" style="text-align: center">{content.labels.faq}</p>
 				<h2 class="section-title" style="margin-inline: auto; text-align: center">
 					{content.locale === "en-US"
-						? "Questions before your first layout."
+						? <>Before you try multi-video playback,<br />a few common questions.</>
 						: content.locale === "zh-Hans"
-							? "第一次创建布局前，常见的问题。"
-							: "第一次建立排版前，常見的問題。"}
+							? <>第一次体验多视频同时播放之前，<br />常见的问题。</>
+							: <>第一次體驗多影片同時播放之前，<br />常見的問題。</>}
 				</h2>
 				<div class="faq-list">
 					{content.faqs.map((item) => (

@@ -1,5 +1,6 @@
 ---
 import type { LanguageLink } from "@/types/content";
+import { FaApple } from "react-icons/fa";
 
 interface Props {
 	name: string;
@@ -54,12 +55,14 @@ const homeAnchor = (anchor: string) =>
 			</details>
 
 			<a
-				class="button button-dark button-small"
+				class="button button-dark button-small header-store-button"
 				href={storeHref}
 				target="_blank"
 				rel="noopener noreferrer"
+				aria-label={nav.getApp}
 			>
-				{nav.getApp}
+				<FaApple aria-hidden="true" />
+				<span>{nav.getApp}</span>
 			</a>
 
 			<details class="mobile-menu">

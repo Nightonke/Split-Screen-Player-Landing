@@ -1,8 +1,8 @@
 ---
 import { landingContent } from "@/i18n/content";
+import { featureDetails } from "@/i18n/featureDetails";
 import {
 	featureSlugs,
-	localizedScreenshot,
 	marketingContent,
 	type FeatureSlug,
 	type MarketingDetailPage,
@@ -11,6 +11,7 @@ import {
 } from "@/i18n/marketing";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import type { LanguageLink } from "@/types/content";
+import { FaApple } from "react-icons/fa";
 import Layout from "./Layout.astro";
 
 interface Props {
@@ -30,8 +31,28 @@ const pageHref = localizedPath(locale, pagePath);
 const categoryLabel =
 	category === "features" ? marketing.nav.features : marketing.nav.useCases;
 const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
-const relatedFeatureSlugs = featureSlugs.filter((item) => item !== slug).slice(0, 3);
+const relatedFeatureSlugs = featureSlugs.filter((item) => item !== slug);
 const relatedUseCaseSlugs = useCaseSlugs.filter((item) => item !== slug).slice(0, 3);
+const richPage =
+	category === "features"
+		? featureDetails[locale][slug as FeatureSlug]
+		: undefined;
+const useCaseHeroImages: Record<UseCaseSlug, string> = {
+	"sports-motion-analysis": "/assets/use-cases/sports-multi-view.jpg",
+	"multi-angle-review": "/assets/use-cases/music-multi-view.jpg",
+	"learning-reference": "/assets/chapters/chapter-media.jpg",
+};
+const featureHeroImages: Record<FeatureSlug, string> = {
+	"multi-video-player": "/assets/videos/chapter-play-poster.jpg",
+	"global-video-controls": "/assets/chapters/chapter-control.jpg",
+	"video-sync-comparison": "/assets/chapters/chapter-sync.jpg",
+	"split-screen-export": "/assets/chapters/chapter-export.jpg",
+	"iptv-streaming": "/assets/chapters/chapter-media.jpg",
+};
+const fallbackHeroImage =
+	category === "use-cases"
+		? useCaseHeroImages[slug as UseCaseSlug]
+		: featureHeroImages[slug as FeatureSlug];
 
 const structuredData = [
 	{
@@ -117,58 +138,240 @@ const structuredData = [
 							target="_blank"
 							rel="noopener noreferrer"
 						>
+							<FaApple aria-hidden="true" />
 							{marketing.hero.primaryCta}
 						</a>
 						<a class="text-link" href={homeHref}>{marketing.detailLabels.backHome}</a>
 					</div>
 				</div>
 
-				<div class="detail-visual" data-reveal>
-					<img
-						src={localizedScreenshot(locale, "iphone", page.imageIndex)}
-						alt={page.imageAlt}
-						width="1290"
-						height="2796"
-					/>
+				<div
+					class:list={["detail-visual", richPage?.heroMedia.kind === "video" && "detail-visual--landscape"]}
+					data-reveal
+				>
+					{
+						richPage?.heroMedia.kind === "video" ? (
+							<video
+								class="detail-hero-video"
+								poster={richPage.heroMedia.poster}
+								width={richPage.heroMedia.width}
+								height={richPage.heroMedia.height}
+								autoplay
+								muted
+								loop
+								playsinline
+								preload="metadata"
+								aria-label={richPage.heroMedia.alt}
+							>
+								<source src={richPage.heroMedia.src} type="video/mp4" />
+							</video>
+						) : (
+							<img
+								src={richPage?.heroMedia.src ?? fallbackHeroImage}
+								alt={richPage?.heroMedia.alt ?? page.imageAlt}
+								width={richPage?.heroMedia.width ?? (category === "use-cases" ? 720 : 1290)}
+								height={richPage?.heroMedia.height ?? (category === "use-cases" ? 1564 : 2796)}
+							/>
+						)
+					}
 				</div>
 			</section>
 		</div>
 
-		<section class="detail-section">
-			<div class="site-shell">
-				<p class="section-kicker">{marketing.detailLabels.keyBenefits}</p>
-				<h2 class="section-title">{page.promise}</h2>
-				<div class="benefit-grid">
-					{page.highlights.map((item) => (
-						<article class="benefit-card" data-reveal>
-							<h3>{item.title}</h3>
-							<p>{item.description}</p>
-						</article>
-					))}
-				</div>
-			</div>
-		</section>
+		{
+			richPage ? (
+				richPage.sections.map((section, sectionIndex) => (
+					<section class:list={["detail-section", "feature-rich-section", `feature-rich-section--${sectionIndex % 3}`]}>
+						<div class="site-shell">
+							<div class="feature-rich-heading">
+								<p class="section-kicker">{section.kicker}</p>
+								<h2 class="section-title">{section.title}</h2>
+								<p class="section-lede">{section.description}</p>
+							</div>
 
-		<section class="detail-section">
-			<div class="site-shell">
-				<p class="section-kicker">{marketing.detailLabels.howItWorks}</p>
-				<h2 class="section-title">
-					{locale === "en-US"
-						? "Three steps from source to clarity."
-						: locale === "zh-Hans"
-							? "三个步骤，从素材到清晰结论。"
-							: "三個步驟，從素材到清楚結論。"}
-				</h2>
-				<div class="steps-list" style="margin-top: 50px">
-					{page.steps.map((item) => (
-						<article class="step-card" data-reveal>
-							<h3>{item.title}</h3>
-							<p>{item.description}</p>
-						</article>
-					))}
-				</div>
-			</div>
-		</section>
+							{section.media && (
+								<figure class="feature-media-card" data-reveal>
+									{section.media.kind === "video" ? (
+										<video
+											src={section.media.src}
+											poster={section.media.poster}
+											width={section.media.width}
+											height={section.media.height}
+											autoplay
+											muted
+											loop
+											playsinline
+											preload="metadata"
+											aria-label={section.media.alt}
+										/>
+									) : (
+										<img
+											src={section.media.src}
+											alt={section.media.alt}
+											width={section.media.width}
+											height={section.media.height}
+											loading="lazy"
+										/>
+									)}
+								</figure>
+							)}
+
+							{section.gallery && (
+								<div class="feature-gallery">
+									{section.gallery.map((media, mediaIndex) => (
+										<figure class="feature-gallery-card" data-reveal style={`--gallery-index: ${mediaIndex}`}>
+											<img
+												src={media.src}
+												alt={media.alt}
+												width={media.width}
+												height={media.height}
+												loading="lazy"
+											/>
+										</figure>
+									))}
+								</div>
+							)}
+
+							{section.cards && (
+								<div class="feature-card-grid">
+									{section.cards.map((item, itemIndex) => (
+										<article class="feature-capability-card" data-reveal>
+											<span class="feature-card-number">{String(itemIndex + 1).padStart(2, "0")}</span>
+											{item.badge && <span class="feature-card-badge">{item.badge}</span>}
+											<h3>{item.title}</h3>
+											<p>{item.description}</p>
+										</article>
+									))}
+								</div>
+							)}
+
+							{section.steps && (
+								<div class="feature-steps">
+									{section.steps.map((item, itemIndex) => (
+										<article class="feature-step" data-reveal>
+											<span>{String(itemIndex + 1).padStart(2, "0")}</span>
+											<div>
+												<h3>{item.title}</h3>
+												<p>{item.description}</p>
+											</div>
+										</article>
+									))}
+								</div>
+							)}
+
+							{section.table && (
+								<div class="feature-table-block" data-reveal>
+									<div class="feature-table-heading">
+										<h3>{section.table.title}</h3>
+										{section.table.description && <p>{section.table.description}</p>}
+									</div>
+									<div class="feature-table-scroll">
+										<table class="feature-table">
+											<thead>
+												<tr>
+													{section.table.columns.map((column) => <th scope="col">{column}</th>)}
+												</tr>
+											</thead>
+											<tbody>
+												{section.table.rows.map((row) => (
+													<tr>
+														{row.map((cell, cellIndex) =>
+															cellIndex === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>
+														)}
+													</tr>
+												))}
+											</tbody>
+										</table>
+									</div>
+								</div>
+							)}
+
+							{section.note && <p class="feature-note">{section.note}</p>}
+						</div>
+					</section>
+				))
+			) : (
+				<>
+					<section class="detail-section">
+						<div class="site-shell">
+							<p class="section-kicker">{marketing.detailLabels.keyBenefits}</p>
+							<h2 class="section-title">{page.promise}</h2>
+							<div class="benefit-grid">
+								{page.highlights.map((item) => (
+									<article class="benefit-card" data-reveal>
+										<h3>{item.title}</h3>
+										<p>{item.description}</p>
+									</article>
+								))}
+							</div>
+						</div>
+					</section>
+
+					<section class="detail-section">
+						<div class="site-shell">
+							<p class="section-kicker">{marketing.detailLabels.howItWorks}</p>
+							<h2 class="section-title">
+								{locale === "en-US"
+									? "Three steps from source to clarity."
+									: locale === "zh-Hans"
+										? "三个步骤，从素材到清晰结论。"
+										: "三個步驟，從素材到清楚結論。"}
+							</h2>
+							<div class="steps-list" style="margin-top: 50px">
+								{page.steps.map((item) => (
+									<article class="step-card" data-reveal>
+										<h3>{item.title}</h3>
+										<p>{item.description}</p>
+									</article>
+								))}
+							</div>
+						</div>
+					</section>
+				</>
+			)
+		}
+
+		{
+			richPage?.buttonTable && (
+				<section class="detail-section feature-button-section">
+					<div class="site-shell">
+						<div class="feature-rich-heading">
+							<p class="section-kicker">
+								{locale === "en-US" ? "Bottom buttons" : locale === "zh-Hans" ? "底部按键" : "底部按鍵"}
+							</p>
+							<h2 class="section-title">{richPage.buttonTable.title}</h2>
+							<p class="section-lede">{richPage.buttonTable.description}</p>
+						</div>
+						<div class="feature-table-scroll feature-button-table-wrap" data-reveal>
+							<table class="feature-table feature-button-table">
+								<thead>
+									<tr>
+										{richPage.buttonTable.columns.map((column) => <th scope="col">{column}</th>)}
+									</tr>
+								</thead>
+								<tbody>
+									{richPage.buttonTable.rows.map((row, rowIndex) => (
+										<tr>
+											<th scope="row">
+												<span class="feature-table-index">{String(rowIndex + 1).padStart(2, "0")}</span>
+												{row.action}
+											</th>
+											<td>{row.description}</td>
+											<td>
+												<span class:list={["access-badge", row.vip && "access-badge--vip"]}>
+													{row.vip ? richPage.buttonTable?.vipLabel : richPage.buttonTable?.freeLabel}
+												</span>
+											</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
+						</div>
+						<p class="feature-note">{richPage.buttonTable.note}</p>
+					</div>
+				</section>
+			)
+		}
 
 		<section class="detail-section">
 			<div class="site-shell">
