@@ -70,18 +70,15 @@ Static assets live in:
 - `public/assets/favicon.png`
 - `public/assets/videos/app-preview-iphone.mp4`
 - `public/assets/videos/app-preview-iphone-poster.jpg`
-- `public/assets/screenshots/iphone/`
-- `public/assets/screenshots/ipad/`
-- `public/assets/screenshots/zh-Hans/`
-- `public/assets/screenshots/zh-Hant/`
+- `public/assets/chapters/`
+- `public/assets/features/`
+- `public/assets/use-cases/`
 
 Legal page copy is generated from `src/i18n/content.ts`.
 
 ## App Store Data
 
 The source copy is aligned with `/Users/mac/Documents/NVideoAppStore/metadata/` and current public App Store lookup data for app ID `6758291951`.
-
-Screenshot assets are resized from `/Users/mac/Documents/NVideoAppStore/screenshots/` for web delivery.
 
 The iPhone app preview video is converted from `/Users/mac/Documents/preview.mov` for web delivery.
 

@@ -1000,15 +1000,3 @@ export const marketingContent: Record<Locale, MarketingContent> = {
 	"zh-Hans": zhHans,
 	"zh-Hant": zhHant,
 };
-
-export const localizedScreenshot = (
-	locale: Locale,
-	device: "iphone" | "ipad",
-	index: number,
-) => {
-	const base =
-		locale === "en-US"
-			? "/assets/screenshots"
-			: `/assets/screenshots/${locale}`;
-	return `${base}/${device}/${index}.png`;
-};
