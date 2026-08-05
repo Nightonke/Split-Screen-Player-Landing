@@ -3,6 +3,7 @@ import type { LanguageLink } from "@/types/content";
 import type { landingContent } from "@/i18n/content";
 import { localizedPath } from "@/i18n/locales";
 import { localizedScreenshot, marketingContent } from "@/i18n/marketing";
+import { FaApple } from "react-icons/fa";
 import Layout from "./Layout.astro";
 
 type LandingContent = (typeof landingContent)[keyof typeof landingContent];
@@ -111,63 +112,61 @@ const structuredData = [
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								<span aria-hidden="true">●</span>
+								<FaApple aria-hidden="true" />
 								{marketing.hero.primaryCta}
 							</a>
-							<a class="text-link" href="#film">{marketing.hero.secondaryCta}</a>
+							<a
+								class="hero-qr"
+								href={storeURL}
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label={marketing.hero.primaryCta}
+							>
+								<img
+									src="/assets/app-store-qr.png"
+									width="72"
+									height="72"
+									alt=""
+								/>
+								<span>
+									<strong>
+										{content.locale === "en-US"
+											? "Scan with iPhone"
+											: content.locale === "zh-Hans"
+												? "使用 iPhone 扫描"
+												: "使用 iPhone 掃描"}
+									</strong>
+									<small>{marketing.nav.getApp}</small>
+								</span>
+							</a>
 						</div>
 						<p class="hero-proof">
 							<span>{marketing.hero.ratingText}</span>
 							<span>{marketing.hero.privacyText}</span>
 						</p>
-						<a
-							class="hero-qr"
-							href={storeURL}
-							target="_blank"
-							rel="noopener noreferrer"
-							aria-label={marketing.hero.primaryCta}
-						>
-							<img
-								src="/assets/app-store-qr.png"
-								width="72"
-								height="72"
-								alt=""
-							/>
-							<span>
-								<strong>
-									{content.locale === "en-US"
-										? "Scan with iPhone"
-										: content.locale === "zh-Hans"
-											? "使用 iPhone 扫描"
-											: "使用 iPhone 掃描"}
-								</strong>
-								<small>{marketing.nav.getApp}</small>
-							</span>
-						</a>
 					</div>
 
 					<div
 						id="film"
 						class="film-card"
-						data-label={marketing.hero.filmLabel}
 						data-reveal
 					>
 						<div class="film-window">
 							<video
-								src={content.appPreview.videoSrc}
+								data-hero-video
+								data-video-src={content.appPreview.videoSrc}
 								poster={content.appPreview.posterSrc}
 								aria-label={content.appPreview.ariaLabel}
-								autoplay
 								muted
 								loop
 								playsinline
-								controls
-								preload="metadata"
+								preload="none"
+								width="720"
+								height="1564"
 							></video>
 						</div>
 						<div class="film-meta">
 							<span>{marketing.hero.soundHint}</span>
-							<strong>{marketing.hero.filmTitle}</strong>
 						</div>
 					</div>
 				</div>
@@ -201,20 +200,63 @@ const structuredData = [
 								{chapter.points.map((point) => <li>{point}</li>)}
 							</ul>
 							<a
-								class="text-link"
+								class="text-link chapter-link"
 								href={localizedPath(content.locale, chapter.linkPath)}
 							>
 								{chapter.linkLabel}
 							</a>
 						</div>
-						<div class="chapter-visual" data-reveal>
-							<img
-								src={localizedScreenshot(content.locale, "iphone", chapter.imageIndex)}
-								alt={chapter.imageAlt}
-								loading="lazy"
-								width="1290"
-								height="2796"
-							/>
+						<div
+							class:list={[
+								"chapter-visual",
+								{
+									"chapter-video-visual": chapter.videoSrc,
+									"chapter-image-visual": chapter.visualSrc,
+								},
+							]}
+							data-reveal
+						>
+							{chapter.videoSrc && chapter.posterSrc ? (
+								<div class="chapter-film-window">
+									<video
+										data-chapter-video
+										data-video-src={chapter.videoSrc}
+										poster={chapter.posterSrc}
+										aria-label={chapter.imageAlt}
+										muted
+										loop
+										playsinline
+										preload="none"
+										width="1280"
+										height="590"
+									></video>
+								</div>
+							) : chapter.visualSrc ? (
+								<>
+									<div class="chapter-image-window">
+										<img
+											src={chapter.visualSrc}
+											alt={chapter.imageAlt}
+											loading="lazy"
+											width="720"
+											height="1564"
+										/>
+									</div>
+									{chapter.visualCaption && (
+										<div class="chapter-visual-meta">
+											<span>{chapter.visualCaption}</span>
+										</div>
+									)}
+								</>
+							) : (
+								<img
+									src={localizedScreenshot(content.locale, "iphone", chapter.imageIndex)}
+									alt={chapter.imageAlt}
+									loading="lazy"
+									width="1290"
+									height="2796"
+								/>
+							)}
 						</div>
 					</div>
 				</section>
@@ -296,42 +338,6 @@ const structuredData = [
 			</div>
 		</section>
 
-		<section class="section">
-			<div class="site-shell trust-panel" data-reveal>
-				<div class="trust-heading">
-					<div>
-						<p class="section-kicker">{marketing.trust.eyebrow}</p>
-						<h2 class="section-title">{marketing.trust.title}</h2>
-					</div>
-					<p class="section-lede">{marketing.trust.description}</p>
-				</div>
-				<div class="trust-grid">
-					{marketing.trust.items.map((item) => (
-						<article class="trust-card">
-							<strong>{item.value}</strong>
-							<h3>{item.title}</h3>
-							<p>{item.description}</p>
-						</article>
-					))}
-				</div>
-			</div>
-		</section>
-
-		<section class="section">
-			<div class="site-shell">
-				<p class="section-kicker">{marketing.steps.eyebrow}</p>
-				<h2 class="section-title">{marketing.steps.title}</h2>
-				<div class="steps-list" style="margin-top: 50px">
-					{marketing.steps.items.map((item) => (
-						<article class="step-card" data-reveal>
-							<h3>{item.title}</h3>
-							<p>{item.description}</p>
-						</article>
-					))}
-				</div>
-			</div>
-		</section>
-
 		<section id="faq" class="section">
 			<div class="site-shell">
 				<p class="section-kicker" style="text-align: center">{content.labels.faq}</p>
@@ -370,3 +376,66 @@ const structuredData = [
 		</section>
 	</main>
 </Layout>
+
+<script>
+	const beginVideoLoading = (video: HTMLVideoElement) => {
+		const source = video.dataset.videoSrc;
+		if (!source || video.src) return;
+
+		video.addEventListener(
+			"canplay",
+			() => {
+				void video.play().catch(() => {
+					// The poster remains visible when autoplay is blocked.
+				});
+			},
+			{ once: true },
+		);
+		video.src = source;
+		video.load();
+	};
+
+	const initializeVideos = () => {
+		const heroVideo =
+			document.querySelector<HTMLVideoElement>("[data-hero-video]");
+
+		if (heroVideo) {
+			if ("requestIdleCallback" in window) {
+				window.requestIdleCallback(() => beginVideoLoading(heroVideo), {
+					timeout: 1200,
+				});
+			} else {
+				window.setTimeout(() => beginVideoLoading(heroVideo), 250);
+			}
+		}
+
+		const chapterVideos = document.querySelectorAll<HTMLVideoElement>(
+			"[data-chapter-video]",
+		);
+
+		if (!("IntersectionObserver" in window)) {
+			chapterVideos.forEach(beginVideoLoading);
+			return;
+		}
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (!(entry.target instanceof HTMLVideoElement) || !entry.isIntersecting) {
+						return;
+					}
+
+					beginVideoLoading(entry.target);
+					observer.unobserve(entry.target);
+				});
+			},
+			{ rootMargin: "300px 0px" },
+		);
+
+		chapterVideos.forEach((video) => observer.observe(video));
+	};
+
+	document.readyState === "complete"
+		? initializeVideos()
+		: window.addEventListener("load", initializeVideos, { once: true });
+</script>

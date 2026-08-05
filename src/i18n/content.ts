@@ -29,7 +29,7 @@ interface LocalizedLandingContent extends StoreData {
 }
 
 const appleStoreUrl =
-	"https://apps.apple.com/us/app/split-screen-player-36-videos/id6758291951?uo=4";
+	"https://apps.apple.com/app/id6758291951";
 
 const sharedStoreData = {
 	logo: "/assets/favicon.png",
@@ -37,15 +37,15 @@ const sharedStoreData = {
 		apple: appleStoreUrl,
 	},
 	rating: {
-		score: 4.4,
-		count: "24",
+		score: 4.8,
+		count: "63",
 	},
 	ageRating: "4+",
 	version: "1.0.26",
 	minimumOS: "15.0",
 	releaseDate: "August 4, 2026",
 	appPreview: {
-		videoSrc: "/assets/videos/app-preview-iphone-optimized.m4v",
+		videoSrc: "/assets/videos/app-preview-iphone.mp4",
 		posterSrc: "/assets/videos/app-preview-iphone-poster.jpg",
 	},
 } as const;

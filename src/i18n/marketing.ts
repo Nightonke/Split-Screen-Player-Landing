@@ -45,11 +45,8 @@ export interface MarketingContent {
 		title: string;
 		description: string;
 		primaryCta: string;
-		secondaryCta: string;
 		ratingText: string;
 		privacyText: string;
-		filmLabel: string;
-		filmTitle: string;
 		soundHint: string;
 	};
 	capabilitiesLabel: string;
@@ -63,6 +60,10 @@ export interface MarketingContent {
 		points: string[];
 		imageIndex: number;
 		imageAlt: string;
+		videoSrc?: string;
+		posterSrc?: string;
+		visualSrc?: string;
+		visualCaption?: string;
 		linkLabel: string;
 		linkPath: string;
 	}>;
@@ -86,17 +87,6 @@ export interface MarketingContent {
 		columns: string[];
 		rows: Array<{ label: string; values: string[] }>;
 		note: string;
-	};
-	trust: {
-		eyebrow: string;
-		title: string;
-		description: string;
-		items: Array<{ value: string; title: string; description: string }>;
-	};
-	steps: {
-		eyebrow: string;
-		title: string;
-		items: Array<{ title: string; description: string }>;
 	};
 	closing: {
 		eyebrow: string;
@@ -130,24 +120,38 @@ const en: MarketingContent = {
 		eyebrow: "Multi-video workspace · iPhone + iPad",
 		title: "More videos. One screen.\nA whole lot more fun.",
 		description:
-			"Play, align, compare, and export up to 36 videos on one screen. Built for the moments one player cannot show you.",
+			"Play, align, compare, and export up to 36 videos on one screen. Choose from 144 portrait and landscape layouts, then mix in images, live streams, web pages, PDFs, and music.",
 		primaryCta: "Download free",
-		secondaryCta: "Watch the product film",
-		ratingText: "4.4 ★ from 24 ratings",
+		ratingText: "4.8 ★ from 63 ratings",
 		privacyText: "No data collected",
-		filmLabel: "Split Screen Player in action",
-		filmTitle: "Many views. One timeline.",
-		soundHint: "Tap the player for sound",
+		soundHint: "Watch 3 videos at once with Split Screen Player",
 	},
 	capabilitiesLabel: "Inside the workspace",
 	capabilities: [
+		"2–36 videos",
+		"144 layouts",
+		"Custom layouts",
+		"Portrait + landscape",
+		"Video playlists",
+		"Sort + shuffle",
+		"Repeat playback",
+		"Global playback controls",
 		"Sync Point",
 		"Sync Lock",
 		"Frame stepping",
-		"Custom layouts",
-		"IPTV + Xtream",
+		"Millisecond timing",
+		"Volume normalization",
+		"Multi-ratio export",
+		"Trim + speed",
+		"BGM + audio mixing",
+		"MP4 · MOV · MKV · WebM",
+		"HLS · M3U8 · RTSP",
 		"External display",
-		"Split-screen export",
+		"Bookmark restore",
+		"Checkpoints",
+		"Images · PDFs · web",
+		"Custom bottom toolbar",
+		"Sleep timer",
 	],
 	chapters: [
 		{
@@ -162,9 +166,12 @@ const en: MarketingContent = {
 				"144 layouts + custom layouts",
 				"Portrait and landscape",
 				"iPad support",
+				"Screen casting support",
 			],
 			imageIndex: 1,
 			imageAlt: "Multiple videos playing together in Split Screen Player",
+			videoSrc: "/assets/videos/chapter-play-preview.mp4",
+			posterSrc: "/assets/videos/chapter-play-poster.jpg",
 			linkLabel: "Explore multi-video playback",
 			linkPath: "features/multi-video-player",
 		},
@@ -178,6 +185,8 @@ const en: MarketingContent = {
 			points: ["Global progress control", "Sync Lock"],
 			imageIndex: 9,
 			imageAlt: "Global playback controls for multiple videos",
+			visualSrc: "/assets/chapters/chapter-control.jpg",
+			visualCaption: "Customize the bottom controls and manage every video your way",
 			linkLabel: "Explore global controls",
 			linkPath: "features/multi-video-player",
 		},
@@ -191,6 +200,8 @@ const en: MarketingContent = {
 			points: ["Sync Point", "Continuous sync correction"],
 			imageIndex: 4,
 			imageAlt: "Multiple videos precisely synchronized to the same action",
+			visualSrc: "/assets/chapters/chapter-sync.jpg",
+			visualCaption: "Set a sync point and bring every video to the same moment",
 			linkLabel: "Explore precise synchronization",
 			linkPath: "features/video-sync-comparison",
 		},
@@ -204,6 +215,7 @@ const en: MarketingContent = {
 			points: ["Multiple aspect ratios", "Per-clip trim and speed", "Audio mix + BGM"],
 			imageIndex: 6,
 			imageAlt: "Split-screen export settings",
+			visualSrc: "/assets/chapters/chapter-export.jpg",
 			linkLabel: "See split-screen export",
 			linkPath: "features/split-screen-export",
 		},
@@ -213,7 +225,7 @@ const en: MarketingContent = {
 			kicker: "Video · Images · Web · Live · PDF · Music",
 			title: "More than video. A multitasking workspace.",
 			description:
-				"Combine local video, HLS, M3U8, RTSP, IPTV, Xtream channels, images, web pages, PDFs, and music in the same layout.",
+				"Combine local videos, live streams, RTSP, Xtream channels, images, web pages, PDFs, and music in the same layout.",
 			points: [
 				"IPTV + Xtream Codes",
 				"HLS / M3U8 / RTSP",
@@ -221,6 +233,8 @@ const en: MarketingContent = {
 			],
 			imageIndex: 8,
 			imageAlt: "Videos, images, a web page, and a PDF in one workspace",
+			visualSrc: "/assets/chapters/chapter-media.jpg",
+			visualCaption: "View PDFs, web pages, and photo sets together",
 			linkLabel: "Explore media and streaming support",
 			linkPath: "features/iptv-streaming",
 		},
@@ -272,38 +286,6 @@ const en: MarketingContent = {
 			{ label: "Streams, PDFs, and web pages", values: ["Partial", "Missing", "Built in"] },
 		],
 		note: "“Partial” and “Manual” describe the typical workflow. Individual apps may vary.",
-	},
-	trust: {
-		eyebrow: "Designed to stay useful",
-		title: "Serious controls. Honest boundaries.",
-		description:
-			"Your device and source files still determine real-world playback performance. The app gives you the tools to make that workspace manageable.",
-		items: [
-			{
-				value: "No data",
-				title: "Collected by the app",
-				description: "The current App Store privacy label states that the developer does not collect data.",
-			},
-			{
-				value: "iOS 15+",
-				title: "Broad device support",
-				description: "Runs on iPhone and iPad, with Apple silicon Mac and Apple Vision compatibility.",
-			},
-			{
-				value: "1.0.26",
-				title: "Actively improving",
-				description: "Recent updates added better sync correction, drag-and-drop rearranging, and floating controls.",
-			},
-		],
-	},
-	steps: {
-		eyebrow: "60-second setup",
-		title: "Open. Arrange. Press play.",
-		items: [
-			{ title: "Choose your sources", description: "Select videos, folders, links, streams, images, PDFs, or web pages." },
-			{ title: "Pick the layout", description: "Start with one of 144 layouts or create a custom arrangement." },
-			{ title: "Sync and inspect", description: "Lock playback, set sync points, and review the exact moment you need." },
-		],
 	},
 	closing: {
 		eyebrow: "Your multi-view workspace starts here",
@@ -500,47 +482,82 @@ const zhHans: MarketingContent = {
 	hero: {
 		eyebrow: "多视频工作台 · iPhone + iPad",
 		title: "一屏看多片\n体验爽翻天",
-		description: "在一个屏幕上播放、对齐、对比并导出最多 36 个视频。看清普通播放器会漏掉的那个瞬间。",
+		description: "在一个屏幕上播放、对齐、对比和导出最多 36 个视频。横屏、竖屏共 144 种布局，想怎么看就怎么看。还可以同时查看图片、直播、网页和 PDF，边看边听音乐。",
 		primaryCta: "免费下载",
-		secondaryCta: "观看产品演示",
-		ratingText: "4.4 ★ · 24 个评分",
+		ratingText: "4.8 ★ · 63 个评分",
 		privacyText: "不收集数据",
-		filmLabel: "分屏播放器实机演示",
-		filmTitle: "多个画面，一条时间线。",
-		soundHint: "点击播放器可打开声音",
+		soundHint: "使用分屏播放器同时观看3个视频",
 	},
 	capabilitiesLabel: "工作台能力",
-	capabilities: ["同步点", "同步锁定", "逐帧回看", "自定义布局", "IPTV + Xtream", "外接屏幕", "分屏导出"],
+	capabilities: [
+		"2～36 个视频",
+		"144 种布局",
+		"自定义布局",
+		"横屏与竖屏",
+		"视频播放列表",
+		"排序与随机播放",
+		"循环播放",
+		"全局播放控制",
+		"同步点",
+		"同步锁定",
+		"逐帧回看",
+		"毫秒级时间",
+		"音量均衡",
+		"多比例导出",
+		"裁剪与变速",
+		"BGM 与音频混合",
+		"MP4 · MOV · MKV · WebM",
+		"HLS · M3U8 · RTSP",
+		"外接屏幕",
+		"书签恢复",
+		"存档点",
+		"图片 · PDF · 网页",
+		"自定义底部工具栏",
+		"定时关闭",
+	],
 	chapters: [
 		{
 			id: "play", number: "01", kicker: "多个视频 · 一块屏幕", title: "在一块屏幕上观看最多36个视频。",
 			description: "用多达144种布局同时观看最多36个视频，支持iPhone/iPad和横屏竖屏，也可以创建自己的布局。",
-			points: ["2～36 个视频同时播放", "144 种布局 + 自定义布局", "横屏与竖屏", "支持 iPad"],
-			imageIndex: 1, imageAlt: "分屏播放器同时播放多个视频", linkLabel: "了解多视频播放", linkPath: "features/multi-video-player",
+			points: ["2～36 个视频同时播放", "144 种布局 + 自定义布局", "横屏与竖屏", "支持 iPad", "支持投屏播放"],
+			imageIndex: 1, imageAlt: "分屏播放器同时播放多个视频",
+			videoSrc: "/assets/videos/chapter-play-preview.mp4", posterSrc: "/assets/videos/chapter-play-poster.jpg",
+			linkLabel: "了解多视频播放", linkPath: "features/multi-video-player",
 		},
 		{
 			id: "control", number: "02", kicker: "全局控制 · 方便快捷", title: "一手把控所有视频。",
 			description: "通过全局进度控制、同步锁定等功能，一键控制所有视频的进度、播放状态、倍速或者是切换视频。适合回看不同剪辑版本、拍摄片段、机位角度或参考素材。",
 			points: ["全局进度控制", "同步锁定"],
-			imageIndex: 9, imageAlt: "同时控制多个视频的播放进度和状态", linkLabel: "了解全局控制", linkPath: "features/multi-video-player",
+			imageIndex: 9, imageAlt: "同时控制多个视频的播放进度和状态",
+			visualSrc: "/assets/chapters/chapter-control.jpg",
+			visualCaption: "自定义顺手的底部按键，随心控制所有视频",
+			linkLabel: "了解全局控制", linkPath: "features/multi-video-player",
 		},
 		{
 			id: "align", number: "03", kicker: "精准同步 · 匹配动作", title: "对齐动作，而不只是对齐时间。",
 			description: "通过同步点、持续同步校正，让不同视频始终锚定在同一个动作上。适合对比运动、舞蹈、健身、教学等视频。",
 			points: ["同步点", "持续同步校正"],
-			imageIndex: 4, imageAlt: "将多个视频精准同步到同一个动作", linkLabel: "了解精准同步", linkPath: "features/video-sync-comparison",
+			imageIndex: 4, imageAlt: "将多个视频精准同步到同一个动作",
+			visualSrc: "/assets/chapters/chapter-sync.jpg",
+			visualCaption: "设置同步点，让所有视频同时抵达同一瞬间",
+			linkLabel: "了解精准同步", linkPath: "features/video-sync-comparison",
 		},
 		{
 			id: "export", number: "04", kicker: "导出 · 分享完整画面", title: "把多画面，变成一支完整视频。",
 			description: "把屏幕上的多视频播放合成为一个视频，并控制画面位置、清晰度、帧率、码率、边框、背景、水印、BGM 和音频来源。适合制作对比视频、教程视频、反应视频或短视频素材。",
 			points: ["多种画面比例", "每段视频单独裁剪和变速", "音频混合 + BGM"],
-			imageIndex: 6, imageAlt: "分屏视频导出设置", linkLabel: "查看分屏导出", linkPath: "features/split-screen-export",
+			imageIndex: 6, imageAlt: "分屏视频导出设置",
+			visualSrc: "/assets/chapters/chapter-export.jpg",
+			linkLabel: "查看分屏导出", linkPath: "features/split-screen-export",
 		},
 		{
 			id: "streams", number: "05", kicker: "视频 · 图片 · 网页 · 直播 · PDF · 音乐", title: "不止视频，更是多任务工作台。",
-			description: "在同一个布局中组合本地视频、HLS、M3U8、RTSP、IPTV、Xtream 频道、图片、网页、PDF和音乐。",
+			description: "在同一个布局中组合本地视频、直播、RTSP、Xtream 频道、图片、网页、PDF和音乐。",
 			points: ["IPTV + Xtream Codes", "HLS / M3U8 / RTSP", "图片、网页、PDF、音乐"],
-			imageIndex: 8, imageAlt: "在同一个工作台中查看视频、图片、网页和 PDF", linkLabel: "了解媒体与直播支持", linkPath: "features/iptv-streaming",
+			imageIndex: 8, imageAlt: "在同一个工作台中查看视频、图片、网页和 PDF",
+			visualSrc: "/assets/chapters/chapter-media.jpg",
+			visualCaption: "同时查看 PDF、网页与写真图片",
+			linkLabel: "了解媒体与直播支持", linkPath: "features/iptv-streaming",
 		},
 	],
 	useCases: {
@@ -564,23 +581,6 @@ const zhHans: MarketingContent = {
 			{ label: "直播流、PDF 与网页", values: ["部分支持", "缺少", "内置"] },
 		],
 		note: "“部分支持”和“手动”描述常见工作流，具体播放器或编辑器可能有所不同。",
-	},
-	trust: {
-		eyebrow: "长期可用的工具", title: "专业控制，也说明真实边界。",
-		description: "实际播放能力仍会受到设备、文件格式和清晰度影响。App 的目标是让复杂的多画面工作台更容易管理。",
-		items: [
-			{ value: "不收集", title: "App 数据", description: "当前 App Store 隐私标签显示，开发者不会通过此 App 收集数据。" },
-			{ value: "iOS 15+", title: "广泛设备支持", description: "支持 iPhone 与 iPad，也兼容 Apple 芯片 Mac 和 Apple Vision。" },
-			{ value: "1.0.26", title: "持续更新", description: "近期加入更稳定的同步校正、拖放换位和悬浮视频控制。" },
-		],
-	},
-	steps: {
-		eyebrow: "60 秒完成设置", title: "打开、排列，然后播放。",
-		items: [
-			{ title: "选择内容来源", description: "选择视频、文件夹、链接、直播流、图片、PDF 或网页。" },
-			{ title: "选择布局", description: "从 144 种布局开始，或者创建自己的分屏排列。" },
-			{ title: "同步并回看", description: "锁定进度、设置同步点，查看你真正关心的那个瞬间。" },
-		],
 	},
 	closing: {
 		eyebrow: "你的多画面工作台从这里开始", title: "看见完整的瞬间。",
@@ -766,17 +766,39 @@ const zhHant: MarketingContent = {
 	hero: {
 		eyebrow: "多影片工作台 · iPhone + iPad",
 		title: "一屏看多片\n體驗爽翻天",
-		description: "在一個畫面上播放、對齊、比較並匯出最多 36 支影片。看清一般播放器會漏掉的那個瞬間。",
+		description: "在一個畫面上播放、對齊、比較並匯出最多 36 支影片。橫屏、直屏共 144 種排版，想怎麼看就怎麼看。還可以同時查看圖片、直播串流、網頁和 PDF，邊看邊聽音樂。",
 		primaryCta: "免費下載",
-		secondaryCta: "觀看產品示範",
-		ratingText: "4.4 ★ · 24 個評分",
+		ratingText: "4.8 ★ · 63 個評分",
 		privacyText: "不收集資料",
-		filmLabel: "分屏播放器實機示範",
-		filmTitle: "多個畫面，一條時間軸。",
-		soundHint: "點一下播放器即可開啟聲音",
+		soundHint: "使用分屏播放器同時觀看 3 個影片",
 	},
 	capabilitiesLabel: "工作台能力",
-	capabilities: ["同步點", "同步鎖定", "逐格回看", "自訂排版", "IPTV + Xtream", "外接螢幕", "分屏匯出"],
+	capabilities: [
+		"2～36 支影片",
+		"144 種排版",
+		"自訂排版",
+		"橫向與直向",
+		"影片播放清單",
+		"排序與隨機播放",
+		"循環播放",
+		"全域播放控制",
+		"同步點",
+		"同步鎖定",
+		"逐格回看",
+		"毫秒級時間",
+		"音量均衡",
+		"多比例匯出",
+		"裁切與變速",
+		"BGM 與音訊混合",
+		"MP4 · MOV · MKV · WebM",
+		"HLS · M3U8 · RTSP",
+		"外接螢幕",
+		"書籤還原",
+		"存檔點",
+		"圖片 · PDF · 網頁",
+		"自訂底部工具列",
+		"定時關閉",
+	],
 	chapters: zhTraditionalBase.chapters.map((chapter) => ({
 		...chapter,
 		kicker: chapter.kicker.replace("播放", "播放").replace("同步", "同步").replace("回看", "回看").replace("导出", "匯出").replace("来源", "來源"),
@@ -796,6 +818,7 @@ const zhHant: MarketingContent = {
 						"144 種排版 + 自訂排版",
 						"橫向與直向",
 						"支援 iPad",
+						"支援投放播放",
 					],
 				}
 			: {}),
@@ -841,7 +864,7 @@ const zhHant: MarketingContent = {
 					kicker: "影片 · 圖片 · 網頁 · 直播 · PDF · 音樂",
 					title: "不只影片，更是多工工作台。",
 					description:
-						"在同一個排版中組合本機影片、HLS、M3U8、RTSP、IPTV、Xtream 頻道、圖片、網頁、PDF 和音樂。",
+						"在同一個排版中組合本機影片、直播、RTSP、Xtream 頻道、圖片、網頁、PDF 和音樂。",
 					points: [
 						"IPTV + Xtream Codes",
 						"HLS / M3U8 / RTSP",
@@ -873,23 +896,6 @@ const zhHant: MarketingContent = {
 			{ label: "直播串流、PDF 與網頁", values: ["部分支援", "缺少", "內建"] },
 		],
 		note: "「部分支援」和「手動」描述常見工作流程，具體播放器或編輯器可能有所不同。",
-	},
-	trust: {
-		eyebrow: "長期可用的工具", title: "專業控制，也說明真實邊界。",
-		description: "實際播放能力仍會受到裝置、檔案格式和解析度影響。App 的目標是讓複雜的多畫面工作台更容易管理。",
-		items: [
-			{ value: "不收集", title: "App 資料", description: "目前 App Store 隱私標籤顯示，開發者不會透過此 App 收集資料。" },
-			{ value: "iOS 15+", title: "廣泛裝置支援", description: "支援 iPhone 與 iPad，也相容 Apple 晶片 Mac 和 Apple Vision。" },
-			{ value: "1.0.26", title: "持續更新", description: "近期加入更穩定的同步校正、拖放換位和懸浮影片控制。" },
-		],
-	},
-	steps: {
-		eyebrow: "60 秒完成設定", title: "開啟、排列，然後播放。",
-		items: [
-			{ title: "選擇內容來源", description: "選擇影片、資料夾、連結、直播串流、圖片、PDF 或網頁。" },
-			{ title: "選擇排版", description: "從 144 種排版開始，或者建立自己的分屏排列。" },
-			{ title: "同步並回看", description: "鎖定進度、設定同步點，查看你真正關心的那個瞬間。" },
-		],
 	},
 	closing: {
 		eyebrow: "你的多畫面工作台從這裡開始", title: "看見完整的瞬間。",

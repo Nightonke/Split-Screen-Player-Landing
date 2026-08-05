@@ -43,8 +43,8 @@ export const siteConfig = {
 
 	/** App rating and reviews */
 	rating: {
-		score: 4.4,
-		count: "24",
+		score: 4.8,
+		count: "63",
 	},
 
 	/** Age rating (e.g., 4+, 12+, 17+) */
