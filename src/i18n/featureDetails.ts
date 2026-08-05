@@ -1,4 +1,5 @@
 import * as OpenCC from "opencc-js";
+import { mediaAsset } from "@config/media";
 import type { FeatureSlug } from "./marketing";
 import type { Locale } from "./locales";
 
@@ -57,7 +58,7 @@ export interface RichFeaturePage {
 
 const image = (src: string, alt: string, width = 720, height = 1564): FeatureMedia => ({
 	kind: "image",
-	src,
+	src: mediaAsset(src),
 	alt,
 	width,
 	height,
@@ -68,8 +69,8 @@ const chapterImage = (src: string, alt: string): FeatureMedia =>
 
 const video = (src: string, poster: string, alt: string): FeatureMedia => ({
 	kind: "video",
-	src,
-	poster,
+	src: mediaAsset(src),
+	poster: mediaAsset(poster),
 	alt,
 	width: 1280,
 	height: 590,

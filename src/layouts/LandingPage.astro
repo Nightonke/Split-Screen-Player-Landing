@@ -1,6 +1,7 @@
 ---
 import type { LanguageLink } from "@/types/content";
 import type { landingContent } from "@/i18n/content";
+import { mediaAsset } from "@config/media";
 import { localizedPath } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import { FaApple } from "react-icons/fa";
@@ -22,9 +23,9 @@ const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
 const canonicalHome = new URL(homeHref, siteURL).href;
 const storeURL = content.storeLinks.apple;
 const useCaseVisuals = [
-	"/assets/use-cases/sports-multi-view.jpg",
-	"/assets/use-cases/music-multi-view.jpg",
-	"/assets/chapters/chapter-media.jpg",
+	mediaAsset("use-cases/sports-multi-view.jpg"),
+	mediaAsset("use-cases/music-multi-view.jpg"),
+	mediaAsset("chapters/chapter-media.jpg"),
 ];
 
 const structuredData = [

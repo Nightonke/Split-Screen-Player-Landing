@@ -1,6 +1,7 @@
 ---
 import { landingContent } from "@/i18n/content";
 import { featureDetails } from "@/i18n/featureDetails";
+import { mediaAsset } from "@config/media";
 import {
 	featureSlugs,
 	marketingContent,
@@ -38,16 +39,16 @@ const richPage =
 		? featureDetails[locale][slug as FeatureSlug]
 		: undefined;
 const useCaseHeroImages: Record<UseCaseSlug, string> = {
-	"sports-motion-analysis": "/assets/use-cases/sports-multi-view.jpg",
-	"multi-angle-review": "/assets/use-cases/music-multi-view.jpg",
-	"learning-reference": "/assets/chapters/chapter-media.jpg",
+	"sports-motion-analysis": mediaAsset("use-cases/sports-multi-view.jpg"),
+	"multi-angle-review": mediaAsset("use-cases/music-multi-view.jpg"),
+	"learning-reference": mediaAsset("chapters/chapter-media.jpg"),
 };
 const featureHeroImages: Record<FeatureSlug, string> = {
-	"multi-video-player": "/assets/videos/chapter-play-poster.jpg",
-	"global-video-controls": "/assets/chapters/chapter-control.jpg",
-	"video-sync-comparison": "/assets/chapters/chapter-sync.jpg",
-	"split-screen-export": "/assets/chapters/chapter-export.jpg",
-	"iptv-streaming": "/assets/chapters/chapter-media.jpg",
+	"multi-video-player": mediaAsset("videos/chapter-play-poster.jpg"),
+	"global-video-controls": mediaAsset("chapters/chapter-control.jpg"),
+	"video-sync-comparison": mediaAsset("chapters/chapter-sync.jpg"),
+	"split-screen-export": mediaAsset("chapters/chapter-export.jpg"),
+	"iptv-streaming": mediaAsset("chapters/chapter-media.jpg"),
 };
 const fallbackHeroImage =
 	category === "use-cases"

@@ -6,6 +6,7 @@ import type {
 	StoreData,
 	UiLabels,
 } from "@/types/content";
+import { mediaAsset } from "@config/media";
 import type { Locale } from "./locales";
 
 interface LocalizedLandingContent extends StoreData {
@@ -45,8 +46,8 @@ const sharedStoreData = {
 	minimumOS: "15.0",
 	releaseDate: "August 4, 2026",
 	appPreview: {
-		videoSrc: "/assets/videos/app-preview-iphone.mp4",
-		posterSrc: "/assets/videos/app-preview-iphone-poster.jpg",
+		videoSrc: mediaAsset("videos/app-preview-iphone.mp4"),
+		posterSrc: mediaAsset("videos/app-preview-iphone-poster.jpg"),
 	},
 } as const;
 

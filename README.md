@@ -74,6 +74,11 @@ Static assets live in:
 - `public/assets/features/`
 - `public/assets/use-cases/`
 
+Large images and videos are delivered from the versioned Vercel CDN base URL
+configured in `src/config/media.ts`. The copies under `public/assets/` remain
+available for rollback. To build against the local copies instead, set
+`PUBLIC_MEDIA_BASE_URL=/assets`.
+
 Legal page copy is generated from `src/i18n/content.ts`.
 
 ## App Store Data
