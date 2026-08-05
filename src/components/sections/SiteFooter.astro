@@ -50,6 +50,7 @@ const year = new Date().getFullYear();
 					<a
 						href={link.href}
 						hreflang={link.hrefLang}
+						data-locale-choice={link.locale}
 						aria-current={link.isActive ? "page" : undefined}
 					>
 						{link.label}

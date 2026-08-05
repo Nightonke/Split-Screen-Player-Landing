@@ -181,9 +181,9 @@ const zhHantLabels: UiLabels = {
 
 const enFeatures: Feature[] = [
 	{
-		title: "🎬 36 Videos, 134 Layouts",
+		title: "🎬 36 Videos, 144 Layouts",
 		description:
-			"Play 2 to 36 videos in portrait or landscape with 134 built-in layouts, plus custom layouts for your own split-screen setups.",
+			"Play 2 to 36 videos in portrait or landscape with 144 built-in layouts, plus custom layouts for your own split-screen setups.",
 		icon: "FiGrid",
 	},
 	{
@@ -238,9 +238,9 @@ const enFeatures: Feature[] = [
 
 const zhHansFeatures: Feature[] = [
 	{
-		title: "🎬 36 个视频，134 种布局",
+		title: "🎬 36 个视频，144 种布局",
 		description:
-			"支持横屏和竖屏同时播放 2～36 个视频，内置 134 种布局，也可以创建自己的自定义分屏布局。",
+			"支持横屏和竖屏同时播放 2～36 个视频，内置 144 种布局，也可以创建自己的自定义分屏布局。",
 		icon: "FiGrid",
 	},
 	{
@@ -295,9 +295,9 @@ const zhHansFeatures: Feature[] = [
 
 const zhHantFeatures: Feature[] = [
 	{
-		title: "🎬 36 支影片，134 種排版",
+		title: "🎬 36 支影片，144 種排版",
 		description:
-			"支援橫向和直向同時播放 2～36 支影片，內建 134 種排版，也可以建立自己的自訂分屏排版。",
+			"支援橫向和直向同時播放 2～36 支影片，內建 144 種排版，也可以建立自己的自訂分屏排版。",
 		icon: "FiGrid",
 	},
 	{
@@ -354,7 +354,7 @@ const enFaqs: FAQ[] = [
 	{
 		question: "How many videos can I play at once?",
 		answer:
-			"Split Screen Player supports 2 to 36 videos at the same time with 134 built-in layouts and custom layouts. Actual playback performance depends on your device, video resolution, file format, and stream quality.",
+			"Split Screen Player supports 2 to 36 videos at the same time with 144 built-in layouts and custom layouts. Actual playback performance depends on your device, video resolution, file format, and stream quality.",
 	},
 	{
 		question: "Can I export the split-screen view as one video?",
@@ -382,7 +382,7 @@ const zhHansFaqs: FAQ[] = [
 	{
 		question: "最多可以同时播放多少个视频？",
 		answer:
-			"分屏播放器支持同时播放 2～36 个视频，内置 134 种布局，也支持自定义布局。实际播放表现会受设备性能、视频清晰度、文件格式和流媒体质量影响。",
+			"分屏播放器支持同时播放 2～36 个视频，内置 144 种布局，也支持自定义布局。实际播放表现会受设备性能、视频清晰度、文件格式和流媒体质量影响。",
 	},
 	{
 		question: "可以把分屏画面导出成一个视频吗？",
@@ -410,7 +410,7 @@ const zhHantFaqs: FAQ[] = [
 	{
 		question: "最多可以同時播放多少支影片？",
 		answer:
-			"分屏播放器支援同時播放 2～36 支影片，內建 134 種排版，也支援自訂排版。實際播放表現會受裝置效能、影片解析度、檔案格式和串流品質影響。",
+			"分屏播放器支援同時播放 2～36 支影片，內建 144 種排版，也支援自訂排版。實際播放表現會受裝置效能、影片解析度、檔案格式和串流品質影響。",
 	},
 	{
 		question: "可以把分屏畫面匯出成一個影片嗎？",
@@ -714,16 +714,16 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		name: "Split Screen Player: 36 Videos",
 		shortName: "Split Screen Player",
 		description:
-			"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 134 layouts, and turn split-screen views into shareable videos.",
+			"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 144 layouts, and turn split-screen views into shareable videos.",
 		seoTitle:
 			"Split Screen Player: Play, Sync & Export 36 Videos",
 		metaDescription:
-			"Play, sync, compare, and export up to 36 videos on one screen with 134 layouts, frame-level controls, IPTV, and custom multi-view workspaces.",
+			"Play, sync, compare, and export up to 36 videos on one screen with 144 layouts, frame-level controls, IPTV, and custom multi-view workspaces.",
 		keywords: [
 			"split screen player",
 			"36 videos",
 			"multi video player",
-			"134 layouts",
+			"144 layouts",
 			"video sync",
 			"compare videos",
 			"split screen export",
@@ -745,7 +745,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 			"en-US",
 			[
 				"Play multiple videos on one screen",
-				"Choose from 134 split-screen layouts",
+				"Choose from 144 split-screen layouts",
 				"Create custom video layouts",
 				"Sync playback and compare clips",
 				"Export split-screen views as one video",
@@ -757,7 +757,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 			],
 			[
 				"iPad multi-video playback workspace",
-				"iPad 134 layout picker",
+				"iPad 144 layout picker",
 				"iPad custom split-screen layout editor",
 				"iPad synchronized playback comparison",
 				"iPad split-screen video export",
@@ -776,17 +776,17 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		name: "分屏播放器：36 个视频",
 		shortName: "分屏播放器",
 		description:
-			"在同一屏幕上播放、对比、同步和导出多个视频。最多同时播放 36 个视频，提供 134 种布局，并可将分屏画面合成为可分享的视频。",
+			"在同一屏幕上播放、对比、同步和导出多个视频。最多同时播放 36 个视频，提供 144 种布局，并可将分屏画面合成为可分享的视频。",
 		seoTitle: "iPhone 与 iPad 多视频播放器｜同步、对比与分屏导出",
 		metaDescription:
-			"在 iPhone 和 iPad 上同时播放、同步、对比并导出最多 36 个视频，支持 134 种布局、逐帧控制、IPTV 与自定义多画面工作台。",
+			"在 iPhone 和 iPad 上同时播放、同步、对比并导出最多 36 个视频，支持 144 种布局、逐帧控制、IPTV 与自定义多画面工作台。",
 		keywords: [
 			"分屏",
 			"多窗",
 			"多视频",
 			"同时播放",
 			"36个视频",
-			"134种布局",
+			"144种布局",
 			"视频同步",
 			"视频对比",
 			"分屏导出",
@@ -808,7 +808,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 			"zh-Hans",
 			[
 				"同屏播放多个视频",
-				"选择 134 种分屏布局",
+				"选择 144 种分屏布局",
 				"创建自定义视频布局",
 				"同步播放并对比片段",
 				"将分屏画面导出成一个视频",
@@ -820,7 +820,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 			],
 			[
 				"iPad 多视频播放工作区",
-				"iPad 134 种布局选择",
+				"iPad 144 种布局选择",
 				"iPad 自定义分屏布局编辑",
 				"iPad 同步播放对比",
 				"iPad 分屏视频导出",
@@ -839,17 +839,17 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		name: "分屏播放器：36 支影片",
 		shortName: "分屏播放器",
 		description:
-			"在同一個畫面上播放、比較、同步和匯出多支影片。最多同時播放 36 支影片，提供 134 種排版，並可將分屏畫面合成為可分享的影片。",
+			"在同一個畫面上播放、比較、同步和匯出多支影片。最多同時播放 36 支影片，提供 144 種排版，並可將分屏畫面合成為可分享的影片。",
 		seoTitle: "iPhone 與 iPad 多影片播放器｜同步、比較與分屏匯出",
 		metaDescription:
-			"在 iPhone 和 iPad 上同時播放、同步、比較並匯出最多 36 支影片，支援 134 種排版、逐格控制、IPTV 與自訂多畫面工作台。",
+			"在 iPhone 和 iPad 上同時播放、同步、比較並匯出最多 36 支影片，支援 144 種排版、逐格控制、IPTV 與自訂多畫面工作台。",
 		keywords: [
 			"分屏",
 			"多視窗",
 			"多影片",
 			"同時播放",
 			"36支影片",
-			"134種排版",
+			"144種排版",
 			"影片同步",
 			"影片比較",
 			"分屏匯出",
@@ -871,7 +871,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 			"zh-Hant",
 			[
 				"同畫面播放多支影片",
-				"選擇 134 種分屏排版",
+				"選擇 144 種分屏排版",
 				"建立自訂影片排版",
 				"同步播放並比較片段",
 				"將分屏畫面匯出成一個影片",
@@ -883,7 +883,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 			],
 			[
 				"iPad 多影片播放工作區",
-				"iPad 134 種排版選擇",
+				"iPad 144 種排版選擇",
 				"iPad 自訂分屏排版編輯",
 				"iPad 同步播放比較",
 				"iPad 分屏影片匯出",

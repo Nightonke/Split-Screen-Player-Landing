@@ -400,6 +400,7 @@ a {
 
 .hero-title {
 	max-width: 8.7ch;
+	white-space: pre-line;
 }
 
 .hero-description {
@@ -1684,11 +1685,17 @@ a {
 	}
 
 	.header-actions {
+		gap: 6px;
 		padding-right: 6px;
 	}
 
 	.header-actions > .button {
-		display: none;
+		display: inline-flex;
+		min-height: 42px;
+		border-radius: 11px;
+		padding-inline: 0.85rem;
+		font-size: 0.78rem;
+		white-space: nowrap;
 	}
 
 	.mobile-menu > summary {
@@ -1924,6 +1931,16 @@ a {
 
 	.prose {
 		font-size: 1rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.brand-link {
+		gap: 0;
+	}
+
+	.brand-link span {
+		display: none;
 	}
 }
 

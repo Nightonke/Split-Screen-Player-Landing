@@ -93,7 +93,7 @@ const structuredData = [
 	privacyHref={privacyHref}
 	termsHref={termsHref}
 	labels={content.labels}
-	ogImageAlt={`${content.shortName} — ${marketing.hero.title}`}
+	ogImageAlt={`${content.shortName} — ${marketing.hero.title.replace(/\n/g, " ")}`}
 	structuredData={structuredData}
 >
 	<main id="main-content" class="landing-main">
@@ -172,14 +172,6 @@ const structuredData = [
 					</div>
 				</div>
 
-				<div class="stats" aria-label="Product highlights" data-reveal>
-					{marketing.stats.map((stat) => (
-						<div class="stat">
-							<strong>{stat.value}</strong>
-							<span>{stat.label}</span>
-						</div>
-					))}
-				</div>
 			</div>
 		</section>
 
@@ -193,28 +185,6 @@ const structuredData = [
 				))}
 			</div>
 		</div>
-
-		<section id="workflow" class="section">
-			<div class="site-shell">
-				<div class="section-heading">
-					<div>
-						<p class="section-kicker">{marketing.workflow.eyebrow}</p>
-						<h2 class="section-title">{marketing.workflow.title}</h2>
-					</div>
-					<p class="section-lede">{marketing.workflow.description}</p>
-				</div>
-
-				<div class="workflow-list" data-reveal>
-					{marketing.workflow.items.map((item, index) => (
-						<a class="workflow-item" href={item.target}>
-							<span class="workflow-number">0{index + 1}</span>
-							<strong>{item.title}</strong>
-							<p>{item.description}</p>
-						</a>
-					))}
-				</div>
-			</div>
-		</section>
 
 		<div id="features">
 			{marketing.chapters.map((chapter) => (

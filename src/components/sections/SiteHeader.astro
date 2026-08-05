@@ -9,7 +9,6 @@ interface Props {
 	languageLinks: LanguageLink[];
 	nav: {
 		features: string;
-		workflow: string;
 		useCases: string;
 		faq: string;
 		getApp: string;
@@ -33,7 +32,6 @@ const homeAnchor = (anchor: string) =>
 
 		<nav class="primary-nav" aria-label="Primary navigation">
 			<a href={homeAnchor("#features")}>{nav.features}</a>
-			<a href={homeAnchor("#workflow")}>{nav.workflow}</a>
 			<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
 			<a href={homeAnchor("#faq")}>{nav.faq}</a>
 		</nav>
@@ -46,6 +44,7 @@ const homeAnchor = (anchor: string) =>
 						<a
 							href={link.href}
 							hreflang={link.hrefLang}
+							data-locale-choice={link.locale}
 							aria-current={link.isActive ? "page" : undefined}
 						>
 							{link.label}
@@ -67,7 +66,6 @@ const homeAnchor = (anchor: string) =>
 				<summary>{nav.menu}</summary>
 				<nav class="mobile-popover" aria-label="Mobile navigation">
 					<a href={homeAnchor("#features")}>{nav.features}</a>
-					<a href={homeAnchor("#workflow")}>{nav.workflow}</a>
 					<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
 					<a href={homeAnchor("#faq")}>{nav.faq}</a>
 					<a href={storeHref} target="_blank" rel="noopener noreferrer">{nav.getApp}</a>
@@ -75,6 +73,7 @@ const homeAnchor = (anchor: string) =>
 						<a
 							href={link.href}
 							hreflang={link.hrefLang}
+							data-locale-choice={link.locale}
 							aria-current={link.isActive ? "page" : undefined}
 						>
 							{link.label}

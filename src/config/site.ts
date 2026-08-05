@@ -11,14 +11,14 @@ export const siteConfig = {
 
 	/** Brief app description shown in the hero section and meta tags */
 	description:
-		"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 134 layouts, and turn split-screen views into shareable videos.",
+		"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 144 layouts, and turn split-screen views into shareable videos.",
 
 	/** SEO keywords for better search engine visibility */
 	keywords: [
 		"split screen player",
 		"36 videos",
 		"multi video player",
-		"134 layouts",
+		"144 layouts",
 		"video sync",
 		"compare videos",
 		"split screen export",
