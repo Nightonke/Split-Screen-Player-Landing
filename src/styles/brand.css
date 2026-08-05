@@ -132,9 +132,10 @@ a {
 	gap: 10px;
 	width: fit-content;
 	padding: 9px 14px;
-	font-family: var(--display);
+	font-family: var(--body);
 	font-size: 1rem;
-	letter-spacing: -0.035em;
+	font-weight: 850;
+	letter-spacing: -0.02em;
 }
 
 .brand-link img {
@@ -212,6 +213,10 @@ a {
 .language-menu > summary::-webkit-details-marker,
 .mobile-menu > summary::-webkit-details-marker {
 	display: none;
+}
+
+.language-menu > summary {
+	font-size: 0.88rem;
 }
 
 .language-popover {
