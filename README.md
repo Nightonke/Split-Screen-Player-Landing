@@ -8,9 +8,9 @@ The site is built with Astro, React, TypeScript, and Tailwind CSS, then deployed
 
 - App: Split Screen Player: 36 Videos
 - Version: 1.0.20
-- Updated: June 25, 2026
-- Rating copy: 4.5 / 15 ratings
-- Core message: play, compare, sync, and export up to 36 videos with 134 layouts
+- Updated: August 3, 2026
+- Rating copy: 4.8 / 63 ratings
+- Core message: play, compare, sync, and export up to 36 videos with 144 layouts
 - New release highlight: IPTV / Xtream Codes live channel support
 
 ## Languages

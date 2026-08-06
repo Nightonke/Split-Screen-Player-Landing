@@ -30,7 +30,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "astro build",
+		"build": "node scripts/check-content-consistency.mjs && astro build",
 		"preview": "astro preview",
 		"toolbar:disable": "astro preferences disable devToolbar",
 		"toolbar:enable": "astro preferences enable devToolbar"

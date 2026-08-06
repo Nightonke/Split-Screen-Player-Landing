@@ -11,6 +11,7 @@ interface Props {
 	nav: {
 		features: string;
 		useCases: string;
+		guides: string;
 		faq: string;
 		getApp: string;
 		menu: string;
@@ -22,6 +23,7 @@ const currentLanguage =
 	languageLinks.find((link) => link.isActive)?.label ?? languageLinks[0]?.label;
 const homeAnchor = (anchor: string) =>
 	homeHref === "/" ? `/${anchor}` : `${homeHref}${anchor}`;
+const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 ---
 
 <div class="site-header-wrap">
@@ -34,6 +36,7 @@ const homeAnchor = (anchor: string) =>
 		<nav class="primary-nav" aria-label="Primary navigation">
 			<a href={homeAnchor("#features")}>{nav.features}</a>
 			<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
+			<a href={guidesHref}>{nav.guides}</a>
 			<a href={homeAnchor("#faq")}>{nav.faq}</a>
 		</nav>
 
@@ -70,6 +73,7 @@ const homeAnchor = (anchor: string) =>
 				<nav class="mobile-popover" aria-label="Mobile navigation">
 					<a href={homeAnchor("#features")}>{nav.features}</a>
 					<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
+					<a href={guidesHref}>{nav.guides}</a>
 					<a href={homeAnchor("#faq")}>{nav.faq}</a>
 					<a href={storeHref} target="_blank" rel="noopener noreferrer">{nav.getApp}</a>
 					{languageLinks.map((link) => (

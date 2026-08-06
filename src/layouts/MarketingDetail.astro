@@ -1,6 +1,7 @@
 ---
 import { landingContent } from "@/i18n/content";
 import { featureDetails } from "@/i18n/featureDetails";
+import { guideContent, guideSlugs } from "@/i18n/guides";
 import { mediaAsset } from "@config/media";
 import {
 	featureSlugs,
@@ -26,6 +27,7 @@ interface Props {
 const { locale, category, slug, page, languageLinks } = Astro.props;
 const content = landingContent[locale];
 const marketing = marketingContent[locale];
+const guides = guideContent[locale];
 const homeHref = localizedPath(locale);
 const pagePath = `${category}/${slug}`;
 const pageHref = localizedPath(locale, pagePath);
@@ -34,6 +36,14 @@ const categoryLabel =
 const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
 const relatedFeatureSlugs = featureSlugs.filter((item) => item !== slug);
 const relatedUseCaseSlugs = useCaseSlugs.filter((item) => item !== slug).slice(0, 3);
+const relatedGuideSlugs = guideSlugs
+	.filter((guideSlug) => {
+		const guide = guides.pages[guideSlug];
+		return category === "features"
+			? guide.relatedFeature === slug
+			: guide.relatedUseCase === slug;
+	})
+	.slice(0, 3);
 const richPage =
 	category === "features"
 		? featureDetails[locale][slug as FeatureSlug]
@@ -386,6 +396,11 @@ const structuredData = [
 					{relatedUseCaseSlugs.map((relatedSlug) => (
 						<a href={localizedPath(locale, `use-cases/${relatedSlug}`)}>
 							{marketing.details.useCases[relatedSlug].kindLabel}
+						</a>
+					))}
+					{relatedGuideSlugs.map((relatedSlug) => (
+						<a href={localizedPath(locale, `guides/${relatedSlug}`)}>
+							{guides.pages[relatedSlug].title}
 						</a>
 					))}
 				</div>

@@ -1,0 +1,117 @@
+---
+import { landingContent } from "@/i18n/content";
+import { guideContent, guideSlugs } from "@/i18n/guides";
+import { localizedPath, type Locale } from "@/i18n/locales";
+import type { LanguageLink } from "@/types/content";
+import { FaApple } from "react-icons/fa";
+import Layout from "./Layout.astro";
+
+interface Props {
+	locale: Locale;
+	languageLinks: LanguageLink[];
+}
+
+const { locale, languageLinks } = Astro.props;
+const content = landingContent[locale];
+const guides = guideContent[locale];
+const homeHref = localizedPath(locale);
+const guidesHref = localizedPath(locale, "guides");
+const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
+
+const structuredData = [
+	{
+		"@context": "https://schema.org",
+		"@type": "CollectionPage",
+		name: guides.hub.title,
+		description: guides.hub.metaDescription,
+		url: new URL(guidesHref, siteURL).href,
+		inLanguage: content.htmlLang,
+		isPartOf: {
+			"@type": "WebSite",
+			name: content.shortName,
+			url: new URL(homeHref, siteURL).href,
+		},
+	},
+	{
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		itemListElement: guideSlugs.map((slug, index) => ({
+			"@type": "ListItem",
+			position: index + 1,
+			name: guides.pages[slug].title,
+			url: new URL(localizedPath(locale, `guides/${slug}`), siteURL).href,
+		})),
+	},
+];
+---
+
+<Layout
+	title={guides.hub.seoTitle}
+	description={guides.hub.metaDescription}
+	lang={content.htmlLang}
+	alternates={languageLinks}
+	appData={content}
+	homeHref={homeHref}
+	privacyHref={localizedPath(locale, "privacy")}
+	termsHref={localizedPath(locale, "terms")}
+	labels={content.labels}
+	ogImageAlt={`${content.shortName} — ${guides.hub.title}`}
+	structuredData={structuredData}
+>
+	<main id="main-content" class="detail-main guide-hub">
+		<div class="site-shell">
+			<nav class="detail-breadcrumb" aria-label="Breadcrumb">
+				<a href={homeHref}>{guides.hub.homeLabel}</a>
+				<span aria-current="page">{guides.labels.guides}</span>
+			</nav>
+
+			<section class="guide-hub-hero">
+				<p class="eyebrow">{guides.hub.eyebrow}</p>
+				<h1 class="display-title">{guides.hub.title}</h1>
+				<p class="detail-intro">{guides.hub.description}</p>
+			</section>
+
+			<section class="guide-grid" aria-label={guides.labels.guides}>
+				{guideSlugs.map((slug, index) => {
+					const guide = guides.pages[slug];
+					return (
+						<a
+							class="guide-card"
+							href={localizedPath(locale, `guides/${slug}`)}
+							data-reveal
+						>
+							<span class="guide-card-number">{String(index + 1).padStart(2, "0")}</span>
+							<p class="section-kicker">{guide.eyebrow}</p>
+							<h2>{guide.title}</h2>
+							<p>{guide.summary}</p>
+							<span class="text-link">{guides.hub.readLabel}</span>
+						</a>
+					);
+				})}
+			</section>
+		</div>
+
+		<section class="section closing">
+			<div class="site-shell closing-panel" data-reveal>
+				<p class="eyebrow">{content.shortName}</p>
+				<h2 class="section-title">
+					{locale === "en-US"
+						? "Put the guide into practice."
+						: locale === "zh-Hans"
+							? "现在就把教程用起来。"
+							: "現在就把教學用起來。"}
+				</h2>
+				<p class="section-lede">{content.description}</p>
+				<a
+					class="button button-dark"
+					href={content.storeLinks.apple}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<FaApple aria-hidden="true" />
+					{locale === "en-US" ? "Download free" : locale === "zh-Hans" ? "免费下载" : "免費下載"}
+				</a>
+			</div>
+		</section>
+	</main>
+</Layout>

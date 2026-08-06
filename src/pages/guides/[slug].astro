@@ -1,0 +1,14 @@
+---
+import { guideSlugs, type GuideSlug } from "@/i18n/guides";
+import { defaultLocale, getLanguageLinks } from "@/i18n/locales";
+import GuideDetail from "@layouts/GuideDetail.astro";
+
+export function getStaticPaths() {
+	return guideSlugs.map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params as { slug: GuideSlug };
+const languageLinks = getLanguageLinks(defaultLocale, `guides/${slug}`);
+---
+
+<GuideDetail locale={defaultLocale} slug={slug} languageLinks={languageLinks} />

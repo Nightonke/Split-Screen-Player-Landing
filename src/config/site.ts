@@ -1,8 +1,9 @@
 import { socialLinks } from "./socialLinks";
+import { appFacts } from "./appFacts";
 
 export const storeDataConfig = {
 	fetchRealData: false, // Set to true to fetch real data from App Store
-	appStoreAppId: 6758291951, // Numeric App ID (without "id" prefix)
+	appStoreAppId: appFacts.appStoreAppId, // Numeric App ID (without "id" prefix)
 };
 
 export const siteConfig = {
@@ -11,14 +12,14 @@ export const siteConfig = {
 
 	/** Brief app description shown in the hero section and meta tags */
 	description:
-		"Play, compare, sync, and export multiple videos on one screen. Watch up to 36 videos, choose from 144 layouts, and turn split-screen views into shareable videos.",
+		`Play, compare, sync, and export multiple videos on one screen. Watch up to ${appFacts.maxVideos} videos, choose from ${appFacts.layoutCount} layouts, and turn split-screen views into shareable videos.`,
 
 	/** SEO keywords for better search engine visibility */
 	keywords: [
 		"split screen player",
-		"36 videos",
+		`${appFacts.maxVideos} videos`,
 		"multi video player",
-		"144 layouts",
+		`${appFacts.layoutCount} layouts`,
 		"video sync",
 		"compare videos",
 		"split screen export",
@@ -38,26 +39,23 @@ export const siteConfig = {
 
 	/** App store download links */
 	storeLinks: {
-		apple: "https://apps.apple.com/app/id6758291951",
+		apple: appFacts.appStoreUrl,
 	},
 
 	/** App rating and reviews */
-	rating: {
-		score: 4.8,
-		count: "63",
-	},
+	rating: appFacts.rating,
 
 	/** Age rating (e.g., 4+, 12+, 17+) */
-	ageRating: "4+",
+	ageRating: appFacts.ageRating,
 
 	/** App version */
-	version: "1.0.26",
+	version: appFacts.version,
 
 	/** Minimum iOS version required */
-	minimumOS: "15.0",
+	minimumOS: appFacts.minimumOS,
 
 	/** Last update date */
-	releaseDate: "August 4, 2026",
+	releaseDate: appFacts.releaseDateLabel,
 
 	/** Social media links (edit in socialLinks.ts) */
 	socialLinks,

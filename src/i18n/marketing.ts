@@ -1,5 +1,6 @@
 import type { Locale } from "./locales";
 import { mediaAsset } from "@config/media";
+import { appFacts } from "@config/appFacts";
 import * as OpenCC from "opencc-js";
 
 export const featureSlugs = [
@@ -38,6 +39,7 @@ export interface MarketingContent {
 	nav: {
 		features: string;
 		useCases: string;
+		guides: string;
 		faq: string;
 		getApp: string;
 		menu: string;
@@ -113,6 +115,7 @@ const en: MarketingContent = {
 	nav: {
 		features: "Features",
 		useCases: "Use cases",
+		guides: "Guides",
 		faq: "FAQ",
 		getApp: "Get the app",
 		menu: "Menu",
@@ -123,7 +126,7 @@ const en: MarketingContent = {
 		description:
 			"Play, align, compare, and export up to 36 videos on one screen. Choose from 144 portrait and landscape layouts, then mix in images, live streams, web pages, PDFs, and music.",
 		primaryCta: "Download free",
-		ratingText: "4.8 ★ from 63 ratings",
+		ratingText: `${appFacts.rating.score} ★ from ${appFacts.rating.count} ratings`,
 		privacyText: "No data collected",
 		soundHint: "Watch 3 videos at once with Split Screen Player",
 	},
@@ -501,13 +504,13 @@ const en: MarketingContent = {
 };
 
 const zhHans: MarketingContent = {
-	nav: { features: "功能", useCases: "使用场景", faq: "常见问题", getApp: "下载 App", menu: "菜单" },
+	nav: { features: "功能", useCases: "使用场景", guides: "教程", faq: "常见问题", getApp: "下载 App", menu: "菜单" },
 	hero: {
 		eyebrow: "多视频工作台 · iPhone + iPad",
 		title: "一屏看多片\n体验爽翻天",
 		description: "在一个屏幕上播放、对齐、对比和导出最多 36 个视频。横屏、竖屏共 144 种布局，想怎么看就怎么看。还可以同时查看图片、直播、网页和 PDF，边看边听音乐。",
 		primaryCta: "免费下载",
-		ratingText: "4.8 ★ · 63 个评分",
+		ratingText: `${appFacts.rating.score} ★ · ${appFacts.rating.count} 个评分`,
 		privacyText: "不收集数据",
 		soundHint: "使用分屏播放器同时观看3个视频",
 	},
@@ -802,13 +805,13 @@ const zhTraditionalBase = convertToTraditional(zhHans) as MarketingContent;
 
 const zhHant: MarketingContent = {
 	...zhTraditionalBase,
-	nav: { features: "功能", useCases: "使用情境", faq: "常見問題", getApp: "下載 App", menu: "選單" },
+	nav: { features: "功能", useCases: "使用情境", guides: "教學", faq: "常見問題", getApp: "下載 App", menu: "選單" },
 	hero: {
 		eyebrow: "多影片工作台 · iPhone + iPad",
 		title: "一屏看多片\n體驗爽翻天",
 		description: "在一個畫面上播放、對齊、比較並匯出最多 36 支影片。橫屏、直屏共 144 種排版，想怎麼看就怎麼看。還可以同時查看圖片、直播串流、網頁和 PDF，邊看邊聽音樂。",
 		primaryCta: "免費下載",
-		ratingText: "4.8 ★ · 63 個評分",
+		ratingText: `${appFacts.rating.score} ★ · ${appFacts.rating.count} 個評分`,
 		privacyText: "不收集資料",
 		soundHint: "使用分屏播放器同時觀看 3 個影片",
 	},

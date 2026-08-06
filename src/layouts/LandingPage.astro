@@ -2,6 +2,7 @@
 import type { LanguageLink } from "@/types/content";
 import type { landingContent } from "@/i18n/content";
 import { mediaAsset } from "@config/media";
+import { guideContent, guideSlugs } from "@/i18n/guides";
 import { localizedPath } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import { FaApple } from "react-icons/fa";
@@ -16,6 +17,7 @@ interface Props {
 
 const { content, languageLinks } = Astro.props;
 const marketing = marketingContent[content.locale];
+const guides = guideContent[content.locale];
 const homeHref = localizedPath(content.locale);
 const privacyHref = localizedPath(content.locale, "privacy");
 const termsHref = localizedPath(content.locale, "terms");
@@ -299,6 +301,46 @@ const structuredData = [
 							</div>
 						</a>
 					))}
+				</div>
+			</div>
+		</section>
+
+		<section id="guides" class="section guides-preview">
+			<div class="site-shell">
+				<div class="section-heading">
+					<div>
+						<p class="section-kicker">{guides.hub.eyebrow}</p>
+						<h2 class="section-title">{guides.hub.title}</h2>
+					</div>
+					<div>
+						<p class="section-lede">{guides.hub.description}</p>
+						<a class="text-link guides-all-link" href={localizedPath(content.locale, "guides")}>
+							{content.locale === "en-US"
+								? "View all guides"
+								: content.locale === "zh-Hans"
+									? "查看全部教程"
+									: "查看全部教學"}
+						</a>
+					</div>
+				</div>
+
+				<div class="guide-grid guide-grid--preview">
+					{guideSlugs.slice(0, 4).map((slug, index) => {
+						const guide = guides.pages[slug];
+						return (
+							<a
+								class="guide-card"
+								href={localizedPath(content.locale, `guides/${slug}`)}
+								data-reveal
+							>
+								<span class="guide-card-number">{String(index + 1).padStart(2, "0")}</span>
+								<p class="section-kicker">{guide.eyebrow}</p>
+								<h3>{guide.title}</h3>
+								<p>{guide.summary}</p>
+								<span class="text-link">{guides.hub.readLabel}</span>
+							</a>
+						);
+					})}
 				</div>
 			</div>
 		</section>

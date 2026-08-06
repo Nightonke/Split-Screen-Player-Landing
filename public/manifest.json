@@ -1,7 +1,7 @@
 {
   "name": "Split Screen Player: 36 Videos",
   "short_name": "Split Screen",
-  "description": "Play, sync, compare, and export up to 36 videos on one screen with 134 layouts and frame-level controls.",
+  "description": "Play, sync, compare, and export up to 36 videos on one screen with 144 layouts and frame-level controls.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f4f1e9",

@@ -1,0 +1,8 @@
+---
+import { defaultLocale, getLanguageLinks } from "@/i18n/locales";
+import GuideHub from "@layouts/GuideHub.astro";
+
+const languageLinks = getLanguageLinks(defaultLocale, "guides");
+---
+
+<GuideHub locale={defaultLocale} languageLinks={languageLinks} />

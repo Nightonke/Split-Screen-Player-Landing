@@ -7,6 +7,7 @@ import type {
 	UiLabels,
 } from "@/types/content";
 import { mediaAsset } from "@config/media";
+import { appFacts } from "@config/appFacts";
 import type { Locale } from "./locales";
 
 interface LocalizedLandingContent extends StoreData {
@@ -29,22 +30,19 @@ interface LocalizedLandingContent extends StoreData {
 	};
 }
 
-const appleStoreUrl =
-	"https://apps.apple.com/app/id6758291951";
-
 const sharedStoreData = {
 	logo: "/assets/favicon.png",
 	storeLinks: {
-		apple: appleStoreUrl,
+		apple: appFacts.appStoreUrl,
 	},
 	rating: {
-		score: 4.8,
-		count: "63",
+		score: appFacts.rating.score,
+		count: String(appFacts.rating.count),
 	},
-	ageRating: "4+",
-	version: "1.0.26",
-	minimumOS: "15.0",
-	releaseDate: "August 4, 2026",
+	ageRating: appFacts.ageRating,
+	version: appFacts.version,
+	minimumOS: appFacts.minimumOS,
+	releaseDate: appFacts.releaseDateLabel,
 	appPreview: {
 		videoSrc: mediaAsset("videos/app-preview-iphone.mp4"),
 		posterSrc: mediaAsset("videos/app-preview-iphone-poster.jpg"),
