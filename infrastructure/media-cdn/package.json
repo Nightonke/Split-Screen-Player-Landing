@@ -1,0 +1,15 @@
+{
+	"name": "split-screen-player-media-cdn",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "npm run verify-assets",
+		"sync-assets": "node scripts/sync-assets.mjs",
+		"test": "node --test",
+		"verify-assets": "node scripts/verify-assets.mjs"
+	},
+	"dependencies": {
+		"@vercel/functions": "^3.8.0"
+	}
+}

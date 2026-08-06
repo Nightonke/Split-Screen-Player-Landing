@@ -79,6 +79,11 @@ configured in `src/config/media.ts`. The copies under `public/assets/` remain
 available for rollback. To build against the local copies instead, set
 `PUBLIC_MEDIA_BASE_URL=/assets`.
 
+The Vercel media project uses the geo router in
+`infrastructure/media-cdn/`. Mainland China requests are redirected to the
+Tencent Cloud Hong Kong CDN; requests from other regions continue to use
+Vercel.
+
 Legal page copy is generated from `src/i18n/content.ts`.
 
 ## App Store Data
