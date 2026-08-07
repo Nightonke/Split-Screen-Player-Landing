@@ -649,7 +649,13 @@ html[lang^="zh"] .hero-title {
 	font-size: 0.58rem;
 	font-weight: 900;
 	letter-spacing: 0.07em;
-	white-space: nowrap;
+	display: block;
+	width: 100%;
+	padding-inline: 2px;
+	text-align: center;
+	white-space: normal;
+	overflow-wrap: anywhere;
+	word-break: break-word;
 	text-transform: uppercase;
 }
 
