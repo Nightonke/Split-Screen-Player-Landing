@@ -7,4 +7,9 @@ export default defineConfig({
   site: "https://splitscreenplayer.com",
   integrations: [react(), tailwind(), sitemap()],
   output: "static", // optional
+  vite: {
+    build: {
+      cssTarget: "safari15",
+    },
+  },
 });
