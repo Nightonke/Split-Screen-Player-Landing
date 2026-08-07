@@ -119,11 +119,17 @@ a {
 	min-height: 68px;
 	border: 1.5px solid var(--line);
 	border-radius: 21px;
-	background: rgba(255, 253, 247, 0.9);
-	background: color-mix(in srgb, var(--paper-strong) 88%, transparent);
+	background-color: rgba(255, 253, 247, 0.9);
 	box-shadow: 0 10px 35px rgba(23, 25, 22, 0.08);
+	-webkit-backdrop-filter: blur(18px);
 	backdrop-filter: blur(18px);
 	pointer-events: auto;
+}
+
+@supports (background-color: color-mix(in srgb, white, transparent)) {
+	.site-header {
+		background-color: color-mix(in srgb, var(--paper-strong) 88%, transparent);
+	}
 }
 
 .brand-link {
@@ -192,6 +198,7 @@ a {
 }
 
 .language-menu > summary,
+.mobile-language-menu > summary,
 .mobile-menu > summary {
 	display: flex;
 	align-items: center;
@@ -211,6 +218,7 @@ a {
 }
 
 .language-menu > summary::-webkit-details-marker,
+.mobile-language-menu > summary::-webkit-details-marker,
 .mobile-menu > summary::-webkit-details-marker {
 	display: none;
 }
@@ -296,6 +304,27 @@ a {
 .mobile-menu {
 	display: none;
 	position: relative;
+}
+
+.mobile-language-menu {
+	display: none;
+	position: relative;
+}
+
+.mobile-language-menu > summary,
+.mobile-menu > summary {
+	width: 46px;
+	padding: 0;
+}
+
+.mobile-language-menu > summary svg,
+.mobile-menu > summary svg {
+	width: 1.05rem;
+	height: 1.05rem;
+}
+
+.mobile-language-popover {
+	min-width: 190px;
 }
 
 .mobile-popover {
@@ -2101,6 +2130,10 @@ html[lang^="zh"] .hero-title {
 		display: block;
 	}
 
+	.mobile-language-menu {
+		display: block;
+	}
+
 	.language-menu {
 		display: none;
 	}
@@ -2239,9 +2272,11 @@ html[lang^="zh"] .hero-title {
 		white-space: nowrap;
 	}
 
+	.mobile-language-menu > summary,
 	.mobile-menu > summary {
+		width: 42px;
 		min-height: 42px;
-		padding-inline: 11px;
+		padding: 0;
 	}
 
 	.hero {
