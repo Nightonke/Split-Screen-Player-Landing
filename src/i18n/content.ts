@@ -8,7 +8,11 @@ import type {
 } from "@/types/content";
 import { mediaAsset } from "@config/media";
 import { appFacts } from "@config/appFacts";
-import type { Locale } from "./locales";
+import { localeMeta, type Locale } from "./locales";
+import {
+	localizeDeep,
+	type ExtendedLocale,
+} from "./translation";
 
 interface LocalizedLandingContent extends StoreData {
 	locale: Locale;
@@ -706,7 +710,7 @@ App 和網站按現狀提供。功能可能會變化，播放、匯出、串流�
 如有條款相關問題，請使用分屏播放器 App Store 產品頁中列出的支援管道。`,
 };
 
-export const landingContent: Record<Locale, LocalizedLandingContent> = {
+const coreLandingContent = {
 	"en-US": {
 		locale: "en-US",
 		htmlLang: "en",
@@ -895,4 +899,59 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 		),
 		legal: zhHantLegal,
 	},
+};
+
+const localizedProductNames: Record<
+	ExtendedLocale,
+	{ name: string; shortName: string }
+> = {
+	ja: {
+		name: "分割画面プレイヤー：最大36本の動画を並べて同時再生",
+		shortName: "分割画面プレイヤー",
+	},
+	ko: {
+		name: "분할 화면 플레이어: 최대 36개 동영상 동시 재생",
+		shortName: "분할 화면 플레이어",
+	},
+	fr: {
+		name: "Split Screen Player: 36 Videos",
+		shortName: "Split Screen Player",
+	},
+	de: {
+		name: "Split Screen Player: 36 Videos",
+		shortName: "Split Screen Player",
+	},
+	es: {
+		name: "Split Screen Player: 36 Videos",
+		shortName: "Split Screen Player",
+	},
+	"pt-BR": {
+		name: "Split Screen Player: 36 Videos",
+		shortName: "Split Screen Player",
+	},
+};
+
+const createExtendedLanding = (
+	locale: ExtendedLocale,
+): LocalizedLandingContent => {
+	const localized = localizeDeep(coreLandingContent["en-US"], locale);
+	const productNames = localizedProductNames[locale];
+
+	return {
+		...localized,
+		locale,
+		htmlLang: localeMeta[locale].htmlLang,
+		name: productNames.name,
+		shortName: productNames.shortName,
+	};
+};
+
+export const landingContent: Record<Locale, LocalizedLandingContent> = {
+	...coreLandingContent,
+	ja: createExtendedLanding("ja"),
+	ko: createExtendedLanding("ko"),
+	fr: createExtendedLanding("fr"),
+	de: createExtendedLanding("de"),
+	es: createExtendedLanding("es"),
+	"pt-BR": createExtendedLanding("pt-BR"),
 };

@@ -1,5 +1,6 @@
 ---
 import { landingContent } from "@/i18n/content";
+import { pageChrome } from "@/i18n/chrome";
 import { featureDetails } from "@/i18n/featureDetails";
 import { guideContent, guideSlugs } from "@/i18n/guides";
 import { mediaAsset } from "@config/media";
@@ -26,6 +27,7 @@ interface Props {
 
 const { locale, category, slug, page, languageLinks } = Astro.props;
 const content = landingContent[locale];
+const chrome = pageChrome[locale];
 const marketing = marketingContent[locale];
 const guides = guideContent[locale];
 const homeHref = localizedPath(locale);
@@ -128,7 +130,7 @@ const structuredData = [
 >
 	<main id="main-content" class="detail-main">
 		<div class="site-shell">
-			<nav class="detail-breadcrumb" aria-label="Breadcrumb">
+			<nav class="detail-breadcrumb" aria-label={chrome.breadcrumbLabel}>
 				<a href={homeHref}>{marketing.detailLabels.home}</a>
 				<a href={`${homeHref}#${category === "features" ? "features" : "use-cases"}`}>
 					{categoryLabel}
@@ -321,13 +323,7 @@ const structuredData = [
 					<section class="detail-section">
 						<div class="site-shell">
 							<p class="section-kicker">{marketing.detailLabels.howItWorks}</p>
-							<h2 class="section-title">
-								{locale === "en-US"
-									? "Three steps from source to clarity."
-									: locale === "zh-Hans"
-										? "三个步骤，从素材到清晰结论。"
-										: "三個步驟，從素材到清楚結論。"}
-							</h2>
+							<h2 class="section-title">{chrome.threeStepsHeading}</h2>
 							<div class="steps-list" style="margin-top: 50px">
 								{page.steps.map((item) => (
 									<article class="step-card" data-reveal>
@@ -348,7 +344,7 @@ const structuredData = [
 					<div class="site-shell">
 						<div class="feature-rich-heading">
 							<p class="section-kicker">
-								{locale === "en-US" ? "Bottom buttons" : locale === "zh-Hans" ? "底部按键" : "底部按鍵"}
+								{chrome.bottomButtons}
 							</p>
 							<h2 class="section-title">{richPage.buttonTable.title}</h2>
 							<p class="section-lede">{richPage.buttonTable.description}</p>

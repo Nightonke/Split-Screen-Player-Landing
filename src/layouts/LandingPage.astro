@@ -3,6 +3,7 @@ import type { LanguageLink } from "@/types/content";
 import type { landingContent } from "@/i18n/content";
 import { mediaAsset } from "@config/media";
 import { guideContent, guideSlugs } from "@/i18n/guides";
+import { pageChrome } from "@/i18n/chrome";
 import { localizedPath } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import { FaApple } from "react-icons/fa";
@@ -18,6 +19,7 @@ interface Props {
 const { content, languageLinks } = Astro.props;
 const marketing = marketingContent[content.locale];
 const guides = guideContent[content.locale];
+const chrome = pageChrome[content.locale];
 const homeHref = localizedPath(content.locale);
 const privacyHref = localizedPath(content.locale, "privacy");
 const termsHref = localizedPath(content.locale, "terms");
@@ -133,13 +135,7 @@ const structuredData = [
 									alt=""
 								/>
 								<span>
-									<strong>
-										{content.locale === "en-US"
-											? "Scan with iPhone"
-											: content.locale === "zh-Hans"
-												? "使用 iPhone 扫描"
-												: "使用 iPhone 掃描"}
-									</strong>
+									<strong>{chrome.scanWithIPhone}</strong>
 									<small>{marketing.nav.getApp}</small>
 								</span>
 							</a>
@@ -315,11 +311,7 @@ const structuredData = [
 					<div>
 						<p class="section-lede">{guides.hub.description}</p>
 						<a class="text-link guides-all-link" href={localizedPath(content.locale, "guides")}>
-							{content.locale === "en-US"
-								? "View all guides"
-								: content.locale === "zh-Hans"
-									? "查看全部教程"
-									: "查看全部教學"}
+							{chrome.viewAllGuides}
 						</a>
 					</div>
 				</div>
@@ -385,11 +377,9 @@ const structuredData = [
 			<div class="site-shell">
 				<p class="section-kicker" style="text-align: center">{content.labels.faq}</p>
 				<h2 class="section-title" style="margin-inline: auto; text-align: center">
-					{content.locale === "en-US"
-						? <>Before you try multi-video playback,<br />a few common questions.</>
-						: content.locale === "zh-Hans"
-							? <>第一次体验多视频同时播放之前，<br />常见的问题。</>
-							: <>第一次體驗多影片同時播放之前，<br />常見的問題。</>}
+					{chrome.faqHeading.split("\n").map((line, index) => (
+						<>{index > 0 && <br />}{line}</>
+					))}
 				</h2>
 				<div class="faq-list">
 					{content.faqs.map((item) => (

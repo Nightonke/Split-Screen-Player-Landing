@@ -1,5 +1,6 @@
 ---
 import { landingContent } from "@/i18n/content";
+import { pageChrome } from "@/i18n/chrome";
 import { guideContent, guideSlugs, type GuideSlug } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
@@ -17,6 +18,7 @@ const { locale, slug, languageLinks } = Astro.props;
 const content = landingContent[locale];
 const guides = guideContent[locale];
 const marketing = marketingContent[locale];
+const chrome = pageChrome[locale];
 const guide = guides.pages[slug];
 const homeHref = localizedPath(locale);
 const guidesHref = localizedPath(locale, "guides");
@@ -82,7 +84,7 @@ const structuredData = [
 >
 	<main id="main-content" class="detail-main guide-detail">
 		<div class="site-shell">
-			<nav class="detail-breadcrumb" aria-label="Breadcrumb">
+			<nav class="detail-breadcrumb" aria-label={chrome.breadcrumbLabel}>
 				<a href={homeHref}>{marketing.detailLabels.home}</a>
 				<a href={guidesHref}>{guides.labels.guides}</a>
 				<span aria-current="page">{guide.eyebrow}</span>
@@ -123,13 +125,7 @@ const structuredData = [
 			<div class="site-shell">
 				<div class="feature-rich-heading">
 					<p class="section-kicker">{guides.labels.tips}</p>
-					<h2 class="section-title">
-						{locale === "en-US"
-							? "Small choices make a clearer workspace."
-							: locale === "zh-Hans"
-								? "几个小细节，让工作台更清楚。"
-								: "幾個小細節，讓工作台更清楚。"}
-					</h2>
+					<h2 class="section-title">{chrome.guideTipsHeading}</h2>
 				</div>
 				<div class="feature-card-grid">
 					{guide.tips.map((tip, index) => (
@@ -171,13 +167,7 @@ const structuredData = [
 		<section class="section closing">
 			<div class="site-shell closing-panel" data-reveal>
 				<p class="eyebrow">{content.shortName}</p>
-				<h2 class="section-title">
-					{locale === "en-US"
-						? "Try the complete workflow on your own videos."
-						: locale === "zh-Hans"
-							? "用你自己的视频，体验完整工作流。"
-							: "用你自己的影片，體驗完整工作流程。"}
-				</h2>
+				<h2 class="section-title">{chrome.guideClosingTitle}</h2>
 				<p class="section-lede">{guide.summary}</p>
 				<a
 					class="button button-dark"
@@ -186,7 +176,7 @@ const structuredData = [
 					rel="noopener noreferrer"
 				>
 					<FaApple aria-hidden="true" />
-					{locale === "en-US" ? "Download free" : locale === "zh-Hans" ? "免费下载" : "免費下載"}
+					{chrome.downloadFree}
 				</a>
 			</div>
 		</section>

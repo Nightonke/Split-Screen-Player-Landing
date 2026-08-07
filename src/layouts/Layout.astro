@@ -3,10 +3,14 @@ import SiteFooter from "@/sections/SiteFooter.astro";
 import SiteHeader from "@/sections/SiteHeader.astro";
 import { siteConfig } from "@config/site";
 import { landingContent } from "@/i18n/content";
+import { pageChrome } from "@/i18n/chrome";
 import { marketingContent } from "@/i18n/marketing";
 import {
 	defaultLocale,
 	getLanguageLinks,
+	localeDetectionEntries,
+	localeMeta,
+	locales,
 	localizedPath,
 	type Locale,
 } from "@/i18n/locales";
@@ -40,6 +44,7 @@ const activeLocale =
 	(alternates.find((link) => link.isActive)?.locale as Locale | undefined) ??
 	defaultLocale;
 const marketing = marketingContent[activeLocale];
+const chrome = pageChrome[activeLocale];
 const navData = appData || {
 	name: siteConfig.name,
 	shortName: siteConfig.name,
@@ -57,11 +62,12 @@ const socialImageURL = Astro.site
 const xDefaultHref =
 	alternates.find((alternate) => alternate.locale === defaultLocale)?.href ??
 	"/";
-const ogLocaleMap: Record<Locale, string> = {
-	"en-US": "en_US",
-	"zh-Hans": "zh_CN",
-	"zh-Hant": "zh_TW",
-};
+const ogLocaleMap = Object.fromEntries(
+	locales.map((locale) => [locale, localeMeta[locale].ogLocale]),
+) as Record<Locale, string>;
+const localizedPathPrefixes = locales
+	.filter((locale) => locale !== defaultLocale)
+	.map((locale) => `/${locale}`);
 const jsonLd = structuredData
 	? JSON.stringify(structuredData).replace(/</g, "\\u003c")
 	: undefined;
@@ -127,16 +133,26 @@ const jsonLd = structuredData
 
 		{jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
 		<script is:inline>document.documentElement.classList.add("js");</script>
-		<script is:inline define:vars={{ activeLocale, defaultLocale }}>
+		<script
+			is:inline
+			define:vars={{
+				activeLocale,
+				defaultLocale,
+				supportedLocales: locales,
+				localeDetectionEntries,
+				localizedPathPrefixes,
+			}}
+		>
 			(() => {
 				const storageKey = "split-screen-player-locale";
-				const supportedLocales = ["en-US", "zh-Hans", "zh-Hant"];
-				const localizedPathPattern = /^\/(?:zh-Hans|zh-Hant)(?:\/|$)/;
 				const pathname = window.location.pathname;
+				const isLocalizedPath = localizedPathPrefixes.some(
+					(prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
+				);
 
 				if (
 					activeLocale !== defaultLocale ||
-					localizedPathPattern.test(pathname)
+					isLocalizedPath
 				) {
 					return;
 				}
@@ -162,18 +178,17 @@ const jsonLd = structuredData
 							.toLowerCase()
 							.replaceAll("_", "-");
 
-						if (normalizedLanguage.startsWith("zh")) {
-							preferredLocale =
-								/^zh-(?:hant|tw|hk|mo)(?:-|$)/.test(normalizedLanguage)
-									? "zh-Hant"
-									: "zh-Hans";
-							break;
+						for (const [prefix, locale] of localeDetectionEntries) {
+							if (
+								normalizedLanguage === prefix ||
+								normalizedLanguage.startsWith(`${prefix}-`)
+							) {
+								preferredLocale = locale;
+								break;
+							}
 						}
 
-						if (normalizedLanguage.startsWith("en")) {
-							preferredLocale = "en-US";
-							break;
-						}
+						if (preferredLocale) break;
 					}
 				}
 
@@ -194,13 +209,19 @@ const jsonLd = structuredData
 		</script>
 	</head>
 	<body>
-		<a class="skip-link" href="#main-content">Skip to content</a>
+		<a class="skip-link" href="#main-content">{chrome.skipToContent}</a>
 		<SiteHeader
 			name={navTitle}
 			logo={navData.logo}
 			homeHref={homeHref}
 			storeHref={navData.storeLinks.apple}
 			languageLinks={alternates}
+			labels={{
+				siteHeader: chrome.siteHeaderLabel,
+				home: chrome.homeLabel,
+				primaryNavigation: chrome.primaryNavigationLabel,
+				mobileNavigation: chrome.mobileNavigationLabel,
+			}}
 			nav={marketing.nav}
 		/>
 
@@ -217,6 +238,7 @@ const jsonLd = structuredData
 			privacyLabel={labels.privacy}
 			termsLabel={labels.terms}
 			getAppLabel={marketing.nav.getApp}
+			navigationLabel={chrome.footerNavigationLabel}
 			languageLinks={alternates}
 		/>
 

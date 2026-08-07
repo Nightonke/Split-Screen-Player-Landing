@@ -2,6 +2,7 @@ import * as OpenCC from "opencc-js";
 import { mediaAsset } from "@config/media";
 import type { FeatureSlug } from "./marketing";
 import type { Locale } from "./locales";
+import { localizeDeep } from "./translation";
 
 export interface FeatureMedia {
 	kind: "image" | "video";
@@ -581,8 +582,18 @@ function convertDeep<T>(value: T): T {
 	return value;
 }
 
-export const featureDetails: Record<Locale, Record<FeatureSlug, RichFeaturePage>> = {
+const coreFeatureDetails = {
 	"en-US": en,
 	"zh-Hans": zhHans,
 	"zh-Hant": convertDeep(zhHans),
+};
+
+export const featureDetails: Record<Locale, Record<FeatureSlug, RichFeaturePage>> = {
+	...coreFeatureDetails,
+	ja: localizeDeep(en, "ja"),
+	ko: localizeDeep(en, "ko"),
+	fr: localizeDeep(en, "fr"),
+	de: localizeDeep(en, "de"),
+	es: localizeDeep(en, "es"),
+	"pt-BR": localizeDeep(en, "pt-BR"),
 };

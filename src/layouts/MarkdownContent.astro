@@ -5,8 +5,10 @@ import { parseMarkdown } from "@/utils/parseMarkdown";
 interface Props extends MarkdownContentProps {}
 
 const {
+	breadcrumbAriaLabel = "Breadcrumb",
 	breadcrumbLabel,
 	content,
+	homeLabel = "Home",
 	homeHref = "/",
 } = Astro.props;
 const htmlContent = await parseMarkdown(content);
@@ -14,8 +16,8 @@ const htmlContent = await parseMarkdown(content);
 
 <main id="main-content" class="legal-shell">
 	<div class="legal-toolbar">
-		<nav class="detail-breadcrumb" aria-label="Breadcrumb" style="margin: 0">
-			<a href={homeHref}>Home</a>
+		<nav class="detail-breadcrumb" aria-label={breadcrumbAriaLabel} style="margin: 0">
+			<a href={homeHref}>{homeLabel}</a>
 			<span aria-current="page">{breadcrumbLabel}</span>
 		</nav>
 	</div>

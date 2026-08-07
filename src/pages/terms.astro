@@ -1,10 +1,12 @@
 ---
 import { landingContent } from "@/i18n/content";
+import { pageChrome } from "@/i18n/chrome";
 import { defaultLocale, getLanguageLinks, localizedPath } from "@/i18n/locales";
 import Layout from "@layouts/Layout.astro";
 import MarkdownContent from "@layouts/MarkdownContent.astro";
 
 const content = landingContent[defaultLocale];
+const chrome = pageChrome[defaultLocale];
 const languageLinks = getLanguageLinks(defaultLocale, "terms");
 ---
 
@@ -21,8 +23,10 @@ const languageLinks = getLanguageLinks(defaultLocale, "terms");
 	labels={content.labels}
 >
 	<MarkdownContent
+		breadcrumbAriaLabel={chrome.breadcrumbLabel}
 		breadcrumbLabel={content.legal.termsTitle}
 		content={content.legal.terms}
+		homeLabel={chrome.homeLabel}
 		homeHref={localizedPath(defaultLocale)}
 	/>
 </Layout>

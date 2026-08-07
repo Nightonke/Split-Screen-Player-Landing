@@ -12,6 +12,7 @@ interface Props {
 	privacyLabel: string;
 	termsLabel: string;
 	getAppLabel: string;
+	navigationLabel: string;
 	languageLinks: LanguageLink[];
 }
 
@@ -26,6 +27,7 @@ const {
 	privacyLabel,
 	termsLabel,
 	getAppLabel,
+	navigationLabel,
 	languageLinks,
 } = Astro.props;
 const year = new Date().getFullYear();
@@ -42,7 +44,7 @@ const year = new Date().getFullYear();
 		</a>
 
 		<div class="footer-meta">
-			<nav class="footer-links" aria-label="Footer navigation">
+			<nav class="footer-links" aria-label={navigationLabel}>
 				<a href={privacyHref}>{privacyLabel}</a>
 				<a href={termsHref}>{termsLabel}</a>
 				<a href={storeHref} target="_blank" rel="noopener noreferrer">{getAppLabel}</a>

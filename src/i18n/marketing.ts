@@ -1,4 +1,5 @@
 import type { Locale } from "./locales";
+import { localizeDeep, type ExtendedLocale } from "./translation";
 import { mediaAsset } from "@config/media";
 import { appFacts } from "@config/appFacts";
 import * as OpenCC from "opencc-js";
@@ -999,8 +1000,38 @@ const zhHant: MarketingContent = {
 	},
 };
 
-export const marketingContent: Record<Locale, MarketingContent> = {
+const coreMarketingContent = {
 	"en-US": en,
 	"zh-Hans": zhHans,
 	"zh-Hant": zhHant,
+};
+
+const localizedRatingText: Record<ExtendedLocale, string> = {
+	ja: `${appFacts.rating.count}件の評価で ${appFacts.rating.score} ★`,
+	ko: `평가 ${appFacts.rating.count}개에서 ${appFacts.rating.score} ★`,
+	fr: `${appFacts.rating.score} ★ sur ${appFacts.rating.count} notes`,
+	de: `${appFacts.rating.score} ★ aus ${appFacts.rating.count} Bewertungen`,
+	es: `${appFacts.rating.score} ★ de ${appFacts.rating.count} valoraciones`,
+	"pt-BR": `${appFacts.rating.score} ★ em ${appFacts.rating.count} avaliações`,
+};
+
+const createExtendedMarketing = (locale: ExtendedLocale): MarketingContent => {
+	const localized = localizeDeep(en, locale);
+	return {
+		...localized,
+		hero: {
+			...localized.hero,
+			ratingText: localizedRatingText[locale],
+		},
+	};
+};
+
+export const marketingContent: Record<Locale, MarketingContent> = {
+	...coreMarketingContent,
+	ja: createExtendedMarketing("ja"),
+	ko: createExtendedMarketing("ko"),
+	fr: createExtendedMarketing("fr"),
+	de: createExtendedMarketing("de"),
+	es: createExtendedMarketing("es"),
+	"pt-BR": createExtendedMarketing("pt-BR"),
 };

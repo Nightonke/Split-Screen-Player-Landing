@@ -8,6 +8,12 @@ interface Props {
 	homeHref: string;
 	storeHref: string;
 	languageLinks: LanguageLink[];
+	labels: {
+		siteHeader: string;
+		home: string;
+		primaryNavigation: string;
+		mobileNavigation: string;
+	};
 	nav: {
 		features: string;
 		useCases: string;
@@ -18,7 +24,7 @@ interface Props {
 	};
 }
 
-const { name, logo, homeHref, storeHref, languageLinks, nav } = Astro.props;
+const { name, logo, homeHref, storeHref, languageLinks, labels, nav } = Astro.props;
 const currentLanguage =
 	languageLinks.find((link) => link.isActive)?.label ?? languageLinks[0]?.label;
 const homeAnchor = (anchor: string) =>
@@ -27,13 +33,13 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 ---
 
 <div class="site-header-wrap">
-	<header class="site-header site-shell" aria-label="Site header">
-		<a class="brand-link" href={homeHref} aria-label={`${name} home`}>
+	<header class="site-header site-shell" aria-label={labels.siteHeader}>
+		<a class="brand-link" href={homeHref} aria-label={`${name} — ${labels.home}`}>
 			<img src={logo} width="43" height="43" alt="" />
 			<span>{name}</span>
 		</a>
 
-		<nav class="primary-nav" aria-label="Primary navigation">
+		<nav class="primary-nav" aria-label={labels.primaryNavigation}>
 			<a href={homeAnchor("#features")}>{nav.features}</a>
 			<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
 			<a href={guidesHref}>{nav.guides}</a>
@@ -70,7 +76,7 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 
 			<details class="mobile-menu">
 				<summary>{nav.menu}</summary>
-				<nav class="mobile-popover" aria-label="Mobile navigation">
+				<nav class="mobile-popover" aria-label={labels.mobileNavigation}>
 					<a href={homeAnchor("#features")}>{nav.features}</a>
 					<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
 					<a href={guidesHref}>{nav.guides}</a>

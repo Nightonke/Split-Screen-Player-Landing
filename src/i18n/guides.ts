@@ -1,4 +1,5 @@
 import type { Locale } from "./locales";
+import { localizeDeep } from "./translation";
 import type { FeatureSlug, UseCaseSlug } from "./marketing";
 import * as OpenCC from "opencc-js";
 
@@ -460,8 +461,18 @@ const convertToTraditional = (value: unknown): unknown => {
 
 const zhHant = convertToTraditional(zhHans) as GuideContent;
 
-export const guideContent: Record<Locale, GuideContent> = {
+const coreGuideContent = {
 	"en-US": en,
 	"zh-Hans": zhHans,
 	"zh-Hant": zhHant,
+};
+
+export const guideContent: Record<Locale, GuideContent> = {
+	...coreGuideContent,
+	ja: localizeDeep(en, "ja"),
+	ko: localizeDeep(en, "ko"),
+	fr: localizeDeep(en, "fr"),
+	de: localizeDeep(en, "de"),
+	es: localizeDeep(en, "es"),
+	"pt-BR": localizeDeep(en, "pt-BR"),
 };

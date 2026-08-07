@@ -24,6 +24,8 @@ export interface LayoutWithAppDataProps extends LayoutProps {
 
 export interface MarkdownContentProps {
 	breadcrumbLabel: string;
+	breadcrumbAriaLabel?: string;
 	content: string;
+	homeLabel?: string;
 	homeHref?: string;
 }

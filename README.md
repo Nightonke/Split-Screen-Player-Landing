@@ -20,6 +20,12 @@ The site currently publishes:
 - `/` for English
 - `/zh-Hans/` for Simplified Chinese
 - `/zh-Hant/` for Traditional Chinese
+- `/ja/` for Japanese
+- `/ko/` for Korean
+- `/fr/` for French
+- `/de/` for German
+- `/es/` for Spanish
+- `/pt-BR/` for Brazilian Portuguese
 
 Each localized page has language switcher links, localized legal pages, localized SEO metadata, and `hreflang` alternates.
 
