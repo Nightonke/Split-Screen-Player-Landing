@@ -5,6 +5,7 @@ import { guideContent, guideSlugs, type GuideSlug } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import type { LanguageLink } from "@/types/content";
+import { mediaAsset } from "@config/media";
 import { FaApple } from "react-icons/fa";
 import Layout from "./Layout.astro";
 
@@ -26,6 +27,23 @@ const pageHref = localizedPath(locale, `guides/${slug}`);
 const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
 const relatedGuides = guideSlugs.filter((item) => item !== slug).slice(0, 3);
 const feature = marketing.details.features[guide.relatedFeature];
+const showAppPreview = slug === "play-multiple-videos-iphone-ipad";
+const playChapter = marketing.chapters.find((chapter) => chapter.id === "play");
+const reusableGuideHeroImages = {
+	"sync-videos-different-start-times": "chapters/chapter-sync.jpg",
+	"compare-sports-videos-frame-by-frame": "use-cases/sports-multi-view.jpg",
+	"export-split-screen-video": "chapters/chapter-export.jpg",
+	"video-pdf-web-multitasking": "chapters/chapter-media.jpg",
+} satisfies Partial<Record<GuideSlug, string>>;
+const reusableGuideHeroImage = reusableGuideHeroImages[slug as keyof typeof reusableGuideHeroImages];
+const guideHeroImage = reusableGuideHeroImage
+	? {
+			src: mediaAsset(reusableGuideHeroImage),
+			alt: guide.title,
+			caption: guide.eyebrow,
+		}
+	: undefined;
+const hasGuideHeroMedia = showAppPreview || Boolean(guideHeroImage);
 
 const structuredData = [
 	{
@@ -90,21 +108,79 @@ const structuredData = [
 				<span aria-current="page">{guide.eyebrow}</span>
 			</nav>
 
-			<section class="guide-detail-hero">
-				<p class="eyebrow">{guide.eyebrow}</p>
-				<h1 class="display-title">{guide.title}</h1>
-				<p class="detail-intro">{guide.summary}</p>
-				<div class="guide-answer">
-					<p class="section-kicker">{guides.labels.directAnswer}</p>
-					<p>{guide.answer}</p>
+			<section class:list={["guide-detail-hero", hasGuideHeroMedia && "guide-detail-hero--media"]}>
+				<div class="guide-detail-copy">
+					<p class="eyebrow">{guide.eyebrow}</p>
+					<h1 class="display-title">{guide.title}</h1>
+					<p class="detail-intro">{guide.summary}</p>
+					<div class="guide-answer">
+						<p class="section-kicker">{guides.labels.directAnswer}</p>
+						<p>{guide.answer}</p>
+					</div>
 				</div>
+
+				{showAppPreview ? (
+					<div class="film-card guide-film-card" data-reveal>
+						<div class="film-window">
+							<video
+								data-guide-hero-video
+								data-video-src={content.appPreview.videoSrc}
+								poster={content.appPreview.posterSrc}
+								aria-label={content.appPreview.ariaLabel}
+								muted
+								loop
+								playsinline
+								preload="none"
+								width="720"
+								height="1564"
+							></video>
+						</div>
+						<div class="film-meta">
+							<span>{marketing.hero.soundHint}</span>
+						</div>
+					</div>
+				) : guideHeroImage ? (
+					<div class="film-card guide-film-card guide-film-card--image" data-reveal>
+						<div class="film-window">
+							<img
+								class="guide-media-image"
+								src={guideHeroImage.src}
+								alt={guideHeroImage.alt}
+								width="720"
+								height="1564"
+								decoding="async"
+							/>
+						</div>
+						<div class="film-meta">
+							<span>{guideHeroImage.caption}</span>
+						</div>
+					</div>
+				) : null}
 			</section>
 		</div>
 
 		<section class="detail-section feature-rich-section--1">
 			<div class="site-shell">
-				<div class="feature-rich-heading">
+				<div class="feature-rich-heading guide-steps-heading">
 					<p class="section-kicker">{guides.labels.steps}</p>
+					{showAppPreview && playChapter?.videoSrc && playChapter?.posterSrc && (
+						<div class="chapter-visual chapter-video-visual guide-steps-video" data-reveal>
+							<div class="chapter-film-window">
+								<video
+									data-guide-video
+									data-video-src={playChapter.videoSrc}
+									poster={playChapter.posterSrc}
+									aria-label={playChapter.imageAlt}
+									muted
+									loop
+									playsinline
+									preload="none"
+									width="1280"
+									height="590"
+								></video>
+							</div>
+						</div>
+					)}
 					<h2 class="section-title">{guide.summary}</h2>
 				</div>
 				<div class="feature-steps">
@@ -182,3 +258,66 @@ const structuredData = [
 		</section>
 	</main>
 </Layout>
+
+<script>
+	const beginGuideVideoLoading = (video: HTMLVideoElement) => {
+		const source = video.dataset.videoSrc;
+		if (!source || video.src) return;
+
+		video.addEventListener(
+			"canplay",
+			() => {
+				void video.play().catch(() => {
+					// The poster remains visible when autoplay is blocked.
+				});
+			},
+			{ once: true },
+		);
+		video.src = source;
+		video.load();
+	};
+
+	const initializeGuideVideos = () => {
+		const guideHeroVideo =
+			document.querySelector<HTMLVideoElement>("[data-guide-hero-video]");
+
+		if (guideHeroVideo) {
+			const loadHeroVideo = () => beginGuideVideoLoading(guideHeroVideo);
+
+			if ("requestIdleCallback" in window) {
+				window.requestIdleCallback(loadHeroVideo, { timeout: 1200 });
+			} else {
+				window.setTimeout(loadHeroVideo, 250);
+			}
+		}
+
+		const guideVideos = document.querySelectorAll<HTMLVideoElement>(
+			"[data-guide-video]",
+		);
+
+		if (!("IntersectionObserver" in window)) {
+			guideVideos.forEach(beginGuideVideoLoading);
+			return;
+		}
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (!(entry.target instanceof HTMLVideoElement) || !entry.isIntersecting) {
+						return;
+					}
+
+					beginGuideVideoLoading(entry.target);
+					observer.unobserve(entry.target);
+				});
+			},
+			{ rootMargin: "300px 0px" },
+		);
+
+		guideVideos.forEach((video) => observer.observe(video));
+	};
+
+	document.readyState === "complete"
+		? initializeGuideVideos()
+		: window.addEventListener("load", initializeGuideVideos, { once: true });
+</script>

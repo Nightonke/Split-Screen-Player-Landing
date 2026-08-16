@@ -37,6 +37,9 @@ export const siteConfig = {
 	/** Path to the app logo/icon */
 	logo: "/assets/favicon.png",
 
+	/** Full-bleed square icon used for browser and search favicons */
+	favicon: "/assets/favicon-48.png",
+
 	/** App store download links */
 	storeLinks: {
 		apple: appFacts.appStoreUrl,

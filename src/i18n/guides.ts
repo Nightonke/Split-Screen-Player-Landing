@@ -1,6 +1,7 @@
 import type { Locale } from "./locales";
 import { localizeDeep } from "./translation";
 import type { FeatureSlug, UseCaseSlug } from "./marketing";
+import { guideCopyOverrides } from "./guideCopyOverrides";
 import * as OpenCC from "opencc-js";
 
 export const guideSlugs = [
@@ -76,14 +77,14 @@ const en: GuideContent = {
 		"play-multiple-videos-iphone-ipad": {
 			slug: "play-multiple-videos-iphone-ipad",
 			eyebrow: "iPhone & iPad",
-			title: "How to play multiple videos at once on iPhone or iPad",
-			seoTitle: "How to Play Multiple Videos at Once on iPhone & iPad",
+			title: "How to play 2 or more videos at once on iPhone or iPad",
+			seoTitle: "How to Play 2 or More Videos at Once on iPhone & iPad",
 			metaDescription:
-				"Play 2 to 36 local videos together on iPhone or iPad. Choose a split-screen layout, add clips, control playback globally, and save the workspace.",
+				"Play 2 to 36 videos at the same time on iPhone or iPad. Choose a side-by-side or multi-view layout, add your videos, and control playback together.",
 			summary:
 				"Put 2 to 36 videos into one portrait or landscape layout, then play, pause, seek, mute, or switch them without moving between separate players.",
 			answer:
-				"Open Split Screen Player, choose a layout for the number and orientation of videos you want, and add one source to each region. The bottom toolbar can then control every compatible video together. You can start with two videos and expand the same workflow to a dense iPad layout.",
+				"Yes. You can play 2 to 36 videos at the same time on iPhone or iPad with Split Screen Player. Choose a side-by-side or multi-view layout, add one video to each region, then use the bottom toolbar to play, pause, seek, mute, or sync them together.",
 			steps: [
 				{ title: "Choose the number of views", description: "Open the layout library and filter by video count, portrait, landscape-right, or landscape-left. Pick a simple side-by-side layout first." },
 				{ title: "Add a source to each region", description: "Choose individual files, an album, folder, playlist, bookmark, stream, image, PDF, web page, or music source for the active region." },
@@ -461,18 +462,38 @@ const convertToTraditional = (value: unknown): unknown => {
 
 const zhHant = convertToTraditional(zhHans) as GuideContent;
 
+const applyGuideCopyOverrides = (
+	content: GuideContent,
+	locale: Locale,
+): GuideContent => {
+	const overrides = guideCopyOverrides[locale];
+	if (!overrides) return content;
+
+	return {
+		...content,
+		hub: { ...content.hub, ...overrides.hub },
+		labels: { ...content.labels, ...overrides.labels },
+		pages: Object.fromEntries(
+			guideSlugs.map((guideSlug) => [
+				guideSlug,
+				{ ...content.pages[guideSlug], ...overrides.pages[guideSlug] },
+			]),
+		) as Record<GuideSlug, GuidePage>,
+	};
+};
+
 const coreGuideContent = {
 	"en-US": en,
 	"zh-Hans": zhHans,
-	"zh-Hant": zhHant,
+	"zh-Hant": applyGuideCopyOverrides(zhHant, "zh-Hant"),
 };
 
 export const guideContent: Record<Locale, GuideContent> = {
 	...coreGuideContent,
-	ja: localizeDeep(en, "ja"),
+	ja: applyGuideCopyOverrides(localizeDeep(en, "ja"), "ja"),
 	ko: localizeDeep(en, "ko"),
-	fr: localizeDeep(en, "fr"),
-	de: localizeDeep(en, "de"),
-	es: localizeDeep(en, "es"),
-	"pt-BR": localizeDeep(en, "pt-BR"),
+	fr: applyGuideCopyOverrides(localizeDeep(en, "fr"), "fr"),
+	de: applyGuideCopyOverrides(localizeDeep(en, "de"), "de"),
+	es: applyGuideCopyOverrides(localizeDeep(en, "es"), "es"),
+	"pt-BR": applyGuideCopyOverrides(localizeDeep(en, "pt-BR"), "pt-BR"),
 };
