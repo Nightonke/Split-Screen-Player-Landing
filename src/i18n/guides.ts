@@ -2,6 +2,7 @@ import type { Locale } from "./locales";
 import { localizeDeep } from "./translation";
 import type { FeatureSlug, UseCaseSlug } from "./marketing";
 import { guideCopyOverrides } from "./guideCopyOverrides";
+import { illustratedMultiVideoGuides } from "./illustratedMultiVideoGuide";
 import * as OpenCC from "opencc-js";
 
 export const guideSlugs = [
@@ -16,6 +17,14 @@ export const guideSlugs = [
 
 export type GuideSlug = (typeof guideSlugs)[number];
 
+export interface GuideImage {
+	src: string;
+	alt: string;
+	caption: string;
+	width: number;
+	height: number;
+}
+
 export interface GuidePage {
 	slug: GuideSlug;
 	eyebrow: string;
@@ -24,7 +33,10 @@ export interface GuidePage {
 	metaDescription: string;
 	summary: string;
 	answer: string;
-	steps: Array<{ title: string; description: string }>;
+	steps: Array<{ title: string; description: string; image?: GuideImage }>;
+	heroImage?: GuideImage;
+	stepsHeading?: string;
+	note?: string;
 	tips: Array<{ title: string; description: string }>;
 	relatedFeature: FeatureSlug;
 	relatedUseCase?: UseCaseSlug;
@@ -504,3 +516,13 @@ export const guideContent: Record<Locale, GuideContent> = {
 	es: applyGuideCopyOverrides(localizeDeep(en, "es"), "es"),
 	"pt-BR": applyGuideCopyOverrides(localizeDeep(en, "pt-BR"), "pt-BR"),
 };
+
+// Apply illustrated editions after generating the other locales, so a pilot's
+// copy and language-specific screenshots never leak into untranslated pages.
+for (const [locale, page] of Object.entries(illustratedMultiVideoGuides)) {
+	const localized = guideContent[locale as Locale];
+	guideContent[locale as Locale] = {
+		...localized,
+		pages: { ...localized.pages, [page.slug]: page },
+	};
+}

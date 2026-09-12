@@ -27,7 +27,7 @@ const pageHref = localizedPath(locale, `guides/${slug}`);
 const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
 const relatedGuides = guideSlugs.filter((item) => item !== slug).slice(0, 3);
 const feature = marketing.details.features[guide.relatedFeature];
-const showAppPreview = slug === "play-multiple-videos-iphone-ipad";
+const showAppPreview = slug === "play-multiple-videos-iphone-ipad" && !guide.heroImage;
 const playChapter = marketing.chapters.find((chapter) => chapter.id === "play");
 const reusableGuideHeroImages = {
 	"sync-videos-different-start-times": "chapters/chapter-sync.jpg",
@@ -43,7 +43,7 @@ const guideHeroImage = reusableGuideHeroImage
 			caption: guide.eyebrow,
 		}
 	: undefined;
-const hasGuideHeroMedia = showAppPreview || Boolean(guideHeroImage);
+const hasGuideHeroMedia = showAppPreview || Boolean(guideHeroImage) || Boolean(guide.heroImage);
 
 const structuredData = [
 	{
@@ -58,6 +58,8 @@ const structuredData = [
 			position: index + 1,
 			name: step.title,
 			text: step.description,
+			url: new URL(`${pageHref}#step-${index + 1}`, siteURL).href,
+			...(step.image ? { image: new URL(step.image.src, siteURL).href } : {}),
 		})),
 	},
 	{
@@ -100,7 +102,7 @@ const structuredData = [
 	ogImageAlt={`${content.shortName} — ${guide.title}`}
 	structuredData={structuredData}
 >
-	<main id="main-content" class="detail-main guide-detail">
+	<main id="main-content" class:list={["detail-main guide-detail", guide.heroImage && "guide-detail--illustrated"]}>
 		<div class="site-shell">
 			<nav class="detail-breadcrumb" aria-label={chrome.breadcrumbLabel}>
 				<a href={homeHref}>{marketing.detailLabels.home}</a>
@@ -117,9 +119,17 @@ const structuredData = [
 						<p class="section-kicker">{guides.labels.directAnswer}</p>
 						<p>{guide.answer}</p>
 					</div>
+					{guide.note && <p class="guide-prerequisites">{guide.note}</p>}
 				</div>
 
-				{showAppPreview ? (
+				{guide.heroImage ? (
+					<figure class="guide-device-figure guide-device-figure--hero">
+						<a href={guide.heroImage.src} target="_blank" rel="noopener">
+							<img src={guide.heroImage.src} alt={guide.heroImage.alt} width={guide.heroImage.width} height={guide.heroImage.height} fetchpriority="high" decoding="async" />
+						</a>
+						<figcaption>{guide.heroImage.caption}</figcaption>
+					</figure>
+				) : showAppPreview ? (
 					<div class="film-card guide-film-card" data-reveal>
 						<div class="film-window">
 							<video
@@ -181,16 +191,24 @@ const structuredData = [
 							</div>
 						</div>
 					)}
-					<h2 class="section-title">{guide.summary}</h2>
+					<h2 class="section-title">{guide.stepsHeading ?? guide.summary}</h2>
 				</div>
-				<div class="feature-steps">
+				<div class:list={["feature-steps", guide.heroImage && "guide-illustrated-steps"]}>
 					{guide.steps.map((step, index) => (
-						<article class="feature-step" data-reveal>
+						<article id={`step-${index + 1}`} class:list={["feature-step", step.image && "feature-step--illustrated", step.image && step.image.width > step.image.height && "feature-step--landscape"]} data-reveal>
 							<span>{String(index + 1).padStart(2, "0")}</span>
 							<div>
 								<h3>{step.title}</h3>
 								<p>{step.description}</p>
 							</div>
+							{step.image && (
+								<figure class="guide-device-figure">
+									<a href={step.image.src} target="_blank" rel="noopener">
+										<img src={step.image.src} alt={step.image.alt} width={step.image.width} height={step.image.height} loading="lazy" decoding="async" />
+									</a>
+									<figcaption>{step.image.caption}</figcaption>
+								</figure>
+							)}
 						</article>
 					))}
 				</div>
