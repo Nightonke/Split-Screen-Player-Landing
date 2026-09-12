@@ -8,6 +8,7 @@ import type { LanguageLink } from "@/types/content";
 import { mediaAsset } from "@config/media";
 import { FaApple } from "react-icons/fa";
 import Layout from "./Layout.astro";
+import GuideArticle from "../components/guides/GuideArticle.astro";
 
 interface Props {
 	locale: Locale;
@@ -44,8 +45,9 @@ const guideHeroImage = reusableGuideHeroImage
 		}
 	: undefined;
 const hasGuideHeroMedia = showAppPreview || Boolean(guideHeroImage) || Boolean(guide.heroImage);
+const articleSocialImage = guide.article ? guide.steps.find(step => step.image && step.image.width > step.image.height)?.image : undefined;
 
-const structuredData = [
+const structuredData: Array<Record<string, unknown>> = [
 	{
 		"@context": "https://schema.org",
 		"@type": "HowTo",
@@ -57,7 +59,7 @@ const structuredData = [
 			"@type": "HowToStep",
 			position: index + 1,
 			name: step.title,
-			text: step.description,
+			text: [step.description, step.detail].filter(Boolean).join(" "),
 			url: new URL(`${pageHref}#step-${index + 1}`, siteURL).href,
 			...(step.image ? { image: new URL(step.image.src, siteURL).href } : {}),
 		})),
@@ -87,6 +89,25 @@ const structuredData = [
 		],
 	},
 ];
+if (guide.article) {
+	structuredData.push({
+		"@context": "https://schema.org",
+		"@type": "Article",
+		headline: guide.title,
+		description: guide.metaDescription,
+		inLanguage: content.htmlLang,
+		mainEntityOfPage: new URL(pageHref, siteURL).href,
+		author: { "@type": "Organization", name: "Split Screen Player", url: siteURL.href },
+		image: guide.steps.filter(step => step.image).map(step => new URL(step.image!.src, siteURL).href),
+	}, {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		mainEntity: guide.article.faq.map(item => ({
+			"@type": "Question", name: item.question,
+			acceptedAnswer: { "@type": "Answer", text: item.answer },
+		})),
+	});
+}
 ---
 
 <Layout
@@ -100,9 +121,14 @@ const structuredData = [
 	termsHref={localizedPath(locale, "terms")}
 	labels={content.labels}
 	ogImageAlt={`${content.shortName} — ${guide.title}`}
+	ogType={guide.article ? "article" : "website"}
+	ogImage={articleSocialImage?.src}
+	ogImageType={articleSocialImage ? "image/webp" : undefined}
+	ogImageWidth={articleSocialImage?.width}
+	ogImageHeight={articleSocialImage?.height}
 	structuredData={structuredData}
 >
-	<main id="main-content" class:list={["detail-main guide-detail", guide.heroImage && "guide-detail--illustrated"]}>
+	{guide.article ? <GuideArticle guide={guide} locale={locale} /> : <main id="main-content" class:list={["detail-main guide-detail", guide.heroImage && "guide-detail--illustrated"]}>
 		<div class="site-shell">
 			<nav class="detail-breadcrumb" aria-label={chrome.breadcrumbLabel}>
 				<a href={homeHref}>{marketing.detailLabels.home}</a>
@@ -274,7 +300,7 @@ const structuredData = [
 				</a>
 			</div>
 		</section>
-	</main>
+	</main>}
 </Layout>
 
 <script>

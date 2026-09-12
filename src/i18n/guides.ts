@@ -23,6 +23,8 @@ export interface GuideImage {
 	caption: string;
 	width: number;
 	height: number;
+	/** Rectangle in original image pixels, rendered above the unmodified screenshot. */
+	highlight?: { x: number; y: number; width: number; height: number };
 }
 
 export interface GuidePage {
@@ -33,7 +35,15 @@ export interface GuidePage {
 	metaDescription: string;
 	summary: string;
 	answer: string;
-	steps: Array<{ title: string; description: string; image?: GuideImage }>;
+	steps: Array<{ title: string; description: string; detail?: string; image?: GuideImage }>;
+	article?: {
+		featuresHeading: string;
+		featuresIntro: string;
+		features: Array<{ title: string; description: string; link?: { label: string; path: string } }>;
+		faq: Array<{ question: string; answer: string }>;
+		closingTitle: string;
+		closingDescription: string;
+	};
 	heroImage?: GuideImage;
 	stepsHeading?: string;
 	note?: string;

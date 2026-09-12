@@ -1,0 +1,19 @@
+---
+import type { GuideImage } from "@/i18n/guides";
+interface Props { image: GuideImage; eager?: boolean; }
+const { image, eager = false } = Astro.props;
+const highlight = image.highlight;
+const highlightStyle = highlight
+  ? `left:${highlight.x / image.width * 100}%;top:${highlight.y / image.height * 100}%;width:${highlight.width / image.width * 100}%;height:${highlight.height / image.height * 100}%`
+  : undefined;
+---
+<figure class:list={["article-screenshot", image.width > image.height && "article-screenshot--landscape"]}>
+  <a class="article-screenshot-link" href={image.src} data-guide-enlarge aria-label={`放大图片：${image.alt}`}>
+    <span class="article-screenshot-image">
+      <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading={eager ? "eager" : "lazy"} decoding="async" />
+      {highlight && <span class="article-screenshot-highlight" style={highlightStyle} aria-hidden="true"></span>}
+    </span>
+    <span class="article-screenshot-zoom" aria-hidden="true">＋ 放大</span>
+  </a>
+  <figcaption>{image.caption}</figcaption>
+</figure>
