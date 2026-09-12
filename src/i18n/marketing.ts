@@ -131,7 +131,7 @@ const en: MarketingContent = {
 		privacyText: "No data collected",
 		soundHint: "Watch 3 videos at once with Split Screen Player",
 	},
-	capabilitiesLabel: "Inside the workspace",
+	capabilitiesLabel: "Key features",
 	capabilities: [
 		"2–36 videos",
 		"144 layouts",
@@ -256,7 +256,7 @@ const en: MarketingContent = {
 				title: "Sports & motion",
 				description: "Compare form, timing, posture, or technique from multiple sessions and angles.",
 				imageIndex: 4,
-				linkLabel: "Open the sports workflow",
+				linkLabel: "Explore sports video comparison",
 			},
 			{
 				slug: "multi-angle-review",
@@ -264,7 +264,7 @@ const en: MarketingContent = {
 				title: "Takes & camera angles",
 				description: "Review edits, performances, references, and multi-camera footage on one timeline.",
 				imageIndex: 1,
-				linkLabel: "Open the review workflow",
+				linkLabel: "Explore multi-camera review",
 			},
 			{
 				slug: "learning-reference",
@@ -272,14 +272,14 @@ const en: MarketingContent = {
 				title: "Learning & reference",
 				description: "Keep a lesson, source video, PDF, image, and web page visible together.",
 				imageIndex: 7,
-				linkLabel: "Open the learning workflow",
+				linkLabel: "Explore split-screen learning",
 			},
 		],
 	},
 	comparison: {
-		eyebrow: "The workflow gap",
-		title: "Split Screen Player is the best way to watch multiple videos at once.",
-		columns: ["What you need", "System Picture in Picture", "Video editor", "Split Screen Player"],
+		eyebrow: "Feature comparison",
+		title: "Multi-video playback, sync, and export at a glance.",
+		columns: ["Feature", "System Picture in Picture", "Video editor", "Split Screen Player"],
 		rows: [
 			{ label: "2–36 views together", values: ["Up to 2", "Partial", "Supported"] },
 			{ label: "Live synchronized playback", values: ["Not supported", "Not supported", "Supported"] },
@@ -288,7 +288,7 @@ const en: MarketingContent = {
 			{ label: "Instant split-screen export", values: ["Not supported", "Supported", "Supported"] },
 			{ label: "Streams, PDFs, and web pages", values: ["Partial", "Supported", "Supported"] },
 		],
-		note: "“Partial” and “Manual” describe the typical workflow. Individual apps may vary.",
+		note: "“Partial” and “Manual” describe common ways to use these features. Support varies by app.",
 	},
 	closing: {
 		eyebrow: "Your multi-view workspace starts here",
@@ -300,9 +300,9 @@ const en: MarketingContent = {
 	detailLabels: {
 		home: "Home",
 		keyBenefits: "What it gives you",
-		howItWorks: "How the workflow works",
+		howItWorks: "How to use it",
 		exploreMore: "Explore more",
-		backHome: "Back to the full product story",
+		backHome: "Back to home",
 	},
 	details: {
 		features: {
@@ -342,7 +342,7 @@ const en: MarketingContent = {
 				imageIndex: 9,
 				imageAlt: "Customizable bottom controls for every video",
 				highlights: [
-					{ title: "Customize the toolbar", description: "Add, remove, and reorder the actions that belong in your workflow." },
+					{ title: "Customize the toolbar", description: "Add, remove, and reorder buttons to keep your favorite controls within reach." },
 					{ title: "Act on every view", description: "Play, seek, step, mute, rotate, or switch content across compatible players." },
 					{ title: "Keep advanced tools close", description: "Open checkpoints, sync, export, layout sizing, and comparison tools without leaving playback." },
 				],
@@ -470,7 +470,7 @@ const en: MarketingContent = {
 				],
 				steps: [
 					{ title: "Gather the footage", description: "Open selected takes, edits, camera angles, and reference clips." },
-					{ title: "Arrange for the decision", description: "Choose a layout that makes framing, timing, or performance easy to compare." },
+					{ title: "Adjust the layout", description: "Choose a layout that makes framing, timing, or performance easy to compare." },
 					{ title: "Save or export", description: "Bookmark the review workspace or render it as a single split-screen file." },
 				],
 				closingTitle: "Keep the scene intact while you compare it.",
@@ -494,7 +494,7 @@ const en: MarketingContent = {
 				],
 				steps: [
 					{ title: "Choose the lesson", description: "Open the main demonstration, lecture, or reference video." },
-					{ title: "Add the context", description: "Place notes, PDFs, web references, images, or another recording beside it." },
+					{ title: "Add reference material", description: "Place notes, PDFs, web references, images, or another recording beside it." },
 					{ title: "Save the workspace", description: "Bookmark the complete setup for the next study or practice session." },
 				],
 				closingTitle: "Reference material works better when it stays visible.",
@@ -515,7 +515,7 @@ const zhHans: MarketingContent = {
 		privacyText: "不收集数据",
 		soundHint: "使用分屏播放器同时观看3个视频",
 	},
-	capabilitiesLabel: "工作台能力",
+	capabilitiesLabel: "主要功能",
 	capabilities: [
 		"2～36 个视频",
 		"144 种布局",
@@ -590,14 +590,14 @@ const zhHans: MarketingContent = {
 	useCases: {
 		eyebrow: "为对比而生", title: "当一个画面不足以说明问题。", description: "只要时间、角度或上下文会改变结果，分屏播放器就能派上用场。",
 		items: [
-			{ slug: "sports-motion-analysis", number: "01", title: "运动与动作分析", description: "从多个训练阶段和角度对比动作、节奏、姿势与技术细节。", imageIndex: 4, linkLabel: "查看运动分析工作流" },
-			{ slug: "multi-angle-review", number: "02", title: "多机位与多个版本", description: "在同一条时间线上回看不同剪辑、表演、机位和参考素材。", imageIndex: 1, linkLabel: "查看多角度工作流" },
-			{ slug: "learning-reference", number: "03", title: "学习与参考", description: "让课程、参考视频、PDF、图片和网页一直同时可见。", imageIndex: 7, linkLabel: "查看学习工作流" },
+			{ slug: "sports-motion-analysis", number: "01", title: "运动与动作分析", description: "从多个训练阶段和角度对比动作、节奏、姿势与技术细节。", imageIndex: 4, linkLabel: "了解运动视频对比" },
+			{ slug: "multi-angle-review", number: "02", title: "多机位与多个版本", description: "在同一条时间线上回看不同剪辑、表演、机位和参考素材。", imageIndex: 1, linkLabel: "了解多机位回看" },
+			{ slug: "learning-reference", number: "03", title: "学习与参考", description: "让课程、参考视频、PDF、图片和网页一直同时可见。", imageIndex: 7, linkLabel: "了解分屏学习" },
 		],
 	},
 	comparison: {
-		eyebrow: "工作流差距", title: "在同时看多个视频方面，分屏播放器是最好的",
-		columns: ["你需要的能力", "系统画中画", "视频编辑器", "分屏播放器"],
+		eyebrow: "功能对比", title: "多视频播放、同步与导出，功能一览。",
+		columns: ["功能", "系统画中画", "视频编辑器", "分屏播放器"],
 		rows: [
 			{ label: "2～36 个画面同屏", values: ["最多2个", "部分支持", "支持"] },
 			{ label: "实时同步播放", values: ["不支持", "不支持", "支持"] },
@@ -606,14 +606,14 @@ const zhHans: MarketingContent = {
 			{ label: "直接导出分屏视频", values: ["不支持", "支持", "支持"] },
 			{ label: "直播流、PDF 与网页", values: ["部分支持", "支持", "支持"] },
 		],
-		note: "“部分支持”和“手动”描述常见工作流，具体播放器或编辑器可能有所不同。",
+		note: "“部分支持”和“手动”表示常见的使用方式，具体支持情况因 App 而异。",
 	},
 	closing: {
 		eyebrow: "你的多画面工作台从这里开始", title: "看见完整的瞬间。",
 		description: "免费下载，打开两个视频，完成第一次同步对比。", cta: "下载分屏播放器",
 	},
 	footerTagline: "一个屏幕，容纳每个角度、来源和瞬间。",
-	detailLabels: { home: "首页", keyBenefits: "你会得到什么", howItWorks: "工作流如何运行", exploreMore: "继续探索", backHome: "返回完整产品介绍" },
+	detailLabels: { home: "首页", keyBenefits: "你会得到什么", howItWorks: "如何使用", exploreMore: "继续探索", backHome: "返回首页" },
 	details: {
 		features: {
 			"multi-video-player": {
@@ -641,7 +641,7 @@ const zhHans: MarketingContent = {
 				intro: "同时看多个视频，不应该意味着在每个画面里重复相同操作。底部工具栏把常用动作变成作用于整个工作台的一键命令。",
 				promise: "只保留你常用的按键，再把操作一次应用到所有画面。", imageIndex: 9, imageAlt: "控制所有视频的自定义底部按键",
 				highlights: [
-					{ title: "自定义工具栏", description: "添加、移除并重新排列真正适合你工作流的按键。" },
+					{ title: "自定义工具栏", description: "添加、移除和排列按键，让常用操作更顺手。" },
 					{ title: "一次控制全部", description: "对兼容播放器统一播放、跳转、逐帧、静音、旋转或切换内容。" },
 					{ title: "高级工具随手可用", description: "播放过程中直接打开存档点、同步、导出、布局尺寸和对比工具。" },
 				],
@@ -739,7 +739,7 @@ const zhHans: MarketingContent = {
 				],
 				steps: [
 					{ title: "整理素材", description: "打开要选择的版本、机位、剪辑和参考视频。" },
-					{ title: "为判断排列", description: "选择最容易比较构图、节奏或表演的布局。" },
+					{ title: "调整画面布局", description: "选择最容易比较构图、节奏或表演的布局。" },
 					{ title: "保存或导出", description: "保存回看工作台，或导出为一个分屏文件。" },
 				],
 				closingTitle: "对比时，也要保持场景完整。", closingDescription: "一条时间线让每个角度更容易判断。",
@@ -757,7 +757,7 @@ const zhHans: MarketingContent = {
 				],
 				steps: [
 					{ title: "选择课程", description: "打开主要演示、讲解或参考视频。" },
-					{ title: "加入上下文", description: "在旁边放置笔记、PDF、网页、图片或自己的录制。" },
+					{ title: "添加参考资料", description: "在旁边放置笔记、PDF、网页、图片或自己的录制。" },
 					{ title: "保存工作台", description: "为下一次学习或练习保存完整设置。" },
 				],
 				closingTitle: "参考资料始终可见，才会更有用。", closingDescription: "为整套课程建立一个工作台。",
@@ -816,7 +816,7 @@ const zhHant: MarketingContent = {
 		privacyText: "不收集資料",
 		soundHint: "使用分屏播放器同時觀看 3 個影片",
 	},
-	capabilitiesLabel: "工作台能力",
+	capabilitiesLabel: "主要功能",
 	capabilities: [
 		"2～36 支影片",
 		"144 種排版",
@@ -922,14 +922,14 @@ const zhHant: MarketingContent = {
 	useCases: {
 		eyebrow: "為比較而生", title: "當一個畫面不足以說明問題。", description: "只要時間、角度或上下文會改變結果，分屏播放器就能派上用場。",
 		items: [
-			{ slug: "sports-motion-analysis", number: "01", title: "運動與動作分析", description: "從多個訓練階段和角度比較動作、節奏、姿勢與技術細節。", imageIndex: 4, linkLabel: "查看運動分析工作流程" },
-			{ slug: "multi-angle-review", number: "02", title: "多機位與多個版本", description: "在同一條時間軸上回看不同剪輯、表演、機位和參考素材。", imageIndex: 1, linkLabel: "查看多角度工作流程" },
-			{ slug: "learning-reference", number: "03", title: "學習與參考", description: "讓課程、參考影片、PDF、圖片和網頁一直同時可見。", imageIndex: 7, linkLabel: "查看學習工作流程" },
+			{ slug: "sports-motion-analysis", number: "01", title: "運動與動作分析", description: "從多個訓練階段和角度比較動作、節奏、姿勢與技術細節。", imageIndex: 4, linkLabel: "了解運動影片比較" },
+			{ slug: "multi-angle-review", number: "02", title: "多機位與多個版本", description: "在同一條時間軸上回看不同剪輯、表演、機位和參考素材。", imageIndex: 1, linkLabel: "了解多機位回看" },
+			{ slug: "learning-reference", number: "03", title: "學習與參考", description: "讓課程、參考影片、PDF、圖片和網頁一直同時可見。", imageIndex: 7, linkLabel: "了解分屏學習" },
 		],
 	},
 	comparison: {
-		eyebrow: "工作流程差距", title: "在同時觀看多支影片方面，分屏播放器是最好的",
-		columns: ["你需要的能力", "系統子母畫面", "影片編輯器", "分屏播放器"],
+		eyebrow: "功能比較", title: "多影片播放、同步與匯出，功能一覽。",
+		columns: ["功能", "系統子母畫面", "影片編輯器", "分屏播放器"],
 		rows: [
 			{ label: "2～36 個畫面同屏", values: ["最多 2 個", "部分支援", "支援"] },
 			{ label: "即時同步播放", values: ["不支援", "不支援", "支援"] },
@@ -938,14 +938,14 @@ const zhHant: MarketingContent = {
 			{ label: "直接匯出分屏影片", values: ["不支援", "支援", "支援"] },
 			{ label: "直播串流、PDF 與網頁", values: ["部分支援", "支援", "支援"] },
 		],
-		note: "「部分支援」和「手動」描述常見工作流程，具體播放器或編輯器可能有所不同。",
+		note: "「部分支援」和「手動」表示常見的使用方式，實際支援情況因 App 而異。",
 	},
 	closing: {
 		eyebrow: "你的多畫面工作台從這裡開始", title: "看見完整的瞬間。",
 		description: "免費下載，開啟兩支影片，完成第一次同步比較。", cta: "下載分屏播放器",
 	},
 	footerTagline: "一個畫面，容納每個角度、來源和瞬間。",
-	detailLabels: { home: "首頁", keyBenefits: "你會得到什麼", howItWorks: "工作流程如何運作", exploreMore: "繼續探索", backHome: "返回完整產品介紹" },
+	detailLabels: { home: "首頁", keyBenefits: "你會得到什麼", howItWorks: "如何使用", exploreMore: "繼續探索", backHome: "返回首頁" },
 	details: {
 		features: Object.fromEntries(
 			featureSlugs.map((slug) => {

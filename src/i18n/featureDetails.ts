@@ -80,7 +80,7 @@ const video = (src: string, poster: string, alt: string): FeatureMedia => ({
 const enButtons: RichFeaturePage["buttonTable"] = {
 	title: "Every available bottom button",
 	description:
-		"Add only the actions you need, remove the rest, and drag to reorder. “More” always remains available so the complete command set is never hidden.",
+		"Add the buttons you need, remove the rest, and drag to reorder. Controls that are not on the bottom bar are still available in “More.”",
 	columns: ["Button", "What it does", "Access"],
 	freeLabel: "Free",
 	vipLabel: "VIP",
@@ -129,7 +129,7 @@ const enButtons: RichFeaturePage["buttonTable"] = {
 
 const zhButtons: RichFeaturePage["buttonTable"] = {
 	title: "所有可用的底部按键",
-	description: "只添加真正顺手的动作，移除其余按键，再拖动排序。“更多”会始终保留，因此完整命令不会丢失。",
+	description: "添加需要的按键，移除其余按键，再拖动排序。未放在底栏的操作，仍可在“更多”中找到。",
 	columns: ["按键", "功能", "权限"],
 	freeLabel: "免费",
 	vipLabel: "VIP",
@@ -199,7 +199,7 @@ const en: Record<FeatureSlug, RichFeaturePage> = {
 					{ title: "144 built-in presets", description: "Filter by 1–7 columns, portrait, landscape-right, or landscape-left, then favorite the layouts you reuse." },
 					{ title: "Custom layout editor", description: "Add or remove blocks, drag to move, pull corners to resize, edit split lines, and save the result." },
 					{ title: "Resize without rebuilding", description: "Drag the yellow dividers in supported layouts; the adjusted dimensions are stored locally." },
-					{ title: "Share a layout", description: "Import a custom layout definition from the clipboard instead of recreating it by hand." },
+					{ title: "Share a layout", description: "Import a copied layout from the clipboard without arranging it again." },
 				],
 			},
 			{
@@ -261,13 +261,13 @@ const en: Record<FeatureSlug, RichFeaturePage> = {
 		sections: [
 			{
 				kicker: "Custom toolbar",
-				title: "Keep the commands that match your workflow.",
+				title: "Keep your favorite controls within reach.",
 				description:
 					"The bottom bar is assembled by you. Move actions between Added and Not Added, drag to reorder, and leave rarely used controls inside More.",
 				cards: [
 					{ title: "One-tap global actions", description: "Apply playback, seeking, frames, speed, sound, rotation, and navigation to all compatible sources." },
-					{ title: "Workspace commands", description: "Switch layouts, cycle maximized views, rotate content positions, resize dividers, save bookmarks, and export." },
-					{ title: "Graceful mixed-media behavior", description: "A command runs where it makes sense and skips incompatible sources such as a PDF during frame stepping." },
+					{ title: "Layout and bookmark controls", description: "Switch layouts, cycle maximized views, rotate content positions, resize dividers, save bookmarks, and export." },
+					{ title: "Use different media together", description: "Controls automatically skip unsupported content. For example, stepping through video frames does not affect PDFs." },
 				],
 			},
 		],
@@ -323,7 +323,7 @@ const en: Record<FeatureSlug, RichFeaturePage> = {
 						["Per-video edits", "Crop, position, rotation, trim range, and playback speed"],
 						["Appearance", "Background, border width/color, spacing, number/title/time overlays, and watermark"],
 						["Audio", "Mute or choose sources, per-source volume, fades, background music, custom audio, trim, and preview"],
-						["Workflow", "10-second preview, preflight checks, duration guidance, progress, and completion notification"],
+						["Preview and export", "10-second preview, preflight checks, duration guidance, progress, and completion notification"],
 					],
 				},
 			},
@@ -348,14 +348,14 @@ const en: Record<FeatureSlug, RichFeaturePage> = {
 		sections: [
 			{
 				kicker: "Mixed sources",
-				title: "A view can be live, interactive, static, or local.",
+				title: "Videos, live streams, web pages, and documents on one screen.",
 				description:
 					"Combine local video, live streams, RTSP, Xtream channels, images, web pages, PDFs, and music inside one layout. Each region keeps the controls appropriate to its source.",
 				cards: [
 					{ title: "Live and RTSP", description: "Paste one stream URL per line, open HLS/M3U8 or RTSP sources, keep history and bookmarks, and retry after connection failures." },
 					{ title: "Xtream channels", description: "Save an Xtream account, browse and search channels, then open selected streams in the multi-view workspace." },
 					{ title: "Web pages", description: "Browse with back/forward controls, choose toolbar placement, keep bookmarks, and block unwanted app-opening redirects." },
-					{ title: "Images", description: "Open albums or folders, include subfolders, choose forward/reverse/random order, set images per page and interval, then zoom from 50% to 500%." },
+					{ title: "Images", description: "Open albums or folders, include images from subfolders, choose forward, reverse, or random order, and set images per page and the playback interval. Zoom from 50% to 500%." },
 					{ title: "PDF", description: "Open multiple PDFs, view page count, use a cached thumbnail strip, tap a thumbnail or page label to jump, and use standard PDF zoom and scrolling." },
 					{ title: "Music", description: "Keep audio alongside visual references and control which player is audible with global or solo-audio tools." },
 				],
@@ -365,7 +365,7 @@ const en: Record<FeatureSlug, RichFeaturePage> = {
 				kicker: "How to add a source",
 				title: "Different formats enter through one workspace.",
 				description:
-					"Choose the browser that matches the material, place the result in any open region, and save the complete arrangement as a bookmark.",
+					"Choose the content you want to open, place it in a split-screen region, and save the whole layout as a bookmark.",
 				steps: [
 					{ title: "Choose the source type", description: "Open local media, stream URL, Xtream, image browser, web browser, PDF, or music." },
 					{ title: "Load or connect", description: "Select a file or folder, paste URLs, sign in to Xtream, or navigate to the page you need." },
@@ -399,7 +399,7 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 					{ title: "144 种默认布局", description: "按 1～7 列、竖屏、横屏向右或横屏向左筛选，并收藏经常使用的布局。" },
 					{ title: "自定义布局编辑器", description: "添加或移除区块，拖动位置，拉动四角改变尺寸，编辑分隔线并保存。" },
 					{ title: "不用重做也能调整", description: "在支持的布局中拖动黄色分隔线，调整后的尺寸会保存在本机。" },
-					{ title: "共享自定义布局", description: "通过剪贴板导入布局定义，不必在另一台设备上重新搭建。" },
+					{ title: "共享自定义布局", description: "从剪贴板导入已复制的布局，不必重新排列。" },
 				],
 			},
 			{
@@ -457,12 +457,12 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 		sections: [
 			{
 				kicker: "自定义工具栏",
-				title: "只留下真正适合你工作流的命令。",
+				title: "把常用按键放在顺手的位置。",
 				description: "底部栏由你自己组合。在“已添加”和“未添加”之间移动按键，拖动排序，把偶尔才用的操作留在“更多”里。",
 				cards: [
 					{ title: "一键作用于全部", description: "让所有兼容来源统一播放、跳转、逐帧、变速、静音、旋转或切换内容。" },
-					{ title: "工作台命令", description: "切换布局、循环放大、轮换内容、调整分隔线、保存书签并导出。" },
-					{ title: "混合来源也不冲突", description: "命令只在合理的来源上执行；例如逐帧时会自动跳过 PDF。" },
+					{ title: "布局与书签操作", description: "切换布局、循环放大、轮换内容、调整分隔线、保存书签并导出。" },
+					{ title: "不同内容也能一起操作", description: "操作会自动跳过不支持的内容，例如逐帧播放不会影响 PDF。" },
 				],
 			},
 		],
@@ -515,7 +515,7 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 						["单视频调整", "裁切、位置、旋转、片段范围、播放速度"],
 						["画面样式", "背景、边框宽度／颜色、间距、序号／标题／时间信息、水印"],
 						["音频", "静音或选择来源、单来源音量、淡入淡出、背景音乐、自定义音频、裁切与预听"],
-						["工作流", "10 秒预览、导出前检查、时长提示、进度和完成通知"],
+						["预览与导出", "10 秒预览、导出前检查、时长提示、进度和完成通知"],
 					],
 				},
 			},
@@ -529,7 +529,7 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 					{ title: "水印", description: "添加自定义水印文字，并选择大小。" },
 					{ title: "声音混合", description: "选择发声来源、平衡音量、加入淡入淡出，并添加背景或自定义音频。" },
 					{ title: "先预览再导出", description: "先生成短预览，处理导出前警告，再开始完整渲染。" },
-					{ title: "VIP 导出能力", description: "2K／4K、高码率／60 fps、单视频变速与裁切、高级音频、信息叠加和自定义水印需要 VIP。" },
+					{ title: "VIP 导出功能", description: "2K／4K、高码率／60 fps、单视频变速与裁切、高级音频、信息叠加和自定义水印需要 VIP。" },
 				],
 			},
 		],
@@ -539,13 +539,13 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 		sections: [
 			{
 				kicker: "混合来源",
-				title: "一个画面可以是直播、交互内容、静态资料或本地媒体。",
+				title: "视频、直播、网页和资料，都能放在同一屏。",
 				description: "在同一个布局中组合本地视频、直播、RTSP、Xtream 频道、图片、网页、PDF 和音乐。每个区域保留适合自身来源的控制。",
 				cards: [
 					{ title: "直播与 RTSP", description: "每行粘贴一个直播地址，打开 HLS／M3U8 或 RTSP，保留历史和书签，并在连接失败后自动重试。" },
 					{ title: "Xtream 频道", description: "保存 Xtream 账号，浏览和搜索频道，再把所选直播放进多画面工作台。" },
 					{ title: "网页", description: "使用前进／后退、选择工具栏位置、保存书签，并阻止不希望发生的跳转到其他 App。" },
-					{ title: "图片", description: "打开相册或文件夹、递归读取子文件夹，选择正序／倒序／随机、每页数量和间隔，并进行 50%～500% 缩放。" },
+					{ title: "图片", description: "打开相册或文件夹，包含子文件夹中的图片，选择正序、倒序或随机播放，并设置每页数量和播放间隔。支持 50%～500% 缩放。" },
 					{ title: "PDF", description: "同时打开多个 PDF，查看页数和缩略图条，点击缩略图或页码跳转，并使用标准 PDF 缩放与滚动。" },
 					{ title: "音乐", description: "让音频和视觉参考资料同时存在，再通过全局静音或单独声音循环决定哪个播放器发声。" },
 				],
@@ -554,7 +554,7 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 			{
 				kicker: "如何添加来源",
 				title: "不同格式，从同一个工作台进入。",
-				description: "选择与素材匹配的浏览器，把结果放入任意区域，再将整个组合保存为书签。",
+				description: "选择要打开的内容，将它放入分屏区域，再把整个布局保存为书签。",
 				steps: [
 					{ title: "选择来源类型", description: "打开本地媒体、直播地址、Xtream、图片浏览器、网页、PDF 或音乐。" },
 					{ title: "载入或连接", description: "选择文件或文件夹、粘贴地址、登录 Xtream，或者进入需要的网页。" },
@@ -568,8 +568,28 @@ const zhHans: Record<FeatureSlug, RichFeaturePage> = {
 
 const toTraditional = OpenCC.Converter({ from: "cn", to: "tw" });
 
+const traditionalCopyOverrides: Record<string, string> = {
+	"布局与书签操作": "排版與書籤操作",
+	"预览与导出": "預覽與匯出",
+	"添加需要的按键，移除其余按键，再拖动排序。未放在底栏的操作，仍可在“更多”中找到。":
+		"加入需要的按鍵，移除其餘按鍵，再拖曳排序。未放在底部工具列的操作，仍可在「更多」中找到。",
+	"操作会自动跳过不支持的内容，例如逐帧播放不会影响 PDF。":
+		"操作會自動略過不支援的內容，例如逐格播放不會影響 PDF。",
+	"从剪贴板导入已复制的布局，不必重新排列。":
+		"從剪貼簿匯入已複製的排版，不必重新排列。",
+	"打开相册或文件夹，包含子文件夹中的图片，选择正序、倒序或随机播放，并设置每页数量和播放间隔。支持 50%～500% 缩放。":
+		"開啟相簿或資料夾，包含子資料夾中的圖片，選擇正序、倒序或隨機播放，並設定每頁數量和播放間隔。支援 50%～500% 縮放。",
+	"视频、直播、网页和资料，都能放在同一屏。":
+		"影片、直播、網頁和資料，都能放在同一個畫面。",
+	"选择要打开的内容，将它放入分屏区域，再把整个布局保存为书签。":
+		"選擇要開啟的內容，將它放入分屏區域，再把整個排版儲存為書籤。",
+	"VIP 导出功能": "VIP 匯出功能",
+};
+
 function convertDeep<T>(value: T): T {
-	if (typeof value === "string") return toTraditional(value) as T;
+	if (typeof value === "string") {
+		return (traditionalCopyOverrides[value] ?? toTraditional(value)) as T;
+	}
 	if (Array.isArray(value)) return value.map((item) => convertDeep(item)) as T;
 	if (value && typeof value === "object") {
 		return Object.fromEntries(

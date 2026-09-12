@@ -55,12 +55,12 @@ interface GuideContent {
 const en: GuideContent = {
 	hub: {
 		eyebrow: "Practical guides",
-		title: "Do more with multiple videos.",
+		title: "Learn to play, compare, and export multiple videos.",
 		seoTitle: "Multi-Video Player Guides for iPhone & iPad",
 		metaDescription:
 			"Learn how to play multiple videos, sync clips, compare sports footage frame by frame, export split-screen video, and open live streams on iPhone and iPad.",
 		description:
-			"Clear workflows for the questions people ask before and after opening a second video. Each guide starts with the quickest answer, then shows the complete setup.",
+			"Start by playing multiple videos together, then learn to sync clips, compare them frame by frame, export split-screen videos, and watch live streams.",
 		readLabel: "Read guide",
 		homeLabel: "Back to Split Screen Player",
 	},
@@ -68,7 +68,7 @@ const en: GuideContent = {
 		guides: "Guides",
 		directAnswer: "Quick answer",
 		steps: "Step by step",
-		tips: "Make it work better",
+		tips: "Usage tips",
 		relatedFeature: "Explore the feature",
 		moreGuides: "More practical guides",
 		backToGuides: "Back to all guides",
@@ -134,7 +134,7 @@ const en: GuideContent = {
 			answer:
 				"Use a layout that keeps each athlete, attempt, or camera angle visible, set Sync Points at the same phase of the movement, and enable Sync Lock. Global frame stepping then advances all compatible videos together, making posture, timing, trajectory, and contact easier to compare.",
 			steps: [
-				{ title: "Open the attempts or angles", description: "Add recordings from different sessions, athletes, edits, or camera positions to a layout with enough room for the important movement." },
+				{ title: "Add training videos or camera angles", description: "Add recordings from different sessions, athletes, edits, or camera positions to a layout with enough room for the important movement." },
 				{ title: "Align the same phase", description: "Set Sync Points at a repeatable event such as takeoff, impact, release, landing, or a beat in choreography." },
 				{ title: "Slow down and inspect", description: "Use linked playback, speed controls, millisecond time, zoom, and frame stepping to isolate the difference." },
 				{ title: "Save or export the finding", description: "Create checkpoints for coaching notes or export the aligned layout as one comparison video." },
@@ -211,7 +211,7 @@ const en: GuideContent = {
 				{ title: "Confirm the source address", description: "Use a direct stream URL supplied by the broadcaster, camera, IPTV service, or system you are authorized to access." },
 				{ title: "Add or browse the live source", description: "Paste stream links one per line, or connect an Xtream account to browse and search available channels." },
 				{ title: "Place sources in the layout", description: "Mix live streams with other streams, local clips, images, web pages, PDFs, or music in any preset or custom region." },
-				{ title: "Save and monitor", description: "Keep frequently used sources in history or bookmarks and allow retry behavior to reconnect after temporary network failures." },
+				{ title: "Save and monitor", description: "Keep frequently used streams in history or bookmarks. If the network drops temporarily, the app can automatically retry the connection." },
 			],
 			tips: [
 				{ title: "Prefer stable networks", description: "Several live sources compete for bandwidth and decoding resources; wired or strong Wi-Fi is usually more reliable." },
@@ -251,20 +251,20 @@ const en: GuideContent = {
 const zhHans: GuideContent = {
 	hub: {
 		eyebrow: "实用教程",
-		title: "把多视频工作流真正用起来。",
+		title: "学会同时播放、对比和导出多个视频。",
 		seoTitle: "iPhone 与 iPad 多视频播放器使用教程",
 		metaDescription:
 			"学习如何在 iPhone 和 iPad 上同时播放多个视频、同步片段、逐帧对比运动视频、导出分屏视频，以及播放 RTSP 和直播。",
 		description:
-			"围绕用户真正会搜索的问题，先给出最直接的答案，再说明完整操作和容易忽略的细节。",
+			"从同时播放多个视频开始，逐步学习同步、逐帧对比、分屏导出和直播播放。",
 		readLabel: "查看教程",
 		homeLabel: "返回分屏播放器",
 	},
 	labels: {
 		guides: "教程",
-		directAnswer: "直接答案",
+		directAnswer: "快速解答",
 		steps: "操作步骤",
-		tips: "让效果更好",
+		tips: "使用技巧",
 		relatedFeature: "了解相关功能",
 		moreGuides: "更多实用教程",
 		backToGuides: "返回全部教程",
@@ -327,7 +327,7 @@ const zhHans: GuideContent = {
 			answer:
 				"选择能同时看清运动员、训练次数或机位的布局，在动作同一阶段设置同步点并打开同步锁定。全局逐帧会让所有兼容视频一起前进或后退一帧，更容易比较姿势、节奏、轨迹和接触瞬间。",
 			steps: [
-				{ title: "打开训练次数或机位", description: "把不同日期、运动员、剪辑版本或拍摄角度放进同一个布局，并为关键动作保留足够空间。" },
+				{ title: "添加训练视频或不同机位的录像", description: "把不同日期、运动员、剪辑版本或拍摄角度放进同一个布局，并为关键动作保留足够空间。" },
 				{ title: "对齐动作阶段", description: "在起跳、击球、出手、落地或舞蹈节拍等可重复事件处设置同步点。" },
 				{ title: "慢放并逐帧查看", description: "组合使用关联播放、倍速、毫秒时间、缩放和逐帧，隔离真正的动作差异。" },
 				{ title: "保存或导出结论", description: "为教练意见添加存档点，或者把对齐后的布局导出成一支对比视频。" },
@@ -401,7 +401,7 @@ const zhHans: GuideContent = {
 				{ title: "确认直播地址", description: "使用广播方、摄像头、IPTV 服务或你有权访问的系统提供的直接播放地址。" },
 				{ title: "添加或浏览来源", description: "每行粘贴一个直播地址，或者连接 Xtream 账号后浏览、搜索并选择频道。" },
 				{ title: "放进分屏布局", description: "在任意预设或自定义区域中组合直播、本地视频、图片、网页、PDF 或音乐。" },
-				{ title: "保存并持续监看", description: "把常用来源保存在历史或书签中，并使用重试能力处理暂时的网络中断。" },
+				{ title: "保存并持续监看", description: "把常用直播保存在历史或书签中。网络暂时中断时，App 可自动重试连接。" },
 			],
 			tips: [
 				{ title: "优先使用稳定网络", description: "多个直播会同时占用带宽和解码资源，有线连接或信号良好的 Wi-Fi 通常更可靠。" },
@@ -438,6 +438,11 @@ const zhHans: GuideContent = {
 };
 
 const toTraditional = OpenCC.Converter({ from: "cn", to: "tw" });
+const traditionalCopyOverrides: Record<string, string> = {
+	"把常用直播保存在历史或书签中。网络暂时中断时，App 可自动重试连接。":
+		"把常用直播儲存在歷史記錄或書籤中。網路暫時中斷時，App 可自動嘗試重新連線。",
+	"添加训练视频或不同机位的录像": "加入訓練影片或不同機位的錄影",
+};
 const normalizeTaiwanTerms = (text: string) =>
 	[
 		["視頻", "影片"],
@@ -450,7 +455,9 @@ const normalizeTaiwanTerms = (text: string) =>
 		["默認", "預設"],
 	].reduce((result, [from, to]) => result.replaceAll(from, to), text);
 const convertToTraditional = (value: unknown): unknown => {
-	if (typeof value === "string") return normalizeTaiwanTerms(toTraditional(value));
+	if (typeof value === "string") {
+		return traditionalCopyOverrides[value] ?? normalizeTaiwanTerms(toTraditional(value));
+	}
 	if (Array.isArray(value)) return value.map(convertToTraditional);
 	if (value && typeof value === "object") {
 		return Object.fromEntries(

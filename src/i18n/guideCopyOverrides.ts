@@ -38,12 +38,12 @@ export const guideCopyOverrides: Partial<
 	"zh-Hant": {
 		hub: {
 			eyebrow: "實用指南",
-			title: "一次掌握多影片工作流程。",
+			title: "學會同時播放、比較和匯出多支影片。",
 			seoTitle: "iPhone 與 iPad 多影片播放器使用指南",
 			metaDescription:
 				"瞭解如何在 iPhone 與 iPad 同時播放多部影片、同步片段、逐格比較運動畫面、匯出分割畫面影片，以及播放 RTSP 與直播串流。",
 			description:
-				"針對開啟第二部影片前後最常遇到的問題，先提供快速解答，再說明完整設定方式與容易忽略的細節。",
+				"從同時播放多支影片開始，逐步學習同步、逐格比較、分屏匯出和直播播放。",
 			readLabel: "閱讀指南",
 			homeLabel: "返回 Split Screen Player",
 		},
@@ -51,7 +51,7 @@ export const guideCopyOverrides: Partial<
 			guides: "使用指南",
 			directAnswer: "快速解答",
 			steps: "操作步驟",
-			tips: "提升使用效果",
+			tips: "使用技巧",
 			relatedFeature: "查看相關功能",
 			moreGuides: "更多實用指南",
 			backToGuides: "返回所有指南",
@@ -139,20 +139,20 @@ export const guideCopyOverrides: Partial<
 	ja: {
 		hub: {
 			eyebrow: "実践ガイド",
-			title: "複数動画をもっと便利に使う。",
+			title: "複数動画の再生・比較・書き出しを学ぶ。",
 			seoTitle: "iPhone・iPad向けマルチ動画プレーヤー活用ガイド",
 			metaDescription:
 				"iPhoneやiPadで複数の動画を同時再生する方法、動画の同期、スポーツ映像のコマ送り比較、分割画面動画の書き出し、ライブ配信の再生方法を紹介します。",
 			description:
-				"2本目の動画を開く前後に生まれる疑問を、まず短く回答し、そのあとに設定手順と見落としやすいポイントを詳しく説明します。",
+				"複数動画の同時再生から始めて、同期、コマ送りでの比較、分割画面動画の書き出し、ライブ配信の再生を学びましょう。",
 			readLabel: "ガイドを読む",
 			homeLabel: "Split Screen Playerに戻る",
 		},
 		labels: {
 			guides: "ガイド",
-			directAnswer: "まずは結論",
+			directAnswer: "すぐにわかる答え",
 			steps: "手順",
-			tips: "使いやすくするコツ",
+			tips: "使い方のヒント",
 			relatedFeature: "関連機能を見る",
 			moreGuides: "その他の実践ガイド",
 			backToGuides: "ガイド一覧に戻る",
@@ -240,12 +240,12 @@ export const guideCopyOverrides: Partial<
 	de: {
 		hub: {
 			eyebrow: "Praxis-Guides",
-			title: "Mehr aus mehreren Videos machen.",
+			title: "Mehrere Videos abspielen, vergleichen und exportieren lernen.",
 			seoTitle: "Anleitungen für mehrere Videos auf iPhone und iPad",
 			metaDescription:
 				"Erfahren Sie, wie Sie auf iPhone und iPad mehrere Videos gleichzeitig abspielen, Clips synchronisieren, Sportaufnahmen Bild für Bild vergleichen, Split-Screen-Videos exportieren und Live-Streams öffnen.",
 			description:
-				"Klare Anleitungen für typische Fragen rund um mehrere Videos: zuerst die kurze Antwort, anschließend die vollständige Einrichtung und wichtige Praxistipps.",
+				"Beginne mit der gleichzeitigen Wiedergabe mehrerer Videos. Lerne dann, Clips zu synchronisieren, Bild für Bild zu vergleichen, als Split-Screen-Video zu exportieren und Livestreams anzusehen.",
 			readLabel: "Anleitung öffnen",
 			homeLabel: "Zurück zu Split Screen Player",
 		},
@@ -253,7 +253,7 @@ export const guideCopyOverrides: Partial<
 			guides: "Anleitungen",
 			directAnswer: "Kurz erklärt",
 			steps: "Schritt für Schritt",
-			tips: "Tipps für bessere Ergebnisse",
+			tips: "Tipps zur Nutzung",
 			relatedFeature: "Passende Funktion ansehen",
 			moreGuides: "Weitere Anleitungen",
 			backToGuides: "Zurück zu allen Anleitungen",
@@ -341,12 +341,12 @@ export const guideCopyOverrides: Partial<
 	es: {
 		hub: {
 			eyebrow: "Guías prácticas",
-			title: "Saca más partido a varios vídeos.",
+			title: "Aprende a reproducir, comparar y exportar varios vídeos.",
 			seoTitle: "Guías para reproducir varios vídeos en iPhone y iPad",
 			metaDescription:
 				"Aprende a reproducir varios vídeos, sincronizar clips, comparar deporte fotograma a fotograma, exportar vídeos en pantalla dividida y abrir emisiones en directo en iPhone y iPad.",
 			description:
-				"Respuestas claras a las dudas más habituales al trabajar con varios vídeos: primero la solución rápida y después la configuración completa y los detalles importantes.",
+				"Empieza reproduciendo varios vídeos a la vez y aprende a sincronizarlos, compararlos fotograma a fotograma, exportar vídeos en pantalla dividida y ver emisiones en directo.",
 			readLabel: "Leer la guía",
 			homeLabel: "Volver a Split Screen Player",
 		},
@@ -354,7 +354,7 @@ export const guideCopyOverrides: Partial<
 			guides: "Guías",
 			directAnswer: "Respuesta rápida",
 			steps: "Paso a paso",
-			tips: "Consejos para mejorar el resultado",
+			tips: "Consejos de uso",
 			relatedFeature: "Ver la función relacionada",
 			moreGuides: "Más guías prácticas",
 			backToGuides: "Volver a todas las guías",
@@ -442,12 +442,12 @@ export const guideCopyOverrides: Partial<
 	fr: {
 		hub: {
 			eyebrow: "Guides pratiques",
-			title: "Allez plus loin avec plusieurs vidéos.",
+			title: "Apprenez à lire, comparer et exporter plusieurs vidéos.",
 			seoTitle: "Guides pour lire plusieurs vidéos sur iPhone et iPad",
 			metaDescription:
 				"Découvrez comment lire plusieurs vidéos, synchroniser des clips, comparer des mouvements image par image, exporter une vidéo en écran partagé et ouvrir des flux en direct sur iPhone et iPad.",
 			description:
-				"Des réponses claires aux questions courantes sur les workflows multividéos : d’abord la solution rapide, puis la configuration complète et les détails importants.",
+				"Commencez par lire plusieurs vidéos ensemble, puis apprenez à les synchroniser, à les comparer image par image, à exporter une vidéo en écran partagé et à regarder des flux en direct.",
 			readLabel: "Lire le guide",
 			homeLabel: "Retour à Split Screen Player",
 		},
@@ -455,7 +455,7 @@ export const guideCopyOverrides: Partial<
 			guides: "Guides",
 			directAnswer: "Réponse rapide",
 			steps: "Étapes",
-			tips: "Conseils pour de meilleurs résultats",
+			tips: "Conseils d’utilisation",
 			relatedFeature: "Voir la fonctionnalité associée",
 			moreGuides: "Autres guides pratiques",
 			backToGuides: "Retour à tous les guides",
@@ -543,12 +543,12 @@ export const guideCopyOverrides: Partial<
 	"pt-BR": {
 		hub: {
 			eyebrow: "Guias práticos",
-			title: "Aproveite melhor vários vídeos.",
+			title: "Aprenda a reproduzir, comparar e exportar vários vídeos.",
 			seoTitle: "Guias para reproduzir vários vídeos no iPhone e iPad",
 			metaDescription:
 				"Aprenda a reproduzir vários vídeos, sincronizar clipes, comparar esportes quadro a quadro, exportar vídeos em tela dividida e abrir transmissões ao vivo no iPhone e iPad.",
 			description:
-				"Respostas claras para as dúvidas mais comuns ao trabalhar com vários vídeos: primeiro a solução rápida e depois a configuração completa e os detalhes importantes.",
+				"Comece reproduzindo vários vídeos juntos e aprenda a sincronizá-los, compará-los quadro a quadro, exportar vídeos em tela dividida e assistir a transmissões ao vivo.",
 			readLabel: "Ler o guia",
 			homeLabel: "Voltar ao Split Screen Player",
 		},
@@ -556,7 +556,7 @@ export const guideCopyOverrides: Partial<
 			guides: "Guias",
 			directAnswer: "Resposta rápida",
 			steps: "Passo a passo",
-			tips: "Dicas para melhorar o resultado",
+			tips: "Dicas de uso",
 			relatedFeature: "Ver o recurso relacionado",
 			moreGuides: "Mais guias práticos",
 			backToGuides: "Voltar a todos os guias",

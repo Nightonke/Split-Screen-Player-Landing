@@ -73,10 +73,6 @@ export const translationOverrides: Record<
 		Supported: "Compatible",
 		"Not supported": "No compatible",
 		"Up to 2": "Hasta 2",
-		"Clear workflows for the questions people ask before and after opening a second video. Each guide starts with the quickest answer, then shows the complete setup.":
-			"Flujos de trabajo claros para las dudas que surgen antes y después de abrir un segundo vídeo. Cada guía empieza con la respuesta más rápida y después muestra la configuración completa.",
-		"“Partial” and “Manual” describe the typical workflow. Individual apps may vary.":
-			"«Parcial» y «Manual» describen el flujo de trabajo habitual. Cada aplicación puede funcionar de forma distinta.",
 	},
 	"pt-BR": {
 		FAQ: "Perguntas frequentes",
