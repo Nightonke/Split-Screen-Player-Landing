@@ -4,17 +4,28 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 interface Props { primary?: "ios" | "android"; }
 const { primary = "ios" } = Astro.props;
 const links = [
-  { platform: "ios", href: appFacts.appStoreUrl, label: "iPhone / iPad 版", store: "App Store", Icon: FaApple },
-  { platform: "android", href: appFacts.googlePlayUrl, label: "Android 版", store: "Google Play", Icon: FaGooglePlay },
+  { platform: "ios", href: appFacts.appStoreUrl, label: "iPhone / iPad 版", store: "App Store", qr: "/assets/app-store-qr.png", Icon: FaApple },
+  { platform: "android", href: appFacts.googlePlayUrl, label: "Android 版", store: "Google Play", qr: "/assets/google-play-qr.png", Icon: FaGooglePlay },
 ].sort((a, b) => Number(b.platform === primary) - Number(a.platform === primary));
 ---
 <div class="platform-downloads" aria-label="选择平台下载">
-  {links.map(({ href, label, store, Icon }) => <a class="button button-dark" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${store} 免费下载 ${label}`}><Icon aria-hidden="true" /><span>{label}<small>{store} · 免费下载</small></span></a>)}
+  {links.map(({ href, label, store, qr, Icon }) => (
+    <a class="button button-dark" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${store} 免费下载 ${label}`}>
+      <span class="platform-download-icon"><Icon aria-hidden="true" /></span>
+      <span class="platform-download-copy">{label}<small>{store} · 免费下载</small></span>
+      <img class="platform-download-qr" src={qr} width="84" height="84" alt={`扫码前往 ${store} 下载 ${label}`} />
+    </a>
+  ))}
 </div>
 <style>
-  .platform-downloads { display: flex; flex-wrap: wrap; gap: 12px; }
-  .platform-downloads a { min-width: 195px; text-align: left; justify-content: flex-start; }
-  .platform-downloads span { display: grid; gap: 5px; line-height: 1.35; }
+  .platform-downloads { display: grid; gap: 12px; width: min(100%, 360px); }
+  .platform-downloads a { display: grid; grid-template-columns: 24px minmax(0, 1fr) 84px; width: 100%; gap: 12px; padding: 12px; text-align: left; }
+  .platform-download-icon { display: flex; align-items: center; justify-content: center; }
+  .platform-download-copy { display: grid; gap: 6px; line-height: 1.4; font-size: .95rem; }
   .platform-downloads small { font-size: .7rem; font-weight: 500; opacity: .85; }
-  @media (max-width: 450px) { .platform-downloads { width: 100%; } .platform-downloads a { width: 100%; min-width: 0; } }
+  .platform-download-qr { width: 84px; height: 84px; border-radius: 6px; background: white; }
+  @media (max-width: 380px) {
+    .platform-downloads a { grid-template-columns: 20px minmax(0, 1fr) 72px; gap: 8px; }
+    .platform-download-qr { width: 72px; height: 72px; }
+  }
 </style>

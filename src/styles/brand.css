@@ -2857,7 +2857,7 @@ html[lang^="zh"] .hero-title {
 .platform-store-popover a > svg { width: 20px; height: 20px; }
 .platform-store-popover span { display: grid; gap: 5px; }
 .platform-store-popover small { font-size: .72rem; color: var(--ink-soft); }
-.closing-panel > .platform-downloads { justify-content: center; margin-top: 28px; }
+.closing-panel > .platform-downloads { margin: 28px auto 0; }
 @media (max-width: 680px) {
   .platform-store-menu > summary { width: 44px; height: 44px; min-width: 44px; padding: 0; border-radius: 12px; }
   .platform-store-menu > summary span { display: none; }
