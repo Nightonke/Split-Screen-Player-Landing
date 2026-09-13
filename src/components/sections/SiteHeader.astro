@@ -1,12 +1,13 @@
 ---
 import type { LanguageLink } from "@/types/content";
-import { FaApple, FaBars, FaGlobe } from "react-icons/fa";
+import { FaApple, FaBars, FaGlobe, FaDownload, FaGooglePlay } from "react-icons/fa";
 
 interface Props {
 	name: string;
 	logo: string;
 	homeHref: string;
 	storeHref: string;
+	googlePlayHref?: string;
 	languageLinks: LanguageLink[];
 	labels: {
 		siteHeader: string;
@@ -24,7 +25,7 @@ interface Props {
 	};
 }
 
-const { name, logo, homeHref, storeHref, languageLinks, labels, nav } = Astro.props;
+const { name, logo, homeHref, storeHref, googlePlayHref, languageLinks, labels, nav } = Astro.props;
 const currentLanguage =
 	languageLinks.find((link) => link.isActive)?.label ?? languageLinks[0]?.label;
 const homeAnchor = (anchor: string) =>
@@ -63,7 +64,13 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 				</div>
 			</details>
 
-			<a
+			{googlePlayHref ? <details class="platform-store-menu" name="mobile-header-menu">
+				<summary class="button button-dark button-small" aria-label={nav.getApp}><FaDownload aria-hidden="true" /><span>{nav.getApp}</span></summary>
+				<div class="language-popover platform-store-popover">
+					<a href={storeHref} target="_blank" rel="noopener noreferrer"><FaApple aria-hidden="true" /><span>iPhone / iPad<small>App Store</small></span></a>
+					<a href={googlePlayHref} target="_blank" rel="noopener noreferrer"><FaGooglePlay aria-hidden="true" /><span>Android<small>Google Play</small></span></a>
+				</div>
+			</details> : <a
 				class="button button-dark button-small header-store-button"
 				href={storeHref}
 				target="_blank"
@@ -72,7 +79,7 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 			>
 				<FaApple aria-hidden="true" />
 				<span>{nav.getApp}</span>
-			</a>
+			</a>}
 
 			<details class="mobile-language-menu" name="mobile-header-menu">
 				<summary aria-label={currentLanguage} title={currentLanguage}>
@@ -101,7 +108,8 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 					<a href={homeAnchor("#use-cases")}>{nav.useCases}</a>
 					<a href={guidesHref}>{nav.guides}</a>
 					<a href={homeAnchor("#faq")}>{nav.faq}</a>
-					<a href={storeHref} target="_blank" rel="noopener noreferrer">{nav.getApp}</a>
+					<a href={storeHref} target="_blank" rel="noopener noreferrer">{googlePlayHref ? "iPhone / iPad · App Store" : nav.getApp}</a>
+					{googlePlayHref && <a href={googlePlayHref} target="_blank" rel="noopener noreferrer">Android · Google Play</a>}
 				</nav>
 			</details>
 		</div>

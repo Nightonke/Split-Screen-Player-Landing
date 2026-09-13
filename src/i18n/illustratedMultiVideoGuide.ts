@@ -121,7 +121,7 @@ export const illustratedMultiVideoGuides = {
 				{ question: "这些功能需要会员吗？", answer: "App 可免费下载体验。带 VIP 标记的布局、自定义布局和保存快照等高级功能需要会员。" },
 			],
 			closingTitle: "把想看的画面，放到同一屏",
-			closingDescription: "从两段视频开始，试试上下分屏；再换成三行或四宫格，找到适合你的观看方式。下载 Split Screen Player，在 iPhone 或 iPad 上开始体验。",
+			closingDescription: "从两段视频开始，试试上下分屏；再换成三行或四宫格，找到适合你的观看方式。下载 Split Screen Player，在 iPhone 或 iPad 上开始体验。Android 版也已在 Google Play 上线。",
 		},
 		relatedFeature: "multi-video-player",
 	},

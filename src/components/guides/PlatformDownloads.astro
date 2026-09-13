@@ -1,0 +1,20 @@
+---
+import { appFacts } from "@config/appFacts";
+import { FaApple, FaGooglePlay } from "react-icons/fa";
+interface Props { primary?: "ios" | "android"; }
+const { primary = "ios" } = Astro.props;
+const links = [
+  { platform: "ios", href: appFacts.appStoreUrl, label: "iPhone / iPad 版", store: "App Store", Icon: FaApple },
+  { platform: "android", href: appFacts.googlePlayUrl, label: "Android 版", store: "Google Play", Icon: FaGooglePlay },
+].sort((a, b) => Number(b.platform === primary) - Number(a.platform === primary));
+---
+<div class="platform-downloads" aria-label="选择平台下载">
+  {links.map(({ href, label, store, Icon }) => <a class="button button-dark" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${store} 免费下载 ${label}`}><Icon aria-hidden="true" /><span>{label}<small>{store} · 免费下载</small></span></a>)}
+</div>
+<style>
+  .platform-downloads { display: flex; flex-wrap: wrap; gap: 12px; }
+  .platform-downloads a { min-width: 195px; text-align: left; justify-content: flex-start; }
+  .platform-downloads span { display: grid; gap: 5px; line-height: 1.35; }
+  .platform-downloads small { font-size: .7rem; font-weight: 500; opacity: .85; }
+  @media (max-width: 450px) { .platform-downloads { width: 100%; } .platform-downloads a { width: 100%; min-width: 0; } }
+</style>

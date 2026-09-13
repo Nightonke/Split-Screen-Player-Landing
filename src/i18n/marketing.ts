@@ -1035,3 +1035,15 @@ export const marketingContent: Record<Locale, MarketingContent> = {
 	es: createExtendedMarketing("es"),
 	"pt-BR": createExtendedMarketing("pt-BR"),
 };
+
+Object.assign(marketingContent["zh-Hans"].hero, {
+  eyebrow: "多视频播放器 · iPhone / iPad / 安卓",
+  description: "在手机和平板上同时播放、对齐、对比和导出最多 36 个视频。支持 iPhone、iPad 与安卓，提供 144 种横竖屏布局。还可以把图片、网页、PDF 和音乐放在一起。",
+  ratingText: `App Store · ${appFacts.rating.score} ★ · ${appFacts.rating.count} 个评分`,
+  privacyText: "相册视频 · 本地文件",
+});
+const chinesePlayChapter = marketingContent["zh-Hans"].chapters.find(chapter => chapter.id === "play");
+if (chinesePlayChapter) {
+  chinesePlayChapter.description = "用 144 种布局同时观看最多 36 个视频。在 iPhone、iPad 或安卓手机和平板上，选择横屏、竖屏或创建自己的布局。";
+  chinesePlayChapter.points = ["2～36 个视频同时播放", "144 种布局 + 自定义布局", "横屏与竖屏", "iPhone、iPad 与安卓", "支持外接屏幕"];
+}

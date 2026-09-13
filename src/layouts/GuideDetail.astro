@@ -1,18 +1,19 @@
 ---
 import { landingContent } from "@/i18n/content";
 import { pageChrome } from "@/i18n/chrome";
-import { guideContent, guideSlugs, type GuideSlug } from "@/i18n/guides";
+import { guideContent, guideSlugs, type GuideSlug, type GuidePage } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import type { LanguageLink } from "@/types/content";
 import { mediaAsset } from "@config/media";
 import { FaApple } from "react-icons/fa";
 import Layout from "./Layout.astro";
+import { getGuide } from "@/i18n/guideCatalog";
 import GuideArticle from "../components/guides/GuideArticle.astro";
 
 interface Props {
 	locale: Locale;
-	slug: GuideSlug;
+	slug: GuidePage["slug"];
 	languageLinks: LanguageLink[];
 }
 
@@ -21,7 +22,7 @@ const content = landingContent[locale];
 const guides = guideContent[locale];
 const marketing = marketingContent[locale];
 const chrome = pageChrome[locale];
-const guide = guides.pages[slug];
+const guide = getGuide(locale, slug);
 const homeHref = localizedPath(locale);
 const guidesHref = localizedPath(locale, "guides");
 const pageHref = localizedPath(locale, `guides/${slug}`);
@@ -61,7 +62,7 @@ const structuredData: Array<Record<string, unknown>> = [
 			name: step.title,
 			text: [step.description, step.detail].filter(Boolean).join(" "),
 			url: new URL(`${pageHref}#step-${index + 1}`, siteURL).href,
-			...(step.image ? { image: new URL(step.image.src, siteURL).href } : {}),
+			...(step.image && !step.image.illustrative ? { image: new URL(step.image.src, siteURL).href } : {}),
 		})),
 	},
 	{
@@ -120,7 +121,7 @@ if (guide.article) {
 	privacyHref={localizedPath(locale, "privacy")}
 	termsHref={localizedPath(locale, "terms")}
 	labels={content.labels}
-	ogImageAlt={`${content.shortName} — ${guide.title}`}
+	ogImageAlt={articleSocialImage?.alt ?? `${content.shortName} — ${guide.title}`}
 	ogType={guide.article ? "article" : "website"}
 	ogImage={articleSocialImage?.src}
 	ogImageType={articleSocialImage ? "image/webp" : undefined}

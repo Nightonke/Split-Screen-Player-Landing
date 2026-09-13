@@ -25,10 +25,12 @@ export interface GuideImage {
 	height: number;
 	/** Rectangle in original image pixels, rendered above the unmodified screenshot. */
 	highlight?: { x: number; y: number; width: number; height: number };
+	illustrative?: boolean;
 }
 
 export interface GuidePage {
-	slug: GuideSlug;
+	slug: GuideSlug | "play-multiple-videos-android";
+	platform?: "ios" | "android";
 	eyebrow: string;
 	title: string;
 	seoTitle: string;
@@ -536,3 +538,10 @@ for (const [locale, page] of Object.entries(illustratedMultiVideoGuides)) {
 		pages: { ...localized.pages, [page.slug]: page },
 	};
 }
+
+Object.assign(guideContent["zh-Hans"].hub, {
+  title: "在手机和平板上，学会同时播放多个视频。",
+  seoTitle: "手机和平板多视频播放教程｜iPhone、iPad 与安卓",
+  metaDescription: "选择适合你设备的 Split Screen Player 教程：在 iPhone、iPad 或安卓手机和平板上同时播放多个视频，设置上下分屏和四宫格，再学习对比、同步与导出。",
+  description: "先选择 iPhone / iPad 或安卓教程，学会添加视频、选择布局和控制声音，再探索同步、动作对比与分屏导出。",
+});

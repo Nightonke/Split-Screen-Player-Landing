@@ -955,3 +955,14 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 	es: createExtendedLanding("es"),
 	"pt-BR": createExtendedLanding("pt-BR"),
 };
+
+Object.assign(landingContent["zh-Hans"], {
+  seoTitle: "手机和平板多视频播放器｜iPhone、iPad、安卓分屏播放",
+  description: "在手机和平板的同一屏幕上播放、对比、同步和导出多个视频。支持 iPhone、iPad 与安卓，最多同时播放 36 个视频，提供 144 种布局和自定义分屏。",
+  metaDescription: "Split Screen Player 支持 iPhone、iPad 和安卓手机与平板。最多同时播放 36 个视频，选择 144 种布局或自定义分屏，独立控制声音、对比动作并导出分屏视频。现可从 App Store 或 Google Play 下载。",
+});
+landingContent["zh-Hans"].keywords = [...landingContent["zh-Hans"].keywords, "安卓分屏播放器", "Android 多视频播放器", "手机同时播放多个视频", "平板多视频播放"];
+landingContent["zh-Hans"].faqs = [{
+  question: "支持哪些手机和平板？",
+  answer: "Split Screen Player 提供 iPhone、iPad 和 Android 版本。苹果设备可从 App Store 下载，安卓手机和平板可从 Google Play 下载；操作步骤可查看对应平台的教程。",
+}, ...landingContent["zh-Hans"].faqs];

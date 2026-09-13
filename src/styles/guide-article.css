@@ -87,3 +87,6 @@ html:has(.article-guide-lightbox[open]) { overflow: hidden; }
   .article-guide-cta .button { font-size: .9rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.article-platform-links { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: baseline; }
+.article-illustration-note { color: var(--ink-soft); font-size: .85rem; line-height: 1.7; margin: 22px 0 0; }

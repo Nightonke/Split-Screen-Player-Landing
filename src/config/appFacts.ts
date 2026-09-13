@@ -5,6 +5,7 @@
 export const appFacts = {
 	appStoreAppId: 6758291951,
 	appStoreUrl: "https://apps.apple.com/app/id6758291951",
+	googlePlayUrl: "https://play.google.com/store/apps/details?id=com.nightonke.android.splitscreenplayer",
 	maxVideos: 36,
 	layoutCount: 144,
 	rating: {

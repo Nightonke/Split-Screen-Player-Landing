@@ -1,10 +1,12 @@
 ---
 import { landingContent } from "@/i18n/content";
 import { pageChrome } from "@/i18n/chrome";
-import { guideContent, guideSlugs } from "@/i18n/guides";
+import { guideContent } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import type { LanguageLink } from "@/types/content";
 import { FaApple } from "react-icons/fa";
+import { getGuides } from "@/i18n/guideCatalog";
+import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
 import Layout from "./Layout.astro";
 
 interface Props {
@@ -15,6 +17,7 @@ interface Props {
 const { locale, languageLinks } = Astro.props;
 const content = landingContent[locale];
 const guides = guideContent[locale];
+const pages = getGuides(locale);
 const chrome = pageChrome[locale];
 const homeHref = localizedPath(locale);
 const guidesHref = localizedPath(locale, "guides");
@@ -37,11 +40,11 @@ const structuredData = [
 	{
 		"@context": "https://schema.org",
 		"@type": "ItemList",
-		itemListElement: guideSlugs.map((slug, index) => ({
+		itemListElement: pages.map((guide, index) => ({
 			"@type": "ListItem",
 			position: index + 1,
-			name: guides.pages[slug].title,
-			url: new URL(localizedPath(locale, `guides/${slug}`), siteURL).href,
+			name: guide.title,
+			url: new URL(localizedPath(locale, `guides/${guide.slug}`), siteURL).href,
 		})),
 	},
 ];
@@ -74,12 +77,11 @@ const structuredData = [
 			</section>
 
 			<section class="guide-grid" aria-label={guides.labels.guides}>
-				{guideSlugs.map((slug, index) => {
-					const guide = guides.pages[slug];
+				{pages.map((guide, index) => {
 					return (
 						<a
 							class="guide-card"
-							href={localizedPath(locale, `guides/${slug}`)}
+							href={localizedPath(locale, `guides/${guide.slug}`)}
 							data-reveal
 						>
 							<span class="guide-card-number">{String(index + 1).padStart(2, "0")}</span>
@@ -98,7 +100,7 @@ const structuredData = [
 				<p class="eyebrow">{content.shortName}</p>
 				<h2 class="section-title">{chrome.guideHubClosingTitle}</h2>
 				<p class="section-lede">{content.description}</p>
-				<a
+				{locale === "zh-Hans" ? <PlatformDownloads /> : <a
 					class="button button-dark"
 					href={content.storeLinks.apple}
 					target="_blank"
@@ -106,7 +108,7 @@ const structuredData = [
 				>
 					<FaApple aria-hidden="true" />
 					{chrome.downloadFree}
-				</a>
+				</a>}
 			</div>
 		</section>
 	</main>

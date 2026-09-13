@@ -2846,3 +2846,21 @@ html[lang^="zh"] .hero-title {
 		width: 100%;
 	}
 }
+
+/* Platform selection for the Simplified Chinese Android launch. */
+.platform-store-menu { position: relative; }
+.platform-store-menu > summary { cursor: pointer; list-style: none; }
+.platform-store-menu > summary::-webkit-details-marker { display: none; }
+.platform-store-menu > summary svg { width: 15px; height: 15px; }
+.platform-store-popover { min-width: 215px; z-index: 30; }
+.platform-store-popover a { display: flex; align-items: center; gap: 12px; }
+.platform-store-popover a > svg { width: 20px; height: 20px; }
+.platform-store-popover span { display: grid; gap: 5px; }
+.platform-store-popover small { font-size: .72rem; color: var(--ink-soft); }
+.closing-panel > .platform-downloads { justify-content: center; margin-top: 28px; }
+@media (max-width: 680px) {
+  .platform-store-menu > summary { width: 44px; height: 44px; min-width: 44px; padding: 0; border-radius: 12px; }
+  .platform-store-menu > summary span { display: none; }
+}
+.hero-actions:has(.platform-downloads) { display: block; width: min(100%, 500px); }
+.hero-actions .platform-downloads .button { height: auto; min-height: 76px; }
