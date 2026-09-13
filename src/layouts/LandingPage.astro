@@ -6,7 +6,6 @@ import { guideContent } from "@/i18n/guides";
 import { pageChrome } from "@/i18n/chrome";
 import { localizedPath } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
-import { FaApple } from "react-icons/fa";
 import { getGuides } from "@/i18n/guideCatalog";
 import { appFacts } from "@config/appFacts";
 import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
@@ -23,7 +22,6 @@ const { content, languageLinks } = Astro.props;
 const marketing = marketingContent[content.locale];
 const guides = guideContent[content.locale];
 const pages = getGuides(content.locale);
-const hasAndroid = content.locale === "zh-Hans";
 const chrome = pageChrome[content.locale];
 const homeHref = localizedPath(content.locale);
 const privacyHref = localizedPath(content.locale, "privacy");
@@ -44,7 +42,7 @@ const structuredData: Array<Record<string, unknown>> = [
 		name: "Smith Night",
 		url: canonicalHome,
 		logo: new URL(content.logo, siteURL).href,
-		sameAs: hasAndroid ? [storeURL, appFacts.googlePlayUrl] : [storeURL],
+		sameAs: [storeURL, appFacts.googlePlayUrl],
 	},
 	{
 		"@context": "https://schema.org",
@@ -93,13 +91,13 @@ const structuredData: Array<Record<string, unknown>> = [
 		})),
 	},
  ];
-if (hasAndroid) structuredData.push({
+structuredData.push({
   "@context": "https://schema.org", "@type": "MobileApplication",
   name: "Split Screen Player — Android", applicationCategory: "MultimediaApplication",
-  description: "在安卓手机和平板上同时播放多个视频，使用 144 种布局或自定义布局，分别控制声音，并收藏常用组合。",
+  description: content.metaDescription,
   url: canonicalHome, downloadUrl: appFacts.googlePlayUrl, operatingSystem: "Android 6.0 or later",
   image: new URL(content.logo, siteURL).href,
-  featureList: ["最多 36 个视频", "144 种预设布局", "自定义布局", "视频、音频、图片、PDF 与网页", "分屏视频导出"],
+  featureList: marketing.capabilities,
   offers: { "@type": "Offer", price: 0, priceCurrency: "USD", availability: "https://schema.org/InStock" },
 });
 ---
@@ -126,35 +124,7 @@ if (hasAndroid) structuredData.push({
 						<h1 class="display-title hero-title">{marketing.hero.title}</h1>
 						<p class="hero-description">{marketing.hero.description}</p>
 						<div class="hero-actions">
-							{hasAndroid ? <PlatformDownloads /> : <>
-							<a
-								class="button button-dark"
-								href={storeURL}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<FaApple aria-hidden="true" />
-								{marketing.hero.primaryCta}
-							</a>
-							<a
-								class="hero-qr"
-								href={storeURL}
-								target="_blank"
-								rel="noopener noreferrer"
-								aria-label={marketing.hero.primaryCta}
-							>
-								<img
-									src="/assets/app-store-qr.png"
-									width="72"
-									height="72"
-									alt=""
-								/>
-								<span>
-									<strong>{chrome.scanWithIPhone}</strong>
-									<small>{marketing.nav.getApp}</small>
-								</span>
-							</a>
-							</>}
+							<PlatformDownloads locale={content.locale} />
 						</div>
 						<p class="hero-proof">
 							<span>{marketing.hero.ratingText}</span>
@@ -412,14 +382,7 @@ if (hasAndroid) structuredData.push({
 				<p class="eyebrow">{marketing.closing.eyebrow}</p>
 				<h2 class="section-title">{marketing.closing.title}</h2>
 				<p class="section-lede">{marketing.closing.description}</p>
-				{hasAndroid ? <PlatformDownloads /> : <a
-					class="button button-dark"
-					href={storeURL}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{marketing.closing.cta}
-				</a>}
+				<PlatformDownloads locale={content.locale} />
 			</div>
 		</section>
 	</main>

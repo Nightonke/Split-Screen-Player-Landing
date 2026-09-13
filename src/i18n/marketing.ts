@@ -1,3 +1,4 @@
+import platformCopy from "./platformCopy.json";
 import type { Locale } from "./locales";
 import { localizeDeep, type ExtendedLocale } from "./translation";
 import { mediaAsset } from "@config/media";
@@ -1036,14 +1037,28 @@ export const marketingContent: Record<Locale, MarketingContent> = {
 	"pt-BR": createExtendedMarketing("pt-BR"),
 };
 
-Object.assign(marketingContent["zh-Hans"].hero, {
-  eyebrow: "多视频播放器 · iPhone / iPad / 安卓",
-  description: "在手机和平板上同时播放、对齐、对比和导出最多 36 个视频。支持 iPhone、iPad 与安卓，提供 144 种横竖屏布局。还可以把图片、网页、PDF 和音乐放在一起。",
-  ratingText: `App Store · ${appFacts.rating.score} ★ · ${appFacts.rating.count} 个评分`,
-  privacyText: "相册视频 · 本地文件",
-});
-const chinesePlayChapter = marketingContent["zh-Hans"].chapters.find(chapter => chapter.id === "play");
-if (chinesePlayChapter) {
-  chinesePlayChapter.description = "用 144 种布局同时观看最多 36 个视频。在 iPhone、iPad 或安卓手机和平板上，选择横屏、竖屏或创建自己的布局。";
-  chinesePlayChapter.points = ["2～36 个视频同时播放", "144 种布局 + 自定义布局", "横屏与竖屏", "iPhone、iPad 与安卓", "支持外接屏幕"];
+for (const [locale, copy] of Object.entries(platformCopy)) {
+  const page = marketingContent[locale as Locale];
+  page.hero.eyebrow = "iPhone / iPad / Android";
+  page.hero.description = copy.description;
+  page.hero.ratingText = `App Store · ${page.hero.ratingText}`;
+  page.hero.privacyText = copy.mediaLabel;
+  page.closing.description = copy.description;
+  const play = page.chapters.find(chapter => chapter.id === "play");
+  if (play) {
+    play.description = copy.description;
+    play.points[3] = "iPhone / iPad / Android";
+  }
+  const streams = page.chapters.find(chapter => chapter.id === "streams");
+  if (streams) {
+    streams.description = copy.streams;
+    streams.points[0] = "IPTV + Xtream Codes · iPhone / iPad";
+  }
+}
+
+for (const page of Object.values(marketingContent)) {
+  for (const detail of [...Object.values(page.details.features), ...Object.values(page.details.useCases)]) {
+    if (detail === page.details.features['iptv-streaming']) continue;
+    detail.seoTitle = `${detail.title} | iPhone, iPad & Android`;
+  }
 }

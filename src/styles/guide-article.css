@@ -13,7 +13,7 @@
 .article-guide-body p { font-size: 1.0625rem; line-height: 1.95; color: var(--ink-soft); }
 .article-guide-body h2, .article-guide-related h2 { margin: 16px 0 22px; font-size: clamp(1.6rem, 2.3vw, 2rem); line-height: 1.4; letter-spacing: -.035em; text-wrap: pretty; }
 .article-guide-answer { margin: 0; padding: 0 0 25px; border-bottom: 1px solid var(--line); }
-.article-guide-step { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 36px; align-items: center; padding-block: 42px; border-bottom: 1px solid var(--line); scroll-margin-top: 16px; }
+.article-guide-step { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 36px; align-items: center; padding-block: 42px; border-bottom: 1px solid var(--line); scroll-margin-top: 112px; }
 .article-guide-step--reverse { grid-template-columns: 270px minmax(0, 1fr); }
 .article-guide-step--reverse .article-guide-step-copy { order: 2; }
 .article-guide-step--reverse .article-screenshot { order: 1; }
@@ -28,7 +28,7 @@
 .article-screenshot img { width: 100%; height: auto; }
 .article-screenshot-highlight { position: absolute; border: 3px solid #ff701f; box-shadow: 0 0 0 1px #fff, inset 0 0 0 1px #fff; border-radius: 6px; pointer-events: none; }
 .article-screenshot figcaption { margin-top: 16px; color: var(--ink-soft); font-size: .85rem; line-height: 1.75; text-align: center; }
-.article-guide-more, .article-guide-faq { padding-top: 48px; scroll-margin-top: 16px; }
+.article-guide-more, .article-guide-faq { padding-top: 48px; scroll-margin-top: 112px; }
 .article-guide-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding: 26px 0; margin: 28px 0 8px; border-block: 1px solid var(--line-strong); }
 .article-guide-facts div { display: grid; gap: 10px; }
 .article-guide-facts strong { font-size: clamp(1.3rem, 2.5vw, 2.2rem); letter-spacing: -.045em; }

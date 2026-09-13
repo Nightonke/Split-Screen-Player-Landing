@@ -78,6 +78,7 @@ export interface StoreData {
 	appPreview: AppPreviewVideo;
 	storeLinks: {
 		apple: string;
+		google?: string;
 	};
 }
 

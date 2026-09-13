@@ -1,8 +1,9 @@
+import platformCopy from "./platformCopy.json";
 import type { Locale } from "./locales";
 import { localizeDeep } from "./translation";
 import type { FeatureSlug, UseCaseSlug } from "./marketing";
 import { guideCopyOverrides } from "./guideCopyOverrides";
-import { illustratedMultiVideoGuides } from "./illustratedMultiVideoGuide";
+import { localizedMultiVideoGuides } from "./localizedMultiVideoGuides";
 import * as OpenCC from "opencc-js";
 
 export const guideSlugs = [
@@ -26,11 +27,13 @@ export interface GuideImage {
 	/** Rectangle in original image pixels, rendered above the unmodified screenshot. */
 	highlight?: { x: number; y: number; width: number; height: number };
 	illustrative?: boolean;
+	credit?: { label: string; href: string };
 }
 
 export interface GuidePage {
-	slug: GuideSlug | "play-multiple-videos-android";
+	slug: GuideSlug | "play-multiple-videos-android" | "browse-two-websites-iphone-ipad" | "browse-two-websites-android" | "watch-video-and-browse-web-iphone-ipad" | "watch-video-and-browse-web-android";
 	platform?: "ios" | "android";
+	otherPlatformSlug?: GuidePage["slug"];
 	eyebrow: string;
 	title: string;
 	seoTitle: string;
@@ -531,7 +534,7 @@ export const guideContent: Record<Locale, GuideContent> = {
 
 // Apply illustrated editions after generating the other locales, so a pilot's
 // copy and language-specific screenshots never leak into untranslated pages.
-for (const [locale, page] of Object.entries(illustratedMultiVideoGuides)) {
+for (const [locale, page] of Object.entries(localizedMultiVideoGuides)) {
 	const localized = guideContent[locale as Locale];
 	guideContent[locale as Locale] = {
 		...localized,
@@ -539,9 +542,9 @@ for (const [locale, page] of Object.entries(illustratedMultiVideoGuides)) {
 	};
 }
 
-Object.assign(guideContent["zh-Hans"].hub, {
-  title: "在手机和平板上，学会同时播放多个视频。",
-  seoTitle: "手机和平板多视频播放教程｜iPhone、iPad 与安卓",
-  metaDescription: "选择适合你设备的 Split Screen Player 教程：在 iPhone、iPad 或安卓手机和平板上同时播放多个视频，设置上下分屏和四宫格，再学习对比、同步与导出。",
-  description: "先选择 iPhone / iPad 或安卓教程，学会添加视频、选择布局和控制声音，再探索同步、动作对比与分屏导出。",
-});
+for (const [locale, copy] of Object.entries(platformCopy)) {
+  Object.assign(guideContent[locale as Locale].hub, {
+    title: copy.hubTitle, seoTitle: copy.hubTitle,
+    metaDescription: copy.hubDescription, description: copy.hubDescription,
+  });
+}

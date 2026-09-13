@@ -1,0 +1,240 @@
+{
+  "en-US": {
+    "deviceIOS": "iPhone or iPad", "deviceAndroid": "an Android phone or tablet",
+    "title": "How to play multiple videos at once on {device}",
+    "meta": "Watch two, three, or four videos at once on {device}. Choose stacked rows or a 2×2 grid, add local clips, control sound, and save your setup.",
+    "summary": "Compare two clips without switching players, stack three videos in portrait, or watch four camera angles in a landscape grid. Split Screen Player keeps each picture visible on {device}.",
+    "answer": "Choose a split-screen layout, tap + in each region, and add a video from your gallery or files. Each clip has separate playback and sound controls. You can start with two videos and add more when you need them.",
+    "stepsHeading": "From three stacked rows to a four-video grid",
+    "steps": [
+      ["Choose two or three video regions", "Tap the four-square layout icon in the toolbar. The first group offers stacked and side-by-side layouts for two videos. For three clips, choose the outlined three-row thumbnail in the vertical single-column group.", "The small strip in each thumbnail shows where the toolbar sits. Use the number and orientation filters at the bottom to narrow the choices.", "The three-row layout is outlined among the other arrangements."],
+      ["Add a video to each region", "Tap + in an empty region. In {open}, choose {videos} and select a clip. Repeat for the other regions. Use {files} for a video saved elsewhere on the device.", "To replace a clip, tap its picture and then + in its controls. Playlist lets several clips play one after another within the same region.", "Choose {videos} or {files} to add a video."],
+      ["Control playback and choose what you hear", "Tap a video to reveal its controls. Use the center button to play or pause it, and drag the timeline to another moment. Other clips can keep playing independently.", "Mute the clips you do not want to hear with their speaker buttons. Use the speed button to slow down a movement you are comparing.", "Each video has its own sound, speed, and playback controls."],
+      ["Switch to a landscape 2×2 grid", "Open the layout picker, select 4 in the number filter, and choose {landscape}. Select the two-by-two thumbnail in the center-symmetry group.", "The strip on the right of the thumbnail represents the toolbar. Hold your device horizontally to view the four regions.", "Choose four regions with the toolbar on the right."],
+      ["Add the fourth clip and save the combination", "The first three videos remain available after the layout change. Tap + in the empty region and add a fourth clip.", "Tap the star, {bookmark}, to save the current videos and layout. Later, open {bookmarks} beside it to restore this combination.", "Four videos play together in a landscape grid."]
+    ],
+    "featuresHeading": "Build the split screen that fits your viewing",
+    "featuresIntro": "Keep a reference beside your own recording, review camera angles, or watch a lesson with its supporting material.",
+    "features": [
+      ["144 layouts, with up to 36 videos at once", "Choose stacked rows, side-by-side views, a four-video grid, or a denser arrangement. Tablets give each picture more room. Smooth playback depends on the device, codec, and resolution, so add videos gradually."],
+      ["Give the main picture more space", "Open {custom} in the layout picker to create your own arrangement. Move regions, resize them, and divide the screen with lines to balance the main video and its references."],
+      ["Combine videos, images, PDFs, and web pages", "Each region can hold a different kind of content: videos, audio, image collections, PDFs, or web pages. You can also open HLS (M3U8) and RTSP stream links."],
+      ["Open local MP4, MOV, MKV, and WebM files", "Add recordings from your gallery or open files from a folder. Support for a particular file depends on its video and audio codecs, not just its filename extension."],
+      ["Compare the same moment or share the result", "Sync Points help align recordings that began at different times. When you want to share several pictures as one video, use split-screen video export with your local clips."]
+    ],
+    "faq": [
+      ["Can I start with just two videos?", "Yes. Choose a two-region layout and add one video to each region. You can keep them stacked or side by side, with separate playback and sound controls."],
+      ["Does it work on tablets?", "Yes. The same app supports phones and tablets. A larger screen is useful for reviewing several angles or reading reference material beside a video."],
+      ["Do I have to merge the videos first?", "No. Split-screen playback keeps the clips separate. A playlist plays clips sequentially in one region; a split-screen layout shows different clips at the same time."],
+      ["How do I remove black bars?", "Choose {fill} in the video scaling settings. It fills each region by cropping the edges when the shapes differ. Use Fit when seeing the whole original frame matters more."],
+      ["Can it display two separate streaming apps?", "This guide covers content opened inside Split Screen Player. It does not embed other apps. Playback from a web page depends on that website and its restrictions."],
+      ["Is the app free?", "The app is free to download, with basic video playback and free layouts. Layouts marked VIP, custom-layout use, bookmarks, and other advanced features require membership."]
+    ],
+    "closingTitle": "Keep the videos you want to watch on one screen",
+    "closingDescription": "Start with two clips, then try three stacked rows or a four-video grid. Download the version for your device from the App Store or Google Play."
+  },
+  "ja": {
+    "deviceIOS": "iPhone・iPad", "deviceAndroid": "Android スマートフォン・タブレット",
+    "title": "{device}で複数の動画を同時再生する方法",
+    "meta": "{device}で2本・3本・4本の動画を同時に見る方法。上下分割、縦3段、2×2配置の選び方、動画の追加、音声操作、組み合わせの保存を画像付きで解説します。",
+    "summary": "2本の動画を切り替えずに比較したり、縦に3本並べたり、4つの撮影アングルを横画面で見たり。Split Screen Player なら、{device}の1画面に見たい動画を並べられます。",
+    "answer": "まずレイアウトを選び、各エリアの＋から写真ライブラリやファイルの動画を追加します。再生や音声は動画ごとに操作できます。2本から始めて、必要に応じて増やしましょう。",
+    "stepsHeading": "縦3段から横向きの4分割へ",
+    "steps": [
+      ["2つまたは3つのエリアを選ぶ", "操作バーの四角が4つ並んだレイアウトアイコンをタップします。最初のグループには2本を上下・左右に並べる配置があります。3本を見る場合は、縦1列のグループで枠付きの3段配置を選びます。", "サムネイルの細い帯は操作バーの位置です。下部の本数と画面方向のフィルターで配置を絞り込めます。", "さまざまな配置の中で、縦3段のレイアウトを枠で示しています。"],
+      ["各エリアに動画を追加する", "空のエリアの＋をタップし、「{open}」で「{videos}」を選びます。動画を1本選び、ほかのエリアにも追加します。別の場所に保存した動画は「{files}」から開けます。", "動画を入れ替えるときは、画面をタップして操作ボタンを表示し、＋を押します。プレイリストを使うと、1つのエリアで複数の動画を順番に再生できます。", "「{videos}」または「{files}」から動画を追加します。"],
+      ["再生と音声を個別に操作する", "動画をタップすると操作ボタンが表示されます。中央のボタンで再生・一時停止、シークバーで再生位置を変更できます。ほかの動画は独立して再生を続けられます。", "聞かない動画はスピーカーボタンでミュートします。動作を比べるときは速度ボタンでゆっくり再生できます。", "動画ごとに音声、速度、再生位置を操作できます。"],
+      ["横向きの2×2配置に切り替える", "レイアウト選択を開き、本数を「4」、方向を「{landscape}」にします。中央対称のグループから2行2列の配置を選びます。", "サムネイル右側の細い帯が操作バーです。端末を横に持つと、4つのエリアを横画面で見られます。", "操作バーが右にある4分割を選びます。"],
+      ["4本目を追加し、組み合わせを保存する", "配置を変えても最初の3本は引き継がれます。空いているエリアの＋から4本目の動画を追加します。", "星形の「{bookmark}」で動画と配置を保存できます。次回は隣の「{bookmarks}」から、この組み合わせを開きます。", "4本の動画を横向きの格子状に並べて再生しています。"]
+    ],
+    "featuresHeading": "見たい内容に合わせて画面を組み立てる",
+    "featuresIntro": "参考動画と自分の撮影を比較したり、複数のアングルを確認したり、講義と資料を同時に見たりできます。",
+    "features": [
+      ["144種類の配置、最大36本の動画を同時再生", "上下・左右分割、3段、4分割から、さらに多い本数の配置まで選べます。タブレットなら各映像を大きく表示できます。再生の滑らかさは端末、コーデック、解像度に左右されるため、少しずつ本数を増やしましょう。"],
+      ["重要な映像を大きく表示", "レイアウト選択の「{custom}」から独自の配置を作れます。エリアを移動・サイズ変更したり、線で画面を区切ったりして、主役の動画と参考資料のバランスを調整できます。"],
+      ["動画、画像、PDF、Webページを同じ画面に", "各エリアには動画、音声、画像集、PDF、Webページを開けます。HLS（M3U8）やRTSPのストリームリンクにも対応しています。"],
+      ["MP4、MOV、MKV、WebMなどを開く", "写真ライブラリの動画や、フォルダに保存したファイルを追加できます。再生できるかどうかは、拡張子だけでなく動画・音声のコーデックによっても変わります。"],
+      ["同じ瞬間を比較し、動画として共有", "同期ポイントを使うと、録画開始時刻が異なる動画を共通の動作に合わせられます。複数の映像を1本にして共有したいときは、ローカル動画の分割画面書き出しを使えます。"]
+    ],
+    "faq": [
+      ["2本だけ同時に見られますか？", "はい。2エリアの配置を選び、各エリアに動画を1本ずつ追加します。上下にも左右にも並べられ、再生と音声は個別に操作できます。"],
+      ["タブレットでも使えますか？", "はい。スマートフォンとタブレットに対応しています。大きな画面は複数アングルの確認や、動画と資料を並べて見る用途に向いています。"],
+      ["先に動画を結合する必要がありますか？", "ありません。分割画面では各動画を独立したまま再生します。プレイリストは1つのエリアで順番に再生し、分割画面は異なる動画を同時に表示します。"],
+      ["動画の周囲の黒い帯をなくすには？", "動画の表示設定で「{fill}」を選びます。エリアと動画の縦横比が違う場合は、端を切り取って全体を埋めます。元の映像全体を確認したいときは、画面に合わせる設定を使ってください。"],
+      ["別々の配信アプリを2つ表示できますか？", "このガイドは Split Screen Player 内で開くコンテンツを対象としています。ほかのアプリを埋め込む機能ではありません。Web動画の再生可否はサイト側の仕様によります。"],
+      ["無料で使えますか？", "無料でダウンロードでき、基本的な動画再生と無料レイアウトを利用できます。VIP表示のある配置、カスタム配置の使用、お気に入りなどの高度な機能には有料プランが必要です。"]
+    ],
+    "closingTitle": "見たい動画を1つの画面に",
+    "closingDescription": "2本から始めて、縦3段や4分割も試してみましょう。お使いの端末に合うバージョンを App Store または Google Play からダウンロードできます。"
+  },
+  "ko": {
+    "deviceIOS": "iPhone 또는 iPad", "deviceAndroid": "Android 휴대전화 또는 태블릿",
+    "title": "{device}에서 여러 동영상을 동시에 재생하는 방법",
+    "meta": "{device}에서 동영상 2개, 3개, 4개를 동시에 보는 방법을 알아보세요. 위아래 분할, 세로 3단, 2×2 배치부터 영상 추가, 소리 조절, 구성 저장까지 안내합니다.",
+    "summary": "플레이어를 바꾸지 않고 두 영상을 비교하거나, 세 영상을 위아래로 놓거나, 네 촬영 각도를 가로 화면에서 볼 수 있습니다. Split Screen Player로 {device}의 한 화면에 필요한 영상을 모아 보세요.",
+    "answer": "분할 레이아웃을 고르고 각 영역의 +를 눌러 갤러리나 파일에서 영상을 추가하세요. 재생과 소리는 영상마다 따로 조절할 수 있습니다. 두 개로 시작해 필요할 때 더 추가하면 됩니다.",
+    "stepsHeading": "세로 3단에서 가로 4분할까지",
+    "steps": [
+      ["두 개 또는 세 개의 영역 선택하기", "도구 모음에서 네 칸 모양의 레이아웃 아이콘을 누르세요. 첫 그룹에는 두 영상을 위아래 또는 좌우로 배치하는 레이아웃이 있습니다. 세 영상을 보려면 세로 한 열 그룹에서 테두리로 표시한 3단 배치를 고르세요.", "작은 썸네일의 가느다란 막대는 도구 모음 위치입니다. 아래쪽의 개수와 방향 필터로 원하는 배치를 찾을 수 있습니다.", "다양한 배치 중 세로 3단 레이아웃을 테두리로 표시했습니다."],
+      ["영역마다 영상 추가하기", "빈 영역의 +를 누른 다음, ‘{open}’에서 ‘{videos}’을 선택해 영상을 추가하세요. 다른 영역에도 반복합니다. 기기의 다른 위치에 저장한 영상은 ‘{files}’에서 열 수 있습니다.", "영상을 바꾸려면 화면을 눌러 조작 버튼을 표시한 뒤 +를 누르세요. 재생목록을 사용하면 여러 영상을 한 영역에서 순서대로 재생할 수도 있습니다.", "‘{videos}’ 또는 ‘{files}’에서 영상을 추가합니다."],
+      ["재생과 소리를 따로 조절하기", "영상을 누르면 해당 영상의 조작 버튼이 나타납니다. 가운데 버튼으로 재생하거나 일시정지하고, 진행 막대를 끌어 원하는 시점으로 이동하세요. 다른 영상은 계속 재생할 수 있습니다.", "듣지 않을 영상은 스피커 버튼으로 음소거하세요. 동작을 비교할 때는 속도 버튼으로 느리게 재생할 수 있습니다.", "영상마다 소리, 속도, 재생 위치를 따로 조절합니다."],
+      ["가로 2×2 배치로 바꾸기", "레이아웃 선택기를 다시 열고 개수를 ‘4’, 방향을 ‘{landscape}’로 고르세요. 중앙 대칭 그룹에서 두 줄 두 칸으로 된 배치를 선택합니다.", "썸네일 오른쪽의 가느다란 막대가 도구 모음입니다. 기기를 가로로 들면 네 영역을 가로 화면에서 볼 수 있습니다.", "도구 모음이 오른쪽에 있는 4분할 배치를 선택합니다."],
+      ["네 번째 영상을 추가하고 구성 저장하기", "레이아웃을 바꿔도 앞의 세 영상은 이어집니다. 빈 영역의 +를 눌러 네 번째 영상을 추가하세요.", "별 모양의 ‘{bookmark}’으로 영상과 배치를 저장할 수 있습니다. 다음에는 옆의 ‘{bookmarks}’에서 이 구성을 다시 여세요.", "가로 격자에서 네 영상을 동시에 재생합니다."]
+    ],
+    "featuresHeading": "보려는 내용에 맞게 화면 구성하기",
+    "featuresIntro": "참고 영상과 내 촬영을 비교하거나, 여러 촬영 각도를 확인하거나, 강의와 자료를 한 화면에 놓을 수 있습니다.",
+    "features": [
+      ["144가지 레이아웃, 최대 36개 동영상 동시 재생", "위아래, 좌우, 3단, 4분할부터 더 많은 영상을 위한 배치까지 선택할 수 있습니다. 태블릿에서는 각 화면을 더 크게 볼 수 있습니다. 재생 성능은 기기, 코덱, 해상도에 따라 달라지므로 조금씩 추가해 보세요."],
+      ["중요한 화면을 더 크게", "레이아웃 선택기의 ‘{custom}’에서 나만의 배치를 만드세요. 영역을 옮기거나 크기를 바꾸고, 선으로 화면을 나눠 주 영상과 참고 자료의 비율을 조절할 수 있습니다."],
+      ["동영상, 이미지, PDF, 웹페이지를 함께", "각 영역에는 동영상, 오디오, 이미지 모음, PDF 또는 웹페이지를 열 수 있습니다. HLS(M3U8)와 RTSP 스트림 링크도 지원합니다."],
+      ["MP4, MOV, MKV, WebM 파일 열기", "갤러리의 촬영 영상이나 폴더에 저장한 파일을 추가하세요. 재생 가능 여부는 확장자뿐 아니라 파일에 사용된 영상 및 오디오 코덱에 따라 달라집니다."],
+      ["같은 순간을 비교하고 결과 공유하기", "동기화 지점으로 시작 시간이 다른 영상의 같은 동작을 맞출 수 있습니다. 여러 화면을 하나의 영상으로 공유하려면 로컬 영상으로 분할 화면 내보내기를 사용하세요."]
+    ],
+    "faq": [
+      ["영상 두 개만 동시에 볼 수 있나요?", "네. 두 영역 레이아웃을 선택하고 영상을 하나씩 추가하세요. 위아래 또는 좌우로 배치하고, 재생과 소리는 따로 조절할 수 있습니다."],
+      ["태블릿에서도 사용할 수 있나요?", "네. 휴대전화와 태블릿을 지원합니다. 큰 화면은 여러 각도를 확인하거나 영상 옆에 참고 자료를 읽을 때 유용합니다."],
+      ["먼저 영상을 합쳐야 하나요?", "아니요. 분할 재생에서는 영상이 각각 독립적으로 유지됩니다. 재생목록은 한 영역에서 차례로 재생하고, 분할 화면은 서로 다른 영상을 동시에 보여 줍니다."],
+      ["영상 사이의 검은 여백은 어떻게 없애나요?", "영상 표시 설정에서 ‘{fill}’를 선택하세요. 영상과 영역의 비율이 다르면 가장자리를 잘라 영역을 채웁니다. 원본 전체가 필요할 때는 화면에 맞추기를 사용하세요."],
+      ["서로 다른 스트리밍 앱 두 개를 표시하나요?", "이 가이드는 Split Screen Player 안에서 여는 콘텐츠를 다룹니다. 다른 앱을 영역 안에 넣는 기능은 아닙니다. 웹 동영상 재생은 해당 사이트의 동작과 제한에 따라 달라집니다."],
+      ["무료인가요?", "무료로 다운로드하고 기본 영상 재생과 무료 레이아웃을 사용할 수 있습니다. VIP 표시가 있는 배치, 사용자 지정 배치 사용, 즐겨찾기 등 고급 기능은 멤버십이 필요합니다."]
+    ],
+    "closingTitle": "보고 싶은 영상을 한 화면에 모으세요",
+    "closingDescription": "두 영상으로 시작한 뒤 세로 3단이나 4분할도 사용해 보세요. App Store 또는 Google Play에서 기기에 맞는 버전을 다운로드할 수 있습니다."
+  },
+  "fr": {
+    "deviceIOS": "iPhone ou iPad", "deviceAndroid": "un téléphone ou une tablette Android",
+    "title": "Comment lire plusieurs vidéos en même temps sur {device}",
+    "meta": "Regardez deux, trois ou quatre vidéos à la fois sur {device}. Choisissez une disposition, ajoutez vos fichiers, réglez le son et enregistrez votre combinaison.",
+    "summary": "Comparez deux clips sans changer de lecteur, superposez trois vidéos en portrait ou regardez quatre angles dans une grille en paysage. Split Screen Player réunit les images sur {device}.",
+    "answer": "Choisissez une disposition, touchez + dans chaque zone et ajoutez une vidéo depuis votre galerie ou vos fichiers. Chaque clip conserve ses commandes de lecture et de son. Commencez par deux vidéos, puis ajoutez-en selon vos besoins.",
+    "stepsHeading": "De trois rangées à une grille de quatre vidéos",
+    "steps": [
+      ["Choisir deux ou trois zones", "Touchez l’icône composée de quatre carrés dans la barre d’outils. Le premier groupe propose des dispositions superposées ou côte à côte pour deux vidéos. Pour trois clips, choisissez la vignette encadrée à trois rangées dans le groupe vertical à une colonne.", "La fine bande de chaque vignette indique la position de la barre d’outils. Les filtres de nombre et d’orientation permettent de réduire la sélection.", "La disposition à trois rangées est encadrée parmi les autres choix."],
+      ["Ajouter une vidéo dans chaque zone", "Touchez + dans une zone vide. Dans « {open} », choisissez « {videos} » et sélectionnez un clip. Répétez pour les autres zones. Utilisez « {files} » pour une vidéo enregistrée ailleurs sur l’appareil.", "Pour remplacer un clip, touchez son image puis + dans ses commandes. Une liste de lecture permet aussi d’enchaîner plusieurs clips dans une seule zone.", "Ajoutez une vidéo depuis « {videos} » ou « {files} »."],
+      ["Contrôler la lecture et choisir le son", "Touchez une vidéo pour afficher ses commandes. Le bouton central lance ou met en pause le clip ; la barre de progression permet de changer de moment. Les autres vidéos peuvent continuer indépendamment.", "Coupez le son des clips que vous ne souhaitez pas entendre avec leur bouton de haut-parleur. Réduisez la vitesse pour examiner un mouvement.", "Chaque vidéo possède ses propres commandes de son, de vitesse et de lecture."],
+      ["Passer à une grille 2×2 en paysage", "Rouvrez le choix des dispositions, sélectionnez 4 pour le nombre et « {landscape} » pour l’orientation. Dans le groupe de symétrie centrale, choisissez la vignette à deux lignes et deux colonnes.", "La bande à droite de la vignette représente la barre d’outils. Tenez l’appareil à l’horizontale pour regarder les quatre zones.", "Choisissez quatre zones avec la barre d’outils à droite."],
+      ["Ajouter le quatrième clip et enregistrer l’ensemble", "Les trois premières vidéos restent disponibles après le changement de disposition. Touchez + dans la zone vide pour ajouter le quatrième clip.", "Touchez l’étoile « {bookmark} » pour enregistrer les vidéos et leur disposition. Ouvrez ensuite « {bookmarks} », juste à côté, pour retrouver cette combinaison.", "Quatre vidéos sont réunies dans une grille en paysage."]
+    ],
+    "featuresHeading": "Organisez l’écran selon ce que vous regardez",
+    "featuresIntro": "Comparez une référence avec votre propre prise, examinez plusieurs angles ou gardez un cours et ses documents sous les yeux.",
+    "features": [
+      ["144 dispositions et jusqu’à 36 vidéos simultanées", "Choisissez des rangées, des vues côte à côte, une grille de quatre vidéos ou une disposition plus dense. Une tablette donne plus de place à chaque image. La fluidité dépend de l’appareil, du codec et de la résolution : augmentez progressivement le nombre de vidéos."],
+      ["Plus de place pour l’image principale", "Ouvrez « {custom} » dans le choix des dispositions pour créer la vôtre. Déplacez et redimensionnez les zones, ou divisez l’écran avec des lignes pour équilibrer vidéo principale et références."],
+      ["Vidéos, images, PDF et pages web ensemble", "Chaque zone peut accueillir une vidéo, un fichier audio, une collection d’images, un PDF ou une page web. Les liens de flux HLS (M3U8) et RTSP sont également pris en charge."],
+      ["Ouvrir des fichiers MP4, MOV, MKV et WebM", "Ajoutez les vidéos de votre galerie ou des fichiers enregistrés dans un dossier. La lecture dépend des codecs audio et vidéo contenus dans le fichier, et pas seulement de son extension."],
+      ["Comparer un même instant ou partager le résultat", "Les points de synchronisation alignent des enregistrements commencés à des moments différents. Pour partager plusieurs images dans une seule vidéo, utilisez l’exportation en écran partagé avec vos clips locaux."]
+    ],
+    "faq": [
+      ["Puis-je commencer avec seulement deux vidéos ?", "Oui. Choisissez une disposition à deux zones et ajoutez un clip dans chacune. Placez-les l’un au-dessus de l’autre ou côte à côte, avec des commandes séparées."],
+      ["Cela fonctionne-t-il sur tablette ?", "Oui. L’app prend en charge les téléphones et les tablettes. Un écran plus grand facilite l’examen de plusieurs angles et la lecture de documents à côté d’une vidéo."],
+      ["Faut-il fusionner les vidéos avant de les lire ?", "Non. La lecture en écran partagé garde les clips séparés. Une liste de lecture les enchaîne dans une seule zone ; une disposition partagée affiche plusieurs clips en même temps."],
+      ["Comment supprimer les bandes noires ?", "Choisissez « {fill} » dans les réglages d’affichage vidéo. Les bords sont recadrés si les proportions diffèrent de celles de la zone. Choisissez l’ajustement à l’écran pour conserver toute l’image d’origine."],
+      ["L’app affiche-t-elle deux applications de streaming ?", "Ce guide concerne le contenu ouvert dans Split Screen Player. L’app n’intègre pas d’autres applications dans ses zones. La lecture d’une vidéo web dépend du site et de ses restrictions."],
+      ["L’app est-elle gratuite ?", "Le téléchargement, la lecture vidéo de base et les dispositions gratuites sont accessibles sans abonnement. Les dispositions marquées VIP, l’utilisation de dispositions personnalisées, les favoris et d’autres fonctions avancées nécessitent un abonnement."]
+    ],
+    "closingTitle": "Gardez vos vidéos sur le même écran",
+    "closingDescription": "Commencez avec deux clips, puis essayez trois rangées ou une grille de quatre vidéos. Téléchargez la version adaptée à votre appareil sur l’App Store ou Google Play."
+  },
+  "de": {
+    "deviceIOS": "iPhone oder iPad", "deviceAndroid": "einem Android-Smartphone oder -Tablet",
+    "title": "Mehrere Videos gleichzeitig auf {device} abspielen",
+    "meta": "Zwei, drei oder vier Videos gleichzeitig auf {device} ansehen: Layout wählen, Videos hinzufügen, Ton einzeln steuern und die Zusammenstellung speichern.",
+    "summary": "Vergleiche zwei Clips ohne Playerwechsel, ordne drei Videos untereinander an oder sieh vier Kamerawinkel im Querformat. Split Screen Player hält alle Bilder auf {device} sichtbar.",
+    "answer": "Wähle ein Layout, tippe in jedem Bereich auf + und füge ein Video aus deiner Galerie oder deinen Dateien hinzu. Wiedergabe und Ton lassen sich für jeden Clip einzeln steuern. Beginne mit zwei Videos und ergänze bei Bedarf weitere.",
+    "stepsHeading": "Von drei Reihen zum Raster mit vier Videos",
+    "steps": [
+      ["Zwei oder drei Videobereiche wählen", "Tippe in der Werkzeugleiste auf das Symbol mit vier Quadraten. Die erste Gruppe bietet zwei Bereiche untereinander oder nebeneinander. Wähle für drei Clips das umrandete Layout mit drei Reihen in der Gruppe mit einer senkrechten Spalte.", "Der schmale Streifen in der Vorschau zeigt die Position der Werkzeugleiste. Mit den Filtern für Anzahl und Ausrichtung grenzt du die Auswahl ein.", "Das Layout mit drei Reihen ist zwischen den weiteren Möglichkeiten umrandet."],
+      ["Jedem Bereich ein Video hinzufügen", "Tippe im leeren Bereich auf +. Wähle unter „{open}“ den Eintrag „{videos}“ und einen Clip. Wiederhole dies für die anderen Bereiche. Über „{files}“ öffnest du Videos, die an anderer Stelle gespeichert sind.", "Zum Austauschen eines Clips tippst du auf sein Bild und dann auf + in seinen Bedienelementen. Eine Wiedergabeliste spielt mehrere Clips nacheinander im selben Bereich ab.", "Über „{videos}“ oder „{files}“ fügst du ein Video hinzu."],
+      ["Wiedergabe und Ton einzeln steuern", "Tippe auf ein Video, um seine Bedienelemente einzublenden. Mit der mittleren Taste startest oder pausierst du es; über die Zeitleiste wechselst du zu einer anderen Stelle. Die übrigen Clips können unabhängig weiterlaufen.", "Schalte nicht benötigte Tonspuren über das Lautsprechersymbol stumm. Mit der Geschwindigkeitstaste verlangsamst du Bewegungen für einen Vergleich.", "Jedes Video hat eigene Regler für Ton, Geschwindigkeit und Wiedergabe."],
+      ["Zum 2×2-Raster im Querformat wechseln", "Öffne die Layoutauswahl erneut, wähle die Anzahl 4 und die Ausrichtung „{landscape}“. Wähle in der Gruppe mit zentralsymmetrischen Anordnungen die Vorschau mit zwei Reihen und zwei Spalten.", "Der Streifen rechts in der Vorschau steht für die Werkzeugleiste. Halte dein Gerät waagerecht, um die vier Bereiche im Querformat zu sehen.", "Wähle vier Bereiche mit der Werkzeugleiste auf der rechten Seite."],
+      ["Viertes Video ergänzen und Kombination speichern", "Die ersten drei Videos bleiben beim Layoutwechsel erhalten. Tippe im freien Bereich auf + und füge den vierten Clip hinzu.", "Mit dem Stern „{bookmark}“ speicherst du die Videos und ihre Anordnung. Über „{bookmarks}“ daneben öffnest du diese Kombination später erneut.", "Vier Videos laufen gleichzeitig in einem Raster im Querformat."]
+    ],
+    "featuresHeading": "Passe die Aufteilung an deine Inhalte an",
+    "featuresIntro": "Vergleiche eine Vorlage mit deiner Aufnahme, prüfe mehrere Kamerawinkel oder halte einen Kurs und seine Unterlagen gleichzeitig sichtbar.",
+    "features": [
+      ["144 Layouts und bis zu 36 Videos gleichzeitig", "Wähle Reihen, Ansichten nebeneinander, ein Viererraster oder eine dichtere Anordnung. Auf einem Tablet bleibt mehr Platz für jedes Bild. Flüssige Wiedergabe hängt von Gerät, Codec und Auflösung ab. Erhöhe die Anzahl deshalb schrittweise."],
+      ["Mehr Platz für das wichtigste Bild", "Unter „{custom}“ in der Layoutauswahl gestaltest du deine eigene Anordnung. Verschiebe und vergrößere Bereiche oder teile den Bildschirm mit Linien auf, damit Hauptvideo und Referenzen genügend Raum bekommen."],
+      ["Videos, Bilder, PDFs und Webseiten gemeinsam", "Jeder Bereich kann ein Video, eine Audiodatei, eine Bildsammlung, ein PDF oder eine Webseite enthalten. Auch HLS-Links (M3U8) und RTSP-Streams lassen sich öffnen."],
+      ["Lokale MP4-, MOV-, MKV- und WebM-Dateien öffnen", "Füge Aufnahmen aus der Galerie oder Dateien aus einem Ordner hinzu. Ob eine Datei abgespielt werden kann, hängt auch von ihren Video- und Audiocodecs ab, nicht nur von der Dateiendung."],
+      ["Denselben Moment vergleichen oder Ergebnisse teilen", "Mit Synchronisationspunkten richtest du Aufnahmen aus, die zu unterschiedlichen Zeiten begonnen haben. Für ein gemeinsames Video aus mehreren Bildern kannst du deine lokalen Clips als geteiltes Video exportieren."]
+    ],
+    "faq": [
+      ["Kann ich mit nur zwei Videos beginnen?", "Ja. Wähle ein Layout mit zwei Bereichen und füge jedem einen Clip hinzu. Beide können untereinander oder nebeneinander liegen und haben eigene Wiedergabe- und Tonregler."],
+      ["Funktioniert das auch auf Tablets?", "Ja. Die App unterstützt Smartphones und Tablets. Ein größerer Bildschirm hilft beim Vergleich mehrerer Blickwinkel und beim Lesen neben einem Video."],
+      ["Muss ich die Videos zuerst zusammenfügen?", "Nein. Bei der geteilten Wiedergabe bleiben die Clips getrennt. Eine Wiedergabeliste spielt Videos nacheinander in einem Bereich; ein geteiltes Layout zeigt verschiedene Clips gleichzeitig."],
+      ["Wie entferne ich schwarze Balken?", "Wähle in den Videoanzeige-Einstellungen „{fill}“. Bei abweichenden Seitenverhältnissen werden die Ränder zugeschnitten, damit der Bereich gefüllt ist. Wenn du das gesamte Originalbild sehen möchtest, nutze die Anpassung an den Bildschirm."],
+      ["Zeigt die App zwei andere Streaming-Apps an?", "Diese Anleitung behandelt Inhalte, die du innerhalb von Split Screen Player öffnest. Andere Apps werden nicht in die Bereiche eingebettet. Webvideos hängen von der jeweiligen Website und ihren Einschränkungen ab."],
+      ["Ist die App kostenlos?", "Download, grundlegende Videowiedergabe und kostenlose Layouts sind frei verfügbar. Mit VIP markierte Layouts, die Nutzung eigener Layouts, Favoriten und weitere erweiterte Funktionen benötigen eine Mitgliedschaft."]
+    ],
+    "closingTitle": "Behalte deine Videos auf einem Bildschirm",
+    "closingDescription": "Starte mit zwei Clips und probiere danach drei Reihen oder ein Viererraster. Die passende Version findest du im App Store oder bei Google Play."
+  },
+  "es": {
+    "deviceIOS": "iPhone o iPad", "deviceAndroid": "un móvil o una tablet Android",
+    "title": "Cómo reproducir varios vídeos a la vez en {device}",
+    "meta": "Mira dos, tres o cuatro vídeos a la vez en {device}. Elige filas o una cuadrícula 2×2, añade archivos, controla el sonido y guarda la combinación.",
+    "summary": "Compara dos clips sin cambiar de reproductor, coloca tres vídeos en vertical o mira cuatro ángulos en una cuadrícula horizontal. Split Screen Player mantiene todas las imágenes visibles en {device}.",
+    "answer": "Elige un diseño de pantalla dividida, toca + en cada zona y añade un vídeo desde la galería o tus archivos. Cada clip tiene controles independientes de reproducción y sonido. Empieza con dos y añade más cuando los necesites.",
+    "stepsHeading": "De tres filas a una cuadrícula de cuatro vídeos",
+    "steps": [
+      ["Elegir dos o tres zonas", "Toca el icono de cuatro cuadrados de la barra de herramientas. El primer grupo ofrece diseños para colocar dos vídeos uno encima del otro o lado a lado. Para tres clips, elige la miniatura enmarcada de tres filas del grupo vertical de una columna.", "La franja fina de cada miniatura indica dónde estará la barra de herramientas. Los filtros inferiores permiten elegir el número de vídeos y la orientación.", "El marco señala el diseño de tres filas entre las demás opciones."],
+      ["Añadir un vídeo a cada zona", "Toca + en una zona vacía. En «{open}», elige «{videos}» y selecciona un clip. Repite en las otras zonas. Usa «{files}» si el vídeo está guardado en otra ubicación del dispositivo.", "Para sustituir un clip, toca su imagen y después + en sus controles. Una lista de reproducción permite ver varios clips uno tras otro dentro de una misma zona.", "Añade vídeos desde «{videos}» o «{files}»."],
+      ["Controlar la reproducción y elegir el sonido", "Toca un vídeo para mostrar sus controles. El botón central reproduce o pausa el clip; la barra de progreso permite ir a otro momento. Los demás vídeos pueden seguir reproduciéndose de forma independiente.", "Silencia los clips que no quieras oír con su botón de altavoz. Usa el control de velocidad para examinar un movimiento más despacio.", "Cada vídeo tiene controles propios de sonido, velocidad y reproducción."],
+      ["Cambiar a una cuadrícula horizontal 2×2", "Abre de nuevo los diseños, selecciona 4 en el filtro de cantidad y «{landscape}» en la orientación. En el grupo de simetría central, elige la miniatura de dos filas y dos columnas.", "La franja a la derecha de la miniatura representa la barra de herramientas. Sujeta el dispositivo en horizontal para ver las cuatro zonas.", "Elige cuatro zonas con la barra de herramientas a la derecha."],
+      ["Añadir el cuarto clip y guardar la combinación", "Los tres primeros vídeos se conservan al cambiar de diseño. Toca + en la zona vacía para añadir el cuarto clip.", "Toca la estrella «{bookmark}» para guardar los vídeos y su disposición. Más adelante, abre «{bookmarks}», justo al lado, para recuperar esta combinación.", "Cuatro vídeos se reproducen juntos en una cuadrícula horizontal."]
+    ],
+    "featuresHeading": "Organiza la pantalla según lo que quieras ver",
+    "featuresIntro": "Compara una referencia con tu propia grabación, revisa varios ángulos o mantén una clase y sus materiales a la vista.",
+    "features": [
+      ["144 diseños y hasta 36 vídeos simultáneos", "Elige filas, vistas lado a lado, una cuadrícula de cuatro vídeos o una distribución más densa. Una tablet deja más espacio para cada imagen. La fluidez depende del dispositivo, el códec y la resolución, así que aumenta la cantidad poco a poco."],
+      ["Más espacio para la imagen principal", "Abre «{custom}» en los diseños para crear tu propia distribución. Mueve las zonas, cambia su tamaño o divide la pantalla con líneas para equilibrar el vídeo principal y las referencias."],
+      ["Vídeos, imágenes, PDF y páginas web juntos", "Cada zona puede mostrar un vídeo, audio, una colección de imágenes, un PDF o una página web. También puedes abrir enlaces HLS (M3U8) y RTSP."],
+      ["Abrir archivos MP4, MOV, MKV y WebM", "Añade grabaciones de la galería o archivos guardados en una carpeta. La compatibilidad depende de los códecs de vídeo y audio del archivo, no solo de su extensión."],
+      ["Comparar el mismo instante o compartir el resultado", "Los puntos de sincronización ayudan a alinear grabaciones iniciadas en momentos distintos. Si quieres compartir varias imágenes como un único vídeo, utiliza la exportación de pantalla dividida con tus clips locales."]
+    ],
+    "faq": [
+      ["¿Puedo empezar con solo dos vídeos?", "Sí. Elige un diseño de dos zonas y añade un clip a cada una. Puedes apilarlos o colocarlos lado a lado, con controles de reproducción y sonido separados."],
+      ["¿Funciona también en tablets?", "Sí. La app admite móviles y tablets. Una pantalla grande facilita revisar varios ángulos o leer material de referencia junto a un vídeo."],
+      ["¿Tengo que unir los vídeos primero?", "No. La reproducción en pantalla dividida conserva los clips por separado. Una lista reproduce vídeos sucesivamente en una zona; un diseño dividido muestra varios clips al mismo tiempo."],
+      ["¿Cómo quito las bandas negras?", "Selecciona «{fill}» en los ajustes de visualización del vídeo. Si las proporciones son diferentes, se recortan los bordes para llenar la zona. Usa el ajuste a pantalla si necesitas ver el encuadre original completo."],
+      ["¿Puedo mostrar dos apps de streaming diferentes?", "Esta guía trata el contenido abierto dentro de Split Screen Player. La app no introduce otras aplicaciones en sus zonas. La reproducción de vídeos web depende de cada sitio y de sus restricciones."],
+      ["¿La app es gratuita?", "La descarga, la reproducción básica y los diseños gratuitos no requieren membresía. Los diseños marcados VIP, el uso de diseños personalizados, los favoritos y otras funciones avanzadas requieren membresía."]
+    ],
+    "closingTitle": "Reúne tus vídeos en una sola pantalla",
+    "closingDescription": "Empieza con dos clips y prueba después tres filas o una cuadrícula de cuatro vídeos. Descarga la versión de tu dispositivo desde App Store o Google Play."
+  },
+  "pt-BR": {
+    "deviceIOS": "iPhone ou iPad", "deviceAndroid": "celular ou tablet Android",
+    "title": "Como reproduzir vários vídeos ao mesmo tempo no {device}",
+    "meta": "Veja dois, três ou quatro vídeos ao mesmo tempo no {device}. Escolha linhas ou uma grade 2×2, adicione arquivos, controle o som e salve a combinação.",
+    "summary": "Compare dois clipes sem trocar de player, empilhe três vídeos na vertical ou veja quatro ângulos em uma grade horizontal. O Split Screen Player mantém todas as imagens visíveis no {device}.",
+    "answer": "Escolha um layout de tela dividida, toque em + em cada área e adicione um vídeo da galeria ou dos seus arquivos. Cada clipe tem controles próprios de reprodução e som. Comece com dois vídeos e acrescente outros quando precisar.",
+    "stepsHeading": "De três linhas a uma grade de quatro vídeos",
+    "steps": [
+      ["Escolha duas ou três áreas", "Toque no ícone de quatro quadrados da barra de ferramentas. O primeiro grupo oferece layouts para dois vídeos empilhados ou lado a lado. Para três clipes, escolha a miniatura contornada com três linhas no grupo vertical de uma coluna.", "A faixa fina de cada miniatura indica a posição da barra de ferramentas. Use os filtros de quantidade e orientação na parte inferior para encontrar a disposição desejada.", "O contorno destaca o layout de três linhas entre as outras opções."],
+      ["Adicione um vídeo em cada área", "Toque em + em uma área vazia. Em “{open}”, escolha “{videos}” e selecione um clipe. Repita nas outras áreas. Use “{files}” para um vídeo salvo em outro local do aparelho.", "Para trocar um clipe, toque na imagem e depois em + nos controles. Uma playlist também permite reproduzir vários clipes em sequência dentro de uma única área.", "Adicione vídeos por “{videos}” ou “{files}”."],
+      ["Controle a reprodução e escolha o som", "Toque em um vídeo para exibir seus controles. O botão central reproduz ou pausa o clipe; a barra de progresso permite ir a outro momento. Os outros vídeos podem continuar de forma independente.", "Silencie os clipes que não quiser ouvir pelo botão de alto-falante. Use o controle de velocidade para examinar um movimento mais devagar.", "Cada vídeo tem controles próprios de som, velocidade e reprodução."],
+      ["Mude para uma grade horizontal 2×2", "Abra os layouts novamente, selecione 4 no filtro de quantidade e “{landscape}” na orientação. No grupo de simetria central, escolha a miniatura com duas linhas e duas colunas.", "A faixa à direita da miniatura representa a barra de ferramentas. Segure o aparelho na horizontal para visualizar as quatro áreas.", "Escolha quatro áreas com a barra de ferramentas à direita."],
+      ["Adicione o quarto clipe e salve a combinação", "Os três primeiros vídeos continuam disponíveis após a mudança de layout. Toque em + na área vazia para adicionar o quarto clipe.", "Toque na estrela “{bookmark}” para salvar os vídeos e sua disposição. Depois, abra “{bookmarks}”, ao lado, para recuperar a combinação.", "Quatro vídeos são reproduzidos juntos em uma grade horizontal."]
+    ],
+    "featuresHeading": "Monte a tela de acordo com o que quer assistir",
+    "featuresIntro": "Compare uma referência com sua gravação, confira diferentes ângulos ou mantenha uma aula e seus materiais visíveis juntos.",
+    "features": [
+      ["144 layouts e até 36 vídeos simultâneos", "Escolha linhas, visualizações lado a lado, uma grade com quatro vídeos ou uma disposição mais densa. Tablets oferecem mais espaço para cada imagem. A fluidez depende do aparelho, do codec e da resolução; aumente a quantidade aos poucos."],
+      ["Mais espaço para a imagem principal", "Abra “{custom}” nos layouts para criar sua própria disposição. Mova e redimensione as áreas ou divida a tela com linhas para equilibrar o vídeo principal e as referências."],
+      ["Vídeos, imagens, PDFs e páginas da web juntos", "Cada área pode mostrar um vídeo, áudio, uma coleção de imagens, um PDF ou uma página da web. Você também pode abrir links de streams HLS (M3U8) e RTSP."],
+      ["Abra arquivos MP4, MOV, MKV e WebM", "Adicione gravações da galeria ou arquivos salvos em uma pasta. A reprodução depende dos codecs de vídeo e áudio do arquivo, não apenas da extensão."],
+      ["Compare o mesmo instante ou compartilhe o resultado", "Os pontos de sincronização ajudam a alinhar gravações que começaram em momentos diferentes. Para compartilhar várias imagens em um único vídeo, use a exportação de tela dividida com seus clipes locais."]
+    ],
+    "faq": [
+      ["Posso começar com apenas dois vídeos?", "Sim. Escolha um layout com duas áreas e adicione um clipe a cada uma. Eles podem ficar empilhados ou lado a lado, com controles separados de reprodução e som."],
+      ["Também funciona em tablets?", "Sim. O app é compatível com celulares e tablets. Uma tela maior facilita conferir vários ângulos ou ler materiais ao lado de um vídeo."],
+      ["Preciso juntar os vídeos antes?", "Não. A reprodução em tela dividida mantém os clipes separados. Uma playlist reproduz vídeos em sequência na mesma área; o layout dividido mostra clipes diferentes ao mesmo tempo."],
+      ["Como remover as faixas pretas?", "Escolha “{fill}” nas configurações de exibição do vídeo. Se as proporções forem diferentes, as bordas serão cortadas para preencher a área. Use o ajuste à tela quando precisar ver todo o enquadramento original."],
+      ["É possível exibir dois apps de streaming diferentes?", "Este guia trata do conteúdo aberto dentro do Split Screen Player. O app não incorpora outros aplicativos em suas áreas. A reprodução de vídeos da web depende do site e de suas restrições."],
+      ["O app é gratuito?", "O download, a reprodução básica e os layouts gratuitos não exigem assinatura. Layouts com a marca VIP, uso de layouts personalizados, favoritos e outros recursos avançados exigem uma assinatura."]
+    ],
+    "closingTitle": "Mantenha seus vídeos na mesma tela",
+    "closingDescription": "Comece com dois clipes e experimente depois três linhas ou uma grade de quatro vídeos. Baixe a versão para seu aparelho na App Store ou no Google Play."
+  }
+}

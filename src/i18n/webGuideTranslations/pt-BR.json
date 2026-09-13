@@ -1,0 +1,51 @@
+{
+  "deviceIOS": "iPhone ou iPad",
+  "deviceAndroid": "celular ou tablet Android",
+  "web": {
+    "title": "Como ver dois sites ao mesmo tempo no {device}",
+    "meta": "Abra duas páginas e role cada uma de forma independente no {device}. Siga o tutorial com capturas de tela para configurar a tela dividida no Split Screen Player.",
+    "summary": "Deixe um artigo ao lado das suas referências ou compare dois resultados de pesquisa. As duas páginas ficam visíveis e podem ser roladas separadamente, sem trocar de aba.",
+    "answer": "Abra o Split Screen Player no {device} e escolha um layout com duas áreas. Em cada uma, use {web} para abrir um endereço diferente. Assim, você pode consultar as duas páginas na mesma tela.",
+    "caption": "Duas páginas, uma acima da outra, com rolagem independente.",
+    "closing": "Mantenha as duas páginas à vista"
+  },
+  "mixed": {
+    "title": "Como assistir a um vídeo enquanto navega na web no {device}",
+    "meta": "Reproduza um vídeo salvo enquanto consulta uma página no {device}. Veja nas capturas como reunir vídeo e materiais de referência com o Split Screen Player.",
+    "summary": "Pesquise uma referência durante uma aula ou leia as instruções ao lado de uma gravação de treino. O vídeo e a página ficam visíveis juntos enquanto você lê.",
+    "answer": "Abra o Split Screen Player no {device} e escolha um layout com duas áreas. Abra um vídeo local em uma e um endereço pelo menu {web} na outra. Você poderá assistir ao vídeo e navegar ao mesmo tempo.",
+    "caption": "Um vídeo local é reproduzido em cima e uma página permanece visível embaixo.",
+    "closing": "Veja seu vídeo e suas referências juntos"
+  },
+  "steps": {
+    "layout": { "title": "Escolha um layout com duas áreas", "description": "Abra a lista de layouts na barra de ferramentas e selecione o destacado, com duas áreas empilhadas. Na vertical, cada área usa a largura do celular para facilitar a leitura.", "detail": "Escolha um layout na horizontal para ver o conteúdo lado a lado. Em {custom}, você também pode ampliar a área que deseja ler com mais atenção.", "caption": "Escolha o layout com duas áreas, uma acima da outra." },
+    "open": { "title": "Abra a opção de web na primeira área", "description": "Toque no botão de mais da primeira área vazia e escolha {web} no menu {open}. Cada área pode abrir um conteúdo diferente.", "caption": "Escolha {web} no menu {open}." },
+    "address": { "title": "Digite o endereço e abra como página da web", "description": "Digite ou cole a URL completa. Selecione {webMode} como tipo de link e toque na seta ao lado do endereço. A página será aberta nessa área.", "detail": "Por exemplo, abra primeiro um artigo e coloque outra fonte ao lado para comparar as informações durante a leitura.", "caption": "Digite um endereço e selecione {webMode}." },
+    "video": { "title": "Abra um vídeo na área de cima", "description": "Toque no botão de mais da área superior e escolha um vídeo em {videos}. Use {files} se ele estiver salvo em uma pasta local.", "detail": "Experimente com uma aula salva, uma gravação de treino ou um vídeo de viagem: a imagem continua visível enquanto você consulta uma referência embaixo.", "caption": "Escolha {videos} para abrir um vídeo da sua biblioteca." },
+    "mixedWeb": { "title": "Abra uma página na área de baixo", "description": "Toque no botão de mais da área inferior, escolha {web} e digite a URL. Selecione {webMode} e toque na seta para abrir.", "detail": "Abra anotações de aula, um tutorial, um artigo ou resultados de pesquisa. O vídeo e a página têm suas próprias áreas, então você pode ler sem sair do player.", "caption": "Digite o endereço da página que deseja consultar." },
+    "lastWeb": { "title": "Abra a segunda página e role cada uma", "description": "Repita os passos de {web} na segunda área usando outro endereço. Role na área superior para ler a primeira página ou na inferior para ler a segunda. Cada uma mantém sua própria posição." },
+    "lastMixed": { "title": "Reproduza o vídeo enquanto lê a página", "description": "Toque no vídeo para mostrar os controles e inicie a reprodução. Role a área da web para ler; toque novamente no vídeo quando precisar pausar ou ajustar o som." }
+  },
+  "bookmarkDetail": "Salve essa combinação com {bookmark} na barra de ferramentas e abra novamente depois em {bookmarks}.",
+  "featuresHeading": "Organize a tela de acordo com o que você está vendo",
+  "featuresIntro": "O Split Screen Player também abre vídeos, imagens, PDFs e áudio em áreas separadas. Escolha um layout que deixe espaço suficiente para cada conteúdo.",
+  "features": {
+    "layout": { "title": "Dê a cada página o espaço necessário", "description": "São 144 layouts prontos e até 36 áreas. Duas áreas costumam ser um bom começo para leitura. Em {custom}, você pode ajustar a posição e o tamanho de cada uma." },
+    "web": { "title": "Troque uma das páginas por um vídeo", "description": "Deixe um vídeo de demonstração de um lado e a aula escrita ou as instruções do outro para consultar os dois juntos." },
+    "mixed": { "title": "Troque o vídeo por outra página", "description": "Quando precisar comparar duas referências online, abra outra página da web na área do vídeo." },
+    "videos": { "title": "Assista e compare vários vídeos", "description": "Você também pode usar todas as áreas para vídeos: três linhas na vertical ou uma grade de quatro na horizontal ajudam a comparar diferentes cenas, com controles de som separados." }
+  },
+  "tutorialLink": "Ver o tutorial",
+  "multiVideoLink": "Ver o tutorial de vários vídeos",
+  "faq": {
+    "apps": { "question": "Isso abre dois aplicativos diferentes?", "answer": "As áreas abrem páginas da web ou mídias dentro do Split Screen Player. Você pode consultar dois sites ou combinar um vídeo local com uma página. Essas áreas não incorporam a interface de outros aplicativos." },
+    "playbackQuestion": "Vídeos de duas páginas podem tocar ao mesmo tempo?",
+    "playbackIOS": "No iPhone e no iPad, o app avisa que restrições do sistema impedem a reprodução simultânea de vídeos em várias páginas da web. Use as duas áreas para ler e navegar; para comparar vários vídeos ao mesmo tempo, abra arquivos de vídeo locais.",
+    "playbackAndroid": "Os players da web dependem das regras do site, das configurações de reprodução automática e da proteção do conteúdo. A reprodução simultânea em dois sites não é garantida. Para vários arquivos locais, use um layout de múltiplos vídeos.",
+    "login": { "question": "Posso acessar sites que exigem login?", "answer": "Isso depende do suporte do site ao navegador integrado. Alguns serviços exigem o próprio app ou o navegador do sistema. A tela dividida não contorna exigências de login, assinatura ou proteção de conteúdo." },
+    "vip": { "question": "Preciso de VIP para navegar na web?", "answer": "A navegação na web é um recurso VIP. Layouts com a marca VIP também exigem um plano pago. O app pode ser baixado gratuitamente; confira os recursos incluídos e os preços atuais dentro dele." },
+    "offline": { "question": "Posso usar sem internet?", "answer": "Vídeos, imagens e PDFs já salvos no aparelho podem ser abertos offline. Páginas da web normalmente precisam de internet; a disponibilidade offline depende de cada página." }
+  },
+  "closingDescription": "Baixe o Split Screen Player, escolha um layout com duas áreas e experimente com os conteúdos que você quer manter à vista.",
+  "credit": "Páginas de exemplo: Wikipédia"
+}

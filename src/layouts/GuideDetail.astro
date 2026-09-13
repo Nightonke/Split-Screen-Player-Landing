@@ -6,7 +6,7 @@ import { localizedPath, type Locale } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import type { LanguageLink } from "@/types/content";
 import { mediaAsset } from "@config/media";
-import { FaApple } from "react-icons/fa";
+import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
 import Layout from "./Layout.astro";
 import { getGuide } from "@/i18n/guideCatalog";
 import GuideArticle from "../components/guides/GuideArticle.astro";
@@ -46,7 +46,9 @@ const guideHeroImage = reusableGuideHeroImage
 		}
 	: undefined;
 const hasGuideHeroMedia = showAppPreview || Boolean(guideHeroImage) || Boolean(guide.heroImage);
-const articleSocialImage = guide.article ? guide.steps.find(step => step.image && step.image.width > step.image.height)?.image : undefined;
+const articleSocialImage = guide.article
+	? guide.steps.find(step => step.image && step.image.width > step.image.height)?.image ?? guide.heroImage
+	: undefined;
 
 const structuredData: Array<Record<string, unknown>> = [
 	{
@@ -290,15 +292,7 @@ if (guide.article) {
 				<p class="eyebrow">{content.shortName}</p>
 				<h2 class="section-title">{chrome.guideClosingTitle}</h2>
 				<p class="section-lede">{guide.summary}</p>
-				<a
-					class="button button-dark"
-					href={content.storeLinks.apple}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FaApple aria-hidden="true" />
-					{chrome.downloadFree}
-				</a>
+				<PlatformDownloads locale={locale} />
 			</div>
 		</section>
 	</main>}

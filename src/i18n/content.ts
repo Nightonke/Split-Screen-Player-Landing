@@ -1,3 +1,4 @@
+import platformCopy from "./platformCopy.json";
 import type {
 	FAQ,
 	Feature,
@@ -38,6 +39,7 @@ const sharedStoreData = {
 	logo: "/assets/favicon.png",
 	storeLinks: {
 		apple: appFacts.appStoreUrl,
+		google: appFacts.googlePlayUrl,
 	},
 	rating: {
 		score: appFacts.rating.score,
@@ -956,13 +958,28 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 	"pt-BR": createExtendedLanding("pt-BR"),
 };
 
-Object.assign(landingContent["zh-Hans"], {
-  seoTitle: "手机和平板多视频播放器｜iPhone、iPad、安卓分屏播放",
-  description: "在手机和平板的同一屏幕上播放、对比、同步和导出多个视频。支持 iPhone、iPad 与安卓，最多同时播放 36 个视频，提供 144 种布局和自定义分屏。",
-  metaDescription: "Split Screen Player 支持 iPhone、iPad 和安卓手机与平板。最多同时播放 36 个视频，选择 144 种布局或自定义分屏，独立控制声音、对比动作并导出分屏视频。现可从 App Store 或 Google Play 下载。",
-});
-landingContent["zh-Hans"].keywords = [...landingContent["zh-Hans"].keywords, "安卓分屏播放器", "Android 多视频播放器", "手机同时播放多个视频", "平板多视频播放"];
-landingContent["zh-Hans"].faqs = [{
-  question: "支持哪些手机和平板？",
-  answer: "Split Screen Player 提供 iPhone、iPad 和 Android 版本。苹果设备可从 App Store 下载，安卓手机和平板可从 Google Play 下载；操作步骤可查看对应平台的教程。",
-}, ...landingContent["zh-Hans"].faqs];
+// Apply platform facts after translation so every language describes both apps.
+for (const [locale, copy] of Object.entries(platformCopy)) {
+  const page = landingContent[locale as Locale];
+  page.seoTitle = copy.seoTitle;
+  page.description = copy.description;
+  page.metaDescription = copy.description;
+  page.keywords = [...new Set([...page.keywords, "Android", "Google Play", "iPhone", "iPad"])];
+  page.faqs[2].answer = copy.streams;
+  page.faqs[3].answer = copy.paid;
+  page.faqs.unshift({ question: copy.compatibilityQuestion, answer: copy.compatibilityAnswer });
+  for (const feature of page.features) {
+    if (/IPTV|Xtream/.test(feature.description)) feature.description = copy.streams;
+  }
+}
+
+// Keep store and platform references current in the existing legal pages.
+for (const [locale, copy] of Object.entries(platformCopy)) {
+  const page = landingContent[locale as Locale];
+  for (const key of ['privacy', 'terms'] as const) {
+    page.legal[key] = page.legal[key].split('\n\n').map(paragraph => {
+      if (key === 'terms' && paragraph.includes('Apple') && paragraph.includes('App Store') && !paragraph.includes('Split Screen Player')) return copy.paid;
+      return paragraph.replace(/iOS.{1,8}iPadOS/g, 'iOS / iPadOS / Android').replaceAll('App Store', 'App Store / Google Play');
+    }).join('\n\n').replace('\n\n##', `\n\n${copy.streams}\n\n##`);
+  }
+}

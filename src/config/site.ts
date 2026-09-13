@@ -12,7 +12,7 @@ export const siteConfig = {
 
 	/** Brief app description shown in the hero section and meta tags */
 	description:
-		`Play, compare, sync, and export multiple videos on one screen. Watch up to ${appFacts.maxVideos} videos, choose from ${appFacts.layoutCount} layouts, and turn split-screen views into shareable videos.`,
+		`Play, compare, sync, and export multiple videos on iPhone, iPad, or Android. Watch up to ${appFacts.maxVideos} videos, choose from ${appFacts.layoutCount} layouts, and turn split-screen views into shareable videos.`,
 
 	/** SEO keywords for better search engine visibility */
 	keywords: [
@@ -43,6 +43,7 @@ export const siteConfig = {
 	/** App store download links */
 	storeLinks: {
 		apple: appFacts.appStoreUrl,
+		google: appFacts.googlePlayUrl,
 	},
 
 	/** App rating and reviews */

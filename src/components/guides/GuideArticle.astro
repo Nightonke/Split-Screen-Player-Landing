@@ -1,6 +1,8 @@
 ---
-import type { GuidePage } from "@/i18n/guides";
-import { guideContent } from "@/i18n/guides";
+import { guideContent, type GuidePage } from "@/i18n/guides";
+import { getGuides } from "@/i18n/guideCatalog";
+import { articleChrome } from "@/i18n/articleChrome";
+import { pageChrome } from "@/i18n/chrome";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import { appFacts } from "@config/appFacts";
 import PlatformDownloads from "./PlatformDownloads.astro";
@@ -9,31 +11,34 @@ import "@/styles/guide-article.css";
 interface Props { guide: GuidePage; locale: Locale; }
 const { guide, locale } = Astro.props;
 const article = guide.article!;
+const copy = articleChrome[locale];
+const chrome = pageChrome[locale];
+const pages = getGuides(locale);
 const isAndroid = guide.platform === "android";
 const primaryStore = isAndroid ? appFacts.googlePlayUrl : appFacts.appStoreUrl;
-const otherPlatformSlug = isAndroid ? "play-multiple-videos-iphone-ipad" : "play-multiple-videos-android";
-const related = ["sync-videos-different-start-times", "export-split-screen-video", "video-pdf-web-multitasking"] as const;
+const otherPlatform = pages.find(page => page.slug === guide.otherPlatformSlug);
+const related = pages.filter(page => page.slug !== guide.slug && page.slug !== guide.otherPlatformSlug && (page.platform ?? "ios") === (guide.platform ?? "ios")).slice(0, 3);
 ---
 <main id="main-content" class="ssp-guide-article site-shell">
-  <nav class="detail-breadcrumb" aria-label="面包屑导航">
-    <a href={localizedPath(locale)}>首页</a>
-    <a href={localizedPath(locale, "guides")}>教程</a>
-    <span aria-current="page">同时播放多个视频</span>
+  <nav class="detail-breadcrumb" aria-label={chrome.breadcrumbLabel}>
+    <a href={localizedPath(locale)}>{chrome.homeLabel}</a>
+    <a href={localizedPath(locale, "guides")}>{guideContent[locale].labels.guides}</a>
+    <span aria-current="page">{guide.eyebrow}</span>
   </nav>
   <header class="article-guide-hero">
     <p class="eyebrow">{guide.eyebrow}</p>
     <h1>{guide.title}</h1>
     <p class="article-guide-lead">{guide.summary}</p>
-    <div class="article-platform-links"><a class="text-link" href={primaryStore} target="_blank" rel="noopener noreferrer">在 {isAndroid ? "Google Play" : "App Store"} 免费下载</a><a class="text-link" href={localizedPath(locale, `guides/${otherPlatformSlug}`)}>{isAndroid ? "使用 iPhone 或 iPad？查看对应教程" : "Android 版已上线，查看安卓教程"}</a></div>
+    <div class="article-platform-links"><a class="text-link" href={primaryStore} target="_blank" rel="noopener noreferrer">{chrome.downloadFree} · {isAndroid ? "Google Play" : "App Store"}</a>{otherPlatform && <a class="text-link" href={localizedPath(locale, `guides/${otherPlatform.slug}`)}>{isAndroid ? copy.iosGuide : copy.androidGuide}</a>}</div>
     {guide.note && <p class="article-illustration-note">{guide.note}</p>}
   </header>
   <div class="article-guide-grid">
     <aside class="article-guide-toc">
-      <p>本文目录</p>
-      <nav aria-label="本文目录">
+      <p>{copy.toc}</p>
+      <nav aria-label={copy.toc}>
         {guide.steps.map((step, index) => <a href={`#step-${index + 1}`}><span>{String(index + 1).padStart(2, "0")}</span>{step.title}</a>)}
-        <a href="#more-possibilities"><span>＋</span>更多布局与媒体支持</a>
-        <a href="#questions"><span>？</span>常见问题</a>
+        <a href="#more-possibilities"><span>＋</span>{copy.more}</a>
+        <a href="#questions"><span>？</span>{copy.faq}</a>
       </nav>
     </aside>
     <article class="article-guide-body">
@@ -46,17 +51,17 @@ const related = ["sync-videos-different-start-times", "export-split-screen-video
             <p>{step.description}</p>
             {step.detail && <p>{step.detail}</p>}
           </div>
-          {step.image && <GuideScreenshot image={step.image} eager={index === 0} />}
+          {step.image && <GuideScreenshot locale={locale} image={step.image} eager={index === 0} />}
         </section>
       ))}
       <section class="article-guide-more" id="more-possibilities">
-        <p class="eyebrow">找到适合你的分屏方式</p>
+        <p class="eyebrow">{copy.more}</p>
         <h2>{article.featuresHeading}</h2>
         <p>{article.featuresIntro}</p>
-        <div class="article-guide-facts" aria-label="布局与视频数量">
-          <div><strong>{appFacts.layoutCount}</strong><span>种预设布局</span></div>
-          <div><strong>{appFacts.maxVideos}</strong><span>个视频，最多同时播放</span></div>
-          <div><strong>自由调整</strong><span>位置、大小与分割线</span></div>
+        <div class="article-guide-facts" aria-label={copy.more}>
+          <div><strong>{appFacts.layoutCount}</strong><span>{copy.layouts}</span></div>
+          <div><strong>{appFacts.maxVideos}</strong><span>{copy.videos}</span></div>
+          <div><strong>{copy.customize}</strong><span>{copy.geometry}</span></div>
         </div>
         {article.features.map(feature => <section class="article-guide-feature">
           <h3>{feature.title}</h3>
@@ -65,25 +70,25 @@ const related = ["sync-videos-different-start-times", "export-split-screen-video
         </section>)}
       </section>
       <section class="article-guide-faq" id="questions">
-        <h2>常见问题</h2>
+        <h2>{copy.faq}</h2>
         {article.faq.map(item => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}
       </section>
       <section class="article-guide-cta" aria-labelledby="article-download-title">
-        <p class="eyebrow">Split Screen Player · 分屏播放器</p>
+        <p class="eyebrow">Split Screen Player</p>
         <h2 id="article-download-title">{article.closingTitle}</h2>
         <p>{article.closingDescription}</p>
-        <PlatformDownloads primary={isAndroid ? "android" : "ios"} />
+        <PlatformDownloads locale={locale} primary={isAndroid ? "android" : "ios"} />
       </section>
     </article>
   </div>
-  <section class="article-guide-related" aria-labelledby="related-guides-title">
-    <h2 id="related-guides-title">接下来，你还可以这样用</h2>
-    <div>{related.map(slug => <a href={localizedPath(locale, `guides/${slug}`)}><span>{guideContent[locale].pages[slug].eyebrow}</span><h3>{guideContent[locale].pages[slug].title}</h3><span>阅读教程 →</span></a>)}</div>
-    <a class="text-link" href={localizedPath(locale, "guides")}>查看全部教程</a>
-  </section>
+  {related.length > 0 && <section class="article-guide-related" aria-labelledby="related-guides-title">
+    <h2 id="related-guides-title">{copy.related}</h2>
+    <div>{related.map(page => <a href={localizedPath(locale, `guides/${page.slug}`)}><span>{page.eyebrow}</span><h3>{page.title}</h3><span>{copy.read} →</span></a>)}</div>
+    <a class="text-link" href={localizedPath(locale, "guides")}>{chrome.viewAllGuides}</a>
+  </section>}
 </main>
-<dialog class="article-guide-lightbox" aria-label="教程截图放大查看">
-  <button type="button" class="article-guide-lightbox-close" aria-label="关闭图片">关闭 ×</button>
+<dialog class="article-guide-lightbox" aria-label={copy.enlarge}>
+  <button type="button" class="article-guide-lightbox-close" aria-label={copy.close}>{copy.close} ×</button>
   <div class="article-guide-lightbox-content"></div>
 </dialog>
 <script>

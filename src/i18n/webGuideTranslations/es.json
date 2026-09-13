@@ -1,0 +1,51 @@
+{
+  "deviceIOS": "iPhone o iPad",
+  "deviceAndroid": "un móvil o una tablet Android",
+  "web": {
+    "title": "Cómo ver dos páginas web a la vez en {device}",
+    "meta": "Abre dos páginas web y desplázate por cada una de forma independiente en {device}. Configura la pantalla dividida de Split Screen Player con esta guía ilustrada.",
+    "summary": "Coloca un artículo junto a tus referencias o compara dos resultados de búsqueda. Ambas páginas permanecen visibles y puedes desplazarte por cada una sin cambiar de pestaña.",
+    "answer": "Abre Split Screen Player en {device} y elige un diseño con dos zonas. Usa {web} en cada zona para abrir una URL diferente y consultar ambas páginas en la misma pantalla.",
+    "caption": "Dos páginas web, una encima de la otra, con desplazamiento independiente.",
+    "closing": "Mantén las dos páginas a la vista"
+  },
+  "mixed": {
+    "title": "Cómo ver un vídeo mientras navegas por internet en {device}",
+    "meta": "Reproduce un vídeo guardado mientras consultas una página web en {device}. Sigue las capturas para colocar el vídeo y tus referencias juntos con Split Screen Player.",
+    "summary": "Busca una referencia durante una clase o lee las instrucciones junto a una grabación de práctica. Mantén el vídeo y la página web visibles mientras lees.",
+    "answer": "Abre Split Screen Player en {device} y elige un diseño con dos zonas. Abre un vídeo local en una y una URL mediante {web} en la otra. Podrás ver el vídeo y consultar la página al mismo tiempo.",
+    "caption": "Un vídeo local se reproduce arriba y una página web permanece visible abajo.",
+    "closing": "Reúne tu vídeo y tus referencias"
+  },
+  "steps": {
+    "layout": { "title": "Elegir un diseño con dos zonas", "description": "Abre la lista de diseños en la barra de herramientas y selecciona el marcado, con dos zonas una encima de la otra. En vertical, cada zona conserva el ancho del móvil para facilitar la lectura.", "detail": "Elige un diseño horizontal para verlas una al lado de la otra. En {custom} también puedes ampliar la zona que quieras leer con más detalle.", "caption": "Elige el diseño con dos zonas, una encima de la otra." },
+    "open": { "title": "Abrir la opción web en la primera zona", "description": "Toca el botón más de la primera zona vacía y selecciona {web} en el menú {open}. Cada zona puede abrir su propio contenido.", "caption": "Selecciona {web} en el menú {open}." },
+    "address": { "title": "Introducir la dirección y abrir la página", "description": "Escribe o pega la URL completa. Selecciona {webMode} como tipo de enlace y toca la flecha junto a la dirección. La página se abrirá dentro de esta zona.", "detail": "Por ejemplo, abre primero un artículo y coloca otra fuente al lado para comparar la información mientras lees.", "caption": "Introduce un enlace y selecciona {webMode}." },
+    "video": { "title": "Abrir un vídeo en la zona superior", "description": "Toca el botón más de la zona superior y elige un vídeo en {videos}. Usa {files} si está guardado en una carpeta local.", "detail": "Prueba con una clase guardada, una grabación de práctica o un vídeo de viaje: la imagen sigue visible mientras buscas información debajo.", "caption": "Selecciona {videos} para abrir un vídeo de tu biblioteca." },
+    "mixedWeb": { "title": "Abrir una página web en la zona inferior", "description": "Toca el botón más de la zona inferior, selecciona {web} e introduce la URL. Elige {webMode} y toca la flecha para abrirla.", "detail": "Puedes abrir apuntes, un tutorial, un artículo o resultados de búsqueda. El vídeo y la página tienen su propia zona, así que puedes leer sin salir del reproductor.", "caption": "Introduce la dirección de la página que quieres consultar." },
+    "lastWeb": { "title": "Abrir la segunda página y desplazarte por cada una", "description": "Repite los pasos de {web} en la segunda zona con otra URL. Desliza en la zona superior para leer la primera página o en la inferior para leer la segunda. Cada una conserva su posición." },
+    "lastMixed": { "title": "Reproducir el vídeo mientras lees la página", "description": "Toca el vídeo para mostrar sus controles y pulsa reproducir. Desplázate por la zona web para leer; vuelve a tocar el vídeo cuando quieras pausarlo o ajustar el sonido." }
+  },
+  "bookmarkDetail": "Guarda esta combinación con {bookmark} en la barra de herramientas y vuelve a abrirla más adelante desde {bookmarks}.",
+  "featuresHeading": "Adapta la pantalla a lo que estás consultando",
+  "featuresIntro": "Split Screen Player también abre vídeos, imágenes, PDF y audio en zonas separadas. Elige un diseño que deje espacio suficiente para cada contenido.",
+  "features": {
+    "layout": { "title": "Dar a cada página el espacio que necesita", "description": "Hay 144 diseños predefinidos y hasta 36 zonas. Para leer, dos zonas suelen ser un buen punto de partida. En {custom} puedes ajustar su posición y tamaño." },
+    "web": { "title": "Cambiar una página por un vídeo", "description": "Mantén un vídeo de demostración en un lado y la lección escrita o las instrucciones en el otro para consultarlos juntos." },
+    "mixed": { "title": "Cambiar el vídeo por otra página", "description": "Si necesitas comparar dos referencias en línea, abre otra página web en la zona del vídeo." },
+    "videos": { "title": "Ver y comparar varios vídeos", "description": "También puedes usar todas las zonas para vídeos: tres filas en vertical o una cuadrícula de cuatro en horizontal permiten comparar distintas vistas, con controles de sonido independientes." }
+  },
+  "tutorialLink": "Ver el tutorial",
+  "multiVideoLink": "Ver la guía de varios vídeos",
+  "faq": {
+    "apps": { "question": "¿Esto abre dos aplicaciones diferentes?", "answer": "Las zonas abren páginas web o contenido multimedia dentro de Split Screen Player. Puedes consultar dos sitios o combinar un vídeo local con una página web; no se insertan las interfaces de otras aplicaciones en estas zonas." },
+    "playbackQuestion": "¿Pueden reproducirse a la vez los vídeos de dos páginas web?",
+    "playbackIOS": "En iPhone y iPad, la app avisa de que las restricciones del sistema impiden reproducir simultáneamente vídeos en varias páginas web. Usa las dos zonas web para leer y navegar; para comparar varios vídeos a la vez, utiliza archivos de vídeo locales.",
+    "playbackAndroid": "Los reproductores web dependen de las normas del sitio, los ajustes de reproducción automática y la protección del contenido. No se garantiza la reproducción simultánea en dos sitios. Para varios archivos locales, utiliza un diseño de varios vídeos.",
+    "login": { "question": "¿Puedo visitar sitios que requieren iniciar sesión?", "answer": "Depende de su compatibilidad con el navegador integrado. Algunos servicios requieren su propia app o el navegador del sistema. La pantalla dividida no evita los requisitos de inicio de sesión, suscripción o protección del contenido." },
+    "vip": { "question": "¿Necesito VIP para navegar por la web?", "answer": "La navegación web es una función VIP. Los diseños marcados como VIP también requieren un plan de pago. La app se descarga gratis; consulta las funciones incluidas y los precios actuales dentro de la app." },
+    "offline": { "question": "¿Puedo usarla sin conexión?", "answer": "Los vídeos, imágenes y PDF guardados en el dispositivo pueden abrirse sin conexión. Las páginas web suelen necesitar internet; su disponibilidad sin conexión depende de cada página." }
+  },
+  "closingDescription": "Descarga Split Screen Player, elige un diseño con dos zonas y pruébalo con los contenidos que quieras mantener a la vista.",
+  "credit": "Páginas de ejemplo: Wikipedia"
+}

@@ -150,6 +150,7 @@ const jsonLd = structuredData
 				supportedLocales: locales,
 				localeDetectionEntries,
 				localizedPathPrefixes,
+				availableAlternates: alternates.map(({ locale, href }) => ({ locale, href })),
 			}}
 		>
 			(() => {
@@ -205,11 +206,8 @@ const jsonLd = structuredData
 					return;
 				}
 
-				const cleanPathname = pathname === "/index.html" ? "/" : pathname;
-				const localizedPath =
-					cleanPathname === "/"
-						? `/${preferredLocale}/`
-						: `/${preferredLocale}${cleanPathname}`;
+				const localizedPath = availableAlternates.find(link => link.locale === preferredLocale)?.href;
+				if (!localizedPath) return;
 
 				window.location.replace(
 					`${localizedPath}${window.location.search}${window.location.hash}`,
@@ -224,7 +222,7 @@ const jsonLd = structuredData
 			logo={navData.logo}
 			homeHref={homeHref}
 			storeHref={navData.storeLinks.apple}
-			googlePlayHref={activeLocale === "zh-Hans" ? appFacts.googlePlayUrl : undefined}
+			googlePlayHref={appFacts.googlePlayUrl}
 			languageLinks={alternates}
 			labels={{
 				siteHeader: chrome.siteHeaderLabel,
@@ -245,7 +243,7 @@ const jsonLd = structuredData
 			privacyHref={privacyHref}
 			termsHref={termsHref}
 			storeHref={navData.storeLinks.apple}
-			googlePlayHref={activeLocale === "zh-Hans" ? appFacts.googlePlayUrl : undefined}
+			googlePlayHref={appFacts.googlePlayUrl}
 			privacyLabel={labels.privacy}
 			termsLabel={labels.terms}
 			getAppLabel={marketing.nav.getApp}

@@ -1,0 +1,272 @@
+{
+  "en-US": {
+    "ios": {
+      "open": "Open",
+      "videos": "Videos",
+      "files": "Files",
+      "web": "Web/Stream",
+      "custom": "Custom",
+      "bookmark": "Favorite",
+      "bookmarks": "Favorites List",
+      "fill": "Fill (Content cropped)",
+      "language": "Change Language",
+      "portrait": "Portrait",
+      "landscape": "Land.(R)",
+      "webMode": "Webpage"
+    },
+    "android": {
+      "open": "Open",
+      "videos": "Album videos",
+      "files": "File",
+      "web": "Web/stream",
+      "custom": "Custom",
+      "bookmark": "Bookmark",
+      "bookmarks": "Bookmarks",
+      "fill": "Fill and Crop",
+      "landscape": "Landscape R",
+      "portrait": "Portrait",
+      "default": "Default",
+      "webMode": "Web"
+    }
+  },
+  "zh-Hans": {
+    "ios": {
+      "open": "打开",
+      "videos": "相册视频",
+      "files": "文件",
+      "web": "网页/流媒体",
+      "custom": "自定义",
+      "bookmark": "收藏",
+      "bookmarks": "收藏列表",
+      "fill": "等比铺满(内容会被裁剪)",
+      "language": "更改语言",
+      "portrait": "竖屏",
+      "landscape": "横屏（右）",
+      "webMode": "网页"
+    },
+    "android": {
+      "open": "打开",
+      "videos": "相册视频",
+      "files": "文件",
+      "web": "网页/流媒体",
+      "custom": "自定义",
+      "bookmark": "收藏",
+      "bookmarks": "收藏列表",
+      "fill": "等比铺满(内容会被裁剪)",
+      "landscape": "横屏（右）",
+      "portrait": "竖屏",
+      "default": "默认",
+      "webMode": "网页"
+    }
+  },
+  "zh-Hant": {
+    "ios": {
+      "open": "開啟",
+      "videos": "相冊影片",
+      "files": "檔案",
+      "web": "網頁/串流",
+      "custom": "自訂",
+      "bookmark": "收藏",
+      "bookmarks": "收藏列表",
+      "fill": "等比例鋪滿(內容會被裁剪)",
+      "language": "更改語言",
+      "portrait": "直屏",
+      "landscape": "橫屏（右）",
+      "webMode": "網頁"
+    },
+    "android": {
+      "open": "開啟",
+      "videos": "相冊影片",
+      "files": "檔案",
+      "web": "網頁/串流",
+      "custom": "自訂",
+      "bookmark": "收藏",
+      "bookmarks": "收藏列表",
+      "fill": "等比例鋪滿(內容會被裁剪)",
+      "landscape": "橫屏（右）",
+      "portrait": "直屏",
+      "default": "預設",
+      "webMode": "網頁"
+    }
+  },
+  "ja": {
+    "ios": {
+      "open": "開く",
+      "videos": "動画",
+      "files": "ファイル",
+      "web": "Web/ストリーム",
+      "custom": "カスタム",
+      "bookmark": "お気に入り",
+      "bookmarks": "お気に入りリスト",
+      "fill": "全体に広げる (クロップあり)",
+      "language": "言語を変更",
+      "portrait": "縦向き",
+      "landscape": "横向き (右)",
+      "webMode": "ウェブページ"
+    },
+    "android": {
+      "open": "開く",
+      "videos": "動画",
+      "files": "ファイル",
+      "web": "ウェブ/ストリーム",
+      "custom": "カスタム",
+      "bookmark": "お気に入り",
+      "bookmarks": "お気に入りリスト",
+      "fill": "全体に広げる (クロップあり)",
+      "landscape": "横向き (右)",
+      "portrait": "縦向き",
+      "default": "デフォルト",
+      "webMode": "ウェブページ"
+    }
+  },
+  "ko": {
+    "ios": {
+      "open": "열기",
+      "videos": "동영상",
+      "files": "파일",
+      "web": "웹/스트림",
+      "custom": "사용자 지정",
+      "bookmark": "즐겨찾기",
+      "bookmarks": "즐겨찾기 목록",
+      "fill": "채우기 (일부 잘림)",
+      "language": "언어 변경",
+      "portrait": "세로",
+      "landscape": "가로(우)",
+      "webMode": "웹페이지"
+    },
+    "android": {
+      "open": "열기",
+      "videos": "동영상",
+      "files": "파일",
+      "web": "웹/스트림",
+      "custom": "사용자 지정",
+      "bookmark": "즐겨찾기",
+      "bookmarks": "즐겨찾기 목록",
+      "fill": "채우기 (일부 잘림)",
+      "landscape": "가로(우)",
+      "portrait": "세로",
+      "default": "기본",
+      "webMode": "웹페이지"
+    }
+  },
+  "fr": {
+    "ios": {
+      "open": "Ouvrir",
+      "videos": "Vidéos",
+      "files": "Fichiers",
+      "web": "Web/Stream",
+      "custom": "Personnalisé",
+      "bookmark": "Favori",
+      "bookmarks": "Liste de favoris",
+      "fill": "Remplir (Contenu recadré)",
+      "language": "Changer la langue",
+      "portrait": "Portrait",
+      "landscape": "Paysage (D)",
+      "webMode": "Page Web"
+    },
+    "android": {
+      "open": "Ouvrir",
+      "videos": "Vidéos",
+      "files": "Fichiers",
+      "web": "Web/Flux",
+      "custom": "Personnalisé",
+      "bookmark": "Favori",
+      "bookmarks": "Liste de favoris",
+      "fill": "Remplir (Contenu recadré)",
+      "landscape": "Paysage (D)",
+      "portrait": "Portrait",
+      "default": "Défaut",
+      "webMode": "Page Web"
+    }
+  },
+  "de": {
+    "ios": {
+      "open": "Öffnen",
+      "videos": "Videos",
+      "files": "Dateien",
+      "web": "Web/Stream",
+      "custom": "Benutzerdefiniert",
+      "bookmark": "Favorit",
+      "bookmarks": "Favoritenliste",
+      "fill": "Ausfüllen (Inhalt zugeschnitten)",
+      "language": "Sprache ändern",
+      "portrait": "Hochformat",
+      "landscape": "Quer.(R)",
+      "webMode": "Webseite"
+    },
+    "android": {
+      "open": "Öffnen",
+      "videos": "Videos",
+      "files": "Dateien",
+      "web": "Web/Stream",
+      "custom": "Benutzerdefiniert",
+      "bookmark": "Favorit",
+      "bookmarks": "Favoritenliste",
+      "fill": "Ausfüllen (Inhalt zugeschnitten)",
+      "landscape": "Quer.(R)",
+      "portrait": "Hochformat",
+      "default": "Standard",
+      "webMode": "Webseite"
+    }
+  },
+  "es": {
+    "ios": {
+      "open": "Abrir",
+      "videos": "Vídeos",
+      "files": "Archivos",
+      "web": "Web/Stream",
+      "custom": "Personalizado",
+      "bookmark": "Favorito",
+      "bookmarks": "Lista de favoritos",
+      "fill": "Llenar (Contenido recortado)",
+      "language": "Cambiar idioma",
+      "portrait": "Vertical",
+      "landscape": "Horiz. (D)",
+      "webMode": "Página web"
+    },
+    "android": {
+      "open": "Abrir",
+      "videos": "Vídeos",
+      "files": "Archivos",
+      "web": "Web/Transmisión",
+      "custom": "Personalizado",
+      "bookmark": "Favorito",
+      "bookmarks": "Lista de favoritos",
+      "fill": "Llenar (Contenido recortado)",
+      "landscape": "Horiz. (D)",
+      "portrait": "Vertical",
+      "default": "Predet.",
+      "webMode": "Página web"
+    }
+  },
+  "pt-BR": {
+    "ios": {
+      "open": "Abrir",
+      "videos": "Vídeos",
+      "files": "Arquivos",
+      "web": "Web/Stream",
+      "custom": "Personalizado",
+      "bookmark": "Favorito",
+      "bookmarks": "Lista de Favoritos",
+      "fill": "Preencher (Conteúdo cortado)",
+      "language": "Alterar idioma",
+      "portrait": "Retrato",
+      "landscape": "Pais.(D)",
+      "webMode": "Página da Web"
+    },
+    "android": {
+      "open": "Abrir",
+      "videos": "Vídeos",
+      "files": "Arquivos",
+      "web": "Web/Transmissão",
+      "custom": "Personalizado",
+      "bookmark": "Favorito",
+      "bookmarks": "Lista de Favoritos",
+      "fill": "Preencher (Conteúdo cortado)",
+      "landscape": "Pais.(D)",
+      "portrait": "Retrato",
+      "default": "Padrão",
+      "webMode": "Página da Web"
+    }
+  }
+}

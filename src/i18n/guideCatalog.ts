@@ -1,12 +1,13 @@
 import { guideContent, guideSlugs, type GuidePage } from "./guides";
-import { androidMultiVideoGuide } from "./androidMultiVideoGuide";
+import { getWebGuides } from "./webGuides";
+import { androidMultiVideoGuides } from "./localizedMultiVideoGuides";
 import { getLanguageLinks, type Locale } from "./locales";
 
 // Register language-specific additions without generating untranslated routes.
 export function getGuides(locale: Locale): GuidePage[] {
   const pages = guideSlugs.map(slug => guideContent[locale].pages[slug]);
-  if (locale === "zh-Hans") pages.splice(1, 0, androidMultiVideoGuide);
-  return pages;
+  pages.splice(1, 0, androidMultiVideoGuides[locale]);
+  return [...pages, ...getWebGuides(locale)];
 }
 export function getGuide(locale: Locale, slug: GuidePage["slug"]): GuidePage {
   const guide = getGuides(locale).find(page => page.slug === slug);

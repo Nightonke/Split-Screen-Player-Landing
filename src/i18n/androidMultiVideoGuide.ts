@@ -1,57 +1,56 @@
 import type { GuideImage, GuidePage } from "./guides";
 import { appFacts } from "@config/appFacts";
 
-// Reuse the approved iPhone illustrations until Android captures are supplied.
-// Replace each image here independently; remove the note after all are replaced.
-const illustration = (file: string, caption: string, landscape = false): GuideImage => ({
-  src: `/images/guides/multi-video/zh-Hans/${file}.webp`,
-  width: landscape ? 2748 : 1319,
-  height: landscape ? 1319 : 2748,
-  alt: `iPhone 界面示意：${caption}`,
-  caption: `${caption}（iPhone 界面示意）`,
-  illustrative: true,
+const screenshot = (file: string, caption: string, landscape = false): GuideImage => ({
+  src: `/images/guides/multi-video/android/zh-Hans/${file}.webp`,
+  width: landscape ? 2508 : 1191,
+  height: landscape ? 1191 : 2508,
+  alt: `Split Screen Player Android：${caption}`,
+  caption,
 });
 
 export const androidMultiVideoGuide: GuidePage = {
   slug: "play-multiple-videos-android",
   platform: "android",
+  otherPlatformSlug: "play-multiple-videos-iphone-ipad",
   eyebrow: "分屏播放教程 · 安卓手机与平板",
   title: "安卓手机如何同时播放多个视频：上下分屏与四宫格教程",
   seoTitle: "安卓手机如何同时播放多个视频？上下分屏与四宫格教程",
   metaDescription: "用 Split Screen Player 在安卓手机或平板上同时看两个、三个或四个视频。选择上下分屏、三行或四宫格，从相册或文件添加视频，分别控制声音，并收藏常用组合。Android 版现已在 Google Play 上架。",
   summary: "想把两段视频上下放在一起，或同时看几个机位？Split Screen Player（分屏播放器）可以在一个 App 里打开多个视频，让每个画面都留在眼前。安卓手机和平板都能使用。",
   answer: "先选布局，再给每个区域添加视频，就能同时观看。下面从竖屏三行开始，再切换到操作栏在右侧的横屏四宫格，最后收藏这组视频，方便下次继续看。",
-  note: "配图为 iPhone 界面示意，操作说明以 Android 版为准。",
+  heroImage: screenshot("03-three-videos", "在安卓手机上，三个视频上下排列、同时播放。"),
+  stepsHeading: "从上下分屏到横屏四宫格",
   steps: [
     {
       title: "选择三行布局，让视频上下排列",
       description: "点击操作栏中的四格图标「选择布局」，进入「默认」页。在「纵向，共1列」中，选择三个区域上下排列的三行一列布局，每行放一个视频。",
       detail: "只想同时看两个视频，可以从「1～2个视频」中选择上下分屏或左右分屏。布局多时，用底部的视频数量和方向筛选，快速找到想要的排列。",
-      image: { ...illustration("01-layout-choices", "三行一列的布局在图中已用橙色方框标出"), highlight: { x: 102, y: 1574, width: 275, height: 275 } },
+      image: { ...screenshot("01-layout-choices", "三行一列的布局在图中已用橙色方框标出"), highlight: { x: 116, y: 1260, width: 236, height: 236 } },
     },
     {
       title: "从相册或文件中添加视频",
       description: "点击空白区域的「+」，在「打开」菜单中选择「相册视频」，再选一段视频。对另外两个区域重复操作，三个画面就能在同一屏播放。",
       detail: "视频存在下载目录或其他文件夹时，可以选择「文件」，通过 Android 的文件选择器打开。想在同一个区域轮流播放多段视频，也可以使用「播放列表」。",
-      image: illustration("02-open-videos", "通过「相册视频」或「文件」为区域添加内容"),
+      image: screenshot("02-open-videos", "通过「相册视频」或「文件」为区域添加内容"),
     },
     {
       title: "分别控制进度，保留想听的声音",
       description: "轻点视频，显示它的控制按钮。点击中央按钮播放或暂停，拖动进度条跳到想看的位置，用倍速按钮放慢动作或加快浏览。每路视频都能独立控制。",
       detail: "多个视频一起出声时，点击不需要听的那几路视频的喇叭按钮，将它们静音。切换当前操作的视频不会自动关闭其他声音，你可以自己决定听哪一路。",
-      image: illustration("06-playback-controls", "喇叭、倍速、播放暂停和进度条分别控制当前视频"),
+      image: screenshot("06-playback-controls", "喇叭、倍速、播放暂停和进度条分别控制当前视频"),
     },
     {
       title: "切换横屏四宫格，操作栏放在右边",
       description: "再次打开「选择布局」，把视频数量设为「4」，方向选为「横屏（右）」。在「中心对称（4～9个）」中，选择两行两列、右侧带操作栏细条的布局。",
       detail: "App 会按所选布局切换横竖屏方向。将手机横着拿，四个区域就会朝向你，操作栏集中在右侧。随后点击空白区域的「+」，添加第四段视频。",
-      image: illustration("04-select-grid", "选择四个视频和横屏右侧操作栏的四宫格"),
+      image: screenshot("04-select-grid", "选择四个视频和横屏右侧操作栏的四宫格"),
     },
     {
       title: "收藏这组视频，下次一键恢复",
       description: "布局和视频都安排好后，点击操作栏里的星形「收藏」按钮，把当前布局和内容保存为书签。下次打开旁边的「收藏列表」，选择这条书签，就能恢复这组画面。",
       detail: "可以把课程与参考视频、多机位录制或常看的几个片段分别收藏，让每次观看都从熟悉的组合开始。",
-      image: illustration("05-four-videos", "四宫格把多个画面放在一起，常用组合可以收藏", true),
+      image: screenshot("05-four-videos", "四宫格把多个画面放在一起，常用组合可以收藏", true),
     },
   ],
   tips: [],

@@ -4,7 +4,6 @@ import { pageChrome } from "@/i18n/chrome";
 import { guideContent } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import type { LanguageLink } from "@/types/content";
-import { FaApple } from "react-icons/fa";
 import { getGuides } from "@/i18n/guideCatalog";
 import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
 import Layout from "./Layout.astro";
@@ -100,15 +99,7 @@ const structuredData = [
 				<p class="eyebrow">{content.shortName}</p>
 				<h2 class="section-title">{chrome.guideHubClosingTitle}</h2>
 				<p class="section-lede">{content.description}</p>
-				{locale === "zh-Hans" ? <PlatformDownloads /> : <a
-					class="button button-dark"
-					href={content.storeLinks.apple}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FaApple aria-hidden="true" />
-					{chrome.downloadFree}
-				</a>}
+				<PlatformDownloads locale={locale} />
 			</div>
 		</section>
 	</main>

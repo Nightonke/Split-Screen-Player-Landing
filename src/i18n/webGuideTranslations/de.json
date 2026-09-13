@@ -1,0 +1,51 @@
+{
+  "deviceIOS": "dem iPhone oder iPad",
+  "deviceAndroid": "Android-Smartphones und Tablets",
+  "web": {
+    "title": "Zwei Webseiten gleichzeitig auf {device} öffnen",
+    "meta": "Zwei Webseiten auf {device} anzeigen und getrennt scrollen. Die bebilderte Anleitung zeigt, wie du sie mit Split Screen Player neben- oder untereinander anordnest.",
+    "summary": "Lies einen Artikel neben deinen Quellen oder vergleiche zwei Suchergebnisse. Beide Seiten bleiben sichtbar und lassen sich unabhängig scrollen, ohne ständig die Tabs zu wechseln.",
+    "answer": "Öffne Split Screen Player auf {device} und wähle ein Layout mit zwei Bereichen. Öffne in jedem Bereich über {web} eine andere URL. So kannst du beide Webseiten auf einem Bildschirm lesen und bedienen.",
+    "caption": "Zwei Webseiten untereinander, die sich unabhängig scrollen lassen.",
+    "closing": "Behalte beide Webseiten im Blick"
+  },
+  "mixed": {
+    "title": "Auf {device} ein Video ansehen und gleichzeitig im Web surfen",
+    "meta": "Ein gespeichertes Video auf {device} abspielen und daneben eine Webseite lesen. Richte die geteilte Ansicht mit Split Screen Player anhand von Screenshots ein.",
+    "summary": "Schlage während einer Vorlesung etwas nach oder lies eine Anleitung neben deinem Trainingsvideo. Video und Webseite bleiben gemeinsam sichtbar, während du liest.",
+    "answer": "Öffne Split Screen Player auf {device} und wähle ein Layout mit zwei Bereichen. Öffne in einem Bereich ein lokales Video und im anderen über {web} eine URL. Beide Inhalte bleiben auf dem Bildschirm.",
+    "caption": "Oben läuft ein lokales Video, unten bleibt eine Webseite sichtbar.",
+    "closing": "Video und Referenz gemeinsam im Blick"
+  },
+  "steps": {
+    "layout": { "title": "Ein Layout mit zwei Bereichen wählen", "description": "Öffne die Layoutauswahl in der Werkzeugleiste und wähle das markierte Layout mit zwei Bereichen untereinander. Im Hochformat nutzt jeder Bereich die Breite des Smartphones zum Lesen.", "detail": "Für eine Ansicht nebeneinander wähle ein Querformat-Layout. Unter {custom} kannst du dem Bereich, den du genauer lesen möchtest, mehr Platz geben.", "caption": "Wähle das Layout mit zwei Bereichen untereinander." },
+    "open": { "title": "Im ersten Bereich die Web-Option öffnen", "description": "Tippe im ersten leeren Bereich auf Plus und wähle im Menü {open} den Eintrag {web}. Jeder Bereich kann einen eigenen Inhalt öffnen.", "caption": "Wähle im Menü {open} den Eintrag {web}." },
+    "address": { "title": "Die Adresse eingeben und als Webseite öffnen", "description": "Gib die vollständige URL ein oder füge sie ein. Wähle als Linktyp {webMode} und tippe auf den Pfeil neben der Adresse. Die Seite öffnet sich in diesem Bereich.", "detail": "Öffne beispielsweise zuerst einen Artikel und platziere danach eine weitere Quelle daneben, um beide beim Lesen zu vergleichen.", "caption": "Gib eine Adresse ein und wähle {webMode}." },
+    "video": { "title": "Im oberen Bereich ein Video öffnen", "description": "Tippe im oberen leeren Bereich auf Plus und wähle über {videos} ein Video aus. Für eine Datei in einem lokalen Ordner verwende {files}.", "detail": "Probiere es mit einer gespeicherten Vorlesung, einer Trainingsaufnahme oder einem Reisevideo: Das Bild bleibt sichtbar, während du darunter etwas nachschlägst.", "caption": "Öffne über {videos} ein Video aus deiner Mediathek." },
+    "mixedWeb": { "title": "Im unteren Bereich eine Webseite öffnen", "description": "Tippe im unteren leeren Bereich auf Plus, wähle {web} und gib die URL ein. Wähle {webMode} und tippe zum Öffnen auf den Pfeil.", "detail": "Öffne Kursunterlagen, eine Anleitung, einen Artikel oder Suchergebnisse. Video und Webseite haben jeweils einen eigenen Bereich, sodass du beim Lesen im Player bleiben kannst.", "caption": "Gib die Adresse der gewünschten Webseite ein." },
+    "lastWeb": { "title": "Die zweite Seite öffnen und getrennt scrollen", "description": "Öffne im zweiten Bereich ebenfalls über {web} eine andere URL. Scrolle oben, um die erste Seite zu lesen, oder unten für die zweite. Jede Seite behält ihre eigene Leseposition." },
+    "lastMixed": { "title": "Das Video abspielen und die Seite lesen", "description": "Tippe auf das Video, um die Bedienelemente einzublenden, und starte die Wiedergabe. Scrolle anschließend im Webbereich. Zum Pausieren oder Anpassen des Tons tippe erneut auf das Video." }
+  },
+  "bookmarkDetail": "Speichere die Kombination über {bookmark} in der Werkzeugleiste. Später kannst du sie über {bookmarks} wieder öffnen.",
+  "featuresHeading": "Die Aufteilung an deine Inhalte anpassen",
+  "featuresIntro": "Split Screen Player öffnet auch Videos, Bilder, PDFs und Audiodateien in getrennten Bereichen. Wähle ein Layout, das jedem Inhalt ausreichend Platz bietet.",
+  "features": {
+    "layout": { "title": "Jeder Seite genug Platz geben", "description": "Es gibt 144 vorgefertigte Layouts mit bis zu 36 Bereichen. Zum Lesen sind zwei Bereiche ein guter Einstieg. Unter {custom} kannst du Position und Größe anpassen." },
+    "web": { "title": "Eine Seite durch ein Video ersetzen", "description": "Zeige auf einer Seite ein Anleitungsvideo und auf der anderen den zugehörigen Text oder die einzelnen Arbeitsschritte." },
+    "mixed": { "title": "Das Video durch eine zweite Seite ersetzen", "description": "Wenn du zwei Onlinequellen vergleichen möchtest, öffne im Videobereich eine weitere Webseite." },
+    "videos": { "title": "Mehrere Videos ansehen und vergleichen", "description": "Du kannst alle Bereiche für Videos nutzen: drei Reihen im Hochformat oder ein Viererraster im Querformat. Vergleiche verschiedene Ansichten und steuere den Ton für jedes Video getrennt." }
+  },
+  "tutorialLink": "Zur Anleitung",
+  "multiVideoLink": "Zur Anleitung für mehrere Videos",
+  "faq": {
+    "apps": { "question": "Werden damit zwei verschiedene Apps geöffnet?", "answer": "Die Bereiche öffnen Webseiten oder Medien innerhalb von Split Screen Player. Du kannst zwei Websites ansehen oder ein lokales Video mit einer Webseite kombinieren. Die Oberflächen anderer Apps werden nicht in diese Bereiche eingebettet." },
+    "playbackQuestion": "Können Videos auf zwei Webseiten gleichzeitig laufen?",
+    "playbackIOS": "Auf iPhone und iPad weist die App darauf hin, dass Systembeschränkungen die gleichzeitige Videowiedergabe auf mehreren Webseiten verhindern. Nutze zwei Webbereiche zum Lesen und Surfen. Wenn du mehrere Videos gleichzeitig vergleichen möchtest, verwende lokale Videodateien.",
+    "playbackAndroid": "Webplayer hängen von den Wiedergaberegeln der Website, Autoplay-Einstellungen und dem Inhaltsschutz ab. Die gleichzeitige Wiedergabe auf zwei Websites ist nicht garantiert. Für mehrere lokale Dateien kannst du ein Layout mit mehreren Videobereichen verwenden.",
+    "login": { "question": "Kann ich Websites nutzen, die eine Anmeldung verlangen?", "answer": "Das hängt davon ab, ob die Website eingebettete Browser unterstützt. Manche Dienste verlangen ihre eigene App oder den Systembrowser. Die geteilte Ansicht umgeht keine Anmeldung, Abonnements oder Schutzmaßnahmen für Inhalte." },
+    "vip": { "question": "Benötige ich VIP zum Surfen?", "answer": "Web-Browsing ist eine VIP-Funktion. Auch Layouts mit VIP-Markierung benötigen einen kostenpflichtigen Tarif. Die App ist kostenlos herunterladbar; aktuelle Funktionen und Preise findest du in der App." },
+    "offline": { "question": "Kann ich die App offline nutzen?", "answer": "Bereits auf deinem Gerät gespeicherte Videos, Bilder und PDFs lassen sich offline öffnen. Webseiten benötigen normalerweise eine Internetverbindung; ob sie offline verfügbar sind, hängt von der jeweiligen Seite ab." }
+  },
+  "closingDescription": "Lade Split Screen Player herunter, wähle ein Layout mit zwei Bereichen und öffne die Inhalte, die du zusammen im Blick behalten möchtest.",
+  "credit": "Beispielseiten: Wikipedia"
+}
