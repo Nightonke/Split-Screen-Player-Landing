@@ -11,6 +11,12 @@
 - 简体中文页眉的下载按钮改为平台选择菜单，页脚与手机菜单也有两个商店入口。
 - 首页原评分加上 App Store 来源；不把苹果评分或版本号复用给 Android。移除首页跨平台语境下不准确的“不收集数据”短语，改为“相册视频 · 本地文件”。
 
+## 下载二维码
+
+Android 二维码 `public/assets/google-play-qr.png` 编码的是 `https://splitscreenplayer.com/android`，使用 M 级纠错、29 × 29 格和四格白色留边。短地址在 `astro.config.mjs` 中指向 `appFacts.googlePlayUrl`，构建后生成 `dist/android/index.html`；GitHub Pages 通过立即刷新的 HTML 页面跳转，页面含 `noindex` 和可点击的商店链接。卡片点击仍直接打开 Google Play。
+
+短地址页面与二维码必须一起发布；当前本地预览中的二维码扫码访问的是正式域名，因此需要网站上线后才能完整使用。
+
 ## Android 文案依据
 
 只读核对本地 `SplitScreenPlayer-Android`（提交 `96ada14`）；连接的 Pixel 8 安装的是 `com.nightonke.android.splitscreenplayer` 1.0.0（versionCode 15，minSdk 23）。没有更新或重装 App，没有改 Android 工程，也没有改用户的 `app/build.gradle` 未提交内容。
