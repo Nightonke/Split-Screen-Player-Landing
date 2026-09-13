@@ -1361,8 +1361,8 @@ html[lang^="zh"] .hero-title {
 
 .footer-grid {
 	display: grid;
-	grid-template-columns: 1fr auto;
-	align-items: end;
+	grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+	align-items: start;
 	gap: 36px;
 	padding-top: 32px;
 	border-top: 1.5px solid var(--ink);
@@ -1370,11 +1370,13 @@ html[lang^="zh"] .hero-title {
 
 .footer-brand {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+	min-width: 0;
 	gap: 12px;
 }
 
 .footer-brand img {
+	flex: none;
 	width: 46px;
 	height: 46px;
 	border: 1px solid var(--line);
@@ -1396,7 +1398,14 @@ html[lang^="zh"] .hero-title {
 
 .footer-meta {
 	display: grid;
+	min-width: 0;
 	justify-items: end;
+	gap: 16px;
+}
+
+.footer-navigation {
+	display: grid;
+	min-width: 0;
 	gap: 16px;
 }
 
@@ -1410,6 +1419,10 @@ html[lang^="zh"] .hero-title {
 	font-weight: 800;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
+}
+
+.footer-links a {
+	max-width: 100%;
 }
 
 .footer-copyright {
