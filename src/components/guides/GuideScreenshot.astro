@@ -13,7 +13,6 @@ const highlightStyle = highlight
       <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading={eager ? "eager" : "lazy"} decoding="async" />
       {highlight && <span class="article-screenshot-highlight" style={highlightStyle} aria-hidden="true"></span>}
     </span>
-    <span class="article-screenshot-zoom" aria-hidden="true">＋ 放大</span>
   </a>
   <figcaption>{image.caption}</figcaption>
 </figure>

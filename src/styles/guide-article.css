@@ -27,7 +27,6 @@
 .article-screenshot-image { position: relative; display: block; }
 .article-screenshot img { width: 100%; height: auto; }
 .article-screenshot-highlight { position: absolute; border: 3px solid #ff701f; box-shadow: 0 0 0 1px #fff, inset 0 0 0 1px #fff; border-radius: 6px; pointer-events: none; }
-.article-screenshot-zoom { position: absolute; right: 0; bottom: 12px; padding: 6px 10px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--paper-strong); font-size: .72rem; font-weight: 700; }
 .article-screenshot figcaption { margin-top: 16px; color: var(--ink-soft); font-size: .85rem; line-height: 1.75; text-align: center; }
 .article-guide-more, .article-guide-faq { padding-top: 48px; scroll-margin-top: 16px; }
 .article-guide-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding: 26px 0; margin: 28px 0 8px; border-block: 1px solid var(--line-strong); }
