@@ -31,7 +31,7 @@ export interface GuideImage {
 }
 
 export interface GuidePage {
-	slug: GuideSlug | "play-multiple-videos-android" | "browse-two-websites-iphone-ipad" | "browse-two-websites-android" | "watch-video-and-browse-web-iphone-ipad" | "watch-video-and-browse-web-android";
+	slug: GuideSlug | "play-multiple-videos-android" | "browse-two-websites-iphone-ipad" | "browse-two-websites-android" | "watch-video-and-browse-web-iphone-ipad" | "watch-video-and-browse-web-android" | "auto-arrange-portrait-landscape-videos-iphone-ipad" | "auto-arrange-portrait-landscape-videos-android" | "resize-rearrange-split-screen-videos-iphone-ipad" | "resize-rearrange-split-screen-videos-android";
 	platform?: "ios" | "android";
 	otherPlatformSlug?: GuidePage["slug"];
 	eyebrow: string;

@@ -1,5 +1,6 @@
 import { guideContent, guideSlugs, type GuidePage } from "./guides";
 import { getWebGuides } from "./webGuides";
+import { getWorkflowGuides } from "./workflowGuides";
 import { androidMultiVideoGuides } from "./localizedMultiVideoGuides";
 import { getLanguageLinks, type Locale } from "./locales";
 
@@ -7,7 +8,7 @@ import { getLanguageLinks, type Locale } from "./locales";
 export function getGuides(locale: Locale): GuidePage[] {
   const pages = guideSlugs.map(slug => guideContent[locale].pages[slug]);
   pages.splice(1, 0, androidMultiVideoGuides[locale]);
-  return [...pages, ...getWebGuides(locale)];
+  return [...pages, ...getWebGuides(locale), ...getWorkflowGuides(locale)];
 }
 export function getGuide(locale: Locale, slug: GuidePage["slug"]): GuidePage {
   const guide = getGuides(locale).find(page => page.slug === slug);

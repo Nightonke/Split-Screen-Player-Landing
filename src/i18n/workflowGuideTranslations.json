@@ -1,0 +1,1199 @@
+{
+  "zh-Hant": {
+    "deviceIOS": " iPhone 或 iPad ",
+    "deviceAndroid": " Android 手機或平板 ",
+    "labels": {
+      "smartLayout": "智慧排列",
+      "chooseLayout": "選擇版面配置",
+      "customizeToolbar": "自訂首頁底部按鈕",
+      "adjustContent": "調整內容位置",
+      "adjustSize": "調整版面大小",
+      "albumVideos": "相冊影片",
+      "files": "檔案",
+      "videoFilter": "影片篩選器",
+      "recommended": "推薦",
+      "fit": "適應",
+      "fill": "填滿",
+      "export": "匯出分屏影片",
+      "generalSettings": "一般設定"
+    },
+    "smart": {
+      "title": "如何在{device}自動排列橫向與直向影片？",
+      "seoTitle": "在{device}自動排列橫向與直向影片｜智慧分屏教學",
+      "meta": "在{device}混合播放橫向與直向影片時，使用 Split Screen Player 的智慧排列分析影片尺寸並推薦高利用率的分屏版面。",
+      "summary": "不用逐一試版面。選好要一起播放的影片後，App 會按照每段影片的長寬比例提出多種排列方式，並顯示各方案的畫面利用率。",
+      "answer": "在{device}開啟 Split Screen Player，將{smartLayout}加入底部按鈕，從相冊或檔案選取影片，再選擇其中一個推薦方案。App 會依照尺寸自動安排橫向與直向畫面。",
+      "steps": [
+        {
+          "title": "將{smartLayout}加入底部按鈕",
+          "description": "從更多選單開啟{customizeToolbar}，確認已加入{smartLayout}。如果經常使用，可以把它移到較前面的位置。",
+          "detail": "同一頁也可以加入{chooseLayout}、{adjustContent}和{adjustSize}。",
+          "caption": "將{smartLayout}加入底部工具列，之後即可一鍵開啟。"
+        },
+        {
+          "title": "選取要一起排列的影片",
+          "description": "點一下{smartLayout}，再選擇{albumVideos}或{files}。素材很多時，可先開啟{videoFilter}縮小選取範圍。",
+          "detail": "請一次選齊這次要看的影片，因為推薦結果會依影片數量和方向而改變。",
+          "caption": "從相冊影片或檔案選取素材，也可先開啟影片篩選器。"
+        },
+        {
+          "title": "比較推薦版面與畫面利用率",
+          "description": "查看{recommended}和其他備選方案。每個選項都會標示直向或橫向、影片數量與畫面利用率，選擇符合目前裝置方向的版面。",
+          "detail": "畫面利用率表示區域使用螢幕的效率，不代表每段影片都完全不會裁切。需要時可切換{fit}或{fill}。",
+          "caption": "App 依八段影片的尺寸產生三種建議，並標示畫面利用率。"
+        },
+        {
+          "title": "套用版面並個別控制影片",
+          "description": "選擇方案後，影片會直接進入對應區域。每段影片仍可獨立播放、暫停、靜音或調整顯示，也可從底部工具列批次控制。",
+          "detail": "結果不合適時，可再次執行{smartLayout}選另一個方案，或改用{chooseLayout}手動指定。",
+          "caption": "橫向與直向影片會放入更合適的區域，八個畫面仍同時可見。"
+        }
+      ],
+      "featuresHeading": "什麼時候適合使用智慧排列",
+      "featuresIntro": "當素材的方向和比例不一致時最實用。先讓 App 處理整體分區，再微調個別影片的顯示方式。",
+      "features": [
+        {
+          "title": "混合橫向與直向素材",
+          "description": "旅行、訓練、監控和多機位影片經常方向不同。推薦版面會把窄畫面與寬畫面放進更匹配的區域。"
+        },
+        {
+          "title": "比較多個高利用率方案",
+          "description": "不只提供一個答案。你可以比較直向、橫向和不同區域組合，配合手機、平板或外接顯示器。"
+        },
+        {
+          "title": "選好版面後再調整大小與位置",
+          "description": "如果想突出其中一段影片，可切換到相近的預設版面，再拖動黃色分隔線或交換內容位置。"
+        }
+      ],
+      "featureLink": "查看大小與位置調整教學",
+      "faq": [
+        {
+          "question": "智慧排列最多可以安排多少段影片？",
+          "answer": "Split Screen Player 的版面最多支援 36 個區域。實際同時播放是否流暢，仍取決於裝置效能、解析度、編碼和幀率。"
+        },
+        {
+          "question": "智慧排列會修改原始影片嗎？",
+          "answer": "不會。它只決定影片在目前工作區中的區域和排列方式，不會裁切、覆寫或變更裝置上的原始檔案。"
+        },
+        {
+          "question": "為什麼有些影片仍有黑邊或顯示裁切？",
+          "answer": "推薦版面會依影片尺寸配對區域，但區域比例不一定和每段影片完全相同。可切換{fit}與{fill}，再調整縮放或位置。"
+        },
+        {
+          "question": "可以將排列結果匯出成一段影片嗎？",
+          "answer": "可以。確認版面、裁切和播放順序後，開啟{export}設定比例、解析度、聲音和時間範圍，再輸出成單一檔案。"
+        }
+      ],
+      "closingTitle": "讓每種影片方向都找到更合適的位置",
+      "closingDescription": "在{device}下載 Split Screen Player，選取一組橫向與直向影片，看看{smartLayout}提出哪些版面。"
+    },
+    "resize": {
+      "title": "如何在{device}調整分屏影片的大小和位置？",
+      "seoTitle": "在{device}調整分屏影片大小與位置｜完整教學",
+      "meta": "在{device}拖動黃色分隔線改變分屏區域大小，並將影片拖到另一個區域交換位置，無需重新建立工作區。",
+      "summary": "想放大主影片、縮小參考畫面，或把兩段影片交換位置，都不必重新選取素材。預設版面可直接拖動分隔線，內容也能在區域之間移動。",
+      "answer": "在{device}選擇包含至少兩個區域的預設分屏版面，使用{adjustSize}拖動黃色分隔線。需要換位時，開啟{adjustContent}，把影片拖到另一個區域即可交換。",
+      "steps": {
+        "setup": {
+          "title": "先選擇預設版面並加入兩個快捷按鈕",
+          "description": "在{chooseLayout}中選擇至少有兩個區域的預設版面，再到{customizeToolbar}加入{adjustContent}和{adjustSize}。",
+          "detail": "大小調整只適用於預設版面；使用自訂或智慧產生的版面、最大化畫面或比較模式時，按鈕可能無法使用。",
+          "caption": "將{adjustContent}和{adjustSize}加入底部工具列。"
+        },
+        "resize": {
+          "title": "拖動黃色分隔線改變區域大小",
+          "description": "點一下{adjustSize}。進入編輯模式後，拖動黃色橫線或直線，讓重要影片取得更多空間，再按勾號完成。",
+          "detail": "調整記錄預設儲存在裝置上，再次開啟同一預設版面時可自動恢復；可在{generalSettings}關閉。",
+          "caption": "進入大小調整模式後，黃色分隔線會標示可拖動的邊界。"
+        },
+        "thirdIOS": {
+          "title": "開啟內容位置調整模式",
+          "description": "點一下{adjustContent}。每個有內容的區域會出現拖動控制點，播放也會暫停，以免移動時誤觸影片控制。",
+          "detail": "拖到空白區域會移動內容；拖到已有內容的區域則會交換兩者。",
+          "caption": "每個區域都會顯示拖動控制點，可將影片交換到另一個位置。"
+        },
+        "thirdAndroid": {
+          "title": "確認新的區域比例",
+          "description": "拖動完成後，先確認兩個區域都保留了需要的主體。分隔線只會改變顯示比例，不會修改原始影片。",
+          "detail": "拖到空白區域會移動內容；拖到已有內容的區域則會交換兩者。",
+          "caption": "拖動黃色分隔線後，上方區域變小，下方獲得更多空間。"
+        },
+        "fourthIOS": {
+          "title": "拖動內容換位並完成",
+          "description": "按住區域中央的控制點，把影片拖到目標區域。交換完成後按勾號，返回正常播放畫面。",
+          "detail": "完成後仍可個別控制每段影片，也可以繼續使用群組播放、暫停和靜音。",
+          "caption": "完成調整後返回正常播放畫面，目前的排列會保留在工作區。"
+        },
+        "fourthAndroid": {
+          "title": "將影片拖到另一個區域",
+          "description": "點一下{adjustContent}，再按住影片中央的控制點拖到目標區域。兩個已有內容的區域會立即交換，不必重新開啟檔案。",
+          "detail": "完成後仍可個別控制每段影片，也可以繼續使用群組播放、暫停和靜音。",
+          "caption": "在內容位置調整模式中，把一段影片拖到另一區域即可交換位置。"
+        }
+      },
+      "featuresHeading": "用大小與位置表達觀看重點",
+      "featuresIntro": "區域比例不只影響外觀，也會直接改變比較、示範和投屏時的可讀性。",
+      "features": [
+        {
+          "title": "突出主畫面，同時保留參考",
+          "description": "放大主影片區域，同時讓輔助角度、說明畫面或時間參考繼續留在螢幕上。"
+        },
+        {
+          "title": "換位時不必重新開啟檔案",
+          "description": "內容位置調整只會更改影片所在的區域，可快速把主畫面移到更順眼或更適合投屏的位置。"
+        },
+        {
+          "title": "先智慧排列，再用預設版面微調",
+          "description": "素材方向混雜時，先用{smartLayout}尋找合適的組合；需要可拖動分隔線時，再選擇相近的預設版面繼續調整。"
+        }
+      ],
+      "featureLink": "查看智慧排列教學",
+      "faq": [
+        {
+          "question": "為什麼{adjustSize}按鈕是灰色的？",
+          "answer": "常見原因包括目前使用自訂或智慧產生的版面、只有一個區域、某個畫面已最大化，或正在使用重疊／滑動比較。請先切換到多區域預設版面。"
+        },
+        {
+          "question": "調整後的大小會儲存嗎？",
+          "answer": "預設會儲存在目前裝置，並在再次開啟同一預設版面時恢復。你可以在{generalSettings}關閉版面大小記錄。"
+        },
+        {
+          "question": "調整區域會裁切原始影片嗎？",
+          "answer": "不會。它只改變工作區中的顯示區域。比例改變後，{fit}可能顯示黑邊，{fill}可能裁切顯示畫面，但原始檔案不會改變。"
+        },
+        {
+          "question": "可以自由畫出任意大小和位置的區域嗎？",
+          "answer": "可以在自訂版面中建立更自由的區域形狀。黃色分隔線適合快速修改現有預設，兩者用途不同。"
+        }
+      ],
+      "closingTitle": "放大重要畫面，同時保留參考",
+      "closingDescription": "在{device}下載 Split Screen Player，開啟兩段影片，試著拖動分隔線並交換它們的位置。"
+    }
+  },
+  "ja": {
+    "deviceIOS": "iPhone・iPad",
+    "deviceAndroid": "Android スマートフォン・タブレット",
+    "labels": {
+      "smartLayout": "スマートレイアウト",
+      "chooseLayout": "レイアウトを選択",
+      "customizeToolbar": "ホーム下部ボタンをカスタマイズ",
+      "adjustContent": "コンテンツの位置を調整",
+      "adjustSize": "レイアウトサイズを調整",
+      "albumVideos": "動画",
+      "files": "ファイル",
+      "videoFilter": "ビデオフィルター",
+      "recommended": "おすすめ",
+      "fit": "全体表示",
+      "fill": "画面いっぱい",
+      "export": "スプリットスクリーンビデオをエクスポート",
+      "generalSettings": "一般設定"
+    },
+    "smart": {
+      "title": "{device}で縦向き・横向きの動画を自動配置する方法",
+      "seoTitle": "{device}で縦動画と横動画を自動配置する方法｜スマートレイアウト",
+      "meta": "{device}で縦向きと横向きの動画を一緒に再生するとき、Split Screen Player が動画サイズを解析し、画面を効率よく使える分割レイアウトを提案します。",
+      "summary": "レイアウトを一つずつ試す必要はありません。同時に見たい動画を選ぶと、各動画の縦横比に合った複数の配置と画面利用率が表示されます。",
+      "answer": "{device}で Split Screen Player を開き、{smartLayout}を下部ボタンに追加します。アルバムまたはファイルから動画を選び、候補のレイアウトを選択すると、縦動画と横動画がサイズに合わせて自動配置されます。",
+      "steps": [
+        {
+          "title": "{smartLayout}を下部ボタンに追加する",
+          "description": "その他メニューから{customizeToolbar}を開き、{smartLayout}が追加されていることを確認します。よく使う場合は前の方に移動しておきます。",
+          "detail": "同じ画面で{chooseLayout}、{adjustContent}、{adjustSize}も追加できます。",
+          "caption": "{smartLayout}を下部ツールバーに追加し、いつでも1タップで開けるようにします。"
+        },
+        {
+          "title": "一緒に配置する動画を選ぶ",
+          "description": "{smartLayout}をタップし、{albumVideos}または{files}を選びます。動画が多い場合は、先に{videoFilter}を有効にすると探しやすくなります。",
+          "detail": "候補は動画の本数と向きによって変わるため、今回見る動画をまとめて選んでください。",
+          "caption": "アルバムの動画またはファイルを選択。必要ならビデオフィルターも使えます。"
+        },
+        {
+          "title": "候補と画面利用率を比較する",
+          "description": "{recommended}と他の候補を確認します。縦向き／横向き、動画数、画面利用率が表示されるので、端末の持ち方に合うものを選びます。",
+          "detail": "画面利用率は領域がディスプレイをどれだけ効率よく使うかの目安です。すべての動画が無裁断になるとは限らないため、必要に応じて{fit}と{fill}を切り替えます。",
+          "caption": "8本の動画サイズを解析し、画面利用率付きの3つの候補を表示します。"
+        },
+        {
+          "title": "レイアウトを適用して動画を操作する",
+          "description": "候補を選ぶと、各動画が指定された領域に開きます。動画ごとの再生、一時停止、ミュート、表示調整に加え、下部ツールバーからまとめて操作できます。",
+          "detail": "合わない場合は{smartLayout}でもう一度別の候補を選ぶか、{chooseLayout}で手動指定します。",
+          "caption": "縦動画と横動画を適した領域に配置し、8画面すべてを同時に表示します。"
+        }
+      ],
+      "featuresHeading": "スマートレイアウトが便利な場面",
+      "featuresIntro": "向きや縦横比が混在する素材に最適です。まず全体の分割をアプリに任せ、その後で必要な動画だけ表示を微調整できます。",
+      "features": [
+        {
+          "title": "縦動画と横動画を組み合わせる",
+          "description": "旅行、トレーニング、監視映像、マルチカメラ素材は向きが混ざりがちです。細長い映像と横長の映像を、より合う領域に配置します。"
+        },
+        {
+          "title": "効率のよい複数案から選ぶ",
+          "description": "答えは一つではありません。縦向き、横向き、異なる領域構成を比較し、スマートフォン、タブレット、外部ディスプレイに合わせられます。"
+        },
+        {
+          "title": "プリセットでサイズと位置を微調整する",
+          "description": "特定の動画を目立たせたいときは、近いプリセットに切り替え、黄色い区切り線を動かすか、コンテンツの位置を入れ替えます。"
+        }
+      ],
+      "featureLink": "サイズと位置の調整ガイドを見る",
+      "faq": [
+        {
+          "question": "スマートレイアウトで何本まで配置できますか？",
+          "answer": "Split Screen Player のレイアウトは最大36領域に対応します。同時再生の滑らかさは、端末性能、解像度、コーデック、フレームレートにも左右されます。"
+        },
+        {
+          "question": "スマートレイアウトは元の動画を変更しますか？",
+          "answer": "変更しません。現在のワークスペース内で動画を表示する領域と配置だけを決めます。端末内の元ファイルを切り取ったり上書きしたりしません。"
+        },
+        {
+          "question": "黒帯や表示上のクロップが残るのはなぜですか？",
+          "answer": "動画サイズに合う領域を選びますが、領域と動画の縦横比が完全に一致するとは限りません。{fit}と{fill}を切り替え、必要なら拡大率や位置を調整してください。"
+        },
+        {
+          "question": "配置した動画を1本のファイルに書き出せますか？",
+          "answer": "はい。レイアウト、表示範囲、再生順を確認し、{export}で比率、解像度、音声、時間範囲を設定して1本に書き出せます。"
+        }
+      ],
+      "closingTitle": "縦でも横でも、動画に合う場所へ",
+      "closingDescription": "{device}に Split Screen Player をダウンロードし、縦動画と横動画をまとめて選んで、{smartLayout}の候補を比べてみましょう。"
+    },
+    "resize": {
+      "title": "{device}で分割動画の大きさと位置を変更する方法",
+      "seoTitle": "{device}で分割動画をリサイズ・並べ替える方法",
+      "meta": "{device}で黄色い区切り線をドラッグして分割領域の大きさを変え、動画を別の領域へ移して位置を入れ替える方法を解説します。",
+      "summary": "メイン動画を大きくしたり、参考映像を小さくしたり、2本の位置を入れ替えたりしても、素材を選び直す必要はありません。プリセットの境界と内容を直接動かせます。",
+      "answer": "{device}で2領域以上のプリセットを選び、{adjustSize}で黄色い区切り線をドラッグします。位置を変えるときは{adjustContent}を開き、動画を別の領域にドラッグして入れ替えます。",
+      "steps": {
+        "setup": {
+          "title": "プリセットを選び、2つのボタンを追加する",
+          "description": "{chooseLayout}で2領域以上のプリセットを選び、{customizeToolbar}から{adjustContent}と{adjustSize}を追加します。",
+          "detail": "区切り線の調整はプリセット専用です。カスタムや自動生成のレイアウト、最大表示、比較モードでは使えない場合があります。",
+          "caption": "{adjustContent}と{adjustSize}を下部ツールバーに追加します。"
+        },
+        "resize": {
+          "title": "黄色い区切り線を動かして領域を変える",
+          "description": "{adjustSize}をタップします。編集モードで黄色い横線または縦線をドラッグし、重要な動画の領域を広げたらチェックマークを押します。",
+          "detail": "変更内容は初期設定で端末に保存され、同じプリセットを開くと復元されます。{generalSettings}で無効にできます。",
+          "caption": "サイズ調整モードでは、動かせる境界が黄色い線で示されます。"
+        },
+        "thirdIOS": {
+          "title": "コンテンツ位置の調整モードを開く",
+          "description": "{adjustContent}をタップします。内容のある各領域にドラッグハンドルが表示され、移動中の誤操作を防ぐため再生が一時停止します。",
+          "detail": "空の領域へドラッグすると移動し、内容のある領域へドラッグすると2つが入れ替わります。",
+          "caption": "各領域にハンドルが表示され、動画を別の位置へ移せます。"
+        },
+        "thirdAndroid": {
+          "title": "新しい領域比率を確認する",
+          "description": "ドラッグ後、両方の領域に必要な被写体が残っているか確認します。区切り線は表示比率だけを変え、元の動画には影響しません。",
+          "detail": "空の領域へドラッグすると移動し、内容のある領域へドラッグすると2つが入れ替わります。",
+          "caption": "黄色い区切り線を動かすと、上の領域が小さくなり、下の領域が広がります。"
+        },
+        "fourthIOS": {
+          "title": "動画を移動して編集を完了する",
+          "description": "領域中央のハンドルを押したまま、移動先へドラッグします。入れ替えが終わったらチェックマークを押し、通常の再生画面に戻ります。",
+          "detail": "完了後も動画を個別に操作でき、グループ再生、一時停止、ミュートもそのまま使えます。",
+          "caption": "編集を終えると通常再生に戻り、現在の配置がワークスペースに残ります。"
+        },
+        "fourthAndroid": {
+          "title": "動画を別の領域へドラッグする",
+          "description": "{adjustContent}をタップし、動画中央のハンドルを移動先へドラッグします。内容のある2領域はすぐに入れ替わり、ファイルを開き直す必要はありません。",
+          "detail": "完了後も動画を個別に操作でき、グループ再生、一時停止、ミュートもそのまま使えます。",
+          "caption": "位置調整モードで動画を別の領域へドラッグすると、2つの位置が入れ替わります。"
+        }
+      },
+      "featuresHeading": "大きさと位置で注目点を伝える",
+      "featuresIntro": "領域の比率は見た目だけでなく、比較、プレゼン、外部表示で何が読みやすいかにも影響します。",
+      "features": [
+        {
+          "title": "メイン映像を強調し、参考映像も残す",
+          "description": "主な動画を大きくしながら、別角度、説明映像、タイミングの参考を同じ画面に残せます。"
+        },
+        {
+          "title": "ファイルを開き直さず位置を交換する",
+          "description": "コンテンツ位置の調整は表示先だけを変えます。メイン映像を見やすい場所や外部表示に適した場所へすばやく移せます。"
+        },
+        {
+          "title": "自動配置の後にプリセットで仕上げる",
+          "description": "向きが混在する素材は、まず{smartLayout}で候補を探します。区切り線を動かしたい場合は、近いプリセットを選んで調整を続けます。"
+        }
+      ],
+      "featureLink": "スマートレイアウトのガイドを見る",
+      "faq": [
+        {
+          "question": "{adjustSize}が無効なのはなぜですか？",
+          "answer": "カスタムまたは自動生成レイアウト、1領域だけのレイアウト、最大表示、オーバーレイ／スワイプ比較が主な原因です。まず複数領域のプリセットに切り替えてください。"
+        },
+        {
+          "question": "変更した領域サイズは保存されますか？",
+          "answer": "初期設定では現在の端末に保存され、同じプリセットを再度開くと復元されます。{generalSettings}でサイズ記録を無効にできます。"
+        },
+        {
+          "question": "領域を変えると元の動画もクロップされますか？",
+          "answer": "いいえ。ワークスペース内の表示領域だけが変わります。{fit}では黒帯が出ることがあり、{fill}では表示が切れることがありますが、元ファイルは変わりません。"
+        },
+        {
+          "question": "好きな大きさと位置の領域を自由に作れますか？",
+          "answer": "任意の形が必要ならカスタムレイアウトを使えます。黄色い区切り線は既存のプリセットをすばやく調整するための機能です。"
+        }
+      ],
+      "closingTitle": "重要な映像を大きく、参考映像も同じ画面に",
+      "closingDescription": "{device}に Split Screen Player をダウンロードし、2本の動画で区切り線の調整と位置交換を試してみましょう。"
+    }
+  },
+  "ko": {
+    "deviceIOS": "iPhone 또는 iPad",
+    "deviceAndroid": "Android 스마트폰 또는 태블릿",
+    "labels": {
+      "smartLayout": "스마트 레이아웃",
+      "chooseLayout": "레이아웃 선택",
+      "customizeToolbar": "홈 하단 버튼 사용자화",
+      "adjustContent": "콘텐츠 위치 조정",
+      "adjustSize": "레이아웃 크기 조정",
+      "albumVideos": "동영상",
+      "files": "파일",
+      "videoFilter": "동영상 필터",
+      "recommended": "추천",
+      "fit": "맞춤",
+      "fill": "채우기",
+      "export": "분할 화면 비디오 내보내기",
+      "generalSettings": "일반 설정"
+    },
+    "smart": {
+      "title": "{device}에서 세로·가로 동영상을 자동으로 배치하는 방법",
+      "seoTitle": "{device}에서 세로·가로 동영상 자동 배치하기｜스마트 레이아웃",
+      "meta": "{device}에서 세로 및 가로 동영상을 함께 재생할 때 Split Screen Player가 영상 크기를 분석하고 화면 활용률이 높은 분할 레이아웃을 추천합니다.",
+      "summary": "레이아웃을 하나씩 시험할 필요가 없습니다. 함께 볼 동영상을 선택하면 각 영상의 화면 비율에 맞는 여러 배치와 화면 활용률을 확인할 수 있습니다.",
+      "answer": "{device}에서 Split Screen Player를 열고 {smartLayout}을 하단 버튼에 추가하세요. 앨범이나 파일에서 동영상을 고른 뒤 추천 배치 중 하나를 선택하면 세로 및 가로 영상이 크기에 맞춰 자동 배치됩니다.",
+      "steps": [
+        {
+          "title": "{smartLayout}을 하단 버튼에 추가하기",
+          "description": "더보기 메뉴에서 {customizeToolbar}를 열고 {smartLayout}이 추가되어 있는지 확인합니다. 자주 사용한다면 앞쪽으로 옮겨 두세요.",
+          "detail": "같은 화면에서 {chooseLayout}, {adjustContent}, {adjustSize}도 추가할 수 있습니다.",
+          "caption": "{smartLayout}을 하단 도구 모음에 추가해 언제든 한 번에 열 수 있습니다."
+        },
+        {
+          "title": "함께 배치할 동영상 선택하기",
+          "description": "{smartLayout}을 누르고 {albumVideos} 또는 {files}을 선택합니다. 영상이 많다면 먼저 {videoFilter}를 켜서 선택 범위를 줄일 수 있습니다.",
+          "detail": "추천 결과는 영상 수와 방향에 따라 달라지므로 이번에 볼 영상을 한 번에 선택하세요.",
+          "caption": "앨범 동영상이나 파일을 선택하고 필요하면 동영상 필터를 사용합니다."
+        },
+        {
+          "title": "추천 레이아웃과 화면 활용률 비교하기",
+          "description": "{recommended}과 다른 후보를 확인합니다. 각 항목에 세로·가로 방향, 영상 수, 화면 활용률이 표시되므로 현재 기기 방향에 맞는 것을 고르세요.",
+          "detail": "화면 활용률은 각 영역이 디스플레이를 얼마나 효율적으로 쓰는지 보여 줍니다. 모든 영상이 잘리지 않는다는 뜻은 아니므로 필요하면 {fit}과 {fill}를 전환하세요.",
+          "caption": "앱이 8개 영상의 크기를 분석해 화면 활용률과 함께 세 가지 레이아웃을 제안합니다."
+        },
+        {
+          "title": "레이아웃 적용 후 영상별로 제어하기",
+          "description": "추천안을 선택하면 영상이 지정된 영역에 열립니다. 각 영상을 따로 재생, 일시 정지, 음소거하거나 표시를 조정할 수 있고 하단 도구 모음에서 한꺼번에 제어할 수도 있습니다.",
+          "detail": "결과가 마음에 들지 않으면 {smartLayout}을 다시 실행해 다른 안을 고르거나 {chooseLayout}에서 직접 지정하세요.",
+          "caption": "세로 및 가로 영상을 알맞은 영역에 놓으면서 8개 화면을 모두 표시합니다."
+        }
+      ],
+      "featuresHeading": "스마트 레이아웃이 유용한 상황",
+      "featuresIntro": "방향과 화면 비율이 섞인 영상에 특히 유용합니다. 전체 구성을 앱에 맡긴 다음 필요한 영상만 세부 조정하세요.",
+      "features": [
+        {
+          "title": "세로 및 가로 영상 함께 배치하기",
+          "description": "여행, 운동, 모니터링, 멀티 카메라 영상은 방향이 서로 다른 경우가 많습니다. 좁은 영상과 넓은 영상을 더 잘 맞는 영역에 배치합니다."
+        },
+        {
+          "title": "효율적인 여러 후보 중 선택하기",
+          "description": "한 가지 답만 제시하지 않습니다. 세로, 가로, 여러 영역 조합을 비교해 스마트폰, 태블릿 또는 외부 디스플레이에 맞출 수 있습니다."
+        },
+        {
+          "title": "프리셋으로 크기와 위치 더 조정하기",
+          "description": "특정 영상을 강조하려면 비슷한 프리셋으로 전환한 뒤 노란 구분선을 움직이거나 콘텐츠 위치를 바꾸세요."
+        }
+      ],
+      "featureLink": "크기와 위치 조정 가이드 보기",
+      "faq": [
+        {
+          "question": "스마트 레이아웃은 동영상을 몇 개까지 배치할 수 있나요?",
+          "answer": "Split Screen Player 레이아웃은 최대 36개 영역을 지원합니다. 동시에 원활하게 재생되는 영상 수는 기기 성능, 해상도, 코덱, 프레임 속도에 따라 달라집니다."
+        },
+        {
+          "question": "스마트 레이아웃이 원본 동영상을 변경하나요?",
+          "answer": "아니요. 현재 작업 공간에서 각 영상을 표시할 영역과 배치만 바꿉니다. 기기의 원본 파일을 자르거나 덮어쓰지 않습니다."
+        },
+        {
+          "question": "일부 영상에 검은 여백이나 잘림이 남는 이유는 무엇인가요?",
+          "answer": "영상 크기에 맞는 영역을 선택하지만 영역과 영상의 화면 비율이 완전히 같지는 않을 수 있습니다. {fit}과 {fill}를 전환하고 필요하면 확대 비율이나 위치를 조정하세요."
+        },
+        {
+          "question": "배치한 영상을 하나의 파일로 내보낼 수 있나요?",
+          "answer": "네. 레이아웃, 표시 범위, 재생 순서를 확인한 뒤 {export}에서 비율, 해상도, 오디오, 시간 범위를 설정해 하나의 파일로 렌더링할 수 있습니다."
+        }
+      ],
+      "closingTitle": "영상 방향에 맞는 자리를 자동으로 찾기",
+      "closingDescription": "{device}에 Split Screen Player를 다운로드하고 세로·가로 영상을 함께 선택해 {smartLayout}이 제안하는 레이아웃을 비교해 보세요."
+    },
+    "resize": {
+      "title": "{device}에서 분할 화면 동영상의 크기와 위치를 바꾸는 방법",
+      "seoTitle": "{device}에서 분할 화면 동영상 크기 조정 및 재배치하기",
+      "meta": "{device}에서 노란 구분선을 드래그해 분할 영역의 크기를 바꾸고 영상을 다른 영역으로 이동해 위치를 교환하는 방법을 알아보세요.",
+      "summary": "주 영상을 크게 하고 참고 영상을 줄이거나 두 영상의 위치를 바꿀 때 파일을 다시 선택할 필요가 없습니다. 프리셋의 구분선과 콘텐츠를 바로 움직일 수 있습니다.",
+      "answer": "{device}에서 영역이 두 개 이상인 프리셋을 선택하고 {adjustSize}으로 노란 구분선을 드래그하세요. 위치를 바꿀 때는 {adjustContent}을 열고 영상을 다른 영역으로 끌어 교환합니다.",
+      "steps": {
+        "setup": {
+          "title": "프리셋을 선택하고 두 버튼 추가하기",
+          "description": "{chooseLayout}에서 영역이 두 개 이상인 프리셋을 고른 뒤 {customizeToolbar}에서 {adjustContent}과 {adjustSize}을 추가합니다.",
+          "detail": "구분선 크기 조정은 프리셋에서만 사용할 수 있습니다. 사용자 지정 또는 스마트 생성 레이아웃, 최대화 화면, 비교 모드에서는 버튼이 비활성화될 수 있습니다.",
+          "caption": "{adjustContent}과 {adjustSize}을 하단 도구 모음에 추가합니다."
+        },
+        "resize": {
+          "title": "노란 구분선을 드래그해 영역 크기 바꾸기",
+          "description": "{adjustSize}을 누릅니다. 편집 모드에서 노란 가로선이나 세로선을 드래그해 중요한 영상에 더 많은 공간을 준 뒤 체크 표시를 누르세요.",
+          "detail": "변경 내용은 기본적으로 기기에 저장되어 같은 프리셋을 다시 열 때 복원됩니다. {generalSettings}에서 끌 수 있습니다.",
+          "caption": "크기 조정 모드에서 움직일 수 있는 경계가 노란 선으로 표시됩니다."
+        },
+        "thirdIOS": {
+          "title": "콘텐츠 위치 조정 모드 열기",
+          "description": "{adjustContent}을 누르면 콘텐츠가 있는 각 영역에 드래그 핸들이 나타납니다. 이동 중 영상 제어가 실수로 작동하지 않도록 재생도 일시 정지됩니다.",
+          "detail": "빈 영역으로 끌면 이동하고 콘텐츠가 있는 영역으로 끌면 두 콘텐츠가 서로 바뀝니다.",
+          "caption": "각 영역에 드래그 핸들이 나타나 영상을 다른 위치로 옮길 수 있습니다."
+        },
+        "thirdAndroid": {
+          "title": "새 영역 비율 확인하기",
+          "description": "드래그한 뒤 두 영역 모두 필요한 피사체를 보여 주는지 확인하세요. 구분선은 표시 비율만 바꾸며 원본 영상은 변경하지 않습니다.",
+          "detail": "빈 영역으로 끌면 이동하고 콘텐츠가 있는 영역으로 끌면 두 콘텐츠가 서로 바뀝니다.",
+          "caption": "노란 구분선을 옮기면 위쪽 영역이 작아지고 아래쪽 영역이 넓어집니다."
+        },
+        "fourthIOS": {
+          "title": "콘텐츠를 옮기고 편집 완료하기",
+          "description": "영역 중앙의 핸들을 누른 채 대상 영역으로 드래그합니다. 교환이 끝나면 체크 표시를 눌러 일반 재생 화면으로 돌아가세요.",
+          "detail": "완료 후에도 각 영상을 따로 제어할 수 있으며 그룹 재생, 일시 정지, 음소거도 계속 사용할 수 있습니다.",
+          "caption": "편집을 마치면 일반 재생 화면으로 돌아가고 현재 배치가 작업 공간에 유지됩니다."
+        },
+        "fourthAndroid": {
+          "title": "영상을 다른 영역으로 드래그하기",
+          "description": "{adjustContent}을 누르고 영상 중앙의 핸들을 대상 영역으로 드래그합니다. 콘텐츠가 있는 두 영역은 파일을 다시 열지 않아도 바로 서로 바뀝니다.",
+          "detail": "완료 후에도 각 영상을 따로 제어할 수 있으며 그룹 재생, 일시 정지, 음소거도 계속 사용할 수 있습니다.",
+          "caption": "콘텐츠 위치 조정 모드에서 영상을 다른 영역으로 끌어 두 위치를 교환합니다."
+        }
+      },
+      "featuresHeading": "크기와 위치로 중요한 장면 강조하기",
+      "featuresIntro": "영역 비율은 모양만 바꾸는 것이 아니라 비교, 발표, 외부 디스플레이에서 무엇이 더 잘 보이는지도 결정합니다.",
+      "features": [
+        {
+          "title": "주 화면을 강조하고 참고 화면은 유지하기",
+          "description": "주 영상을 크게 하면서 다른 각도, 설명 영상, 타이밍 참고 화면도 같은 화면에 남길 수 있습니다."
+        },
+        {
+          "title": "파일을 다시 열지 않고 위치 바꾸기",
+          "description": "콘텐츠 위치 조정은 영상이 들어갈 영역만 바꿉니다. 주 화면을 보기 편하거나 외부 출력에 적합한 위치로 빠르게 옮길 수 있습니다."
+        },
+        {
+          "title": "스마트 배치 후 프리셋으로 세부 조정하기",
+          "description": "방향이 섞인 영상은 먼저 {smartLayout}으로 구성을 찾아보세요. 구분선을 움직여야 한다면 비슷한 프리셋을 선택해 계속 조정할 수 있습니다."
+        }
+      ],
+      "featureLink": "스마트 레이아웃 가이드 보기",
+      "faq": [
+        {
+          "question": "{adjustSize} 버튼이 비활성화되는 이유는 무엇인가요?",
+          "answer": "사용자 지정 또는 스마트 생성 레이아웃, 단일 영역, 최대화된 화면, 오버레이·스와이프 비교가 일반적인 원인입니다. 먼저 여러 영역이 있는 프리셋으로 전환하세요."
+        },
+        {
+          "question": "조정한 영역 크기가 저장되나요?",
+          "answer": "기본적으로 현재 기기에 저장되고 같은 프리셋을 다시 열 때 복원됩니다. {generalSettings}에서 레이아웃 크기 기록을 끌 수 있습니다."
+        },
+        {
+          "question": "영역 크기를 바꾸면 원본 동영상이 잘리나요?",
+          "answer": "아니요. 작업 공간의 표시 영역만 바뀝니다. {fit}에서는 여백이 보일 수 있고 {fill}에서는 화면이 일부 잘릴 수 있지만 원본 파일은 그대로입니다."
+        },
+        {
+          "question": "원하는 크기와 위치의 영역을 자유롭게 만들 수 있나요?",
+          "answer": "자유로운 형태가 필요하면 사용자 지정 레이아웃을 사용할 수 있습니다. 노란 구분선은 기존 프리셋을 빠르게 수정하는 기능입니다."
+        }
+      ],
+      "closingTitle": "중요한 영상은 크게, 참고 영상은 그대로",
+      "closingDescription": "{device}에 Split Screen Player를 다운로드하고 두 영상을 열어 구분선 크기 조정과 위치 교환을 직접 사용해 보세요."
+    }
+  },
+  "fr": {
+    "deviceIOS": "iPhone ou iPad",
+    "deviceAndroid": "smartphone ou tablette Android",
+    "labels": {
+      "smartLayout": "Disposition intelligente",
+      "chooseLayout": "Choisir la mise en page",
+      "customizeToolbar": "Personnaliser les boutons du bas de l’accueil",
+      "adjustContent": "Réorganiser le contenu",
+      "adjustSize": "Ajuster la taille de la disposition",
+      "albumVideos": "Vidéos",
+      "files": "Fichiers",
+      "videoFilter": "Filtre Vidéo",
+      "recommended": "Recommandé",
+      "fit": "Adapter",
+      "fill": "Remplir",
+      "export": "Exporter la vidéo en écran partagé",
+      "generalSettings": "Réglages généraux"
+    },
+    "smart": {
+      "title": "Comment organiser automatiquement des vidéos portrait et paysage sur {device}",
+      "seoTitle": "Organiser automatiquement des vidéos portrait et paysage sur {device}",
+      "meta": "Sur {device}, Split Screen Player analyse les dimensions des vidéos portrait et paysage et propose une disposition partagée qui utilise efficacement l’écran.",
+      "summary": "Plus besoin d’essayer les dispositions une par une. Sélectionnez les vidéos à regarder ensemble : l’app propose plusieurs organisations adaptées à leurs formats et indique le taux d’utilisation de l’écran.",
+      "answer": "Sur {device}, ouvrez Split Screen Player, ajoutez {smartLayout} à la barre inférieure, puis choisissez des vidéos dans l’album ou les fichiers. Sélectionnez ensuite une proposition pour placer automatiquement les vidéos portrait et paysage selon leurs dimensions.",
+      "steps": [
+        {
+          "title": "Ajouter {smartLayout} à la barre inférieure",
+          "description": "Dans le menu Plus, ouvrez {customizeToolbar} et vérifiez que {smartLayout} est ajouté. Placez-le vers le début si vous l’utilisez souvent.",
+          "detail": "Le même écran permet aussi d’ajouter {chooseLayout}, {adjustContent} et {adjustSize}.",
+          "caption": "Ajoutez {smartLayout} à la barre inférieure pour l’ouvrir en un geste."
+        },
+        {
+          "title": "Choisir les vidéos à organiser ensemble",
+          "description": "Touchez {smartLayout}, puis sélectionnez {albumVideos} ou {files}. Si votre bibliothèque est volumineuse, activez d’abord {videoFilter} pour réduire la sélection.",
+          "detail": "Sélectionnez tout le groupe à regarder : les propositions dépendent du nombre de vidéos et de leur orientation.",
+          "caption": "Choisissez des vidéos de l’album ou des fichiers, avec un filtre vidéo facultatif."
+        },
+        {
+          "title": "Comparer les dispositions et l’utilisation de l’écran",
+          "description": "Examinez {recommended} et les autres propositions. Chacune précise l’orientation, le nombre de vidéos et l’utilisation de l’écran. Choisissez celle qui correspond à l’orientation de l’appareil.",
+          "detail": "L’utilisation de l’écran mesure l’efficacité du découpage, mais ne garantit pas l’absence de recadrage. Passez de {fit} à {fill} si nécessaire.",
+          "caption": "L’app analyse huit vidéos et propose trois dispositions avec leur utilisation de l’écran."
+        },
+        {
+          "title": "Appliquer la disposition et contrôler chaque vidéo",
+          "description": "Après votre choix, les vidéos s’ouvrent dans les zones prévues. Chacune conserve ses commandes de lecture, pause, son et affichage, tandis que la barre inférieure peut les contrôler en groupe.",
+          "detail": "Si le résultat ne convient pas, relancez {smartLayout} pour choisir une autre proposition ou utilisez {chooseLayout} pour décider manuellement.",
+          "caption": "Les vidéos portrait et paysage occupent des zones mieux adaptées, tout en gardant les huit images visibles."
+        }
+      ],
+      "featuresHeading": "Quand utiliser la disposition intelligente",
+      "featuresIntro": "Elle est particulièrement utile lorsque les orientations et les formats sont mélangés. Laissez l’app organiser l’ensemble, puis ajustez seulement les vidéos qui le nécessitent.",
+      "features": [
+        {
+          "title": "Mélanger des vidéos portrait et paysage",
+          "description": "Les vidéos de voyage, d’entraînement, de surveillance ou multicaméra ont souvent des orientations différentes. Les images étroites et larges sont placées dans des zones plus adaptées."
+        },
+        {
+          "title": "Choisir parmi plusieurs propositions efficaces",
+          "description": "Il n’y a pas qu’une seule réponse. Comparez les variantes portrait, paysage et les différents regroupements pour un téléphone, une tablette ou un écran externe."
+        },
+        {
+          "title": "Affiner ensuite la taille et la position",
+          "description": "Pour mettre une vidéo en valeur, passez à une disposition prédéfinie proche, puis déplacez les séparateurs jaunes ou échangez les contenus."
+        }
+      ],
+      "featureLink": "Voir le guide sur la taille et la position",
+      "faq": [
+        {
+          "question": "Combien de vidéos la disposition intelligente peut-elle organiser ?",
+          "answer": "Les dispositions de Split Screen Player acceptent jusqu’à 36 zones. La fluidité dépend aussi des performances de l’appareil, de la résolution, du codec et de la fréquence d’images."
+        },
+        {
+          "question": "La disposition intelligente modifie-t-elle les vidéos originales ?",
+          "answer": "Non. Elle change uniquement la zone et l’ordre d’affichage dans l’espace de travail actuel. Les fichiers d’origine ne sont ni coupés ni remplacés."
+        },
+        {
+          "question": "Pourquoi reste-t-il des bandes noires ou un recadrage ?",
+          "answer": "La disposition associe les zones aux dimensions des vidéos, mais les proportions ne sont pas toujours identiques. Alternez entre {fit} et {fill}, puis ajustez le zoom ou la position si nécessaire."
+        },
+        {
+          "question": "Puis-je exporter la disposition dans une seule vidéo ?",
+          "answer": "Oui. Vérifiez la disposition, le cadrage et l’ordre de lecture, puis ouvrez {export} pour définir le format, la résolution, le son et la plage temporelle."
+        }
+      ],
+      "closingTitle": "Une meilleure place pour chaque orientation",
+      "closingDescription": "Téléchargez Split Screen Player sur {device}, sélectionnez un mélange de vidéos portrait et paysage et comparez les propositions de {smartLayout}."
+    },
+    "resize": {
+      "title": "Comment redimensionner et réorganiser des vidéos en écran partagé sur {device}",
+      "seoTitle": "Redimensionner et réorganiser des vidéos en écran partagé sur {device}",
+      "meta": "Sur {device}, faites glisser les séparateurs jaunes pour redimensionner les zones, puis déplacez les vidéos d’une zone à l’autre sans reconstruire l’espace de travail.",
+      "summary": "Agrandissez la vidéo principale, réduisez une vue de référence ou échangez deux contenus sans les sélectionner à nouveau. Les séparateurs des dispositions prédéfinies et les contenus peuvent être déplacés directement.",
+      "answer": "Sur {device}, choisissez une disposition prédéfinie d’au moins deux zones. Utilisez {adjustSize} pour déplacer les séparateurs jaunes, puis {adjustContent} pour faire glisser une vidéo vers une autre zone et échanger leur position.",
+      "steps": {
+        "setup": {
+          "title": "Choisir une disposition et ajouter les deux raccourcis",
+          "description": "Dans {chooseLayout}, sélectionnez une disposition prédéfinie avec au moins deux zones. Ouvrez ensuite {customizeToolbar} et ajoutez {adjustContent} ainsi que {adjustSize}.",
+          "detail": "Le redimensionnement des séparateurs fonctionne avec les dispositions prédéfinies. Il peut être indisponible avec une disposition personnalisée ou intelligente, une vue agrandie ou un mode de comparaison.",
+          "caption": "Ajoutez {adjustContent} et {adjustSize} à la barre inférieure."
+        },
+        "resize": {
+          "title": "Faire glisser un séparateur jaune",
+          "description": "Touchez {adjustSize}. En mode édition, déplacez une ligne jaune horizontale ou verticale pour agrandir la vidéo importante, puis validez avec la coche.",
+          "detail": "Les dimensions sont enregistrées sur l’appareil par défaut et restaurées avec le même préréglage. Cette option peut être désactivée dans {generalSettings}.",
+          "caption": "Le mode de redimensionnement affiche en jaune chaque séparation réglable."
+        },
+        "thirdIOS": {
+          "title": "Ouvrir le mode de réorganisation du contenu",
+          "description": "Touchez {adjustContent}. Une poignée apparaît dans chaque zone occupée et la lecture se met en pause pour éviter de déclencher les commandes vidéo pendant le déplacement.",
+          "detail": "Déposez la vidéo dans une zone vide pour la déplacer, ou dans une zone occupée pour échanger les deux contenus.",
+          "caption": "Des poignées apparaissent dans les zones pour déplacer les vidéos vers une autre position."
+        },
+        "thirdAndroid": {
+          "title": "Vérifier les nouvelles proportions",
+          "description": "Après le déplacement, vérifiez que les deux zones montrent toujours le sujet souhaité. Le séparateur change uniquement l’affichage, jamais la vidéo d’origine.",
+          "detail": "Déposez la vidéo dans une zone vide pour la déplacer, ou dans une zone occupée pour échanger les deux contenus.",
+          "caption": "Après le déplacement du séparateur jaune, la zone du haut est réduite et celle du bas agrandie."
+        },
+        "fourthIOS": {
+          "title": "Déplacer le contenu et terminer",
+          "description": "Maintenez la poignée au centre d’une zone et faites-la glisser vers la destination. Une fois l’échange effectué, touchez la coche pour revenir à la lecture normale.",
+          "detail": "Chaque vidéo conserve ensuite ses propres commandes, ainsi que les actions de lecture, pause et son pour le groupe.",
+          "caption": "Terminez l’édition pour revenir à la lecture normale en conservant l’organisation actuelle."
+        },
+        "fourthAndroid": {
+          "title": "Faire glisser une vidéo vers une autre zone",
+          "description": "Touchez {adjustContent}, maintenez la poignée au centre de la vidéo et faites-la glisser vers la destination. Deux zones occupées échangent immédiatement leur contenu sans rouvrir les fichiers.",
+          "detail": "Chaque vidéo conserve ensuite ses propres commandes, ainsi que les actions de lecture, pause et son pour le groupe.",
+          "caption": "En mode de réorganisation, faites glisser une vidéo vers une autre zone pour échanger les positions."
+        }
+      },
+      "featuresHeading": "Mettre l’accent grâce à la taille et à la position",
+      "featuresIntro": "Les proportions ne changent pas seulement l’apparence : elles déterminent aussi ce qui reste lisible lors d’une comparaison, d’une présentation ou d’une diffusion sur écran externe.",
+      "features": [
+        {
+          "title": "Agrandir la vue principale sans perdre la référence",
+          "description": "Donnez plus de place à la vidéo principale tout en gardant visibles un autre angle, une démonstration ou un repère temporel."
+        },
+        {
+          "title": "Échanger les positions sans rouvrir les fichiers",
+          "description": "La réorganisation change uniquement la zone de destination. Déplacez rapidement la vue principale vers une position plus confortable ou mieux adaptée à un écran externe."
+        },
+        {
+          "title": "Commencer automatiquement, puis affiner",
+          "description": "Avec des orientations mélangées, utilisez d’abord {smartLayout} pour explorer les possibilités. Choisissez ensuite un préréglage proche si vous avez besoin de séparateurs réglables."
+        }
+      ],
+      "featureLink": "Voir le guide de la disposition intelligente",
+      "faq": [
+        {
+          "question": "Pourquoi le bouton {adjustSize} est-il désactivé ?",
+          "answer": "Les causes courantes sont une disposition personnalisée ou intelligente, une seule zone, une vue agrandie ou un mode de comparaison par superposition ou balayage. Passez d’abord à un préréglage comportant plusieurs zones."
+        },
+        {
+          "question": "La taille modifiée est-elle enregistrée ?",
+          "answer": "Oui, par défaut sur l’appareil actuel. Elle est restaurée lorsque vous ouvrez à nouveau le même préréglage. L’enregistrement peut être désactivé dans {generalSettings}."
+        },
+        {
+          "question": "Le redimensionnement recadre-t-il le fichier vidéo d’origine ?",
+          "answer": "Non. Seule la zone d’affichage change. {fit} peut faire apparaître des bandes et {fill} peut recadrer l’image affichée, mais le fichier d’origine reste intact."
+        },
+        {
+          "question": "Puis-je dessiner des zones entièrement personnalisées ?",
+          "answer": "Oui, une disposition personnalisée permet une géométrie plus libre. Les séparateurs jaunes servent plutôt à modifier rapidement un préréglage existant."
+        }
+      ],
+      "closingTitle": "Plus de place pour l’essentiel, sans perdre les références",
+      "closingDescription": "Téléchargez Split Screen Player sur {device}, ouvrez deux vidéos et essayez de redimensionner puis d’échanger leurs zones."
+    }
+  },
+  "de": {
+    "deviceIOS": "iPhone oder iPad",
+    "deviceAndroid": "Android-Smartphone oder -Tablet",
+    "labels": {
+      "smartLayout": "Intelligentes Layout",
+      "chooseLayout": "Layout auswählen",
+      "customizeToolbar": "Untere Startseiten-Schaltflächen anpassen",
+      "adjustContent": "Inhalte neu anordnen",
+      "adjustSize": "Layoutgröße anpassen",
+      "albumVideos": "Videos",
+      "files": "Dateien",
+      "videoFilter": "Videofilter",
+      "recommended": "Empfohlen",
+      "fit": "Einpassen",
+      "fill": "Ausfüllen",
+      "export": "Split-Screen-Video exportieren",
+      "generalSettings": "Allgemeine Einstellungen"
+    },
+    "smart": {
+      "title": "Videos im Hoch- und Querformat auf {device} automatisch anordnen",
+      "seoTitle": "Hoch- und Querformat-Videos auf {device} automatisch anordnen",
+      "meta": "Split Screen Player analysiert auf {device} die Abmessungen von Hoch- und Querformat-Videos und schlägt effiziente Split-Screen-Layouts vor.",
+      "summary": "Layouts müssen nicht einzeln ausprobiert werden. Nach der Videoauswahl schlägt die App mehrere Anordnungen passend zu den Seitenverhältnissen vor und zeigt jeweils die Bildschirmflächennutzung an.",
+      "answer": "Öffnen Sie Split Screen Player auf {device}, fügen Sie {smartLayout} zur unteren Leiste hinzu und wählen Sie Videos aus dem Album oder aus Dateien. Wählen Sie anschließend einen Vorschlag, damit Hoch- und Querformat-Videos automatisch passend angeordnet werden.",
+      "steps": [
+        {
+          "title": "{smartLayout} zur unteren Leiste hinzufügen",
+          "description": "Öffnen Sie im Mehr-Menü {customizeToolbar} und prüfen Sie, ob {smartLayout} hinzugefügt wurde. Verschieben Sie die Funktion nach vorn, wenn Sie sie häufig nutzen.",
+          "detail": "Auf derselben Seite lassen sich auch {chooseLayout}, {adjustContent} und {adjustSize} hinzufügen.",
+          "caption": "Fügen Sie {smartLayout} zur unteren Leiste hinzu, damit die Funktion immer griffbereit ist."
+        },
+        {
+          "title": "Videos für die gemeinsame Anordnung auswählen",
+          "description": "Tippen Sie auf {smartLayout} und wählen Sie {albumVideos} oder {files}. Bei einer großen Mediathek können Sie vorher {videoFilter} aktivieren.",
+          "detail": "Wählen Sie alle Videos für diese Sitzung gemeinsam aus, da die Vorschläge von Anzahl und Ausrichtung abhängen.",
+          "caption": "Wählen Sie Albumvideos oder Dateien aus und verwenden Sie bei Bedarf den Videofilter."
+        },
+        {
+          "title": "Vorschläge und Bildschirmnutzung vergleichen",
+          "description": "Vergleichen Sie {recommended} mit den Alternativen. Jeder Vorschlag zeigt Ausrichtung, Videoanzahl und Bildschirmflächennutzung. Wählen Sie die Variante passend zur Geräteausrichtung.",
+          "detail": "Die Bildschirmflächennutzung bewertet die effiziente Aufteilung. Sie garantiert nicht, dass jedes Video ohne Beschnitt erscheint. Wechseln Sie bei Bedarf zwischen {fit} und {fill}.",
+          "caption": "Die App analysiert acht Videoabmessungen und zeigt drei Vorschläge mit ihrer Bildschirmflächennutzung."
+        },
+        {
+          "title": "Layout anwenden und Videos einzeln steuern",
+          "description": "Nach der Auswahl werden die Videos in den vorgesehenen Bereichen geöffnet. Wiedergabe, Pause, Ton und Anzeige bleiben pro Video steuerbar; die untere Leiste steuert sie bei Bedarf gemeinsam.",
+          "detail": "Wenn das Ergebnis nicht passt, starten Sie {smartLayout} erneut oder legen Sie die Anordnung mit {chooseLayout} manuell fest.",
+          "caption": "Hoch- und Querformat-Videos werden passenden Bereichen zugeordnet, während alle acht sichtbar bleiben."
+        }
+      ],
+      "featuresHeading": "Wann das intelligente Layout besonders nützlich ist",
+      "featuresIntro": "Es eignet sich vor allem für gemischte Ausrichtungen und Seitenverhältnisse. Lassen Sie zuerst die Gesamtaufteilung berechnen und passen Sie anschließend einzelne Videos an.",
+      "features": [
+        {
+          "title": "Hoch- und Querformat kombinieren",
+          "description": "Reise-, Trainings-, Überwachungs- und Multikamera-Aufnahmen haben oft unterschiedliche Ausrichtungen. Schmale und breite Bilder landen in besser passenden Bereichen."
+        },
+        {
+          "title": "Zwischen mehreren effizienten Varianten wählen",
+          "description": "Es gibt nicht nur eine Lösung. Vergleichen Sie Hochformat, Querformat und verschiedene Bereichsgruppen für Smartphone, Tablet oder externen Bildschirm."
+        },
+        {
+          "title": "Größe und Position anschließend fein abstimmen",
+          "description": "Um ein Video hervorzuheben, wechseln Sie zu einem ähnlichen Preset und verschieben die gelben Trennlinien oder tauschen die Inhalte."
+        }
+      ],
+      "featureLink": "Anleitung zu Größe und Position öffnen",
+      "faq": [
+        {
+          "question": "Wie viele Videos kann das intelligente Layout anordnen?",
+          "answer": "Split Screen Player unterstützt Layouts mit bis zu 36 Bereichen. Eine flüssige gleichzeitige Wiedergabe hängt außerdem von Geräteleistung, Auflösung, Codec und Bildrate ab."
+        },
+        {
+          "question": "Verändert das intelligente Layout die Originalvideos?",
+          "answer": "Nein. Es ändert nur Bereich und Position im aktuellen Arbeitsbereich. Die Originaldateien auf dem Gerät werden weder zugeschnitten noch überschrieben."
+        },
+        {
+          "question": "Warum bleiben schwarze Balken oder ein sichtbarer Beschnitt?",
+          "answer": "Die Bereiche werden an die Videoabmessungen angepasst, stimmen aber nicht immer exakt mit dem Seitenverhältnis überein. Wechseln Sie zwischen {fit} und {fill} und korrigieren Sie bei Bedarf Zoom oder Position."
+        },
+        {
+          "question": "Kann die Anordnung als eine Videodatei exportiert werden?",
+          "answer": "Ja. Prüfen Sie Layout, Ausschnitt und Wiedergabereihenfolge. Öffnen Sie dann {export}, um Format, Auflösung, Ton und Zeitbereich festzulegen."
+        }
+      ],
+      "closingTitle": "Für jede Ausrichtung den besseren Platz finden",
+      "closingDescription": "Laden Sie Split Screen Player auf {device}, wählen Sie Hoch- und Querformat-Videos gemeinsam aus und vergleichen Sie die Vorschläge von {smartLayout}."
+    },
+    "resize": {
+      "title": "Split-Screen-Videos auf {device} vergrößern und neu anordnen",
+      "seoTitle": "Split-Screen-Videos auf {device} vergrößern und neu anordnen",
+      "meta": "Verschieben Sie auf {device} gelbe Trennlinien, um Split-Screen-Bereiche zu vergrößern, und tauschen Sie Videos zwischen Bereichen aus, ohne den Arbeitsbereich neu aufzubauen.",
+      "summary": "Vergrößern Sie das Hauptvideo, verkleinern Sie eine Referenz oder tauschen Sie zwei Videos, ohne die Quellen erneut auszuwählen. Trennlinien und Inhalte von Preset-Layouts lassen sich direkt verschieben.",
+      "answer": "Wählen Sie auf {device} ein Preset mit mindestens zwei Bereichen. Verschieben Sie mit {adjustSize} die gelben Trennlinien und ziehen Sie anschließend über {adjustContent} ein Video auf einen anderen Bereich, um die Positionen zu tauschen.",
+      "steps": {
+        "setup": {
+          "title": "Preset wählen und beide Kurzbefehle hinzufügen",
+          "description": "Wählen Sie unter {chooseLayout} ein Preset mit mindestens zwei Bereichen. Öffnen Sie danach {customizeToolbar} und fügen Sie {adjustContent} sowie {adjustSize} hinzu.",
+          "detail": "Trennlinien lassen sich nur bei Preset-Layouts anpassen. Bei benutzerdefinierten oder intelligent erzeugten Layouts, maximierten Ansichten und Vergleichsmodi kann die Funktion deaktiviert sein.",
+          "caption": "Fügen Sie {adjustContent} und {adjustSize} zur unteren Leiste hinzu."
+        },
+        "resize": {
+          "title": "Gelbe Trennlinie verschieben",
+          "description": "Tippen Sie auf {adjustSize}. Ziehen Sie im Bearbeitungsmodus eine gelbe horizontale oder vertikale Linie, damit das wichtige Video mehr Platz erhält, und bestätigen Sie mit dem Häkchen.",
+          "detail": "Die Größen werden standardmäßig auf dem Gerät gespeichert und beim selben Preset wiederhergestellt. Dies lässt sich unter {generalSettings} deaktivieren.",
+          "caption": "Im Größenmodus kennzeichnen gelbe Linien alle verschiebbaren Grenzen."
+        },
+        "thirdIOS": {
+          "title": "Modus zum Neuanordnen der Inhalte öffnen",
+          "description": "Tippen Sie auf {adjustContent}. In jedem belegten Bereich erscheint ein Ziehpunkt; die Wiedergabe pausiert, damit beim Verschieben keine Videosteuerung ausgelöst wird.",
+          "detail": "Ziehen Sie in einen leeren Bereich, um den Inhalt zu verschieben, oder auf einen belegten Bereich, um beide Inhalte zu tauschen.",
+          "caption": "Ziehpunkte erscheinen in den Bereichen, damit Videos an eine andere Position verschoben werden können."
+        },
+        "thirdAndroid": {
+          "title": "Neue Bereichsgrößen prüfen",
+          "description": "Prüfen Sie nach dem Verschieben, ob in beiden Bereichen das gewünschte Motiv sichtbar bleibt. Die Trennlinie ändert nur die Anzeige, nicht die Originalvideos.",
+          "detail": "Ziehen Sie in einen leeren Bereich, um den Inhalt zu verschieben, oder auf einen belegten Bereich, um beide Inhalte zu tauschen.",
+          "caption": "Nach dem Verschieben der gelben Linie ist der obere Bereich kleiner und der untere größer."
+        },
+        "fourthIOS": {
+          "title": "Inhalt verschieben und Bearbeitung beenden",
+          "description": "Halten Sie den Ziehpunkt in der Mitte eines Bereichs und ziehen Sie ihn zum Ziel. Tippen Sie nach dem Tausch auf das Häkchen, um zur normalen Wiedergabe zurückzukehren.",
+          "detail": "Danach bleiben die Einzelsteuerung sowie gemeinsame Wiedergabe, Pause und Stummschaltung verfügbar.",
+          "caption": "Beenden Sie die Bearbeitung, um mit der aktuellen Anordnung zur normalen Wiedergabe zurückzukehren."
+        },
+        "fourthAndroid": {
+          "title": "Video in einen anderen Bereich ziehen",
+          "description": "Tippen Sie auf {adjustContent}, halten Sie den Ziehpunkt in der Videomitte und ziehen Sie ihn zum Ziel. Zwei belegte Bereiche tauschen sofort ihre Inhalte, ohne Dateien erneut zu öffnen.",
+          "detail": "Danach bleiben die Einzelsteuerung sowie gemeinsame Wiedergabe, Pause und Stummschaltung verfügbar.",
+          "caption": "Ziehen Sie im Modus zur Inhaltsanordnung ein Video auf einen anderen Bereich, um beide Positionen zu tauschen."
+        }
+      },
+      "featuresHeading": "Mit Größe und Position den Schwerpunkt setzen",
+      "featuresIntro": "Bereichsgrößen verändern nicht nur das Erscheinungsbild. Sie bestimmen auch, was beim Vergleichen, Präsentieren und auf einem externen Bildschirm gut erkennbar bleibt.",
+      "features": [
+        {
+          "title": "Hauptansicht betonen und Referenz behalten",
+          "description": "Vergrößern Sie das Hauptvideo, während ein zweiter Winkel, eine Anleitung oder eine zeitliche Referenz sichtbar bleibt."
+        },
+        {
+          "title": "Positionen ohne erneutes Öffnen tauschen",
+          "description": "Die Inhaltsanordnung ändert nur den Zielbereich. So lässt sich die Hauptansicht schnell an eine angenehmere oder für die Ausgabe bessere Position verschieben."
+        },
+        {
+          "title": "Intelligent beginnen und mit einem Preset verfeinern",
+          "description": "Nutzen Sie bei gemischten Ausrichtungen zuerst {smartLayout}. Wählen Sie anschließend ein ähnliches Preset, wenn Sie verschiebbare Trennlinien benötigen."
+        }
+      ],
+      "featureLink": "Anleitung zum intelligenten Layout öffnen",
+      "faq": [
+        {
+          "question": "Warum ist {adjustSize} deaktiviert?",
+          "answer": "Häufige Gründe sind ein benutzerdefiniertes oder intelligent erzeugtes Layout, nur ein Bereich, eine maximierte Ansicht oder ein Überlagerungs-/Wischvergleich. Wechseln Sie zuerst zu einem Preset mit mehreren Bereichen."
+        },
+        {
+          "question": "Werden die geänderten Größen gespeichert?",
+          "answer": "Standardmäßig werden sie auf dem aktuellen Gerät gespeichert und beim erneuten Öffnen desselben Presets wiederhergestellt. Die Aufzeichnung kann unter {generalSettings} deaktiviert werden."
+        },
+        {
+          "question": "Beschneidet die Größenänderung das Originalvideo?",
+          "answer": "Nein. Nur der Anzeigebereich im Arbeitsbereich ändert sich. {fit} kann Balken zeigen und {fill} kann die Anzeige beschneiden; die Originaldatei bleibt unverändert."
+        },
+        {
+          "question": "Kann ich Bereiche völlig frei zeichnen?",
+          "answer": "Ja, ein benutzerdefiniertes Layout ermöglicht freie Bereichsformen. Die gelben Trennlinien sind die schnellere Lösung, um ein vorhandenes Preset anzupassen."
+        }
+      ],
+      "closingTitle": "Mehr Platz für das Wichtige, Referenzen weiter im Blick",
+      "closingDescription": "Laden Sie Split Screen Player auf {device}, öffnen Sie zwei Videos und probieren Sie Größenänderung und Positionstausch aus."
+    }
+  },
+  "es": {
+    "deviceIOS": "iPhone o iPad",
+    "deviceAndroid": "teléfono o tableta Android",
+    "labels": {
+      "smartLayout": "Diseño inteligente",
+      "chooseLayout": "Seleccionar diseño",
+      "customizeToolbar": "Personalizar botones inferiores de inicio",
+      "adjustContent": "Reorganizar contenido",
+      "adjustSize": "Ajustar tamaño del diseño",
+      "albumVideos": "Vídeos",
+      "files": "Archivos",
+      "videoFilter": "Filtro de video",
+      "recommended": "Recomendado",
+      "fit": "Ajustar",
+      "fill": "Rellenar",
+      "export": "Exportar vídeo en pantalla dividida",
+      "generalSettings": "Ajustes generales"
+    },
+    "smart": {
+      "title": "Cómo organizar automáticamente vídeos verticales y horizontales en {device}",
+      "seoTitle": "Organizar vídeos verticales y horizontales automáticamente en {device}",
+      "meta": "En {device}, Split Screen Player analiza el tamaño de los vídeos verticales y horizontales y recomienda diseños de pantalla dividida que aprovechan mejor el espacio.",
+      "summary": "No hace falta probar cada diseño. Selecciona los vídeos que quieras ver juntos y la app propondrá varias distribuciones según su relación de aspecto, junto con el aprovechamiento de pantalla de cada una.",
+      "answer": "Abre Split Screen Player en {device}, añade {smartLayout} a la barra inferior y elige vídeos del álbum o de tus archivos. Después selecciona una propuesta para colocar automáticamente los vídeos verticales y horizontales según sus dimensiones.",
+      "steps": [
+        {
+          "title": "Añadir {smartLayout} a la barra inferior",
+          "description": "Abre {customizeToolbar} desde el menú Más y comprueba que {smartLayout} esté añadido. Muévelo hacia el principio si lo usas a menudo.",
+          "detail": "En la misma pantalla también puedes añadir {chooseLayout}, {adjustContent} y {adjustSize}.",
+          "caption": "Añade {smartLayout} a la barra inferior para abrirlo con un toque."
+        },
+        {
+          "title": "Elegir los vídeos que se organizarán juntos",
+          "description": "Toca {smartLayout} y elige {albumVideos} o {files}. Si tu biblioteca es grande, activa antes {videoFilter} para reducir la selección.",
+          "detail": "Selecciona todo el grupo de una vez: las propuestas dependen tanto del número de vídeos como de su orientación.",
+          "caption": "Elige vídeos del álbum o archivos y, si quieres, utiliza el filtro de vídeo."
+        },
+        {
+          "title": "Comparar diseños y aprovechamiento de pantalla",
+          "description": "Compara {recommended} con las demás opciones. Cada propuesta muestra orientación, número de vídeos y aprovechamiento de pantalla. Elige la que encaje con la orientación del dispositivo.",
+          "detail": "El aprovechamiento de pantalla mide la eficiencia de las regiones, pero no garantiza que ningún vídeo se recorte. Cambia entre {fit} y {fill} cuando sea necesario.",
+          "caption": "La app analiza ocho vídeos y propone tres diseños con su porcentaje de aprovechamiento."
+        },
+        {
+          "title": "Aplicar el diseño y controlar cada vídeo",
+          "description": "Al elegir una propuesta, los vídeos se abren en sus regiones. Cada uno mantiene sus controles de reproducción, pausa, sonido y visualización, y la barra inferior permite controlarlos en grupo.",
+          "detail": "Si el resultado no te convence, vuelve a ejecutar {smartLayout} o utiliza {chooseLayout} para elegir manualmente.",
+          "caption": "Los vídeos verticales y horizontales ocupan regiones más adecuadas mientras los ocho permanecen visibles."
+        }
+      ],
+      "featuresHeading": "Cuándo resulta más útil el diseño inteligente",
+      "featuresIntro": "Es especialmente práctico cuando se mezclan orientaciones y relaciones de aspecto. Deja que la app resuelva primero la distribución general y ajusta después los vídeos concretos.",
+      "features": [
+        {
+          "title": "Combinar vídeos verticales y horizontales",
+          "description": "Los vídeos de viajes, entrenamientos, vigilancia o varias cámaras suelen mezclar orientaciones. Las imágenes estrechas y anchas se colocan en regiones más adecuadas."
+        },
+        {
+          "title": "Elegir entre varias opciones eficientes",
+          "description": "No hay una única respuesta. Compara diseños verticales, horizontales y distintas agrupaciones para el teléfono, la tableta o una pantalla externa."
+        },
+        {
+          "title": "Afinar después el tamaño y la posición",
+          "description": "Para destacar un vídeo, cambia a un diseño predefinido parecido y mueve las líneas amarillas o intercambia el contenido de las regiones."
+        }
+      ],
+      "featureLink": "Ver la guía de tamaño y posición",
+      "faq": [
+        {
+          "question": "¿Cuántos vídeos puede organizar el diseño inteligente?",
+          "answer": "Los diseños de Split Screen Player admiten hasta 36 regiones. La reproducción fluida también depende del rendimiento del dispositivo, la resolución, el códec y la velocidad de fotogramas."
+        },
+        {
+          "question": "¿El diseño inteligente modifica los vídeos originales?",
+          "answer": "No. Solo cambia la región y la posición de cada vídeo en el espacio de trabajo actual. Los archivos originales del dispositivo no se recortan ni se sobrescriben."
+        },
+        {
+          "question": "¿Por qué siguen apareciendo barras negras o recortes?",
+          "answer": "Las regiones se adaptan a las dimensiones de los vídeos, pero sus proporciones no siempre coinciden exactamente. Cambia entre {fit} y {fill}, y ajusta el zoom o la posición si hace falta."
+        },
+        {
+          "question": "¿Puedo exportar la distribución como un solo vídeo?",
+          "answer": "Sí. Revisa el diseño, el encuadre y el orden de reproducción. Después abre {export} para configurar formato, resolución, audio e intervalo de tiempo."
+        }
+      ],
+      "closingTitle": "Un lugar mejor para cada orientación",
+      "closingDescription": "Descarga Split Screen Player en {device}, selecciona vídeos verticales y horizontales y compara las propuestas de {smartLayout}."
+    },
+    "resize": {
+      "title": "Cómo cambiar el tamaño y la posición de vídeos en pantalla dividida en {device}",
+      "seoTitle": "Cambiar tamaño y reorganizar vídeos en pantalla dividida en {device}",
+      "meta": "En {device}, arrastra las líneas amarillas para cambiar el tamaño de las regiones y mueve los vídeos entre ellas sin reconstruir el espacio de trabajo.",
+      "summary": "Amplía el vídeo principal, reduce una referencia o intercambia dos vídeos sin volver a seleccionar los archivos. Los separadores y el contenido de los diseños predefinidos se pueden mover directamente.",
+      "answer": "En {device}, elige un diseño predefinido con al menos dos regiones. Usa {adjustSize} para arrastrar las líneas amarillas y después {adjustContent} para mover un vídeo a otra región e intercambiar posiciones.",
+      "steps": {
+        "setup": {
+          "title": "Elegir un diseño y añadir los dos accesos directos",
+          "description": "En {chooseLayout}, selecciona un diseño predefinido con al menos dos regiones. Después abre {customizeToolbar} y añade {adjustContent} y {adjustSize}.",
+          "detail": "El ajuste mediante separadores funciona con diseños predefinidos. Puede estar desactivado en diseños personalizados o inteligentes, vistas maximizadas y modos de comparación.",
+          "caption": "Añade {adjustContent} y {adjustSize} a la barra inferior."
+        },
+        "resize": {
+          "title": "Arrastrar una línea amarilla para cambiar el tamaño",
+          "description": "Toca {adjustSize}. En el modo de edición, mueve una línea amarilla horizontal o vertical para dar más espacio al vídeo importante y confirma con la marca de verificación.",
+          "detail": "Los tamaños se guardan en el dispositivo de forma predeterminada y se restauran al abrir el mismo diseño. Puedes desactivarlo en {generalSettings}.",
+          "caption": "El modo de tamaño marca con líneas amarillas todos los límites ajustables."
+        },
+        "thirdIOS": {
+          "title": "Abrir el modo para reorganizar contenido",
+          "description": "Toca {adjustContent}. Aparecerá un control de arrastre en cada región ocupada y la reproducción se pausará para evitar activar controles mientras mueves el contenido.",
+          "detail": "Arrastra a una región vacía para mover el vídeo o a una región ocupada para intercambiar ambos contenidos.",
+          "caption": "Cada región muestra un control para mover el vídeo a otra posición."
+        },
+        "thirdAndroid": {
+          "title": "Comprobar las nuevas proporciones",
+          "description": "Después de mover la línea, comprueba que ambas regiones sigan mostrando lo que necesitas. El separador solo cambia la visualización, no los vídeos originales.",
+          "detail": "Arrastra a una región vacía para mover el vídeo o a una región ocupada para intercambiar ambos contenidos.",
+          "caption": "Al mover la línea amarilla, la región superior se reduce y la inferior gana espacio."
+        },
+        "fourthIOS": {
+          "title": "Mover el contenido y terminar",
+          "description": "Mantén pulsado el control central de una región y arrástralo al destino. Cuando termine el intercambio, toca la marca de verificación para volver a la reproducción normal.",
+          "detail": "Cada vídeo conserva sus controles y siguen disponibles la reproducción, la pausa y el silencio en grupo.",
+          "caption": "Finaliza la edición para volver a la reproducción con la distribución actual."
+        },
+        "fourthAndroid": {
+          "title": "Arrastrar un vídeo a otra región",
+          "description": "Toca {adjustContent}, mantén pulsado el control central del vídeo y arrástralo al destino. Dos regiones ocupadas intercambian su contenido sin volver a abrir los archivos.",
+          "detail": "Cada vídeo conserva sus controles y siguen disponibles la reproducción, la pausa y el silencio en grupo.",
+          "caption": "En el modo de reorganización, arrastra un vídeo a otra región para intercambiar posiciones."
+        }
+      },
+      "featuresHeading": "Usar el tamaño y la posición para destacar lo importante",
+      "featuresIntro": "Las proporciones no solo cambian la apariencia: también determinan qué se ve mejor al comparar, presentar o usar una pantalla externa.",
+      "features": [
+        {
+          "title": "Destacar la vista principal y mantener la referencia",
+          "description": "Amplía el vídeo principal mientras conservas visible otro ángulo, una explicación o una referencia de tiempo."
+        },
+        {
+          "title": "Intercambiar posiciones sin reabrir archivos",
+          "description": "La reorganización solo cambia la región de destino. Mueve rápidamente la vista principal a un lugar más cómodo o más adecuado para una pantalla externa."
+        },
+        {
+          "title": "Empezar de forma inteligente y afinar con un diseño",
+          "description": "Si las orientaciones están mezcladas, usa primero {smartLayout}. Después elige un diseño predefinido parecido cuando necesites separadores ajustables."
+        }
+      ],
+      "featureLink": "Ver la guía de diseño inteligente",
+      "faq": [
+        {
+          "question": "¿Por qué está desactivado {adjustSize}?",
+          "answer": "Las causas habituales son un diseño personalizado o inteligente, una sola región, una vista maximizada o una comparación superpuesta/deslizante. Cambia primero a un diseño predefinido con varias regiones."
+        },
+        {
+          "question": "¿Se guardan los tamaños modificados?",
+          "answer": "Sí, de forma predeterminada en el dispositivo actual. Se restauran cuando vuelves a abrir el mismo diseño. Puedes desactivar este registro en {generalSettings}."
+        },
+        {
+          "question": "¿Cambiar el tamaño recorta el archivo original?",
+          "answer": "No. Solo cambia la región de visualización. {fit} puede mostrar barras y {fill} puede recortar la imagen visible, pero el archivo original no se modifica."
+        },
+        {
+          "question": "¿Puedo crear regiones con cualquier tamaño y posición?",
+          "answer": "Sí, un diseño personalizado permite formas más libres. Las líneas amarillas son la opción rápida para modificar un diseño predefinido existente."
+        }
+      ],
+      "closingTitle": "Más espacio para lo importante, sin perder la referencia",
+      "closingDescription": "Descarga Split Screen Player en {device}, abre dos vídeos y prueba a cambiar el tamaño e intercambiar sus regiones."
+    }
+  },
+  "pt-BR": {
+    "deviceIOS": "iPhone ou iPad",
+    "deviceAndroid": "celular ou tablet Android",
+    "labels": {
+      "smartLayout": "Layout inteligente",
+      "chooseLayout": "Selecionar Layout",
+      "customizeToolbar": "Personalizar botões inferiores da tela inicial",
+      "adjustContent": "Reorganizar conteúdo",
+      "adjustSize": "Ajustar tamanho do layout",
+      "albumVideos": "Vídeos",
+      "files": "Arquivos",
+      "videoFilter": "Filtro de Vídeo",
+      "recommended": "Recomendado",
+      "fit": "Ajustar",
+      "fill": "Preencher",
+      "export": "Exportar vídeo em tela dividida",
+      "generalSettings": "Configurações Gerais"
+    },
+    "smart": {
+      "title": "Como organizar automaticamente vídeos verticais e horizontais no {device}",
+      "seoTitle": "Organizar vídeos verticais e horizontais automaticamente no {device}",
+      "meta": "No {device}, o Split Screen Player analisa as dimensões de vídeos verticais e horizontais e recomenda layouts de tela dividida que aproveitam melhor o espaço.",
+      "summary": "Não é preciso testar cada layout. Selecione os vídeos que deseja assistir juntos e o app sugerirá várias organizações com base na proporção de cada um, indicando o aproveitamento da tela.",
+      "answer": "Abra o Split Screen Player no {device}, adicione {smartLayout} à barra inferior e escolha vídeos do álbum ou dos arquivos. Em seguida, selecione uma sugestão para posicionar automaticamente os vídeos verticais e horizontais conforme suas dimensões.",
+      "steps": [
+        {
+          "title": "Adicionar {smartLayout} à barra inferior",
+          "description": "No menu Mais, abra {customizeToolbar} e confirme que {smartLayout} foi adicionado. Mova o botão para o início se você usa esse recurso com frequência.",
+          "detail": "Na mesma tela também é possível adicionar {chooseLayout}, {adjustContent} e {adjustSize}.",
+          "caption": "Adicione {smartLayout} à barra inferior para abrir o recurso com um toque."
+        },
+        {
+          "title": "Escolher os vídeos para organizar juntos",
+          "description": "Toque em {smartLayout} e escolha {albumVideos} ou {files}. Se a biblioteca for grande, ative antes {videoFilter} para reduzir a seleção.",
+          "detail": "Selecione todo o grupo de uma vez, pois as sugestões dependem da quantidade e da orientação dos vídeos.",
+          "caption": "Escolha vídeos do álbum ou arquivos e use o filtro de vídeo se precisar."
+        },
+        {
+          "title": "Comparar layouts e aproveitamento da tela",
+          "description": "Compare {recommended} com as outras opções. Cada sugestão mostra a orientação, a quantidade de vídeos e o aproveitamento da tela. Escolha a que combina com a orientação do aparelho.",
+          "detail": "O aproveitamento mede a eficiência das regiões, mas não garante que nenhum vídeo seja cortado. Alterne entre {fit} e {fill} quando necessário.",
+          "caption": "O app analisa oito vídeos e sugere três layouts com o aproveitamento de tela de cada um."
+        },
+        {
+          "title": "Aplicar o layout e controlar cada vídeo",
+          "description": "Ao escolher uma sugestão, os vídeos abrem nas regiões definidas. Cada um mantém controles próprios de reprodução, pausa, som e exibição, enquanto a barra inferior permite controlá-los em grupo.",
+          "detail": "Se o resultado não ficar bom, execute {smartLayout} novamente ou use {chooseLayout} para definir a organização manualmente.",
+          "caption": "Vídeos verticais e horizontais ocupam regiões mais adequadas, mantendo as oito imagens visíveis."
+        }
+      ],
+      "featuresHeading": "Quando o layout inteligente é mais útil",
+      "featuresIntro": "Ele é especialmente útil quando as orientações e proporções são variadas. Deixe o app resolver primeiro a distribuição geral e depois ajuste apenas os vídeos necessários.",
+      "features": [
+        {
+          "title": "Combinar vídeos verticais e horizontais",
+          "description": "Vídeos de viagem, treino, monitoramento ou várias câmeras costumam misturar orientações. Imagens estreitas e largas são colocadas em regiões mais adequadas."
+        },
+        {
+          "title": "Escolher entre várias opções eficientes",
+          "description": "Não há apenas uma resposta. Compare opções verticais, horizontais e diferentes grupos de regiões para celular, tablet ou tela externa."
+        },
+        {
+          "title": "Ajustar tamanho e posição depois",
+          "description": "Para destacar um vídeo, mude para um layout predefinido semelhante e mova as linhas amarelas ou troque o conteúdo das regiões."
+        }
+      ],
+      "featureLink": "Ver o guia de tamanho e posição",
+      "faq": [
+        {
+          "question": "Quantos vídeos o layout inteligente pode organizar?",
+          "answer": "Os layouts do Split Screen Player aceitam até 36 regiões. A reprodução simultânea também depende do desempenho do aparelho, da resolução, do codec e da taxa de quadros."
+        },
+        {
+          "question": "O layout inteligente modifica os vídeos originais?",
+          "answer": "Não. Ele altera apenas a região e a posição de cada vídeo no espaço de trabalho atual. Os arquivos originais do aparelho não são cortados nem substituídos."
+        },
+        {
+          "question": "Por que ainda aparecem barras pretas ou cortes?",
+          "answer": "As regiões são combinadas com as dimensões dos vídeos, mas as proporções podem não ser exatamente iguais. Alterne entre {fit} e {fill} e ajuste o zoom ou a posição se necessário."
+        },
+        {
+          "question": "Posso exportar a organização como um único vídeo?",
+          "answer": "Sim. Confira o layout, o enquadramento e a ordem de reprodução. Depois abra {export} para definir formato, resolução, áudio e intervalo de tempo."
+        }
+      ],
+      "closingTitle": "Um lugar melhor para cada orientação",
+      "closingDescription": "Baixe o Split Screen Player no {device}, selecione vídeos verticais e horizontais e compare as sugestões de {smartLayout}."
+    },
+    "resize": {
+      "title": "Como redimensionar e reorganizar vídeos em tela dividida no {device}",
+      "seoTitle": "Redimensionar e reorganizar vídeos em tela dividida no {device}",
+      "meta": "No {device}, arraste as linhas amarelas para mudar o tamanho das regiões e mova os vídeos entre elas sem recriar o espaço de trabalho.",
+      "summary": "Aumente o vídeo principal, reduza uma referência ou troque dois vídeos sem selecionar os arquivos novamente. As divisórias e o conteúdo dos layouts predefinidos podem ser movidos diretamente.",
+      "answer": "No {device}, escolha um layout predefinido com pelo menos duas regiões. Use {adjustSize} para arrastar as linhas amarelas e depois {adjustContent} para mover um vídeo a outra região e trocar as posições.",
+      "steps": {
+        "setup": {
+          "title": "Escolher um layout e adicionar os dois atalhos",
+          "description": "Em {chooseLayout}, selecione um layout predefinido com pelo menos duas regiões. Depois abra {customizeToolbar} e adicione {adjustContent} e {adjustSize}.",
+          "detail": "O ajuste pelas divisórias funciona em layouts predefinidos. O botão pode ficar indisponível em layouts personalizados ou inteligentes, visualizações maximizadas e modos de comparação.",
+          "caption": "Adicione {adjustContent} e {adjustSize} à barra inferior."
+        },
+        "resize": {
+          "title": "Arrastar uma linha amarela para redimensionar",
+          "description": "Toque em {adjustSize}. No modo de edição, mova uma linha amarela horizontal ou vertical para dar mais espaço ao vídeo importante e confirme no ícone de visto.",
+          "detail": "Os tamanhos são salvos no aparelho por padrão e restaurados ao abrir o mesmo layout. Essa opção pode ser desativada em {generalSettings}.",
+          "caption": "O modo de tamanho marca com linhas amarelas todos os limites ajustáveis."
+        },
+        "thirdIOS": {
+          "title": "Abrir o modo de reorganização do conteúdo",
+          "description": "Toque em {adjustContent}. Uma alça aparece em cada região ocupada e a reprodução pausa para evitar o acionamento dos controles enquanto você move o conteúdo.",
+          "detail": "Arraste para uma região vazia para mover o vídeo ou para uma região ocupada para trocar os dois conteúdos.",
+          "caption": "Cada região mostra uma alça para mover o vídeo a outra posição."
+        },
+        "thirdAndroid": {
+          "title": "Conferir as novas proporções",
+          "description": "Depois de mover a linha, confira se as duas regiões continuam mostrando o que você precisa. A divisória muda apenas a exibição, não os vídeos originais.",
+          "detail": "Arraste para uma região vazia para mover o vídeo ou para uma região ocupada para trocar os dois conteúdos.",
+          "caption": "Ao mover a linha amarela, a região superior diminui e a inferior ganha mais espaço."
+        },
+        "fourthIOS": {
+          "title": "Mover o conteúdo e concluir",
+          "description": "Segure a alça no centro de uma região e arraste-a para o destino. Depois da troca, toque no ícone de visto para voltar à reprodução normal.",
+          "detail": "Cada vídeo continua com seus controles, e reprodução, pausa e mudo em grupo permanecem disponíveis.",
+          "caption": "Conclua a edição para voltar à reprodução mantendo a organização atual."
+        },
+        "fourthAndroid": {
+          "title": "Arrastar um vídeo para outra região",
+          "description": "Toque em {adjustContent}, segure a alça no centro do vídeo e arraste para o destino. Duas regiões ocupadas trocam o conteúdo imediatamente, sem reabrir os arquivos.",
+          "detail": "Cada vídeo continua com seus controles, e reprodução, pausa e mudo em grupo permanecem disponíveis.",
+          "caption": "No modo de reorganização, arraste um vídeo para outra região para trocar as posições."
+        }
+      },
+      "featuresHeading": "Usar tamanho e posição para destacar o que importa",
+      "featuresIntro": "As proporções não alteram apenas a aparência: elas também determinam o que fica legível ao comparar, apresentar ou usar uma tela externa.",
+      "features": [
+        {
+          "title": "Destacar a imagem principal e manter a referência",
+          "description": "Amplie o vídeo principal enquanto mantém visíveis outro ângulo, uma explicação ou uma referência de tempo."
+        },
+        {
+          "title": "Trocar posições sem reabrir arquivos",
+          "description": "A reorganização altera apenas a região de destino. Mova rapidamente a imagem principal para um local mais confortável ou adequado a uma tela externa."
+        },
+        {
+          "title": "Começar de forma inteligente e refinar com um layout",
+          "description": "Se as orientações forem variadas, use primeiro {smartLayout}. Depois escolha um layout predefinido semelhante quando precisar de divisórias ajustáveis."
+        }
+      ],
+      "featureLink": "Ver o guia de layout inteligente",
+      "faq": [
+        {
+          "question": "Por que {adjustSize} está desativado?",
+          "answer": "As causas comuns são um layout personalizado ou inteligente, apenas uma região, uma visualização maximizada ou uma comparação sobreposta/deslizante. Primeiro mude para um layout predefinido com várias regiões."
+        },
+        {
+          "question": "Os tamanhos ajustados são salvos?",
+          "answer": "Sim, por padrão no aparelho atual. Eles são restaurados quando o mesmo layout é aberto novamente. Você pode desativar esse registro em {generalSettings}."
+        },
+        {
+          "question": "Redimensionar corta o arquivo de vídeo original?",
+          "answer": "Não. Apenas a região de exibição muda. {fit} pode mostrar barras e {fill} pode cortar a imagem exibida, mas o arquivo original permanece intacto."
+        },
+        {
+          "question": "Posso criar regiões com qualquer tamanho e posição?",
+          "answer": "Sim, um layout personalizado permite formas mais livres. As linhas amarelas são a opção rápida para modificar um layout predefinido existente."
+        }
+      ],
+      "closingTitle": "Mais espaço para o que importa, sem perder a referência",
+      "closingDescription": "Baixe o Split Screen Player no {device}, abra dois vídeos e experimente redimensionar e trocar as regiões."
+    }
+  }
+}
