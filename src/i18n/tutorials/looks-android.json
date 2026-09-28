@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで1本または全動画にフィルターをかける方法",
+    "description": "Androidの1つの動画や表示中の全領域に効果を適用し、強度を調整。元ファイルを変えずにOriginalへ戻せます。",
+    "summary": "片方を白黒にして元の色と比較し、必要なら画面全体に統一した効果を適用します。",
+    "answer": "プレーヤーの重なった円のLooksを開き、プリセットと強度を選んでDoneをタップします。一括適用は下のAll Looksを使います。",
+    "requirement": "先にローカル動画を開きます。All Looksがない場合はMore → Customize Home Bottom Toolbarで追加します。例は2本のゴルフ動画です。",
+    "steps": [
+      {
+        "title": "プリセットを開く",
+        "text": "上の動画の操作ボタンを表示し、重なった円をタップします。LooksにはOriginalや各プリセットのプレビューがあります。",
+        "caption": "Originalが選択されたLooks画面。"
+      },
+      {
+        "title": "効果と強度を選ぶ",
+        "text": "B&W Filmを選んでIntensityを調整します。例は100%です。プレビューを確認してDone、変更を残さない場合はCancelを選びます。",
+        "caption": "B&W Filmを100%でプレビューしています。"
+      },
+      {
+        "title": "個別の結果を確認する",
+        "text": "分割画面へ戻ると、上だけが白黒で下はカラーのままです。個別ボタンがその領域だけに作用したことを確認できます。",
+        "caption": "上の動画だけが白黒になっています。"
+      },
+      {
+        "title": "全領域に適用する",
+        "text": "下のAll Looksを開き、Looks · 2 Framesという見出しを確認します。効果を選んでDoneを押すと、両方に適用されます。",
+        "caption": "一括のLooks画面は表示中の2領域を対象にします。"
+      }
+    ],
+    "features": [
+      {
+        "title": "元の見え方へ戻す",
+        "description": "同じ個別・一括の画面でOriginalを選び、Doneを押します。Originalに強度調整はありません。"
+      },
+      {
+        "title": "元ファイルは変更しない",
+        "description": "Looksはアプリ内の表示を変えます。元ファイルを上書きせず、別の用途でもそのまま使えます。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "なぜ1本だけ変わりましたか？",
+        "answer": "そのプレーヤーのLooksを開いたためです。全表示領域に適用するには下のAll Looksを使います。"
+      },
+      {
+        "question": "Originalの強度は変えられますか？",
+        "answer": "いいえ。Originalは効果を解除する選択肢です。強度を変えるには別のプリセットを選びます。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Appliquer des filtres à une ou plusieurs vidéos sur Android",
+    "description": "Appliquez un effet à une vidéo Android ou à toutes les zones visibles, réglez son intensité et revenez à Original sans modifier les fichiers sources.",
+    "summary": "Essayez le noir et blanc sur une zone, comparez avec la couleur d’origine, puis harmonisez toute la composition.",
+    "answer": "Ouvrez Looks avec les cercles superposés d’un lecteur, choisissez un effet et son intensité, puis Done. Utilisez All Looks dans la barre du bas pour une application globale.",
+    "requirement": "Chargez des vidéos locales. Ajoutez All Looks dans More → Customize Home Bottom Toolbar si nécessaire. L’exemple utilise deux vidéos de golf.",
+    "steps": [
+      {
+        "title": "Ouvrir les préréglages",
+        "text": "Affichez les commandes du lecteur supérieur et touchez les cercles superposés. Looks présente Original et les effets disponibles avec un aperçu.",
+        "caption": "Le sélecteur Looks affiche Original."
+      },
+      {
+        "title": "Choisir l’effet et l’intensité",
+        "text": "Sélectionnez B&W Film et réglez Intensity, ici à 100%. Vérifiez l’aperçu puis touchez Done, ou Cancel pour abandonner la modification.",
+        "caption": "B&W Film est prévisualisé à 100%."
+      },
+      {
+        "title": "Contrôler le résultat individuel",
+        "text": "Dans l’écran partagé, la vidéo du haut est en noir et blanc, celle du bas reste en couleur. Le bouton individuel n’a modifié que sa propre zone.",
+        "caption": "Seule la vidéo supérieure reçoit le traitement noir et blanc."
+      },
+      {
+        "title": "Appliquer à toutes les zones",
+        "text": "Ouvrez All Looks dans la barre du bas. Vérifiez Looks · 2 Frames, choisissez l’effet et touchez Done. Les deux vidéos visibles l’utilisent.",
+        "caption": "Le panneau global vise les deux zones visibles."
+      }
+    ],
+    "features": [
+      {
+        "title": "Retrouver l’apparence d’origine",
+        "description": "Dans le même panneau individuel ou global, choisissez Original puis Done. Original n’a pas de réglage d’intensité."
+      },
+      {
+        "title": "Les sources restent intactes",
+        "description": "Looks change l’affichage dans l’application sans écraser les fichiers, qui restent utilisables ailleurs."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi une seule vidéo a-t-elle changé ?",
+        "answer": "Vous avez ouvert le bouton Looks de ce lecteur. Utilisez All Looks dans la barre du bas pour les zones visibles ensemble."
+      },
+      {
+        "question": "Peut-on régler l’intensité d’Original ?",
+        "answer": "Non. Original retire l’effet. Choisissez un autre préréglage pour modifier l’intensité."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to apply video filters to one or all panes on Android",
+    "description": "Apply a visual look to one Android video or every visible video, adjust its intensity, and return to Original without changing the source files.",
+    "summary": "Try a black-and-white treatment in one pane, compare it with the original, then give the whole composition a consistent look.",
+    "answer": "Open the overlapping-circles Looks button in a player, choose a preset and intensity, and tap Done. Use All Looks from the bottom toolbar to apply a shared treatment.",
+    "requirement": "Load local videos first. If All Looks is missing, add it through More → Customize Home Bottom Toolbar. This example uses two golf clips.",
+    "steps": [
+      {
+        "title": "Open the preset selector",
+        "text": "Reveal the upper player’s controls and tap its overlapping-circles icon. The Looks panel shows Original and the available presets with a preview.",
+        "caption": "The Looks selector opens with Original selected."
+      },
+      {
+        "title": "Choose a look and intensity",
+        "text": "Select B&W Film and adjust Intensity. The example uses 100%. Inspect the preview before tapping Done; use Cancel if you do not want to keep the change.",
+        "caption": "B&W Film is previewed at 100% intensity."
+      },
+      {
+        "title": "Check the individual result",
+        "text": "Return to the split screen. The upper clip is black and white while the lower one remains in color, showing that the individual button affected only its own pane.",
+        "caption": "Only the upper video has the black-and-white treatment."
+      },
+      {
+        "title": "Apply a look to all visible panes",
+        "text": "Open All Looks from the bottom toolbar. Check the title Looks · 2 Frames, select the treatment, and tap Done. Both visible videos now use it.",
+        "caption": "The global Looks panel targets both visible frames."
+      }
+    ],
+    "features": [
+      {
+        "title": "Restore the original appearance",
+        "description": "Open the same individual or global panel, select Original, and tap Done. Original has no intensity adjustment."
+      },
+      {
+        "title": "The sources remain unchanged",
+        "description": "Looks changes how the app displays the media. Keep the original files for other uses; applying a preset here does not overwrite them."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why did only one video change?",
+        "answer": "You opened that player’s Looks button. Use All Looks on the bottom toolbar when the visible panes should share the effect."
+      },
+      {
+        "question": "Can I adjust the strength of Original?",
+        "answer": "No. Original removes the treatment, so its intensity control is not available. Choose another preset to adjust intensity."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como aplicar filtros a um ou a todos os vídeos no Android",
+    "description": "Aplique um efeito a um vídeo Android ou a todas as áreas visíveis, ajuste a intensidade e volte a Original sem modificar os arquivos.",
+    "summary": "Experimente preto e branco em uma área, compare com a cor original e depois dê o mesmo visual à composição inteira.",
+    "answer": "Abra Looks pelos círculos sobrepostos do player, escolha efeito e intensidade e toque em Done. Use All Looks na barra inferior para aplicar a todos.",
+    "requirement": "Carregue vídeos locais. Se All Looks não aparecer, adicione em More → Customize Home Bottom Toolbar. O exemplo usa dois vídeos de golfe.",
+    "steps": [
+      {
+        "title": "Abrir os efeitos",
+        "text": "Exiba os controles do vídeo superior e toque nos círculos sobrepostos. Looks mostra Original e os efeitos disponíveis com uma prévia.",
+        "caption": "O seletor Looks mostra Original selecionado."
+      },
+      {
+        "title": "Escolher efeito e intensidade",
+        "text": "Selecione B&W Film e ajuste Intensity, aqui em 100%. Confira a prévia e toque em Done, ou Cancel para descartar a alteração.",
+        "caption": "B&W Film aparece com intensidade de 100%."
+      },
+      {
+        "title": "Conferir o resultado individual",
+        "text": "Ao voltar, só o vídeo superior está em preto e branco. O inferior continua colorido, mostrando que o botão individual afetou apenas sua área.",
+        "caption": "Apenas o vídeo superior recebe o efeito preto e branco."
+      },
+      {
+        "title": "Aplicar a todas as áreas",
+        "text": "Abra All Looks na barra inferior. Confira o título Looks · 2 Frames, escolha o efeito e toque em Done. Os dois vídeos visíveis passam a usá-lo.",
+        "caption": "O painel global atua nas duas áreas visíveis."
+      }
+    ],
+    "features": [
+      {
+        "title": "Restaurar o visual original",
+        "description": "No mesmo painel individual ou global, escolha Original e Done. Original não tem ajuste de intensidade."
+      },
+      {
+        "title": "Os arquivos permanecem intactos",
+        "description": "Looks altera a exibição no aplicativo sem sobrescrever os arquivos, que continuam disponíveis para outros usos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que só um vídeo mudou?",
+        "answer": "Você abriu o botão Looks daquele player. Use All Looks na barra inferior para alterar as áreas visíveis juntas."
+      },
+      {
+        "question": "Posso ajustar a intensidade de Original?",
+        "answer": "Não. Original remove o efeito. Escolha outro preset para ajustar a intensidade."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 한 영상 또는 모든 영역에 필터 적용하기",
+    "description": "Android 영상에 시각 효과를 적용하고 강도를 조절하세요. 원본을 바꾸지 않고 Original로 복원할 수 있습니다.",
+    "summary": "한 영역만 흑백으로 바꿔 원래 색상과 비교한 뒤 전체 화면에 같은 효과를 적용해 보세요.",
+    "answer": "플레이어의 겹친 원 모양 Looks를 열고 프리셋과 강도를 선택한 다음 Done을 누르세요. 전체 적용은 아래 All Looks를 사용합니다.",
+    "requirement": "로컬 영상을 먼저 여세요. All Looks가 없으면 More → Customize Home Bottom Toolbar에서 추가합니다. 예시는 골프 영상 두 개입니다.",
+    "steps": [
+      {
+        "title": "프리셋 열기",
+        "text": "위쪽 영상의 조작 버튼을 표시하고 겹친 원을 누르세요. Looks에 Original과 다른 프리셋의 미리 보기가 표시됩니다.",
+        "caption": "Looks에서 Original이 선택된 상태입니다."
+      },
+      {
+        "title": "효과와 강도 고르기",
+        "text": "B&W Film을 고르고 Intensity를 조절하세요. 예시는 100%입니다. 미리 보기를 확인한 뒤 Done을, 변경을 버리려면 Cancel을 누릅니다.",
+        "caption": "B&W Film을 100% 강도로 미리 봅니다."
+      },
+      {
+        "title": "개별 결과 확인하기",
+        "text": "분할 화면으로 돌아오면 위쪽만 흑백이고 아래는 원래 색상입니다. 개별 버튼이 해당 영역에만 적용된 것을 확인할 수 있습니다.",
+        "caption": "위쪽 영상에만 흑백 효과가 적용되었습니다."
+      },
+      {
+        "title": "모든 영역에 적용하기",
+        "text": "아래 All Looks를 열고 Looks · 2 Frames라는 제목을 확인하세요. 효과를 고르고 Done을 누르면 두 영역에 적용됩니다.",
+        "caption": "전체 Looks 패널은 보이는 두 영역을 대상으로 합니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "원래 표시로 복원하기",
+        "description": "같은 개별 또는 전체 패널에서 Original을 선택하고 Done을 누르세요. Original은 강도 조절이 없습니다."
+      },
+      {
+        "title": "원본 파일은 바뀌지 않습니다",
+        "description": "Looks는 앱 안의 표시를 바꿉니다. 파일을 덮어쓰지 않으므로 다른 용도에도 원본을 사용할 수 있습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "왜 한 영상만 바뀌었나요?",
+        "answer": "그 플레이어의 Looks를 열었기 때문입니다. 보이는 영역을 함께 바꾸려면 아래 All Looks를 쓰세요."
+      },
+      {
+        "question": "Original의 강도도 바꿀 수 있나요?",
+        "answer": "아니요. Original은 효과를 해제합니다. 강도를 조절하려면 다른 프리셋을 선택하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo aplicar filtros a uno o varios vídeos en Android",
+    "description": "Aplica un efecto a un vídeo Android o a todas las zonas visibles, ajusta su intensidad y vuelve a Original sin modificar los archivos fuente.",
+    "summary": "Prueba blanco y negro en una zona, compáralo con el color original y después da el mismo aspecto a toda la composición.",
+    "answer": "Abre Looks con los círculos superpuestos del reproductor, elige un efecto e intensidad y toca Done. Usa All Looks en la barra inferior para aplicarlo a todos.",
+    "requirement": "Carga vídeos locales. Si falta All Looks, añádelo en More → Customize Home Bottom Toolbar. El ejemplo usa dos vídeos de golf.",
+    "steps": [
+      {
+        "title": "Abrir los efectos",
+        "text": "Muestra los controles del vídeo superior y toca los círculos superpuestos. Looks presenta Original y los efectos disponibles con una vista previa.",
+        "caption": "El selector Looks muestra Original seleccionado."
+      },
+      {
+        "title": "Elegir efecto e intensidad",
+        "text": "Selecciona B&W Film y ajusta Intensity, aquí al 100%. Revisa la vista previa y toca Done, o Cancel para descartar el cambio.",
+        "caption": "B&W Film se muestra con intensidad del 100%."
+      },
+      {
+        "title": "Comprobar el resultado individual",
+        "text": "Al volver, solo el vídeo superior está en blanco y negro. El inferior conserva el color, lo que confirma que el botón individual afectó únicamente a su zona.",
+        "caption": "Solo el vídeo superior tiene el efecto de blanco y negro."
+      },
+      {
+        "title": "Aplicar a todas las zonas",
+        "text": "Abre All Looks en la barra inferior. Comprueba el título Looks · 2 Frames, elige el efecto y toca Done. Los dos vídeos visibles lo utilizan.",
+        "caption": "El panel global actúa sobre las dos zonas visibles."
+      }
+    ],
+    "features": [
+      {
+        "title": "Recuperar el aspecto original",
+        "description": "En el mismo panel individual o global, elige Original y Done. Original no tiene ajuste de intensidad."
+      },
+      {
+        "title": "Los archivos permanecen intactos",
+        "description": "Looks cambia la visualización en la aplicación sin sobrescribir los archivos, que siguen disponibles para otros usos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué solo cambió un vídeo?",
+        "answer": "Abriste el botón Looks de ese reproductor. Usa All Looks en la barra inferior para las zonas visibles a la vez."
+      },
+      {
+        "question": "¿Puedo ajustar la intensidad de Original?",
+        "answer": "No. Original elimina el efecto. Elige otro preajuste para modificar la intensidad."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上为单个或全部视频添加滤镜",
+    "description": "在 Android 中给一个视频或全部可见区域应用视觉效果，调整强度，并恢复 Original，操作不会覆盖原素材文件。",
+    "summary": "先让一个区域呈现黑白效果，与原色画面对照，再为整个分屏统一视觉风格。",
+    "answer": "打开单区播放器的重叠圆圈 Looks 按钮，选择预设和强度后点 Done。需要整组应用时，使用底部的 All Looks。",
+    "requirement": "先载入本地视频。缺少 All Looks 时，在 More → Customize Home Bottom Toolbar 中添加。本例使用两段高尔夫视频。",
+    "steps": [
+      {
+        "title": "打开效果预设",
+        "text": "显示上方播放器控制栏，点按重叠圆圈图标。Looks 面板中可以预览 Original 和其他预设。",
+        "caption": "Looks 选择面板当前选中 Original。"
+      },
+      {
+        "title": "选择滤镜与强度",
+        "text": "选择 B&W Film，调节 Intensity，本例使用 100%。检查预览后点 Done；不想保留改动时使用 Cancel。",
+        "caption": "以 100% 强度预览 B&W Film。"
+      },
+      {
+        "title": "检查单区效果",
+        "text": "回到分屏，上方视频变为黑白，下方仍保留颜色，说明单区按钮只影响当前区域。",
+        "caption": "只有上方视频应用了黑白效果。"
+      },
+      {
+        "title": "统一应用到可见区域",
+        "text": "从底部打开 All Looks，确认标题为 Looks · 2 Frames，选择效果并点 Done。两个可见视频都会应用该效果。",
+        "caption": "全局 Looks 面板的目标是两个可见区域。"
+      }
+    ],
+    "features": [
+      {
+        "title": "恢复原始显示",
+        "description": "重新打开对应的单区或全局面板，选择 Original 并点 Done。Original 没有强度调节。"
+      },
+      {
+        "title": "原素材文件不会被覆盖",
+        "description": "Looks 改变的是应用内显示方式。原文件仍可用于其他用途，在此应用预设不会覆盖它们。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么只有一个视频变了？",
+        "answer": "因为打开的是该播放器自己的 Looks 按钮。需要可见区域统一效果时，请使用底部工具栏的 All Looks。"
+      },
+      {
+        "question": "Original 可以调整强度吗？",
+        "answer": "不能。Original 用于移除效果，因此不提供强度控制。选择其他预设后再调节。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Videofilter auf einen oder alle Bereiche auf Android anwenden",
+    "description": "Wenden Sie einen Look auf ein Android-Video oder alle sichtbaren Bereiche an, passen Sie die Stärke an und kehren Sie ohne Dateiänderung zu Original zurück.",
+    "summary": "Vergleichen Sie einen Schwarzweiß-Look mit den Originalfarben und geben Sie anschließend der gesamten Anordnung ein gemeinsames Aussehen.",
+    "answer": "Öffnen Sie Looks über die überlappenden Kreise eines Players, wählen Sie Effekt und Stärke und tippen Sie auf Done. All Looks in der unteren Leiste wirkt gemeinsam.",
+    "requirement": "Laden Sie lokale Videos. Ergänzen Sie All Looks bei Bedarf unter More → Customize Home Bottom Toolbar. Das Beispiel nutzt zwei Golfclips.",
+    "steps": [
+      {
+        "title": "Die Vorgaben öffnen",
+        "text": "Blenden Sie die obere Player-Steuerung ein und tippen Sie auf die Kreise. Looks zeigt Original und verfügbare Effekte mit Vorschau.",
+        "caption": "Im Looks-Auswahlfenster ist Original gewählt."
+      },
+      {
+        "title": "Effekt und Stärke wählen",
+        "text": "Wählen Sie B&W Film und stellen Sie Intensity ein, hier 100%. Prüfen Sie die Vorschau und wählen Sie Done oder Cancel zum Verwerfen.",
+        "caption": "B&W Film wird mit 100% Stärke angezeigt."
+      },
+      {
+        "title": "Das einzelne Ergebnis prüfen",
+        "text": "Zurück im geteilten Bildschirm ist nur das obere Video schwarzweiß; das untere bleibt farbig. Der einzelne Player-Button hat nur seinen Bereich verändert.",
+        "caption": "Nur das obere Video erhält den Schwarzweiß-Look."
+      },
+      {
+        "title": "Alle sichtbaren Bereiche ändern",
+        "text": "Öffnen Sie All Looks. Prüfen Sie den Titel Looks · 2 Frames, wählen Sie den Effekt und Done. Beide sichtbaren Videos verwenden ihn nun.",
+        "caption": "Das globale Looks-Fenster betrifft beide sichtbaren Bereiche."
+      }
+    ],
+    "features": [
+      {
+        "title": "Zum Original zurückkehren",
+        "description": "Wählen Sie im entsprechenden einzelnen oder globalen Fenster Original und Done. Original besitzt keine Stärkeregelung."
+      },
+      {
+        "title": "Die Quelldateien bleiben unverändert",
+        "description": "Looks verändert die Darstellung in der App und überschreibt keine Dateien. Die Originale bleiben für andere Zwecke nutzbar."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum hat sich nur ein Video verändert?",
+        "answer": "Sie haben den Looks-Button dieses Players verwendet. Für die sichtbaren Bereiche gemeinsam wählen Sie All Looks unten."
+      },
+      {
+        "question": "Kann ich die Stärke von Original ändern?",
+        "answer": "Nein. Original entfernt den Effekt. Wählen Sie eine andere Vorgabe, um deren Stärke anzupassen."
+      }
+    ]
+  }
+}

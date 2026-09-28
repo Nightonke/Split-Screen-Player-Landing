@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "{device}で下部ツールバーをカスタマイズする方法",
+    "description": "{device}のSplit Screen Playerでツールバーのボタンを追加、並べ替え、削除する方法。隠れている機能を見つけ、よく使う操作をまとめます。",
+    "summary": "比較モードや一括再生の操作は、ホームのツールバーに追加できます。使用中の素材を開いたまま、必要なボタンを選んで順序を整えましょう。",
+    "answer": "More（…）→{customizeToolbar}を開きます。Not Addedの＋で追加し、Addedで順序を調整してチェックマークで保存します。プレーヤーに戻り、ツールバーをスクロールしてボタンを探します。",
+    "requirement": "ツールバーを変更しても有料機能は解放されません。VIPマークの機能には対応するPremium利用権が必要です。",
+    "steps": [
+      {
+        "title": "ツールバーの編集画面を開く",
+        "text": "プレーヤーのMore（…）からSettingsを開き、{customizeToolbar}を選びます。上部のプレビューはボタンの順序、Addedは追加済みの一覧です。",
+        "caption": "Settingsからホーム下部ツールバーの設定を開く。"
+      },
+      {
+        "title": "よく使う機能を追加する",
+        "text": "Not Addedを選び、必要な機能の青い＋をタップします。この例では{exampleAction}を追加します。VIPは有料機能の印です。ボタンを追加するだけで購入やPremiumの有効化は行われません。",
+        "caption": "Not Addedに追加可能な機能、＋ボタン、VIPマークが表示されます。"
+      },
+      {
+        "title": "追加済みのボタンを確認する",
+        "text": "Addedに戻ります。右側のハンドルを長押ししてドラッグすると順序を変えられます。不要なボタンは赤い－で外します。設定に戻れるようMore Menuは残ります。",
+        "caption": "Addedでボタン、並べ替えハンドル、削除ボタンを確認。"
+      },
+      {
+        "title": "保存してホームで使う",
+        "text": "右上のチェックマークをタップし、Settingsを閉じてプレーヤーで探します。表示範囲外のボタンはツールバーをスワイプして見つけてください。横向きレイアウトではツールバーが縦に並ぶため、上下にスクロールします。",
+        "caption": "動画を開いたまま、選んだ機能をツールバーに表示。"
+      }
+    ],
+    "features": [
+      {
+        "title": "用途ごとにまとめる",
+        "description": "再生、比較、レイアウトの操作をそれぞれ近くに配置します。まずはよく使う機能を数個追加し、必要に応じて増やすと探しやすくなります。"
+      },
+      {
+        "title": "名前と機能説明を確認する",
+        "description": "似たアイコンでも対象が違う場合があります。情報ボタンがある場合は説明を読み、選択中の動画だけに作用するのか、全プレーヤーに作用するのかを確認してください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "ボタンを外すと動画も削除されますか？",
+        "answer": "いいえ。ショートカットを外す操作はツールバーだけを変更し、元ファイルは削除しません。Close Allなどは別の操作で、現在の再生領域の内容を閉じるためのものです。"
+      },
+      {
+        "question": "追加したボタンが見つからないのはなぜですか？",
+        "answer": "Addedに入っているか確認し、チェックマークで保存してからツールバーをスクロールします。画面の向きと追加した数によって、一度に見える範囲が変わります。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comment personnaliser la barre d’outils sur {device}",
+    "description": "Ajoutez, organisez et retirez les boutons de Split Screen Player sur {device}. Retrouvez les fonctions masquées et gardez vos commandes habituelles à portée de main.",
+    "summary": "Les modes de comparaison et les commandes groupées peuvent être ajoutés à la barre d’outils. Choisissez vos actions et leur ordre tout en gardant vos médias ouverts.",
+    "answer": "Ouvrez More (…) → {customizeToolbar}. Ajoutez des actions avec + dans Not Added, organisez-les dans Added, puis validez avec la coche. De retour au lecteur, faites défiler la barre pour atteindre les boutons hors champ.",
+    "requirement": "La personnalisation ne débloque pas les fonctions payantes. Les actions marquées VIP nécessitent l’accès Premium correspondant.",
+    "steps": [
+      {
+        "title": "Ouvrir l’éditeur de la barre d’outils",
+        "text": "Touchez More (…) dans le lecteur pour ouvrir Settings, puis choisissez {customizeToolbar}. L’aperçu supérieur montre l’ordre des boutons ; Added contient les boutons déjà ajoutés.",
+        "caption": "Ouvrez la personnalisation de la barre d’outils depuis Settings."
+      },
+      {
+        "title": "Ajouter une action utile",
+        "text": "Dans Not Added, trouvez une action et touchez son + bleu. L’exemple ajoute {exampleAction}. La mention VIP indique une fonction payante ; ajouter son raccourci n’achète ni n’active Premium.",
+        "caption": "Not Added affiche les actions disponibles, leur bouton + et les mentions VIP éventuelles."
+      },
+      {
+        "title": "Vérifier les boutons ajoutés",
+        "text": "Revenez à Added. Maintenez la poignée de droite, puis faites glisser le bouton pour changer son ordre. Le moins rouge retire un raccourci inutile. More Menu reste disponible pour revenir aux réglages.",
+        "caption": "Vérifiez la liste Added, les poignées de déplacement et les boutons de retrait."
+      },
+      {
+        "title": "Enregistrer et utiliser la barre",
+        "text": "Touchez la coche en haut à droite, fermez Settings et retrouvez l’action dans le lecteur. Balayez la barre si le bouton est hors champ. En paysage, la barre est verticale et défile de haut en bas.",
+        "caption": "Vos vidéos restent ouvertes pendant que la barre affiche les actions choisies."
+      }
+    ],
+    "features": [
+      {
+        "title": "Regrouper les commandes par tâche",
+        "description": "Placez ensemble les commandes de lecture, de comparaison ou de disposition. Commencez avec quelques actions utiles, puis ajoutez-en selon vos besoins."
+      },
+      {
+        "title": "Lire le nom et l’aide de l’action",
+        "description": "Des icônes proches peuvent agir sur des cibles différentes. Consultez le bouton d’information lorsqu’il existe et vérifiez si l’action concerne la vidéo sélectionnée ou tous les lecteurs."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Retirer un bouton supprime-t-il mes vidéos ?",
+        "answer": "Non. Retirer un raccourci modifie uniquement la barre, pas les fichiers d’origine. Close All est une commande distincte qui ferme le contenu des zones de lecture actuelles."
+      },
+      {
+        "question": "Pourquoi le bouton ajouté reste-t-il introuvable ?",
+        "answer": "Vérifiez sa présence dans Added, enregistrez avec la coche et faites défiler la barre du lecteur. La partie visible dépend de l’orientation de l’écran et du nombre de boutons ajoutés."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to customize the bottom toolbar on {device}",
+    "description": "Add, arrange, and remove Split Screen Player toolbar buttons on {device}. Find hidden actions and keep the controls you use within reach.",
+    "summary": "Comparison modes and batch controls are available through a customizable toolbar. Add the actions you use most, arrange their order, and keep the same media open while changing your controls.",
+    "answer": "Open More (…) → {customizeToolbar}. Add actions with + under Not Added, arrange them under Added, then tap the checkmark. Return to the player and scroll the toolbar to reach buttons outside the visible area.",
+    "requirement": "Customization itself does not unlock paid features. Actions marked VIP need the corresponding Premium entitlement.",
+    "steps": [
+      {
+        "title": "Open the toolbar editor",
+        "text": "Tap More (…) in the player to open Settings. Choose {customizeToolbar}. The preview at the top shows the toolbar order; Added contains your current buttons.",
+        "caption": "Open the toolbar customization entry in Settings."
+      },
+      {
+        "title": "Add a useful action",
+        "text": "Select Not Added. Find an action and tap its blue + button. The example adds {exampleAction}. A VIP badge indicates a paid feature; adding its shortcut does not purchase or activate Premium.",
+        "caption": "Not Added lists available actions with + buttons and any VIP requirements."
+      },
+      {
+        "title": "Review the added buttons",
+        "text": "Return to Added. Long-press the handle on the right to drag a button into your preferred order. Tap a red minus to remove a shortcut you do not need. The More Menu entry remains available so you can return to Settings.",
+        "caption": "Review the Added list, reorder handles, and remove buttons."
+      },
+      {
+        "title": "Save and use the toolbar",
+        "text": "Tap the checkmark at the top right, close Settings, and locate the action in the player. Swipe along the toolbar if it is outside the visible section. A landscape layout places the toolbar vertically, so scroll it up or down.",
+        "caption": "The player keeps your videos open while the toolbar shows your chosen actions."
+      }
+    ],
+    "features": [
+      {
+        "title": "Group controls by task",
+        "description": "Keep playback, comparison, and layout shortcuts together. Start with a few useful actions rather than adding every available button at once."
+      },
+      {
+        "title": "Read the action name and help",
+        "description": "Similar icons can act on different targets. Use the information button where available, and check whether an action affects the selected video or all players before applying it."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does removing a toolbar button delete my videos?",
+        "answer": "No. Removing a shortcut changes the toolbar. It does not remove source files. Actions such as Close All are separate commands that close the current playback regions."
+      },
+      {
+        "question": "Why can I not see a button I added?",
+        "answer": "Check that it appears under Added, save with the checkmark, and scroll the player’s toolbar. The visible section depends on screen orientation and how many buttons you have added."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como personalizar a barra de ferramentas no {device}",
+    "description": "Adicione, organize e remova botões do Split Screen Player no {device}. Encontre funções ocultas e deixe os controles mais usados ao alcance.",
+    "summary": "Os modos de comparação e os controles conjuntos podem ser adicionados à barra de ferramentas. Escolha as ações e sua ordem mantendo os arquivos abertos no player.",
+    "answer": "Abra More (…) → {customizeToolbar}. Adicione ações com + em Not Added, organize em Added e salve pela marca de seleção. De volta ao player, role a barra para encontrar os botões fora da área visível.",
+    "requirement": "Personalizar a barra não libera funções pagas. Ações com a indicação VIP precisam do acesso Premium correspondente.",
+    "steps": [
+      {
+        "title": "Abrir o editor da barra",
+        "text": "Toque em More (…) no player para abrir Settings e escolha {customizeToolbar}. A prévia no alto mostra a ordem; Added contém os botões já adicionados.",
+        "caption": "Abra a personalização da barra em Settings."
+      },
+      {
+        "title": "Adicionar uma ação útil",
+        "text": "Em Not Added, encontre uma ação e toque no + azul. O exemplo adiciona {exampleAction}. VIP indica uma função paga; adicionar o atalho não compra nem ativa Premium.",
+        "caption": "Not Added mostra as ações disponíveis, os botões + e as indicações VIP."
+      },
+      {
+        "title": "Conferir os botões adicionados",
+        "text": "Volte para Added. Pressione e segure a alça à direita e arraste o botão para mudar a ordem. O menos vermelho remove um atalho. More Menu continua disponível para voltar às configurações.",
+        "caption": "Confira a lista Added, as alças de organização e os botões de remoção."
+      },
+      {
+        "title": "Salvar e usar a barra",
+        "text": "Toque na marca de seleção no canto superior direito, feche Settings e procure a ação no player. Deslize a barra se o botão estiver fora da parte visível. Em layouts na horizontal, a barra fica vertical e deve ser rolada para cima ou para baixo.",
+        "caption": "Os vídeos continuam abertos enquanto a barra mostra as ações escolhidas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Agrupar os controles por tarefa",
+        "description": "Deixe juntas as ações de reprodução, comparação e layout. Comece com algumas funções úteis e adicione outras conforme precisar."
+      },
+      {
+        "title": "Ler o nome e a ajuda da ação",
+        "description": "Ícones parecidos podem atuar sobre alvos diferentes. Consulte o botão de informações quando houver e confira se a ação afeta o vídeo selecionado ou todos os players."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Remover um botão apaga meus vídeos?",
+        "answer": "Não. Remover um atalho muda apenas a barra, sem apagar os arquivos originais. Close All é um comando separado que fecha o conteúdo das áreas de reprodução atuais."
+      },
+      {
+        "question": "Por que não vejo um botão que adicionei?",
+        "answer": "Confira se ele está em Added, salve pela marca de seleção e role a barra do player. A parte visível depende da orientação da tela e da quantidade de botões adicionados."
+      }
+    ]
+  },
+  "ko": {
+    "title": "{device}에서 하단 도구 모음을 설정하는 방법",
+    "description": "{device}의 Split Screen Player에서 도구 모음 버튼을 추가하고 순서를 바꾸거나 제거하세요. 숨겨진 기능과 자주 쓰는 조작을 쉽게 찾을 수 있습니다.",
+    "summary": "비교 모드와 일괄 재생 조작을 홈 도구 모음에 추가할 수 있습니다. 열어 둔 미디어를 유지하면서 필요한 버튼을 고르고 순서를 정리하세요.",
+    "answer": "More(…) → {customizeToolbar}을 엽니다. Not Added의 +로 기능을 추가하고 Added에서 순서를 정한 뒤 체크 표시로 저장합니다. 플레이어로 돌아와 도구 모음을 스크롤하면 가려진 버튼을 찾을 수 있습니다.",
+    "requirement": "도구 모음 설정만으로 유료 기능이 해제되지는 않습니다. VIP 표시가 있는 기능에는 해당 Premium 이용 권한이 필요합니다.",
+    "steps": [
+      {
+        "title": "도구 모음 편집기 열기",
+        "text": "플레이어의 More(…)에서 Settings를 열고 {customizeToolbar}을 선택합니다. 위쪽 미리보기는 버튼 순서를, Added 목록은 추가된 버튼을 보여 줍니다.",
+        "caption": "Settings에서 홈 하단 도구 모음 설정을 엽니다."
+      },
+      {
+        "title": "자주 쓰는 기능 추가하기",
+        "text": "Not Added에서 필요한 기능의 파란색 +를 누릅니다. 예시에서는 {exampleAction}를 추가합니다. VIP는 유료 기능 표시입니다. 바로가기 추가만으로 구매하거나 Premium을 활성화하지는 않습니다.",
+        "caption": "Not Added에서 추가 가능한 기능, + 버튼과 VIP 표시를 확인합니다."
+      },
+      {
+        "title": "추가한 버튼 확인하기",
+        "text": "Added로 돌아갑니다. 오른쪽 손잡이를 길게 누른 뒤 끌면 순서를 바꿀 수 있습니다. 필요 없는 버튼은 빨간색 빼기로 제거합니다. 설정으로 돌아갈 수 있도록 More Menu는 유지됩니다.",
+        "caption": "Added 목록의 버튼, 순서 조절 손잡이와 제거 버튼을 확인합니다."
+      },
+      {
+        "title": "저장하고 홈에서 사용하기",
+        "text": "오른쪽 위 체크 표시를 누르고 Settings를 닫은 뒤 플레이어에서 버튼을 찾습니다. 보이지 않으면 도구 모음을 스와이프하세요. 가로 레이아웃에서는 도구 모음이 세로로 놓이므로 위아래로 스크롤합니다.",
+        "caption": "미디어를 열어 둔 채 선택한 기능이 도구 모음에 표시됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "작업별로 버튼 묶기",
+        "description": "재생, 비교, 레이아웃 조작을 각각 가까이 배치하세요. 자주 쓰는 몇 개부터 추가하고 필요할 때 늘리면 버튼을 찾기 쉽습니다."
+      },
+      {
+        "title": "기능 이름과 설명 확인하기",
+        "description": "아이콘이 비슷해도 적용 대상이 다를 수 있습니다. 정보 버튼이 있으면 설명을 읽고, 선택한 영상에만 적용되는지 모든 플레이어에 적용되는지 확인하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "도구 모음 버튼을 제거하면 영상도 삭제되나요?",
+        "answer": "아니요. 바로가기를 제거하면 도구 모음만 바뀌며 원본 파일은 삭제되지 않습니다. Close All 등은 별도의 명령으로, 현재 재생 영역의 내용을 닫습니다."
+      },
+      {
+        "question": "추가한 버튼이 보이지 않는 이유는 무엇인가요?",
+        "answer": "Added에 포함되어 있는지 확인하고 체크 표시로 저장한 다음 도구 모음을 스크롤하세요. 화면 방향과 추가된 버튼 수에 따라 한 번에 보이는 영역이 달라집니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo personalizar la barra de herramientas en {device}",
+    "description": "Añade, ordena y elimina botones de Split Screen Player en {device}. Encuentra funciones ocultas y mantén a mano los controles que más utilizas.",
+    "summary": "Los modos de comparación y los controles conjuntos pueden añadirse a la barra de herramientas. Elige las acciones y su orden mientras conservas abiertos tus archivos.",
+    "answer": "Abre More (…) → {customizeToolbar}. Añade acciones con + en Not Added, ordénalas en Added y guarda con la marca de verificación. De vuelta al reproductor, desplázate por la barra para ver los botones que quedan fuera.",
+    "requirement": "Personalizar la barra no desbloquea funciones de pago. Las acciones VIP necesitan el acceso Premium correspondiente.",
+    "steps": [
+      {
+        "title": "Abrir el editor de la barra",
+        "text": "Toca More (…) en el reproductor para abrir Settings y elige {customizeToolbar}. La vista previa superior muestra el orden; Added contiene los botones actuales.",
+        "caption": "Abre la personalización de la barra desde Settings."
+      },
+      {
+        "title": "Añadir una acción útil",
+        "text": "En Not Added, busca una acción y toca su + azul. El ejemplo añade {exampleAction}. VIP indica una función de pago; añadir su acceso directo no compra ni activa Premium.",
+        "caption": "Not Added muestra las acciones disponibles, sus botones + y las etiquetas VIP."
+      },
+      {
+        "title": "Revisar los botones añadidos",
+        "text": "Vuelve a Added. Mantén pulsado el tirador de la derecha y arrastra el botón para cambiar su posición. El menos rojo elimina un acceso directo. More Menu permanece disponible para volver a los ajustes.",
+        "caption": "Revisa Added, los tiradores para ordenar y los botones para quitar accesos."
+      },
+      {
+        "title": "Guardar y usar la barra",
+        "text": "Toca la marca de verificación superior derecha, cierra Settings y busca la acción en el reproductor. Desliza la barra si está fuera de la parte visible. En una distribución apaisada, la barra es vertical y se desplaza arriba o abajo.",
+        "caption": "Los vídeos permanecen abiertos y la barra muestra las acciones elegidas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Agrupar los controles por tarea",
+        "description": "Coloca juntas las acciones de reproducción, comparación y distribución. Empieza con unas pocas funciones útiles y añade otras cuando las necesites."
+      },
+      {
+        "title": "Leer el nombre y la ayuda",
+        "description": "Los iconos parecidos pueden actuar sobre elementos distintos. Consulta el botón de información cuando exista y comprueba si la acción afecta al vídeo seleccionado o a todos los reproductores."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Quitar un botón elimina mis vídeos?",
+        "answer": "No. Quitar un acceso directo solo cambia la barra, no los archivos originales. Close All es una orden distinta que cierra el contenido de las zonas de reproducción actuales."
+      },
+      {
+        "question": "¿Por qué no veo un botón que he añadido?",
+        "answer": "Comprueba que figure en Added, guarda con la marca de verificación y desplázate por la barra del reproductor. La parte visible depende de la orientación y del número de botones añadidos."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在{device}上自定义底部工具栏",
+    "description": "在{device}上添加、排序和移除 Split Screen Player 工具栏按钮，找到隐藏功能，把常用操作放在手边。",
+    "summary": "重叠对比、滑动对比和批量播放控制都可以放进首页工具栏。按使用习惯添加并排列按钮，调整工具栏时可以保留正在查看的素材。",
+    "answer": "打开更多（…）→{customizeToolbar}，在 Not Added 中点 + 添加功能，再到 Added 调整顺序，点勾号保存。回到播放器后，沿工具栏滑动即可找到未显示的按钮。",
+    "requirement": "自定义工具栏不会解锁付费功能。带 VIP 标记的动作仍需对应的高级会员权限。",
+    "steps": [
+      {
+        "title": "打开工具栏编辑页",
+        "text": "在播放器中点更多（…）进入 Settings，选择 {customizeToolbar}。顶部预览展示按钮顺序，Added 列表显示当前已添加的按钮。",
+        "caption": "从 Settings 进入首页底部工具栏自定义页面。"
+      },
+      {
+        "title": "添加一个常用功能",
+        "text": "选择 Not Added，找到需要的功能，点右侧蓝色 +。示例添加的是 {exampleAction}。VIP 标记表示会员功能，添加快捷按钮本身不会购买或激活会员。",
+        "caption": "Not Added 展示可添加的功能、加号及相应的 VIP 标记。"
+      },
+      {
+        "title": "检查已添加的按钮",
+        "text": "回到 Added，长按右侧拖动手柄可调整顺序。点红色减号移除不需要的快捷按钮。More Menu 入口会保留，方便随时重新进入设置。",
+        "caption": "在 Added 中查看按钮、排序手柄和移除按钮。"
+      },
+      {
+        "title": "保存并在首页使用",
+        "text": "点右上角勾号，关闭 Settings，回到播放器查找新按钮。按钮不在当前可见区域时，沿工具栏滑动。横屏布局的工具栏通常竖向排列，需要上下滑动。",
+        "caption": "素材保持打开状态，首页工具栏显示已选功能。"
+      }
+    ],
+    "features": [
+      {
+        "title": "按任务整理按钮",
+        "description": "将播放控制、对比和布局相关按钮放在一起。可以先添加几个常用功能，再按需要增加，减少查找按钮的时间。"
+      },
+      {
+        "title": "核对名称与功能说明",
+        "description": "相似图标可能作用于不同对象。可用时点信息按钮查看说明，并确认操作影响当前视频还是全部播放器。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "移除工具栏按钮会删除视频吗？",
+        "answer": "不会。移除快捷按钮只改变工具栏，不删除原始文件。“Close All”等属于另外的操作命令，用于关闭当前播放区域的内容。"
+      },
+      {
+        "question": "为什么添加后仍看不到按钮？",
+        "answer": "先确认按钮已出现在 Added 中，并用勾号保存，再滑动首页工具栏查找。当前可见的按钮数量会随屏幕方向和已添加数量改变。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Die untere Werkzeugleiste auf {device} anpassen",
+    "description": "Schaltflächen in Split Screen Player auf {device} hinzufügen, sortieren und entfernen. Finden Sie ausgeblendete Funktionen und halten Sie häufige Aktionen griffbereit.",
+    "summary": "Vergleichsmodi und gemeinsame Wiedergaberegler lassen sich in die Werkzeugleiste aufnehmen. Wählen und sortieren Sie Ihre Aktionen, während die geöffneten Medien erhalten bleiben.",
+    "answer": "Öffnen Sie More (…) → {customizeToolbar}. Fügen Sie unter Not Added mit + Aktionen hinzu, ordnen Sie diese unter Added und speichern Sie mit dem Häkchen. Scrollen Sie im Player durch die Leiste, um weitere Schaltflächen zu erreichen.",
+    "requirement": "Das Anpassen der Leiste schaltet keine Bezahlfunktionen frei. Mit VIP markierte Aktionen benötigen die entsprechende Premium-Berechtigung.",
+    "steps": [
+      {
+        "title": "Den Werkzeugleisteneditor öffnen",
+        "text": "Tippen Sie im Player auf More (…), um Settings zu öffnen, und wählen Sie {customizeToolbar}. Die obere Vorschau zeigt die Reihenfolge; Added enthält die bereits hinzugefügten Schaltflächen.",
+        "caption": "Die Werkzeugleistenanpassung in Settings öffnen."
+      },
+      {
+        "title": "Eine nützliche Aktion hinzufügen",
+        "text": "Suchen Sie unter Not Added eine Aktion und tippen Sie auf das blaue +. Im Beispiel wird {exampleAction} hinzugefügt. VIP kennzeichnet eine Bezahlfunktion; der neue Kurzbefehl kauft oder aktiviert Premium nicht.",
+        "caption": "Not Added zeigt verfügbare Aktionen, Pluszeichen und gegebenenfalls VIP-Markierungen."
+      },
+      {
+        "title": "Die hinzugefügten Schaltflächen prüfen",
+        "text": "Kehren Sie zu Added zurück. Halten Sie den rechten Griff gedrückt und ziehen Sie eine Schaltfläche an die gewünschte Position. Das rote Minus entfernt einen Kurzbefehl. More Menu bleibt als Zugang zu den Einstellungen erhalten.",
+        "caption": "Die Liste Added mit Griffen zum Sortieren und Schaltflächen zum Entfernen."
+      },
+      {
+        "title": "Speichern und im Player verwenden",
+        "text": "Tippen Sie oben rechts auf das Häkchen, schließen Sie Settings und suchen Sie die Aktion im Player. Wischen Sie entlang der Leiste, falls sie außerhalb des sichtbaren Bereichs liegt. Bei Querformatlayouts verläuft die Leiste vertikal und wird nach oben oder unten gescrollt.",
+        "caption": "Die Videos bleiben geöffnet, während die Werkzeugleiste die gewählten Aktionen zeigt."
+      }
+    ],
+    "features": [
+      {
+        "title": "Nach Aufgaben gruppieren",
+        "description": "Platzieren Sie Wiedergabe-, Vergleichs- und Layoutaktionen jeweils nebeneinander. Beginnen Sie mit wenigen häufig verwendeten Funktionen und ergänzen Sie diese nach Bedarf."
+      },
+      {
+        "title": "Namen und Hilfe lesen",
+        "description": "Ähnliche Symbole können unterschiedliche Ziele haben. Lesen Sie vorhandene Informationen und prüfen Sie, ob eine Aktion das ausgewählte Video oder alle Player betrifft."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Werden beim Entfernen eines Buttons Videos gelöscht?",
+        "answer": "Nein. Das Entfernen eines Kurzbefehls ändert nur die Werkzeugleiste, nicht die Quelldateien. Close All ist ein eigener Befehl, der die Inhalte der aktuellen Wiedergabebereiche schließt."
+      },
+      {
+        "question": "Warum sehe ich einen hinzugefügten Button nicht?",
+        "answer": "Prüfen Sie, ob er unter Added steht, speichern Sie mit dem Häkchen und scrollen Sie die Leiste im Player. Der sichtbare Abschnitt hängt von der Ausrichtung und der Anzahl der Schaltflächen ab."
+      }
+    ]
+  }
+}

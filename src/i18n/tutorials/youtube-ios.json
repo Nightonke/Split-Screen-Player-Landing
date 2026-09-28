@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで2つのYouTube動画を同時に見る方法",
+    "description": "対応するYouTube動画を独立したプレーヤーに移し、別のYouTubeページを開いて2本を同時に見ます。",
+    "summary": "最初の動画を独立したプレーヤーに残し、上のウェブページで別の動画を再生します。",
+    "answer": "最初のYouTube動画を再生し、Mini Playerで該当項目を選んで空き領域に開きます。その後、元のウェブ領域で2本目のURLを開いて再生します。",
+    "requirement": "Premiumと対応する検出ソースが必要です。iPhone 17 ProシミュレータでBlenderのBig Buck BunnyとSintelを使って再現しました。配信方式、広告、ログインや保護により他の動画では利用できない場合があります。",
+    "steps": [
+      {
+        "title": "最初のYouTube動画を開く",
+        "text": "2分割を選びます。上の領域で＋ → Web/StreamからYouTubeの視聴ページURLをWebpageとして開き、再生します。下は空けておきます。",
+        "caption": "上のページでBig Buck Bunnyを再生し、下は空いています。"
+      },
+      {
+        "title": "検出結果を確認する",
+        "text": "アドレス横のMini Playerをタップします。数字は検出数です。タイトル、長さ、解像度で目的の動画を確認します。検出されても再生できるとは限りません。",
+        "caption": "今回の検出項目は10:35、640×360です。"
+      },
+      {
+        "title": "別の領域に開く",
+        "text": "該当項目をタップします。空き領域があれば自動で開きます。なければChoose Playback Locationで置き換える領域を選びます。",
+        "caption": "元のページを上に残し、下に独立したプレーヤーが開きます。"
+      },
+      {
+        "title": "ページで別の動画を再生する",
+        "text": "下の独立プレーヤーを残します。上のアドレス → Web/Streamから2本目のYouTube視聴URLを開いて再生します。例では上がSintel、下がBig Buck Bunnyです。",
+        "caption": "SintelとBig Buck Bunnyが別々の領域で同時に再生されています。"
+      }
+    ],
+    "features": [
+      {
+        "title": "再生可能なソースが必要です",
+        "description": "URLの期限、ログイン、保護やサーバーの動作により再生できない場合があります。元のページで再生し直してから再試行します。制限されたコンテンツへのアクセス権は付与されません。"
+      },
+      {
+        "title": "音声は片方にする",
+        "description": "両方から音が出る場合は、ページかプレーヤーをミュートします。再生位置は独立しています。精密な比較には対応するローカルファイルとSync Pointを使います。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mini Playerが空なのはなぜですか？",
+        "answer": "ページで動画を再生して再確認します。対応ソースを公開しないサイトもあります。検出項目が広告の場合もあるため確認してください。"
+      },
+      {
+        "question": "YouTubeページを2つ開くだけではだめですか？",
+        "answer": "iOSでは複数のウェブ領域の動画同時再生に制限があるとアプリが案内します。この手順は1本目を独立したプレーヤーに移し、2本目だけをページに残します。ソースの互換性は必要です。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comment regarder deux vidéos YouTube à la fois sur iPhone ou iPad",
+    "description": "Placez une vidéo YouTube compatible dans un lecteur distinct, puis ouvrez une seconde page YouTube sur iPhone ou iPad.",
+    "summary": "Gardez la première vidéo dans un lecteur indépendant pendant que la seconde joue dans la page au-dessus.",
+    "answer": "Lancez la première vidéo YouTube, touchez Mini Player et choisissez le bon élément pour l’ouvrir dans la zone libre. Ouvrez ensuite la seconde URL dans la zone web d’origine et lancez-la.",
+    "requirement": "Premium et une source détectée compatible sont nécessaires. Le flux a été reproduit avec Big Buck Bunny et Sintel de Blender sur le simulateur iPhone 17 Pro. Diffusion, publicités, connexion et protection peuvent affecter d’autres vidéos ; tous les liens ne sont pas garantis.",
+    "steps": [
+      {
+        "title": "Ouvrir la première vidéo YouTube",
+        "text": "Choisissez deux zones. En haut, utilisez + → Web/Stream pour ouvrir l’URL de visionnage YouTube en mode Webpage et lancez la vidéo. Gardez la zone inférieure vide.",
+        "caption": "Big Buck Bunny joue dans la page supérieure, avec une zone libre en dessous."
+      },
+      {
+        "title": "Vérifier la vidéo détectée",
+        "text": "Touchez Mini Player près de l’adresse. Le nombre indique les vidéos détectées. Vérifiez titre, durée et dimensions. La détection ne garantit pas la lecture.",
+        "caption": "L’entrée détectée indique ici 10:35 et 640×360."
+      },
+      {
+        "title": "Ouvrir une autre zone",
+        "text": "Touchez le bon élément. Une zone vide reçoit automatiquement la vidéo. Sinon, Choose Playback Location permet de choisir le contenu à remplacer.",
+        "caption": "La page reste au-dessus du lecteur indépendant."
+      },
+      {
+        "title": "Lire une autre vidéo dans la page",
+        "text": "Conservez le lecteur inférieur. Touchez l’adresse en haut → Web/Stream et saisissez la seconde URL YouTube. Lancez-la dans la page. Sintel joue ici au-dessus de Big Buck Bunny, qui continue en bas.",
+        "caption": "Sintel et Big Buck Bunny jouent dans deux zones différentes."
+      }
+    ],
+    "features": [
+      {
+        "title": "La source doit rester lisible",
+        "description": "Une adresse expirée, l’authentification, la protection ou le serveur peuvent empêcher la lecture. Relancez la vidéo depuis sa page avant de réessayer. Cette fonction n’accorde aucun accès à un contenu restreint."
+      },
+      {
+        "title": "Garder une seule source sonore",
+        "description": "Coupez le son de la page ou du lecteur si les deux sont audibles. Les positions sont indépendantes. Pour une comparaison précise, utilisez des fichiers locaux compatibles et Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi Mini Player est-il vide ?",
+        "answer": "Lancez une vidéo dans la page et vérifiez à nouveau. Certains sites n’exposent pas de source compatible. Une entrée détectée peut aussi être une publicité."
+      },
+      {
+        "question": "Pourquoi ne pas ouvrir simplement deux pages YouTube ?",
+        "answer": "L’app signale une limite de lecture simultanée dans plusieurs zones web sur iOS. Ce flux déplace la première vidéo dans un lecteur indépendant et garde seulement la seconde dans une page. La compatibilité de la source reste nécessaire."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to watch two YouTube videos at once on iPhone or iPad",
+    "description": "Move a compatible YouTube video into a separate player, then open another YouTube page to watch two videos on iPhone or iPad.",
+    "summary": "Keep the first YouTube video in an independent player while a second video plays in the webpage above.",
+    "answer": "Open the first YouTube page and start playback. Tap Mini Player, choose the matching detected video, and let it open in the empty region. Then open and play the second YouTube URL in the original web region.",
+    "requirement": "This workflow requires Premium and a compatible detected source. It was reproduced with Blender’s Big Buck Bunny and Sintel in the iPhone 17 Pro simulator. YouTube delivery, ads, login and protection can affect other videos; it is not a guarantee for every link.",
+    "steps": [
+      {
+        "title": "Open the first YouTube video",
+        "text": "Choose a two-region layout. In the upper region, tap + → Web/Stream and open the first YouTube watch-page URL as Webpage. Start playback in the page; the lower region should remain empty.",
+        "caption": "Big Buck Bunny plays in the upper webpage, with an empty region below."
+      },
+      {
+        "title": "Inspect the detected video",
+        "text": "Tap Mini Player beside the web address. Its number is the detected count. Match the title, duration and dimensions before choosing an item; detection alone does not guarantee playback.",
+        "caption": "The detected entry is 10:35 and 640×360 in this session."
+      },
+      {
+        "title": "Open it in another region",
+        "text": "Tap the matching item. An empty region receives the video automatically. If none is empty, Choose Playback Location asks which region’s current content to replace.",
+        "caption": "The source page stays above the independent video player."
+      },
+      {
+        "title": "Play a different video in the webpage",
+        "text": "Keep the transferred video in the lower player. Tap the upper region’s web address → Web/Stream and enter the second YouTube watch URL. Play it in the page. In the example, Sintel plays above while Big Buck Bunny continues below.",
+        "caption": "Sintel and Big Buck Bunny are both playing in different regions."
+      }
+    ],
+    "features": [
+      {
+        "title": "The source must remain playable",
+        "description": "Expiring media addresses, authentication, content protection and server behavior can prevent playback. Return to the source page and start the video again before retrying. This feature does not grant access to restricted content."
+      },
+      {
+        "title": "Keep one audio source",
+        "description": "Mute the webpage or the independent player if both produce sound. The two playheads are independent; use compatible local files and Sync Point for precise comparison."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is Mini Player empty?",
+        "answer": "Start a video in the page and check again. Some sites do not expose a compatible source. A detected entry may also be an advertisement rather than the video you wanted."
+      },
+      {
+        "question": "Why not just open two YouTube webpages?",
+        "answer": "The app warns about simultaneous playback in multiple web regions on iOS. This workflow moves the first video into an independent player and leaves only the second in a webpage. It still depends on source compatibility."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como assistir a dois vídeos do YouTube ao mesmo tempo no iPhone ou iPad",
+    "description": "Coloque um vídeo compatível do YouTube em um player separado e abra outra página do YouTube no iPhone ou iPad.",
+    "summary": "Mantenha o primeiro vídeo em um player independente enquanto o segundo é reproduzido na página acima.",
+    "answer": "Reproduza o primeiro vídeo, toque em Mini Player e escolha o item correto para abrir na área vazia. Depois abra e reproduza a segunda URL na área web original.",
+    "requirement": "É necessário Premium e uma fonte detectada compatível. O fluxo foi reproduzido com Big Buck Bunny e Sintel, da Blender, no simulador iPhone 17 Pro. Distribuição, anúncios, login e proteção podem afetar outros vídeos. Nem todo link tem funcionamento garantido.",
+    "steps": [
+      {
+        "title": "Abra o primeiro vídeo do YouTube",
+        "text": "Escolha duas áreas. Na de cima, use + → Web/Stream para abrir a URL de exibição do YouTube como Webpage e inicie o vídeo. Deixe a área inferior vazia.",
+        "caption": "Big Buck Bunny é reproduzido acima, com uma área vazia embaixo."
+      },
+      {
+        "title": "Confira o vídeo detectado",
+        "text": "Toque em Mini Player junto ao endereço. O número indica quantos vídeos foram detectados. Confira título, duração e resolução. A detecção não garante a reprodução.",
+        "caption": "Nesta sessão, o item detectado indica 10:35 e 640×360."
+      },
+      {
+        "title": "Abra em outra área",
+        "text": "Toque no item correto. Uma área vazia recebe o vídeo automaticamente. Se não houver espaço, Choose Playback Location permite escolher qual conteúdo substituir.",
+        "caption": "A página continua acima do player independente."
+      },
+      {
+        "title": "Reproduza outro vídeo na página",
+        "text": "Mantenha o player inferior. Toque no endereço de cima → Web/Stream e insira a segunda URL do YouTube. Reproduza na página. No exemplo, Sintel aparece acima enquanto Big Buck Bunny continua abaixo.",
+        "caption": "Sintel e Big Buck Bunny são reproduzidos em áreas diferentes."
+      }
+    ],
+    "features": [
+      {
+        "title": "A fonte precisa continuar reproduzível",
+        "description": "Endereços expirados, login, proteção e comportamento do servidor podem impedir a reprodução. Volte à página e inicie o vídeo antes de tentar novamente. O recurso não concede acesso a conteúdo restrito."
+      },
+      {
+        "title": "Mantenha apenas uma fonte de som",
+        "description": "Silencie a página ou o player se ambos tiverem áudio. As posições são independentes. Para comparar com precisão, use arquivos locais compatíveis e Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que Mini Player está vazio?",
+        "answer": "Inicie um vídeo na página e confira novamente. Alguns sites não oferecem uma fonte compatível. Um item detectado também pode ser um anúncio."
+      },
+      {
+        "question": "Por que não abrir apenas duas páginas do YouTube?",
+        "answer": "O app avisa sobre limites de reprodução simultânea em várias áreas web no iOS. Este fluxo move o primeiro vídeo para um player independente e mantém só o segundo na página. A compatibilidade da fonte continua necessária."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 YouTube 영상 두 개를 동시에 보는 방법",
+    "description": "호환되는 YouTube 영상을 독립 플레이어로 옮긴 뒤 다른 YouTube 페이지를 열어 두 영상을 함께 보세요.",
+    "summary": "첫 영상을 독립 플레이어에 두고 위쪽 웹페이지에서 두 번째 영상을 재생합니다.",
+    "answer": "첫 YouTube 영상을 재생하고 Mini Player에서 맞는 항목을 선택해 빈 영역에 여세요. 원래 웹 영역에서 두 번째 URL을 열어 재생합니다.",
+    "requirement": "Premium과 호환되는 감지 소스가 필요합니다. iPhone 17 Pro 시뮬레이터에서 Blender의 Big Buck Bunny와 Sintel로 재현했습니다. 배포 방식, 광고, 로그인, 보호 기능에 따라 다른 영상에서는 작동하지 않을 수 있습니다.",
+    "steps": [
+      {
+        "title": "첫 YouTube 영상 열기",
+        "text": "두 영역 레이아웃을 선택하세요. 위쪽의 + → Web/Stream에서 첫 YouTube 시청 페이지 주소를 Webpage로 열어 재생합니다. 아래쪽은 비워 두세요.",
+        "caption": "위쪽 웹페이지에서 Big Buck Bunny가 재생되며 아래쪽은 비어 있습니다."
+      },
+      {
+        "title": "감지된 영상 확인하기",
+        "text": "주소 옆 Mini Player를 누르세요. 숫자는 감지된 개수입니다. 제목, 길이, 해상도로 원하는 영상을 확인하세요. 감지되었다고 재생이 보장되지는 않습니다.",
+        "caption": "이번 감지 항목은 10:35, 640×360입니다."
+      },
+      {
+        "title": "다른 영역에서 열기",
+        "text": "일치하는 항목을 누르세요. 빈 영역이 있으면 자동으로 열립니다. 없으면 Choose Playback Location에서 현재 내용을 교체할 영역을 선택합니다.",
+        "caption": "원본 페이지 아래에 독립된 영상 플레이어가 열립니다."
+      },
+      {
+        "title": "웹페이지에서 다른 영상 재생하기",
+        "text": "아래쪽 독립 플레이어를 유지하세요. 위쪽 주소 → Web/Stream에서 두 번째 YouTube 시청 주소를 열고 재생합니다. 예시에서는 위에 Sintel, 아래에 Big Buck Bunny가 계속 재생됩니다.",
+        "caption": "Sintel과 Big Buck Bunny가 서로 다른 영역에서 동시에 재생됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "재생 가능한 원본이 필요합니다",
+        "description": "주소 만료, 로그인, 콘텐츠 보호 및 서버 동작 때문에 재생하지 못할 수 있습니다. 원본 페이지에서 영상을 다시 재생한 뒤 시도하세요. 제한된 콘텐츠의 접근 권한을 제공하는 기능은 아닙니다."
+      },
+      {
+        "title": "소리는 한쪽만 켜기",
+        "description": "양쪽에서 소리가 나면 웹페이지나 독립 플레이어를 음소거하세요. 재생 위치는 서로 독립적입니다. 정확한 비교에는 호환되는 로컬 파일과 Sync Point를 사용하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mini Player가 비어 있는 이유는 무엇인가요?",
+        "answer": "페이지에서 영상을 재생한 뒤 다시 확인하세요. 일부 사이트는 호환 소스를 제공하지 않습니다. 감지 항목이 광고일 수도 있으니 확인하세요."
+      },
+      {
+        "question": "YouTube 페이지 두 개를 열면 안 되나요?",
+        "answer": "iOS에서는 여러 웹 영역의 영상 동시 재생이 제한된다는 안내가 표시됩니다. 이 방법은 첫 영상을 독립 플레이어로 옮기고 두 번째만 웹페이지에 둡니다. 소스 호환성은 여전히 필요합니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo ver dos vídeos de YouTube a la vez en iPhone o iPad",
+    "description": "Pasa un vídeo compatible de YouTube a un reproductor independiente y abre otra página de YouTube en iPhone o iPad.",
+    "summary": "Mantén el primer vídeo en un reproductor independiente mientras el segundo se reproduce en la página superior.",
+    "answer": "Reproduce el primer vídeo, toca Mini Player y elige el elemento correcto para abrirlo en la zona vacía. Después abre y reproduce la segunda URL en la zona web original.",
+    "requirement": "Se requiere Premium y una fuente detectada compatible. El flujo se reprodujo con Big Buck Bunny y Sintel de Blender en el simulador iPhone 17 Pro. La distribución, los anuncios, el inicio de sesión y la protección pueden afectar a otros vídeos; no se garantiza cada enlace.",
+    "steps": [
+      {
+        "title": "Abre el primer vídeo de YouTube",
+        "text": "Elige dos zonas. Arriba, usa + → Web/Stream para abrir la URL de visualización de YouTube como Webpage y reproduce el vídeo. Deja vacía la zona inferior.",
+        "caption": "Big Buck Bunny se reproduce arriba, con una zona vacía debajo."
+      },
+      {
+        "title": "Comprueba el vídeo detectado",
+        "text": "Toca Mini Player junto a la dirección. El número indica los vídeos detectados. Revisa título, duración y resolución. La detección no garantiza la reproducción.",
+        "caption": "En esta sesión el elemento detectado indica 10:35 y 640×360."
+      },
+      {
+        "title": "Ábrelo en otra zona",
+        "text": "Toca el elemento correcto. Si hay una zona vacía, se abre allí automáticamente. Si no, Choose Playback Location permite elegir qué contenido sustituir.",
+        "caption": "La página permanece encima del reproductor independiente."
+      },
+      {
+        "title": "Reproduce otro vídeo en la página",
+        "text": "Conserva el reproductor inferior. Toca la dirección superior → Web/Stream e introduce la segunda URL de YouTube. Reprodúcela en la página. En el ejemplo, Sintel aparece arriba y Big Buck Bunny continúa abajo.",
+        "caption": "Sintel y Big Buck Bunny se reproducen en zonas distintas."
+      }
+    ],
+    "features": [
+      {
+        "title": "La fuente debe seguir disponible",
+        "description": "Las direcciones caducadas, el inicio de sesión, la protección y el servidor pueden impedir la reproducción. Vuelve a la página y reproduce el vídeo antes de reintentar. La función no concede acceso a contenido restringido."
+      },
+      {
+        "title": "Mantén una sola fuente de audio",
+        "description": "Silencia la página o el reproductor si ambos tienen sonido. Las posiciones son independientes. Para comparar con precisión, usa archivos locales compatibles y Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué Mini Player está vacío?",
+        "answer": "Reproduce un vídeo en la página y vuelve a comprobarlo. Algunos sitios no ofrecen una fuente compatible. Un elemento detectado también puede ser un anuncio."
+      },
+      {
+        "question": "¿Por qué no abrir simplemente dos páginas de YouTube?",
+        "answer": "La app avisa de límites de reproducción simultánea en varias zonas web de iOS. Este flujo mueve el primer vídeo a un reproductor independiente y deja solo el segundo en una página. Sigue siendo necesaria una fuente compatible."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上同时观看两个 YouTube 视频",
+    "description": "将兼容的 YouTube 视频转入独立播放器，再打开另一个 YouTube 网页，在 iPhone 或 iPad 上同时观看两段视频。",
+    "summary": "第一段 YouTube 视频放在独立播放器中，第二段保留在上方网页内播放。",
+    "answer": "先打开并播放第一段 YouTube 视频，点 Mini Player 选择匹配的检测条目，自动放入空白区域。然后在原来的网页区域打开第二个 YouTube 链接并播放。",
+    "requirement": "需要 Premium，且检测来源必须兼容。本流程已在 iPhone 17 Pro 模拟器用 Blender 的 Big Buck Bunny 与 Sintel 复现。YouTube 的分发方式、广告、登录和保护可能影响其他视频，不保证每个链接都适用。",
+    "steps": [
+      {
+        "title": "打开第一段 YouTube 视频",
+        "text": "选择双区布局。在上方点 + → Web/Stream，将第一段 YouTube 观看页地址按 Webpage 打开并播放，下方保持空白。",
+        "caption": "上方网页播放 Big Buck Bunny，下方留有空白区域。"
+      },
+      {
+        "title": "查看检测结果",
+        "text": "点地址旁的 Mini Player，数字表示检测数量。根据标题、时长和分辨率选择目标；检测到并不代表一定能播放。",
+        "caption": "本次检测条目为 10:35、640×360。"
+      },
+      {
+        "title": "在另一区域打开",
+        "text": "点匹配的条目。有空白区域时自动放入；没有空位时，Choose Playback Location 会让你选择要替换现有内容的区域。",
+        "caption": "上方保留原网页，下方出现独立播放器。"
+      },
+      {
+        "title": "在网页中播放另一段视频",
+        "text": "保留下方独立播放器。点上方网页地址 → Web/Stream，输入第二段 YouTube 观看页链接并播放。本例上方为 Sintel，下方 Big Buck Bunny 继续播放。",
+        "caption": "Sintel 和 Big Buck Bunny 正在不同区域同时播放。"
+      }
+    ],
+    "features": [
+      {
+        "title": "来源需要保持可播放",
+        "description": "过期地址、登录状态、内容保护和服务器行为都可能影响播放。失败时回到来源页，重新播放后再试；此功能不会授予受限内容的访问权限。"
+      },
+      {
+        "title": "保留一路声音",
+        "description": "两处都有声音时，将网页或独立播放器静音。两条时间线彼此独立；需要精确对比时，使用兼容的本地文件和 Sync Point。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么 Mini Player 没有内容？",
+        "answer": "先在网页中开始播放，再检查列表。有些网站不会提供兼容的媒体来源；检测条目也可能是广告，请核对目标。"
+      },
+      {
+        "question": "为什么不直接打开两个 YouTube 网页？",
+        "answer": "iOS 打开多个网页区域时，App 会提示网页视频同时播放受限。本流程将第一段转入独立播放器，仅让第二段留在网页中；能否播放仍取决于来源兼容性。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Zwei YouTube-Videos gleichzeitig auf dem iPhone oder iPad ansehen",
+    "description": "Öffnen Sie ein kompatibles YouTube-Video in einem eigenen Player und anschließend eine zweite YouTube-Seite auf dem iPhone oder iPad.",
+    "summary": "Das erste Video bleibt in einem unabhängigen Player, während das zweite auf der Webseite darüber läuft.",
+    "answer": "Starten Sie das erste YouTube-Video. Wählen Sie in Mini Player den passenden Treffer für den freien Bereich. Öffnen und starten Sie anschließend die zweite URL im ursprünglichen Webbereich.",
+    "requirement": "Premium und eine kompatible erkannte Quelle sind erforderlich. Der Ablauf wurde mit Blenders Big Buck Bunny und Sintel im iPhone-17-Pro-Simulator reproduziert. Auslieferung, Werbung, Anmeldung und Schutz können andere Videos beeinflussen. Nicht jeder Link funktioniert garantiert.",
+    "steps": [
+      {
+        "title": "Das erste YouTube-Video öffnen",
+        "text": "Wählen Sie zwei Bereiche. Öffnen Sie oben über + → Web/Stream die YouTube-Wiedergabeseite als Webpage und starten Sie das Video. Lassen Sie den unteren Bereich leer.",
+        "caption": "Big Buck Bunny läuft auf der oberen Webseite; darunter ist ein freier Bereich."
+      },
+      {
+        "title": "Den erkannten Treffer prüfen",
+        "text": "Tippen Sie neben der Adresse auf Mini Player. Die Zahl zeigt die Trefferanzahl. Prüfen Sie Titel, Dauer und Auflösung. Erkennung garantiert keine erfolgreiche Wiedergabe.",
+        "caption": "Der erkannte Eintrag zeigt hier 10:35 und 640×360."
+      },
+      {
+        "title": "In einem anderen Bereich öffnen",
+        "text": "Tippen Sie auf den passenden Eintrag. Ein leerer Bereich nimmt das Video automatisch auf. Andernfalls wählen Sie unter Choose Playback Location den zu ersetzenden Bereich.",
+        "caption": "Die Quellseite bleibt über dem unabhängigen Player sichtbar."
+      },
+      {
+        "title": "Ein anderes Video auf der Webseite abspielen",
+        "text": "Behalten Sie den unteren Player. Tippen Sie oben auf die Adresse → Web/Stream und geben Sie die zweite YouTube-URL ein. Starten Sie sie auf der Seite. Hier läuft Sintel oben, während Big Buck Bunny unten weiterläuft.",
+        "caption": "Sintel und Big Buck Bunny laufen gleichzeitig in verschiedenen Bereichen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Die Quelle muss abspielbar bleiben",
+        "description": "Abgelaufene Adressen, Anmeldung, Schutzmechanismen oder Serververhalten können die Wiedergabe verhindern. Starten Sie das Video auf der Quellseite neu und versuchen Sie es erneut. Die Funktion gewährt keine Zugriffsrechte auf eingeschränkte Inhalte."
+      },
+      {
+        "title": "Nur eine Tonquelle nutzen",
+        "description": "Schalten Sie die Seite oder den Player stumm, wenn beide Ton liefern. Die Positionen sind unabhängig. Für genaue Vergleiche nutzen Sie kompatible lokale Dateien und Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum ist Mini Player leer?",
+        "answer": "Starten Sie ein Video auf der Seite und prüfen Sie erneut. Manche Seiten bieten keine kompatible Quelle. Ein erkannter Eintrag kann auch Werbung sein."
+      },
+      {
+        "question": "Warum nicht einfach zwei YouTube-Seiten öffnen?",
+        "answer": "Die App weist auf Grenzen gleichzeitiger Videowiedergabe in mehreren iOS-Webbereichen hin. Dieser Ablauf verlagert das erste Video in einen eigenen Player und lässt nur das zweite auf einer Webseite. Die Quelle muss weiterhin kompatibel sein."
+      }
+    ]
+  }
+}

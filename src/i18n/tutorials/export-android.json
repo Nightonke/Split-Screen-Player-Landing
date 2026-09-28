@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで分割画面の動画を書き出す方法",
+    "description": "Androidの分割画面を1本の動画にします。時間範囲、構図、解像度、音声を確認し、書き出したファイルを保存します。",
+    "summary": "現在の動画配置を、アプリ以外でも再生・共有できる1本の動画に変換します。",
+    "answer": "ツールバーのExport Split-Screen Videoを開き、範囲と構図、出力設定を確認します。Start Exportを実行し、完成後にGalleryまたはFilesへ保存します。",
+    "requirement": "例では無音のローカルゴルフ動画2本を720p・30 fpsで書き出します。高解像度やカスタム音声などの高度な設定にはPremiumが必要な場合があります。",
+    "steps": [
+      {
+        "title": "開始位置と長さを確認する",
+        "text": "配置を整えて書き出し画面を開きます。Fullが選ばれていてもStartとDurationを確認してください。現在の再生位置が範囲に影響する場合があります。",
+        "caption": "書き出し範囲に開始位置と利用可能な長さが表示されます。"
+      },
+      {
+        "title": "各動画の構図を調整する",
+        "text": "全体を残すにはFit、領域いっぱいに切り抜くにはFillを選びます。必要ならAdjust Cropを使い、短い動画が終わった後の表示も選びます。",
+        "caption": "Fit、Fill、切り抜き調整で各素材の見え方を決めます。"
+      },
+      {
+        "title": "出力と音声を選ぶ",
+        "text": "Current Layoutで現在の配置を使用します。例では720p、30 fps、推奨ビットレート、All Unmuted Videosを選びます。このゴルフ素材には音声がないという警告も確認します。",
+        "caption": "出力画面には配置、解像度、フレームレート、音声の設定があります。"
+      },
+      {
+        "title": "書き出して保存する",
+        "text": "Start Exportをタップして確認を読み、Export completeまで待ちます。プレビュー後にSave to Galleryなどで保存し、ファイルを開いて両領域と長さを確認します。",
+        "caption": "完成した動画をプレビューして保存できます。"
+      }
+    ],
+    "features": [
+      {
+        "title": "画面の比率が出力サイズに反映される",
+        "description": "例の縦長キャンバスでは380 × 720の動画が生成されました。720pを選んでも、すべての配置が16:9になるわけではありません。"
+      },
+      {
+        "title": "無音素材から音声は作られない",
+        "description": "All Unmuted Videosは元の素材にある音声を使います。ミュートや音声選択で無音動画に音楽が追加されることはありません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "ワークスペース保存と書き出しは同じですか？",
+        "answer": "異なります。ブックマークは操作可能な配置を復元し、書き出しは他のプレーヤーで開ける新しい動画を作ります。"
+      },
+      {
+        "question": "すべての書き出し設定にPremiumが必要ですか？",
+        "answer": "いいえ。基本出力と高度な設定は分かれています。制限表示を確認してから高解像度、高フレームレート、カスタム音声などを選んでください。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Exporter une vidéo en écran partagé sur Android",
+    "description": "Transformez votre disposition Android en une seule vidéo. Vérifiez la plage temporelle, le cadrage, la résolution et le son, puis enregistrez le fichier.",
+    "summary": "Créez un fichier vidéo unique à partir de la disposition visible pour le partager ou le regarder hors de l’application.",
+    "answer": "Ouvrez Export Split-Screen Video dans la barre d’outils. Réglez la plage, le cadrage et la sortie, touchez Start Export puis enregistrez dans Gallery ou Files.",
+    "requirement": "L’exemple exporte deux vidéos de golf locales muettes en 720p à 30 fps. Les réglages avancés, dont les hautes résolutions et l’audio personnalisé, peuvent nécessiter Premium.",
+    "steps": [
+      {
+        "title": "Vérifier le début et la durée",
+        "text": "Après avoir disposé vos vidéos, ouvrez l’exportateur. Contrôlez Start et Duration même avec Full sélectionné : la position de lecture actuelle peut influencer la plage disponible.",
+        "caption": "La plage d’exportation montre le début et la durée disponible."
+      },
+      {
+        "title": "Vérifier le cadrage de chaque vidéo",
+        "text": "Choisissez Fit pour conserver l’image entière ou Fill pour remplir la zone en recadrant. Utilisez Adjust Crop si besoin et choisissez l’affichage après la fin d’un extrait plus court.",
+        "caption": "Fit, Fill et le recadrage définissent l’apparence de chaque source."
+      },
+      {
+        "title": "Choisir la sortie et le son",
+        "text": "Current Layout conserve la disposition. L’exemple utilise 720p, 30 fps, le débit recommandé et All Unmuted Videos. Vérifiez l’avertissement : ces vidéos de golf n’ont pas de son.",
+        "caption": "Le panneau propose disposition, résolution, fréquence d’images et audio."
+      },
+      {
+        "title": "Exporter, prévisualiser et enregistrer",
+        "text": "Touchez Start Export, lisez la confirmation et attendez Export complete. Prévisualisez, choisissez Save to Gallery ou une autre destination, puis ouvrez le fichier pour vérifier les deux zones et la durée.",
+        "caption": "L’exportation terminée peut être prévisualisée et enregistrée."
+      }
+    ],
+    "features": [
+      {
+        "title": "La résolution suit la forme du canevas",
+        "description": "L’exemple produit une vidéo de 380 × 720, car la composition est verticale. Choisir 720p ne force pas toutes les dispositions au format 16:9."
+      },
+      {
+        "title": "Des sources muettes restent muettes",
+        "description": "All Unmuted Videos utilise uniquement l’audio présent dans les sources. Les réglages de son ne créent pas de bande-son absente."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Enregistrer un espace équivaut-il à exporter ?",
+        "answer": "Non. Un signet restaure une disposition modifiable. L’exportation génère un nouveau fichier vidéo utilisable dans d’autres lecteurs."
+      },
+      {
+        "question": "Tous les réglages nécessitent-ils Premium ?",
+        "answer": "Non. La sortie de base est distincte des options avancées. Vérifiez les indications de restriction avant de choisir une résolution, une fréquence ou un audio personnalisé."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to export a split-screen video on Android",
+    "description": "Render your Android split-screen layout as one video. Check the time range, framing, resolution and audio, then export and save the finished file.",
+    "summary": "Turn the visible video arrangement into a single playable file for sharing or reviewing outside the app.",
+    "answer": "Open Export Split-Screen Video from the toolbar. Check the range and clip framing, select output settings, tap Start Export, and save the completed result to Gallery or Files.",
+    "requirement": "This walkthrough exports two silent local golf clips at 720p and 30 fps. Advanced options, including higher resolutions and custom audio, can require Premium.",
+    "steps": [
+      {
+        "title": "Check the start and duration",
+        "text": "Open the exporter after arranging your videos. Review the Start position and Duration even when Full is selected, because the current playback position can affect the available range.",
+        "caption": "The export range shows the start position and available duration."
+      },
+      {
+        "title": "Inspect each clip’s framing",
+        "text": "In the framing controls, choose Fit to retain the full image or Fill to crop to the region. Use Adjust Crop if needed, and choose what happens after a shorter clip ends.",
+        "caption": "Fit, Fill, and crop adjustment control how each source appears."
+      },
+      {
+        "title": "Choose output and audio settings",
+        "text": "Use Current Layout to retain the arrangement. This example selects 720p, 30 fps, the recommended bitrate, and All Unmuted Videos. Check the audio warning: these golf files contain no sound.",
+        "caption": "The output panel shows layout, resolution, frame rate, and audio choices."
+      },
+      {
+        "title": "Export, preview, and save",
+        "text": "Tap Start Export, review the confirmation, and wait for Export complete. Preview the result, then choose Save to Gallery or another destination. Open the saved file to verify both panes and the duration.",
+        "caption": "The completed export is ready to preview and save."
+      }
+    ],
+    "features": [
+      {
+        "title": "Resolution follows the canvas shape",
+        "description": "The example produced a 380 × 720 video because the split-screen canvas is tall. A 720p selection does not force every layout into a 16:9 frame."
+      },
+      {
+        "title": "Silent sources produce silent output",
+        "description": "All Unmuted Videos can only use audio that exists in the sources. Muting and audio selection cannot create a soundtrack for silent clips."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is saving the workspace the same as exporting?",
+        "answer": "No. A bookmark restores the editable arrangement. Export renders a new video file that other players can open."
+      },
+      {
+        "question": "Do all export settings require Premium?",
+        "answer": "No. The basic output path is separate from advanced options. The app marks restricted settings; check them before choosing higher resolution, frame rate, or custom audio."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como exportar um vídeo em tela dividida no Android",
+    "description": "Transforme seu layout do Android em um vídeo. Confira o intervalo, o enquadramento, a resolução e o áudio antes de salvar o arquivo final.",
+    "summary": "Converta a organização visível em um único arquivo de vídeo para compartilhar ou assistir fora do aplicativo.",
+    "answer": "Abra Export Split-Screen Video na barra. Confira o intervalo e o enquadramento, escolha a saída, toque em Start Export e salve em Gallery ou Files.",
+    "requirement": "O exemplo exporta dois vídeos locais de golfe sem som em 720p e 30 fps. Opções avançadas, como resoluções maiores e áudio personalizado, podem exigir Premium.",
+    "steps": [
+      {
+        "title": "Conferir o início e a duração",
+        "text": "Organize os vídeos e abra a exportação. Confira Start e Duration mesmo com Full selecionado: a posição atual de reprodução pode afetar o intervalo disponível.",
+        "caption": "O intervalo mostra a posição inicial e a duração disponível."
+      },
+      {
+        "title": "Conferir o enquadramento de cada vídeo",
+        "text": "Escolha Fit para preservar a imagem inteira ou Fill para preencher a área com corte. Use Adjust Crop se necessário e escolha o que acontece após um vídeo mais curto terminar.",
+        "caption": "Fit, Fill e o ajuste de corte controlam a aparência de cada fonte."
+      },
+      {
+        "title": "Escolher a saída e o áudio",
+        "text": "Current Layout mantém a organização. O exemplo usa 720p, 30 fps, taxa de bits recomendada e All Unmuted Videos. Confira o aviso: esses vídeos de golfe não têm som.",
+        "caption": "O painel oferece layout, resolução, taxa de quadros e áudio."
+      },
+      {
+        "title": "Exportar, conferir e salvar",
+        "text": "Toque em Start Export, leia a confirmação e espere Export complete. Veja a prévia, escolha Save to Gallery ou outro destino e abra o arquivo para conferir as duas áreas e a duração.",
+        "caption": "A exportação concluída está pronta para prévia e salvamento."
+      }
+    ],
+    "features": [
+      {
+        "title": "A resolução segue o formato da tela",
+        "description": "O exemplo gera um vídeo de 380 × 720 porque a composição é vertical. Escolher 720p não força todos os layouts ao formato 16:9."
+      },
+      {
+        "title": "Fontes silenciosas continuam sem som",
+        "description": "All Unmuted Videos só utiliza o áudio existente nas fontes. Silenciar ou selecionar áudio não cria uma trilha sonora para vídeos sem som."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Salvar o espaço de trabalho é o mesmo que exportar?",
+        "answer": "Não. Um favorito restaura um layout editável. Exportar gera um vídeo novo que outros players podem abrir."
+      },
+      {
+        "question": "Todos os ajustes exigem Premium?",
+        "answer": "Não. A saída básica é separada das opções avançadas. Confira as indicações antes de escolher resolução, taxa de quadros ou áudio personalizado mais avançados."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 분할 화면 영상을 내보내는 방법",
+    "description": "Android의 분할 화면을 동영상 하나로 만드세요. 시간 범위, 화면 구성, 해상도와 오디오를 확인한 뒤 완성된 파일을 저장합니다.",
+    "summary": "현재 영상 배치를 앱 밖에서도 재생하거나 공유할 수 있는 하나의 파일로 만드세요.",
+    "answer": "도구 모음에서 Export Split-Screen Video를 여세요. 범위와 화면 구성, 출력 설정을 확인하고 Start Export를 누른 뒤 Gallery 또는 Files에 저장합니다.",
+    "requirement": "예시에서는 소리가 없는 로컬 골프 영상 두 개를 720p, 30 fps로 내보냅니다. 높은 해상도나 사용자 지정 오디오 같은 고급 옵션은 Premium이 필요할 수 있습니다.",
+    "steps": [
+      {
+        "title": "시작 위치와 길이 확인하기",
+        "text": "영상을 배치한 뒤 내보내기를 여세요. Full을 선택했어도 Start와 Duration을 확인해야 합니다. 현재 재생 위치가 가능한 범위에 영향을 줄 수 있습니다.",
+        "caption": "내보내기 범위에 시작 위치와 가능한 길이가 표시됩니다."
+      },
+      {
+        "title": "각 영상의 화면 구성 확인하기",
+        "text": "전체 영상을 유지하려면 Fit, 영역을 채우며 자르려면 Fill을 선택하세요. 필요하면 Adjust Crop을 사용하고 짧은 영상이 끝난 뒤의 표시 방법도 고릅니다.",
+        "caption": "Fit, Fill과 자르기 조절로 각 영상의 표시 방식을 정합니다."
+      },
+      {
+        "title": "출력과 오디오 설정하기",
+        "text": "Current Layout으로 현재 배치를 유지하세요. 예시는 720p, 30 fps, 권장 비트레이트와 All Unmuted Videos를 선택합니다. 골프 파일에 소리가 없다는 오디오 안내도 확인하세요.",
+        "caption": "출력 패널에서 배치, 해상도, 프레임 속도와 오디오를 고릅니다."
+      },
+      {
+        "title": "내보내고 확인한 뒤 저장하기",
+        "text": "Start Export를 누르고 확인 내용을 검토한 뒤 Export complete를 기다리세요. 미리 보기 후 Save to Gallery 등으로 저장하고 파일을 열어 두 영역과 길이를 확인합니다.",
+        "caption": "내보낸 결과를 미리 보고 저장할 수 있습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "출력 크기는 화면 비율을 따릅니다",
+        "description": "예시는 세로로 긴 화면이어서 380 × 720 영상이 만들어졌습니다. 720p를 선택해도 모든 배치가 16:9로 바뀌지는 않습니다."
+      },
+      {
+        "title": "무음 원본에서 소리가 생기지는 않습니다",
+        "description": "All Unmuted Videos는 원본에 존재하는 오디오만 사용합니다. 음소거와 오디오 선택은 무음 영상에 배경 음악을 만들지 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "작업 공간 저장과 영상 내보내기는 같은가요?",
+        "answer": "아니요. 북마크는 조작 가능한 배치를 복원하고, 내보내기는 다른 플레이어에서 열 수 있는 새 영상 파일을 만듭니다."
+      },
+      {
+        "question": "모든 내보내기 설정에 Premium이 필요한가요?",
+        "answer": "아니요. 기본 출력과 고급 옵션은 구분됩니다. 높은 해상도, 프레임 속도나 사용자 지정 오디오를 선택하기 전에 앱의 제한 표시를 확인하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo exportar un vídeo en pantalla dividida en Android",
+    "description": "Convierte tu distribución de Android en un vídeo. Revisa el intervalo, el encuadre, la resolución y el audio, y guarda el archivo terminado.",
+    "summary": "Transforma los vídeos visibles en un solo archivo reproducible para compartirlo o revisarlo fuera de la aplicación.",
+    "answer": "Abre Export Split-Screen Video en la barra. Comprueba el intervalo y el encuadre, elige los ajustes de salida, toca Start Export y guarda en Gallery o Files.",
+    "requirement": "El ejemplo exporta dos vídeos locales de golf sin sonido a 720p y 30 fps. Las opciones avanzadas, como resoluciones superiores y audio personalizado, pueden requerir Premium.",
+    "steps": [
+      {
+        "title": "Revisar el inicio y la duración",
+        "text": "Después de organizar los vídeos, abre el exportador. Comprueba Start y Duration incluso si está seleccionado Full: la posición actual puede afectar al intervalo disponible.",
+        "caption": "El intervalo muestra la posición inicial y la duración disponible."
+      },
+      {
+        "title": "Revisar el encuadre de cada vídeo",
+        "text": "Elige Fit para conservar toda la imagen o Fill para llenar la zona recortándola. Usa Adjust Crop si hace falta y decide qué ocurre cuando termina un vídeo más corto.",
+        "caption": "Fit, Fill y el ajuste de recorte controlan la presentación de cada fuente."
+      },
+      {
+        "title": "Elegir la salida y el audio",
+        "text": "Current Layout conserva la distribución. El ejemplo usa 720p, 30 fps, la tasa recomendada y All Unmuted Videos. Revisa el aviso: estos vídeos de golf no contienen sonido.",
+        "caption": "El panel incluye distribución, resolución, fotogramas por segundo y audio."
+      },
+      {
+        "title": "Exportar, revisar y guardar",
+        "text": "Toca Start Export, lee la confirmación y espera Export complete. Mira la vista previa, elige Save to Gallery u otro destino y abre el archivo para revisar las dos zonas y su duración.",
+        "caption": "La exportación terminada está lista para revisarse y guardarse."
+      }
+    ],
+    "features": [
+      {
+        "title": "La resolución sigue la forma del lienzo",
+        "description": "El ejemplo genera un vídeo de 380 × 720 porque el lienzo es vertical. Elegir 720p no fuerza todas las distribuciones a 16:9."
+      },
+      {
+        "title": "Las fuentes sin sonido siguen sin sonido",
+        "description": "All Unmuted Videos solo utiliza el audio existente. Silenciar o seleccionar audio no crea una banda sonora para vídeos mudos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Guardar el espacio de trabajo equivale a exportar?",
+        "answer": "No. Un marcador recupera una distribución editable. Exportar genera un vídeo nuevo que puede abrirse en otros reproductores."
+      },
+      {
+        "question": "¿Todos los ajustes requieren Premium?",
+        "answer": "No. La salida básica se distingue de las opciones avanzadas. Revisa las indicaciones antes de elegir mayor resolución, frecuencia de imagen o audio personalizado."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上导出分屏视频",
+    "description": "将 Android 中的分屏布局导出为一个视频，检查时间范围、画面裁剪、分辨率和声音，再保存并打开成品验证。",
+    "summary": "把当前视频排列生成一个可播放文件，方便在应用之外复看或分享。",
+    "answer": "从工具栏打开 Export Split-Screen Video，检查范围与各视频构图，选择输出设置，点按 Start Export，完成后保存到 Gallery 或 Files。",
+    "requirement": "本例将两段无声的本地高尔夫视频导出为 720p、30 fps。更高分辨率、自定义音频等高级选项可能需要 Premium。",
+    "steps": [
+      {
+        "title": "检查起点和时长",
+        "text": "先排列好视频再打开导出页。即使选中 Full，也应检查 Start 和 Duration，因为当前播放位置可能影响可导出的范围。",
+        "caption": "导出范围显示开始位置和可用时长。"
+      },
+      {
+        "title": "检查每段视频的构图",
+        "text": "在构图设置中，Fit 保留完整画面，Fill 裁剪并填满区域。按需使用 Adjust Crop，并选择较短视频结束后如何显示。",
+        "caption": "Fit、Fill 与裁剪调整决定每个素材的显示方式。"
+      },
+      {
+        "title": "选择输出与声音设置",
+        "text": "用 Current Layout 保留当前排列。本例选择 720p、30 fps、推荐码率和 All Unmuted Videos。注意音频提示：这两段高尔夫素材没有声音。",
+        "caption": "输出面板提供布局、分辨率、帧率与音频设置。"
+      },
+      {
+        "title": "导出、预览并保存",
+        "text": "点按 Start Export，核对确认信息，等待 Export complete。预览后选择 Save to Gallery 或其他目标，再打开保存的文件检查两区画面与时长。",
+        "caption": "导出完成后，可以预览并保存成品。"
+      }
+    ],
+    "features": [
+      {
+        "title": "输出尺寸遵循画布比例",
+        "description": "本例画布为竖向，实际输出尺寸是 380 × 720。选择 720p 不代表所有布局都会被强制转换成 16:9。"
+      },
+      {
+        "title": "无声素材不会凭空产生音轨",
+        "description": "All Unmuted Videos 只能使用原素材中存在的音频。静音开关和音频选择不能为无声视频生成配乐。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "保存工作区就是导出视频吗？",
+        "answer": "不是。书签恢复可继续编辑的排列，导出则生成其他播放器也能打开的新视频文件。"
+      },
+      {
+        "question": "所有导出设置都需要 Premium 吗？",
+        "answer": "不是。基础导出与高级选项分开，受限设置会在应用中标注。选择更高分辨率、帧率或自定义音频前，请检查相应提示。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Ein Video mit geteiltem Bildschirm auf Android exportieren",
+    "description": "Rendern Sie Ihr Android-Layout als ein Video. Prüfen Sie Zeitbereich, Bildausschnitt, Auflösung und Ton, bevor Sie die fertige Datei speichern.",
+    "summary": "Erstellen Sie aus der sichtbaren Videoanordnung eine gemeinsam abspielbare Datei zum Teilen oder Prüfen außerhalb der App.",
+    "answer": "Öffnen Sie Export Split-Screen Video in der Werkzeugleiste. Prüfen Sie Bereich, Bildausschnitte und Ausgabe, starten Sie Start Export und speichern Sie in Gallery oder Files.",
+    "requirement": "Das Beispiel exportiert zwei lokale, stumme Golfvideos mit 720p und 30 fps. Erweiterte Optionen wie höhere Auflösungen und eigene Audioeinstellungen können Premium benötigen.",
+    "steps": [
+      {
+        "title": "Start und Dauer prüfen",
+        "text": "Öffnen Sie nach dem Anordnen den Export. Kontrollieren Sie Start und Duration auch bei gewähltem Full: Die aktuelle Wiedergabeposition kann den verfügbaren Bereich beeinflussen.",
+        "caption": "Der Exportbereich zeigt Startposition und verfügbare Dauer."
+      },
+      {
+        "title": "Die Bildausschnitte kontrollieren",
+        "text": "Fit erhält das vollständige Bild, Fill füllt den Bereich durch Beschneiden. Nutzen Sie bei Bedarf Adjust Crop und wählen Sie das Verhalten nach dem Ende eines kürzeren Clips.",
+        "caption": "Fit, Fill und Zuschnitt bestimmen die Darstellung jeder Quelle."
+      },
+      {
+        "title": "Ausgabe und Audio wählen",
+        "text": "Current Layout übernimmt die Anordnung. Das Beispiel nutzt 720p, 30 fps, die empfohlene Bitrate und All Unmuted Videos. Beachten Sie den Hinweis: Diese Golfdateien enthalten keinen Ton.",
+        "caption": "Die Ausgabe bietet Layout, Auflösung, Bildrate und Audioauswahl."
+      },
+      {
+        "title": "Exportieren, prüfen und speichern",
+        "text": "Tippen Sie auf Start Export, lesen Sie die Bestätigung und warten Sie auf Export complete. Prüfen Sie die Vorschau, wählen Sie Save to Gallery oder ein anderes Ziel und öffnen Sie die Datei zur Kontrolle.",
+        "caption": "Der fertige Export kann geprüft und gespeichert werden."
+      }
+    ],
+    "features": [
+      {
+        "title": "Die Auflösung folgt dem Seitenverhältnis",
+        "description": "Das Beispiel erzeugt wegen der hohen Leinwand ein Video mit 380 × 720 Pixeln. Die Wahl von 720p zwingt nicht jedes Layout in 16:9."
+      },
+      {
+        "title": "Stumme Quellen bleiben ohne Ton",
+        "description": "All Unmuted Videos kann nur vorhandenes Quellaudio verwenden. Stummschaltung und Audioauswahl erzeugen keine fehlende Tonspur."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ist ein Arbeitsbereich-Lesezeichen ein Export?",
+        "answer": "Nein. Ein Lesezeichen stellt die veränderbare Anordnung wieder her. Der Export erstellt eine neue Videodatei für andere Player."
+      },
+      {
+        "question": "Benötigen alle Exporteinstellungen Premium?",
+        "answer": "Nein. Die Basisausgabe ist von erweiterten Optionen getrennt. Prüfen Sie die Hinweise vor der Auswahl höherer Auflösung, Bildrate oder eigener Audioeinstellungen."
+      }
+    ]
+  }
+}

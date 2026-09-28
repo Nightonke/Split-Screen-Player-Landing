@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで複数動画を一括再生・停止・シークする方法",
+    "description": "Androidの複数動画を、一括再生、共通の進行バー、最初からの再生、プレーヤー操作の連動で管理します。",
+    "summary": "複数の映像を表示したまま、1つのツールバーで分割画面全体の再生を操作します。",
+    "answer": "下のツールバーにPause All Players、Global Progress、Restart All Playersを追加します。再生の切り替え、位置移動、先頭への復帰に使います。",
+    "requirement": "一括再生・停止、共通進行バー、操作の連動にはPremiumが必要です。例では長さの異なるローカル動画を使い、Sync Playbackはオフです。",
+    "steps": [
+      {
+        "title": "すべての動画を再生する",
+        "text": "全動画が停止中にPause All Playersをタップします。このボタンは状態を切り替えます。両領域に一時停止アイコンが出たら再生中です。",
+        "caption": "一括操作で両方の動画が再生されています。"
+      },
+      {
+        "title": "比較全体を一時停止する",
+        "text": "同じボタンをもう一度タップします。両方に再生アイコンが出て映像が止まったことを確認してから、細部を見ます。",
+        "caption": "一括停止後は両方に再生ボタンが表示されます。"
+      },
+      {
+        "title": "共通進行バーで移動する",
+        "text": "Global Progressをタップして追加のスライダーを表示し、ドラッグします。同期がオフの場合は各動画の長さに対する割合で移動するため、経過秒数は異なる場合があります。",
+        "caption": "1本の共通スライダーで両動画の位置を操作します。"
+      },
+      {
+        "title": "先頭へ戻る",
+        "text": "Restart All Playersで開始位置へ戻します。例では停止していた両動画が0秒でも停止を保ちます。準備できたら一括再生を押します。",
+        "caption": "停止中の2本が00:00に戻りました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "個別操作を必要に応じて連動させる",
+        "description": "LockをオンにするとPlayer controls linkedと表示されます。確認した画面では、片方の再生操作で両方が再生しました。画面タッチを無効にする機能ではありません。"
+      },
+      {
+        "title": "動作を揃えるには同期点を使う",
+        "description": "同じ進行割合でも、異なる時刻に撮影した動作は揃いません。Sync to Videoで基準位置を設定します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "一括移動後の時間が違うのはなぜですか？",
+        "answer": "同期なしでは各動画の総時間に対する割合で移動します。同じ割合でも対応する秒数は異なります。"
+      },
+      {
+        "question": "Lockは誤タッチを防ぎますか？",
+        "answer": "いいえ。プレーヤー操作を連動させる機能で、画面のタッチロックではありません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Lire, mettre en pause et déplacer toutes les vidéos sur Android",
+    "description": "Pilotez plusieurs vidéos Android avec la lecture globale, une progression commune, le retour au début et les commandes liées.",
+    "summary": "Gardez plusieurs extraits visibles tout en contrôlant leur lecture depuis une seule barre d’outils.",
+    "answer": "Ajoutez Pause All Players, Global Progress et Restart All Players à la barre du bas pour basculer la lecture, déplacer la progression et revenir au début.",
+    "requirement": "La lecture globale, Global Progress et les commandes liées nécessitent Premium. L’exemple utilise deux vidéos locales de durées différentes, sans Sync Playback actif.",
+    "steps": [
+      {
+        "title": "Démarrer toutes les vidéos",
+        "text": "Quand elles sont en pause, touchez Pause All Players. Le bouton bascule l’état de lecture ; les icônes Pause dans les deux zones confirment la lecture.",
+        "caption": "Les deux vidéos sont en lecture après l’action globale."
+      },
+      {
+        "title": "Mettre la comparaison en pause",
+        "text": "Touchez à nouveau le même bouton. Vérifiez les icônes Lecture et l’arrêt des deux images avant d’examiner un détail.",
+        "caption": "Les deux zones affichent Lecture après la pause globale."
+      },
+      {
+        "title": "Utiliser la progression commune",
+        "text": "Touchez Global Progress pour afficher le curseur supplémentaire et déplacez-le. Sans synchronisation, il agit par pourcentage de durée : les temps affichés peuvent donc différer.",
+        "caption": "Un curseur global déplace la position des deux vidéos."
+      },
+      {
+        "title": "Revenir au début",
+        "text": "Utilisez Restart All Players. Ici, les vidéos étaient en pause et restent en pause à zéro. Touchez la lecture globale quand vous êtes prêt à recommencer.",
+        "caption": "Les deux extraits en pause sont revenus à 00:00."
+      }
+    ],
+    "features": [
+      {
+        "title": "Lier les commandes individuelles",
+        "description": "Activez Lock : Player controls linked confirme la liaison. Dans l’espace testé, Lecture dans une zone démarre les deux vidéos. Lock ne bloque pas les touches sur l’écran."
+      },
+      {
+        "title": "Utiliser des points pour synchroniser l’action",
+        "description": "Un pourcentage commun ne rapproche pas automatiquement des événements enregistrés à des instants différents. Définissez des références avec Sync to Video."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi les temps diffèrent-ils après déplacement ?",
+        "answer": "Sans synchronisation, la position représente une fraction de la durée de chaque vidéo. La même fraction peut donner des secondes différentes."
+      },
+      {
+        "question": "Lock protège-t-il contre les touches accidentelles ?",
+        "answer": "Non. Il lie les commandes des lecteurs. Ce n’est pas un verrouillage tactile."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to play, pause, seek and restart all videos on Android",
+    "description": "Control multiple Android videos together with global playback, a shared progress bar, restart, and optional linked player controls.",
+    "summary": "Keep several clips visible while using one toolbar to manage playback across the split screen.",
+    "answer": "Add Pause All Players, Global Progress, and Restart All Players to the bottom toolbar. Use them to toggle playback, move the shared progress position, and return the videos to the beginning.",
+    "requirement": "Pause All Players and Global Progress require Premium; linked controls also require Premium. This example uses two local videos with different lengths and no active Sync Playback.",
+    "steps": [
+      {
+        "title": "Start all videos together",
+        "text": "Tap Pause All Players when the videos are paused. The button toggles the playback state; the pause icons in both panes show that both are now playing.",
+        "caption": "Both videos are playing after the global playback action."
+      },
+      {
+        "title": "Pause the entire comparison",
+        "text": "Tap the same toolbar button again. Check that both panes show Play and that their pictures stop changing before inspecting a detail.",
+        "caption": "Both panes show Play after the global pause action."
+      },
+      {
+        "title": "Seek with the shared progress bar",
+        "text": "Tap Global Progress to show the extra slider and drag it. Without Sync Playback, this seeks by percentage of each video, so clips of different lengths can show different elapsed times.",
+        "caption": "One global slider controls the progress of both videos."
+      },
+      {
+        "title": "Return to the beginning",
+        "text": "Use Restart All Players to return the videos to their start. In this example both were paused and remain paused at zero. Tap the global playback button when ready to review again.",
+        "caption": "Both paused clips are back at 00:00."
+      }
+    ],
+    "features": [
+      {
+        "title": "Link individual player controls when useful",
+        "description": "Enable Lock to link player controls; the app confirms Player controls linked. In the tested workspace, pressing Play in one pane starts both. Lock does not lock the touchscreen."
+      },
+      {
+        "title": "Use sync points for matching action",
+        "description": "A shared percentage does not align events recorded at different times. Use Sync to Video and set reference points when the action must stay matched."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why do the times differ after global seeking?",
+        "answer": "Without synchronization, the slider represents a fraction of each clip’s duration. The same fraction can correspond to different numbers of seconds."
+      },
+      {
+        "question": "Does the Lock button prevent accidental touches?",
+        "answer": "No. It links playback controls across players. It is not a screen-touch lock."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como reproduzir, pausar e avançar todos os vídeos no Android",
+    "description": "Controle vários vídeos Android com reprodução global, progresso compartilhado, retorno ao início e controles vinculados.",
+    "summary": "Mantenha vários clipes visíveis e gerencie a reprodução com uma única barra de ferramentas.",
+    "answer": "Adicione Pause All Players, Global Progress e Restart All Players à barra inferior para alternar a reprodução, mover a posição e voltar ao início.",
+    "requirement": "Reprodução global, Global Progress e controles vinculados exigem Premium. O exemplo usa dois vídeos locais com durações diferentes e Sync Playback desativado.",
+    "steps": [
+      {
+        "title": "Iniciar todos os vídeos",
+        "text": "Com os vídeos pausados, toque em Pause All Players. O botão alterna o estado; os ícones de pausa nas duas áreas indicam reprodução.",
+        "caption": "Os dois vídeos estão reproduzindo após a ação global."
+      },
+      {
+        "title": "Pausar toda a comparação",
+        "text": "Toque novamente no mesmo botão. Confira se as duas áreas mostram Reproduzir e se as imagens pararam antes de analisar um detalhe.",
+        "caption": "As duas áreas mostram Reproduzir após a pausa global."
+      },
+      {
+        "title": "Usar o progresso compartilhado",
+        "text": "Toque em Global Progress para exibir o controle adicional e arraste. Sem sincronização, ele usa uma porcentagem da duração de cada vídeo; os segundos exibidos podem ser diferentes.",
+        "caption": "Um controle global move a posição dos dois vídeos."
+      },
+      {
+        "title": "Voltar ao começo",
+        "text": "Use Restart All Players. No exemplo, ambos estavam pausados e continuam pausados em zero. Toque na reprodução global quando estiver pronto para recomeçar.",
+        "caption": "Os dois clipes pausados voltaram a 00:00."
+      }
+    ],
+    "features": [
+      {
+        "title": "Vincular os controles individuais",
+        "description": "Ative Lock; Player controls linked confirma a mudança. No espaço testado, Reproduzir em uma área inicia os dois vídeos. Lock não bloqueia os toques na tela."
+      },
+      {
+        "title": "Use pontos para alinhar a ação",
+        "description": "Uma porcentagem comum não alinha eventos gravados em momentos diferentes. Defina referências com Sync to Video quando a ação precisar corresponder."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que os tempos diferem após mover o progresso?",
+        "answer": "Sem sincronização, a posição é uma fração da duração de cada clipe. A mesma fração pode equivaler a quantidades diferentes de segundos."
+      },
+      {
+        "question": "Lock impede toques acidentais?",
+        "answer": "Não. Ele vincula os controles de reprodução. Não é um bloqueio de toque da tela."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 여러 영상을 함께 재생·정지·탐색하는 방법",
+    "description": "Android에서 전체 재생 버튼, 공통 진행 막대, 처음으로 이동과 연결된 조작으로 여러 영상을 함께 제어하세요.",
+    "summary": "여러 영상을 화면에 유지하면서 하나의 도구 모음으로 전체 재생을 관리하세요.",
+    "answer": "아래에 Pause All Players, Global Progress와 Restart All Players를 추가하세요. 재생 상태 전환, 공통 위치 이동과 시작점 복귀에 사용합니다.",
+    "requirement": "전체 재생·정지, 공통 진행 막대와 조작 연결은 Premium이 필요합니다. 예시는 길이가 다른 로컬 영상 두 개이며 Sync Playback은 꺼져 있습니다.",
+    "steps": [
+      {
+        "title": "모두 함께 재생하기",
+        "text": "영상이 모두 멈춰 있을 때 Pause All Players를 누르세요. 이 버튼은 재생 상태를 전환합니다. 두 영역에 일시 정지 아이콘이 표시되면 재생 중입니다.",
+        "caption": "전체 조작으로 두 영상이 재생됩니다."
+      },
+      {
+        "title": "비교 전체 일시 정지하기",
+        "text": "같은 버튼을 다시 누르세요. 두 영역에 재생 삼각형이 나타나고 화면이 멈춘 것을 확인한 뒤 세부 내용을 살펴보세요.",
+        "caption": "전체 일시 정지 후 두 영역에 재생 버튼이 나타납니다."
+      },
+      {
+        "title": "공통 진행 막대로 이동하기",
+        "text": "Global Progress를 눌러 추가 슬라이더를 표시하고 드래그하세요. 동기화가 꺼져 있으면 각 영상 길이에 대한 비율로 이동하므로 경과 시간이 다를 수 있습니다.",
+        "caption": "하나의 공통 슬라이더가 두 영상의 위치를 제어합니다."
+      },
+      {
+        "title": "처음으로 돌아가기",
+        "text": "Restart All Players를 사용하세요. 예시에서는 멈춰 있던 두 영상이 0초로 돌아가도 정지 상태를 유지합니다. 준비되면 전체 재생 버튼을 누르세요.",
+        "caption": "멈춘 두 영상이 모두 00:00으로 돌아왔습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "필요하면 개별 조작을 연결하세요",
+        "description": "Lock을 켜면 Player controls linked가 표시됩니다. 확인한 작업 공간에서는 한 영역의 재생 버튼으로 두 영상이 시작됐습니다. 화면 터치를 잠그는 기능은 아닙니다."
+      },
+      {
+        "title": "동작을 맞추려면 동기화 지점을 쓰세요",
+        "description": "같은 진행 비율은 녹화 시점이 다른 동작을 맞추지 못합니다. Sync to Video에서 기준점을 설정하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "전체 이동 뒤 시간이 다른 이유는 무엇인가요?",
+        "answer": "동기화가 없으면 각 영상 총길이의 비율로 이동합니다. 같은 비율이라도 대응하는 초 단위 시간은 다를 수 있습니다."
+      },
+      {
+        "question": "Lock으로 실수로 누르는 것을 막을 수 있나요?",
+        "answer": "아니요. 플레이어 조작을 연결하는 기능이며 화면 터치 잠금이 아닙니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo reproducir, pausar y desplazar todos los vídeos en Android",
+    "description": "Controla varios vídeos Android con reproducción global, una barra de progreso común, reinicio y controles vinculados.",
+    "summary": "Mantén varios clips visibles y gestiona su reproducción con una sola barra de herramientas.",
+    "answer": "Añade Pause All Players, Global Progress y Restart All Players a la barra inferior para alternar la reproducción, desplazar la posición y volver al principio.",
+    "requirement": "La reproducción global, Global Progress y los controles vinculados requieren Premium. El ejemplo usa dos vídeos locales de distinta duración, sin Sync Playback activo.",
+    "steps": [
+      {
+        "title": "Iniciar todos los vídeos",
+        "text": "Con los vídeos pausados, toca Pause All Players. El botón alterna el estado; los iconos de pausa en ambas zonas indican que se están reproduciendo.",
+        "caption": "Ambos vídeos están reproduciéndose tras la acción global."
+      },
+      {
+        "title": "Pausar toda la comparación",
+        "text": "Toca otra vez el mismo botón. Comprueba que ambas zonas muestran Reproducir y que las imágenes se detienen antes de examinar detalles.",
+        "caption": "Ambas zonas muestran Reproducir después de la pausa global."
+      },
+      {
+        "title": "Usar la barra de progreso común",
+        "text": "Toca Global Progress para mostrar el control adicional y arrástralo. Sin sincronización, busca por porcentaje de la duración de cada vídeo; los segundos mostrados pueden diferir.",
+        "caption": "Un control global mueve la posición de los dos vídeos."
+      },
+      {
+        "title": "Volver al principio",
+        "text": "Usa Restart All Players. En este ejemplo, ambos vídeos estaban pausados y siguen así al volver a cero. Toca la reproducción global cuando quieras empezar de nuevo.",
+        "caption": "Los dos vídeos pausados vuelven a 00:00."
+      }
+    ],
+    "features": [
+      {
+        "title": "Vincular los controles individuales",
+        "description": "Activa Lock; Player controls linked confirma el cambio. En el espacio comprobado, Reproducir en una zona inicia ambos vídeos. Lock no bloquea los toques en pantalla."
+      },
+      {
+        "title": "Usar puntos para alinear acciones",
+        "description": "Un porcentaje común no alinea eventos grabados en momentos distintos. Define referencias con Sync to Video cuando la acción deba corresponder."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué los tiempos difieren tras mover la barra?",
+        "answer": "Sin sincronización, la posición es una fracción de la duración de cada clip. Una misma fracción puede equivaler a distintos segundos."
+      },
+      {
+        "question": "¿Lock evita los toques accidentales?",
+        "answer": "No. Vincula los controles de reproducción. No es un bloqueo táctil de la pantalla."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上统一播放、暂停、定位和重播多个视频",
+    "description": "使用 Android 全局播放按钮、共同进度条和重新开始功能，一起控制多个视频，并按需关联单区播放器操作。",
+    "summary": "多个视频保持同时可见，用一条底部工具栏管理整组分屏的播放进度。",
+    "answer": "在底部添加 Pause All Players、Global Progress 和 Restart All Players，分别控制整组播放暂停、共同进度和回到起点。",
+    "requirement": "统一播放暂停、全局进度和关联控制需要 Premium。本例使用两段时长不同的本地视频，未开启 Sync Playback。",
+    "steps": [
+      {
+        "title": "一起开始播放",
+        "text": "所有视频暂停时点按 Pause All Players。这个按钮会切换播放状态；两区都显示暂停图标，说明正在一起播放。",
+        "caption": "使用全局播放按钮后，两段视频都开始播放。"
+      },
+      {
+        "title": "暂停整组对比",
+        "text": "再次点按同一工具栏按钮。检查两区都显示播放三角，画面停止变化后再分析细节。",
+        "caption": "全局暂停后，两区均显示播放按钮。"
+      },
+      {
+        "title": "使用共同进度条定位",
+        "text": "点按 Global Progress 显示额外的进度条，再拖动滑块。未开启同步时，它按各视频时长的百分比定位，因此不同时长的视频可能显示不同秒数。",
+        "caption": "一条全局进度条控制两个视频的位置。"
+      },
+      {
+        "title": "一起回到开头",
+        "text": "用 Restart All Players 返回起点。本例操作前已经暂停，返回零秒后仍保持暂停；准备复看时，再点全局播放按钮。",
+        "caption": "两段已暂停的视频都回到 00:00。"
+      }
+    ],
+    "features": [
+      {
+        "title": "按需关联单区控制",
+        "description": "开启 Lock 后会提示 Player controls linked。本次工作区中，点按一个区域的播放按钮即可让两区开始播放。Lock 不是触摸锁屏。"
+      },
+      {
+        "title": "动作对齐需要同步点",
+        "description": "共同进度百分比不能自动对齐录制时间不同的事件。要持续比较相同动作，请使用 Sync to Video 设置参考点。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么全局定位后两个时间不一样？",
+        "answer": "未启用同步时，进度条表示各自总时长的比例。同一比例在不同时长的视频中，对应的秒数可能不同。"
+      },
+      {
+        "question": "Lock 能防止误触屏幕吗？",
+        "answer": "不能。它关联播放器的播放控制，并非屏幕触摸锁。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Alle Videos auf Android gemeinsam abspielen und steuern",
+    "description": "Steuern Sie mehrere Android-Videos mit gemeinsamer Wiedergabe, Fortschrittsbalken, Rückkehr zum Anfang und verknüpften Player-Bedienelementen.",
+    "summary": "Behalten Sie mehrere Clips im Blick und bedienen Sie den geteilten Bildschirm über eine Werkzeugleiste.",
+    "answer": "Fügen Sie Pause All Players, Global Progress und Restart All Players hinzu, um Wiedergabe, gemeinsame Position und Rückkehr zum Anfang zu steuern.",
+    "requirement": "Globale Wiedergabe, Global Progress und verknüpfte Steuerung benötigen Premium. Das Beispiel nutzt zwei unterschiedlich lange lokale Videos ohne aktives Sync Playback.",
+    "steps": [
+      {
+        "title": "Alle Videos starten",
+        "text": "Tippen Sie bei pausierten Videos auf Pause All Players. Die Taste wechselt den Zustand. Pause-Symbole in beiden Bereichen zeigen die laufende Wiedergabe.",
+        "caption": "Beide Videos laufen nach der gemeinsamen Aktion."
+      },
+      {
+        "title": "Den Vergleich pausieren",
+        "text": "Tippen Sie erneut auf dieselbe Taste. Prüfen Sie, dass beide Bereiche Wiedergabe anzeigen und die Bilder stehen, bevor Sie Details betrachten.",
+        "caption": "Beide Bereiche zeigen Wiedergabe nach der gemeinsamen Pause."
+      },
+      {
+        "title": "Mit dem gemeinsamen Balken suchen",
+        "text": "Tippen Sie auf Global Progress und ziehen Sie den zusätzlichen Regler. Ohne Synchronisation wird prozentual zur jeweiligen Dauer gesucht; die angezeigten Sekunden können daher abweichen.",
+        "caption": "Ein gemeinsamer Regler verschiebt beide Videopositionen."
+      },
+      {
+        "title": "Zum Anfang zurückkehren",
+        "text": "Verwenden Sie Restart All Players. Die zuvor pausierten Videos bleiben im Beispiel auch bei null pausiert. Starten Sie die gemeinsame Wiedergabe, wenn Sie bereit sind.",
+        "caption": "Beide pausierten Clips stehen wieder bei 00:00."
+      }
+    ],
+    "features": [
+      {
+        "title": "Einzelne Bedienelemente verknüpfen",
+        "description": "Aktivieren Sie Lock; Player controls linked bestätigt die Verknüpfung. Im geprüften Arbeitsbereich startet Wiedergabe in einem Bereich beide Videos. Lock sperrt keine Bildschirmberührungen."
+      },
+      {
+        "title": "Synchronisationspunkte für gleiche Aktionen nutzen",
+        "description": "Ein gemeinsamer Prozentwert richtet unterschiedlich aufgenommene Ereignisse nicht automatisch aus. Setzen Sie mit Sync to Video passende Referenzpunkte."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum unterscheiden sich die Zeiten nach dem Suchen?",
+        "answer": "Ohne Synchronisation steht der Regler für einen Anteil an der jeweiligen Gesamtdauer. Derselbe Anteil kann verschiedenen Sekundenwerten entsprechen."
+      },
+      {
+        "question": "Verhindert Lock versehentliche Berührungen?",
+        "answer": "Nein. Es verknüpft die Player-Steuerung und ist keine Touchscreen-Sperre."
+      }
+    ]
+  }
+}

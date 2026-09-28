@@ -21,6 +21,7 @@
 .article-guide-number { display: inline-grid; width: 46px; height: 46px; place-items: center; border: 1.5px solid var(--ink); border-radius: 50%; background: var(--blue); font-family: var(--mono); font-size: .95rem; font-weight: 700; }
 .article-guide-step--wide { grid-template-columns: minmax(0, 1fr); gap: 26px; }
 .article-guide-step--wide .article-guide-step-copy { max-width: 710px; }
+.article-guide-step--wide .article-guide-step-copy, .article-guide-step--wide .article-screenshot { order: initial; }
 .article-screenshot { margin: 0; width: 100%; max-width: 270px; justify-self: center; }
 .article-screenshot--landscape { max-width: 780px; }
 .article-screenshot-link { position: relative; display: block; cursor: zoom-in; }
@@ -89,3 +90,4 @@ html:has(.article-guide-lightbox[open]) { overflow: hidden; }
 
 .article-platform-links { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: baseline; }
 .article-illustration-note { color: var(--ink-soft); font-size: .85rem; line-height: 1.7; margin: 22px 0 0; }
+.ssp-guide-article :is(h1, h2, h3) { overflow-wrap: anywhere; }

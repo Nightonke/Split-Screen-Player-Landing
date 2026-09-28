@@ -5,7 +5,9 @@ import { guideContent } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import type { LanguageLink } from "@/types/content";
 import { getGuides } from "@/i18n/guideCatalog";
+import { getGuideNavigation, getGuideTopic } from "@/i18n/guideNavigation";
 import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
+import GuideFilter from "../components/guides/GuideFilter.astro";
 import Layout from "./Layout.astro";
 
 interface Props {
@@ -16,6 +18,7 @@ interface Props {
 const { locale, languageLinks } = Astro.props;
 const content = landingContent[locale];
 const guides = guideContent[locale];
+const navigation = getGuideNavigation(locale);
 const pages = getGuides(locale);
 const chrome = pageChrome[locale];
 const homeHref = localizedPath(locale);
@@ -26,8 +29,8 @@ const structuredData = [
 	{
 		"@context": "https://schema.org",
 		"@type": "CollectionPage",
-		name: guides.hub.title,
-		description: guides.hub.metaDescription,
+		name: navigation.title,
+		description: navigation.description,
 		url: new URL(guidesHref, siteURL).href,
 		inLanguage: content.htmlLang,
 		isPartOf: {
@@ -50,8 +53,8 @@ const structuredData = [
 ---
 
 <Layout
-	title={guides.hub.seoTitle}
-	description={guides.hub.metaDescription}
+	title={navigation.title}
+	description={navigation.description}
 	lang={content.htmlLang}
 	alternates={languageLinks}
 	appData={content}
@@ -59,7 +62,7 @@ const structuredData = [
 	privacyHref={localizedPath(locale, "privacy")}
 	termsHref={localizedPath(locale, "terms")}
 	labels={content.labels}
-	ogImageAlt={`${content.shortName} — ${guides.hub.title}`}
+	ogImageAlt={`${content.shortName} — ${navigation.title}`}
 	structuredData={structuredData}
 >
 	<main id="main-content" class="detail-main guide-hub">
@@ -71,23 +74,37 @@ const structuredData = [
 
 			<section class="guide-hub-hero">
 				<p class="eyebrow">{guides.hub.eyebrow}</p>
-				<h1 class="display-title">{guides.hub.title}</h1>
-				<p class="detail-intro">{guides.hub.description}</p>
+				<h1 class="display-title">{navigation.title}</h1>
+				<p class="detail-intro">{navigation.description}</p>
 			</section>
+
+			<div class="guide-filters" role="search" aria-label={navigation.label}>
+				<label class="guide-filter-search">{navigation.search}<input type="search" data-guide-search autocomplete="off" /></label>
+				<GuideFilter name="platform" label={navigation.platform} options={[{ value: "all", label: navigation.allPlatforms }, { value: "ios", label: "iPhone / iPad" }, { value: "android", label: "Android" }]} />
+				<GuideFilter name="topic" label={navigation.topic} options={[{ value: "all", label: navigation.allTopics }, ...navigation.topics.map(topic => ({ value: topic.id, label: topic.label }))]} />
+			</div>
+			<p class="guide-count" aria-live="polite" data-guide-count data-template={navigation.count}>{navigation.count.replace("{count}", String(pages.length))}</p>
+			<p class="guide-empty" data-guide-empty hidden>{navigation.empty}</p>
 
 			<section class="guide-grid" aria-label={guides.labels.guides}>
 				{pages.map((guide, index) => {
 					return (
 						<a
 							class="guide-card"
+							data-guide-card
+							data-platform={guide.platform ?? (guide.slug.endsWith("android") ? "android" : "ios")}
+							data-topic={getGuideTopic(guide)}
+							data-search={`${guide.title} ${guide.summary} ${guide.keywords.join(" ")}`}
 							href={localizedPath(locale, `guides/${guide.slug}`)}
 							data-reveal
 						>
-							<span class="guide-card-number">{String(index + 1).padStart(2, "0")}</span>
-							<p class="section-kicker">{guide.eyebrow}</p>
+							<p class="section-kicker guide-card-keywords">{guide.keywords.join(" · ")}</p>
 							<h2>{guide.title}</h2>
 							<p>{guide.summary}</p>
-							<span class="text-link">{guides.hub.readLabel}</span>
+							<div class="guide-card-footer">
+								<span class="text-link">{guides.hub.readLabel}</span>
+								<span class="guide-card-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+							</div>
 						</a>
 					);
 				})}
@@ -104,3 +121,39 @@ const structuredData = [
 		</section>
 	</main>
 </Layout>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>("[data-guide-search]");
+  const platform = document.querySelector<HTMLSelectElement>("[data-guide-platform]");
+  const topic = document.querySelector<HTMLSelectElement>("[data-guide-topic]");
+  const count = document.querySelector<HTMLElement>("[data-guide-count]");
+  const empty = document.querySelector<HTMLElement>("[data-guide-empty]");
+  const cards = [...document.querySelectorAll<HTMLElement>("[data-guide-card]")];
+  function filterGuides() {
+    const query = search?.value.trim().toLocaleLowerCase() ?? "";
+    let visible = 0;
+    for (const card of cards) {
+      const matches = (!query || card.dataset.search?.toLocaleLowerCase().includes(query)) &&
+        (!platform || platform.value === "all" || card.dataset.platform === platform.value) &&
+        (!topic || topic.value === "all" || card.dataset.topic === topic.value);
+      card.hidden = !matches;
+      if (matches) visible++;
+    }
+    if (count) count.textContent = count.dataset.template!.replace("{count}", String(visible));
+    if (empty) empty.hidden = visible !== 0;
+  }
+  search?.addEventListener("input", filterGuides);
+  platform?.addEventListener("change", filterGuides);
+  topic?.addEventListener("change", filterGuides);
+</script>
+
+<style>
+  .guide-filters { display: grid; grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 32px; }
+  .guide-filter-search { display: grid; grid-template-rows: auto 1fr; gap: 8px; min-width: 0; color: var(--ink-soft); font-size: .875rem; font-weight: 600; }
+  .guide-filters input { width: 100%; min-width: 0; min-height: 52px; padding: 12px 16px; border: 1.5px solid var(--line-strong); border-radius: var(--radius-sm); color: var(--ink); background: var(--paper-strong); font: inherit; font-size: .9375rem; line-height: 1.4; }
+  .guide-filters input:hover { border-color: var(--ink); }
+  .guide-count { margin: 18px 0 0; color: var(--ink-soft); }
+  .guide-empty { margin: 24px 0; }
+  .guide-card[hidden], .guide-empty[hidden] { display: none; }
+  @media (max-width: 640px) { .guide-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 12px; } .guide-filter-search { grid-column: 1 / -1; } }
+</style>

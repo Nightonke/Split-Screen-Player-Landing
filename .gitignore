@@ -17,3 +17,6 @@ Thumbs.db
 # IDE settings
 .idea/
 .vscode/
+
+# Local tutorial captures, media copies, and temporary tooling
+.tmp/

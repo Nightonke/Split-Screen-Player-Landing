@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "{device}で動かせる分割線を使って2本の動画を比較する方法",
+    "description": "{device}のSwipe Comparisonで2つのゴルフ動画を比較。構図と動作を合わせ、分割線の角度や参考線を調整します。",
+    "summary": "Swipe Comparisonは分割線の両側に別の動画を表示します。画面を透明にせず、姿勢や位置を確認したいときに便利です。この例では似た撮影位置の2つのゴルフスイングを使います。",
+    "answer": "2つの領域に動画を1本ずつ読み込み、Swipe Comparisonで構図と動作を合わせます。Divider Directionから縦、横、斜めの分割を選びます。パネルを最小化して結果を確認し、必要に応じて参考線を表示します。",
+    "requirement": "Swipe ComparisonはVIP機能で、Premiumが必要です。この手順では再生可能なローカル動画を2本使います。",
+    "steps": [
+      {
+        "title": "2本の動画を開いて比較モードに入る",
+        "text": "2領域のレイアウトを選び、{source}から動画を1本ずつ開きます。必要ならMore（…）→{customizeToolbar}→Not AddedでSwipe Comparisonを追加します。プレーヤーに戻ってボタンをタップすると、AとBのサムネイルで素材を確認できます。",
+        "caption": "AとBの素材と、選択中の動画の操作ボタンを表示。"
+      },
+      {
+        "title": "構図と動作の段階を合わせる",
+        "text": "各サムネイルを選び、同じスイング段階で一時停止します。前後のフレームボタンで微調整し、AlignmentのCenterから{scale}、方向ボタン、ミラーで構図を合わせます。連動再生にはTime Syncで対応する同期点を設定し、{sync}を適用します。",
+        "caption": "Alignmentで選択中の素材を配置。各動画の再生位置は個別に調整できます。"
+      },
+      {
+        "title": "分割線の向きを選ぶ",
+        "text": "Divider DirectionでVertical Center、Horizontal Center、Top Left to Bottom Rightを試します。Show Divider and Handlesを有効にして操作点を表示してください。線の中央をドラッグすると位置、端点をドラッグすると角度を変えられます。入れ替えボタンでAとBを交換できます。",
+        "caption": "縦、横、斜めのプリセットから分割方向を選ぶ。"
+      },
+      {
+        "title": "参考線を追加して違いを確認する",
+        "text": "Guidesで{showGuides}を有効にし、水平、垂直、十字の参考線を選びます。－ボタンでパネルを最小化して体とクラブを比較し、調整時に開き直します。Swipe Comparisonを終了すると元の分割レイアウトに戻ります。",
+        "caption": "斜めの分割線と参考線で、2つのスイングの違いを確認。"
+      }
+    ],
+    "features": [
+      {
+        "title": "近い撮影位置の素材を使う",
+        "description": "カメラの高さ、距離、構図が近いほど比較しやすくなります。位置と拡大縮小では遠近感の違いを補正できません。テンポが異なる場合は動作段階ごとに位置を合わせてください。"
+      },
+      {
+        "title": "表示と保存を区別する",
+        "description": "分割線や参考線を変えても、元の動画は上書きされません。比較画面を表示することと、新しい合成動画を出力することは別の操作です。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Overlay Comparisonとの違いは何ですか？",
+        "answer": "Swipe Comparisonは線の両側に別の素材を表示します。Overlay Comparisonは同じ画面に半透明のレイヤーを重ねます。明確な境界が必要なら分割線、同じ位置に両方を見たいなら透明度を使います。"
+      },
+      {
+        "question": "表示時刻が同じなら同期していますか？",
+        "answer": "必ずしもそうではありません。録画開始点が違う場合があるため、両方で同じ動作を探します。連動再生には対応する同期点を設定してください。1つの動作を合わせても、異なるテンポの全区間が自動的に一致するわけではありません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comparer deux vidéos avec une séparation mobile sur {device}",
+    "description": "Utilisez Swipe Comparison sur {device} pour comparer deux vidéos de golf. Alignez les images et les gestes, choisissez l’angle de séparation et ajoutez des repères.",
+    "summary": "Swipe Comparison affiche une vidéo de chaque côté d’une ligne. Ce mode aide à examiner une posture ou une position sans rendre les images transparentes. L’exemple utilise deux swings filmés depuis des points de vue proches.",
+    "answer": "Chargez deux vidéos dans des zones distinctes, ouvrez Swipe Comparison et alignez leur cadrage et leur action. Dans Divider Direction, choisissez une séparation verticale, horizontale ou diagonale. Réduisez le panneau pour observer le résultat, avec des repères si nécessaire.",
+    "requirement": "Swipe Comparison est une fonction VIP qui nécessite Premium. Cette méthode utilise deux vidéos locales lisibles par le lecteur.",
+    "steps": [
+      {
+        "title": "Ouvrir les vidéos et lancer la comparaison",
+        "text": "Choisissez une disposition à deux zones et ouvrez un clip par zone avec {source}. Si nécessaire, ajoutez Swipe Comparison via More (…) → {customizeToolbar} → Not Added. Touchez ensuite son bouton dans le lecteur. Les vignettes A et B identifient les sources.",
+        "caption": "Le panneau présente les sources A et B et les commandes du clip sélectionné."
+      },
+      {
+        "title": "Aligner le cadrage et le geste",
+        "text": "Sélectionnez chaque vignette et faites une pause à la même phase du swing. Affinez avec les boutons d’image précédente et suivante. Dans Alignment, partez de Center, puis utilisez {scale}, les flèches ou le miroir. Pour une lecture liée, définissez les points correspondants dans Time Sync et appliquez {sync}.",
+        "caption": "Alignment positionne la source sélectionnée ; chaque vidéo conserve sa propre position de lecture."
+      },
+      {
+        "title": "Choisir le sens de la séparation",
+        "text": "Dans Divider Direction, essayez Vertical Center, Horizontal Center ou Top Left to Bottom Right. Activez Show Divider and Handles pour voir les poignées. Faites glisser le milieu de la ligne pour la déplacer, ou ses extrémités pour changer l’angle. Le bouton d’échange inverse A et B.",
+        "caption": "Les préréglages permettent une séparation verticale, horizontale ou diagonale."
+      },
+      {
+        "title": "Ajouter des repères et observer les différences",
+        "text": "Dans Guides, activez {showGuides} et choisissez un repère horizontal, vertical ou en croix. Réduisez le panneau avec le bouton moins pour examiner le corps et le club ; rouvrez-le pour ajuster. Quittez Swipe Comparison pour retrouver votre disposition précédente.",
+        "caption": "Une diagonale et des repères révèlent les différences entre les deux swings."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choisir des prises de vue comparables",
+        "description": "Une hauteur de caméra, une distance et un cadrage similaires facilitent l’analyse. Position et échelle ne corrigent pas la perspective. Si les rythmes diffèrent, alignez à nouveau chaque phase à examiner."
+      },
+      {
+        "title": "Distinguer l’affichage de l’enregistrement",
+        "description": "Déplacer la séparation ou les repères modifie cette vue sans écraser les clips. Afficher la comparaison ne revient pas à exporter un nouveau fichier vidéo combiné."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Quelle différence avec Overlay Comparison ?",
+        "answer": "Swipe Comparison affiche une source différente de chaque côté d’une ligne. Overlay Comparison superpose des couches transparentes sur la même surface. Choisissez une séparation pour une frontière nette, et l’opacité pour voir les deux images au même endroit."
+      },
+      {
+        "question": "Des temps identiques garantissent-ils la synchronisation ?",
+        "answer": "Non. Les enregistrements peuvent commencer à des moments différents. Trouvez le même geste dans chaque vidéo et définissez des points correspondants pour une lecture liée. Un point synchronise un événement, pas automatiquement des swings de rythmes différents sur toute leur durée."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to compare two videos with a movable divider on {device}",
+    "description": "Use Swipe Comparison on {device} to reveal two golf videos across a movable line. Align the clips, choose a divider angle, and add reference guides.",
+    "summary": "Swipe Comparison shows different videos on either side of a dividing line. It is useful when you want to inspect a posture or position without making the images transparent. This example uses two golf swings from similar viewpoints.",
+    "answer": "Load two videos in separate regions, open Swipe Comparison, and align their framing and action. Use Divider Direction for a vertical, horizontal, or diagonal split. Minimize the panel to inspect the result; guides can provide a fixed reference.",
+    "requirement": "Swipe Comparison is a VIP feature and requires Premium. Use two playable local videos for this workflow.",
+    "steps": [
+      {
+        "title": "Open both videos and enter Swipe Comparison",
+        "text": "Choose a two-region layout and load one video per region using {source}. Add Swipe Comparison through More (…) → {customizeToolbar} → Not Added if needed. Return to the player and tap its toolbar button. The A and B thumbnails identify the two sources.",
+        "caption": "The comparison panel shows source A, source B, and controls for the selected video."
+      },
+      {
+        "title": "Align the picture and the action",
+        "text": "Select each thumbnail and pause at the same phase of the swing. Use the frame buttons to refine the moment. Under Alignment, start with Center, then use {scale}, nudge arrows, or mirroring as needed. For linked playback, configure the corresponding points in Time Sync and apply {sync}.",
+        "caption": "The Alignment menu positions the selected source; each video keeps its own timing."
+      },
+      {
+        "title": "Choose a divider direction",
+        "text": "Open Divider Direction and try Vertical Center, Horizontal Center, or Top Left to Bottom Right. Keep Show Divider and Handles enabled to see the controls. Drag the line’s center to move the split, or its endpoints to adjust the angle. The swap button exchanges A and B.",
+        "caption": "Use the direction presets to create vertical, horizontal, or diagonal comparisons."
+      },
+      {
+        "title": "Add guides and inspect the difference",
+        "text": "Open Guides and enable {showGuides}. Choose a horizontal, vertical, or crosshair reference. Tap the minus button to minimize the panel, compare the body and club, then reopen it when you need adjustments. Exit Swipe Comparison to return to your previous split-screen layout.",
+        "caption": "A diagonal divider and reference guides reveal differences between the two swings."
+      }
+    ],
+    "features": [
+      {
+        "title": "Use comparable camera positions",
+        "description": "Similar camera height, distance, and framing make the result easier to interpret. Position and scale adjustments do not correct perspective differences. Compare one phase at a time when the swings have different tempos."
+      },
+      {
+        "title": "Separate viewing from saving",
+        "description": "Changing the divider or guide lines adjusts this comparison view; it does not overwrite your clips. Viewing a comparison is not the same as exporting a combined video file."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How is this different from Overlay Comparison?",
+        "answer": "Swipe Comparison reveals different sources on opposite sides of a line. Overlay Comparison places transparent layers on the same canvas. Use a divider for a clear boundary and opacity when you want to see both images in the same area."
+      },
+      {
+        "question": "Do matching timestamps mean the swings are synchronized?",
+        "answer": "No. Recordings can start at different moments. Find the same visible action in both videos and set corresponding sync points if you want linked playback. A sync point aligns one event; it does not automatically match different swing tempos throughout."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como comparar dois vídeos com uma divisória móvel no {device}",
+    "description": "Use Swipe Comparison no {device} para comparar dois vídeos de golfe. Alinhe as imagens e o movimento, escolha o ângulo da divisória e adicione guias.",
+    "summary": "Swipe Comparison mostra um vídeo de cada lado de uma linha. É útil para observar posturas e posições sem deixar as imagens transparentes. O exemplo usa dois swings gravados de pontos de vista semelhantes.",
+    "answer": "Carregue dois vídeos em áreas separadas, abra Swipe Comparison e alinhe o enquadramento e a ação. Em Divider Direction, escolha uma divisão vertical, horizontal ou diagonal. Minimize o painel para observar o resultado e adicione guias se precisar de uma referência fixa.",
+    "requirement": "Swipe Comparison é uma função VIP e exige Premium. Este processo usa dois vídeos locais que o player consiga reproduzir.",
+    "steps": [
+      {
+        "title": "Abrir os vídeos e iniciar a comparação",
+        "text": "Escolha um layout com duas áreas e carregue um vídeo em cada uma por {source}. Se necessário, adicione Swipe Comparison em More (…) → {customizeToolbar} → Not Added. Toque no botão no player. As miniaturas A e B identificam as fontes.",
+        "caption": "O painel mostra A, B e os controles do vídeo selecionado."
+      },
+      {
+        "title": "Alinhar o enquadramento e a ação",
+        "text": "Selecione cada miniatura e pause na mesma fase do swing. Ajuste o instante com os botões de quadro. Em Alignment, comece por Center e use {scale}, as setas ou o espelhamento. Para reprodução vinculada, configure pontos correspondentes em Time Sync e aplique {sync}.",
+        "caption": "Alignment posiciona a fonte selecionada; cada vídeo mantém sua própria posição de reprodução."
+      },
+      {
+        "title": "Escolher a direção da divisória",
+        "text": "Em Divider Direction, experimente Vertical Center, Horizontal Center ou Top Left to Bottom Right. Mantenha Show Divider and Handles ativado. Arraste o centro da linha para mover a divisão ou suas pontas para mudar o ângulo. O botão de troca inverte A e B.",
+        "caption": "Os ajustes prontos permitem uma divisão vertical, horizontal ou diagonal."
+      },
+      {
+        "title": "Adicionar guias e observar as diferenças",
+        "text": "Em Guides, ative {showGuides} e escolha uma guia horizontal, vertical ou em cruz. Minimize o painel com o botão de menos para comparar corpo e taco; reabra quando precisar ajustar. Saia de Swipe Comparison para recuperar o layout anterior.",
+        "caption": "A divisória diagonal e as guias revelam diferenças entre os dois swings."
+      }
+    ],
+    "features": [
+      {
+        "title": "Usar posições de câmera comparáveis",
+        "description": "Altura, distância e enquadramento parecidos facilitam a comparação. Posição e escala não corrigem diferenças de perspectiva. Se os ritmos forem diferentes, alinhe novamente cada fase que quiser estudar."
+      },
+      {
+        "title": "Separar visualização e salvamento",
+        "description": "Alterar a divisória ou as guias muda esta visualização sem sobrescrever os vídeos. Ver a comparação não equivale a exportar um novo arquivo de vídeo combinado."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Qual é a diferença para Overlay Comparison?",
+        "answer": "Swipe Comparison mostra fontes diferentes em lados opostos de uma linha. Overlay Comparison sobrepõe camadas transparentes na mesma área. Use a divisória para um limite claro e a opacidade para ver as duas imagens no mesmo lugar."
+      },
+      {
+        "question": "Tempos iguais significam que os swings estão sincronizados?",
+        "answer": "Não. As gravações podem começar em momentos diferentes. Encontre a mesma ação visível e defina pontos correspondentes para reprodução vinculada. Um ponto alinha um evento, mas não iguala automaticamente ritmos diferentes durante toda a gravação."
+      }
+    ]
+  },
+  "ko": {
+    "title": "{device}에서 움직이는 분할선으로 두 동영상 비교하기",
+    "description": "{device}의 Swipe Comparison으로 두 골프 영상을 비교하세요. 구도와 동작 시점을 맞추고 분할선 각도와 기준선을 조정합니다.",
+    "summary": "Swipe Comparison은 분할선 양쪽에 서로 다른 영상을 표시합니다. 화면을 투명하게 만들지 않고 자세나 위치 차이를 확인할 때 유용합니다. 예시에는 비슷한 위치에서 촬영한 두 골프 스윙을 사용합니다.",
+    "answer": "두 영역에 영상을 하나씩 불러오고 Swipe Comparison에서 구도와 동작을 맞춥니다. Divider Direction으로 세로, 가로 또는 대각선 분할을 선택하세요. 패널을 접어 결과를 보고 필요하면 기준선을 추가합니다.",
+    "requirement": "Swipe Comparison은 Premium이 필요한 VIP 기능입니다. 이 과정에서는 정상 재생되는 로컬 영상 두 개를 사용합니다.",
+    "steps": [
+      {
+        "title": "두 영상을 열고 비교 모드 시작하기",
+        "text": "두 영역 레이아웃을 선택하고 {source}에서 각 영상을 엽니다. 버튼이 없다면 More(…) → {customizeToolbar} → Not Added에서 Swipe Comparison을 추가하세요. 플레이어에서 해당 버튼을 누르면 A와 B 썸네일로 두 소스를 확인할 수 있습니다.",
+        "caption": "A와 B 소스 및 선택한 영상의 조작 버튼이 표시됩니다."
+      },
+      {
+        "title": "구도와 동작 단계 맞추기",
+        "text": "각 썸네일을 선택해 같은 스윙 단계에서 일시 정지하고 프레임 버튼으로 시점을 조정합니다. Alignment의 Center부터 적용하고 {scale}, 방향 버튼이나 미러로 구도를 맞춥니다. 연동 재생에는 Time Sync에서 대응 지점을 설정하고 {sync}를 적용하세요.",
+        "caption": "Alignment는 선택한 영상의 위치를 조정하며 재생 위치는 각자 유지됩니다."
+      },
+      {
+        "title": "분할선 방향 선택하기",
+        "text": "Divider Direction에서 Vertical Center, Horizontal Center 또는 Top Left to Bottom Right를 선택합니다. Show Divider and Handles를 켜 조작점을 표시하세요. 선 중앙을 끌면 위치가, 끝점을 끌면 각도가 바뀝니다. 교환 버튼은 A와 B를 바꿉니다.",
+        "caption": "프리셋으로 세로, 가로 또는 대각선 분할을 선택합니다."
+      },
+      {
+        "title": "기준선을 추가하고 차이 살펴보기",
+        "text": "Guides에서 {showGuides}를 켜고 가로, 세로 또는 십자 기준선을 선택합니다. 빼기 버튼으로 패널을 접고 몸과 클럽을 비교하세요. 조정할 때 패널을 다시 열고, 원래 분할 화면으로 돌아가려면 Swipe Comparison을 종료합니다.",
+        "caption": "대각선 분할선과 기준선으로 두 스윙의 차이를 확인합니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "비슷한 촬영 위치의 영상 사용하기",
+        "description": "카메라 높이, 거리, 구도가 비슷하면 비교하기 쉽습니다. 위치와 크기 조정으로 원근 차이까지 보정할 수는 없습니다. 템포가 다르면 동작 단계마다 재생 위치를 다시 맞추세요."
+      },
+      {
+        "title": "보기와 저장 구분하기",
+        "description": "분할선과 기준선을 변경해도 원본 영상은 덮어쓰지 않습니다. 비교 화면을 보는 것과 새 합성 영상 파일로 내보내는 것은 서로 다른 작업입니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Overlay Comparison과 어떻게 다른가요?",
+        "answer": "Swipe Comparison은 선 양쪽에 다른 영상을 표시합니다. Overlay Comparison은 같은 화면에 반투명 레이어를 겹칩니다. 경계가 뚜렷해야 하면 분할선을, 같은 위치에서 두 영상을 함께 보려면 투명도를 활용하세요."
+      },
+      {
+        "question": "표시된 시간이 같으면 동기화된 건가요?",
+        "answer": "꼭 그렇지는 않습니다. 녹화 시작점이 다를 수 있으므로 같은 동작을 먼저 찾으세요. 연동 재생을 원하면 대응하는 동기화 지점을 설정합니다. 하나의 사건을 맞춰도 템포가 다른 전체 동작이 자동으로 일치하지는 않습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo comparar dos vídeos con una línea móvil en {device}",
+    "description": "Usa Swipe Comparison en {device} para comparar dos vídeos de golf. Alinea las imágenes y el movimiento, elige el ángulo de división y añade guías.",
+    "summary": "Swipe Comparison muestra un vídeo a cada lado de una línea. Es útil para examinar posturas o posiciones sin hacer transparentes las imágenes. El ejemplo usa dos swings grabados desde puntos similares.",
+    "answer": "Carga dos vídeos en zonas separadas, abre Swipe Comparison y alinea el encuadre y la acción. En Divider Direction, elige una división vertical, horizontal o diagonal. Minimiza el panel para observar el resultado y añade guías si necesitas una referencia fija.",
+    "requirement": "Swipe Comparison es una función VIP y requiere Premium. Este proceso utiliza dos vídeos locales que el reproductor pueda abrir.",
+    "steps": [
+      {
+        "title": "Abrir los vídeos e iniciar la comparación",
+        "text": "Elige una distribución con dos zonas y carga un vídeo por zona desde {source}. Si hace falta, añade Swipe Comparison mediante More (…) → {customizeToolbar} → Not Added. Toca su botón en el reproductor. Las miniaturas A y B identifican las fuentes.",
+        "caption": "El panel muestra A, B y los controles del vídeo seleccionado."
+      },
+      {
+        "title": "Alinear el encuadre y la acción",
+        "text": "Selecciona cada miniatura y pausa en la misma fase del swing. Ajusta el instante con los botones de fotograma. En Alignment, empieza con Center y usa {scale}, las flechas o el espejo. Para una reproducción vinculada, configura puntos correspondientes en Time Sync y aplica {sync}.",
+        "caption": "Alignment coloca la fuente seleccionada; cada vídeo conserva su propia posición temporal."
+      },
+      {
+        "title": "Elegir la dirección de la línea",
+        "text": "En Divider Direction, prueba Vertical Center, Horizontal Center o Top Left to Bottom Right. Mantén Show Divider and Handles activado. Arrastra el centro de la línea para mover la división o sus extremos para cambiar el ángulo. El botón de intercambio cambia A por B.",
+        "caption": "Los ajustes predefinidos permiten una división vertical, horizontal o diagonal."
+      },
+      {
+        "title": "Añadir guías y observar las diferencias",
+        "text": "En Guides, activa {showGuides} y elige una guía horizontal, vertical o en cruz. Minimiza el panel con el botón menos para comparar el cuerpo y el palo; vuelve a abrirlo para ajustar. Sal de Swipe Comparison para recuperar la distribución anterior.",
+        "caption": "Una línea diagonal y las guías permiten observar las diferencias entre los swings."
+      }
+    ],
+    "features": [
+      {
+        "title": "Usar puntos de cámara comparables",
+        "description": "Una altura, distancia y composición parecidas facilitan la comparación. La posición y la escala no corrigen la perspectiva. Si los ritmos difieren, vuelve a alinear cada fase que quieras estudiar."
+      },
+      {
+        "title": "Distinguir entre visualizar y guardar",
+        "description": "Cambiar la línea o las guías modifica esta vista sin sobrescribir los vídeos. Ver la comparación no equivale a exportar un nuevo archivo de vídeo combinado."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿En qué se diferencia de Overlay Comparison?",
+        "answer": "Swipe Comparison muestra fuentes distintas a ambos lados de una línea. Overlay Comparison superpone capas transparentes en la misma superficie. Usa una división si quieres un límite claro y la opacidad si necesitas ver ambas imágenes en el mismo lugar."
+      },
+      {
+        "question": "¿Los mismos tiempos significan que los swings están sincronizados?",
+        "answer": "No. Las grabaciones pueden empezar en momentos distintos. Busca la misma acción visible y configura puntos correspondientes para la reproducción vinculada. Un punto alinea un evento, pero no iguala automáticamente los ritmos de ambos swings durante toda la grabación."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在{device}上用滑动分割线对比两个视频",
+    "description": "在{device}上用 Swipe Comparison 对比两段高尔夫视频，调整画面、动作时刻与分割线角度，并添加参考线。",
+    "summary": "滑动对比把两个视频显示在分割线的两侧，适合在保持画面不透明的情况下检查姿态和位置差异。本教程使用两段机位接近的高尔夫挥杆视频。",
+    "answer": "把两个视频分别载入两个区域，打开 Swipe Comparison，先对齐画面和动作，再通过 Divider Direction 选择竖直、水平或斜向分割。收起面板查看结果，需要固定参照时可以添加参考线。",
+    "requirement": "Swipe Comparison 为 VIP 功能，需要高级会员。本流程使用两个能够正常播放的本地视频。",
+    "steps": [
+      {
+        "title": "打开两段视频并进入滑动对比",
+        "text": "选择两个区域的布局，通过 {source} 分别载入一个视频。若工具栏没有 Swipe Comparison，可到更多（…）→{customizeToolbar}→Not Added 添加。回到播放器点该按钮，面板中的 A、B 缩略图对应两路素材。",
+        "caption": "对比面板显示 A、B 素材，以及当前选中视频的控制按钮。"
+      },
+      {
+        "title": "对齐画面和动作阶段",
+        "text": "依次选择缩略图，在相同的挥杆阶段暂停，用前后帧按钮微调时刻。先在 Alignment 中选择 Center，再按需使用 {scale}、方向微调或镜像。需要关联播放时，在 Time Sync 设置对应同步点，并应用 {sync}。",
+        "caption": "Alignment 调整选中素材的位置；两个视频各自保留独立的时间位置。"
+      },
+      {
+        "title": "选择分割线方向",
+        "text": "打开 Divider Direction，尝试 Vertical Center、Horizontal Center 或 Top Left to Bottom Right。保持 Show Divider and Handles 开启，以显示控制点。拖动线条中部可移动分割位置，拖动端点可改变角度；交换按钮用于互换 A、B 两路素材。",
+        "caption": "通过方向预设选择竖直、水平或斜向分割。"
+      },
+      {
+        "title": "添加参考线并查看差异",
+        "text": "打开 Guides 并启用 {showGuides}，选择水平、竖直或十字参考线。点减号收起面板，观察人物和球杆差异；需要调整时重新展开。退出 Swipe Comparison 可返回之前的分屏布局。",
+        "caption": "斜向分割线配合参考线，显示两个挥杆的差异。"
+      }
+    ],
+    "features": [
+      {
+        "title": "尽量保持拍摄机位接近",
+        "description": "相近的镜头高度、距离和构图更便于比较。位置和缩放不能消除透视差异；挥杆节奏不同的时候，应逐个动作阶段重新定位。"
+      },
+      {
+        "title": "区分查看和保存结果",
+        "description": "调整分割线和参考线改变的是当前对比视图，不会覆盖原视频。看到比较画面，并不等于已经导出了一支新的合成视频。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "滑动对比与重叠对比有什么区别？",
+        "answer": "滑动对比在分割线两侧分别显示不同素材；重叠对比将半透明图层放在同一画布上。需要清楚边界时用分割线，希望同一区域同时看到两幅图像时用透明度叠加。"
+      },
+      {
+        "question": "两个视频时间数字相同，就算同步了吗？",
+        "answer": "不一定。录像可能从不同阶段开始。应先找到两段视频中的同一动作，需要关联播放时再设置对应同步点。同步点能对齐一个事件，不会自动把不同节奏的挥杆全程拉齐。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Zwei Videos mit beweglicher Trennlinie auf {device} vergleichen",
+    "description": "Mit Swipe Comparison auf {device} zwei Golfvideos vergleichen. Stimmen Sie Bildausschnitt und Bewegung ab, wählen Sie den Linienwinkel und ergänzen Sie Hilfslinien.",
+    "summary": "Swipe Comparison zeigt auf jeder Seite einer Trennlinie ein anderes Video. Damit können Sie Haltung und Position ohne transparente Bilder prüfen. Das Beispiel nutzt zwei Golfschwünge aus ähnlichen Blickwinkeln.",
+    "answer": "Laden Sie zwei Videos in getrennte Bereiche, öffnen Sie Swipe Comparison und stimmen Sie Bildausschnitt sowie Bewegung ab. Wählen Sie in Divider Direction eine vertikale, horizontale oder diagonale Teilung. Minimieren Sie das Bedienfeld und nutzen Sie bei Bedarf Hilfslinien.",
+    "requirement": "Swipe Comparison ist eine VIP-Funktion und benötigt Premium. Diese Anleitung verwendet zwei abspielbare lokale Videos.",
+    "steps": [
+      {
+        "title": "Beide Videos öffnen und den Vergleich starten",
+        "text": "Wählen Sie ein Layout mit zwei Bereichen und laden Sie über {source} je einen Clip. Fügen Sie bei Bedarf Swipe Comparison über More (…) → {customizeToolbar} → Not Added hinzu. Tippen Sie im Player auf die Funktion. Die Vorschaubilder A und B kennzeichnen die Quellen.",
+        "caption": "Das Bedienfeld zeigt A, B und die Steuerung des ausgewählten Clips."
+      },
+      {
+        "title": "Bild und Bewegungsphase abstimmen",
+        "text": "Wählen Sie jedes Vorschaubild und pausieren Sie in derselben Schwungphase. Stimmen Sie den Zeitpunkt mit den Einzelbildtasten ab. Beginnen Sie unter Alignment mit Center und nutzen Sie {scale}, Richtungspfeile oder Spiegelung. Für gekoppelte Wiedergabe setzen Sie passende Punkte in Time Sync und wenden {sync} an.",
+        "caption": "Alignment positioniert die ausgewählte Quelle; jede Aufnahme behält ihre eigene Zeitposition."
+      },
+      {
+        "title": "Die Richtung der Trennlinie wählen",
+        "text": "Probieren Sie in Divider Direction die Optionen Vertical Center, Horizontal Center oder Top Left to Bottom Right. Lassen Sie Show Divider and Handles aktiviert. Ziehen Sie die Linienmitte zum Verschieben und die Endpunkte zum Ändern des Winkels. Die Tauschschaltfläche vertauscht A und B.",
+        "caption": "Mit den Vorgaben eine vertikale, horizontale oder diagonale Teilung wählen."
+      },
+      {
+        "title": "Hilfslinien anzeigen und Unterschiede betrachten",
+        "text": "Aktivieren Sie in Guides die Option {showGuides} und wählen Sie eine horizontale, vertikale oder kreuzförmige Hilfe. Minimieren Sie das Bedienfeld mit dem Minus, um Körper und Schläger zu vergleichen. Öffnen Sie es für Anpassungen erneut. Beenden Sie Swipe Comparison, um zum vorherigen Layout zurückzukehren.",
+        "caption": "Eine diagonale Trennlinie und Hilfslinien zeigen Unterschiede zwischen den Schwüngen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Ähnliche Kamerapositionen verwenden",
+        "description": "Ähnliche Kamerahöhe, Entfernung und Bildausschnitte erleichtern den Vergleich. Position und Skalierung korrigieren keine Perspektivunterschiede. Bei unterschiedlichem Tempo richten Sie die gewünschte Phase jeweils erneut aus."
+      },
+      {
+        "title": "Ansicht und Speicherung unterscheiden",
+        "description": "Trenn- und Hilfslinien ändern nur diese Vergleichsansicht, ohne Originalclips zu überschreiben. Die Anzeige eines Vergleichs entspricht nicht dem Export einer neuen kombinierten Videodatei."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Was ist der Unterschied zu Overlay Comparison?",
+        "answer": "Swipe Comparison zeigt verschiedene Quellen auf gegenüberliegenden Seiten einer Linie. Overlay Comparison legt transparente Ebenen auf dieselbe Fläche. Eine Trennlinie schafft eine klare Grenze; Deckkraft eignet sich, um beide Bilder an derselben Stelle zu sehen."
+      },
+      {
+        "question": "Bedeuten gleiche Zeitangaben synchrone Bewegungen?",
+        "answer": "Nein. Die Aufnahmen können zu unterschiedlichen Zeitpunkten beginnen. Suchen Sie dieselbe sichtbare Aktion und setzen Sie passende Synchronisationspunkte für gekoppelte Wiedergabe. Ein Punkt synchronisiert ein Ereignis, passt aber nicht automatisch unterschiedliche Schwungtempi über die gesamte Länge an."
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで複数動画の速度と一時的な早送り・スローを変える方法",
+    "description": "Androidで動画の速度を個別・一括に設定し、ボタンを押している間だけ早送りやスロー再生を使います。",
+    "summary": "じっくり見るときは一定の低速にし、一部分だけ速く、または遅く見るときは一時的な速度変更を使い分けます。",
+    "answer": "各動画の速度表示からVideo Speedを開きます。一括変更はChange Speed on All Players、一時変更はLong-Press Fast ForwardまたはLong-Press Slow Motionを長押しし、離すと元に戻ります。",
+    "requirement": "More → Customize Home Bottom Toolbarで必要な操作を追加します。一括速度変更にはPremiumが必要です。一時変更の前にSync Playbackをオフにしてください。",
+    "steps": [
+      {
+        "title": "個別の速度表示を見つける",
+        "text": "動画をタップして操作ボタンを表示します。メーター横の速度はそのプレーヤーの値です。1本だけ変えるときは対象の領域を確認します。",
+        "caption": "上のプレーヤーは現在1.0×です。"
+      },
+      {
+        "title": "継続して使う速度を設定する",
+        "text": "速度をタップしてVideo Speedを例えば0.6×に調整し、動きを再生します。Remember Speedは別の記憶設定で、今回の変更に必須ではありません。",
+        "caption": "上の動画を0.6×に設定するパネル。"
+      },
+      {
+        "title": "全プレーヤーをまとめて変更する",
+        "text": "下のChange Speed on All Playersをタップすると共通速度が順に切り替わります。両方の表示を確認してください。例では0.8×に変更後、1.0×へ戻しています。",
+        "caption": "2本とも0.8×で再生します。"
+      },
+      {
+        "title": "押している間だけ変更する",
+        "text": "ウサギを長押しすると早送り、カメを長押しするとスローになります。例では3×と0.33×です。離すと各プレーヤーの元の速度に戻ります。",
+        "caption": "長押し中はTemporary speed: 3×と表示されます。"
+      }
+    ],
+    "features": [
+      {
+        "title": "一時速度の倍率は設定できる",
+        "description": "実際の速度は元の速度と長押し倍率によって変わります。例の数値がすべての利用者に固定されているわけではありません。"
+      },
+      {
+        "title": "速度変更はファイルの書き出しではない",
+        "description": "ここでは視聴速度を変えます。新しい動画を作るには分割画面の書き出しを開き、そちらの時間設定を確認します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "長押ししても変わらないのはなぜですか？",
+        "answer": "Sync Playbackを確認してください。同期中は一時的な一括速度変更が無効です。同期をオフにして適用後、再試行します。"
+      },
+      {
+        "question": "指を離すと戻るのはなぜですか？",
+        "answer": "長押しは一時的な操作だからです。速度を維持したい場合は個別の数値か一括速度変更を使います。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Modifier la vitesse de plusieurs vidéos sur Android",
+    "description": "Réglez une vidéo, changez tous les lecteurs ensemble ou maintenez un bouton pour accélérer ou ralentir temporairement sur Android.",
+    "summary": "Utilisez un ralenti constant pour analyser, puis une vitesse temporaire pour une courte séquence sans changer le réglage initial.",
+    "answer": "Touchez la vitesse d’un lecteur pour ouvrir Video Speed. Change Speed on All Players agit sur tous ; maintenez Long-Press Fast Forward ou Long-Press Slow Motion puis relâchez pour revenir à la vitesse initiale.",
+    "requirement": "Ajoutez les actions dans More → Customize Home Bottom Toolbar. Le changement global nécessite Premium. Désactivez Sync Playback avant d’utiliser la vitesse temporaire.",
+    "steps": [
+      {
+        "title": "Repérer la vitesse individuelle",
+        "text": "Touchez la vidéo pour afficher ses commandes. La valeur près du cadran appartient à ce lecteur : vérifiez la zone avant de modifier un seul extrait.",
+        "caption": "Le lecteur supérieur affiche 1.0×."
+      },
+      {
+        "title": "Choisir une vitesse durable",
+        "text": "Touchez la valeur et réglez Video Speed, par exemple sur 0.6×. Lancez la lecture pour observer le mouvement. Remember Speed est une préférence distincte, facultative ici.",
+        "caption": "Le panneau règle la vidéo du haut sur 0.6×."
+      },
+      {
+        "title": "Modifier tous les lecteurs",
+        "text": "Touchez Change Speed on All Players dans la barre du bas. Chaque pression passe à la vitesse commune suivante. Vérifiez les deux valeurs ; ici, elles passent à 0.8× puis reviennent à 1.0×.",
+        "caption": "Les deux vidéos affichent 0.8×."
+      },
+      {
+        "title": "Maintenir pour un changement temporaire",
+        "text": "Maintenez le lapin pour accélérer ou la tortue pour ralentir. L’exemple affiche 3× et 0.33×. Relâchez pour restaurer la vitesse initiale de chaque lecteur.",
+        "caption": "Le maintien affiche Temporary speed: 3×."
+      }
+    ],
+    "features": [
+      {
+        "title": "Le multiplicateur est réglable",
+        "description": "La vitesse temporaire dépend de la vitesse de départ et du réglage d’appui prolongé. Les valeurs de l’exemple ne sont pas fixes pour tous."
+      },
+      {
+        "title": "La vitesse de lecture ne crée pas un fichier",
+        "description": "Ces commandes modifient le visionnage. Pour créer une nouvelle vidéo, ouvrez l’exportateur et vérifiez ses propres réglages temporels."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi le maintien n’a-t-il aucun effet ?",
+        "answer": "Vérifiez Sync Playback. Les changements temporaires sont désactivés pendant la synchronisation. Désactivez-la, appliquez et réessayez."
+      },
+      {
+        "question": "Pourquoi la vitesse revient-elle après relâchement ?",
+        "answer": "C’est le principe de cette commande temporaire. Pour garder la nouvelle vitesse, utilisez la valeur individuelle ou l’action globale."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to change multiple video speeds on Android",
+    "description": "Set a video’s playback speed, change all players together, or hold a button for temporary fast or slow motion on Android.",
+    "summary": "Use a steady slow speed for careful review, then temporarily speed up or slow down a short section without changing the saved rate.",
+    "answer": "Tap a player’s speed value for Video Speed. Use Change Speed on All Players for a shared rate, or hold Long-Press Fast Forward or Long-Press Slow Motion and release to restore the original rate.",
+    "requirement": "Add the needed actions in More → Customize Home Bottom Toolbar. Change Speed on All Players requires Premium. Disable Sync Playback before using temporary speed controls.",
+    "steps": [
+      {
+        "title": "Find the individual speed control",
+        "text": "Tap a video to reveal its controls. The speed value beside the gauge icon belongs to that player; check this before changing just one clip.",
+        "caption": "The upper player displays its current 1.0× speed."
+      },
+      {
+        "title": "Choose a sustained speed",
+        "text": "Tap the speed value and adjust Video Speed, for example to 0.6×. Play the clip to inspect the movement. Remember Speed is a separate preference and is not needed for this adjustment.",
+        "caption": "The speed panel sets the upper video to 0.6×."
+      },
+      {
+        "title": "Change all players together",
+        "text": "Tap Change Speed on All Players in the bottom toolbar. Each tap cycles the common speed; inspect the values in both panes. The example sets both to 0.8× and then restores 1.0×.",
+        "caption": "Both videos show the same 0.8× playback rate."
+      },
+      {
+        "title": "Hold for a temporary change",
+        "text": "Press and hold the rabbit button for fast playback, or the turtle for slow playback. The example shows 3× fast and 0.33× slow. Release to return to each player’s original rate.",
+        "caption": "Holding the fast button displays Temporary speed: 3×."
+      }
+    ],
+    "features": [
+      {
+        "title": "The temporary multiplier is configurable",
+        "description": "The displayed temporary rate depends on the starting speed and the long-press speed setting. Treat the example values as this configuration, not fixed rates for every user."
+      },
+      {
+        "title": "Playback speed does not export a new file",
+        "description": "These controls change the viewing experience. To create a new video file, open the separate split-screen exporter and check its own timing settings."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does holding the speed button do nothing?",
+        "answer": "Check Sync Playback. Temporary global speed changes are disabled while synchronization is active; turn it off and apply the change before trying again."
+      },
+      {
+        "question": "Why did the speed revert when I released?",
+        "answer": "That is how the hold gesture works. Use the speed value or the global speed action when you want the new rate to remain selected."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como mudar a velocidade de vários vídeos no Android",
+    "description": "Ajuste um vídeo, altere todos os players ou segure um botão para acelerar ou desacelerar temporariamente no Android.",
+    "summary": "Use uma velocidade lenta constante para analisar e uma mudança temporária em trechos curtos sem perder o ajuste original.",
+    "answer": "Toque na velocidade do player para abrir Video Speed. Change Speed on All Players altera todos; segure Long-Press Fast Forward ou Long-Press Slow Motion e solte para voltar à velocidade inicial.",
+    "requirement": "Adicione as ações em More → Customize Home Bottom Toolbar. A alteração global exige Premium. Desative Sync Playback antes de usar velocidades temporárias.",
+    "steps": [
+      {
+        "title": "Encontrar a velocidade individual",
+        "text": "Toque no vídeo para mostrar os controles. O valor ao lado do indicador pertence àquele player; confira a área antes de alterar apenas um clipe.",
+        "caption": "O player superior mostra 1.0×."
+      },
+      {
+        "title": "Escolher uma velocidade constante",
+        "text": "Toque no valor e ajuste Video Speed, por exemplo para 0.6×. Reproduza para observar o movimento. Remember Speed é uma preferência separada e não é obrigatória neste ajuste.",
+        "caption": "O painel configura o vídeo superior para 0.6×."
+      },
+      {
+        "title": "Alterar todos os players",
+        "text": "Toque em Change Speed on All Players. Cada toque passa à próxima velocidade comum. Confira os dois valores; o exemplo usa 0.8× e depois restaura 1.0×.",
+        "caption": "Os dois vídeos mostram 0.8×."
+      },
+      {
+        "title": "Segurar para mudar temporariamente",
+        "text": "Segure o coelho para acelerar ou a tartaruga para desacelerar. O exemplo mostra 3× e 0.33×. Ao soltar, cada player volta à velocidade original.",
+        "caption": "Ao segurar, aparece Temporary speed: 3×."
+      }
+    ],
+    "features": [
+      {
+        "title": "O multiplicador pode ser configurado",
+        "description": "A velocidade temporária depende da velocidade inicial e do ajuste de toque prolongado. Os valores do exemplo não são fixos para todos os usuários."
+      },
+      {
+        "title": "Mudar a velocidade não exporta um arquivo",
+        "description": "Esses controles alteram a reprodução. Para criar um vídeo novo, abra a exportação e confira os próprios ajustes de tempo dela."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que segurar o botão não faz nada?",
+        "answer": "Confira Sync Playback. Mudanças temporárias ficam desativadas durante a sincronização. Desative, aplique e tente novamente."
+      },
+      {
+        "question": "Por que a velocidade volta quando solto?",
+        "answer": "O toque prolongado é temporário. Use o valor individual ou a ação global para manter a nova velocidade selecionada."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 여러 영상의 속도와 임시 빠른·느린 재생 조절하기",
+    "description": "Android에서 영상 속도를 개별 또는 전체로 바꾸고, 버튼을 누르는 동안만 빠르게 또는 느리게 재생하세요.",
+    "summary": "자세히 볼 때는 일정한 느린 속도를 사용하고, 짧은 구간만 다르게 볼 때는 원래 속도를 유지하는 임시 조작을 쓰세요.",
+    "answer": "영상의 속도 숫자로 Video Speed를 여세요. 전체 변경은 Change Speed on All Players, 임시 변경은 Long-Press Fast Forward 또는 Long-Press Slow Motion을 길게 누릅니다.",
+    "requirement": "More → Customize Home Bottom Toolbar에서 필요한 버튼을 추가하세요. 전체 속도 변경은 Premium이 필요합니다. 임시 속도를 쓰기 전에 Sync Playback을 끄세요.",
+    "steps": [
+      {
+        "title": "개별 속도 조작 찾기",
+        "text": "영상을 눌러 버튼을 표시하세요. 계기판 아이콘 옆 속도 값은 해당 플레이어에 적용됩니다. 한 영상만 바꿀 때는 영역을 먼저 확인하세요.",
+        "caption": "위쪽 플레이어의 현재 속도는 1.0×입니다."
+      },
+      {
+        "title": "지속해서 사용할 속도 설정하기",
+        "text": "속도 값을 누르고 Video Speed를 0.6× 등으로 조절한 뒤 재생하세요. Remember Speed는 별도의 기억 설정이며 이번 조절에 꼭 필요하지 않습니다.",
+        "caption": "속도 패널에서 위쪽 영상을 0.6×로 설정합니다."
+      },
+      {
+        "title": "모든 플레이어 함께 바꾸기",
+        "text": "아래의 Change Speed on All Players를 누를 때마다 공통 속도가 순환합니다. 두 영역의 값을 확인하세요. 예시에서는 둘 다 0.8×로 바꾼 뒤 1.0×로 복원했습니다.",
+        "caption": "두 영상이 모두 0.8×를 표시합니다."
+      },
+      {
+        "title": "누르는 동안만 속도 바꾸기",
+        "text": "토끼를 길게 누르면 빠른 재생, 거북이를 누르면 느린 재생이 됩니다. 예시는 3×와 0.33×입니다. 손을 떼면 각 플레이어의 원래 속도로 돌아갑니다.",
+        "caption": "빠른 재생을 누르는 동안 Temporary speed: 3×가 표시됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "임시 배율은 설정에 따라 달라집니다",
+        "description": "실제 속도는 시작 속도와 길게 누르기 배율 설정에 따라 달라집니다. 예시 값이 모든 사용자에게 고정되는 것은 아닙니다."
+      },
+      {
+        "title": "속도 변경은 파일 내보내기가 아닙니다",
+        "description": "이 조작은 시청 속도를 바꿉니다. 새 파일을 만들려면 분할 화면 내보내기에서 별도의 시간 설정을 확인하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "길게 눌러도 효과가 없는 이유는 무엇인가요?",
+        "answer": "Sync Playback을 확인하세요. 동기화 중에는 임시 전체 속도 변경이 비활성화됩니다. 끄고 적용한 뒤 다시 시도하세요."
+      },
+      {
+        "question": "손을 떼면 왜 속도가 돌아오나요?",
+        "answer": "길게 누르기는 임시 조작입니다. 바뀐 속도를 유지하려면 개별 속도 값이나 전체 속도 버튼을 사용하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo cambiar la velocidad de varios vídeos en Android",
+    "description": "Ajusta un vídeo, cambia todos los reproductores o mantén un botón para acelerar o ralentizar temporalmente en Android.",
+    "summary": "Usa una velocidad lenta constante para analizar y un cambio temporal para una sección breve sin perder el ajuste original.",
+    "answer": "Toca la velocidad del reproductor para abrir Video Speed. Change Speed on All Players cambia todos; mantén Long-Press Fast Forward o Long-Press Slow Motion y suelta para recuperar la velocidad inicial.",
+    "requirement": "Añade las acciones en More → Customize Home Bottom Toolbar. El cambio global requiere Premium. Desactiva Sync Playback antes de usar velocidades temporales.",
+    "steps": [
+      {
+        "title": "Encontrar la velocidad individual",
+        "text": "Toca el vídeo para mostrar los controles. El valor junto al indicador pertenece a ese reproductor; comprueba la zona antes de cambiar un solo clip.",
+        "caption": "El reproductor superior muestra 1.0×."
+      },
+      {
+        "title": "Elegir una velocidad constante",
+        "text": "Toca el valor y ajusta Video Speed, por ejemplo a 0.6×. Reproduce para observar el movimiento. Remember Speed es una preferencia aparte y no es necesaria para este ajuste.",
+        "caption": "El panel configura el vídeo superior a 0.6×."
+      },
+      {
+        "title": "Cambiar todos los reproductores",
+        "text": "Toca Change Speed on All Players. Cada pulsación pasa a la siguiente velocidad común. Revisa ambos valores; en el ejemplo se ajustan a 0.8× y después vuelven a 1.0×.",
+        "caption": "Los dos vídeos muestran 0.8×."
+      },
+      {
+        "title": "Mantener para un cambio temporal",
+        "text": "Mantén el conejo para acelerar o la tortuga para ralentizar. El ejemplo muestra 3× y 0.33×. Al soltar, cada reproductor recupera su velocidad original.",
+        "caption": "Al mantener aparece Temporary speed: 3×."
+      }
+    ],
+    "features": [
+      {
+        "title": "El multiplicador es configurable",
+        "description": "La velocidad temporal depende de la velocidad inicial y del ajuste de pulsación prolongada. Los valores del ejemplo no son fijos para todos los usuarios."
+      },
+      {
+        "title": "Cambiar la velocidad no exporta un archivo",
+        "description": "Estos controles afectan a la reproducción. Para crear un vídeo nuevo, abre el exportador y revisa sus propios ajustes de tiempo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué mantener el botón no hace nada?",
+        "answer": "Comprueba Sync Playback. Los cambios temporales se desactivan durante la sincronización. Desactívala, aplica el cambio y vuelve a intentarlo."
+      },
+      {
+        "question": "¿Por qué la velocidad vuelve al soltar?",
+        "answer": "La pulsación prolongada es temporal. Usa el valor individual o la acción global si quieres mantener la nueva velocidad."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上统一变速和临时快慢放多个视频",
+    "description": "在 Android 上分别调整视频倍速、统一改变所有播放器速度，或按住按钮临时快放与慢放，松开后恢复原速。",
+    "summary": "细看动作时使用固定慢速；只想快速略过或放慢某一小段时，可以临时调整而不改动原倍速。",
+    "answer": "点按单区速度数值打开 Video Speed。用 Change Speed on All Players 统一变速，或按住 Long-Press Fast Forward、Long-Press Slow Motion，松开恢复原速。",
+    "requirement": "在 More → Customize Home Bottom Toolbar 添加所需按钮。统一变速需要 Premium；使用临时快慢放前请关闭 Sync Playback。",
+    "steps": [
+      {
+        "title": "找到单区速度控制",
+        "text": "点按视频显示控制栏，仪表图标旁的速度数值属于当前播放器。只调整一个视频时，先确认正在操作哪个区域。",
+        "caption": "上方播放器显示当前 1.0× 速度。"
+      },
+      {
+        "title": "设置持续使用的倍速",
+        "text": "点按速度数值，调节 Video Speed，例如 0.6×。播放检查动作；Remember Speed 是单独的记忆偏好，本次调整不需要启用。",
+        "caption": "速度面板将上方视频设为 0.6×。"
+      },
+      {
+        "title": "统一调整所有播放器",
+        "text": "点按底部 Change Speed on All Players，每次点按循环切换共同速度。观察两区数值；本例将两区设为 0.8×，随后恢复 1.0×。",
+        "caption": "两段视频均显示 0.8× 倍速。"
+      },
+      {
+        "title": "按住进行临时快慢放",
+        "text": "按住兔子按钮临时快放，按住乌龟按钮临时慢放。本例分别显示 3× 和 0.33×；松开后，各播放器恢复原倍速。",
+        "caption": "按住快放按钮时出现 Temporary speed: 3×。"
+      }
+    ],
+    "features": [
+      {
+        "title": "临时倍率可以配置",
+        "description": "实际临时速度取决于原速度和长按倍速设置。本例数值只是当前配置，不是所有用户都固定使用的速度。"
+      },
+      {
+        "title": "播放变速不会生成新文件",
+        "description": "这些控制改变观看速度。需要生成新视频时，应打开分屏导出，检查导出页自身的时间与速度设置。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么按住速度按钮没有效果？",
+        "answer": "先检查 Sync Playback。同步启用时临时全局变速不可用，关闭同步并应用后再试。"
+      },
+      {
+        "question": "为什么松手后速度恢复了？",
+        "answer": "长按功能本来就是临时变速。需要持续保留倍速时，请使用单区速度数值或全局变速按钮。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Die Geschwindigkeit mehrerer Videos auf Android ändern",
+    "description": "Stellen Sie Videos einzeln oder gemeinsam ein und halten Sie eine Taste für vorübergehend schnellere oder langsamere Wiedergabe auf Android.",
+    "summary": "Nutzen Sie eine feste langsame Geschwindigkeit zur Analyse und ändern Sie kurze Abschnitte vorübergehend, ohne den ursprünglichen Wert zu verlieren.",
+    "answer": "Tippen Sie auf die Geschwindigkeit für Video Speed. Change Speed on All Players ändert alle Player. Halten Sie Long-Press Fast Forward oder Long-Press Slow Motion; beim Loslassen gilt wieder die ursprüngliche Geschwindigkeit.",
+    "requirement": "Fügen Sie die Aktionen unter More → Customize Home Bottom Toolbar hinzu. Die globale Geschwindigkeitsänderung benötigt Premium. Deaktivieren Sie Sync Playback für vorübergehende Änderungen.",
+    "steps": [
+      {
+        "title": "Die einzelne Geschwindigkeitsanzeige finden",
+        "text": "Tippen Sie auf das Video. Der Wert neben dem Tacho gehört zu diesem Player. Prüfen Sie den Bereich, wenn Sie nur einen Clip ändern möchten.",
+        "caption": "Der obere Player zeigt 1.0×."
+      },
+      {
+        "title": "Eine dauerhafte Geschwindigkeit wählen",
+        "text": "Tippen Sie auf den Wert und setzen Sie Video Speed etwa auf 0.6×. Spielen Sie die Bewegung ab. Remember Speed ist eine separate Voreinstellung und hierfür nicht erforderlich.",
+        "caption": "Das obere Video wird auf 0.6× eingestellt."
+      },
+      {
+        "title": "Alle Player gemeinsam ändern",
+        "text": "Tippen Sie auf Change Speed on All Players. Jeder Tipp wechselt zur nächsten gemeinsamen Geschwindigkeit. Prüfen Sie beide Anzeigen; hier werden sie auf 0.8× und danach wieder auf 1.0× gesetzt.",
+        "caption": "Beide Videos zeigen 0.8×."
+      },
+      {
+        "title": "Für eine vorübergehende Änderung halten",
+        "text": "Halten Sie den Hasen zum Beschleunigen oder die Schildkröte zum Verlangsamen. Das Beispiel zeigt 3× und 0.33×. Loslassen stellt die ursprünglichen Player-Geschwindigkeiten wieder her.",
+        "caption": "Beim Halten erscheint Temporary speed: 3×."
+      }
+    ],
+    "features": [
+      {
+        "title": "Der Faktor ist einstellbar",
+        "description": "Die vorübergehende Geschwindigkeit hängt vom Ausgangswert und der Einstellung für langes Drücken ab. Die Beispielwerte gelten nicht fest für alle Nutzer."
+      },
+      {
+        "title": "Wiedergabegeschwindigkeit ist kein Export",
+        "description": "Diese Tasten ändern die Betrachtung. Für eine neue Videodatei öffnen Sie den Export und prüfen dessen eigene Zeiteinstellungen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum bewirkt langes Drücken nichts?",
+        "answer": "Prüfen Sie Sync Playback. Bei aktiver Synchronisation sind vorübergehende Änderungen deaktiviert. Schalten Sie sie aus, wenden Sie die Änderung an und versuchen Sie es erneut."
+      },
+      {
+        "question": "Warum kehrt die Geschwindigkeit beim Loslassen zurück?",
+        "answer": "Die Haltegeste ist vorübergehend. Nutzen Sie den einzelnen Wert oder die globale Geschwindigkeitsaktion für eine bleibende Auswahl."
+      }
+    ]
+  }
+}

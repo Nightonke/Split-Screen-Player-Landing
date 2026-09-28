@@ -1993,7 +1993,7 @@ html[lang^="zh"] .hero-title {
 .guide-card {
 	position: relative;
 	display: flex;
-	min-height: 390px;
+	min-height: 320px;
 	flex-direction: column;
 	align-items: flex-start;
 	overflow: hidden;
@@ -2022,7 +2022,7 @@ html[lang^="zh"] .hero-title {
 }
 
 .guide-card-number {
-	margin-left: auto;
+	flex-shrink: 0;
 	font-family: var(--mono);
 	font-size: 0.78rem;
 	font-weight: 900;
@@ -2030,7 +2030,9 @@ html[lang^="zh"] .hero-title {
 }
 
 .guide-card .section-kicker {
-	margin-top: 3.6rem;
+	margin: 0;
+	line-height: 1.6;
+	overflow-wrap: anywhere;
 }
 
 .guide-card h2,
@@ -2050,7 +2052,12 @@ html[lang^="zh"] .hero-title {
 	line-height: 1.62;
 }
 
-.guide-card .text-link {
+.guide-card-footer {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	align-self: stretch;
+	gap: 16px;
 	margin-top: auto;
 }
 
@@ -2520,7 +2527,7 @@ html[lang^="zh"] .hero-title {
 	}
 
 	.guide-card {
-		min-height: 340px;
+		min-height: 280px;
 		padding: 24px;
 	}
 

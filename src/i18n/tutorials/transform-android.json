@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで動画を全体表示・拡大・回転・反転する方法",
+    "description": "Androidの動画領域でFitとFillを切り替え、動画を回転し、水平反転で映像を比較します。",
+    "summary": "ワークスペース全体を並べ替えず、元ファイルも変えずに、各領域の中での映像表示を調整します。",
+    "answer": "プレーヤー操作を表示し、斜め矢印でFit／Fill、90°ボタンで回転、反転ボタンで鏡像モードを選びます。",
+    "requirement": "例ではローカルのゴルフ動画2本のうち上側を操作します。どのプレーヤーのボタンか確認してください。",
+    "steps": [
+      {
+        "title": "Fitで全体を残す",
+        "text": "動作全体を見るにはFitを使います。縦に余裕のある領域へ横長動画を入れると黒い余白ができますが、映像の欠落ではありません。",
+        "caption": "Fitは上の動画全体と黒い余白を表示します。"
+      },
+      {
+        "title": "必要ならFillで領域を満たす",
+        "text": "斜め矢印の拡大縮小ボタンで切り替えます。Fillは表示を広げる代わりに一部を切り抜きます。人物や道具が見切れていないか確認します。",
+        "caption": "Fillで上の動画が拡大され、見える範囲が変わります。"
+      },
+      {
+        "title": "領域内の動画を回転する",
+        "text": "時計回りの90°ボタンをタップします。上の映像だけが回転し、下は変わりません。90°ずつ繰り返すと元の向きへ戻せます。",
+        "caption": "上だけが回転し、下の動画は元の向きのままです。"
+      },
+      {
+        "title": "反転モードを選ぶ",
+        "text": "反転設定でHorizontalを選び、変えていない下の映像と比べます。元に戻すには同じ画面でOffを選びます。",
+        "caption": "上の動画の反転設定でHorizontalを選択しています。"
+      }
+    ],
+    "features": [
+      {
+        "title": "拡大縮小とレイアウトは別",
+        "description": "Fit／Fillは領域内部の映像を変えます。領域自体の大きさはレイアウト調整で変更します。"
+      },
+      {
+        "title": "反転では左右が入れ替わる",
+        "description": "利き手が異なる動作の比較に便利ですが、画面の左右は反転します。動作を説明するときに考慮してください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "元のファイルを書き換えますか？",
+        "answer": "いいえ。プレーヤーの表示を変える操作です。新しいファイルを作るには別途書き出します。"
+      },
+      {
+        "question": "Fillで映像が欠けるのはなぜですか？",
+        "answer": "領域と動画の比率が違うため、拡大時に一部を切り抜きます。全体を優先する場合はFitへ戻します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ajuster, remplir, tourner et refléter des vidéos sur Android",
+    "description": "Alternez entre image entière et remplissage sur Android, faites pivoter une vidéo et utilisez le miroir horizontal pour comparer.",
+    "summary": "Ajustez l’image dans sa zone sans réorganiser tout l’espace de travail ni réécrire le fichier source.",
+    "answer": "Affichez les commandes du lecteur. Les flèches diagonales changent Fit/Fill, le bouton 90° tourne l’image et le miroir propose les modes de réflexion.",
+    "requirement": "L’exemple modifie la vidéo supérieure parmi deux clips de golf locaux. Vérifiez à quel lecteur appartiennent les commandes.",
+    "steps": [
+      {
+        "title": "Conserver l’image entière avec Fit",
+        "text": "Utilisez Fit pour voir tout le mouvement. Une vidéo large dans une zone haute laisse des marges noires : elles préservent l’image entière et ne signalent pas du contenu manquant.",
+        "caption": "Fit montre toute la vidéo supérieure avec des marges noires."
+      },
+      {
+        "title": "Remplir si le recadrage convient",
+        "text": "Touchez les flèches diagonales. Fill occupe davantage la zone mais coupe une partie de l’image. Vérifiez que l’athlète et son équipement restent visibles.",
+        "caption": "Fill agrandit la vidéo supérieure et modifie son cadrage."
+      },
+      {
+        "title": "Faire pivoter la vidéo",
+        "text": "Touchez le bouton 90° dans le sens horaire. Seule cette image tourne ; celle du bas reste inchangée. Répétez par quarts de tour pour retrouver l’orientation initiale.",
+        "caption": "La vidéo supérieure tourne tandis que l’autre reste droite."
+      },
+      {
+        "title": "Choisir un miroir",
+        "text": "Ouvrez le miroir et choisissez Horizontal. Comparez avec la vidéo inférieure inchangée. Pour revenir à l’image normale, sélectionnez Off dans le même panneau.",
+        "caption": "Horizontal est sélectionné pour la vidéo du haut."
+      }
+    ],
+    "features": [
+      {
+        "title": "Échelle et disposition sont distinctes",
+        "description": "Fit/Fill modifie l’image à l’intérieur d’une zone. Pour changer la zone elle-même, utilisez les outils de redimensionnement du layout."
+      },
+      {
+        "title": "Le miroir inverse la latéralité",
+        "description": "Il peut aider à comparer des gestes de gaucher et de droitier, mais échange la gauche et la droite à l’écran. Tenez-en compte dans l’analyse."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ces commandes modifient-elles le fichier original ?",
+        "answer": "Non. Elles changent la présentation du lecteur. Créer un fichier nouveau est une exportation distincte."
+      },
+      {
+        "question": "Pourquoi Fill masque-t-il une partie de l’image ?",
+        "answer": "Il agrandit pour remplir une zone de proportions différentes. Revenez à Fit lorsque l’image entière compte davantage que l’absence de marges."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to fit, fill, rotate and mirror videos on Android",
+    "description": "Choose a complete or cropped view in an Android video pane, rotate a clip, and apply a horizontal mirror for visual comparison.",
+    "summary": "Adjust how each video sits inside its region without rearranging the entire workspace or rewriting the source file.",
+    "answer": "Reveal a player’s controls. Use the diagonal-arrows button to change Fit/Fill, the 90° button to rotate, and the mirror button to choose a reflection mode.",
+    "requirement": "This walkthrough changes the upper of two local golf videos. Check which player’s controls you are using before applying a transformation.",
+    "steps": [
+      {
+        "title": "Keep the full picture with Fit",
+        "text": "Start with Fit when the entire movement must remain visible. A wide golf clip in a tall region leaves black margins; these preserve the full image rather than indicating missing content.",
+        "caption": "Fit shows the complete upper video with black margins."
+      },
+      {
+        "title": "Fill the region when cropping is acceptable",
+        "text": "Tap the diagonal-arrows scaling button to change the display mode. Fill uses more of the region but crops part of the image. Check that the athlete and equipment remain visible.",
+        "caption": "Fill enlarges the upper clip and changes the visible crop."
+      },
+      {
+        "title": "Rotate the video inside its pane",
+        "text": "Tap the 90° clockwise button. Only that video’s picture rotates; the lower clip stays unchanged. Repeat in 90° steps to return to the original orientation.",
+        "caption": "The upper video is rotated while the lower view stays upright."
+      },
+      {
+        "title": "Choose a mirror mode",
+        "text": "Open the mirror control and choose Horizontal. Compare the result with the unchanged lower clip. Select Off in the same panel when you want the unmirrored picture again.",
+        "caption": "Horizontal is selected in the mirror panel for the upper video."
+      }
+    ],
+    "features": [
+      {
+        "title": "Scaling and layout are different",
+        "description": "Fit/Fill changes the picture inside a region. To change the region itself, use the layout resizing tools instead."
+      },
+      {
+        "title": "Mirroring changes visual handedness",
+        "description": "A reflected swing can help compare opposite-handed movements, but it reverses left and right in the display. Keep that in mind when discussing technique."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Will these controls edit my original file?",
+        "answer": "No. They change the player’s presentation. Rendering a new file is a separate export operation."
+      },
+      {
+        "question": "Why does Fill hide part of the video?",
+        "answer": "It enlarges the picture to fill a region with a different aspect ratio. Switch back to Fit when the full frame is more important than removing margins."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como ajustar, preencher, girar e espelhar vídeos no Android",
+    "description": "Alterne entre imagem inteira e preenchimento no Android, gire um vídeo e aplique espelhamento horizontal para comparar as imagens.",
+    "summary": "Ajuste a imagem dentro da área sem reorganizar todo o espaço nem reescrever o arquivo original.",
+    "answer": "Exiba os controles do player. As setas diagonais alternam Fit/Fill, o botão 90° gira a imagem e o espelho abre os modos de reflexão.",
+    "requirement": "O exemplo modifica o vídeo superior entre dois clipes locais de golfe. Confira a qual player os controles pertencem.",
+    "steps": [
+      {
+        "title": "Preservar a imagem inteira com Fit",
+        "text": "Use Fit para ver todo o movimento. Um vídeo largo em uma área alta deixa margens pretas: elas preservam a imagem e não indicam conteúdo ausente.",
+        "caption": "Fit mostra todo o vídeo superior com margens pretas."
+      },
+      {
+        "title": "Preencher quando o corte for aceitável",
+        "text": "Toque nas setas diagonais. Fill ocupa mais espaço, mas corta parte da imagem. Confira se o atleta e o equipamento continuam visíveis.",
+        "caption": "Fill amplia o vídeo superior e muda o enquadramento."
+      },
+      {
+        "title": "Girar o vídeo na área",
+        "text": "Toque no botão de 90° no sentido horário. Só essa imagem gira; a inferior não muda. Repita os giros de 90° para voltar à orientação original.",
+        "caption": "O vídeo superior gira e o inferior permanece na posição original."
+      },
+      {
+        "title": "Escolher o espelhamento",
+        "text": "Abra o espelho e selecione Horizontal. Compare com o vídeo inferior sem alteração. Escolha Off no mesmo painel para remover o espelhamento.",
+        "caption": "Horizontal está selecionado para o vídeo superior."
+      }
+    ],
+    "features": [
+      {
+        "title": "Escala e layout são diferentes",
+        "description": "Fit/Fill altera a imagem dentro de uma área. Para mudar a própria área, use as ferramentas de redimensionamento do layout."
+      },
+      {
+        "title": "O espelho inverte os lados",
+        "description": "Pode ajudar a comparar movimentos de mãos dominantes diferentes, mas troca esquerda e direita. Considere isso ao analisar a técnica."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Esses controles modificam o original?",
+        "answer": "Não. Eles alteram a apresentação do player. Criar um novo arquivo é uma operação separada de exportação."
+      },
+      {
+        "question": "Por que Fill esconde parte do vídeo?",
+        "answer": "Ele amplia a imagem para preencher uma área com outra proporção. Volte a Fit quando mostrar o quadro inteiro for mais importante que eliminar margens."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 영상 맞춤·채우기·회전·반전 사용하기",
+    "description": "Android 영상 영역에서 전체 보기와 채우기를 전환하고, 영상을 회전하거나 수평 반전하여 비교하세요.",
+    "summary": "전체 작업 공간을 재배치하거나 원본을 수정하지 않고 각 영역 안의 영상 표시를 조절하세요.",
+    "answer": "플레이어 버튼을 표시하고 대각선 화살표로 Fit/Fill, 90° 버튼으로 회전, 반전 버튼으로 거울 모드를 선택하세요.",
+    "requirement": "이 예시는 골프 영상 두 개 중 위쪽만 조절합니다. 버튼이 어느 플레이어에 속하는지 먼저 확인하세요.",
+    "steps": [
+      {
+        "title": "Fit으로 전체 화면 유지하기",
+        "text": "전체 동작을 보려면 Fit을 사용하세요. 넓은 영상을 높은 영역에 넣으면 검은 여백이 생깁니다. 이는 화면을 보존한 결과이며 내용 누락이 아닙니다.",
+        "caption": "Fit은 위쪽 영상 전체와 검은 여백을 보여 줍니다."
+      },
+      {
+        "title": "필요하면 Fill로 채우기",
+        "text": "대각선 화살표 버튼으로 표시 모드를 전환하세요. Fill은 영역을 더 채우지만 일부를 자릅니다. 사람과 장비가 보이는지 확인하세요.",
+        "caption": "Fill로 위쪽 영상이 커지고 보이는 범위가 달라집니다."
+      },
+      {
+        "title": "영역 안의 영상 회전하기",
+        "text": "시계 방향 90° 버튼을 누르세요. 위쪽 영상만 돌아가고 아래는 그대로입니다. 90°씩 반복하면 원래 방향으로 돌아갑니다.",
+        "caption": "위쪽 영상만 회전하고 아래는 원래 방향입니다."
+      },
+      {
+        "title": "반전 모드 선택하기",
+        "text": "반전 설정에서 Horizontal을 고르고 바뀌지 않은 아래 영상과 비교하세요. 원래대로 되돌리려면 같은 패널에서 Off를 선택합니다.",
+        "caption": "위쪽 영상에 Horizontal이 선택되어 있습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "크기 조절과 화면 배치는 다릅니다",
+        "description": "Fit/Fill은 영역 내부의 영상을 바꿉니다. 영역 자체의 크기는 배치 조절 도구로 변경하세요."
+      },
+      {
+        "title": "반전하면 좌우가 바뀝니다",
+        "description": "주로 쓰는 손이 다른 동작을 비교할 때 유용하지만 화면의 좌우가 뒤집힙니다. 자세를 설명할 때 이를 고려하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "원본 파일이 수정되나요?",
+        "answer": "아니요. 플레이어 표시만 바꿉니다. 새 파일을 만드는 작업은 별도의 내보내기입니다."
+      },
+      {
+        "question": "Fill에서 일부가 잘리는 이유는 무엇인가요?",
+        "answer": "영상과 영역의 비율이 달라 채우려면 확대와 자르기가 필요합니다. 전체 화면이 중요하면 Fit으로 돌아가세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo ajustar, rellenar, girar y reflejar vídeos en Android",
+    "description": "Alterna entre imagen completa y relleno en Android, gira un vídeo y aplica un espejo horizontal para comparar las imágenes.",
+    "summary": "Ajusta la imagen dentro de su zona sin reorganizar todo el espacio ni reescribir el archivo original.",
+    "answer": "Muestra los controles del reproductor. Las flechas diagonales cambian Fit/Fill, el botón 90° gira la imagen y el espejo abre los modos de reflexión.",
+    "requirement": "El ejemplo modifica el vídeo superior de dos clips locales de golf. Comprueba a qué reproductor pertenecen los controles.",
+    "steps": [
+      {
+        "title": "Conservar toda la imagen con Fit",
+        "text": "Usa Fit para ver el movimiento completo. Un vídeo ancho en una zona alta deja márgenes negros: preservan la imagen y no indican contenido perdido.",
+        "caption": "Fit muestra el vídeo superior completo con márgenes negros."
+      },
+      {
+        "title": "Rellenar si aceptas el recorte",
+        "text": "Toca las flechas diagonales. Fill ocupa más espacio, pero recorta parte de la imagen. Comprueba que siguen visibles el deportista y su equipo.",
+        "caption": "Fill amplía el vídeo superior y cambia su encuadre."
+      },
+      {
+        "title": "Girar el vídeo en su zona",
+        "text": "Toca el botón de 90° en sentido horario. Solo gira esa imagen; la inferior no cambia. Repite los giros de 90° para recuperar la orientación original.",
+        "caption": "El vídeo superior gira y el inferior permanece derecho."
+      },
+      {
+        "title": "Elegir un modo espejo",
+        "text": "Abre el espejo y selecciona Horizontal. Compara con el vídeo inferior sin cambios. Elige Off en el mismo panel para recuperar la imagen sin reflejo.",
+        "caption": "Horizontal está seleccionado para el vídeo superior."
+      }
+    ],
+    "features": [
+      {
+        "title": "Escala y distribución son distintas",
+        "description": "Fit/Fill modifica la imagen dentro de una zona. Para cambiar la zona en sí, usa las herramientas de tamaño del layout."
+      },
+      {
+        "title": "El espejo invierte los lados",
+        "description": "Puede ayudar a comparar movimientos con distinta mano dominante, pero intercambia izquierda y derecha. Tenlo en cuenta al analizar la técnica."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Estos controles modifican el original?",
+        "answer": "No. Cambian la presentación del reproductor. Crear un archivo nuevo es una operación de exportación aparte."
+      },
+      {
+        "question": "¿Por qué Fill oculta parte del vídeo?",
+        "answer": "Amplía la imagen para llenar una zona con otra proporción. Vuelve a Fit cuando ver el fotograma completo sea más importante que quitar márgenes."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上完整显示、填满、旋转和镜像视频",
+    "description": "在 Android 分屏区域中切换完整显示或裁剪填满，旋转单段视频，并用水平镜像辅助画面对比。",
+    "summary": "调整视频在区域里的显示方式，不必重排整个工作区，也不会覆盖原文件。",
+    "answer": "显示单区播放器控制栏，用对角箭头切换 Fit／Fill，点 90° 按钮旋转，再通过镜像按钮选择反射方式。",
+    "requirement": "本例只调整两段本地高尔夫视频中的上方区域。操作前先确认控制栏属于哪个播放器。",
+    "steps": [
+      {
+        "title": "用 Fit 保留完整画面",
+        "text": "需要看清整个动作时先用 Fit。横向高尔夫画面放入较高区域会留下黑边，这是保留全画面的结果，并非内容缺失。",
+        "caption": "Fit 显示完整的上方视频，并保留黑边。"
+      },
+      {
+        "title": "按需使用 Fill 填满区域",
+        "text": "点按对角箭头的缩放按钮切换模式。Fill 会占满更多区域，但会裁掉部分画面；请确认运动者和器材仍完整可见。",
+        "caption": "Fill 放大上方视频，改变可见范围。"
+      },
+      {
+        "title": "旋转区域内的视频",
+        "text": "点按顺时针 90° 按钮，只旋转当前视频，下方画面保持原状。继续按 90° 递增旋转即可回到原方向。",
+        "caption": "上方视频旋转后，下方仍保持直立。"
+      },
+      {
+        "title": "选择镜像模式",
+        "text": "打开镜像控制并选择 Horizontal，与未改变的下方视频对照。需要恢复时，在同一面板选择 Off。",
+        "caption": "上方视频的镜像面板选中 Horizontal。"
+      }
+    ],
+    "features": [
+      {
+        "title": "画面缩放与区域布局不同",
+        "description": "Fit／Fill 调整区域内部的视频显示。若要改变区域自身大小，请使用布局调整工具。"
+      },
+      {
+        "title": "镜像会改变画面中的左右关系",
+        "description": "反射后的挥杆有助于比较不同惯用手的动作，但显示中的左右会被交换，分析动作时应考虑这一点。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "这些控制会修改原文件吗？",
+        "answer": "不会，它们改变播放器的呈现方式。生成新文件是单独的视频导出操作。"
+      },
+      {
+        "question": "为什么 Fill 会隐藏部分画面？",
+        "answer": "因为视频与区域比例不同，填满需要放大并裁剪。更重视完整画面时，请切回 Fit。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Videos auf Android einpassen, füllen, drehen und spiegeln",
+    "description": "Wechseln Sie auf Android zwischen vollständigem Bild und Füllmodus, drehen Sie einen Clip und spiegeln Sie ihn horizontal zum Vergleich.",
+    "summary": "Ändern Sie die Darstellung im Bereich, ohne den gesamten Arbeitsbereich neu anzuordnen oder die Quelldatei zu überschreiben.",
+    "answer": "Blenden Sie die Player-Steuerung ein. Diagonale Pfeile wechseln Fit/Fill, die 90°-Taste dreht das Bild und die Spiegeltaste öffnet die Reflexionsmodi.",
+    "requirement": "Das Beispiel verändert das obere von zwei lokalen Golfvideos. Prüfen Sie vorab, welchen Player Sie bedienen.",
+    "steps": [
+      {
+        "title": "Mit Fit das ganze Bild erhalten",
+        "text": "Nutzen Sie Fit, wenn die gesamte Bewegung sichtbar bleiben soll. Ein breites Video in einem hohen Bereich lässt schwarze Ränder; diese erhalten das ganze Bild.",
+        "caption": "Fit zeigt das vollständige obere Video mit schwarzen Rändern."
+      },
+      {
+        "title": "Bei Bedarf mit Fill ausfüllen",
+        "text": "Tippen Sie auf die diagonalen Pfeile. Fill füllt mehr Fläche, schneidet aber Bildteile ab. Prüfen Sie, ob Sportler und Ausrüstung weiterhin sichtbar sind.",
+        "caption": "Fill vergrößert das obere Video und ändert den Ausschnitt."
+      },
+      {
+        "title": "Das Video im Bereich drehen",
+        "text": "Tippen Sie auf die 90°-Taste im Uhrzeigersinn. Nur dieses Bild dreht sich, das untere bleibt unverändert. Weitere Vierteldrehungen führen zur Ausgangslage zurück.",
+        "caption": "Das obere Video ist gedreht, das untere bleibt aufrecht."
+      },
+      {
+        "title": "Einen Spiegelmodus wählen",
+        "text": "Öffnen Sie die Spiegelsteuerung und wählen Sie Horizontal. Vergleichen Sie mit dem unveränderten unteren Clip. Off im selben Fenster stellt die normale Darstellung wieder her.",
+        "caption": "Horizontal ist für das obere Video ausgewählt."
+      }
+    ],
+    "features": [
+      {
+        "title": "Skalierung und Layout unterscheiden",
+        "description": "Fit/Fill verändert das Bild innerhalb eines Bereichs. Die Größe des Bereichs selbst ändern Sie mit den Layout-Werkzeugen."
+      },
+      {
+        "title": "Spiegelung vertauscht die Seiten",
+        "description": "Sie hilft beim Vergleich unterschiedlich geführter Bewegungen, kehrt aber links und rechts um. Berücksichtigen Sie das bei der Besprechung der Technik."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ändert das meine Originaldatei?",
+        "answer": "Nein. Die Steuerung verändert die Player-Darstellung. Eine neue Datei entsteht erst durch einen separaten Export."
+      },
+      {
+        "question": "Warum verbirgt Fill Teile des Videos?",
+        "answer": "Es vergrößert das Bild für einen Bereich mit anderem Seitenverhältnis. Wählen Sie Fit, wenn das vollständige Bild wichtiger ist als randlose Darstellung."
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "en-US": {
+    "title": "Now that you can play videos together, try these next",
+    "toc": "Explore next",
+    "groups": {
+      "viewing": "Adjust your viewing",
+      "comparison": "Compare videos in detail",
+      "saving": "Save and keep exploring"
+    },
+    "descriptions": {
+      "layout": "Find a layout that fits a mix of portrait and landscape clips.",
+      "resize": "Give the main video more space and rearrange the other views.",
+      "audio": "Keep every video visible while listening to just one.",
+      "sync": "Align the same action in recordings that start at different times.",
+      "frames": "Pause and step through footage to inspect small changes in movement.",
+      "overlay": "Layer two clips with adjustable opacity to compare positions.",
+      "bookmarks": "Save your videos and layout so you can return to them later.",
+      "export": "Combine your split-screen arrangement into one video to share.",
+      "web": "Keep a lesson playing while reading a web page beside it."
+    }
+  },
+  "zh-Hans": {
+    "title": "学会同时播放后，还可以这样用",
+    "toc": "继续探索",
+    "groups": {
+      "viewing": "调整观看方式",
+      "comparison": "深入对比视频",
+      "saving": "保存与继续使用"
+    },
+    "descriptions": {
+      "layout": "让横屏和竖屏素材自动匹配合适的分屏布局。",
+      "resize": "给主视频更多空间，并调整其他画面的大小与位置。",
+      "audio": "保留所有视频画面，只听其中一段的声音。",
+      "sync": "将开始时间不同的录像对齐到同一个动作。",
+      "frames": "暂停并逐帧检查，更仔细地观察动作变化。",
+      "overlay": "通过透明度叠加两个画面，检查姿态与位置差异。",
+      "bookmarks": "保存当前视频和布局，下次直接恢复整个工作区。",
+      "export": "把分屏画面合成为一个视频文件，方便分享。",
+      "web": "一边播放课程或示范，一边浏览网页资料。"
+    }
+  },
+  "zh-Hant": {
+    "title": "學會同時播放後，還可以這樣用",
+    "toc": "繼續探索",
+    "groups": {
+      "viewing": "調整觀看方式",
+      "comparison": "深入比較影片",
+      "saving": "儲存與繼續使用"
+    },
+    "descriptions": {
+      "layout": "讓橫向與直向素材自動搭配合適的分割畫面。",
+      "resize": "給主要影片更多空間，並調整其他畫面的大小與位置。",
+      "audio": "保留所有影片畫面，只聽其中一段的聲音。",
+      "sync": "將開始時間不同的錄影對齊到同一個動作。",
+      "frames": "暫停並逐格檢查，更仔細地觀察動作變化。",
+      "overlay": "透過透明度疊加兩個畫面，檢查姿態與位置差異。",
+      "bookmarks": "儲存目前的影片與版面，下次直接還原整個工作區。",
+      "export": "把分割畫面合成為一個影片檔案，方便分享。",
+      "web": "一邊播放課程或示範，一邊瀏覽網頁資料。"
+    }
+  },
+  "ja": {
+    "title": "同時再生ができたら、次の使い方も試してみましょう",
+    "toc": "次に試すこと",
+    "groups": {
+      "viewing": "見やすく配置する",
+      "comparison": "動画を詳しく比較する",
+      "saving": "保存して活用を広げる"
+    },
+    "descriptions": {
+      "layout": "縦向きと横向きの動画に合うレイアウトを自動で選びます。",
+      "resize": "主役の動画を大きくし、ほかの画面のサイズや位置を調整します。",
+      "audio": "すべての映像を表示したまま、1本だけの音声を聞けます。",
+      "sync": "撮影開始時刻が異なる動画を、同じ動作に合わせます。",
+      "frames": "一時停止してコマ送りし、細かな動きの変化を確認します。",
+      "overlay": "透明度を調整して2本の動画を重ね、姿勢や位置を比較します。",
+      "bookmarks": "動画とレイアウトを保存し、次回すぐに復元できます。",
+      "export": "分割画面を1本の動画にまとめて共有できます。",
+      "web": "講義やお手本を再生しながら、隣でウェブ資料を読めます。"
+    }
+  },
+  "ko": {
+    "title": "동시 재생을 익혔다면 이렇게 활용해 보세요",
+    "toc": "다음으로 살펴보기",
+    "groups": {
+      "viewing": "보기 편하게 조정하기",
+      "comparison": "동영상을 자세히 비교하기",
+      "saving": "저장하고 활용 넓히기"
+    },
+    "descriptions": {
+      "layout": "가로·세로 동영상에 맞는 화면 배치를 자동으로 찾습니다.",
+      "resize": "주요 동영상을 더 크게 표시하고 다른 화면의 크기와 위치를 조정합니다.",
+      "audio": "모든 화면을 보면서 한 동영상의 소리만 듣습니다.",
+      "sync": "촬영 시작 시간이 다른 동영상을 같은 동작에 맞춥니다.",
+      "frames": "일시 정지 후 프레임 단위로 움직임의 작은 변화를 확인합니다.",
+      "overlay": "투명도를 조절해 두 영상을 겹치고 자세와 위치를 비교합니다.",
+      "bookmarks": "동영상과 화면 배치를 저장해 다음에 바로 복원합니다.",
+      "export": "분할 화면을 하나의 동영상 파일로 만들어 공유합니다.",
+      "web": "강의나 시범 영상을 재생하면서 옆에서 웹 자료를 읽습니다."
+    }
+  },
+  "fr": {
+    "title": "Après la lecture simultanée, découvrez ces autres usages",
+    "toc": "À découvrir ensuite",
+    "groups": {
+      "viewing": "Adapter l’affichage",
+      "comparison": "Comparer les vidéos en détail",
+      "saving": "Enregistrer et aller plus loin"
+    },
+    "descriptions": {
+      "layout": "Trouvez une disposition adaptée aux vidéos en portrait et en paysage.",
+      "resize": "Agrandissez la vidéo principale et réorganisez les autres vues.",
+      "audio": "Gardez toutes les vidéos visibles en n’écoutant qu’une seule piste.",
+      "sync": "Alignez un même mouvement dans des vidéos démarrées à des moments différents.",
+      "frames": "Avancez image par image pour examiner les détails d’un mouvement.",
+      "overlay": "Superposez deux vidéos et réglez l’opacité pour comparer les positions.",
+      "bookmarks": "Enregistrez vos vidéos et leur disposition pour les retrouver plus tard.",
+      "export": "Réunissez les vues en une seule vidéo à partager.",
+      "web": "Regardez un cours tout en consultant une page web à côté."
+    }
+  },
+  "de": {
+    "title": "Nach der gleichzeitigen Wiedergabe: Das kannst du als Nächstes ausprobieren",
+    "toc": "Als Nächstes",
+    "groups": {
+      "viewing": "Ansicht anpassen",
+      "comparison": "Videos im Detail vergleichen",
+      "saving": "Speichern und weiterarbeiten"
+    },
+    "descriptions": {
+      "layout": "Finde ein passendes Layout für Videos im Hoch- und Querformat.",
+      "resize": "Gib dem Hauptvideo mehr Platz und ordne die anderen Ansichten neu an.",
+      "audio": "Behalte alle Videos im Blick und höre nur eine Tonspur.",
+      "sync": "Richte unterschiedlich gestartete Aufnahmen an derselben Bewegung aus.",
+      "frames": "Prüfe Bewegungen in der Pause Bild für Bild auf kleine Unterschiede.",
+      "overlay": "Überlagere zwei Videos mit einstellbarer Deckkraft, um Positionen zu vergleichen.",
+      "bookmarks": "Speichere Videos und Layout, um später direkt damit weiterzuarbeiten.",
+      "export": "Fasse die geteilten Ansichten zu einer Videodatei zum Teilen zusammen.",
+      "web": "Lass einen Kurs laufen und lies daneben die passenden Webinhalte."
+    }
+  },
+  "es": {
+    "title": "Después de reproducir varios vídeos, prueba estas opciones",
+    "toc": "Qué probar después",
+    "groups": {
+      "viewing": "Ajustar la visualización",
+      "comparison": "Comparar vídeos en detalle",
+      "saving": "Guardar y seguir explorando"
+    },
+    "descriptions": {
+      "layout": "Encuentra una distribución para combinar vídeos verticales y horizontales.",
+      "resize": "Amplía el vídeo principal y ajusta el tamaño y la posición de los demás.",
+      "audio": "Mantén todos los vídeos visibles y escucha solo uno.",
+      "sync": "Alinea una misma acción en grabaciones que empiezan en momentos distintos.",
+      "frames": "Pausa y avanza fotograma a fotograma para observar pequeños cambios.",
+      "overlay": "Superpón dos vídeos y ajusta la opacidad para comparar posiciones.",
+      "bookmarks": "Guarda los vídeos y su distribución para recuperarlos más adelante.",
+      "export": "Convierte la pantalla dividida en un único vídeo para compartir.",
+      "web": "Reproduce una clase mientras consultas una página web a su lado."
+    }
+  },
+  "pt-BR": {
+    "title": "Depois de reproduzir vários vídeos, experimente estas opções",
+    "toc": "O que explorar a seguir",
+    "groups": {
+      "viewing": "Ajustar a visualização",
+      "comparison": "Comparar vídeos em detalhe",
+      "saving": "Salvar e continuar explorando"
+    },
+    "descriptions": {
+      "layout": "Encontre um layout para combinar vídeos na vertical e na horizontal.",
+      "resize": "Dê mais espaço ao vídeo principal e ajuste as outras áreas.",
+      "audio": "Mantenha todos os vídeos visíveis e ouça apenas um deles.",
+      "sync": "Alinhe a mesma ação em gravações que começam em momentos diferentes.",
+      "frames": "Pause e avance quadro a quadro para observar pequenas mudanças.",
+      "overlay": "Sobreponha dois vídeos e ajuste a opacidade para comparar posições.",
+      "bookmarks": "Salve os vídeos e o layout para restaurar tudo mais tarde.",
+      "export": "Transforme a tela dividida em um único vídeo para compartilhar.",
+      "web": "Assista a uma aula enquanto consulta uma página da web ao lado."
+    }
+  }
+}

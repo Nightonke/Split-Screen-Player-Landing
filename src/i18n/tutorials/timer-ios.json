@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで複数動画にスリープタイマーを設定する方法",
+    "description": "iPhone・iPadでプリセットまたは任意のスリープ時間を設定し、カウントダウン終了時に分割画面の動画を自動停止します。",
+    "summary": "指定した時間だけ複数動画を再生し、後で1本ずつ止める手間を省きます。",
+    "answer": "Sleep TimerでプリセットまたはCustomを選び、動画を再生します。下部に残り時間が表示され、終了時に再生が停止し、画面の明るさも下げられます。",
+    "requirement": "必要ならMore → Customize Home Bottom ButtonsでSleep Timerを追加します。例ではループ中のローカル動画2本と1分のタイマーで確認しました。",
+    "steps": [
+      {
+        "title": "タイマーの選択肢を開く",
+        "text": "Sleep Timerには10、20、30、60分とCustomがあります。実行中のタイマーを解除する場合はOffを選びます。",
+        "caption": "タイマーのプリセット、Custom、Offが表示されます。"
+      },
+      {
+        "title": "任意の時間を入力する",
+        "text": "Customの時・分のホイールで0 hと01 minを選び、Confirmを押します。確定前に選択行を確認してください。",
+        "caption": "タイマーを1分に設定しています。"
+      },
+      {
+        "title": "再生と残り時間を確認する",
+        "text": "ワークスペースで動画を再生し、ツールバーの残り時間を確認します。タイマー設定だけで通常の再生操作が不要になるわけではありません。",
+        "caption": "再生中はタイマーボタンの下に残り時間が表示されます。"
+      },
+      {
+        "title": "時間切れで停止したことを確認する",
+        "text": "終了後、両方の動画が停止したことを確認します。今回の上側は00:01.975、下側は00:08.980で停止し、残り時間表示が消えました。",
+        "caption": "1分後に両方の動画が一時停止しました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "同じメニューから解除する",
+        "description": "停止が不要になったらSleep Timerを開き、Offを選びます。視聴を続ける場合は期限前に解除してください。"
+      },
+      {
+        "title": "端末の電源は切らない",
+        "description": "再生のタイマーであり、端末の電源を切る機能ではありません。メディアの削除や書き出しも行いません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "タイマーで再生も開始しますか？",
+        "answer": "通常の再生ボタンで開始し、動画の再生状態とカウントダウンの両方を確認してください。"
+      },
+      {
+        "question": "終了後に暗くなるのはなぜですか？",
+        "answer": "終了時には画面の明るさも下がります。シミュレータ画像は停止状態を示すもので、実機の物理的な明るさの変化を証明するものではありません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Programmer l’arrêt de plusieurs vidéos sur iPhone ou iPad",
+    "description": "Choisissez une minuterie prédéfinie ou personnalisée sur iPhone ou iPad, suivez le décompte et arrêtez automatiquement les vidéos en écran partagé.",
+    "summary": "Laissez plusieurs vidéos jouer pendant une durée choisie sans devoir ensuite arrêter chaque lecteur séparément.",
+    "answer": "Ouvrez Sleep Timer, choisissez une durée prédéfinie ou Custom, puis lancez les vidéos. Le décompte apparaît en bas ; à son terme, la lecture s’arrête et la luminosité de l’écran est abaissée.",
+    "requirement": "Ajoutez Sleep Timer dans More → Customize Home Bottom Buttons si nécessaire. Le test utilise une minute et deux vidéos locales en boucle.",
+    "steps": [
+      {
+        "title": "Ouvrir les durées proposées",
+        "text": "Touchez Sleep Timer et choisissez 10, 20, 30 ou 60 minutes, ou Custom. Don't enable permet d’annuler une minuterie active.",
+        "caption": "Le menu propose les durées, Custom et Don't enable."
+      },
+      {
+        "title": "Définir une durée personnalisée",
+        "text": "Dans Custom, sélectionnez 0 h et 01 min avec les roulettes, puis Confirm. Vérifiez la ligne sélectionnée avant de valider.",
+        "caption": "La durée personnalisée est d’une minute."
+      },
+      {
+        "title": "Lire et vérifier le décompte",
+        "text": "Revenez à l’espace, lancez les vidéos et contrôlez le temps restant dans la barre. Régler une minuterie ne remplace pas la commande Lecture.",
+        "caption": "Pendant la lecture, le temps restant apparaît sous le bouton du minuteur."
+      },
+      {
+        "title": "Vérifier la pause à l’échéance",
+        "text": "À la fin, vérifiez que les deux vidéos sont en pause. Ici, celle du haut s’arrête à 00:01.975 et celle du bas à 00:08.980. Le décompte disparaît.",
+        "caption": "Les deux vidéos sont en pause après une minute."
+      }
+    ],
+    "features": [
+      {
+        "title": "Annuler depuis le même menu",
+        "description": "Rouvrez Sleep Timer et choisissez Don't enable pour continuer sans arrêt programmé. Faites-le avant l’échéance si vous poursuivez le visionnage."
+      },
+      {
+        "title": "La minuterie n’éteint pas le téléphone",
+        "description": "Il s’agit d’un minuteur de lecture, pas d’arrêt de l’appareil. Il ne supprime ni n’exporte les médias."
+      }
+    ],
+    "faq": [
+      {
+        "question": "La minuterie lance-t-elle la lecture ?",
+        "answer": "Utilisez les commandes Lecture habituelles et vérifiez à la fois l’état des vidéos et le décompte."
+      },
+      {
+        "question": "Pourquoi l’écran est-il plus sombre ensuite ?",
+        "answer": "Le minuteur réduit aussi la luminosité de l’écran. Les captures du simulateur montrent la pause ; elles ne prouvent pas une variation physique de luminosité sur un iPhone ou iPad."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to set a sleep timer for multiple videos on iPhone or iPad",
+    "description": "Set a preset or custom sleep timer on iPhone or iPad, check the countdown, and pause your split-screen videos automatically when time runs out.",
+    "summary": "Let several videos play for a chosen period without needing to pause each player separately afterward.",
+    "answer": "Open Sleep Timer, choose a preset or Custom duration, and start the videos. The toolbar counts down; when time is up, playback pauses and the app requests a lower screen brightness.",
+    "requirement": "Add Sleep Timer in More → Customize Home Bottom Buttons if needed. The test below uses a one-minute timer and two looping local videos.",
+    "steps": [
+      {
+        "title": "Open the timer choices",
+        "text": "Tap Sleep Timer. Choose 10, 20, 30, or 60 minutes, or use Custom. Don't enable is available here when you want to cancel an active timer.",
+        "caption": "The timer menu offers presets, Custom, and Don't enable."
+      },
+      {
+        "title": "Set a custom duration",
+        "text": "Choose Custom, set 0 h and 01 min with the hour and minute wheels, then tap Confirm. Check the selected row before confirming.",
+        "caption": "The custom timer is set to one minute."
+      },
+      {
+        "title": "Start playback and check the countdown",
+        "text": "Return to the workspace, play the videos, and check the timer’s remaining time on the toolbar. Setting a timer does not replace the normal Play control.",
+        "caption": "The videos play while the remaining time is shown below the timer button."
+      },
+      {
+        "title": "Confirm that playback stops",
+        "text": "When the countdown ends, check that both videos are paused. In this test the upper clip stops at 00:01.975 and the lower at 00:08.980. The countdown disappears.",
+        "caption": "Both videos are paused after the one-minute countdown finishes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cancel from the same menu",
+        "description": "Open Sleep Timer again and select Don't enable if you no longer want it to stop playback. Do this before the deadline when continuing a viewing session."
+      },
+      {
+        "title": "The timer does not power off the phone",
+        "description": "This is a playback timer, not a shutdown timer. It does not delete or export media."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the timer start playback for me?",
+        "answer": "Use the ordinary Play controls to begin playback, then check both the video state and timer countdown."
+      },
+      {
+        "question": "Why is the screen darker afterward?",
+        "answer": "The timer also lowers screen brightness. Simulator screenshots show the paused video state; they do not prove a physical brightness change on an iPhone or iPad."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como programar a pausa de vários vídeos no iPhone ou iPad",
+    "description": "Configure um temporizador no iPhone ou iPad, acompanhe a contagem regressiva e pause automaticamente os vídeos em tela dividida quando o tempo acabar.",
+    "summary": "Deixe vários vídeos reproduzindo por um período escolhido sem precisar parar cada player separadamente depois.",
+    "answer": "Abra Sleep Timer, escolha uma duração predefinida ou Custom e reproduza os vídeos. A contagem aparece embaixo; ao terminar, a reprodução pausa e o brilho da tela é reduzido.",
+    "requirement": "Adicione Sleep Timer em More → Customize Home Bottom Buttons se necessário. O teste usa um minuto e dois vídeos locais em repetição.",
+    "steps": [
+      {
+        "title": "Abrir as opções de tempo",
+        "text": "Toque em Sleep Timer e escolha 10, 20, 30 ou 60 minutos, ou Custom. Don't enable cancela um temporizador ativo.",
+        "caption": "O menu oferece tempos predefinidos, Custom e Don't enable."
+      },
+      {
+        "title": "Definir uma duração personalizada",
+        "text": "Em Custom, selecione 0 h e 01 min nas rodas de horas e minutos e toque em Confirm. Confira a linha selecionada antes de confirmar.",
+        "caption": "O temporizador personalizado está em um minuto."
+      },
+      {
+        "title": "Reproduzir e conferir a contagem",
+        "text": "Volte ao espaço, reproduza os vídeos e confira o tempo restante na barra. Configurar o temporizador não substitui o botão Reproduzir.",
+        "caption": "Durante a reprodução, o tempo restante aparece abaixo do botão do temporizador."
+      },
+      {
+        "title": "Confirmar a pausa ao terminar",
+        "text": "Ao terminar, confira se ambos os vídeos estão pausados. No teste, o superior para em 00:01.975 e o inferior em 00:08.980. A contagem desaparece.",
+        "caption": "Os dois vídeos estão pausados após um minuto."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cancelar pelo mesmo menu",
+        "description": "Abra Sleep Timer e selecione Don't enable para continuar sem pausa programada. Faça isso antes do prazo se quiser seguir assistindo."
+      },
+      {
+        "title": "O temporizador não desliga o celular",
+        "description": "É um temporizador de reprodução, não de desligamento do aparelho. Ele não exclui nem exporta mídias."
+      }
+    ],
+    "faq": [
+      {
+        "question": "O temporizador inicia a reprodução?",
+        "answer": "Use os controles normais para começar e confira tanto o estado dos vídeos quanto a contagem regressiva."
+      },
+      {
+        "question": "Por que a tela fica escura depois?",
+        "answer": "O temporizador também reduz o brilho da tela. As capturas do simulador mostram a pausa, mas não comprovam uma mudança física de brilho em um iPhone ou iPad."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 여러 영상에 종료 타이머를 설정하는 방법",
+    "description": "iPhone 또는 iPad에서 프리셋이나 사용자 지정 타이머를 설정하고, 시간이 끝나면 분할 화면 영상이 자동으로 멈추게 하세요.",
+    "summary": "여러 영상을 정해진 시간만 재생하고 나중에 각각 멈출 필요 없이 함께 일시 정지하세요.",
+    "answer": "Sleep Timer에서 프리셋이나 Custom 시간을 선택하고 영상을 재생하세요. 아래에 남은 시간이 표시되며 종료 시 재생이 멈추고 화면 밝기도 낮아집니다.",
+    "requirement": "필요하면 More → Customize Home Bottom Buttons에 Sleep Timer를 추가하세요. 예시는 반복 중인 로컬 영상 두 개와 1분 타이머로 확인했습니다.",
+    "steps": [
+      {
+        "title": "타이머 선택지 열기",
+        "text": "Sleep Timer에서 10, 20, 30, 60분이나 Custom을 선택할 수 있습니다. 실행 중인 타이머를 취소할 때는 Off를 사용하세요.",
+        "caption": "프리셋, Custom과 Off가 표시됩니다."
+      },
+      {
+        "title": "사용자 지정 시간 입력하기",
+        "text": "Custom의 시간 및 분 휠에서 0 h와 01 min을 선택한 다음 Confirm을 누르세요. 확인 전에 선택된 행을 점검하세요.",
+        "caption": "사용자 지정 타이머가 1분으로 설정됩니다."
+      },
+      {
+        "title": "재생과 남은 시간 확인하기",
+        "text": "작업 공간으로 돌아가 영상을 재생하고 도구 모음의 남은 시간을 보세요. 타이머 설정이 일반 재생 조작을 대신하지는 않습니다.",
+        "caption": "영상이 재생되는 동안 타이머 버튼 아래에 남은 시간이 표시됩니다."
+      },
+      {
+        "title": "시간 종료 후 정지 확인하기",
+        "text": "종료 후 두 영상이 멈췄는지 확인하세요. 이 테스트에서는 위쪽이 00:01.975, 아래쪽이 00:08.980에서 멈추고 시간 표시가 사라졌습니다.",
+        "caption": "1분이 지나 두 영상이 모두 일시 정지되었습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "같은 메뉴에서 취소하세요",
+        "description": "더 이상 자동 정지가 필요 없으면 Sleep Timer에서 Off를 선택하세요. 계속 시청하려면 종료 전에 취소합니다."
+      },
+      {
+        "title": "휴대폰 전원은 끄지 않습니다",
+        "description": "재생 타이머이며 기기 종료 타이머가 아닙니다. 미디어를 삭제하거나 내보내지 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "타이머가 재생도 시작하나요?",
+        "answer": "일반 재생 버튼으로 시작한 후 영상 상태와 카운트다운을 모두 확인하세요."
+      },
+      {
+        "question": "종료 후 화면이 어두워지는 이유는 무엇인가요?",
+        "answer": "종료 시 화면 밝기도 낮아집니다. 시뮬레이터 스크린샷은 영상의 정지 상태를 보여 주며 실제 iPhone 또는 iPad의 물리적 밝기 변화는 증명하지 않습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo programar la pausa de varios vídeos en iPhone o iPad",
+    "description": "Configura un temporizador en iPhone o iPad, consulta la cuenta atrás y pausa automáticamente los vídeos en pantalla dividida al terminar el tiempo.",
+    "summary": "Deja reproducir varios vídeos durante un tiempo elegido sin tener que detener después cada reproductor por separado.",
+    "answer": "Abre Sleep Timer, elige una duración predefinida o Custom y reproduce los vídeos. La cuenta atrás aparece abajo; al terminar, se pausa la reproducción y se reduce el brillo de la pantalla.",
+    "requirement": "Añade Sleep Timer en More → Customize Home Bottom Buttons si falta. La prueba usa un minuto y dos vídeos locales en bucle.",
+    "steps": [
+      {
+        "title": "Abrir las opciones de tiempo",
+        "text": "Toca Sleep Timer y elige 10, 20, 30 o 60 minutos, o Custom. Don't enable cancela un temporizador activo.",
+        "caption": "El menú ofrece tiempos predefinidos, Custom y Don't enable."
+      },
+      {
+        "title": "Definir una duración personalizada",
+        "text": "En Custom, selecciona 0 h y 01 min con las ruedas de horas y minutos, y toca Confirm. Revisa la fila seleccionada antes de confirmar.",
+        "caption": "El temporizador personalizado está en un minuto."
+      },
+      {
+        "title": "Reproducir y comprobar la cuenta atrás",
+        "text": "Vuelve al espacio, reproduce los vídeos y comprueba el tiempo restante en la barra. Configurar el temporizador no sustituye el botón Reproducir.",
+        "caption": "Durante la reproducción, el tiempo restante aparece bajo el botón del temporizador."
+      },
+      {
+        "title": "Confirmar la pausa al terminar",
+        "text": "Al terminar, comprueba que ambos vídeos estén pausados. En la prueba, el superior se detiene en 00:01.975 y el inferior en 00:08.980. La cuenta atrás desaparece.",
+        "caption": "Los dos vídeos están pausados tras un minuto."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cancelar desde el mismo menú",
+        "description": "Abre Sleep Timer y selecciona Don't enable para continuar sin parada programada. Hazlo antes del final si quieres seguir viendo los vídeos."
+      },
+      {
+        "title": "El temporizador no apaga el teléfono",
+        "description": "Es un temporizador de reproducción, no de apagado del dispositivo. No elimina ni exporta los archivos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿El temporizador inicia la reproducción?",
+        "answer": "Usa los controles habituales para empezar y comprueba tanto el estado de los vídeos como la cuenta atrás."
+      },
+      {
+        "question": "¿Por qué se oscurece la pantalla al final?",
+        "answer": "El temporizador también reduce el brillo de la pantalla. Las capturas del simulador muestran la pausa, pero no demuestran un cambio físico de brillo en un iPhone o iPad."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上定时停止多个视频",
+    "description": "在 iPhone 或 iPad 上设置预设或自定义睡眠定时器，查看倒计时，让分屏视频到时自动暂停，无需逐个操作。",
+    "summary": "让多段视频播放一段指定时间，到时统一停止，避免之后再分别暂停每个播放器。",
+    "answer": "打开 Sleep Timer，选择预设或 Custom 时长，再开始播放。底部工具栏显示倒计时；到时会暂停播放，应用也会调低屏幕亮度。",
+    "requirement": "如缺少按钮，在 More → Customize Home Bottom Buttons 添加 Sleep Timer。本例用一分钟定时器和两段循环播放的本地视频实测。",
+    "steps": [
+      {
+        "title": "打开定时选项",
+        "text": "点按 Sleep Timer，可选 10、20、30、60 分钟或 Custom。要取消正在运行的定时器，也可在这里选择 Don't enable。",
+        "caption": "定时菜单提供预设时长、Custom 和 Don't enable。"
+      },
+      {
+        "title": "输入自定义时长",
+        "text": "选择 Custom，在小时和分钟滚轮中设置 0 h、01 min，再点 Confirm。确认前检查选中行。",
+        "caption": "自定义定时器设为一分钟。"
+      },
+      {
+        "title": "播放并检查倒计时",
+        "text": "返回工作区，开始播放视频，观察工具栏剩余时间。设置定时器不能代替正常的播放操作。",
+        "caption": "视频播放期间，定时按钮下方显示剩余时间。"
+      },
+      {
+        "title": "确认到时暂停",
+        "text": "倒计时结束后检查两段视频是否暂停。本次上方停在 00:01.975，下方停在 00:08.980，计时标记消失。",
+        "caption": "一分钟倒计时结束后，两段视频均已暂停。"
+      }
+    ],
+    "features": [
+      {
+        "title": "从原菜单取消",
+        "description": "不再需要定时停止时，重新打开 Sleep Timer 并选择 Don't enable。若想继续观看，应在截止前取消。"
+      },
+      {
+        "title": "定时器不会关闭手机",
+        "description": "这是播放定时，不是关机定时，不会删除或导出媒体。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "设置后会自动开始播放吗？",
+        "answer": "请使用正常播放按钮开始播放，并同时检查视频状态与定时倒计时。"
+      },
+      {
+        "question": "为什么到时后屏幕变暗？",
+        "answer": "到时也会调低屏幕亮度。模拟器截图展示视频暂停状态，不能证明 iPhone 或 iPad 真机的实际亮度变化。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Einen Sleep-Timer für mehrere Videos auf dem iPhone oder iPad einstellen",
+    "description": "Wählen Sie auf dem iPhone oder iPad eine voreingestellte oder eigene Zeit und lassen Sie die Videos auf dem geteilten Bildschirm automatisch pausieren.",
+    "summary": "Spielen Sie mehrere Videos für eine gewählte Dauer ab, ohne danach jeden Player einzeln anhalten zu müssen.",
+    "answer": "Öffnen Sie Sleep Timer, wählen Sie eine Vorgabe oder Custom und starten Sie die Videos. Unten läuft der Countdown; danach pausiert die Wiedergabe und die Bildschirmhelligkeit wird gesenkt.",
+    "requirement": "Fügen Sie Sleep Timer bei Bedarf unter More → Customize Home Bottom Buttons hinzu. Der Test nutzt eine Minute und zwei lokale Videos in Schleife.",
+    "steps": [
+      {
+        "title": "Die Zeitoptionen öffnen",
+        "text": "Tippen Sie auf Sleep Timer. Wählen Sie 10, 20, 30 oder 60 Minuten oder Custom. Don't enable beendet einen aktiven Timer.",
+        "caption": "Das Menü bietet Zeitvorgaben, Custom und Don't enable."
+      },
+      {
+        "title": "Eine eigene Dauer eingeben",
+        "text": "Wählen Sie unter Custom mit den Stunden- und Minutenrädern 0 h und 01 min, dann Confirm. Prüfen Sie vorher die ausgewählte Zeile.",
+        "caption": "Der eigene Timer ist auf eine Minute eingestellt."
+      },
+      {
+        "title": "Wiedergabe und Countdown prüfen",
+        "text": "Kehren Sie zurück, starten Sie die Videos und prüfen Sie die Restzeit in der Werkzeugleiste. Der Timer ersetzt nicht die normale Wiedergabetaste.",
+        "caption": "Während der Wiedergabe steht die verbleibende Zeit unter der Timertaste."
+      },
+      {
+        "title": "Das Anhalten kontrollieren",
+        "text": "Prüfen Sie nach Ablauf, ob beide Videos pausieren. Im Test stoppt das obere bei 00:01.975 und das untere bei 00:08.980. Der Countdown verschwindet.",
+        "caption": "Nach einer Minute sind beide Videos pausiert."
+      }
+    ],
+    "features": [
+      {
+        "title": "Im selben Menü abbrechen",
+        "description": "Öffnen Sie Sleep Timer und wählen Sie Don't enable, wenn die Wiedergabe weiterlaufen soll. Brechen Sie vor Ablauf ab."
+      },
+      {
+        "title": "Der Timer schaltet das Telefon nicht aus",
+        "description": "Dies ist ein Wiedergabetimer, keine Geräteabschaltung. Er löscht oder exportiert keine Medien."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Startet der Timer die Wiedergabe?",
+        "answer": "Nutzen Sie die normalen Wiedergabetasten und prüfen Sie sowohl den Player-Zustand als auch den Countdown."
+      },
+      {
+        "question": "Warum ist der Bildschirm danach dunkler?",
+        "answer": "Der Timer senkt auch die Bildschirmhelligkeit. Simulatorbilder zeigen den Pausenzustand, belegen aber keine physische Helligkeitsänderung auf einem iPhone oder iPad."
+      }
+    ]
+  }
+}

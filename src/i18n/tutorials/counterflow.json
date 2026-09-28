@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "{device}で動画の行や列を逆方向にスクロールさせる方法",
+    "description": "{device}でCounterflowの動画ウォールを作成。2〜5本の行や列に素材を並べ、方向、間隔、自動スクロールを調整します。",
+    "summary": "隣り合う列を上下に、または複数の行を左右に逆方向へ動かします。Counterflowなら、動画を交差するような動きのある配置で楽しめます。",
+    "answer": "下部ツールバーのCounterflowを開き、もう一度タップしてCounterflow settingsを表示します。動画を追加し、VerticalとColumns、またはHorizontalとRowsを選んでAuto-scrollをオンにします。",
+    "requirement": "CounterflowはPremium機能です。複数のローカル動画を用意し、ボタンがない場合はMore → Settings → {customizeToolbar}で追加してください。",
+    "steps": [
+      {
+        "title": "Counterflowに動画を追加する",
+        "text": "Counterflowをタップしてモードを開き、再度タップして設定を表示します。Add videos → {source}から複数の動画を選んで確定します。Waterfallから直接切り替える場合は、使用中の素材を引き継げます。",
+        "caption": "Counterflowの素材メニューからローカル動画を追加できます。"
+      },
+      {
+        "title": "逆方向に動く列を作る",
+        "text": "Scroll directionでVerticalを選ぶと、Columnsで2〜5列を指定できます。まずは3列で動きの違いを確認しましょう。Video spacingを調整し、Auto-scrollをオンにします。無音にする場合はMuteを有効にします。",
+        "caption": "縦方向の3列と自動スクロールを設定した画面。"
+      },
+      {
+        "title": "横方向の行を試す",
+        "text": "Horizontalを選ぶと横方向の行に切り替わり、数の設定はRowsになります。Scroll speedは1画面を移動する時間です。秒数を増やすと移動が遅くなります。動画そのものの再生速度は変わりません。",
+        "caption": "Horizontalを選ぶとColumnsの代わりにRowsが表示されます。"
+      },
+      {
+        "title": "動きを確認して調整する",
+        "text": "設定を閉じ、隣の行や列が逆方向に動く様子を確認します。数や速度はCounterflow settingsで変更できます。通常の分割画面に戻るにはClose Counterflowを選んで確定します。",
+        "caption": "3行の動画が交互に逆方向へ移動しています。"
+      }
+    ],
+    "features": [
+      {
+        "title": "繰り返し表示は循環する配置の一部です",
+        "description": "配置が循環すると、同じ動画が1つの行や列に複数回現れることがあります。カードの繰り返しだけでは、ファイルを重複して読み込んだとは限りません。"
+      },
+      {
+        "title": "画面に合わせて行や列の数を選ぶ",
+        "description": "数を増やすと同時に見える動画が増えますが、各動画は小さくなります。スマートフォンでは2〜3本から始め、被写体が見やすければ増やしてください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "縦長と横長の動画を一緒に使えますか？",
+        "answer": "はい。この例でも両方を使っています。動画の比率によって行や列の中で占める長さが変わるため、同じ形に切り抜く必要はありません。"
+      },
+      {
+        "question": "Counterflowを閉じずにスクロールだけ止められますか？",
+        "answer": "はい。Counterflow settingsでAuto-scrollをオフにすると配置の移動が止まります。このスイッチは動画自体の再生とは別です。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Faire défiler des vidéos en sens opposés sur {device}",
+    "description": "Créez un mur vidéo Counterflow sur {device}. Choisissez deux à cinq lignes ou colonnes et réglez le sens, l’espacement et le défilement automatique.",
+    "summary": "Faites monter une colonne pendant que sa voisine descend, ou faites glisser des lignes en sens opposés. Counterflow donne à vos vidéos un mouvement croisé continu.",
+    "answer": "Ouvrez Counterflow depuis la barre inférieure, puis touchez-le de nouveau pour afficher Counterflow settings. Ajoutez des vidéos, choisissez Vertical avec Columns ou Horizontal avec Rows, puis activez Auto-scroll.",
+    "requirement": "Counterflow nécessite Premium. Préparez plusieurs vidéos locales. Si le bouton manque, ajoutez-le dans More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Ajouter des clips à Counterflow",
+        "text": "Touchez Counterflow pour ouvrir le mode, puis de nouveau pour accéder aux réglages. Choisissez Add videos → {source}, sélectionnez plusieurs clips et validez. En passant directement de Waterfall à Counterflow, vous pouvez conserver les clips déjà utilisés.",
+        "caption": "Le menu des sources Counterflow permet d’ajouter des vidéos locales."
+      },
+      {
+        "title": "Créer des colonnes opposées",
+        "text": "Choisissez Vertical dans Scroll direction. Le réglage Columns propose deux à cinq colonnes. Commencez par trois pour bien voir le mouvement opposé. Ajustez Video spacing, activez Auto-scroll et gardez Mute activé pour une présentation silencieuse.",
+        "caption": "Trois colonnes verticales avec déplacement automatique sont configurées."
+      },
+      {
+        "title": "Essayer des lignes horizontales",
+        "text": "Choisissez Horizontal pour passer à des lignes. Le réglage du nombre devient Rows. Scroll speed indique le temps nécessaire pour parcourir un écran : davantage de secondes ralentissent le mouvement. La vitesse de lecture des clips reste inchangée.",
+        "caption": "Horizontal remplace le réglage Columns par Rows."
+      },
+      {
+        "title": "Observer et ajuster le résultat",
+        "text": "Fermez les réglages et regardez les pistes voisines avancer en sens opposés. Rouvrez Counterflow settings pour modifier leur nombre ou leur vitesse. Pour retrouver l’espace de travail habituel, choisissez Close Counterflow et confirmez.",
+        "caption": "Trois lignes de vidéos traversent l’écran dans des directions alternées."
+      }
+    ],
+    "features": [
+      {
+        "title": "Les répétitions font partie de la disposition continue",
+        "description": "Un même clip peut apparaître plusieurs fois le long d’une piste lorsque la disposition se répète. Des vignettes répétées ne signifient pas forcément que vous avez importé des fichiers en double."
+      },
+      {
+        "title": "Adapter le nombre de pistes à l’écran",
+        "description": "Davantage de lignes ou colonnes affichent plus de vidéos à la fois, mais chacune devient plus petite. Sur téléphone, commencez par deux ou trois et augmentez si les sujets restent lisibles."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Peut-on mélanger vidéos verticales et horizontales ?",
+        "answer": "Oui. L’exemple utilise les deux orientations. Leurs proportions déterminent la longueur de chaque vignette dans sa ligne ou colonne ; aucun recadrage uniforme n’est nécessaire."
+      },
+      {
+        "question": "Peut-on arrêter le défilement sans quitter Counterflow ?",
+        "answer": "Oui. Désactivez Auto-scroll dans Counterflow settings pour arrêter le déplacement de la disposition. Ce réglage est distinct de la lecture des vidéos."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to make videos scroll in opposite directions on {device}",
+    "description": "Create a Counterflow video wall on {device}. Choose two to five rows or columns, add local clips, and control the direction, spacing, and automatic movement.",
+    "summary": "Make neighboring columns climb and descend, or let rows glide past each other. Counterflow turns a group of videos into an animated arrangement with opposing motion.",
+    "answer": "Open Counterflow from the bottom toolbar, then tap it again for Counterflow settings. Add videos, choose Vertical with Columns or Horizontal with Rows, and enable Auto-scroll.",
+    "requirement": "Counterflow requires Premium. Prepare several local videos and add Counterflow through More → Settings → {customizeToolbar} if its button is missing.",
+    "steps": [
+      {
+        "title": "Add clips to Counterflow",
+        "text": "Tap Counterflow to enter the mode. Tap it again to open settings, choose Add videos, then select {source}. Confirm several clips. When switching directly from Waterfall, the existing flow clips can be carried across.",
+        "caption": "The Counterflow source menu lets you add local video clips."
+      },
+      {
+        "title": "Create opposing columns",
+        "text": "Choose Vertical under Scroll direction. The next control is Columns, with two to five tracks. Start with three columns to make the opposing movement easy to see. Adjust Video spacing, enable Auto-scroll, and keep Mute on for a silent display.",
+        "caption": "Counterflow is configured as three vertical columns with automatic movement."
+      },
+      {
+        "title": "Try horizontal rows",
+        "text": "Select Horizontal to change the layout into rows. The same count control becomes Rows. Use Scroll speed to set the travel time per screen; more seconds means slower movement. This changes the motion of the arrangement, not the playback speed of the clips.",
+        "caption": "Horizontal direction replaces the Columns control with Rows."
+      },
+      {
+        "title": "Watch and fine-tune the result",
+        "text": "Close the settings panel and watch the neighboring tracks move in opposite directions. Reopen Counterflow settings to change the count or speed. To return to the ordinary split-screen workspace, choose Close Counterflow and confirm.",
+        "caption": "Three rows of video move across the screen in alternating directions."
+      }
+    ],
+    "features": [
+      {
+        "title": "Repeated clips are part of the flowing layout",
+        "description": "A clip can appear more than once along a track as the layout repeats. Seeing repeated cards does not by itself mean you imported duplicate files."
+      },
+      {
+        "title": "Choose the track count for the screen",
+        "description": "More rows or columns show more clips at once but make each one smaller. Start with two or three on a phone, then increase the count if the subjects remain readable."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I use portrait and landscape videos together?",
+        "answer": "Yes. The example mixes both orientations. Their proportions affect the length of each card within its row or column, so the wall does not require identically shaped clips."
+      },
+      {
+        "question": "Can I stop the movement without closing Counterflow?",
+        "answer": "Yes. Turn off Auto-scroll in Counterflow settings. The movement of the arrangement stops; this switch is separate from the playback of the videos themselves."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como fazer linhas ou colunas de vídeos rolarem em sentidos opostos no {device}",
+    "description": "Crie um mural Counterflow no {device}. Escolha de duas a cinco linhas ou colunas e ajuste a direção, o espaçamento e o movimento automático.",
+    "summary": "Faça uma coluna subir enquanto a vizinha desce, ou deixe linhas deslizarem em sentidos opostos. O Counterflow organiza os vídeos em um movimento cruzado contínuo.",
+    "answer": "Abra Counterflow na barra inferior e toque novamente para acessar Counterflow settings. Adicione vídeos, escolha Vertical com Columns ou Horizontal com Rows e ative Auto-scroll.",
+    "requirement": "O Counterflow exige Premium. Prepare vários vídeos locais. Se o botão não aparecer, adicione-o em More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Adicionar clipes ao Counterflow",
+        "text": "Toque em Counterflow para entrar no modo e novamente para abrir as configurações. Escolha Add videos → {source}, selecione vários clipes e confirme. Ao trocar diretamente do Waterfall, você pode manter os vídeos que já estava usando.",
+        "caption": "O menu de origem do Counterflow permite adicionar vídeos locais."
+      },
+      {
+        "title": "Criar colunas em sentidos opostos",
+        "text": "Escolha Vertical em Scroll direction. Columns permite selecionar de duas a cinco colunas. Comece com três para perceber o movimento contrário. Ajuste Video spacing, ative Auto-scroll e mantenha Mute ligado para uma apresentação silenciosa.",
+        "caption": "Três colunas verticais com movimento automático estão configuradas."
+      },
+      {
+        "title": "Experimentar linhas horizontais",
+        "text": "Selecione Horizontal para mudar para linhas. O controle de quantidade passa a ser Rows. Scroll speed define o tempo para percorrer uma tela: mais segundos significam movimento mais lento. A velocidade de reprodução dos clipes não muda.",
+        "caption": "Ao escolher Horizontal, Columns é substituído por Rows."
+      },
+      {
+        "title": "Observar e ajustar o resultado",
+        "text": "Feche as configurações e observe as faixas vizinhas se moverem em sentidos opostos. Reabra Counterflow settings para alterar a quantidade ou a velocidade. Para voltar ao espaço de trabalho comum, escolha Close Counterflow e confirme.",
+        "caption": "Três linhas de vídeos atravessam a tela em direções alternadas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Clipes repetidos fazem parte do fluxo contínuo",
+        "description": "Um clipe pode aparecer várias vezes ao longo de uma faixa quando o layout se repete. Cartões repetidos não significam, por si só, que você importou arquivos duplicados."
+      },
+      {
+        "title": "Escolher a quantidade de faixas para a tela",
+        "description": "Mais linhas ou colunas mostram mais vídeos ao mesmo tempo, mas deixam cada um menor. No celular, comece com duas ou três e aumente a quantidade se os assuntos continuarem fáceis de ver."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso misturar vídeos verticais e horizontais?",
+        "answer": "Sim. O exemplo usa as duas orientações. As proporções determinam o comprimento de cada cartão na linha ou coluna, sem exigir que todos os vídeos sejam recortados no mesmo formato."
+      },
+      {
+        "question": "Posso parar o movimento sem fechar o Counterflow?",
+        "answer": "Sim. Desative Auto-scroll em Counterflow settings. O deslocamento do layout para; esse controle é separado da reprodução dos próprios vídeos."
+      }
+    ]
+  },
+  "ko": {
+    "title": "{device}에서 여러 행이나 열의 동영상을 반대 방향으로 스크롤하는 방법",
+    "description": "{device}에서 Counterflow 영상 벽을 만드세요. 2~5개의 행이나 열에 영상을 배치하고 방향, 간격, 자동 스크롤을 조절합니다.",
+    "summary": "이웃한 열을 위아래로, 여러 행을 좌우로 엇갈리게 움직여 보세요. Counterflow는 영상들을 반대 방향으로 이동하는 배치로 보여 줍니다.",
+    "answer": "하단 도구 모음에서 Counterflow를 연 뒤 다시 눌러 Counterflow settings를 표시합니다. 영상을 추가하고 Vertical과 Columns 또는 Horizontal과 Rows를 선택한 다음 Auto-scroll을 켭니다.",
+    "requirement": "Counterflow는 Premium 기능입니다. 로컬 동영상을 여러 개 준비하고 버튼이 없다면 More → Settings → {customizeToolbar}에서 추가하세요.",
+    "steps": [
+      {
+        "title": "Counterflow에 영상 추가하기",
+        "text": "Counterflow를 눌러 모드에 들어가고 다시 눌러 설정을 엽니다. Add videos → {source}에서 여러 영상을 선택하고 확인하세요. Waterfall에서 바로 전환할 때는 기존 흐름의 영상을 이어서 사용할 수 있습니다.",
+        "caption": "Counterflow 소스 메뉴에서 로컬 영상을 추가합니다."
+      },
+      {
+        "title": "반대 방향으로 움직이는 열 만들기",
+        "text": "Scroll direction에서 Vertical을 선택하면 Columns에서 2~5열을 고를 수 있습니다. 우선 3열로 엇갈리는 움직임을 확인하세요. Video spacing을 조절하고 Auto-scroll을 켭니다. 소리 없이 감상하려면 Mute를 켜 두세요.",
+        "caption": "세 개의 세로 열과 자동 스크롤을 선택한 설정 화면입니다."
+      },
+      {
+        "title": "가로 행으로 바꿔 보기",
+        "text": "Horizontal을 선택하면 가로 행 배치로 바뀌고 개수 설정도 Rows가 됩니다. Scroll speed는 한 화면을 이동하는 데 걸리는 시간입니다. 초 단위 값이 클수록 천천히 이동합니다. 영상 자체의 재생 속도는 바뀌지 않습니다.",
+        "caption": "Horizontal을 선택하면 Columns 대신 Rows가 표시됩니다."
+      },
+      {
+        "title": "결과를 보고 미세 조정하기",
+        "text": "설정 패널을 닫고 이웃한 행이나 열이 반대 방향으로 움직이는지 확인합니다. 개수나 속도는 Counterflow settings에서 바꿀 수 있습니다. 일반 분할 화면으로 돌아가려면 Close Counterflow를 선택하고 확인하세요.",
+        "caption": "세 줄의 영상이 번갈아 반대 방향으로 이동합니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "반복되는 카드는 순환 배치의 일부입니다",
+        "description": "배치가 순환하면서 같은 영상이 한 행이나 열에 여러 번 나타날 수 있습니다. 카드가 반복된다는 사실만으로 파일을 중복해서 가져온 것은 아닙니다."
+      },
+      {
+        "title": "화면에 맞는 행이나 열 개수 선택하기",
+        "description": "개수를 늘리면 동시에 보이는 영상은 많아지지만 각각은 작아집니다. 휴대폰에서는 2~3개로 시작한 뒤 피사체가 잘 보이면 개수를 늘리세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "가로와 세로 영상을 함께 사용할 수 있나요?",
+        "answer": "네. 예시에서도 두 방향의 영상을 섞었습니다. 화면 비율에 따라 행이나 열에서 차지하는 길이가 달라지므로 모든 영상을 같은 모양으로 자를 필요가 없습니다."
+      },
+      {
+        "question": "Counterflow를 닫지 않고 스크롤만 멈출 수 있나요?",
+        "answer": "네. Counterflow settings에서 Auto-scroll을 끄면 배치의 이동이 멈춥니다. 이 스위치는 영상 자체의 재생과는 별개입니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo desplazar filas o columnas de vídeos en sentidos opuestos en {device}",
+    "description": "Crea un muro de vídeos Counterflow en {device}. Elige entre dos y cinco filas o columnas y ajusta la dirección, el espacio y el movimiento automático.",
+    "summary": "Haz que una columna suba mientras la siguiente baja, o que varias filas se deslicen en sentidos opuestos. Counterflow organiza los vídeos con un movimiento cruzado continuo.",
+    "answer": "Abre Counterflow desde la barra inferior y vuelve a pulsarlo para mostrar Counterflow settings. Añade vídeos, elige Vertical con Columns u Horizontal con Rows y activa Auto-scroll.",
+    "requirement": "Counterflow requiere Premium. Prepara varios vídeos locales. Si falta el botón, añádelo en More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Añadir clips a Counterflow",
+        "text": "Pulsa Counterflow para entrar en el modo y otra vez para abrir los ajustes. Elige Add videos → {source}, selecciona varios clips y confirma. Si cambias directamente desde Waterfall, puedes conservar los clips que ya estabas usando.",
+        "caption": "El menú de origen de Counterflow permite añadir vídeos locales."
+      },
+      {
+        "title": "Crear columnas en sentidos opuestos",
+        "text": "Elige Vertical en Scroll direction. Columns permite escoger entre dos y cinco columnas. Empieza con tres para apreciar el movimiento contrario. Ajusta Video spacing, activa Auto-scroll y mantén Mute activado para una presentación silenciosa.",
+        "caption": "Se han configurado tres columnas verticales con movimiento automático."
+      },
+      {
+        "title": "Probar filas horizontales",
+        "text": "Selecciona Horizontal para cambiar a filas. El control de cantidad pasa a llamarse Rows. Scroll speed indica el tiempo necesario para recorrer una pantalla: más segundos producen un movimiento más lento. La velocidad de reproducción de los clips no cambia.",
+        "caption": "Al elegir Horizontal, Columns se sustituye por Rows."
+      },
+      {
+        "title": "Observar y ajustar el resultado",
+        "text": "Cierra los ajustes y observa cómo las pistas vecinas se mueven en sentidos opuestos. Abre Counterflow settings para cambiar su número o velocidad. Para volver al espacio de trabajo habitual, elige Close Counterflow y confirma.",
+        "caption": "Tres filas de vídeos atraviesan la pantalla en direcciones alternas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Los clips repetidos forman parte del recorrido continuo",
+        "description": "Un mismo clip puede aparecer varias veces a lo largo de una pista cuando la distribución se repite. Ver tarjetas repetidas no significa necesariamente que hayas importado archivos duplicados."
+      },
+      {
+        "title": "Elegir la cantidad según la pantalla",
+        "description": "Más filas o columnas muestran más vídeos a la vez, pero cada uno se ve más pequeño. En un teléfono, empieza con dos o tres y aumenta la cantidad si los sujetos siguen siendo fáciles de distinguir."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Puedo mezclar vídeos verticales y horizontales?",
+        "answer": "Sí. El ejemplo utiliza ambas orientaciones. Sus proporciones determinan la longitud de cada tarjeta dentro de su fila o columna; no hace falta recortar todos los vídeos con la misma forma."
+      },
+      {
+        "question": "¿Puedo detener el movimiento sin cerrar Counterflow?",
+        "answer": "Sí. Desactiva Auto-scroll en Counterflow settings. Se detiene el desplazamiento de la distribución; este control es independiente de la reproducción de los vídeos."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在{device}上让多行或多列视频反向滚动",
+    "description": "在{device}上创建对向流视频墙：添加本地视频，选择两到五行或列，调整方向、间距和自动滚动速度。",
+    "summary": "让相邻列一上一下，或让多行视频交错滑过。对向流把一组素材放入朝相反方向移动的轨道，形成连续的动态排列。",
+    "answer": "点击底部工具栏的 Counterflow 进入对向流，再点一次打开 Counterflow settings。添加视频后，选择 Vertical 搭配 Columns，或 Horizontal 搭配 Rows，然后开启 Auto-scroll。",
+    "requirement": "对向流需要高级会员。准备多个本地视频；如果找不到按钮，可在 More → Settings → {customizeToolbar} 中添加 Counterflow。",
+    "steps": [
+      {
+        "title": "给对向流添加素材",
+        "text": "点击 Counterflow 进入模式，再点一次打开设置，选择 Add videos → {source}，批量选中视频并确认。如果直接从瀑布流切换过来，可以沿用已有的瀑布流素材。",
+        "caption": "在对向流来源菜单中添加本地视频。"
+      },
+      {
+        "title": "创建反向滚动的多列画面",
+        "text": "在 Scroll direction 中选择 Vertical，下方就会显示 Columns，可选两到五列。先用三列更容易看清交错运动。调整 Video spacing，开启 Auto-scroll；需要无声展示时保持 Mute 开启。",
+        "caption": "对向流设置为三列纵向排列，并已开启自动滚动。"
+      },
+      {
+        "title": "尝试横向多行排列",
+        "text": "选择 Horizontal 后，排列会变成横向多行，数量控件也会改为 Rows。用 Scroll speed 设置滚过一屏所需的时间，秒数越大移动越慢。它调整的是排列移动速度，不是视频播放倍速。",
+        "caption": "选择横向后，Columns 数量选项变成 Rows。"
+      },
+      {
+        "title": "观看并微调结果",
+        "text": "关闭设置面板，观察相邻行或列朝相反方向移动。需要调整数量或速度时重新打开 Counterflow settings。返回普通分屏工作区时，选择 Close Counterflow 并确认。",
+        "caption": "三行视频以交替方向横向移动。"
+      }
+    ],
+    "features": [
+      {
+        "title": "重复出现的卡片是循环排列的一部分",
+        "description": "排列循环时，同一片段可能在一条轨道上出现多次。看到重复卡片，并不一定代表重复导入了文件。"
+      },
+      {
+        "title": "按屏幕大小选择轨道数量",
+        "description": "行列越多，同屏显示的视频越多，但每个画面也更小。手机上可以先用两到三行或列，确认主体仍清楚后再增加。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "能把横屏和竖屏视频混在一起吗？",
+        "answer": "可以。本例使用两种方向的素材。视频比例会影响它在行或列中占用的长度，不需要把所有素材裁成同一种形状。"
+      },
+      {
+        "question": "能不退出对向流，只停止画面滚动吗？",
+        "answer": "可以。在 Counterflow settings 中关闭 Auto-scroll 即可停止排列移动。这个开关与视频本身的播放是分开的。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Videos auf {device} in entgegengesetzte Richtungen scrollen lassen",
+    "description": "Erstellen Sie eine Counterflow-Videowand auf {device}. Ordnen Sie Clips in zwei bis fünf Zeilen oder Spalten an und regeln Sie Richtung, Abstand und Bewegung.",
+    "summary": "Lassen Sie benachbarte Spalten auf- und abwärts oder mehrere Zeilen gegeneinander laufen. Counterflow macht aus Ihren Videos eine kontinuierlich bewegte Anordnung.",
+    "answer": "Öffnen Sie Counterflow über die untere Werkzeugleiste und tippen Sie erneut darauf, um Counterflow settings aufzurufen. Fügen Sie Videos hinzu, wählen Sie Vertical mit Columns oder Horizontal mit Rows und aktivieren Sie Auto-scroll.",
+    "requirement": "Counterflow erfordert Premium. Bereiten Sie mehrere lokale Videos vor. Fehlt die Schaltfläche, ergänzen Sie sie unter More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Videos zu Counterflow hinzufügen",
+        "text": "Tippen Sie auf Counterflow, um den Modus zu öffnen, und erneut für die Einstellungen. Wählen Sie Add videos → {source}, markieren Sie mehrere Clips und bestätigen Sie. Beim direkten Wechsel aus Waterfall können die dort verwendeten Clips übernommen werden.",
+        "caption": "Über das Counterflow-Quellenmenü fügen Sie lokale Videos hinzu."
+      },
+      {
+        "title": "Gegenläufige Spalten erstellen",
+        "text": "Wählen Sie Vertical unter Scroll direction. Mit Columns legen Sie zwei bis fünf Spalten fest. Beginnen Sie mit drei, um die gegenläufige Bewegung gut zu erkennen. Stellen Sie Video spacing ein und aktivieren Sie Auto-scroll. Mute bleibt für eine stumme Präsentation eingeschaltet.",
+        "caption": "Drei vertikale Spalten mit automatischer Bewegung sind eingestellt."
+      },
+      {
+        "title": "Horizontale Zeilen ausprobieren",
+        "text": "Mit Horizontal wechseln Sie zu Zeilen. Die Anzahl stellen Sie nun unter Rows ein. Scroll speed gibt die Zeit pro Bildschirmstrecke an: Mehr Sekunden bedeuten eine langsamere Bewegung. Das Wiedergabetempo der einzelnen Clips bleibt unverändert.",
+        "caption": "Bei Horizontal wird Columns durch Rows ersetzt."
+      },
+      {
+        "title": "Ergebnis ansehen und anpassen",
+        "text": "Schließen Sie die Einstellungen und beobachten Sie die gegenläufigen benachbarten Bahnen. Anzahl und Tempo ändern Sie in Counterflow settings. Mit Close Counterflow und einer Bestätigung kehren Sie zum normalen Arbeitsbereich zurück.",
+        "caption": "Drei Videozeilen bewegen sich abwechselnd in entgegengesetzte Richtungen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Wiederholungen gehören zur fortlaufenden Anordnung",
+        "description": "Beim Umlaufen kann derselbe Clip mehrfach entlang einer Bahn erscheinen. Wiederholte Kacheln bedeuten daher nicht automatisch, dass Dateien doppelt importiert wurden."
+      },
+      {
+        "title": "Die Anzahl an die Bildschirmgröße anpassen",
+        "description": "Mehr Zeilen oder Spalten zeigen mehr Clips gleichzeitig, verkleinern aber jeden einzelnen. Beginnen Sie auf dem Smartphone mit zwei oder drei und erhöhen Sie die Anzahl nur, wenn die Motive gut erkennbar bleiben."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kann ich Hochformat- und Querformatvideos mischen?",
+        "answer": "Ja. Das Beispiel enthält beide Ausrichtungen. Das Seitenverhältnis bestimmt die Länge jeder Kachel innerhalb ihrer Zeile oder Spalte. Einheitlich zugeschnittene Videos sind nicht nötig."
+      },
+      {
+        "question": "Kann ich die Bewegung stoppen, ohne Counterflow zu schließen?",
+        "answer": "Ja. Schalten Sie Auto-scroll in Counterflow settings aus. Damit stoppt die Bewegung der Anordnung. Diese Einstellung ist von der Wiedergabe der Videos getrennt."
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで分割画面の動画比較画像を保存する方法",
+    "description": "iPhone・iPadで2本の動画を並べ、現在の映像を1枚の比較画像として保存。JPEGを開いて結果を確認します。",
+    "summary": "プレーヤーの操作ボタンを含めず、並べた動画の姿勢を静止画として保存・共有できます。",
+    "answer": "Save Snapshotを下部ツールバーに追加し、両方の動画を目的の場面で一時停止します。Save Snapshot → Save Imageを選び、写真でJPEGを確認します。",
+    "requirement": "読み込み済みのローカル動画を使います。静止画の保存は、動く分割画面動画の録画や書き出しとは別の操作です。",
+    "steps": [
+      {
+        "title": "画像保存ボタンを追加する",
+        "text": "More → Customize Home Bottom Buttonsを開き、使用可能な操作からSave Snapshotを追加してワークスペースへ戻ります。",
+        "caption": "分割画面の画像保存と動画書き出しが別々に表示されています。"
+      },
+      {
+        "title": "比較する画面を準備する",
+        "text": "2本の動画を開き、レイアウトを選んで比較したい瞬間で停止します。保存前に切り抜きと向きを確認してください。画像には現在の配置が反映されます。",
+        "caption": "2本のゴルフ動画を比較したい位置に合わせた状態。"
+      },
+      {
+        "title": "共有画面から保存する",
+        "text": "Save Snapshotで共有シートを開き、Save Imageを選びます。利用できる保存先は端末やインストール済みアプリによって異なります。",
+        "caption": "共有画面から保存する"
+      },
+      {
+        "title": "JPEGを開いて確認する",
+        "text": "写真で画像を開き、1回タップして表示操作を隠します。両方の映像が入り、プレーヤーボタンがないことを確認します。この例は1206 × 2160のJPEGです。",
+        "caption": "操作ボタンのない比較画像がビューアーで開きました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "保存前に一時停止する",
+        "description": "停止すると、それぞれの姿勢を選びやすくなります。細かい時刻調整にはコマ送りやチェックポイントを使います。"
+      },
+      {
+        "title": "ワークスペースは別途保存する",
+        "description": "画像は完成した静止画です。後で素材を変更したり再生を続けたりするには、ワークスペースのブックマークも保存します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "このボタンで動画を作れますか？",
+        "answer": "いいえ。静止した比較画像を作ります。再生可能なファイルにはExport Split-Screen Videoを使ってください。"
+      },
+      {
+        "question": "保存した画像はどこにありますか？",
+        "answer": "Save Imageを選んだ場合は写真を確認してください。別の共有先を選んだ場合は、その保存先を確認します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Enregistrer une image de comparaison en écran partagé sur iPhone ou iPad",
+    "description": "Disposez deux vidéos sur iPhone ou iPad et enregistrez leurs images actuelles dans un seul JPEG, puis ouvrez-le pour vérifier la comparaison.",
+    "summary": "Conservez ou partagez les positions de deux vidéos côte à côte sous forme d’image fixe, sans les commandes des lecteurs.",
+    "answer": "Ajoutez Save Snapshot à la barre inférieure, mettez les deux vidéos en pause, puis choisissez Save Snapshot → Save Image. Vérifiez le JPEG dans Photos.",
+    "requirement": "L’exemple utilise des vidéos locales déjà chargées. Enregistrer une image est différent de filmer ou d’exporter une vidéo en écran partagé.",
+    "steps": [
+      {
+        "title": "Ajouter le bouton de sauvegarde d’image",
+        "text": "Ouvrez More → Customize Home Bottom Buttons. Ajoutez Save Snapshot depuis les actions disponibles, puis revenez à l’espace de travail.",
+        "caption": "L’éditeur distingue la sauvegarde d’image de l’exportation vidéo."
+      },
+      {
+        "title": "Préparer la comparaison",
+        "text": "Chargez les deux vidéos, choisissez la disposition et arrêtez-les aux moments voulus. Vérifiez le recadrage et l’orientation : l’image reprend la composition actuelle.",
+        "caption": "Les deux vidéos de golf sont placées aux positions à comparer."
+      },
+      {
+        "title": "Enregistrer depuis le partage iPhone ou iPad",
+        "text": "Touchez Save Snapshot pour ouvrir le partage système, puis Save Image. Les destinations proposées dépendent de votre appareil et des applications installées.",
+        "caption": "Enregistrer depuis le partage iPhone ou iPad"
+      },
+      {
+        "title": "Ouvrir et vérifier le JPEG",
+        "text": "Ouvrez l’image dans Photos et touchez-la pour masquer les commandes. Vérifiez que les deux vidéos apparaissent sans boutons de lecture. Cet exemple produit un JPEG de 1206 × 2160 pixels.",
+        "caption": "L’image de comparaison s’ouvre sans commandes de lecture."
+      }
+    ],
+    "features": [
+      {
+        "title": "Faire une pause avant la capture",
+        "description": "La pause facilite le choix d’une posture précise. Utilisez les commandes image par image ou les points de repère pour affiner le moment."
+      },
+      {
+        "title": "Sauvegarder l’espace de travail séparément",
+        "description": "L’image est un résultat fixe. Pour modifier les vidéos ou reprendre la lecture plus tard, enregistrez aussi un signet de l’espace de travail."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce bouton crée-t-il une vidéo ?",
+        "answer": "Non. Il crée une image de comparaison. Utilisez Export Split-Screen Video pour obtenir un fichier lisible comme vidéo."
+      },
+      {
+        "question": "Où se trouve l’image enregistrée ?",
+        "answer": "Après Save Image, consultez Photos. Si vous avez choisi une autre destination de partage, vérifiez cette destination."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to save a split-screen comparison image on iPhone or iPad",
+    "description": "Arrange two videos on iPhone or iPad and save their current frames as one clean comparison image, then open the JPEG to check the result.",
+    "summary": "Capture a side-by-side comparison as a still image that you can keep or share without the player controls.",
+    "answer": "Add Save Snapshot to the bottom toolbar, pause both videos at the desired frames, then tap Save Snapshot → Save Image. Open Photos to check the saved JPEG.",
+    "requirement": "Use loaded local videos for this example. Saving a picture is separate from recording or exporting a moving split-screen video.",
+    "steps": [
+      {
+        "title": "Add the image-saving button",
+        "text": "Open More → Customize Home Bottom Buttons. Find Save Snapshot in the available actions and add it, then return to the workspace.",
+        "caption": "The toolbar editor lists Save Snapshot and the separate video export action."
+      },
+      {
+        "title": "Prepare the comparison",
+        "text": "Load both clips, choose the layout, and pause at the moments you want to compare. Check cropping and orientation before saving; the resulting picture follows the current split-screen composition.",
+        "caption": "Two golf clips are arranged at the desired comparison positions."
+      },
+      {
+        "title": "Save through the share sheet",
+        "text": "Tap Save Snapshot to open the system share sheet, then choose Save Image. The available destinations depend on your device and installed apps.",
+        "caption": "Save through the share sheet"
+      },
+      {
+        "title": "Open and inspect the JPEG",
+        "text": "Open the saved image in Photos and tap once to hide the viewer controls. Check that both video frames appear without player buttons. This example saves a 1206 × 2160 JPEG.",
+        "caption": "The saved comparison opens in the image viewer without player controls."
+      }
+    ],
+    "features": [
+      {
+        "title": "Pause before capturing",
+        "description": "Pausing makes it easier to choose a specific pose in each video. Use frame controls or checkpoints when a small timing difference matters."
+      },
+      {
+        "title": "Save a workspace separately",
+        "description": "The image is a finished still. If you want to change the clips or continue playback later, also save a workspace bookmark."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does this button create a video?",
+        "answer": "No. It creates a static comparison image. Use Export Split-Screen Video when you need a file that plays."
+      },
+      {
+        "question": "Where is the saved image?",
+        "answer": "After choosing Save Image, look in Photos. If you chose another share destination, check that destination instead."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como salvar uma imagem de comparação em tela dividida no iPhone ou iPad",
+    "description": "Organize dois vídeos no iPhone ou iPad e salve os quadros atuais em um único JPEG. Abra a imagem para conferir a comparação sem controles de reprodução.",
+    "summary": "Guarde ou compartilhe as posições de dois vídeos lado a lado como uma imagem estática, sem os botões dos players.",
+    "answer": "Adicione Save Snapshot à barra inferior, pause os dois vídeos e escolha Save Snapshot → Save Image. Confira o JPEG no app Fotos.",
+    "requirement": "O exemplo usa vídeos locais já carregados. Salvar uma imagem é diferente de gravar ou exportar um vídeo em tela dividida.",
+    "steps": [
+      {
+        "title": "Adicionar o botão de salvar imagem",
+        "text": "Abra More → Customize Home Bottom Buttons. Adicione Save Snapshot entre as ações disponíveis e volte ao espaço de trabalho.",
+        "caption": "O editor separa a captura de imagem da exportação de vídeo."
+      },
+      {
+        "title": "Preparar a comparação",
+        "text": "Carregue os dois vídeos, escolha o layout e pause nos momentos desejados. Confira o corte e a orientação: a imagem seguirá a composição atual.",
+        "caption": "Os dois vídeos de golfe estão nas posições escolhidas para comparação."
+      },
+      {
+        "title": "Salvar pela tela de compartilhamento",
+        "text": "Toque em Save Snapshot para abrir o compartilhamento do sistema e escolha Save Image. Os destinos disponíveis dependem do aparelho e dos apps instalados.",
+        "caption": "Salvar pela tela de compartilhamento"
+      },
+      {
+        "title": "Abrir e conferir o JPEG",
+        "text": "Abra a imagem no Fotos e toque uma vez para ocultar os controles. Confira se os dois vídeos aparecem sem botões do player. O exemplo gera um JPEG de 1206 × 2160 pixels.",
+        "caption": "A comparação abre no visualizador sem controles de reprodução."
+      }
+    ],
+    "features": [
+      {
+        "title": "Pause antes de capturar",
+        "description": "Isso facilita escolher uma postura específica. Use os controles por quadro ou pontos de controle para ajustar o instante."
+      },
+      {
+        "title": "Salve o espaço de trabalho separadamente",
+        "description": "A imagem é um resultado estático. Para trocar os vídeos ou continuar a reprodução depois, salve também um favorito do espaço de trabalho."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Esse botão cria um vídeo?",
+        "answer": "Não. Ele cria uma imagem estática de comparação. Use Export Split-Screen Video para obter um arquivo reproduzível."
+      },
+      {
+        "question": "Onde está a imagem salva?",
+        "answer": "Após escolher Save Image, procure no Fotos. Se escolheu outro destino de compartilhamento, confira esse destino."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 분할 화면 비교 이미지를 저장하는 방법",
+    "description": "iPhone 또는 iPad에서 영상 두 개를 배치하고 현재 프레임을 하나의 비교 이미지로 저장하세요. JPEG를 열어 결과도 확인합니다.",
+    "summary": "플레이어 버튼 없이 나란히 놓인 영상의 자세를 정지 이미지로 저장하거나 공유하세요.",
+    "answer": "Save Snapshot을 하단 도구 모음에 추가하고 두 영상을 원하는 장면에서 일시 정지합니다. Save Snapshot → Save Image를 누른 다음 사진에서 JPEG를 확인하세요.",
+    "requirement": "이 예시는 불러온 로컬 영상을 사용합니다. 이미지 저장은 움직이는 분할 화면 영상의 녹화나 내보내기와 별개입니다.",
+    "steps": [
+      {
+        "title": "이미지 저장 버튼 추가하기",
+        "text": "More → Customize Home Bottom Buttons를 열고 사용 가능한 동작에서 Save Snapshot을 추가한 뒤 작업 공간으로 돌아가세요.",
+        "caption": "도구 모음 편집기에 이미지 저장과 영상 내보내기가 따로 표시됩니다."
+      },
+      {
+        "title": "비교 화면 준비하기",
+        "text": "영상 두 개를 불러오고 배치를 선택한 뒤 비교할 순간에 멈추세요. 저장 전에 자르기와 방향을 확인합니다. 이미지는 현재 분할 화면 구성을 따릅니다.",
+        "caption": "골프 영상 두 개를 비교할 위치에 맞췄습니다."
+      },
+      {
+        "title": "공유 화면에서 저장하기",
+        "text": "Save Snapshot으로 시스템 공유 시트를 열고 Save Image를 선택하세요. 저장 위치는 기기와 설치된 앱에 따라 달라집니다.",
+        "caption": "공유 화면에서 저장하기"
+      },
+      {
+        "title": "JPEG를 열어 확인하기",
+        "text": "사진에서 저장한 이미지를 열고 한 번 탭해 뷰어 버튼을 숨기세요. 두 영상이 모두 있고 플레이어 버튼은 없는지 확인합니다. 예시 파일은 1206 × 2160 JPEG입니다.",
+        "caption": "조작 버튼 없는 비교 이미지가 이미지 뷰어에 열립니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "저장 전에 일시 정지하세요",
+        "description": "각 영상의 정확한 자세를 고르기 쉽습니다. 미세한 시간 차이가 중요하다면 프레임 조작이나 체크포인트를 활용하세요."
+      },
+      {
+        "title": "작업 공간은 별도로 저장하세요",
+        "description": "이미지는 완성된 정지 화면입니다. 나중에 소재를 바꾸거나 재생을 계속하려면 작업 공간 북마크도 저장하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "이 버튼으로 동영상이 만들어지나요?",
+        "answer": "아니요. 정지 비교 이미지를 만듭니다. 재생 가능한 파일이 필요하면 Export Split-Screen Video를 사용하세요."
+      },
+      {
+        "question": "저장한 이미지는 어디에 있나요?",
+        "answer": "Save Image를 선택했다면 사진을 확인하세요. 다른 공유 대상을 선택했다면 해당 위치에서 확인합니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo guardar una imagen comparativa de pantalla dividida en iPhone o iPad",
+    "description": "Organiza dos vídeos en iPhone o iPad y guarda sus fotogramas actuales en un solo JPEG. Abre la imagen para comprobar la comparación sin controles visibles.",
+    "summary": "Conserva o comparte las posturas de dos vídeos en paralelo como una imagen fija, sin los botones de los reproductores.",
+    "answer": "Añade Save Snapshot a la barra inferior, pausa ambos vídeos y elige Save Snapshot → Save Image. Comprueba el JPEG en Fotos.",
+    "requirement": "El ejemplo usa vídeos locales ya cargados. Guardar una imagen es distinto de grabar o exportar un vídeo en pantalla dividida.",
+    "steps": [
+      {
+        "title": "Añadir el botón de guardar imagen",
+        "text": "Abre More → Customize Home Bottom Buttons. Añade Save Snapshot desde las acciones disponibles y vuelve al espacio de trabajo.",
+        "caption": "El editor separa la captura de imagen de la exportación de vídeo."
+      },
+      {
+        "title": "Preparar la comparación",
+        "text": "Carga los dos vídeos, elige una distribución y pausa en los momentos deseados. Revisa el recorte y la orientación: la imagen seguirá la composición actual.",
+        "caption": "Los dos vídeos de golf están en las posiciones elegidas."
+      },
+      {
+        "title": "Guardar desde el panel para compartir",
+        "text": "Toca Save Snapshot para abrir la hoja de compartir y elige Save Image. Los destinos disponibles dependen del dispositivo y de las aplicaciones instaladas.",
+        "caption": "Guardar desde el panel para compartir"
+      },
+      {
+        "title": "Abrir y comprobar el JPEG",
+        "text": "Abre la imagen en Fotos y tócala una vez para ocultar los controles. Comprueba que aparecen ambos vídeos sin botones del reproductor. El ejemplo genera un JPEG de 1206 × 2160 píxeles.",
+        "caption": "La comparación se abre sin controles en el visor de imágenes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Pausar antes de capturar",
+        "description": "Así resulta más fácil elegir una postura concreta. Usa los controles por fotogramas o los puntos de control para afinar el instante."
+      },
+      {
+        "title": "Guardar el espacio de trabajo por separado",
+        "description": "La imagen es un resultado fijo. Para cambiar los vídeos o continuar la reproducción más tarde, guarda también un marcador del espacio de trabajo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Este botón crea un vídeo?",
+        "answer": "No. Crea una imagen estática de comparación. Usa Export Split-Screen Video para obtener un archivo reproducible."
+      },
+      {
+        "question": "¿Dónde está la imagen guardada?",
+        "answer": "Después de elegir Save Image, búscala en Fotos. Si elegiste otro destino para compartir, revisa ese destino."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上保存分屏视频对比图片",
+    "description": "在 iPhone 或 iPad 上排列两段视频，将当前画面保存为一张干净的对比图片，再打开 JPEG 检查结果，方便复盘或分享。",
+    "summary": "将并排视频的关键姿态保存为一张静态图片，画面不包含播放器控制按钮。",
+    "answer": "把 Save Snapshot 加到底部工具栏，将两个视频暂停在目标画面，然后点 Save Snapshot → Save Image。在照片中检查保存的 JPEG。",
+    "requirement": "本例使用已加载的本地视频。保存图片与录制或导出动态分屏视频是不同操作。",
+    "steps": [
+      {
+        "title": "添加保存图片按钮",
+        "text": "打开 More → Customize Home Bottom Buttons，在可用操作中添加 Save Snapshot，然后返回工作区。",
+        "caption": "工具栏编辑页分别列出保存分屏图片和视频导出功能。"
+      },
+      {
+        "title": "准备对比画面",
+        "text": "载入两段视频，选择布局，在要比较的时刻暂停。保存前检查裁剪和方向，生成的图片会采用当前分屏构图。",
+        "caption": "两段高尔夫视频已排列到要比较的位置。"
+      },
+      {
+        "title": "通过分享面板保存",
+        "text": "点 Save Snapshot 打开系统分享面板，再选 Save Image。可用的保存位置取决于设备和已安装的应用。",
+        "caption": "通过分享面板保存"
+      },
+      {
+        "title": "打开并检查 JPEG",
+        "text": "在照片中打开保存的图片，轻点一次隐藏查看器控件。确认两段视频画面都在，且没有播放器按钮。本例保存为 1206 × 2160 的 JPEG。",
+        "caption": "图片查看器中打开的对比图不含播放器控制按钮。"
+      }
+    ],
+    "features": [
+      {
+        "title": "先暂停再保存",
+        "description": "暂停后更容易选定两段视频的具体姿态。需要精确定位时，可先使用逐帧控制或检查点。"
+      },
+      {
+        "title": "工作区需要另外保存",
+        "description": "图片是最终的静态结果。若要下次更换素材或继续播放，还应保存工作区书签。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "这个按钮会生成视频吗？",
+        "answer": "不会，它生成静态对比图片。需要可播放的文件时，使用 Export Split-Screen Video。"
+      },
+      {
+        "question": "保存的图片在哪里？",
+        "answer": "选择 Save Image 后到照片中查找；若选择其他分享目标，请到对应位置检查。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Ein Vergleichsbild des geteilten Bildschirms auf dem iPhone oder iPad speichern",
+    "description": "Ordnen Sie zwei Videos auf dem iPhone oder iPad an, speichern Sie ihre aktuellen Bilder gemeinsam als JPEG und öffnen Sie das Ergebnis zur Kontrolle.",
+    "summary": "Halten Sie die Positionen zweier nebeneinander gezeigter Videos als Standbild ohne Player-Bedienelemente fest.",
+    "answer": "Fügen Sie Save Snapshot zur unteren Werkzeugleiste hinzu und pausieren Sie beide Videos. Wählen Sie Save Snapshot → Save Image und prüfen Sie das JPEG in Fotos.",
+    "requirement": "Das Beispiel nutzt geladene lokale Videos. Ein Standbild zu speichern ist eine andere Funktion als die Aufnahme oder der Export eines bewegten Videos.",
+    "steps": [
+      {
+        "title": "Die Schaltfläche hinzufügen",
+        "text": "Öffnen Sie More → Customize Home Bottom Buttons. Fügen Sie Save Snapshot aus den verfügbaren Aktionen hinzu und kehren Sie zum Arbeitsbereich zurück.",
+        "caption": "Bildspeicherung und Videoexport sind getrennte Aktionen im Editor."
+      },
+      {
+        "title": "Den Vergleich vorbereiten",
+        "text": "Laden Sie beide Clips, wählen Sie das Layout und pausieren Sie an den gewünschten Stellen. Prüfen Sie Ausschnitt und Ausrichtung; das Bild übernimmt die aktuelle Anordnung.",
+        "caption": "Zwei Golfvideos stehen an den gewünschten Vergleichspositionen."
+      },
+      {
+        "title": "Über das Teilen-Menü speichern",
+        "text": "Tippen Sie auf Save Snapshot und anschließend im Freigabemenü auf Save Image. Die verfügbaren Ziele hängen vom Gerät und den installierten Apps ab.",
+        "caption": "Über das Teilen-Menü speichern"
+      },
+      {
+        "title": "JPEG öffnen und prüfen",
+        "text": "Öffnen Sie das Bild in Fotos und blenden Sie die Bedienelemente mit einem Tippen aus. Beide Videobilder sollten ohne Player-Schaltflächen erscheinen. Das Beispiel ergibt ein JPEG mit 1206 × 2160 Pixeln.",
+        "caption": "Das Vergleichsbild erscheint im Bildbetrachter ohne Player-Steuerung."
+      }
+    ],
+    "features": [
+      {
+        "title": "Vor der Aufnahme pausieren",
+        "description": "So lässt sich eine bestimmte Körperhaltung auswählen. Für feine Zeitkorrekturen helfen Einzelbildsteuerung oder Prüfpunkte."
+      },
+      {
+        "title": "Den Arbeitsbereich separat speichern",
+        "description": "Das Bild ist ein fertiges Standbild. Wenn Sie später Clips ändern oder weiter abspielen möchten, speichern Sie zusätzlich ein Arbeitsbereich-Lesezeichen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Erstellt diese Aktion ein Video?",
+        "answer": "Nein. Sie erstellt ein statisches Vergleichsbild. Für eine abspielbare Datei verwenden Sie Export Split-Screen Video."
+      },
+      {
+        "question": "Wo finde ich das gespeicherte Bild?",
+        "answer": "Nach Save Image finden Sie es in Fotos. Haben Sie ein anderes Freigabeziel gewählt, prüfen Sie dieses Ziel."
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで動画ワークスペースを保存・復元する方法",
+    "description": "iPhone・iPadの分割画面をブックマークに保存し、動画を閉じた後で元の配置を開いて確認作業を続けます。",
+    "summary": "便利な配置を残しておけば、次回は動画とレイアウトを最初から組み直さずに済みます。",
+    "answer": "星形のFavoriteをタップして保存確認を待ちます。後で下のツールバーからFavorites Listを開き、保存した項目を選びます。",
+    "requirement": "ワークスペースの保存と復元にはPremiumが必要です。元ファイルとアクセス権を保持してください。ブックマークは全素材のコピーではありません。",
+    "steps": [
+      {
+        "title": "現在のワークスペースを保存する",
+        "text": "動画を配置して星形のFavoriteをタップします。画面を離れる前に、現在のレイアウトと各領域が保存されたことを確認します。",
+        "caption": "ワークスペースを保存したという通知が表示されています。"
+      },
+      {
+        "title": "必要に応じて動画を閉じる",
+        "text": "復元を試す場合はClose Allを使い、確認内容を読んで進めます。ワークスペースから動画が閉じられますが、元ファイルは削除されません。",
+        "caption": "Close Allは表示中の動画を閉じる前に確認します。"
+      },
+      {
+        "title": "保存したブックマークを選ぶ",
+        "text": "空のワークスペースから、下の星付きリストボタンでFavorites Listを開きます。プレビューと保存時刻を目印に項目を選んでください。",
+        "caption": "空になったワークスペースから保存済みの配置を開けます。"
+      },
+      {
+        "title": "復元された配置を確認する",
+        "text": "読み込みを待ち、両方の領域を確認します。例では2分割配置と、各領域の2本の動画リストが復元されます。各プレーヤーのリストボタンで素材を確認できます。",
+        "caption": "保存した2分割の動画画面が復元されました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "元ファイルを利用できる状態にする",
+        "description": "素材の移動・削除やアクセス権の取り消しによって復元できなくなる場合があります。継続して使う素材は安定した場所に保存します。"
+      },
+      {
+        "title": "目的に合った保存方法を選ぶ",
+        "description": "ブックマークは操作を続けられるワークスペース、比較画像はJPEG、動画書き出しは再生可能なファイルを保存します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close Allで動画自体が削除されますか？",
+        "answer": "いいえ。プレーヤーで表示中のメディアを閉じるだけです。元ファイルは保存場所に残ります。"
+      },
+      {
+        "question": "ブックマークは素材のバックアップですか？",
+        "answer": "いいえ。重要な素材は別途コピーを保管してください。ワークスペースのブックマークはファイルのバックアップを代替しません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Enregistrer et restaurer un espace de travail vidéo sur iPhone ou iPad",
+    "description": "Enregistrez votre écran partagé comme signet sur iPhone ou iPad, fermez les vidéos affichées puis retrouvez la disposition pour poursuivre votre analyse.",
+    "summary": "Gardez une disposition utile afin de retrouver ses vidéos et son organisation sans tout reconstruire.",
+    "answer": "Touchez l’étoile Favorite et attendez la confirmation. Plus tard, ouvrez Favorites List dans la barre du bas et sélectionnez l’entrée enregistrée.",
+    "requirement": "L’enregistrement et la restauration des signets nécessitent Premium. Conservez les fichiers sources et leurs autorisations : le signet ne contient pas une copie de tous les médias.",
+    "steps": [
+      {
+        "title": "Enregistrer l’espace actuel",
+        "text": "Disposez vos vidéos et touchez l’étoile Favorite. Avant de quitter, attendez la confirmation que la disposition et les zones ont été enregistrées.",
+        "caption": "L’application confirme l’enregistrement de l’espace de travail."
+      },
+      {
+        "title": "Fermer les vidéos si nécessaire",
+        "text": "Pour tester la restauration, utilisez Close All et lisez la confirmation. Cette opération retire les vidéos de l’espace de travail sans supprimer leurs fichiers sources.",
+        "caption": "Close All demande confirmation avant de fermer les vidéos affichées."
+      },
+      {
+        "title": "Choisir le signet enregistré",
+        "text": "Depuis l’espace vide, ouvrez Favorites List avec le bouton représentant une liste et une étoile. Identifiez l’entrée par son aperçu et sa date, puis touchez-la.",
+        "caption": "L’espace vide peut être rempli à nouveau depuis un signet."
+      },
+      {
+        "title": "Contrôler la restauration",
+        "text": "Attendez le chargement et vérifiez les deux zones. L’exemple restaure la disposition et les deux playlists de deux vidéos chacune. Ouvrez la liste de chaque lecteur pour contrôler ses sources.",
+        "caption": "La composition vidéo à deux zones est restaurée."
+      }
+    ],
+    "features": [
+      {
+        "title": "Garder les sources accessibles",
+        "description": "Déplacer ou supprimer un fichier, ou retirer son autorisation, peut empêcher sa restauration. Conservez les médias importants dans un emplacement stable."
+      },
+      {
+        "title": "Choisir le bon résultat",
+        "description": "Un signet rouvre un espace modifiable. Une image de comparaison est un JPEG ; l’exportation vidéo crée un fichier à lire."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All efface-t-il mes vidéos ?",
+        "answer": "Non. Il ferme les médias actuellement affichés dans le lecteur. Les fichiers sources restent à leur emplacement."
+      },
+      {
+        "question": "Un signet sauvegarde-t-il les fichiers sources ?",
+        "answer": "Non. Conservez des copies distinctes des médias importants. Un signet d’espace de travail ne remplace pas une sauvegarde de fichiers."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to save and restore a video workspace on iPhone or iPad",
+    "description": "Save a split-screen video workspace as a bookmark on iPhone or iPad, close the visible clips, and reopen the saved arrangement to continue reviewing.",
+    "summary": "Keep a useful arrangement so that you can return to its videos and layout without rebuilding the workspace.",
+    "answer": "Tap the star-shaped Favorite button and wait for confirmation. Later, open Favorites List from the bottom toolbar and choose the saved entry to restore it.",
+    "requirement": "Saving and restoring workspace bookmarks requires Premium. Keep source files available and retain access permissions; a bookmark does not contain copies of all your media.",
+    "steps": [
+      {
+        "title": "Save the current workspace",
+        "text": "Arrange your clips and use the star-shaped Favorite button. Wait for the confirmation that the current layout and panes were bookmarked before leaving the workspace.",
+        "caption": "The app confirms that the current workspace was bookmarked."
+      },
+      {
+        "title": "Close the visible videos if needed",
+        "text": "To check restoration, use Close All and review the confirmation before proceeding. Closing videos clears them from the workspace; it does not delete their source files.",
+        "caption": "Close All asks for confirmation before closing the visible videos."
+      },
+      {
+        "title": "Choose the saved bookmark",
+        "text": "From the empty workspace, open Favorites List using the list-and-star button in the bottom toolbar. Find the entry by its preview and saved time, then tap it.",
+        "caption": "The cleared workspace is ready to reopen a saved bookmark."
+      },
+      {
+        "title": "Check the restored arrangement",
+        "text": "Wait for the media to load and check both regions. This example restores the two-pane arrangement with its separate two-video playlists. Use each player’s list button to inspect its sources.",
+        "caption": "The saved two-pane video workspace is restored."
+      }
+    ],
+    "features": [
+      {
+        "title": "Keep the original files accessible",
+        "description": "Moving or deleting a source, or revoking its permission, can prevent restoration. Keep important review media in a stable location."
+      },
+      {
+        "title": "Use the right kind of saved result",
+        "description": "A bookmark reopens an editable workspace. A comparison image is a JPEG, while video export renders a playable file."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Close All erase my videos?",
+        "answer": "No. It closes the currently displayed media in the player. The source files remain in their storage location."
+      },
+      {
+        "question": "Is a bookmark a backup of the source files?",
+        "answer": "No. Keep separate copies of valuable media. A workspace bookmark should not be treated as a replacement for a file backup."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como salvar e restaurar um espaço de trabalho de vídeo no iPhone ou iPad",
+    "description": "Salve a tela dividida como favorito no iPhone ou iPad, feche os vídeos visíveis e reabra o layout para continuar a análise.",
+    "summary": "Guarde uma organização útil para retornar aos vídeos e ao layout sem reconstruir o espaço de trabalho.",
+    "answer": "Toque na estrela Favorite e espere a confirmação. Depois, abra Favorites List na barra inferior e selecione a entrada salva.",
+    "requirement": "Salvar e restaurar favoritos exige Premium. Mantenha os arquivos originais e as permissões de acesso; um favorito não contém cópias de toda a mídia.",
+    "steps": [
+      {
+        "title": "Salvar o espaço atual",
+        "text": "Organize os vídeos e toque na estrela Favorite. Antes de sair, espere a confirmação de que o layout e as áreas foram salvos.",
+        "caption": "O aplicativo confirma que o espaço de trabalho foi salvo."
+      },
+      {
+        "title": "Fechar os vídeos, se necessário",
+        "text": "Para testar a restauração, use Close All e leia a confirmação. Os vídeos são fechados no espaço de trabalho, mas os arquivos originais não são apagados.",
+        "caption": "Close All pede confirmação antes de fechar os vídeos visíveis."
+      },
+      {
+        "title": "Escolher o favorito salvo",
+        "text": "No espaço vazio, abra Favorites List pelo botão de lista com estrela. Encontre a entrada pela prévia e pelo horário de salvamento, depois toque nela.",
+        "caption": "O espaço vazio pode ser restaurado a partir de um favorito."
+      },
+      {
+        "title": "Conferir a restauração",
+        "text": "Aguarde o carregamento e confira as duas áreas. O exemplo restaura a composição e as duas listas com dois vídeos cada. Abra a lista de cada player para conferir suas fontes.",
+        "caption": "A composição de vídeo com duas áreas foi restaurada."
+      }
+    ],
+    "features": [
+      {
+        "title": "Mantenha os originais acessíveis",
+        "description": "Mover ou apagar um arquivo, ou revogar sua permissão, pode impedir a restauração. Guarde mídias importantes em um local estável."
+      },
+      {
+        "title": "Escolha o tipo certo de resultado",
+        "description": "Um favorito reabre um espaço editável. Uma imagem de comparação é um JPEG; a exportação de vídeo cria um arquivo reproduzível."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All apaga meus vídeos?",
+        "answer": "Não. Ele fecha a mídia exibida nos players. Os arquivos originais continuam no local de armazenamento."
+      },
+      {
+        "question": "Um favorito é um backup dos arquivos?",
+        "answer": "Não. Mantenha cópias separadas das mídias importantes. Um favorito do espaço de trabalho não substitui um backup dos arquivos."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 영상 작업 공간을 저장하고 복원하는 방법",
+    "description": "iPhone 또는 iPad 분할 화면을 북마크로 저장하고 현재 영상을 닫은 뒤 저장된 배치를 다시 열어 검토를 계속하세요.",
+    "summary": "유용한 배치를 저장하면 다음에 영상과 화면 구성을 처음부터 다시 만들 필요가 없습니다.",
+    "answer": "별 모양 Favorite 버튼을 누르고 저장 확인을 기다리세요. 나중에 아래 도구 모음의 Favorites List를 열고 저장한 항목을 선택합니다.",
+    "requirement": "작업 공간 북마크 저장과 복원은 Premium이 필요합니다. 원본 파일과 접근 권한을 유지하세요. 북마크는 모든 미디어를 복사해 보관하지 않습니다.",
+    "steps": [
+      {
+        "title": "현재 작업 공간 저장하기",
+        "text": "영상을 배치하고 별 모양 Favorite를 누르세요. 화면을 떠나기 전에 현재 배치와 영역이 저장됐다는 안내를 확인합니다.",
+        "caption": "현재 작업 공간이 북마크로 저장됐다는 안내입니다."
+      },
+      {
+        "title": "필요하면 현재 영상 닫기",
+        "text": "복원을 확인하려면 Close All을 사용하고 확인 내용을 읽은 뒤 진행하세요. 작업 공간에서 영상을 닫지만 원본 파일을 삭제하지는 않습니다.",
+        "caption": "Close All은 현재 영상을 닫기 전에 확인을 요청합니다."
+      },
+      {
+        "title": "저장한 북마크 선택하기",
+        "text": "빈 작업 공간에서 아래의 별이 있는 목록 버튼으로 Favorites List를 여세요. 미리 보기와 저장 시간으로 항목을 찾고 누릅니다.",
+        "caption": "비어 있는 작업 공간에서 저장된 배치를 다시 열 수 있습니다."
+      },
+      {
+        "title": "복원된 배치 확인하기",
+        "text": "미디어가 로드되면 두 영역을 확인하세요. 예시는 두 영역의 배치와 영역마다 두 영상으로 구성된 목록을 복원합니다. 각 플레이어의 목록 버튼으로 소스를 확인할 수 있습니다.",
+        "caption": "저장한 두 영역의 영상 작업 화면이 복원되었습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "원본 파일을 접근 가능한 상태로 유지하세요",
+        "description": "파일을 이동하거나 삭제하고 접근 권한을 취소하면 복원하지 못할 수 있습니다. 계속 사용할 소재는 안정적인 위치에 보관하세요."
+      },
+      {
+        "title": "목적에 맞게 저장하세요",
+        "description": "북마크는 계속 조작할 작업 공간, 비교 이미지는 JPEG, 영상 내보내기는 재생 가능한 파일을 저장합니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All을 누르면 영상 파일이 삭제되나요?",
+        "answer": "아니요. 플레이어에 현재 표시된 미디어를 닫습니다. 원본 파일은 저장 위치에 남습니다."
+      },
+      {
+        "question": "북마크를 원본 파일 백업으로 써도 되나요?",
+        "answer": "아니요. 중요한 미디어는 별도로 복사해 보관하세요. 작업 공간 북마크는 파일 백업을 대신하지 않습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo guardar y restaurar un espacio de trabajo de vídeo en iPhone o iPad",
+    "description": "Guarda la pantalla dividida como marcador en iPhone o iPad, cierra los vídeos visibles y recupera la distribución para seguir revisándolos.",
+    "summary": "Conserva una distribución útil para volver a sus vídeos y organización sin reconstruir el espacio de trabajo.",
+    "answer": "Toca la estrella Favorite y espera la confirmación. Después, abre Favorites List en la barra inferior y selecciona la entrada guardada.",
+    "requirement": "Guardar y restaurar marcadores requiere Premium. Conserva los archivos originales y sus permisos; un marcador no contiene copias de todos los contenidos.",
+    "steps": [
+      {
+        "title": "Guardar el espacio actual",
+        "text": "Organiza los vídeos y toca la estrella Favorite. Antes de salir, espera la confirmación de que se han guardado la distribución y las zonas.",
+        "caption": "La aplicación confirma que se ha guardado el espacio de trabajo."
+      },
+      {
+        "title": "Cerrar los vídeos si hace falta",
+        "text": "Para probar la restauración, usa Close All y lee la confirmación. Se cierran los vídeos del espacio de trabajo, pero sus archivos originales no se eliminan.",
+        "caption": "Close All pide confirmación antes de cerrar los vídeos visibles."
+      },
+      {
+        "title": "Elegir el marcador guardado",
+        "text": "Desde el espacio vacío, abre Favorites List con el botón de lista y estrella. Identifica la entrada por la vista previa y la hora de guardado, y tócala.",
+        "caption": "El espacio vacío puede recuperar una distribución desde un marcador."
+      },
+      {
+        "title": "Comprobar la restauración",
+        "text": "Espera a que cargue el contenido y comprueba ambas zonas. El ejemplo restaura la disposición y dos listas de dos vídeos cada una. Abre la lista de cada reproductor para revisar sus fuentes.",
+        "caption": "La composición de vídeo de dos zonas se ha restaurado."
+      }
+    ],
+    "features": [
+      {
+        "title": "Mantener accesibles los originales",
+        "description": "Mover o borrar un archivo, o revocar su permiso, puede impedir la restauración. Guarda los contenidos importantes en una ubicación estable."
+      },
+      {
+        "title": "Elegir el tipo de resultado",
+        "description": "Un marcador abre un espacio editable. Una imagen comparativa es un JPEG; la exportación de vídeo crea un archivo reproducible."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Close All borra mis vídeos?",
+        "answer": "No. Cierra los contenidos que se muestran en el reproductor. Los archivos originales permanecen en su ubicación."
+      },
+      {
+        "question": "¿Un marcador es una copia de seguridad?",
+        "answer": "No. Conserva copias independientes de los archivos importantes. Un marcador del espacio de trabajo no sustituye una copia de seguridad."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上保存并恢复视频工作区",
+    "description": "将 iPhone 或 iPad 分屏视频工作区保存为书签，关闭当前视频后重新打开布局，继续查看原来的素材与复看标记。",
+    "summary": "保留有用的分屏安排，下次直接回到视频与布局，无需重新搭建工作区。",
+    "answer": "点按星形 Favorite 按钮并等待保存提示。之后从底部工具栏打开 Favorites List，选择对应条目即可恢复。",
+    "requirement": "保存和恢复工作区书签需要 Premium。请保留原文件及访问权限，书签不会复制全部媒体素材。",
+    "steps": [
+      {
+        "title": "保存当前工作区",
+        "text": "排列好视频后点按星形 Favorite。离开工作区前，确认已出现当前布局和区域内容保存成功的提示。",
+        "caption": "应用提示当前工作区已保存为书签。"
+      },
+      {
+        "title": "按需关闭当前视频",
+        "text": "要检查恢复效果，可使用 Close All，确认提示内容后再继续。关闭操作会清空工作区中的视频，不会删除原文件。",
+        "caption": "Close All 在关闭当前视频前要求确认。"
+      },
+      {
+        "title": "选择已保存的书签",
+        "text": "在空白工作区中，点按底部带星号的列表按钮打开 Favorites List。通过预览图和保存时间找到对应条目，点按打开。",
+        "caption": "清空后的工作区可以通过书签重新载入。"
+      },
+      {
+        "title": "检查恢复结果",
+        "text": "等待媒体载入，检查两个区域。本例恢复双区布局及各区的两段视频列表。可点各播放器的列表按钮检查素材。",
+        "caption": "已保存的双区视频工作区恢复成功。"
+      }
+    ],
+    "features": [
+      {
+        "title": "保持原素材可访问",
+        "description": "移动、删除素材或撤销访问权限，可能导致无法恢复。建议将需要长期复看的素材保存在稳定位置。"
+      },
+      {
+        "title": "区分保存结果的用途",
+        "description": "书签恢复可继续操作的工作区；对比图片生成 JPEG；视频导出则生成可播放文件。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All 会删除我的视频吗？",
+        "answer": "不会。它关闭播放器中当前显示的媒体，原文件仍保存在原来的存储位置。"
+      },
+      {
+        "question": "书签可以作为原视频备份吗？",
+        "answer": "不可以。重要素材应另外备份，工作区书签不能代替文件备份。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Einen Video-Arbeitsbereich auf dem iPhone oder iPad speichern und wiederherstellen",
+    "description": "Speichern Sie einen geteilten Video-Arbeitsbereich als Lesezeichen auf dem iPhone oder iPad, schließen Sie die Videos und öffnen Sie später die gespeicherte Anordnung.",
+    "summary": "Bewahren Sie eine nützliche Anordnung auf, um Videos und Layout später ohne erneuten Aufbau wiederzufinden.",
+    "answer": "Tippen Sie auf den Stern Favorite und warten Sie auf die Bestätigung. Öffnen Sie später Favorites List in der unteren Werkzeugleiste und wählen Sie den Eintrag.",
+    "requirement": "Speichern und Wiederherstellen von Lesezeichen benötigen Premium. Behalten Sie Quelldateien und Zugriffsrechte; ein Lesezeichen enthält keine Kopien aller Medien.",
+    "steps": [
+      {
+        "title": "Den aktuellen Arbeitsbereich speichern",
+        "text": "Ordnen Sie Ihre Clips an und tippen Sie auf Favorite. Warten Sie vor dem Verlassen auf die Bestätigung, dass Layout und Bereiche gespeichert wurden.",
+        "caption": "Die App bestätigt das gespeicherte Arbeitsbereich-Lesezeichen."
+      },
+      {
+        "title": "Videos bei Bedarf schließen",
+        "text": "Zum Prüfen der Wiederherstellung nutzen Sie Close All und lesen die Bestätigung. Die Videos werden aus dem Arbeitsbereich geschlossen; ihre Quelldateien bleiben erhalten.",
+        "caption": "Close All fragt vor dem Schließen der sichtbaren Videos nach."
+      },
+      {
+        "title": "Das gespeicherte Lesezeichen wählen",
+        "text": "Öffnen Sie im leeren Arbeitsbereich Favorites List über die Liste mit Stern. Finden Sie den Eintrag anhand von Vorschau und Speicherzeit und tippen Sie darauf.",
+        "caption": "Im leeren Arbeitsbereich lässt sich eine gespeicherte Anordnung öffnen."
+      },
+      {
+        "title": "Die Wiederherstellung prüfen",
+        "text": "Warten Sie auf das Laden und prüfen Sie beide Bereiche. Das Beispiel stellt die Anordnung und die beiden Wiedergabelisten mit je zwei Videos wieder her. Über die Listenschaltfläche jedes Players prüfen Sie dessen Quellen.",
+        "caption": "Der gespeicherte Videobereich mit zwei Feldern ist wiederhergestellt."
+      }
+    ],
+    "features": [
+      {
+        "title": "Quelldateien zugänglich halten",
+        "description": "Verschieben, Löschen oder entzogene Rechte können die Wiederherstellung verhindern. Bewahren Sie wichtige Medien an einem stabilen Speicherort auf."
+      },
+      {
+        "title": "Das passende Ergebnis speichern",
+        "description": "Ein Lesezeichen öffnet einen veränderbaren Arbeitsbereich. Ein Vergleichsbild ist ein JPEG; der Videoexport erzeugt eine abspielbare Datei."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Löscht Close All meine Videos?",
+        "answer": "Nein. Es schließt die aktuell angezeigten Medien im Player. Die Quelldateien bleiben an ihrem Speicherort."
+      },
+      {
+        "question": "Ist ein Lesezeichen eine Dateisicherung?",
+        "answer": "Nein. Sichern Sie wichtige Medien separat. Ein Arbeitsbereich-Lesezeichen ersetzt keine Kopie der Quelldateien."
+      }
+    ]
+  }
+}

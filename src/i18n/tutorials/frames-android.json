@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidでスポーツ動画をコマ送りで比較する方法",
+    "description": "Androidで2本のスポーツ動画を停止し、コマ送りやスロー再生で動きを確認。チェックポイントから重要な場面へ戻れます。",
+    "summary": "ゴルフのスイングなど速い動きを、シークバーで行き過ぎることなく比較します。",
+    "answer": "動画を一時停止し、フィルムのアイコンをタップします。再生ボタン横の矢印でコマを送り、もう一方の画面でも同じ動作段階を探します。",
+    "requirement": "先にローカル動画を2本開きます。ここでは各プレーヤーの操作を使います。全プレーヤーをまとめてコマ送りするツールバー機能にはPremiumが必要です。",
+    "steps": [
+      {
+        "title": "一時停止してコマ送りを有効にする",
+        "text": "動画をタップして操作ボタンを表示し、一時停止後にフィルムのアイコンをタップします。時間がミリ秒まで表示され、再生ボタン横がコマ送り操作に変わります。",
+        "caption": "上の動画は00:02.244で停止しています。"
+      },
+      {
+        "title": "1コマ先を確認する",
+        "text": "右のコマ送りボタンを1回タップします。この動画では00:02.284に進みます。それぞれの画面を調整し、同じ段階の姿勢を比較してください。",
+        "caption": "この素材では1回の操作で40ミリ秒進みます。"
+      },
+      {
+        "title": "前後の動きをスローで見る",
+        "text": "速度の数値をタップし、Video Speedを例えば0.6×に下げます。再生して姿勢の変化を確認し、再び停止して細部を見ます。",
+        "caption": "上の動画を0.6×に設定した状態。"
+      },
+      {
+        "title": "チェックポイントへ戻る",
+        "text": "繰り返し見る位置は、移動する前に旗のボタンで保存します。チェックポイントの件数から一覧を開き、保存した項目を選んで戻ります。",
+        "caption": "チェックポイントから確認したい位置に戻りました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "同じ段階の動作を比較する",
+        "description": "同じ経過秒数でも動作が一致するとは限りません。撮影開始が異なる場合は、同期点を設定してから一緒に確認します。"
+      },
+      {
+        "title": "時間間隔は素材によって異なる",
+        "description": "この例の40ミリ秒は使用した動画の値です。すべての動画が同じ間隔で進むわけではありません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "スロー再生で新しいコマは作られますか？",
+        "answer": "いいえ。記録された動きを見やすくする機能で、元の動画にない細部を追加するものではありません。"
+      },
+      {
+        "question": "再生するとコマ送りボタンが変わるのはなぜですか？",
+        "answer": "コマ送りは一時停止中の操作です。再び停止し、必要に応じてフィルムのボタンを有効にしてください。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comparer des vidéos de sport image par image sur Android",
+    "description": "Mettez deux vidéos en pause sur Android, avancez image par image, ralentissez la lecture et retrouvez un geste grâce aux points de repère.",
+    "summary": "Examinez un swing de golf ou un autre geste rapide sans dépasser sans cesse le moment recherché avec la barre de progression.",
+    "answer": "Mettez une vidéo en pause et touchez l’icône de pellicule. Utilisez les flèches à côté de Lecture pour avancer, puis faites de même dans l’autre zone pour comparer les positions.",
+    "requirement": "Ouvrez d’abord deux vidéos locales. Ce tutoriel utilise les commandes individuelles ; les boutons de la barre d’outils qui avancent tous les lecteurs ensemble nécessitent Premium.",
+    "steps": [
+      {
+        "title": "Activer les commandes image par image",
+        "text": "Touchez la vidéo pour afficher ses commandes, mettez-la en pause puis touchez la pellicule. Le temps affiche les millisecondes et les boutons près de Lecture permettent de changer d’image.",
+        "caption": "La vidéo du haut est arrêtée à 00:02.244."
+      },
+      {
+        "title": "Avancer d’une image",
+        "text": "Touchez une fois la flèche de droite. Dans cet extrait, le temps passe à 00:02.284. Ajustez chaque zone séparément pour comparer la même phase du geste.",
+        "caption": "Sur ce fichier, une image représente 40 millisecondes."
+      },
+      {
+        "title": "Observer le mouvement au ralenti",
+        "text": "Touchez la valeur de vitesse et réduisez Video Speed, par exemple à 0.6×. Reprenez la lecture pour voir évoluer la posture, puis faites une nouvelle pause.",
+        "caption": "La vidéo du haut est réglée sur 0.6×."
+      },
+      {
+        "title": "Revenir à un point de repère",
+        "text": "Avant de vous déplacer, enregistrez une position utile avec le drapeau. Touchez le nombre de points de repère pour ouvrir leur liste, puis choisissez celui à revoir.",
+        "caption": "Le point de repère ramène le lecteur à la position enregistrée."
+      }
+    ],
+    "features": [
+      {
+        "title": "Comparer des phases équivalentes",
+        "description": "Un temps écoulé identique ne garantit pas le même geste. Si les enregistrements commencent à des instants différents, définissez des points de synchronisation."
+      },
+      {
+        "title": "L’intervalle dépend du fichier",
+        "description": "Les 40 ms observées ici correspondent à cette vidéo. Ce n’est pas un intervalle fixe pour tous les enregistrements."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Le ralenti crée-t-il des images supplémentaires ?",
+        "answer": "Non. Il facilite l’observation du mouvement enregistré sans ajouter de détails absents du fichier original."
+      },
+      {
+        "question": "Pourquoi les flèches changent-elles à la reprise ?",
+        "answer": "L’examen image par image se fait en pause. Arrêtez de nouveau la lecture et réactivez la pellicule si nécessaire."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to compare sports videos frame by frame on Android",
+    "description": "Pause two sports clips on Android, advance one frame at a time, slow down playback, and return to a saved checkpoint to review a movement.",
+    "summary": "Inspect a golf swing or another quick movement without repeatedly scrubbing past the moment you want to see.",
+    "answer": "Pause a video and tap its filmstrip button to enable frame controls. Use the arrows beside Play to step through the action; repeat in the other pane to compare poses.",
+    "requirement": "Open two local videos first. The steps use individual player controls; optional toolbar actions that step every player together require Premium.",
+    "steps": [
+      {
+        "title": "Pause and enable frame controls",
+        "text": "Tap a video to reveal its controls, pause it, and tap the filmstrip icon. The time readout shows milliseconds, and the buttons beside Play become frame controls.",
+        "caption": "The paused upper video shows a position of 00:02.244."
+      },
+      {
+        "title": "Advance the action one frame",
+        "text": "Tap the right frame button once. In this clip the displayed position changes to 00:02.284. Step through each pane separately to compare the same stage of the movement.",
+        "caption": "One step advances this example by 40 milliseconds."
+      },
+      {
+        "title": "Watch the surrounding movement slowly",
+        "text": "Tap the speed value and lower Video Speed, for example to 0.6×. Resume playback to see how the pose develops, then pause again for closer inspection.",
+        "caption": "The upper clip is set to 0.6× playback speed."
+      },
+      {
+        "title": "Return to a useful checkpoint",
+        "text": "For repeated review, save a checkpoint with the flag button before moving away. Open the checkpoint list from its count and select the saved entry to return to that moment.",
+        "caption": "The saved checkpoint returns the upper clip to the review position."
+      }
+    ],
+    "features": [
+      {
+        "title": "Use comparable moments",
+        "description": "Equal elapsed times do not necessarily show the same action. If the recordings start at different times, set synchronization points before reviewing them together."
+      },
+      {
+        "title": "Treat the readout as a clip-specific result",
+        "description": "Frame intervals depend on the video. The 40 ms change shown here is an observation from this file, not a fixed interval for every recording."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does slow motion create new frames?",
+        "answer": "No. Slower playback helps you inspect the recorded movement; it does not add detail that was absent from the original video."
+      },
+      {
+        "question": "Why did the frame arrows change after pressing Play?",
+        "answer": "Frame inspection is a paused-video operation. Pause again and enable the filmstrip control if you need to continue stepping."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como comparar vídeos esportivos quadro a quadro no Android",
+    "description": "Pause dois vídeos esportivos no Android, avance um quadro por vez, reduza a velocidade e retorne a um ponto salvo para analisar o movimento.",
+    "summary": "Examine uma tacada de golfe ou outro movimento rápido sem passar repetidamente do instante desejado ao arrastar a barra de progresso.",
+    "answer": "Pause o vídeo e toque no ícone de película. Use as setas ao lado de Reproduzir para avançar por quadros; repita na outra área para comparar as posturas.",
+    "requirement": "Abra primeiro dois vídeos locais. As etapas usam os controles individuais; ações da barra que avançam todos os players juntas exigem Premium.",
+    "steps": [
+      {
+        "title": "Ativar os controles de quadros",
+        "text": "Toque no vídeo para mostrar os controles, pause e toque na película. O tempo passa a exibir milissegundos, e os botões ao lado de Reproduzir controlam os quadros.",
+        "caption": "O vídeo superior está pausado em 00:02.244."
+      },
+      {
+        "title": "Avançar um quadro",
+        "text": "Toque uma vez no botão da direita. Neste arquivo, a posição muda para 00:02.284. Ajuste cada área separadamente para comparar a mesma fase do movimento.",
+        "caption": "Neste exemplo, um quadro avança 40 milissegundos."
+      },
+      {
+        "title": "Observar o movimento devagar",
+        "text": "Toque no valor da velocidade e reduza Video Speed, por exemplo para 0.6×. Reproduza para observar a mudança da postura e pause novamente para examinar os detalhes.",
+        "caption": "O vídeo superior está configurado para 0.6×."
+      },
+      {
+        "title": "Voltar a um ponto de controle",
+        "text": "Antes de mudar de posição, salve um momento útil com a bandeira. Toque na quantidade de pontos de controle, abra a lista e escolha a entrada salva para retornar.",
+        "caption": "O ponto de controle retorna à posição de análise."
+      }
+    ],
+    "features": [
+      {
+        "title": "Compare momentos equivalentes",
+        "description": "Tempos decorridos iguais nem sempre mostram a mesma ação. Se as gravações começam em instantes diferentes, defina pontos de sincronização antes da análise conjunta."
+      },
+      {
+        "title": "O intervalo depende do vídeo",
+        "description": "Os 40 ms observados aqui correspondem a este arquivo. Não são um intervalo fixo para todas as gravações."
+      }
+    ],
+    "faq": [
+      {
+        "question": "A câmera lenta cria novos quadros?",
+        "answer": "Não. Ela facilita a observação do movimento gravado, mas não adiciona detalhes ausentes no vídeo original."
+      },
+      {
+        "question": "Por que as setas mudam ao reproduzir?",
+        "answer": "A análise quadro a quadro é feita com o vídeo pausado. Pause novamente e ative a película se precisar continuar avançando."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 스포츠 영상을 프레임 단위로 비교하는 방법",
+    "description": "Android에서 두 스포츠 영상을 멈추고 한 프레임씩 이동하거나 느리게 재생하세요. 체크포인트로 중요한 동작에 다시 돌아갈 수도 있습니다.",
+    "summary": "진행 막대를 반복해서 움직이지 않고 골프 스윙처럼 빠른 동작의 자세를 비교하세요.",
+    "answer": "영상을 일시 정지하고 필름 아이콘을 누르세요. 재생 버튼 옆 화살표로 프레임을 이동하고, 다른 영역에서도 같은 동작 단계를 찾습니다.",
+    "requirement": "먼저 로컬 영상 두 개를 여세요. 아래 단계는 개별 플레이어 조작을 사용합니다. 모든 플레이어를 함께 이동하는 도구 모음의 프레임 기능은 Premium이 필요합니다.",
+    "steps": [
+      {
+        "title": "일시 정지하고 프레임 조작 켜기",
+        "text": "영상을 눌러 조작 버튼을 표시한 후 일시 정지하고 필름 아이콘을 누르세요. 시간이 밀리초까지 표시되고 재생 버튼 옆에 프레임 이동 버튼이 나타납니다.",
+        "caption": "위쪽 영상이 00:02.244에서 멈춰 있습니다."
+      },
+      {
+        "title": "한 프레임 앞으로 이동하기",
+        "text": "오른쪽 프레임 버튼을 한 번 누르세요. 이 영상에서는 시간이 00:02.284로 바뀝니다. 두 영역을 각각 조절해 같은 단계의 자세를 비교하세요.",
+        "caption": "이 예시에서는 한 프레임 이동 시 40밀리초가 증가합니다."
+      },
+      {
+        "title": "주변 동작을 느리게 보기",
+        "text": "속도 숫자를 누르고 Video Speed를 0.6× 등으로 낮추세요. 재생하여 자세가 바뀌는 과정을 살핀 뒤 다시 멈춰 세부 동작을 확인합니다.",
+        "caption": "위쪽 영상의 재생 속도가 0.6×로 설정되어 있습니다."
+      },
+      {
+        "title": "저장한 체크포인트로 돌아가기",
+        "text": "반복해서 볼 위치는 이동하기 전에 깃발 버튼으로 저장하세요. 체크포인트 개수를 눌러 목록을 열고 저장된 항목을 선택하면 해당 위치로 돌아갑니다.",
+        "caption": "체크포인트로 위쪽 영상의 확인 위치에 돌아왔습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "같은 동작 단계를 비교하세요",
+        "description": "경과 시간이 같아도 동작이 같지는 않을 수 있습니다. 녹화 시작 시점이 다르면 동기화 지점을 먼저 설정하세요."
+      },
+      {
+        "title": "프레임 간격은 영상마다 다릅니다",
+        "description": "이 예시의 40밀리초는 사용한 파일에서 확인한 값입니다. 모든 영상이 같은 간격으로 이동하지는 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "느리게 재생하면 새 프레임이 생기나요?",
+        "answer": "아니요. 녹화된 동작을 관찰하기 쉬워질 뿐, 원본에 없는 세부 정보를 추가하지 않습니다."
+      },
+      {
+        "question": "재생하면 프레임 버튼이 바뀌는 이유는 무엇인가요?",
+        "answer": "프레임 확인은 일시 정지 상태에서 하는 조작입니다. 다시 멈춘 다음 필요하면 필름 버튼을 켜세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo comparar vídeos deportivos fotograma a fotograma en Android",
+    "description": "Pausa dos vídeos deportivos en Android, avanza un fotograma cada vez, reduce la velocidad y vuelve a un punto guardado para revisar un movimiento.",
+    "summary": "Examina un swing de golf u otro movimiento rápido sin pasarte repetidamente del instante que buscas al mover la barra de progreso.",
+    "answer": "Pausa un vídeo y toca el icono de película. Usa las flechas junto a Reproducir para avanzar por fotogramas; repite en la otra zona para comparar posturas.",
+    "requirement": "Abre primero dos vídeos locales. Estos pasos usan los controles individuales; las acciones de la barra que avanzan todos los reproductores requieren Premium.",
+    "steps": [
+      {
+        "title": "Activar los controles por fotogramas",
+        "text": "Toca el vídeo para mostrar sus controles, páusalo y pulsa el icono de película. El tiempo muestra milisegundos y los botones junto a Reproducir pasan a controlar fotogramas.",
+        "caption": "El vídeo superior está pausado en 00:02.244."
+      },
+      {
+        "title": "Avanzar un fotograma",
+        "text": "Toca una vez la flecha derecha. En este archivo, la posición cambia a 00:02.284. Ajusta cada zona por separado para comparar la misma fase del movimiento.",
+        "caption": "En este ejemplo, un paso avanza 40 milisegundos."
+      },
+      {
+        "title": "Ver el movimiento a cámara lenta",
+        "text": "Toca el valor de velocidad y reduce Video Speed, por ejemplo a 0.6×. Reanuda para observar cómo cambia la postura y vuelve a pausar para ver los detalles.",
+        "caption": "El vídeo superior está configurado a 0.6×."
+      },
+      {
+        "title": "Volver a un punto de control",
+        "text": "Antes de alejarte, guarda una posición útil con la bandera. Toca el número de puntos de control para abrir la lista y elige la entrada guardada para volver.",
+        "caption": "El punto de control devuelve el vídeo a la posición de revisión."
+      }
+    ],
+    "features": [
+      {
+        "title": "Comparar momentos equivalentes",
+        "description": "El mismo tiempo transcurrido no siempre muestra la misma acción. Si las grabaciones empiezan en momentos distintos, define puntos de sincronización antes de revisarlas juntas."
+      },
+      {
+        "title": "El intervalo depende del vídeo",
+        "description": "Los 40 ms de este ejemplo corresponden a este archivo. No son un intervalo fijo para todas las grabaciones."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿La cámara lenta crea fotogramas nuevos?",
+        "answer": "No. Ayuda a observar el movimiento grabado, pero no añade detalles que no existían en el vídeo original."
+      },
+      {
+        "question": "¿Por qué cambian las flechas al reproducir?",
+        "answer": "La revisión por fotogramas se realiza en pausa. Pausa de nuevo y activa el icono de película si necesitas seguir avanzando."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上逐帧对比运动视频",
+    "description": "在 Android 上暂停两段运动视频，逐帧查看动作、慢速播放，并通过检查点回到关键时刻，分析高尔夫挥杆等细节。",
+    "summary": "不用反复拖动进度条，在两段视频中逐帧检查挥杆姿态或其他快速动作。",
+    "answer": "暂停视频，点按胶片图标启用逐帧控制，再用播放按钮旁的箭头逐帧移动。对另一个区域重复操作，比较相同阶段的姿态。",
+    "requirement": "先打开两段本地视频。以下使用单区播放器控制；同时移动所有播放器的工具栏逐帧按钮需要 Premium。",
+    "steps": [
+      {
+        "title": "暂停并启用逐帧控制",
+        "text": "点按视频显示控制栏，暂停后点按胶片图标。时间显示到毫秒，播放按钮旁的按钮变为逐帧控制。",
+        "caption": "上方视频暂停在 00:02.244。"
+      },
+      {
+        "title": "前进一帧查看动作",
+        "text": "点按右侧逐帧按钮一次。本例时间从 00:02.244 变为 00:02.284。分别调整两个区域，比较动作处于同一阶段的画面。",
+        "caption": "这段素材前进一帧，显示时间增加 40 毫秒。"
+      },
+      {
+        "title": "慢速查看动作前后过程",
+        "text": "点按速度数值，在 Video Speed 中调低倍速，例如 0.6×。继续播放观察动作变化，再次暂停检查细节。",
+        "caption": "上方视频设为 0.6× 慢速播放。"
+      },
+      {
+        "title": "回到保存的检查点",
+        "text": "需要反复查看时，先用旗帜按钮保存检查点，再移到其他位置。点按检查点数量打开列表，选择保存的条目回到关键时刻。",
+        "caption": "通过检查点返回上方视频的复看位置。"
+      }
+    ],
+    "features": [
+      {
+        "title": "比较同一阶段的动作",
+        "description": "相同的播放秒数未必对应相同动作。如果两段录像的开拍时间不同，可以先设置同步点，再一起复看。"
+      },
+      {
+        "title": "逐帧时间间隔取决于素材",
+        "description": "本例 40 毫秒的变化来自这段视频，并不代表所有视频的每帧间隔都相同。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "慢速播放会生成新的画面吗？",
+        "answer": "不会。慢放方便观察已经录下的动作，不会增加原视频中不存在的细节。"
+      },
+      {
+        "question": "为什么开始播放后逐帧箭头变了？",
+        "answer": "逐帧用于暂停状态。需要继续逐帧时，再次暂停，并按需启用胶片按钮。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Sportvideos auf Android Bild für Bild vergleichen",
+    "description": "Pausieren Sie zwei Sportvideos auf Android, gehen Sie Einzelbilder durch, verlangsamen Sie die Wiedergabe und kehren Sie zu gespeicherten Prüfpunkten zurück.",
+    "summary": "Untersuchen Sie einen Golfschwung oder eine andere schnelle Bewegung, ohne mit dem Fortschrittsbalken ständig über die gesuchte Stelle hinauszugehen.",
+    "answer": "Pausieren Sie ein Video und tippen Sie auf das Filmstreifen-Symbol. Mit den Pfeilen neben Wiedergabe wechseln Sie Einzelbilder. Suchen Sie im zweiten Bereich dieselbe Bewegungsphase.",
+    "requirement": "Öffnen Sie zuerst zwei lokale Videos. Diese Anleitung nutzt die einzelnen Player. Werkzeugleisten-Aktionen für gemeinsame Einzelbildschritte benötigen Premium.",
+    "steps": [
+      {
+        "title": "Einzelbildsteuerung aktivieren",
+        "text": "Tippen Sie auf das Video, pausieren Sie es und wählen Sie das Filmstreifen-Symbol. Die Zeitanzeige zeigt Millisekunden; neben Wiedergabe erscheinen die Einzelbildtasten.",
+        "caption": "Das obere Video steht bei 00:02.244."
+      },
+      {
+        "title": "Ein Bild weitergehen",
+        "text": "Tippen Sie einmal auf die rechte Einzelbildtaste. In diesem Clip wechselt die Anzeige zu 00:02.284. Stellen Sie beide Bereiche einzeln auf vergleichbare Bewegungsphasen ein.",
+        "caption": "Bei dieser Datei entspricht ein Schritt 40 Millisekunden."
+      },
+      {
+        "title": "Die Bewegung langsam ansehen",
+        "text": "Tippen Sie auf den Geschwindigkeitswert und reduzieren Sie Video Speed beispielsweise auf 0.6×. Spielen Sie die Bewegung ab und pausieren Sie für die Detailprüfung erneut.",
+        "caption": "Das obere Video ist auf 0.6× eingestellt."
+      },
+      {
+        "title": "Zu einem Prüfpunkt zurückkehren",
+        "text": "Speichern Sie vor dem Weitersuchen eine nützliche Position über die Fahne. Tippen Sie auf die Anzahl der Prüfpunkte und wählen Sie den gespeicherten Eintrag aus der Liste.",
+        "caption": "Der Prüfpunkt führt zur gespeicherten Position zurück."
+      }
+    ],
+    "features": [
+      {
+        "title": "Passende Bewegungsphasen wählen",
+        "description": "Gleiche Laufzeiten zeigen nicht unbedingt dieselbe Aktion. Bei unterschiedlichen Aufnahmestarts helfen zuvor festgelegte Synchronisationspunkte."
+      },
+      {
+        "title": "Das Intervall hängt vom Video ab",
+        "description": "Die hier beobachteten 40 ms gelten für diese Datei. Andere Videos können andere Bildabstände haben."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Erzeugt Zeitlupe zusätzliche Bilder?",
+        "answer": "Nein. Sie erleichtert die Betrachtung der aufgenommenen Bewegung, ergänzt aber keine Details, die im Original fehlen."
+      },
+      {
+        "question": "Warum ändern sich die Pfeile beim Abspielen?",
+        "answer": "Einzelbilder werden im pausierten Video geprüft. Pausieren Sie erneut und aktivieren Sie bei Bedarf das Filmstreifen-Symbol."
+      }
+    ]
+  }
+}

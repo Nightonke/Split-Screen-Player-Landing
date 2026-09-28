@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで複数動画にスリープタイマーを設定する方法",
+    "description": "Androidでプリセットまたは任意のスリープ時間を設定し、カウントダウン終了時に分割画面の動画を自動停止します。",
+    "summary": "指定した時間だけ複数動画を再生し、後で1本ずつ止める手間を省きます。",
+    "answer": "下のSleep Timerを開き、プリセットまたはCustomを選んで再生します。ツールバーの残り時間がゼロになると再生が停止し、アプリの画面が暗くなります。",
+    "requirement": "必要ならMore → Customize Home Bottom ToolbarでSleep Timerを追加します。例ではループ中のローカル動画2本と1分のタイマーで確認しました。",
+    "steps": [
+      {
+        "title": "タイマーの選択肢を開く",
+        "text": "Sleep Timerには10、20、30、60分とCustomがあります。実行中のタイマーを解除する場合はOffを選びます。",
+        "caption": "タイマーのプリセット、Custom、Offが表示されます。"
+      },
+      {
+        "title": "任意の時間を入力する",
+        "text": "Customで時間と分を入力します。例は0時間1分です。確認して適用してください。設定範囲は1分から23時間59分です。",
+        "caption": "タイマーを1分に設定しています。"
+      },
+      {
+        "title": "再生と残り時間を確認する",
+        "text": "ワークスペースで動画を再生し、ツールバーの残り時間を確認します。タイマー設定だけで通常の再生操作が不要になるわけではありません。",
+        "caption": "2本の再生中に残り00:57と表示されています。"
+      },
+      {
+        "title": "時間切れで停止したことを確認する",
+        "text": "終了後に動画を確認します。実測では両方に再生アイコンが出て、それぞれ異なる位置で停止しました。残り時間が消え、アプリのウィンドウ輝度も下がります。",
+        "caption": "1分後に両方の動画が一時停止しました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "同じメニューから解除する",
+        "description": "停止が不要になったらSleep Timerを開き、Offを選びます。視聴を続ける場合は期限前に解除してください。"
+      },
+      {
+        "title": "端末の電源は切らない",
+        "description": "対象は再生とアプリの画面です。端末のシャットダウンではなく、メディアの削除や書き出しもしません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "タイマーで再生も開始しますか？",
+        "answer": "通常の再生ボタンで開始し、動画の再生状態とカウントダウンの両方を確認してください。"
+      },
+      {
+        "question": "終了後に暗くなるのはなぜですか？",
+        "answer": "画面を暗くするのも停止時の動作です。実際の明るさの変化はスクリーンショットに写らない場合があります。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Programmer l’arrêt de plusieurs vidéos sur Android",
+    "description": "Choisissez une minuterie prédéfinie ou personnalisée sur Android, suivez le décompte et arrêtez automatiquement les vidéos en écran partagé.",
+    "summary": "Laissez plusieurs vidéos jouer pendant une durée choisie sans devoir ensuite arrêter chaque lecteur séparément.",
+    "answer": "Ouvrez Sleep Timer, choisissez une durée ou Custom, puis lancez la lecture. À la fin du décompte, l’application met la lecture en pause et assombrit sa fenêtre.",
+    "requirement": "Ajoutez Sleep Timer dans More → Customize Home Bottom Toolbar si nécessaire. Le test utilise une minute et deux vidéos locales en boucle.",
+    "steps": [
+      {
+        "title": "Ouvrir les durées proposées",
+        "text": "Touchez Sleep Timer et choisissez 10, 20, 30 ou 60 minutes, ou Custom. Off permet d’annuler une minuterie active.",
+        "caption": "Le menu propose les durées, Custom et Off."
+      },
+      {
+        "title": "Définir une durée personnalisée",
+        "text": "Dans Custom, saisissez heures et minutes. L’exemple utilise zéro heure et une minute. Confirmez ; la plage va d’une minute à 23 heures 59 minutes.",
+        "caption": "La durée personnalisée est d’une minute."
+      },
+      {
+        "title": "Lire et vérifier le décompte",
+        "text": "Revenez à l’espace, lancez les vidéos et contrôlez le temps restant dans la barre. Régler une minuterie ne remplace pas la commande Lecture.",
+        "caption": "Les deux vidéos jouent avec 00:57 restantes."
+      },
+      {
+        "title": "Vérifier la pause à l’échéance",
+        "text": "À la fin, vérifiez les vidéos. Dans le test, les deux zones affichent Lecture et s’arrêtent à des positions différentes. Le décompte disparaît et la luminosité de la fenêtre diminue.",
+        "caption": "Les deux vidéos sont en pause après une minute."
+      }
+    ],
+    "features": [
+      {
+        "title": "Annuler depuis le même menu",
+        "description": "Rouvrez Sleep Timer et choisissez Off pour continuer sans arrêt programmé. Faites-le avant l’échéance si vous poursuivez le visionnage."
+      },
+      {
+        "title": "La minuterie n’éteint pas le téléphone",
+        "description": "Elle agit sur la lecture et la fenêtre de l’application. Elle ne programme pas l’extinction de l’appareil et ne supprime ni n’exporte les médias."
+      }
+    ],
+    "faq": [
+      {
+        "question": "La minuterie lance-t-elle la lecture ?",
+        "answer": "Utilisez les commandes Lecture habituelles et vérifiez à la fois l’état des vidéos et le décompte."
+      },
+      {
+        "question": "Pourquoi l’écran est-il plus sombre ensuite ?",
+        "answer": "L’assombrissement accompagne la pause à l’échéance. Une capture ne reflète pas forcément le changement de luminosité physique."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to set a sleep timer for multiple videos on Android",
+    "description": "Set a preset or custom sleep timer on Android, check the countdown, and pause your split-screen videos automatically when time runs out.",
+    "summary": "Let several videos play for a chosen period without needing to pause each player separately afterward.",
+    "answer": "Open Sleep Timer from the bottom toolbar, choose a preset or Custom duration, and start playback. The toolbar counts down; when it expires, the app pauses playback and dims its window.",
+    "requirement": "Add Sleep Timer in More → Customize Home Bottom Toolbar if needed. The test below uses a one-minute timer and two looping local videos.",
+    "steps": [
+      {
+        "title": "Open the timer choices",
+        "text": "Tap Sleep Timer. Choose 10, 20, 30, or 60 minutes, or use Custom. Off is available here when you want to cancel an active timer.",
+        "caption": "The timer menu offers presets, Custom, and Off."
+      },
+      {
+        "title": "Set a custom duration",
+        "text": "Choose Custom and enter hours and minutes. The example uses zero hours and one minute. Confirm the value; the supported range is one minute to 23 hours 59 minutes.",
+        "caption": "The custom timer is set to one minute."
+      },
+      {
+        "title": "Start playback and check the countdown",
+        "text": "Return to the workspace, play the videos, and check the timer’s remaining time on the toolbar. Setting a timer does not replace the normal Play control.",
+        "caption": "Both videos play while the toolbar shows 00:57 remaining."
+      },
+      {
+        "title": "Confirm that playback stops",
+        "text": "At expiry, verify that the videos are paused. In the test, both panes show Play and stop at different positions. The timer countdown disappears; the app also lowers its window brightness.",
+        "caption": "Both videos are paused after the one-minute countdown finishes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cancel from the same menu",
+        "description": "Open Sleep Timer again and select Off if you no longer want it to stop playback. Do this before the deadline when continuing a viewing session."
+      },
+      {
+        "title": "The timer does not power off the phone",
+        "description": "It controls playback and the app window. It is not a device shutdown timer and does not delete or export your media."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the timer start playback for me?",
+        "answer": "Use the ordinary Play controls to begin playback, then check both the video state and timer countdown."
+      },
+      {
+        "question": "Why is the screen darker afterward?",
+        "answer": "Dimming the app window is part of the timer’s expiry behavior, alongside pausing playback. A screenshot may not show the physical brightness change."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como programar a pausa de vários vídeos no Android",
+    "description": "Configure um temporizador no Android, acompanhe a contagem regressiva e pause automaticamente os vídeos em tela dividida quando o tempo acabar.",
+    "summary": "Deixe vários vídeos reproduzindo por um período escolhido sem precisar parar cada player separadamente depois.",
+    "answer": "Abra Sleep Timer, escolha uma duração ou Custom e inicie a reprodução. Ao terminar a contagem, o aplicativo pausa os vídeos e escurece sua janela.",
+    "requirement": "Adicione Sleep Timer em More → Customize Home Bottom Toolbar se necessário. O teste usa um minuto e dois vídeos locais em repetição.",
+    "steps": [
+      {
+        "title": "Abrir as opções de tempo",
+        "text": "Toque em Sleep Timer e escolha 10, 20, 30 ou 60 minutos, ou Custom. Off cancela um temporizador ativo.",
+        "caption": "O menu oferece tempos predefinidos, Custom e Off."
+      },
+      {
+        "title": "Definir uma duração personalizada",
+        "text": "Em Custom, informe horas e minutos. O exemplo usa zero hora e um minuto. Confirme; o intervalo permitido vai de um minuto a 23 horas e 59 minutos.",
+        "caption": "O temporizador personalizado está em um minuto."
+      },
+      {
+        "title": "Reproduzir e conferir a contagem",
+        "text": "Volte ao espaço, reproduza os vídeos e confira o tempo restante na barra. Configurar o temporizador não substitui o botão Reproduzir.",
+        "caption": "Os dois vídeos reproduzem com 00:57 restantes."
+      },
+      {
+        "title": "Confirmar a pausa ao terminar",
+        "text": "Quando o tempo acabar, confira os vídeos. No teste, ambos mostram Reproduzir e param em posições diferentes. A contagem desaparece e o brilho da janela diminui.",
+        "caption": "Os dois vídeos estão pausados após um minuto."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cancelar pelo mesmo menu",
+        "description": "Abra Sleep Timer e selecione Off para continuar sem pausa programada. Faça isso antes do prazo se quiser seguir assistindo."
+      },
+      {
+        "title": "O temporizador não desliga o celular",
+        "description": "Ele controla a reprodução e a janela do aplicativo. Não desliga o aparelho nem apaga ou exporta mídias."
+      }
+    ],
+    "faq": [
+      {
+        "question": "O temporizador inicia a reprodução?",
+        "answer": "Use os controles normais para começar e confira tanto o estado dos vídeos quanto a contagem regressiva."
+      },
+      {
+        "question": "Por que a tela fica escura depois?",
+        "answer": "O escurecimento acompanha a pausa no fim do prazo. Uma captura pode não mostrar a mudança física de brilho."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 여러 영상에 종료 타이머를 설정하는 방법",
+    "description": "Android에서 프리셋이나 사용자 지정 타이머를 설정하고, 시간이 끝나면 분할 화면 영상이 자동으로 멈추게 하세요.",
+    "summary": "여러 영상을 정해진 시간만 재생하고 나중에 각각 멈출 필요 없이 함께 일시 정지하세요.",
+    "answer": "아래의 Sleep Timer를 열어 프리셋 또는 Custom을 선택하고 재생하세요. 남은 시간이 끝나면 앱이 재생을 멈추고 창을 어둡게 합니다.",
+    "requirement": "필요하면 More → Customize Home Bottom Toolbar에 Sleep Timer를 추가하세요. 예시는 반복 중인 로컬 영상 두 개와 1분 타이머로 확인했습니다.",
+    "steps": [
+      {
+        "title": "타이머 선택지 열기",
+        "text": "Sleep Timer에서 10, 20, 30, 60분이나 Custom을 선택할 수 있습니다. 실행 중인 타이머를 취소할 때는 Off를 사용하세요.",
+        "caption": "프리셋, Custom과 Off가 표시됩니다."
+      },
+      {
+        "title": "사용자 지정 시간 입력하기",
+        "text": "Custom에서 시간과 분을 입력하세요. 예시는 0시간 1분입니다. 확인하여 적용합니다. 지원 범위는 1분부터 23시간 59분까지입니다.",
+        "caption": "사용자 지정 타이머가 1분으로 설정됩니다."
+      },
+      {
+        "title": "재생과 남은 시간 확인하기",
+        "text": "작업 공간으로 돌아가 영상을 재생하고 도구 모음의 남은 시간을 보세요. 타이머 설정이 일반 재생 조작을 대신하지는 않습니다.",
+        "caption": "두 영상이 재생되며 남은 시간이 00:57로 표시됩니다."
+      },
+      {
+        "title": "시간 종료 후 정지 확인하기",
+        "text": "시간이 끝나면 영상을 확인하세요. 테스트에서는 두 영역에 재생 삼각형이 나타나며 각각 다른 위치에서 멈췄습니다. 카운트다운은 사라지고 창 밝기도 낮아집니다.",
+        "caption": "1분이 지나 두 영상이 모두 일시 정지되었습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "같은 메뉴에서 취소하세요",
+        "description": "더 이상 자동 정지가 필요 없으면 Sleep Timer에서 Off를 선택하세요. 계속 시청하려면 종료 전에 취소합니다."
+      },
+      {
+        "title": "휴대폰 전원은 끄지 않습니다",
+        "description": "앱 재생과 창 밝기를 제어합니다. 기기 종료 타이머가 아니며 미디어를 삭제하거나 내보내지 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "타이머가 재생도 시작하나요?",
+        "answer": "일반 재생 버튼으로 시작한 후 영상 상태와 카운트다운을 모두 확인하세요."
+      },
+      {
+        "question": "종료 후 화면이 어두워지는 이유는 무엇인가요?",
+        "answer": "창을 어둡게 하는 것도 재생 정지와 함께 실행됩니다. 실제 화면 밝기 변화는 스크린샷에 나타나지 않을 수 있습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo programar la pausa de varios vídeos en Android",
+    "description": "Configura un temporizador en Android, consulta la cuenta atrás y pausa automáticamente los vídeos en pantalla dividida al terminar el tiempo.",
+    "summary": "Deja reproducir varios vídeos durante un tiempo elegido sin tener que detener después cada reproductor por separado.",
+    "answer": "Abre Sleep Timer, elige un tiempo o Custom y empieza a reproducir. Al acabar la cuenta atrás, la aplicación pausa los vídeos y atenúa su ventana.",
+    "requirement": "Añade Sleep Timer en More → Customize Home Bottom Toolbar si falta. La prueba usa un minuto y dos vídeos locales en bucle.",
+    "steps": [
+      {
+        "title": "Abrir las opciones de tiempo",
+        "text": "Toca Sleep Timer y elige 10, 20, 30 o 60 minutos, o Custom. Off cancela un temporizador activo.",
+        "caption": "El menú ofrece tiempos predefinidos, Custom y Off."
+      },
+      {
+        "title": "Definir una duración personalizada",
+        "text": "En Custom, introduce horas y minutos. El ejemplo usa cero horas y un minuto. Confirma el valor; el intervalo permitido va de un minuto a 23 horas y 59 minutos.",
+        "caption": "El temporizador personalizado está en un minuto."
+      },
+      {
+        "title": "Reproducir y comprobar la cuenta atrás",
+        "text": "Vuelve al espacio, reproduce los vídeos y comprueba el tiempo restante en la barra. Configurar el temporizador no sustituye el botón Reproducir.",
+        "caption": "Ambos vídeos se reproducen con 00:57 restantes."
+      },
+      {
+        "title": "Confirmar la pausa al terminar",
+        "text": "Al agotarse el tiempo, revisa los vídeos. En la prueba, ambos muestran Reproducir y se detienen en posiciones diferentes. Desaparece la cuenta atrás y baja el brillo de la ventana.",
+        "caption": "Los dos vídeos están pausados tras un minuto."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cancelar desde el mismo menú",
+        "description": "Abre Sleep Timer y selecciona Off para continuar sin parada programada. Hazlo antes del final si quieres seguir viendo los vídeos."
+      },
+      {
+        "title": "El temporizador no apaga el teléfono",
+        "description": "Controla la reproducción y la ventana de la aplicación. No apaga el dispositivo ni borra o exporta contenidos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿El temporizador inicia la reproducción?",
+        "answer": "Usa los controles habituales para empezar y comprueba tanto el estado de los vídeos como la cuenta atrás."
+      },
+      {
+        "question": "¿Por qué se oscurece la pantalla al final?",
+        "answer": "La atenuación acompaña a la pausa cuando termina el tiempo. Una captura puede no reflejar el cambio físico de brillo."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上定时停止多个视频",
+    "description": "在 Android 上设置预设或自定义睡眠定时器，查看倒计时，让分屏视频到时自动暂停，无需逐个操作。",
+    "summary": "让多段视频播放一段指定时间，到时统一停止，避免之后再分别暂停每个播放器。",
+    "answer": "从底部工具栏打开 Sleep Timer，选择预设或 Custom 时长，再开始播放。工具栏显示倒计时，结束后应用暂停播放并调暗窗口。",
+    "requirement": "如缺少按钮，在 More → Customize Home Bottom Toolbar 添加 Sleep Timer。本例用一分钟定时器和两段循环播放的本地视频实测。",
+    "steps": [
+      {
+        "title": "打开定时选项",
+        "text": "点按 Sleep Timer，可选 10、20、30、60 分钟或 Custom。要取消正在运行的定时器，也可在这里选择 Off。",
+        "caption": "定时菜单提供预设时长、Custom 和 Off。"
+      },
+      {
+        "title": "输入自定义时长",
+        "text": "选择 Custom，填写小时和分钟。本例使用零小时、一分钟，再确认；支持范围为一分钟至 23 小时 59 分钟。",
+        "caption": "自定义定时器设为一分钟。"
+      },
+      {
+        "title": "播放并检查倒计时",
+        "text": "返回工作区，开始播放视频，观察工具栏剩余时间。设置定时器不能代替正常的播放操作。",
+        "caption": "两段视频播放时，工具栏显示剩余 00:57。"
+      },
+      {
+        "title": "确认到时暂停",
+        "text": "倒计时结束后检查视频是否暂停。本例两区都显示播放三角，停在不同位置；倒计时消失，应用同时降低窗口亮度。",
+        "caption": "一分钟倒计时结束后，两段视频均已暂停。"
+      }
+    ],
+    "features": [
+      {
+        "title": "从原菜单取消",
+        "description": "不再需要定时停止时，重新打开 Sleep Timer 并选择 Off。若想继续观看，应在截止前取消。"
+      },
+      {
+        "title": "定时器不会关闭手机",
+        "description": "它控制应用的播放和窗口亮度，不是系统关机定时器，也不会删除或导出素材。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "设置后会自动开始播放吗？",
+        "answer": "请使用正常播放按钮开始播放，并同时检查视频状态与定时倒计时。"
+      },
+      {
+        "question": "为什么到时后屏幕变暗？",
+        "answer": "暂停播放与降低应用窗口亮度都是到时行为。截图不一定能反映屏幕实际亮度变化。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Einen Sleep-Timer für mehrere Videos auf Android einstellen",
+    "description": "Wählen Sie auf Android eine voreingestellte oder eigene Zeit und lassen Sie die Videos auf dem geteilten Bildschirm automatisch pausieren.",
+    "summary": "Spielen Sie mehrere Videos für eine gewählte Dauer ab, ohne danach jeden Player einzeln anhalten zu müssen.",
+    "answer": "Öffnen Sie Sleep Timer, wählen Sie eine Dauer oder Custom und starten Sie die Wiedergabe. Nach Ablauf pausiert die App die Medien und dimmt ihr Fenster.",
+    "requirement": "Fügen Sie Sleep Timer bei Bedarf unter More → Customize Home Bottom Toolbar hinzu. Der Test nutzt eine Minute und zwei lokale Videos in Schleife.",
+    "steps": [
+      {
+        "title": "Die Zeitoptionen öffnen",
+        "text": "Tippen Sie auf Sleep Timer. Wählen Sie 10, 20, 30 oder 60 Minuten oder Custom. Off beendet einen aktiven Timer.",
+        "caption": "Das Menü bietet Zeitvorgaben, Custom und Off."
+      },
+      {
+        "title": "Eine eigene Dauer eingeben",
+        "text": "Geben Sie unter Custom Stunden und Minuten ein. Im Beispiel sind es null Stunden und eine Minute. Bestätigen Sie; möglich sind eine Minute bis 23 Stunden 59 Minuten.",
+        "caption": "Der eigene Timer ist auf eine Minute eingestellt."
+      },
+      {
+        "title": "Wiedergabe und Countdown prüfen",
+        "text": "Kehren Sie zurück, starten Sie die Videos und prüfen Sie die Restzeit in der Werkzeugleiste. Der Timer ersetzt nicht die normale Wiedergabetaste.",
+        "caption": "Beide Videos laufen bei 00:57 Restzeit."
+      },
+      {
+        "title": "Das Anhalten kontrollieren",
+        "text": "Prüfen Sie die Videos nach Ablauf. Im Test zeigen beide Wiedergabe und stehen an unterschiedlichen Positionen. Der Countdown verschwindet und das App-Fenster wird gedimmt.",
+        "caption": "Nach einer Minute sind beide Videos pausiert."
+      }
+    ],
+    "features": [
+      {
+        "title": "Im selben Menü abbrechen",
+        "description": "Öffnen Sie Sleep Timer und wählen Sie Off, wenn die Wiedergabe weiterlaufen soll. Brechen Sie vor Ablauf ab."
+      },
+      {
+        "title": "Der Timer schaltet das Telefon nicht aus",
+        "description": "Er steuert Wiedergabe und App-Fenster. Er fährt das Gerät nicht herunter und löscht oder exportiert keine Medien."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Startet der Timer die Wiedergabe?",
+        "answer": "Nutzen Sie die normalen Wiedergabetasten und prüfen Sie sowohl den Player-Zustand als auch den Countdown."
+      },
+      {
+        "question": "Warum ist der Bildschirm danach dunkler?",
+        "answer": "Das Dimmen gehört zusammen mit der Pause zum Ablaufverhalten. Ein Screenshot zeigt die tatsächliche Helligkeitsänderung möglicherweise nicht."
+      }
+    ]
+  }
+}

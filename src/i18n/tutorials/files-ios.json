@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadでローカル動画やフォルダを分割表示する方法",
+    "description": "ローカルフォルダから複数動画を開き、アクセスを許可し、Split Screen Playerのブックマークで配置を保存します。",
+    "summary": "フォルダ内の動画で複数動画のワークスペースを作ります。",
+    "answer": "Open Multiple → Filesを開きます。動画を複数選んでOpenを押すか、専用フォルダ内で何も選択せずOpenを押します。例ではゴルフ動画2本を2領域に開きます。",
+    "requirement": "端末上の元ファイルを残してください。ワークスペースのブックマークにはPremiumが必要です。フォルダのアクセス許可と保存は別の操作です。",
+    "steps": [
+      {
+        "title": "下部ツールバーから開く",
+        "text": "下部のOpen Multiple → Filesを選びます。例ではVideo Filterをオフにします。各領域の+は対象範囲が異なります。",
+        "caption": "下部のOpenメニューにあるFilesでローカルファイルやフォルダを開けます。"
+      },
+      {
+        "title": "動画ファイルを選ぶ",
+        "text": "素材フォルダでGolf 01とGolf 02をタップし、両方にチェックが付いたらOpenを押します。必要なファイルだけを選択できます。",
+        "caption": "動画ファイルを選ぶ"
+      },
+      {
+        "title": "動画フォルダ全体を開く方法",
+        "text": "再びFilesを開き、2本だけを入れたGolf Videosフォルダに入ります。個別ファイルを選ばずOpenを押して現在のフォルダを指定します。",
+        "caption": "Golf Videosには2本の動画があり、個別ファイルは未選択です。"
+      },
+      {
+        "title": "読み込んだ配置を確認する",
+        "text": "読み込みを待ち、両方の枠で再生して別々の動画が開いたことを確認します。次回使うためにワークスペースのブックマークを保存します。",
+        "caption": "フォルダの2本の動画が別々の枠に表示された状態。"
+      }
+    ],
+    "features": [
+      {
+        "title": "目的に合った入口を使う",
+        "description": "複数ファイルを画面全体に開く場合は下部ツールバーを使います。特定領域だけを置き換える場合は、その領域の+を使います。"
+      },
+      {
+        "title": "ブックマークから再度開く",
+        "description": "フォルダの配置を保存し、Close Allの後にFavorites Listから復元すると、両方のゴルフ動画が再生できました。元ファイルは保持してください。ブックマークは素材のバックアップではありません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "動画の順序は固定ですか？",
+        "answer": "読み込み後の配置を確認してください。個別選択とフォルダの読み込みでは順序が異なる場合があります。保存前に配置を確認します。"
+      },
+      {
+        "question": "読み込めば再起動時に自動復元されますか？",
+        "answer": "Favoriteで保存し、Favorites Listから開き直します。自動復元だけに頼らず、元ファイルとアクセス権を維持してください。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ouvrir des fichiers et dossiers vidéo locaux sur iPhone ou iPad",
+    "description": "Créez un espace de travail à partir d’un dossier local, autorisez son accès et sauvegardez la disposition avec un signet dans Split Screen Player.",
+    "summary": "Ouvrez les clips d’un dossier dans plusieurs zones vidéo.",
+    "answer": "Touchez Open Multiple → Files. Sélectionnez plusieurs vidéos puis Open, ou entrez dans un dossier dédié et touchez Open sans sélectionner de fichiers. L’exemple ouvre deux vidéos de golf dans deux zones.",
+    "requirement": "Conservez les fichiers sur l’appareil. Les signets nécessitent Premium ; l’accès au dossier et l’enregistrement du signet sont deux opérations distinctes.",
+    "steps": [
+      {
+        "title": "Utiliser Open dans la barre du bas",
+        "text": "Touchez Open Multiple → Files dans la barre inférieure. Désactivez Video Filter pour cet exemple. Le + d’une zone agit sur un autre périmètre.",
+        "caption": "Files, dans le menu Open inférieur, permet d’ouvrir des fichiers et dossiers locaux."
+      },
+      {
+        "title": "Sélectionner des vidéos",
+        "text": "Dans votre dossier, touchez Golf 01 et Golf 02. Vérifiez les deux coches, puis touchez Open. Vous pouvez ainsi choisir seulement certains fichiers.",
+        "caption": "Sélectionner des vidéos"
+      },
+      {
+        "title": "Ou ouvrir un dossier entier",
+        "text": "Ouvrez de nouveau Files et entrez dans Golf Videos, qui contient uniquement les deux vidéos. Sans sélectionner de fichier, touchez Open pour choisir le dossier courant.",
+        "caption": "Le dossier Golf Videos contient deux vidéos, sans sélection individuelle."
+      },
+      {
+        "title": "Vérifier l’espace importé",
+        "text": "Attendez la fin de l’importation et lancez la lecture dans les deux zones. Les clips s’ouvrent séparément. Enregistrez un signet pour conserver la disposition pour une autre session.",
+        "caption": "Deux clips du dossier ouverts dans des zones séparées."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choisir le bon point d’entrée",
+        "description": "Utilisez la barre inférieure pour remplir la composition avec plusieurs fichiers. Utilisez le + d’une zone pour remplacer uniquement son contenu."
+      },
+      {
+        "title": "Rouvrir avec un signet",
+        "description": "Après enregistrement, Close All puis restauration depuis Favorites List, les deux vidéos de golf se lisent de nouveau. Gardez les originaux accessibles : le favori ne sauvegarde pas les médias."
+      }
+    ],
+    "faq": [
+      {
+        "question": "L’ordre des vidéos est-il fixe ?",
+        "answer": "Vérifiez les zones après importation. La sélection individuelle et l’ouverture d’un dossier peuvent donner des ordres différents. Vérifiez la disposition avant de l’enregistrer."
+      },
+      {
+        "question": "L’importation active-t-elle la restauration automatique ?",
+        "answer": "Enregistrez avec Favorite et rouvrez depuis Favorites List. Conservez les fichiers et leurs autorisations plutôt que de compter sur une récupération automatique."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to open local video files and folders on iPhone or iPad",
+    "description": "Build a split-screen workspace from a local folder, grant access to that folder, and save the arrangement with a bookmark in Split Screen Player.",
+    "summary": "Open a folder of local clips as a multi-video workspace.",
+    "answer": "Tap Open Multiple → Files. Select individual videos and tap Open, or enter a dedicated video folder and tap Open without selecting files. This example opens two golf clips in two panes.",
+    "requirement": "Keep the source files on the device. Workspace bookmarks require Premium; folder access and bookmarking are separate steps.",
+    "steps": [
+      {
+        "title": "Use the bottom toolbar's Open",
+        "text": "Tap Open Multiple on the bottom toolbar, then Files. Leave Video Filter off for this example. A pane’s own + button has a different scope.",
+        "caption": "The bottom Open menu offers Files for local documents and folders."
+      },
+      {
+        "title": "Select individual videos",
+        "text": "Browse to your media folder. Tap Golf 01 and Golf 02 so that both have checkmarks, then tap Open. You can select a subset without opening the entire folder.",
+        "caption": "Select individual videos"
+      },
+      {
+        "title": "Or open a whole video folder",
+        "text": "Open Files again and enter Golf Videos, a dedicated folder containing the two clips. Leave both files unselected and tap Open to choose the current folder.",
+        "caption": "The Golf Videos folder contains two clips, with no individual files selected."
+      },
+      {
+        "title": "Check the imported workspace",
+        "text": "Wait for the import and start playback in both panes. The two clips are opened separately. Save a workspace bookmark to retain the arrangement for another session.",
+        "caption": "Two clips imported from the folder into separate panes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choose the correct entry point",
+        "description": "Use the bottom toolbar to fill the workspace from several files. Use a pane’s own + button when you want to replace content in that particular region."
+      },
+      {
+        "title": "Reopen with a bookmark",
+        "description": "We saved the folder workspace, used Close All, and restored it through Favorites List. Both golf clips played again. Keep the originals accessible; the bookmark is not a media backup."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the video order fixed?",
+        "answer": "Check the imported panes. Individual selection and folder import may produce different orders; arrange the result before saving a bookmark."
+      },
+      {
+        "question": "Does importing make the workspace restore automatically?",
+        "answer": "Save the arrangement with Favorite and reopen it from Favorites List. Keep files in place and retain their access permissions rather than relying on automatic recovery."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como abrir arquivos e pastas de vídeos locais no iPhone ou iPad",
+    "description": "Crie uma tela dividida a partir de uma pasta local, permita o acesso e salve a disposição com um favorito no Split Screen Player.",
+    "summary": "Abra os clipes de uma pasta em várias áreas de vídeo.",
+    "answer": "Toque em Open Multiple → Files. Selecione os vídeos e toque em Open, ou entre em uma pasta dedicada e toque em Open sem selecionar arquivos. O exemplo abre dois vídeos de golfe em duas áreas.",
+    "requirement": "Mantenha os arquivos originais no dispositivo. Favoritos do espaço de trabalho requerem Premium; acesso à pasta e salvamento do favorito são etapas distintas.",
+    "steps": [
+      {
+        "title": "Usar Open na barra inferior",
+        "text": "Toque em Open Multiple → Files na barra inferior. Deixe Video Filter desativado neste exemplo. O + de uma área tem outro alcance.",
+        "caption": "Files, no menu Open inferior, permite abrir arquivos e pastas locais."
+      },
+      {
+        "title": "Selecionar vídeos individuais",
+        "text": "Na pasta de mídia, toque em Golf 01 e Golf 02. Confira as duas marcas e toque em Open. Assim você escolhe apenas os arquivos desejados.",
+        "caption": "Selecionar vídeos individuais"
+      },
+      {
+        "title": "Ou abrir uma pasta inteira",
+        "text": "Abra Files novamente e entre em Golf Videos, que contém somente os dois clipes. Sem selecionar arquivos individuais, toque em Open para escolher a pasta atual.",
+        "caption": "Golf Videos contém dois clipes, sem seleção de arquivos individuais."
+      },
+      {
+        "title": "Conferir o espaço importado",
+        "text": "Aguarde a importação e inicie a reprodução nas duas áreas. Os clipes abrem separadamente. Salve um favorito para manter a disposição para outra sessão.",
+        "caption": "Dois clipes da pasta abertos em áreas separadas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Escolher o ponto de entrada",
+        "description": "Use a barra inferior para preencher a composição com vários arquivos. Use o + de uma área para substituir apenas o conteúdo dela."
+      },
+      {
+        "title": "Abrir novamente com um favorito",
+        "description": "Depois de salvar, usar Close All e restaurar pela Favorites List, os dois vídeos de golfe voltaram a tocar. Mantenha os originais acessíveis: o favorito não é um backup da mídia."
+      }
+    ],
+    "faq": [
+      {
+        "question": "A ordem dos vídeos é fixa?",
+        "answer": "Confira as áreas importadas. A seleção individual e a importação de pastas podem resultar em ordens diferentes. Verifique a composição antes de salvar."
+      },
+      {
+        "question": "A importação ativa a restauração automática?",
+        "answer": "Salve com Favorite e reabra pela Favorites List. Mantenha os arquivos e as permissões em vez de depender da recuperação automática."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 로컬 파일과 폴더로 분할 화면을 만드는 방법",
+    "description": "로컬 폴더에서 여러 영상을 열고 폴더 접근을 허용한 뒤 Split Screen Player 책갈피로 배치를 저장하세요.",
+    "summary": "폴더 안의 영상으로 여러 동영상 작업 공간을 만듭니다.",
+    "answer": "Open Multiple → Files를 누르세요. 여러 영상을 선택해 Open을 누르거나, 전용 폴더에 들어가 파일을 선택하지 않고 Open을 누릅니다. 예시는 골프 영상 두 개를 두 영역에 엽니다.",
+    "requirement": "기기에 원본 파일을 유지하세요. 작업 공간 책갈피에는 Premium이 필요합니다. 폴더 접근 허용과 책갈피 저장은 별도 과정입니다.",
+    "steps": [
+      {
+        "title": "하단 도구 모음에서 열기",
+        "text": "하단의 Open Multiple → Files를 선택하세요. 예시는 Video Filter를 끕니다. 영역 내부의 + 버튼은 적용 범위가 다릅니다.",
+        "caption": "하단 Open 메뉴의 Files에서 로컬 파일과 폴더를 열 수 있습니다."
+      },
+      {
+        "title": "영상 파일 선택하기",
+        "text": "소재 폴더에서 Golf 01과 Golf 02를 탭하고 두 파일의 체크 표시를 확인한 뒤 Open을 누르세요. 필요한 파일만 선택할 수 있습니다.",
+        "caption": "영상 파일 선택하기"
+      },
+      {
+        "title": "영상 폴더 전체 열기",
+        "text": "Files를 다시 열고 영상 두 개만 있는 Golf Videos 폴더로 들어가세요. 개별 파일을 선택하지 않고 Open을 누르면 현재 폴더를 선택합니다.",
+        "caption": "Golf Videos에는 영상 두 개가 있으며 개별 파일은 선택하지 않았습니다."
+      },
+      {
+        "title": "가져온 작업 공간 확인하기",
+        "text": "가져오기가 끝나면 두 영역을 재생해 각각 다른 영상이 열렸는지 확인합니다. 다음 세션에도 쓰려면 작업 공간 책갈피를 저장하세요.",
+        "caption": "폴더의 두 영상이 별도 영역에 열렸습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "알맞은 열기 버튼 사용",
+        "description": "여러 파일로 전체 작업 화면을 구성할 때는 하단 도구 모음을 사용하세요. 특정 영역만 바꾸려면 그 영역의 + 버튼을 사용합니다."
+      },
+      {
+        "title": "책갈피로 다시 열기",
+        "description": "폴더 구성을 저장한 뒤 Close All로 닫고 Favorites List에서 복원하자 두 골프 영상이 다시 재생되었습니다. 원본을 유지하세요. 북마크는 미디어 백업이 아닙니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "영상 순서가 고정되어 있나요?",
+        "answer": "가져온 영역을 확인하세요. 개별 선택과 폴더 가져오기는 순서가 다를 수 있으므로 북마크 저장 전에 배치를 확인합니다."
+      },
+      {
+        "question": "가져오면 재시작할 때 자동 복원되나요?",
+        "answer": "Favorite로 저장하고 Favorites List에서 다시 여세요. 자동 복원에만 의존하지 말고 파일 위치와 접근 권한을 유지하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo abrir archivos y carpetas de vídeo locales en iPhone o iPad",
+    "description": "Crea un espacio de pantalla dividida desde una carpeta local, permite el acceso y guarda la distribución con un marcador en Split Screen Player.",
+    "summary": "Abre los clips de una carpeta en varias zonas de vídeo.",
+    "answer": "Toca Open Multiple → Files. Selecciona varios vídeos y pulsa Open, o entra en una carpeta dedicada y pulsa Open sin seleccionar archivos. El ejemplo abre dos vídeos de golf en dos zonas.",
+    "requirement": "Conserva los archivos originales en el dispositivo. Los marcadores requieren Premium; dar acceso a la carpeta y guardar un marcador son pasos distintos.",
+    "steps": [
+      {
+        "title": "Usar Open en la barra inferior",
+        "text": "Toca Open Multiple → Files en la barra inferior. Deja Video Filter desactivado en este ejemplo. El + de una zona tiene un alcance distinto.",
+        "caption": "Files, en el menú Open inferior, permite abrir archivos y carpetas locales."
+      },
+      {
+        "title": "Seleccionar vídeos individuales",
+        "text": "En la carpeta, toca Golf 01 y Golf 02. Comprueba ambas marcas y pulsa Open. Así puedes abrir solo los archivos que necesitas.",
+        "caption": "Seleccionar vídeos individuales"
+      },
+      {
+        "title": "O abrir una carpeta completa",
+        "text": "Abre Files de nuevo y entra en Golf Videos, que contiene solo los dos clips. Sin seleccionar archivos individuales, pulsa Open para elegir la carpeta actual.",
+        "caption": "Golf Videos contiene dos clips y no hay archivos individuales seleccionados."
+      },
+      {
+        "title": "Comprobar el espacio importado",
+        "text": "Espera a que termine la importación e inicia las dos zonas. Los clips se abren por separado. Guarda un marcador para conservar la distribución para otra sesión.",
+        "caption": "Dos clips de la carpeta abiertos en zonas distintas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Elegir el punto de entrada",
+        "description": "Usa la barra inferior para llenar la composición con varios archivos. Usa el + de una zona para sustituir únicamente su contenido."
+      },
+      {
+        "title": "Volver a abrir con un marcador",
+        "description": "Tras guardar la composición, usar Close All y restaurarla desde Favorites List, ambos vídeos de golf volvieron a reproducirse. Conserva los originales: el marcador no es una copia de los archivos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿El orden de los vídeos es fijo?",
+        "answer": "Comprueba las zonas importadas. La selección individual y la importación de carpetas pueden producir órdenes distintos. Revisa la disposición antes de guardarla."
+      },
+      {
+        "question": "¿La importación activa la restauración automática?",
+        "answer": "Guarda con Favorite y abre desde Favorites List. Conserva los archivos y sus permisos en lugar de depender de la recuperación automática."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上从本地文件或文件夹建立分屏工作区",
+    "description": "从本地文件夹导入多个视频，授予目录访问权限，再用分屏播放器书签保存工作区，方便以后重新打开。",
+    "summary": "将文件夹中的本地片段打开为多视频工作区。",
+    "answer": "点 Open Multiple → Files。可勾选多个视频后点 Open，也可进入专用视频文件夹，不勾选文件直接点 Open。本例把两段高尔夫分别打开到两个区域。",
+    "requirement": "保留手机上的源文件。工作区书签需要 Premium；文件夹访问授权和保存书签是两个不同的步骤。",
+    "steps": [
+      {
+        "title": "使用底部工具栏的 Open",
+        "text": "点底部 Open Multiple → Files。本例关闭 Video Filter。区域自身的 + 按钮作用范围不同。",
+        "caption": "底部 Open 菜单中的 Files 用于本地文件及文件夹。"
+      },
+      {
+        "title": "选择多个视频文件",
+        "text": "浏览到素材文件夹，点 Golf 01 和 Golf 02，确认两者都显示勾选后点 Open。这样可以只打开需要的文件。",
+        "caption": "选择多个视频文件"
+      },
+      {
+        "title": "也可以打开整个视频文件夹",
+        "text": "重新打开 Files，进入仅含两段素材的 Golf Videos 文件夹。不勾选任何单个文件，点 Open 选择当前文件夹。",
+        "caption": "Golf Videos 包含两段视频，尚未选择单个文件。"
+      },
+      {
+        "title": "检查导入的工作区",
+        "text": "等待导入完成，让两区分别播放，确认两个片段独立打开。需要下次继续使用时，保存工作区书签。",
+        "caption": "文件夹中的两个片段分别载入两个区域。"
+      }
+    ],
+    "features": [
+      {
+        "title": "选择合适的导入入口",
+        "description": "底部工具栏适合用多个文件填充工作区。只想替换某个区域时，使用该区域自己的 + 按钮。"
+      },
+      {
+        "title": "通过书签重新打开",
+        "description": "实测保存文件夹工作区后，使用 Close All，再从 Favorites List 恢复，两段高尔夫都能继续播放。请保留原文件；书签不是素材备份。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "视频顺序是固定的吗？",
+        "answer": "请检查导入后的区域。单独选择文件与导入整个文件夹可能得到不同顺序，保存书签前先确认排列。"
+      },
+      {
+        "question": "导入后会在重启时自动恢复吗？",
+        "answer": "用 Favorite 保存排列，再从 Favorites List 打开。请保留文件位置和访问权限，不要仅依赖自动恢复。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Lokale Videodateien und Ordner auf dem iPhone oder iPad öffnen",
+    "description": "Erstellen Sie aus einem lokalen Ordner einen geteilten Arbeitsbereich, erlauben Sie den Zugriff und speichern Sie die Anordnung als Lesezeichen.",
+    "summary": "Öffnen Sie die Clips eines Ordners in mehreren Videobereichen.",
+    "answer": "Tippen Sie auf Open Multiple → Files. Wählen Sie Videos und dann Open, oder öffnen Sie einen Videoordner und tippen Sie ohne Dateiauswahl auf Open. Das Beispiel öffnet zwei Golfvideos in zwei Bereichen.",
+    "requirement": "Behalten Sie die Quelldateien auf dem Gerät. Lesezeichen benötigen Premium. Ordnerzugriff und Lesezeichen sind getrennte Schritte.",
+    "steps": [
+      {
+        "title": "Open in der unteren Leiste verwenden",
+        "text": "Wählen Sie unten Open Multiple → Files. Lassen Sie Video Filter im Beispiel ausgeschaltet. Das + eines einzelnen Bereichs hat einen anderen Geltungsbereich.",
+        "caption": "Files im unteren Open-Menü öffnet lokale Dateien und Ordner."
+      },
+      {
+        "title": "Einzelne Videos auswählen",
+        "text": "Tippen Sie im Medienordner auf Golf 01 und Golf 02. Prüfen Sie beide Häkchen und wählen Sie Open. So öffnen Sie gezielt bestimmte Dateien.",
+        "caption": "Einzelne Videos auswählen"
+      },
+      {
+        "title": "Oder einen ganzen Videoordner öffnen",
+        "text": "Öffnen Sie Files erneut und wechseln Sie in Golf Videos mit den beiden Clips. Wählen Sie keine einzelne Datei und tippen Sie auf Open, um den aktuellen Ordner zu öffnen.",
+        "caption": "Golf Videos enthält zwei Clips; keine einzelne Datei ist ausgewählt."
+      },
+      {
+        "title": "Importierten Arbeitsbereich prüfen",
+        "text": "Warten Sie den Import ab und starten Sie beide Bereiche. Die Clips werden getrennt geöffnet. Speichern Sie ein Lesezeichen, wenn Sie die Anordnung später wieder nutzen möchten.",
+        "caption": "Zwei Clips aus dem Ordner in getrennten Bereichen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Den passenden Einstieg wählen",
+        "description": "Die untere Werkzeugleiste füllt den Arbeitsbereich mit mehreren Dateien. Das + eines Bereichs ersetzt nur dessen Inhalt."
+      },
+      {
+        "title": "Mit einem Lesezeichen erneut öffnen",
+        "description": "Nach dem Speichern, Close All und Wiederherstellen über Favorites List spielten beide Golfvideos erneut. Halten Sie die Originale verfügbar; das Lesezeichen ist keine Mediensicherung."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ist die Reihenfolge der Videos fest?",
+        "answer": "Prüfen Sie die importierten Bereiche. Einzelauswahl und Ordnerimport können unterschiedliche Reihenfolgen ergeben. Ordnen Sie die Videos vor dem Speichern an."
+      },
+      {
+        "question": "Wird nach dem Import automatisch wiederhergestellt?",
+        "answer": "Speichern Sie mit Favorite und öffnen Sie über Favorites List. Halten Sie Dateien und Zugriffsrechte verfügbar, statt sich auf automatische Wiederherstellung zu verlassen."
+      }
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 import platformCopy from "./platformCopy.json";
 import type { Locale } from "./locales";
+import type { TutorialSlug, GuideTopic } from "./tutorialTopics";
 import { localizeDeep } from "./translation";
 import type { FeatureSlug, UseCaseSlug } from "./marketing";
 import { guideCopyOverrides } from "./guideCopyOverrides";
@@ -31,8 +32,10 @@ export interface GuideImage {
 }
 
 export interface GuidePage {
-	slug: GuideSlug | "play-multiple-videos-android" | "browse-two-websites-iphone-ipad" | "browse-two-websites-android" | "watch-video-and-browse-web-iphone-ipad" | "watch-video-and-browse-web-android" | "auto-arrange-portrait-landscape-videos-iphone-ipad" | "auto-arrange-portrait-landscape-videos-android" | "resize-rearrange-split-screen-videos-iphone-ipad" | "resize-rearrange-split-screen-videos-android";
+	slug: TutorialSlug | GuideSlug | "play-multiple-videos-android" | "browse-two-websites-iphone-ipad" | "browse-two-websites-android" | "watch-video-and-browse-web-iphone-ipad" | "watch-video-and-browse-web-android" | "auto-arrange-portrait-landscape-videos-iphone-ipad" | "auto-arrange-portrait-landscape-videos-android" | "resize-rearrange-split-screen-videos-iphone-ipad" | "resize-rearrange-split-screen-videos-android" | "overlay-two-videos-iphone-ipad" | "overlay-two-videos-android";
 	platform?: "ios" | "android";
+	topic?: GuideTopic;
+	relatedSlugs?: GuidePage["slug"][];
 	otherPlatformSlug?: GuidePage["slug"];
 	eyebrow: string;
 	title: string;

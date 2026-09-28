@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで動画を見ながらPDFを読む方法",
+    "description": "Split Screen Playerで動画とPDFを別の枠に開き、動画を再生したまま資料のページ移動や拡大を行います。",
+    "summary": "動画を確認しながら参考メモも同じ画面に表示します。",
+    "answer": "2分割レイアウトを選び、一方に動画を開きます。もう一方の+ → Fileから、PlaylistをオフにしてPDFを選びます。文書をタップするとページ操作が表示され、動画は独立して再生できます。",
+    "requirement": "PDFと画像の閲覧にはPremiumが必要です。例ではローカルのゴルフ動画と2ページのサンプルPDFを使います。",
+    "steps": [
+      {
+        "title": "資料用の枠を開く",
+        "text": "動画を一方の枠に残し、もう一方の+でOpenを開きます。PlaylistをオフにしてFileを選択します。枠内のボタンを使うと、その枠だけを置き換えられます。",
+        "caption": "資料用のOpenメニューにあるFile。"
+      },
+      {
+        "title": "PDFを選ぶ",
+        "text": "Androidのファイル選択画面で資料フォルダに移動し、PDFをタップします。例のファイル名はGolf Review Notes.pdfです。最初のページが表示されるまで待ちます。",
+        "caption": "2ページのサンプルPDFを選択。"
+      },
+      {
+        "title": "ページ操作を表示する",
+        "text": "文書を1回タップすると、ファイル名と下部の操作ボタンが表示されます。ページ表示は1/2です。上の動画は独自の再生ボタンを持ちます。",
+        "caption": "PDFの1ページ目と再生中のゴルフ動画。"
+      },
+      {
+        "title": "再生しながらページをめくる",
+        "text": "右矢印で2ページ目へ、左矢印で前のページへ移動します。資料を読んだりページを移動したりしても、動画は別の枠で再生を続けます。",
+        "caption": "2/2ページを表示しながら動画を再生。"
+      }
+    ],
+    "features": [
+      {
+        "title": "メモを拡大する",
+        "description": "文書をダブルタップして拡大し、ドラッグで見たい場所へ移動します。再度ダブルタップするとページ表示に戻ります。拡大は文書の枠だけに適用されます。"
+      },
+      {
+        "title": "参考画像を使う場合",
+        "description": "画像の資料なら、対象の枠でAlbum imagesを選びます。動画を別の枠に残し、画像ブラウザで資料を参照できます。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "PDFのページを変えると動画は止まりますか？",
+        "answer": "今回の実測では、ページ移動とダブルタップによる拡大でローカル動画は停止しませんでした。特定の瞬間を確認するときは動画側の一時停止を使ってください。"
+      },
+      {
+        "question": "PDFの編集や注釈もできますか？",
+        "answer": "この手順は閲覧、ページ移動、拡大を扱います。元の文書を変更する場合はPDF編集ソフトを使ってください。プレイヤーは注釈エディターではありません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Regarder une vidéo à côté d’un PDF sur Android",
+    "description": "Ouvrez une vidéo et un PDF dans deux zones, tournez les pages et agrandissez vos notes pendant la lecture dans Split Screen Player sur Android.",
+    "summary": "Gardez vos notes de référence à l’écran pendant la lecture d’une vidéo.",
+    "answer": "Choisissez une disposition à deux zones. Ouvrez la vidéo dans l’une, puis le PDF via + → File dans l’autre, avec Playlist désactivé. Touchez le document pour afficher ses commandes ; la vidéo peut continuer indépendamment.",
+    "requirement": "La consultation de PDF et d’images nécessite Premium. L’exemple utilise une vidéo de golf locale et un PDF de deux pages.",
+    "steps": [
+      {
+        "title": "Ouvrir la zone du document",
+        "text": "Gardez la vidéo dans une zone. Dans l’autre, touchez + pour ouvrir Open, désactivez Playlist et choisissez File. Le bouton de cette zone ne remplace que son contenu.",
+        "caption": "Le menu Open de la zone du document propose File."
+      },
+      {
+        "title": "Choisir un PDF local",
+        "text": "Dans le sélecteur de fichiers Android, ouvrez le dossier du document et touchez le PDF. Ici, il s’appelle Golf Review Notes.pdf. Attendez l’affichage de la première page.",
+        "caption": "Sélection du PDF d’exemple de deux pages."
+      },
+      {
+        "title": "Afficher les commandes de page",
+        "text": "Touchez une fois le document pour afficher son nom et les commandes du bas. Le compteur indique 1/2. La vidéo du dessus dispose de ses propres commandes.",
+        "caption": "Première page du PDF et vidéo de golf en cours de lecture."
+      },
+      {
+        "title": "Tourner la page pendant la lecture",
+        "text": "Touchez la flèche droite pour passer à la page 2 et la gauche pour revenir. La vidéo continue dans sa zone pendant la consultation du document.",
+        "caption": "La page 2/2 est affichée et la vidéo continue."
+      }
+    ],
+    "features": [
+      {
+        "title": "Agrandir les notes",
+        "description": "Touchez deux fois le document pour l’agrandir, puis faites-le glisser pour examiner une autre partie. Touchez à nouveau deux fois pour revenir à la vue de page. Le zoom ne modifie pas la vidéo."
+      },
+      {
+        "title": "Utiliser une image de référence",
+        "description": "Pour des notes sous forme d’image, choisissez Album images dans la zone voulue. Gardez la vidéo dans l’autre zone et consultez le document dans le navigateur d’images."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Tourner une page interrompt-il la vidéo ?",
+        "answer": "Dans notre essai, la navigation entre les pages et le zoom par double appui n’ont pas interrompu la vidéo locale. Utilisez sa commande de pause pour examiner un instant précis."
+      },
+      {
+        "question": "Puis-je modifier ou annoter le PDF ici ?",
+        "answer": "Ce guide couvre la lecture, la navigation et le zoom. Pour modifier le document source, utilisez un éditeur PDF ; le lecteur n’est pas un outil d’annotation."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to watch a video alongside a PDF on Android",
+    "description": "Open a video and PDF in separate panes, turn pages, and zoom your notes while the video keeps playing in Split Screen Player on Android.",
+    "summary": "Keep reference notes visible while reviewing a video.",
+    "answer": "Use a two-pane layout. Open the video in one pane, then use the other pane's + → File to open a PDF with Playlist off. Tap the document to reveal its page controls; the video can continue playing independently.",
+    "requirement": "PDF and image browsing require Premium. This example uses a local golf video and a two-page sample PDF.",
+    "steps": [
+      {
+        "title": "Open the document pane",
+        "text": "Keep the video in one pane. In the other pane, tap + to open Open, leave Playlist off and choose File. Use the pane's button so that you replace only that pane.",
+        "caption": "The document pane's Open menu offers File."
+      },
+      {
+        "title": "Select a local PDF",
+        "text": "Navigate to your document folder in Android's file picker and tap the PDF. Here the file is Golf Review Notes.pdf. Wait for the first page to render.",
+        "caption": "Selecting the two-page sample PDF in the file picker."
+      },
+      {
+        "title": "Reveal the page controls",
+        "text": "Tap the document once to show its filename and bottom controls. The page indicator reads 1/2. The video above has its own playback controls.",
+        "caption": "The first PDF page alongside the playing golf clip."
+      },
+      {
+        "title": "Turn the page while watching",
+        "text": "Tap the right arrow to move to page 2; the left arrow goes back. The video remains in its pane while you read and navigate the document.",
+        "caption": "Page 2/2 is open and the video continues playing."
+      }
+    ],
+    "features": [
+      {
+        "title": "Zoom the notes",
+        "description": "Double-tap the document to enlarge it, then drag to inspect another area. Double-tap again to return to a page view. Zooming affects the document pane, not the video."
+      },
+      {
+        "title": "Use a reference image instead",
+        "description": "For image notes, choose Album images in the target pane. Keep the video in the other pane and use the image browser for reference material."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Will turning PDF pages pause the video?",
+        "answer": "In the tested workspace, page navigation and double-tap zoom did not stop the local video. Use the video pane's pause button when you want to examine one moment."
+      },
+      {
+        "question": "Can I edit or annotate the PDF here?",
+        "answer": "This guide covers viewing, page navigation and zoom. Use a PDF editor to change the source document; do not treat the player as an annotation editor."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como assistir a um vídeo ao lado de um PDF no Android",
+    "description": "Abra um vídeo e um PDF em áreas separadas, vire páginas e amplie as notas enquanto o vídeo continua no Split Screen Player para Android.",
+    "summary": "Mantenha as notas de referência visíveis enquanto analisa um vídeo.",
+    "answer": "Escolha um layout de duas áreas. Abra o vídeo em uma e o PDF por + → File na outra, com Playlist desativado. Toque no documento para mostrar os controles; o vídeo pode continuar de forma independente.",
+    "requirement": "A visualização de PDFs e imagens requer Premium. O exemplo usa um vídeo local de golfe e um PDF de duas páginas.",
+    "steps": [
+      {
+        "title": "Abrir a área do documento",
+        "text": "Mantenha o vídeo em uma área. Na outra, toque em + para abrir Open, desative Playlist e escolha File. O botão dessa área substitui apenas o conteúdo dela.",
+        "caption": "O menu Open da área do documento oferece File."
+      },
+      {
+        "title": "Selecionar um PDF local",
+        "text": "No seletor de arquivos do Android, abra a pasta do documento e toque no PDF. Aqui ele se chama Golf Review Notes.pdf. Aguarde a primeira página aparecer.",
+        "caption": "Seleção do PDF de exemplo com duas páginas."
+      },
+      {
+        "title": "Mostrar os controles de página",
+        "text": "Toque uma vez no documento para exibir o nome e os controles inferiores. O indicador mostra 1/2. O vídeo acima tem controles próprios.",
+        "caption": "Primeira página do PDF ao lado do vídeo de golfe em reprodução."
+      },
+      {
+        "title": "Virar a página durante a reprodução",
+        "text": "Toque na seta direita para ir à página 2 e na esquerda para voltar. O vídeo continua em sua área enquanto você lê e navega pelo documento.",
+        "caption": "Página 2/2 aberta enquanto o vídeo continua."
+      }
+    ],
+    "features": [
+      {
+        "title": "Ampliar as notas",
+        "description": "Toque duas vezes no documento para ampliar e arraste para ver outra parte. Toque duas vezes novamente para retornar à visualização da página. O zoom afeta apenas o documento."
+      },
+      {
+        "title": "Usar uma imagem de referência",
+        "description": "Se as notas forem uma imagem, escolha Album images na área desejada. Mantenha o vídeo na outra área e consulte o material no visualizador de imagens."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Virar páginas pausa o vídeo?",
+        "answer": "No teste, mudar de página e ampliar com dois toques não interrompeu o vídeo local. Use o botão de pausa do vídeo para examinar um momento específico."
+      },
+      {
+        "question": "Posso editar ou anotar o PDF aqui?",
+        "answer": "Este guia cobre leitura, navegação e zoom. Para alterar o documento original, use um editor de PDF; o reprodutor não é uma ferramenta de anotação."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 동영상을 보며 PDF를 읽는 방법",
+    "description": "Split Screen Player의 별도 영역에 동영상과 PDF를 열고, 재생 중에도 문서를 넘기거나 확대하세요.",
+    "summary": "영상을 검토하면서 참고 메모를 같은 화면에 표시합니다.",
+    "answer": "두 영역 레이아웃에서 한쪽에 영상을 엽니다. 다른 영역의 + → File에서 Playlist를 끄고 PDF를 선택하세요. 문서를 탭하면 페이지 컨트롤이 나타나며 영상은 독립적으로 재생됩니다.",
+    "requirement": "PDF와 이미지 탐색은 Premium이 필요합니다. 예시는 로컬 골프 영상과 두 페이지짜리 샘플 PDF를 사용합니다.",
+    "steps": [
+      {
+        "title": "문서 영역 열기",
+        "text": "한 영역의 영상을 유지하고 다른 영역에서 +를 눌러 Open을 엽니다. Playlist를 끄고 File을 선택하세요. 영역 안의 버튼을 사용하면 해당 영역만 바뀝니다.",
+        "caption": "문서 영역의 Open 메뉴에 있는 File입니다."
+      },
+      {
+        "title": "로컬 PDF 선택하기",
+        "text": "Android 파일 선택기에서 문서 폴더로 이동해 PDF를 누릅니다. 예시 파일은 Golf Review Notes.pdf입니다. 첫 페이지가 표시될 때까지 기다리세요.",
+        "caption": "두 페이지짜리 샘플 PDF를 선택합니다."
+      },
+      {
+        "title": "페이지 컨트롤 표시하기",
+        "text": "문서를 한 번 탭하면 파일 이름과 아래쪽 컨트롤이 나타납니다. 페이지 표시는 1/2입니다. 위쪽 영상에는 별도의 재생 컨트롤이 있습니다.",
+        "caption": "PDF 첫 페이지와 재생 중인 골프 영상입니다."
+      },
+      {
+        "title": "재생 중 페이지 넘기기",
+        "text": "오른쪽 화살표로 두 번째 페이지로 이동하고 왼쪽 화살표로 돌아갑니다. 문서를 읽고 페이지를 넘기는 동안 영상은 자기 영역에서 계속 재생됩니다.",
+        "caption": "2/2 페이지가 열리고 영상은 계속 재생됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "메모 확대하기",
+        "description": "문서를 두 번 탭해 확대한 뒤 드래그하여 다른 부분을 봅니다. 다시 두 번 탭하면 페이지 보기로 돌아갑니다. 문서 확대는 영상 영역에 영향을 주지 않습니다."
+      },
+      {
+        "title": "참고 이미지 사용하기",
+        "description": "이미지 자료는 대상 영역에서 Album images를 선택하세요. 다른 영역의 영상을 유지하면서 이미지 브라우저로 자료를 볼 수 있습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "PDF 페이지를 넘기면 영상이 멈추나요?",
+        "answer": "실측한 작업 공간에서는 페이지 이동과 두 번 탭 확대가 로컬 영상을 멈추지 않았습니다. 특정 순간을 자세히 볼 때는 영상 영역의 일시 정지를 사용하세요."
+      },
+      {
+        "question": "PDF를 편집하거나 주석을 달 수 있나요?",
+        "answer": "이 안내는 보기, 페이지 이동, 확대를 다룹니다. 원본을 수정하려면 PDF 편집기를 사용하세요. 플레이어를 주석 편집기로 간주하지 마세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo ver un vídeo junto a un PDF en Android",
+    "description": "Abre un vídeo y un PDF en zonas distintas, pasa páginas y amplía tus notas mientras continúa la reproducción en Split Screen Player para Android.",
+    "summary": "Consulta tus notas de referencia mientras revisas un vídeo.",
+    "answer": "Elige un diseño de dos zonas. Abre el vídeo en una y el PDF mediante + → File en la otra, con Playlist desactivado. Toca el documento para mostrar sus controles; el vídeo puede seguir por separado.",
+    "requirement": "La lectura de PDF e imágenes requiere Premium. El ejemplo utiliza un vídeo local de golf y un PDF de dos páginas.",
+    "steps": [
+      {
+        "title": "Abrir la zona del documento",
+        "text": "Mantén el vídeo en una zona. En la otra, pulsa + para abrir Open, desactiva Playlist y elige File. El botón de esa zona solo sustituye su contenido.",
+        "caption": "El menú Open de la zona del documento incluye File."
+      },
+      {
+        "title": "Seleccionar un PDF local",
+        "text": "En el selector de archivos de Android, abre la carpeta del documento y toca el PDF. Aquí se llama Golf Review Notes.pdf. Espera a que aparezca la primera página.",
+        "caption": "Selección del PDF de ejemplo de dos páginas."
+      },
+      {
+        "title": "Mostrar los controles de página",
+        "text": "Toca una vez el documento para mostrar el nombre y los controles inferiores. El indicador muestra 1/2. El vídeo superior tiene controles propios.",
+        "caption": "Primera página del PDF junto al vídeo de golf en reproducción."
+      },
+      {
+        "title": "Pasar página durante la reproducción",
+        "text": "Pulsa la flecha derecha para ir a la página 2 y la izquierda para volver. El vídeo continúa en su zona mientras lees y navegas por el documento.",
+        "caption": "Página 2/2 abierta mientras sigue el vídeo."
+      }
+    ],
+    "features": [
+      {
+        "title": "Ampliar las notas",
+        "description": "Toca dos veces el documento para ampliarlo y arrastra para ver otra parte. Toca dos veces de nuevo para volver a la vista de página. El zoom solo afecta al documento."
+      },
+      {
+        "title": "Usar una imagen de referencia",
+        "description": "Si las notas son una imagen, elige Album images en la zona deseada. Mantén el vídeo en la otra y consulta el material en el visor de imágenes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Pasar páginas pausa el vídeo?",
+        "answer": "En la prueba, cambiar de página y ampliar con doble toque no detuvo el vídeo local. Usa su botón de pausa cuando quieras examinar un instante concreto."
+      },
+      {
+        "question": "¿Puedo editar o anotar el PDF aquí?",
+        "answer": "Esta guía cubre lectura, navegación y zoom. Para modificar el documento original, usa un editor PDF; el reproductor no es un editor de anotaciones."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上边看视频边阅读 PDF",
+    "description": "在 Android 分屏播放器中分别打开视频和 PDF，一边播放视频，一边翻页、放大参考资料。",
+    "summary": "回看视频时，将参考笔记放在同一屏幕上。",
+    "answer": "选择双区域布局，在一区打开视频，再在另一区用 + → File 打开 PDF，保持 Playlist 关闭。点击文档可显示翻页控件，视频在自己的区域独立播放。",
+    "requirement": "PDF 和图片浏览需要 Premium。本例使用本地高尔夫视频与两页英文示例 PDF。",
+    "steps": [
+      {
+        "title": "打开资料区域",
+        "text": "保留一个区域的视频，在另一区点击 + 打开 Open，关闭 Playlist 后选择 File。使用区域内的按钮，只替换该区域的内容。",
+        "caption": "资料区域的 Open 菜单提供 File 入口。"
+      },
+      {
+        "title": "选择本地 PDF",
+        "text": "在 Android 文件选择器中进入资料文件夹，点击 PDF。本例文件名为 Golf Review Notes.pdf，等待首页显示。",
+        "caption": "在文件选择器中选择两页示例 PDF。"
+      },
+      {
+        "title": "显示翻页控件",
+        "text": "单击文档，显示文件名和底部控件，页码为 1/2。上方视频有独立的播放操作按钮。",
+        "caption": "PDF 第一页与正在播放的高尔夫片段同屏显示。"
+      },
+      {
+        "title": "播放中翻到下一页",
+        "text": "点击右箭头进入第二页，左箭头返回前页。阅读和翻页时，视频继续留在自己的区域播放。",
+        "caption": "页码变为 2/2，视频继续播放。"
+      }
+    ],
+    "features": [
+      {
+        "title": "放大笔记",
+        "description": "双击文档放大，再拖动查看其他部分；再次双击返回页面视图。缩放作用于文档区域，不改变视频。"
+      },
+      {
+        "title": "改用参考图片",
+        "description": "如果资料是图片，可在目标区域选择 Album images，让视频留在另一区，用图片浏览器查看参考内容。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "翻 PDF 会暂停视频吗？",
+        "answer": "本次实测中，翻页和双击缩放都没有停止本地视频。需要仔细观察某个瞬间时，可使用视频区域的暂停按钮。"
+      },
+      {
+        "question": "能在这里修改或批注 PDF 吗？",
+        "answer": "本教程涵盖阅读、翻页和缩放。修改源文档请使用 PDF 编辑器，不要把播放器当成批注编辑工具。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Ein Video neben einem PDF auf Android ansehen",
+    "description": "Öffnen Sie Video und PDF in getrennten Bereichen, blättern Sie und vergrößern Sie Notizen, während das Video in Split Screen Player weiterläuft.",
+    "summary": "Behalten Sie Referenznotizen beim Prüfen eines Videos im Blick.",
+    "answer": "Wählen Sie ein Layout mit zwei Bereichen. Öffnen Sie in einem das Video, im anderen über + → File das PDF bei ausgeschaltetem Playlist. Ein Tipp auf das Dokument zeigt die Seitensteuerung; das Video läuft unabhängig weiter.",
+    "requirement": "PDF- und Bildanzeige benötigen Premium. Im Beispiel verwenden wir ein lokales Golfvideo und ein zweiseitiges Beispiel-PDF.",
+    "steps": [
+      {
+        "title": "Dokumentbereich öffnen",
+        "text": "Lassen Sie das Video in einem Bereich. Öffnen Sie im anderen mit + das Menü Open, schalten Sie Playlist aus und wählen Sie File. Die Schaltfläche im Bereich ersetzt nur dessen Inhalt.",
+        "caption": "Das Open-Menü des Dokumentbereichs bietet File an."
+      },
+      {
+        "title": "Lokales PDF auswählen",
+        "text": "Wechseln Sie in der Android-Dateiauswahl zum Dokumentordner und tippen Sie auf das PDF. Hier heißt es Golf Review Notes.pdf. Warten Sie auf die Anzeige der ersten Seite.",
+        "caption": "Auswahl des zweiseitigen Beispiel-PDFs."
+      },
+      {
+        "title": "Seitensteuerung einblenden",
+        "text": "Tippen Sie einmal auf das Dokument, um Dateiname und untere Steuerung einzublenden. Die Anzeige lautet 1/2. Das Video darüber hat eigene Wiedergabesteuerungen.",
+        "caption": "Erste PDF-Seite neben dem laufenden Golfvideo."
+      },
+      {
+        "title": "Während der Wiedergabe blättern",
+        "text": "Der rechte Pfeil führt zu Seite 2, der linke zurück. Beim Lesen und Blättern läuft das Video in seinem Bereich weiter.",
+        "caption": "Seite 2/2 ist geöffnet, während das Video weiterläuft."
+      }
+    ],
+    "features": [
+      {
+        "title": "Notizen vergrößern",
+        "description": "Tippen Sie doppelt auf das Dokument und ziehen Sie es, um einen anderen Ausschnitt zu sehen. Erneutes Doppeltippen führt zur Seitenansicht zurück. Der Zoom betrifft nur das Dokument."
+      },
+      {
+        "title": "Ein Referenzbild verwenden",
+        "description": "Wählen Sie bei Bildnotizen Album images im gewünschten Bereich. Das Video bleibt im anderen Bereich, während Sie die Referenz im Bildbetrachter ansehen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wird das Video beim Blättern angehalten?",
+        "answer": "Im getesteten Arbeitsbereich hielten weder Seitenwechsel noch Zoom per Doppeltipp das lokale Video an. Nutzen Sie dessen Pausentaste, wenn Sie einen bestimmten Moment prüfen möchten."
+      },
+      {
+        "question": "Kann ich das PDF hier bearbeiten oder kommentieren?",
+        "answer": "Diese Anleitung behandelt Anzeige, Seitenwechsel und Zoom. Änderungen am Originaldokument benötigen einen PDF-Editor; der Player ist kein Werkzeug für Anmerkungen."
+      }
+    ]
+  }
+}

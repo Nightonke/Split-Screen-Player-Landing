@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで動画のチェックポイントを保存して戻る方法",
+    "description": "Androidの動画に重要な位置を記録し、チェックポイント一覧から移動。ゴルフのスイングなどを何度でも確認できます。",
+    "summary": "見返したい場面を保存しておけば、動画の別の部分を見た後でもすぐに戻れます。",
+    "answer": "プレーヤーの旗をタップして現在位置を保存します。チェックポイントの件数から一覧を開き、項目を選ぶとその位置へ移動します。",
+    "requirement": "この例ではローカルのゴルフ動画を使います。チェックポイントは動画内の位置を示し、ワークスペースのブックマークや同期点とは異なります。",
+    "steps": [
+      {
+        "title": "旗のボタンを見つける",
+        "text": "動画の操作ボタンを表示して旗を探します。初回の説明には保存方法、一覧の開き方、10秒以内の重複を避ける仕組みが示されます。",
+        "caption": "旗と一覧の操作を紹介する説明画面。"
+      },
+      {
+        "title": "重要な場面を保存する",
+        "text": "戻りたい位置で停止し、旗をタップします。件数とタイムライン上の印を確認してください。この例では約2秒のスイングを保存しています。",
+        "caption": "上の動画にチェックポイントが1つ追加されました。"
+      },
+      {
+        "title": "チェックポイント一覧を開く",
+        "text": "動画の別の位置へ移動してから、チェックポイントの件数をタップします。保存したサムネイルと時刻を確認し、項目を選びます。",
+        "caption": "一覧に00:02のチェックポイントが表示されています。"
+      },
+      {
+        "title": "戻った位置を確認する",
+        "text": "項目を選んだ後、時刻と映像を確認します。この例では後の場面から2秒付近へ戻り、そのままコマ送りで動きを調べられます。",
+        "caption": "保存したスイングの位置へ戻った上のプレーヤー。"
+      }
+    ],
+    "features": [
+      {
+        "title": "近い位置の重複は避けられる",
+        "description": "既存のチェックポイントから10秒以内には重ねて追加されません。短い動画では何度タップしても件数が増えない場合があります。"
+      },
+      {
+        "title": "3つの保存機能を使い分ける",
+        "description": "チェックポイントは動画内の位置、同期点は複数動画の対応位置、ブックマークは後で開くワークスペースを保存します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "旗を押しても印が増えないのはなぜですか？",
+        "answer": "既存のチェックポイントとの間隔を確認してください。十分に長い動画で、10秒以上離れた位置へ移動して追加します。"
+      },
+      {
+        "question": "戻った位置をコマ送りできますか？",
+        "answer": "はい。チェックポイントに移動して停止し、フィルムのボタンを有効にすると周辺のコマを確認できます。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Enregistrer et retrouver des points de repère vidéo sur Android",
+    "description": "Marquez un instant dans une vidéo Android et retrouvez-le depuis la liste des points de repère pour revoir un swing ou un détail sans rechercher sa position.",
+    "summary": "Enregistrez un moment utile, puis revenez-y après avoir exploré la suite de la vidéo.",
+    "answer": "Touchez le drapeau d’un lecteur pour enregistrer sa position. Touchez le nombre de points de repère pour ouvrir la liste, puis sélectionnez une entrée.",
+    "requirement": "L’exemple utilise une vidéo de golf locale. Un point de repère désigne une position vidéo ; il diffère d’un signet d’espace de travail et d’un point de synchronisation.",
+    "steps": [
+      {
+        "title": "Repérer le drapeau",
+        "text": "Affichez les commandes vidéo et repérez le drapeau. L’explication initiale décrit l’enregistrement, l’accès à la liste et l’absence de doublons à moins de dix secondes.",
+        "caption": "L’aide présente le drapeau et l’accès à la liste."
+      },
+      {
+        "title": "Enregistrer le moment important",
+        "text": "Mettez la vidéo en pause au moment voulu puis touchez le drapeau. Un compteur et un repère apparaissent sur la progression ; ici, le swing est marqué vers deux secondes.",
+        "caption": "Un point de repère apparaît sur la vidéo du haut."
+      },
+      {
+        "title": "Ouvrir la liste",
+        "text": "Allez à un autre endroit de la vidéo, puis touchez le compteur. La liste affiche une vignette et un temps pour chaque position enregistrée. Choisissez l’entrée souhaitée.",
+        "caption": "La liste contient le point de repère 00:02."
+      },
+      {
+        "title": "Vérifier le retour",
+        "text": "Après la sélection, vérifiez l’image et le temps. Ici, le lecteur revient d’un instant ultérieur vers la position enregistrée à deux secondes, prête à être examinée image par image.",
+        "caption": "Le lecteur du haut est revenu au swing enregistré."
+      }
+    ],
+    "features": [
+      {
+        "title": "Les positions proches ne se cumulent pas",
+        "description": "L’application évite d’ajouter un point à moins de dix secondes d’un autre. Sur un extrait court, plusieurs pressions peuvent donc laisser le compteur inchangé."
+      },
+      {
+        "title": "Distinguer les trois fonctions",
+        "description": "Un point de repère marque une position vidéo. Un point de synchronisation aligne des vidéos. Un signet conserve un espace de travail à rouvrir."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi le drapeau n’ajoute-t-il pas de repère ?",
+        "answer": "Vérifiez la proximité d’un point existant. Dans une vidéo assez longue, éloignez-vous de plus de dix secondes avant d’en créer un autre."
+      },
+      {
+        "question": "Puis-je examiner ce moment image par image ?",
+        "answer": "Oui. Revenez au point, mettez le lecteur en pause et activez la pellicule pour parcourir les images voisines."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to save and revisit video checkpoints on Android",
+    "description": "Mark a moment in a video on Android, open its checkpoint list, and jump back to review a golf swing or another detail without scrubbing again.",
+    "summary": "Save a useful moment once, then return to it while reviewing the rest of the clip.",
+    "answer": "Tap a player’s flag button to save its current position. Tap the checkpoint count to open the list, then select an entry to seek back to it.",
+    "requirement": "This walkthrough uses a local golf video. Checkpoints belong to the video being reviewed and differ from workspace bookmarks and synchronization points.",
+    "steps": [
+      {
+        "title": "Find the checkpoint control",
+        "text": "Reveal the video controls and locate the flag. The first-use explanation describes saving a position, opening the list, and avoiding duplicate checkpoints within ten seconds.",
+        "caption": "The checkpoint explanation shows the flag and list controls."
+      },
+      {
+        "title": "Save the important moment",
+        "text": "Pause at the position you want to revisit and tap the flag. A count and a marker on the progress bar show that a checkpoint was added; the example marks the swing at about two seconds.",
+        "caption": "One checkpoint is visible on the upper video’s timeline."
+      },
+      {
+        "title": "Open the checkpoint list",
+        "text": "Move to a different part of the clip. Tap the checkpoint count to see the saved thumbnail and time, then choose the entry you want to revisit.",
+        "caption": "The list contains the saved 00:02 checkpoint."
+      },
+      {
+        "title": "Check the returned position",
+        "text": "After selecting the entry, inspect the time and picture. In this example the upper video returns from a later moment to the saved two-second position, ready for frame-by-frame review.",
+        "caption": "The upper player has returned to the saved swing position."
+      }
+    ],
+    "features": [
+      {
+        "title": "Nearby markers are deduplicated",
+        "description": "The app avoids adding another checkpoint within ten seconds of an existing one. On a short clip, repeated taps may therefore leave the count unchanged."
+      },
+      {
+        "title": "Keep the three saving tools distinct",
+        "description": "A checkpoint marks a video position. A synchronization point aligns clips. A workspace bookmark saves an arrangement for reopening later."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why did tapping the flag not add another marker?",
+        "answer": "Check how close you are to an existing checkpoint. Move more than ten seconds away in a sufficiently long video before adding a separate one."
+      },
+      {
+        "question": "Can I inspect the saved moment one frame at a time?",
+        "answer": "Yes. Jump to the checkpoint, pause the player, and enable its filmstrip control to step through nearby frames."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como salvar e acessar pontos de controle de vídeo no Android",
+    "description": "Marque um instante de um vídeo no Android e volte pela lista de pontos de controle para rever uma tacada ou um detalhe sem procurar a posição novamente.",
+    "summary": "Salve um momento importante e retorne a ele depois de explorar o restante do vídeo.",
+    "answer": "Toque na bandeira do player para salvar a posição atual. Toque na quantidade de pontos de controle para abrir a lista e selecione uma entrada para retornar.",
+    "requirement": "O exemplo usa um vídeo local de golfe. Pontos de controle indicam posições no vídeo e diferem dos favoritos do espaço de trabalho e dos pontos de sincronização.",
+    "steps": [
+      {
+        "title": "Encontrar a bandeira",
+        "text": "Exiba os controles do vídeo e localize a bandeira. A explicação inicial mostra como salvar, abrir a lista e evitar duplicatas em um intervalo de dez segundos.",
+        "caption": "A ajuda apresenta a bandeira e o acesso à lista."
+      },
+      {
+        "title": "Salvar o momento importante",
+        "text": "Pause na posição desejada e toque na bandeira. Um contador e uma marca aparecem na linha do tempo; o exemplo salva a tacada perto de dois segundos.",
+        "caption": "A linha do tempo superior mostra um ponto de controle."
+      },
+      {
+        "title": "Abrir a lista",
+        "text": "Vá para outra parte do vídeo e toque no contador. A lista exibe a miniatura e o tempo salvos. Escolha o ponto que deseja rever.",
+        "caption": "A lista contém o ponto de controle 00:02."
+      },
+      {
+        "title": "Conferir a posição recuperada",
+        "text": "Depois de selecionar, confira a imagem e o tempo. Neste exemplo, o vídeo retorna de uma posição posterior aos dois segundos, pronto para a análise quadro a quadro.",
+        "caption": "O player superior voltou à tacada salva."
+      }
+    ],
+    "features": [
+      {
+        "title": "Pontos próximos não são duplicados",
+        "description": "O aplicativo evita criar outro ponto a menos de dez segundos de um existente. Em um vídeo curto, vários toques podem manter a mesma contagem."
+      },
+      {
+        "title": "Diferencie as três funções",
+        "description": "Um ponto de controle marca uma posição. Um ponto de sincronização alinha vídeos. Um favorito salva um espaço de trabalho para reabrir depois."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que a bandeira não adiciona outra marca?",
+        "answer": "Confira a distância até um ponto existente. Em um vídeo suficientemente longo, avance mais de dez segundos antes de adicionar outro."
+      },
+      {
+        "question": "Posso analisar esse momento quadro a quadro?",
+        "answer": "Sim. Volte ao ponto, pause o player e ative a película para percorrer os quadros próximos."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android 영상에 체크포인트를 저장하고 돌아가는 방법",
+    "description": "Android에서 중요한 영상 장면을 표시하고 체크포인트 목록에서 다시 여세요. 진행 막대를 찾지 않고도 골프 스윙 등을 반복 확인할 수 있습니다.",
+    "summary": "중요한 순간을 한 번 저장하면 영상의 다른 부분을 본 뒤에도 바로 돌아갈 수 있습니다.",
+    "answer": "플레이어의 깃발 버튼으로 현재 위치를 저장하세요. 체크포인트 개수를 눌러 목록을 열고 항목을 선택하면 그 위치로 이동합니다.",
+    "requirement": "로컬 골프 영상을 사용한 예시입니다. 체크포인트는 영상 안의 위치이며 작업 공간 북마크 및 동기화 지점과는 다릅니다.",
+    "steps": [
+      {
+        "title": "체크포인트 버튼 찾기",
+        "text": "영상 조작 버튼을 표시하고 깃발을 찾으세요. 처음 표시되는 설명에는 저장, 목록 열기, 10초 이내 중복 방지 규칙이 나옵니다.",
+        "caption": "깃발과 목록 사용법을 보여 주는 설명 화면입니다."
+      },
+      {
+        "title": "중요한 순간 저장하기",
+        "text": "다시 볼 위치에서 멈추고 깃발을 누르세요. 개수와 진행 막대의 표시가 나타납니다. 이 예시에서는 약 2초 지점의 스윙을 저장합니다.",
+        "caption": "위쪽 영상의 타임라인에 체크포인트가 하나 표시됩니다."
+      },
+      {
+        "title": "체크포인트 목록 열기",
+        "text": "영상의 다른 위치로 이동한 후 체크포인트 개수를 누르세요. 저장된 미리 보기와 시간을 확인하고 돌아갈 항목을 선택합니다.",
+        "caption": "목록에 00:02 체크포인트가 표시됩니다."
+      },
+      {
+        "title": "돌아온 위치 확인하기",
+        "text": "항목을 선택한 후 시간과 화면을 확인하세요. 이 예시에서는 뒤쪽 장면에서 저장한 2초 지점으로 돌아와 프레임 단위 검토를 이어갈 수 있습니다.",
+        "caption": "위쪽 플레이어가 저장한 스윙 위치로 돌아왔습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "가까운 지점은 중복 저장되지 않습니다",
+        "description": "기존 체크포인트에서 10초 이내인 위치에는 새 항목이 추가되지 않습니다. 짧은 영상에서는 반복해서 눌러도 개수가 그대로일 수 있습니다."
+      },
+      {
+        "title": "세 가지 저장 기능 구분하기",
+        "description": "체크포인트는 영상 위치, 동기화 지점은 영상 간 기준 위치, 북마크는 나중에 다시 열 작업 공간을 저장합니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "깃발을 눌러도 표시가 늘지 않는 이유는 무엇인가요?",
+        "answer": "기존 체크포인트와의 거리를 확인하세요. 충분히 긴 영상에서 10초 이상 떨어진 위치로 이동한 뒤 추가해 보세요."
+      },
+      {
+        "question": "저장한 순간을 한 프레임씩 볼 수 있나요?",
+        "answer": "네. 체크포인트로 이동한 뒤 일시 정지하고 필름 버튼을 켜면 주변 프레임을 확인할 수 있습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo guardar y recuperar puntos de control de vídeo en Android",
+    "description": "Marca un instante de un vídeo en Android y vuelve desde la lista de puntos de control para revisar un swing o un detalle sin buscarlo otra vez.",
+    "summary": "Guarda un momento útil y vuelve a él después de explorar el resto del vídeo.",
+    "answer": "Toca la bandera del reproductor para guardar su posición. Toca el número de puntos de control para abrir la lista y selecciona una entrada para volver.",
+    "requirement": "El ejemplo usa un vídeo local de golf. Los puntos de control pertenecen al vídeo y son distintos de los marcadores del espacio de trabajo y los puntos de sincronización.",
+    "steps": [
+      {
+        "title": "Encontrar la bandera",
+        "text": "Muestra los controles del vídeo y busca la bandera. La explicación inicial describe cómo guardar, abrir la lista y evitar duplicados a menos de diez segundos.",
+        "caption": "La ayuda presenta la bandera y el acceso a la lista."
+      },
+      {
+        "title": "Guardar el momento importante",
+        "text": "Pausa en la posición deseada y toca la bandera. Aparecen un contador y una marca en la barra; el ejemplo guarda el swing cerca de los dos segundos.",
+        "caption": "La línea de tiempo superior muestra un punto de control."
+      },
+      {
+        "title": "Abrir la lista",
+        "text": "Ve a otra parte del vídeo y toca el contador. La lista muestra la miniatura y el tiempo guardados. Elige el punto al que quieres volver.",
+        "caption": "La lista contiene el punto de control 00:02."
+      },
+      {
+        "title": "Comprobar la posición recuperada",
+        "text": "Tras seleccionar la entrada, comprueba la imagen y el tiempo. En el ejemplo, el vídeo vuelve desde una posición posterior a los dos segundos, listo para revisarlo por fotogramas.",
+        "caption": "El reproductor superior ha vuelto al swing guardado."
+      }
+    ],
+    "features": [
+      {
+        "title": "No se duplican los puntos cercanos",
+        "description": "La aplicación evita añadir otro punto a menos de diez segundos de uno existente. En un vídeo corto, varias pulsaciones pueden dejar el contador igual."
+      },
+      {
+        "title": "Distinguir las tres funciones",
+        "description": "Un punto de control marca una posición. Un punto de sincronización alinea vídeos. Un marcador guarda un espacio de trabajo para abrirlo después."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué la bandera no añade otra marca?",
+        "answer": "Comprueba la distancia al punto existente. En un vídeo suficientemente largo, desplázate más de diez segundos antes de añadir otro."
+      },
+      {
+        "question": "¿Puedo revisar ese momento fotograma a fotograma?",
+        "answer": "Sí. Vuelve al punto, pausa el reproductor y activa el icono de película para revisar los fotogramas cercanos."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 视频中保存并跳转检查点",
+    "description": "在 Android 视频中标记关键时刻，打开检查点列表并跳回指定位置，反复查看高尔夫挥杆等细节，无需重新拖动进度。",
+    "summary": "保存一次关键时刻，查看视频其他部分后，就能直接返回复看。",
+    "answer": "点按播放器的旗帜按钮保存当前位置，再点按检查点数量打开列表，选择条目即可跳回。",
+    "requirement": "本例使用本地高尔夫视频。检查点针对正在查看的视频，与工作区书签、视频同步点用途不同。",
+    "steps": [
+      {
+        "title": "找到检查点按钮",
+        "text": "显示视频控制栏，找到旗帜图标。首次提示会说明保存位置、打开列表，以及十秒内避免重复添加的规则。",
+        "caption": "检查点提示介绍旗帜和列表的操作。"
+      },
+      {
+        "title": "保存关键时刻",
+        "text": "在要复看的位置暂停，点按旗帜。检查点数量和进度条标记会随之显示；本例保存的是大约两秒处的挥杆画面。",
+        "caption": "上方视频的进度条显示一个检查点。"
+      },
+      {
+        "title": "打开检查点列表",
+        "text": "先移动到视频其他位置，再点按检查点数量。列表会显示已保存的缩略图和时间，选择需要返回的条目。",
+        "caption": "列表中显示保存的 00:02 检查点。"
+      },
+      {
+        "title": "确认已经返回",
+        "text": "选择条目后，检查画面和时间。本例从更靠后的位置回到保存的两秒处，接着可逐帧检查挥杆动作。",
+        "caption": "上方播放器已回到保存的挥杆位置。"
+      }
+    ],
+    "features": [
+      {
+        "title": "相近位置会去重",
+        "description": "已有检查点前后十秒内不会重复添加。视频较短时，反复点按旗帜可能不会增加数量。"
+      },
+      {
+        "title": "区分三种保存功能",
+        "description": "检查点记录视频位置，同步点用来对齐不同视频，工作区书签则保存布局与内容，便于下次重新打开。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么点旗帜后没有新增标记？",
+        "answer": "先检查与已有检查点的距离。使用足够长的视频，移动到相隔十秒以上的位置后再添加独立检查点。"
+      },
+      {
+        "question": "跳回后可以逐帧查看吗？",
+        "answer": "可以。跳到检查点后暂停播放器，启用胶片按钮，便可逐帧检查附近动作。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Video-Prüfpunkte auf Android speichern und wieder aufrufen",
+    "description": "Markieren Sie einen wichtigen Moment in einem Android-Video und springen Sie über die Prüfpunktliste zurück, um etwa einen Golfschwung erneut anzusehen.",
+    "summary": "Speichern Sie eine interessante Stelle einmal und kehren Sie nach der weiteren Durchsicht direkt dorthin zurück.",
+    "answer": "Tippen Sie auf die Fahne des Players, um die aktuelle Position zu speichern. Über die Prüfpunktanzahl öffnen Sie die Liste und wählen einen Eintrag aus.",
+    "requirement": "Das Beispiel verwendet ein lokales Golfvideo. Prüfpunkte markieren Videopositionen und unterscheiden sich von Arbeitsbereich-Lesezeichen und Synchronisationspunkten.",
+    "steps": [
+      {
+        "title": "Die Fahne finden",
+        "text": "Blenden Sie die Videosteuerung ein und suchen Sie die Fahne. Der erste Hinweis erklärt das Speichern, die Liste und das Vermeiden von Duplikaten innerhalb von zehn Sekunden.",
+        "caption": "Die Hilfe zeigt Fahne und Listenzugriff."
+      },
+      {
+        "title": "Den wichtigen Moment speichern",
+        "text": "Pausieren Sie an der gewünschten Stelle und tippen Sie auf die Fahne. Zähler und Zeitleistenmarkierung erscheinen; im Beispiel liegt der Punkt bei etwa zwei Sekunden.",
+        "caption": "Ein Prüfpunkt ist in der oberen Zeitleiste sichtbar."
+      },
+      {
+        "title": "Die Prüfpunktliste öffnen",
+        "text": "Wechseln Sie zu einer anderen Videostelle und tippen Sie auf die Prüfpunktanzahl. Die Liste zeigt Vorschaubild und Zeit. Wählen Sie den gewünschten Eintrag.",
+        "caption": "Die Liste enthält den Prüfpunkt 00:02."
+      },
+      {
+        "title": "Die Rückkehr kontrollieren",
+        "text": "Prüfen Sie nach der Auswahl Bild und Zeit. Hier springt der Player von einer späteren Stelle zur gespeicherten Position bei zwei Sekunden zurück, bereit für die Einzelbildprüfung.",
+        "caption": "Der obere Player zeigt wieder den gespeicherten Schwung."
+      }
+    ],
+    "features": [
+      {
+        "title": "Nahe Punkte werden nicht doppelt gespeichert",
+        "description": "Innerhalb von zehn Sekunden eines vorhandenen Prüfpunkts wird kein weiterer hinzugefügt. Bei kurzen Clips kann der Zähler trotz mehrerer Tipps unverändert bleiben."
+      },
+      {
+        "title": "Drei Speicherfunktionen unterscheiden",
+        "description": "Ein Prüfpunkt markiert eine Videoposition. Ein Synchronisationspunkt richtet Videos aneinander aus. Ein Lesezeichen speichert einen Arbeitsbereich zum erneuten Öffnen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum fügt die Fahne keinen weiteren Punkt hinzu?",
+        "answer": "Prüfen Sie den Abstand zu einem vorhandenen Punkt. Gehen Sie in einem ausreichend langen Video mehr als zehn Sekunden weiter, bevor Sie einen neuen anlegen."
+      },
+      {
+        "question": "Kann ich dort Einzelbilder prüfen?",
+        "answer": "Ja. Springen Sie zum Prüfpunkt, pausieren Sie und aktivieren Sie den Filmstreifen, um benachbarte Bilder anzusehen."
+      }
+    ]
+  }
+}

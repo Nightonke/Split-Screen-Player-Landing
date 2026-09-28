@@ -16,7 +16,7 @@ function create(locale: 'en-US' | 'zh-Hans', platform: Platform, scenario: Scena
   const zh = locale === 'zh-Hans';
   const ios = platform === 'ios';
   const dual = scenario === 'web';
-  const m = menus[locale][platform];
+  const m = menus['en-US'][platform];
   const device = ios ? (zh ? 'iPhone 或 iPad' : 'iPhone or iPad') : (zh ? '安卓手机或平板' : 'Android');
   const quote = (text: string) => zh ? `「${text}」` : `“${text}”`;
   const webMode = m.webMode;
@@ -157,7 +157,7 @@ function createTranslated(locale: TranslatedLocale, platform: Platform, scenario
     return `“${text}”`;
   };
   const parameters: Record<string, string> = {
-    ...Object.fromEntries(Object.entries(menus[locale][platform]).map(([key, text]) => [key, quote(text)])),
+    ...Object.fromEntries(Object.entries(menus['en-US'][platform]).map(([key, text]) => [key, quote(text)])),
     device: platform === 'ios' ? copy.deviceIOS : copy.deviceAndroid,
   };
   const format = (text: string) => {

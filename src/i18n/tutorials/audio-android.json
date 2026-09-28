@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで複数動画を見ながら1本だけ音を聞く方法",
+    "description": "Androidで複数動画を再生したまま、音を出す領域を1つ選び、順に切り替えたり全体をミュートしたりします。",
+    "summary": "両方の映像を見ながら、重なる音声を避けて聞きたい動画を選びます。",
+    "answer": "下にCycle Solo AudioとMute All Playersを追加します。Cycle Solo Audioをタップすると1つが有音になり、再度タップすると次へ移ります。",
+    "requirement": "実際に音が入った動画を使い、端末のメディア音量も確認します。例は異なるテスト音を付けたコピーで、元の映像は無音でした。",
+    "steps": [
+      {
+        "title": "2本の動画を再生する",
+        "text": "各領域に動画を開いて再生します。両方の操作ボタンを表示し、スピーカーの位置を確認します。",
+        "caption": "再生中の2本とスピーカー操作が見えます。"
+      },
+      {
+        "title": "最初の動画だけを聞く",
+        "text": "Cycle Solo Audioをタップすると番号が1になります。上のスピーカーは有効、下は斜線付きです。両映像の再生は続けられます。",
+        "caption": "最初の領域が有音、次の領域がミュートです。"
+      },
+      {
+        "title": "次の動画へ切り替える",
+        "text": "同じボタンを再度押すと番号が2になり、スピーカー状態が入れ替わります。両画面を保ちながら下の動画の音を聞けます。",
+        "caption": "2番目が有音、1番目がミュートになりました。"
+      },
+      {
+        "title": "全体をミュートする",
+        "text": "Mute All Playersを押すと両方のスピーカーに斜線が付きます。後で個別のスピーカーを押し、その領域だけ音を戻すこともできます。",
+        "caption": "映像を再生したまま両動画がミュートされています。"
+      }
+    ],
+    "features": [
+      {
+        "title": "音声トラックの存在だけで判断しない",
+        "description": "音声トラックが無音の場合もあります。音が聞こえなければ、スピーカーと端末音量に加えて元動画も確認します。"
+      },
+      {
+        "title": "ミュートと一時停止は別",
+        "description": "音声操作はどの動画を聞くかを変えます。映像も止める場合は再生・停止の操作を使います。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "1本だけ手動でミュートできますか？",
+        "answer": "はい。その動画のスピーカーをタップします。操作が連動している場合は、もう一方の状態も確認してください。"
+      },
+      {
+        "question": "音声を合成・書き出ししますか？",
+        "answer": "いいえ。視聴中に音を出すプレーヤーを選ぶ機能です。完成したファイルには動画書き出しの音声設定を使います。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Écouter une seule vidéo à la fois sur Android",
+    "description": "Laissez plusieurs vidéos Android jouer tout en n’écoutant qu’une seule zone. Changez la source audible ou coupez tous les lecteurs.",
+    "summary": "Gardez les deux vues et choisissez laquelle écouter au lieu de mélanger leurs bandes-son.",
+    "answer": "Ajoutez Cycle Solo Audio et Mute All Players à la barre du bas. Touchez Cycle Solo Audio pour choisir un lecteur audible, puis à nouveau pour passer au suivant.",
+    "requirement": "Utilisez des vidéos réellement sonores et vérifiez le volume multimédia. Les captures emploient deux copies avec des tonalités de test différentes ; les originaux étaient muets.",
+    "steps": [
+      {
+        "title": "Préparer deux vidéos en lecture",
+        "text": "Ouvrez une vidéo par zone et lancez-les. Affichez les commandes et repérez les haut-parleurs pour suivre les états de sourdine.",
+        "caption": "Les deux vidéos de démonstration jouent avec leurs commandes audio visibles."
+      },
+      {
+        "title": "Écouter le premier lecteur",
+        "text": "Touchez Cycle Solo Audio. L’indicateur affiche 1 ; le haut-parleur supérieur reste actif, celui du bas est barré. Les deux images peuvent continuer à bouger.",
+        "caption": "La première zone est audible, la seconde est muette."
+      },
+      {
+        "title": "Passer au lecteur suivant",
+        "text": "Touchez le même bouton. L’indicateur devient 2 et les états s’inversent : vous écoutez la seconde vidéo tout en gardant les deux vues.",
+        "caption": "La seconde zone est audible et la première muette."
+      },
+      {
+        "title": "Couper tout l’espace",
+        "text": "Touchez Mute All Players : les deux haut-parleurs sont barrés. Vous pourrez ensuite toucher un haut-parleur individuel pour ne réactiver que cette zone.",
+        "caption": "Les deux vidéos sont muettes sans arrêter les images."
+      }
+    ],
+    "features": [
+      {
+        "title": "Vérifier le son réel du fichier",
+        "description": "Une piste audio peut ne contenir que du silence. Si aucun son n’est audible, vérifiez la source, les haut-parleurs et le volume système."
+      },
+      {
+        "title": "Couper le son ne met pas en pause",
+        "description": "Ces commandes choisissent quel lecteur émet du son. Utilisez les commandes de lecture si vous voulez aussi arrêter les images."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Puis-je couper un seul lecteur manuellement ?",
+        "answer": "Oui, avec son haut-parleur. Vérifiez aussi l’autre icône, notamment si les commandes liées sont activées."
+      },
+      {
+        "question": "Le mode solo fusionne-t-il les pistes ?",
+        "answer": "Non. Il choisit le lecteur audible pendant le visionnage. Pour un fichier final, utilisez l’exportation vidéo et ses réglages audio."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to listen to one video at a time on Android",
+    "description": "Keep multiple Android videos playing while only one supplies sound. Cycle the audible pane, mute all players, or control an individual speaker.",
+    "summary": "Watch both views while choosing which one you want to hear, instead of mixing competing soundtracks.",
+    "answer": "Add Cycle Solo Audio and Mute All Players to the bottom toolbar. Tap Cycle Solo Audio to select one audible player and tap again to move to the next.",
+    "requirement": "Use videos that actually contain audible sound and check the phone’s media volume. These screenshots use two demo copies with different test tones; the original clips were silent.",
+    "steps": [
+      {
+        "title": "Prepare two playing videos",
+        "text": "Load a video in each region and start playback. Reveal both players’ controls and locate their speaker icons so you can follow which one is muted.",
+        "caption": "Both demo videos are playing with their speaker controls visible."
+      },
+      {
+        "title": "Listen to the first player",
+        "text": "Tap Cycle Solo Audio. Its toolbar indicator shows 1; the upper speaker remains enabled while the lower speaker is crossed out. Both pictures can keep moving.",
+        "caption": "The first pane is selected for sound and the second is muted."
+      },
+      {
+        "title": "Cycle to the next player",
+        "text": "Tap the same button again. The indicator changes to 2 and the speaker states swap, allowing you to follow the second clip’s sound while keeping both views visible.",
+        "caption": "The second pane is now audible and the first is muted."
+      },
+      {
+        "title": "Silence the whole workspace",
+        "text": "Tap Mute All Players when you want no sound from either video. Both speaker icons become crossed out. You can later use an individual speaker button to unmute just that pane.",
+        "caption": "Both videos are muted while their pictures continue playing."
+      }
+    ],
+    "features": [
+      {
+        "title": "Check the source, not just its format",
+        "description": "A file can contain an audio track filled with silence. If no sound is heard, check the source in addition to the speaker state and system volume."
+      },
+      {
+        "title": "Muting does not pause video",
+        "description": "The audio controls change which player supplies sound. Use the separate playback controls when you also want the pictures to stop."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I mute one player manually?",
+        "answer": "Yes. Reveal that player’s controls and tap its speaker button. Check the other speaker icon as well, especially if linked controls are enabled."
+      },
+      {
+        "question": "Does solo audio combine or export the soundtracks?",
+        "answer": "No. It chooses the audible player while viewing. Use video export and its audio settings to create a separate finished file."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como ouvir um vídeo por vez no Android",
+    "description": "Mantenha vários vídeos Android reproduzindo e ouça apenas uma área. Troque a fonte audível ou silencie todos os players.",
+    "summary": "Mantenha as duas vistas e escolha qual ouvir, em vez de misturar trilhas sonoras.",
+    "answer": "Adicione Cycle Solo Audio e Mute All Players à barra inferior. Toque em Cycle Solo Audio para escolher um player audível e novamente para passar ao próximo.",
+    "requirement": "Use vídeos com som real e confira o volume de mídia. As capturas usam cópias com tons de teste diferentes; os originais eram silenciosos.",
+    "steps": [
+      {
+        "title": "Preparar dois vídeos reproduzindo",
+        "text": "Abra um vídeo em cada área e inicie ambos. Exiba os controles e encontre os alto-falantes para acompanhar os estados.",
+        "caption": "Os dois vídeos de demonstração reproduzem com os controles de som visíveis."
+      },
+      {
+        "title": "Ouvir o primeiro",
+        "text": "Toque em Cycle Solo Audio. O indicador mostra 1; o alto-falante superior continua ativo e o inferior fica riscado. As duas imagens podem continuar em movimento.",
+        "caption": "A primeira área é audível e a segunda está silenciada."
+      },
+      {
+        "title": "Passar ao próximo",
+        "text": "Toque novamente no botão. O indicador muda para 2 e os estados se invertem. Ouça o segundo clipe mantendo as duas vistas.",
+        "caption": "A segunda área é audível e a primeira está silenciada."
+      },
+      {
+        "title": "Silenciar todo o espaço",
+        "text": "Toque em Mute All Players. Os dois alto-falantes ficam riscados. Depois, você pode ativar um alto-falante individual para recuperar apenas o som daquela área.",
+        "caption": "Os dois vídeos estão silenciados enquanto as imagens continuam."
+      }
+    ],
+    "features": [
+      {
+        "title": "Confira o som real do arquivo",
+        "description": "Uma faixa de áudio pode conter apenas silêncio. Se não ouvir nada, confira a fonte, os alto-falantes e o volume do sistema."
+      },
+      {
+        "title": "Silenciar não pausa o vídeo",
+        "description": "Os controles de áudio escolhem qual player emite som. Use os controles de reprodução para parar também as imagens."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso silenciar um player manualmente?",
+        "answer": "Sim, pelo alto-falante dele. Confira também o outro ícone, especialmente se os controles estiverem vinculados."
+      },
+      {
+        "question": "O modo solo combina as trilhas sonoras?",
+        "answer": "Não. Ele escolhe o player audível durante a visualização. Para um arquivo final, use a exportação de vídeo e seus ajustes de áudio."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 여러 영상을 보면서 하나의 소리만 듣기",
+    "description": "Android에서 여러 영상을 계속 재생하면서 소리가 나는 영역만 선택하고, 차례로 바꾸거나 모두 음소거하세요.",
+    "summary": "두 화면을 유지하며 듣고 싶은 영상을 선택해 여러 소리가 겹치지 않게 하세요.",
+    "answer": "아래에 Cycle Solo Audio와 Mute All Players를 추가하세요. Cycle Solo Audio를 누르면 한 플레이어만 소리가 나고, 다시 누르면 다음으로 바뀝니다.",
+    "requirement": "실제 소리가 있는 영상을 쓰고 휴대폰 미디어 음량도 확인하세요. 예시는 서로 다른 테스트음을 넣은 복사본이며 원본 영상은 무음입니다.",
+    "steps": [
+      {
+        "title": "두 영상 재생 준비하기",
+        "text": "각 영역에 영상을 열고 재생하세요. 두 조작 막대를 표시하고 스피커 아이콘을 찾아 음소거 상태를 확인합니다.",
+        "caption": "두 예시 영상이 재생되며 스피커 조작이 보입니다."
+      },
+      {
+        "title": "첫 번째 영상만 듣기",
+        "text": "Cycle Solo Audio를 누르면 번호가 1로 표시됩니다. 위쪽 스피커는 켜지고 아래는 빗금이 생깁니다. 두 화면은 계속 재생할 수 있습니다.",
+        "caption": "첫 영역만 소리가 나고 두 번째는 음소거됩니다."
+      },
+      {
+        "title": "다음 영상으로 바꾸기",
+        "text": "같은 버튼을 다시 누르면 번호가 2로 바뀌고 스피커 상태가 서로 바뀝니다. 두 화면을 보면서 아래 영상의 소리를 들을 수 있습니다.",
+        "caption": "두 번째가 소리를 내고 첫 번째는 음소거됩니다."
+      },
+      {
+        "title": "전체 음소거하기",
+        "text": "Mute All Players를 누르면 두 스피커에 빗금이 생깁니다. 나중에 개별 스피커를 눌러 그 영역만 음소거를 해제할 수도 있습니다.",
+        "caption": "화면 재생은 계속되지만 두 영상이 모두 음소거됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "오디오 트랙 존재만으로 판단하지 마세요",
+        "description": "트랙에 무음만 들어 있을 수도 있습니다. 소리가 없다면 스피커 상태, 시스템 음량과 원본을 함께 확인하세요."
+      },
+      {
+        "title": "음소거는 일시 정지가 아닙니다",
+        "description": "소리 조작은 어느 플레이어를 들을지 바꿉니다. 화면도 멈추려면 별도의 재생·정지 버튼을 쓰세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "한 플레이어만 직접 음소거할 수 있나요?",
+        "answer": "네. 해당 영상의 스피커를 누르세요. 조작 연결이 켜져 있다면 다른 스피커 상태도 확인하세요."
+      },
+      {
+        "question": "소리를 합성하거나 내보내나요?",
+        "answer": "아니요. 시청 중 소리 낼 플레이어를 고릅니다. 완성 파일은 영상 내보내기의 오디오 설정을 이용하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo escuchar un solo vídeo a la vez en Android",
+    "description": "Mantén varios vídeos Android reproduciéndose y escucha solo una zona. Cambia la fuente audible o silencia todos los reproductores.",
+    "summary": "Conserva ambas vistas y elige cuál escuchar en lugar de mezclar bandas sonoras.",
+    "answer": "Añade Cycle Solo Audio y Mute All Players a la barra inferior. Toca Cycle Solo Audio para elegir un reproductor audible y de nuevo para pasar al siguiente.",
+    "requirement": "Usa vídeos con sonido real y comprueba el volumen multimedia. Las capturas usan dos copias con tonos de prueba distintos; los originales eran mudos.",
+    "steps": [
+      {
+        "title": "Preparar dos vídeos en reproducción",
+        "text": "Abre un vídeo en cada zona e inicia ambos. Muestra los controles y localiza los altavoces para seguir su estado.",
+        "caption": "Los dos vídeos de demostración se reproducen con sus controles de sonido visibles."
+      },
+      {
+        "title": "Escuchar el primero",
+        "text": "Toca Cycle Solo Audio. El indicador muestra 1; el altavoz superior sigue activo y el inferior aparece tachado. Ambas imágenes pueden continuar en movimiento.",
+        "caption": "La primera zona es audible y la segunda está silenciada."
+      },
+      {
+        "title": "Pasar al siguiente",
+        "text": "Toca otra vez el mismo botón. El indicador pasa a 2 y se intercambian los estados. Escucha el segundo clip manteniendo ambas vistas.",
+        "caption": "La segunda zona es audible y la primera está silenciada."
+      },
+      {
+        "title": "Silenciar todo el espacio",
+        "text": "Toca Mute All Players. Ambos altavoces quedan tachados. Después puedes activar un altavoz individual para recuperar solo el sonido de esa zona.",
+        "caption": "Los dos vídeos están silenciados mientras las imágenes continúan."
+      }
+    ],
+    "features": [
+      {
+        "title": "Comprobar el sonido del archivo",
+        "description": "Una pista de audio puede contener únicamente silencio. Si no oyes nada, revisa la fuente además de los altavoces y el volumen del sistema."
+      },
+      {
+        "title": "Silenciar no pausa el vídeo",
+        "description": "Los controles de audio eligen qué reproductor suena. Usa los controles de reproducción para detener también las imágenes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Puedo silenciar un reproductor manualmente?",
+        "answer": "Sí, mediante su altavoz. Comprueba también el otro icono, especialmente si los controles están vinculados."
+      },
+      {
+        "question": "¿El modo solo combina las bandas sonoras?",
+        "answer": "No. Elige el reproductor audible durante la visualización. Para un archivo terminado, usa la exportación y sus ajustes de audio."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上同时看多个视频但只听其中一个",
+    "description": "让 Android 多个视频继续播放，只保留一个区域的声音，轮换独听对象，或一键静音全部播放器。",
+    "summary": "同时查看两个画面，自由选择听哪一段，避免多条声音互相干扰。",
+    "answer": "在底部添加 Cycle Solo Audio 和 Mute All Players。点按 Cycle Solo Audio 选择一个有声区域，再次点按切换到下一个。",
+    "requirement": "请使用实际有声音的素材，并检查手机媒体音量。截图使用两份带不同测试音的示例副本，原始视频本身是静音素材。",
+    "steps": [
+      {
+        "title": "准备两段正在播放的视频",
+        "text": "在每个区域载入视频并开始播放，显示两区控制栏，找到扬声器图标，以便判断各区静音状态。",
+        "caption": "两个示例视频正在播放，扬声器控制均可见。"
+      },
+      {
+        "title": "只听第一个播放器",
+        "text": "点按 Cycle Solo Audio，工具栏编号显示 1。上方扬声器保持开启，下方出现静音斜线；两个画面仍可继续播放。",
+        "caption": "第一区域被选为有声来源，第二区域静音。"
+      },
+      {
+        "title": "轮换到下一个播放器",
+        "text": "再次点按相同按钮，编号变为 2，两个扬声器状态互换。可以听第二段视频，同时继续观察两个画面。",
+        "caption": "第二区域有声，第一区域变为静音。"
+      },
+      {
+        "title": "让整个工作区静音",
+        "text": "需要两段都无声时，点按 Mute All Players，两区扬声器都会显示静音。之后也可单独点按某区扬声器，只恢复该区声音。",
+        "caption": "两个视频全部静音，画面继续播放。"
+      }
+    ],
+    "features": [
+      {
+        "title": "检查素材是否真的有声音",
+        "description": "文件中有音轨，不代表音轨里一定有可听声音。听不到声音时，除扬声器状态和系统音量外，也要检查原素材。"
+      },
+      {
+        "title": "静音不等于暂停视频",
+        "description": "声音控制决定哪个播放器发声。需要让画面也停止时，请使用单独的播放暂停按钮。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "可以手动静音一个播放器吗？",
+        "answer": "可以。显示该区控制栏，点按扬声器按钮。也应查看另一区图标，尤其是在开启关联控制时。"
+      },
+      {
+        "question": "独听会合成或导出音轨吗？",
+        "answer": "不会。它只在观看时选择有声播放器。需要生成成品文件时，请使用视频导出及其音频设置。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Auf Android jeweils nur den Ton eines Videos hören",
+    "description": "Lassen Sie mehrere Android-Videos laufen und hören Sie nur einen Bereich. Wechseln Sie die hörbare Quelle oder schalten Sie alle Player stumm.",
+    "summary": "Behalten Sie beide Ansichten und wählen Sie den gewünschten Ton, statt mehrere Tonspuren zu mischen.",
+    "answer": "Fügen Sie Cycle Solo Audio und Mute All Players unten hinzu. Cycle Solo Audio wählt einen hörbaren Player; erneutes Tippen wechselt zum nächsten.",
+    "requirement": "Nutzen Sie tatsächlich hörbare Videos und prüfen Sie die Medienlautstärke. Die Screenshots verwenden Kopien mit verschiedenen Testtönen; die Originalclips waren stumm.",
+    "steps": [
+      {
+        "title": "Zwei laufende Videos vorbereiten",
+        "text": "Öffnen Sie je Bereich ein Video und starten Sie beide. Blenden Sie die Steuerung ein und suchen Sie die Lautsprecher-Symbole.",
+        "caption": "Beide Demovideos laufen mit sichtbaren Tonsteuerungen."
+      },
+      {
+        "title": "Den ersten Player hören",
+        "text": "Tippen Sie auf Cycle Solo Audio. Die Anzeige zeigt 1. Der obere Lautsprecher bleibt aktiv, der untere ist durchgestrichen; beide Bilder können weiterlaufen.",
+        "caption": "Der erste Bereich ist hörbar, der zweite stumm."
+      },
+      {
+        "title": "Zum nächsten Player wechseln",
+        "text": "Tippen Sie erneut. Die Anzeige wird zu 2 und die Lautsprecherzustände tauschen sich. Hören Sie den zweiten Clip bei weiterhin sichtbaren Bildern.",
+        "caption": "Der zweite Bereich ist hörbar und der erste stumm."
+      },
+      {
+        "title": "Alles stummschalten",
+        "text": "Tippen Sie auf Mute All Players. Beide Lautsprecher sind durchgestrichen. Später können Sie einen einzelnen Lautsprecher aktivieren, um nur dessen Ton wiederherzustellen.",
+        "caption": "Beide Videos sind stumm, während die Bilder weiterlaufen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Den tatsächlichen Quellton prüfen",
+        "description": "Eine Audiospur kann nur Stille enthalten. Prüfen Sie bei fehlendem Ton neben Lautsprecherzustand und Systemlautstärke auch die Quelle."
+      },
+      {
+        "title": "Stummschalten pausiert kein Video",
+        "description": "Die Audiosteuerung wählt den hörbaren Player. Nutzen Sie die Wiedergabesteuerung, wenn auch die Bilder anhalten sollen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kann ich einen Player manuell stummschalten?",
+        "answer": "Ja, über dessen Lautsprecher. Prüfen Sie auch das andere Symbol, besonders bei verknüpften Bedienelementen."
+      },
+      {
+        "question": "Führt Solo-Audio die Tonspuren zusammen?",
+        "answer": "Nein. Es wählt den hörbaren Player während der Betrachtung. Für eine fertige Datei verwenden Sie den Videoexport mit seinen Audioeinstellungen."
+      }
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "{device}で複数の動画を自動スクロールするウォーターフォールに並べる方法",
+    "description": "{device}で動画ウォーターフォールを作成。縦長・横長の動画を追加し、方向、サイズ、間隔を調整して自動スクロールを有効にします。",
+    "summary": "縦長と横長の動画を、動くモザイクのようにまとめます。Waterfallは素材の形に合わせて動画を配置します。",
+    "answer": "下部ツールバーにWaterfallを追加して開き、もう一度タップするとWaterfall settingsが表示されます。Add videosから素材を選び、方向とサイズを設定してAuto-scrollをオンにします。",
+    "requirement": "WaterfallはPremium機能です。ローカル動画を複数用意してください。この例では縦長・横長の8本を使います。ボタンがない場合はMore → Settings → {customizeToolbar}でWaterfallを追加します。",
+    "steps": [
+      {
+        "title": "Waterfallを開いて動画を追加する",
+        "text": "ツールバーのWaterfallをタップします。すでに開いている動画を引き継ぐこともできます。もう一度タップしてWaterfall settingsを開き、Add videos → {source}の順に選びます。",
+        "caption": "Waterfall settingsのAdd videosから開いた素材の選択メニュー。"
+      },
+      {
+        "title": "縦長と横長の動画をまとめて選ぶ",
+        "text": "複数の動画を選んで確定します。まずは各動画が見やすい本数から始めましょう。追加した動画は既存のウォーターフォールに加わります。サイズや長さをそろえる必要はありません。",
+        "caption": "サンプル動画をまとめて選択して読み込みます。"
+      },
+      {
+        "title": "配置と自動スクロールを設定する",
+        "text": "Scroll directionでVerticalまたはHorizontalを選びます。Video sizeはCompact、Normal、Largeから選択し、Video spacingで間隔を調整します。Auto-scrollをオンにし、Scroll speedで1画面を移動する秒数を設定します。無音で表示する場合はMuteをオンのままにします。",
+        "caption": "大きい動画サイズと自動スクロールを選択した設定画面。"
+      },
+      {
+        "title": "動く動画モザイクを見る",
+        "text": "設定を閉じて再生を確認します。すべての動画が1画面に収まる場合は、サイズを大きくするか動画を追加してください。動画をタップすると進捗と削除ボタンが表示されます。終了するには設定を開き直し、Close Waterfallを選びます。",
+        "caption": "縦長と横長の動画が、自動スクロールする配置で再生されています。"
+      }
+    ],
+    "features": [
+      {
+        "title": "スクロール速度と再生速度は別です",
+        "description": "Scroll speedは配置全体の移動速度を変えます。動画内の動作の速さは変わりません。1画面あたりの秒数を大きくすると、移動は遅くなります。"
+      },
+      {
+        "title": "カードを外しても元の動画は残ります",
+        "description": "削除ボタンは現在のウォーターフォールから動画を外します。写真ライブラリやローカルファイルの元動画は削除されません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Auto-scrollをオンにしても動かないのはなぜですか？",
+        "answer": "すべての動画が表示領域に収まっている可能性があります。Video sizeを大きくするか素材を増やし、設定パネルを閉じて確認してください。"
+      },
+      {
+        "question": "Counterflowとの違いは何ですか？",
+        "answer": "Waterfallは動画を1つのスクロールする配置にまとめます。Counterflowは独立した行や列を交互に逆方向へ動かします。互い違いの動きが欲しい場合はCounterflowを選びます。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Lire plusieurs vidéos dans une mosaïque défilante sur {device}",
+    "description": "Créez une mosaïque vidéo avec Waterfall sur {device}. Ajoutez des clips, choisissez le sens et la taille, puis activez le défilement automatique.",
+    "summary": "Réunissez des vidéos verticales et horizontales dans une mosaïque animée. Waterfall adapte la disposition aux différentes proportions des clips.",
+    "answer": "Ajoutez Waterfall à la barre inférieure, touchez ce bouton pour ouvrir le mode, puis une seconde fois pour afficher Waterfall settings. Ajoutez les clips avec Add videos et activez Auto-scroll après avoir choisi le sens et la taille.",
+    "requirement": "Waterfall nécessite Premium. Préparez plusieurs vidéos locales. Cet exemple utilise huit clips verticaux et horizontaux. Si Waterfall manque, ajoutez-le dans More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Ouvrir Waterfall et ajouter des vidéos",
+        "text": "Touchez Waterfall dans la barre d’outils. Les vidéos déjà ouvertes peuvent être reprises dans ce mode. Touchez de nouveau Waterfall, puis Add videos dans Waterfall settings. Choisissez {source} dans le menu des sources.",
+        "caption": "Le menu des sources apparaît après Add videos dans les réglages Waterfall."
+      },
+      {
+        "title": "Sélectionner des clips de formats variés",
+        "text": "Sélectionnez plusieurs vidéos verticales et horizontales, puis validez. Commencez avec un nombre raisonnable de clips pour garder chacun lisible. Les nouveaux clips rejoignent la mosaïque existante ; leurs dimensions et leurs durées peuvent être différentes.",
+        "caption": "Les clips d’exemple sont sélectionnés ensemble avant l’importation."
+      },
+      {
+        "title": "Régler la disposition et le défilement",
+        "text": "Choisissez Vertical ou Horizontal dans Scroll direction. Dans Video size, sélectionnez Compact, Normal ou Large, puis ajustez Video spacing. Activez Auto-scroll et réglez avec Scroll speed le temps nécessaire pour parcourir un écran. Gardez Mute activé pour une présentation silencieuse.",
+        "caption": "Les grandes vignettes et le défilement automatique sont activés."
+      },
+      {
+        "title": "Regarder la mosaïque animée",
+        "text": "Fermez les réglages pour regarder les vidéos. Si tous les clips tiennent à l’écran, agrandissez-les ou ajoutez-en pour avoir du contenu à faire défiler. Touchez une vidéo pour afficher sa progression et le bouton de retrait. Pour quitter, rouvrez les réglages et choisissez Close Waterfall.",
+        "caption": "Les vidéos verticales et horizontales jouent dans une mosaïque qui défile automatiquement."
+      }
+    ],
+    "features": [
+      {
+        "title": "Le défilement ne change pas la vitesse de lecture",
+        "description": "Scroll speed règle le déplacement de la disposition, pas la vitesse des actions dans les vidéos. Une valeur plus élevée en secondes par écran ralentit le défilement."
+      },
+      {
+        "title": "Retirer une vidéo ne supprime pas son fichier",
+        "description": "Le bouton de retrait enlève le clip de la mosaïque actuelle. La vidéo originale reste dans votre photothèque ou vos fichiers locaux."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi Auto-scroll ne semble-t-il rien faire ?",
+        "answer": "Tous les clips tiennent peut-être dans la zone visible. Augmentez Video size ou ajoutez des vidéos, puis fermez les réglages pour vérifier."
+      },
+      {
+        "question": "Quelle différence avec Counterflow ?",
+        "answer": "Waterfall réunit les vidéos dans une même composition défilante. Counterflow utilise des lignes ou colonnes indépendantes qui avancent alternativement en sens opposés. Choisissez Counterflow pour obtenir ce mouvement croisé."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to play multiple videos in a scrolling waterfall on {device}",
+    "description": "Build a scrolling video waterfall on {device}. Add local clips, choose a vertical or horizontal layout, adjust video size, and enable auto-scroll.",
+    "summary": "Turn a collection of portrait and landscape clips into a moving video mosaic. Waterfall arranges the clips together while preserving their different shapes.",
+    "answer": "Add Waterfall to the bottom toolbar, tap it to enter the mode, then tap it again to open Waterfall settings. Use Add videos, choose the clips, and enable Auto-scroll after choosing the direction and size.",
+    "requirement": "Waterfall requires Premium. Prepare several local videos. The example uses eight portrait and landscape clips. If Waterfall is missing, add it through More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Open Waterfall and add videos",
+        "text": "Tap Waterfall in the toolbar. Videos already open can be carried into this mode. Tap Waterfall again for Waterfall settings, then choose Add videos. In the source menu, select {source} to open local clips.",
+        "caption": "The source menu appears after Add videos in Waterfall settings."
+      },
+      {
+        "title": "Select a varied group of clips",
+        "text": "Select several portrait and landscape videos, then confirm the selection. Start with a modest collection so individual clips remain large enough to see. Added clips join the existing waterfall; they do not need identical dimensions or durations.",
+        "caption": "Select the example clips together and confirm the selection."
+      },
+      {
+        "title": "Choose the layout and enable scrolling",
+        "text": "Set Scroll direction to Vertical or Horizontal. Choose Compact, Normal, or Large under Video size, then adjust Video spacing. Enable Auto-scroll and use Scroll speed to set the time needed to travel one screen. Keep Mute enabled when you want a silent display.",
+        "caption": "Large video cards and Auto-scroll are enabled in Waterfall settings."
+      },
+      {
+        "title": "Watch the moving mosaic",
+        "text": "Close the settings panel to watch. If all clips fit on screen, choose larger cards or add more clips so there is content to scroll through. Tap a video to reveal its progress and removal control. To leave the mode, reopen settings and choose Close Waterfall.",
+        "caption": "Portrait and landscape videos play in the automatically scrolling waterfall."
+      }
+    ],
+    "features": [
+      {
+        "title": "Scrolling speed is not playback speed",
+        "description": "Scroll speed controls how quickly the layout moves, not how fast a person moves inside a clip. A larger seconds-per-screen value makes the mosaic travel more slowly."
+      },
+      {
+        "title": "Remove a card without deleting its source",
+        "description": "The removal control takes a video out of the current waterfall. It does not delete the original video from your photo library or local files."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does Auto-scroll appear to do nothing?",
+        "answer": "The current collection may fit inside the visible area. Increase Video size or add more videos, close the settings panel, and check the layout again."
+      },
+      {
+        "question": "How is Waterfall different from Counterflow?",
+        "answer": "Waterfall arranges videos into one scrolling composition. Counterflow uses separate rows or columns that move in alternating directions. Choose Counterflow when you want that opposing movement."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como reproduzir vários vídeos em um mosaico com rolagem no {device}",
+    "description": "Crie um mosaico de vídeos com Waterfall no {device}. Adicione clipes, escolha a direção e o tamanho e ative a rolagem automática.",
+    "summary": "Reúna vídeos verticais e horizontais em um mosaico em movimento. O Waterfall organiza os clipes de acordo com suas diferentes proporções.",
+    "answer": "Adicione Waterfall à barra inferior e toque nele para abrir o modo. Toque novamente para acessar Waterfall settings. Use Add videos, escolha os clipes e ative Auto-scroll depois de definir a direção e o tamanho.",
+    "requirement": "O Waterfall exige Premium. Prepare vários vídeos locais. O exemplo usa oito clipes verticais e horizontais. Se Waterfall não aparecer, adicione-o em More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Abrir o Waterfall e adicionar vídeos",
+        "text": "Toque em Waterfall na barra de ferramentas. Os vídeos já abertos podem ser levados para esse modo. Toque novamente, escolha Add videos em Waterfall settings e selecione {source} no menu de origem.",
+        "caption": "O menu de origem exibido após Add videos nas configurações do Waterfall."
+      },
+      {
+        "title": "Selecionar clipes de formatos variados",
+        "text": "Selecione vários vídeos verticais e horizontais e confirme. Comece com uma quantidade moderada para que cada clipe continue fácil de ver. Os novos vídeos entram no mosaico existente; eles não precisam ter as mesmas dimensões ou duração.",
+        "caption": "Selecione os clipes de exemplo juntos e confirme a importação."
+      },
+      {
+        "title": "Ajustar o layout e a rolagem",
+        "text": "Em Scroll direction, escolha Vertical ou Horizontal. Selecione Compact, Normal ou Large em Video size e ajuste Video spacing. Ative Auto-scroll e use Scroll speed para definir o tempo necessário para percorrer uma tela. Mantenha Mute ativado se quiser uma apresentação silenciosa.",
+        "caption": "Vídeos grandes e rolagem automática estão ativados nas configurações."
+      },
+      {
+        "title": "Assistir ao mosaico em movimento",
+        "text": "Feche o painel de configurações para assistir. Se todos os clipes couberem na tela, aumente os cartões ou adicione vídeos para criar conteúdo que possa rolar. Toque em um vídeo para mostrar o progresso e o botão de remoção. Para sair, reabra as configurações e escolha Close Waterfall.",
+        "caption": "Vídeos verticais e horizontais são reproduzidos no mosaico com rolagem automática."
+      }
+    ],
+    "features": [
+      {
+        "title": "Velocidade de rolagem não é velocidade de reprodução",
+        "description": "Scroll speed controla o deslocamento do layout, sem alterar a velocidade dos movimentos dentro dos vídeos. Um valor maior em segundos por tela deixa a rolagem mais lenta."
+      },
+      {
+        "title": "Remover um cartão não apaga o arquivo original",
+        "description": "O botão de remoção tira o vídeo do Waterfall atual. O arquivo original continua na biblioteca de fotos ou nos arquivos locais."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que Auto-scroll parece não fazer nada?",
+        "answer": "Talvez todos os vídeos caibam na área visível. Aumente Video size ou adicione mais clipes e feche as configurações para conferir."
+      },
+      {
+        "question": "Qual é a diferença entre Waterfall e Counterflow?",
+        "answer": "O Waterfall reúne os vídeos em uma única composição com rolagem. O Counterflow usa linhas ou colunas independentes que se movem alternadamente em sentidos opostos. Escolha Counterflow para obter esse movimento cruzado."
+      }
+    ]
+  },
+  "ko": {
+    "title": "{device}에서 여러 동영상을 자동 스크롤 워터폴로 재생하는 방법",
+    "description": "{device}에서 동영상 워터폴을 만드세요. 여러 파일을 추가하고 방향, 크기, 간격을 조절한 뒤 자동 스크롤을 켭니다.",
+    "summary": "가로와 세로 영상을 하나의 움직이는 모자이크로 모아 보세요. Waterfall은 영상마다 다른 화면 비율에 맞춰 배치합니다.",
+    "answer": "하단 도구 모음에 Waterfall을 추가하고 누르세요. 한 번 더 누르면 Waterfall settings가 열립니다. Add videos로 영상을 선택한 뒤 방향과 크기를 정하고 Auto-scroll을 켭니다.",
+    "requirement": "Waterfall은 Premium 기능입니다. 여러 로컬 동영상을 준비하세요. 예시에서는 가로와 세로 영상 8개를 사용합니다. 버튼이 없다면 More → Settings → {customizeToolbar}에서 Waterfall을 추가하세요.",
+    "steps": [
+      {
+        "title": "Waterfall을 열고 영상 추가하기",
+        "text": "도구 모음에서 Waterfall을 누릅니다. 이미 열려 있는 영상을 가져올 수도 있습니다. 다시 눌러 Waterfall settings를 열고 Add videos → {source}를 선택합니다.",
+        "caption": "Waterfall settings의 Add videos를 누르면 표시되는 소스 메뉴입니다."
+      },
+      {
+        "title": "가로와 세로 영상을 함께 선택하기",
+        "text": "여러 영상을 선택하고 확인합니다. 각 영상을 알아보기 쉬운 수량부터 시작하세요. 추가한 파일은 기존 워터폴에 합쳐집니다. 영상 크기나 길이를 똑같이 맞출 필요는 없습니다.",
+        "caption": "예시 영상 여러 개를 한 번에 선택해 불러옵니다."
+      },
+      {
+        "title": "배치와 자동 스크롤 설정하기",
+        "text": "Scroll direction에서 Vertical 또는 Horizontal을 고릅니다. Video size는 Compact, Normal, Large 중에서 선택하고 Video spacing으로 간격을 조절합니다. Auto-scroll을 켜고 Scroll speed로 한 화면을 이동하는 데 걸리는 시간을 설정하세요. 소리 없이 감상하려면 Mute를 켜 두세요.",
+        "caption": "큰 영상 카드와 자동 스크롤을 선택한 워터폴 설정입니다."
+      },
+      {
+        "title": "움직이는 영상 모자이크 감상하기",
+        "text": "설정 패널을 닫고 재생 화면을 확인합니다. 모든 영상이 한 화면에 들어간다면 크기를 키우거나 영상을 더 추가하세요. 영상을 누르면 진행 상태와 제거 버튼이 나타납니다. 종료하려면 설정을 다시 열고 Close Waterfall을 선택합니다.",
+        "caption": "가로와 세로 영상이 자동으로 스크롤되는 워터폴에서 재생됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "스크롤 속도와 재생 속도는 다릅니다",
+        "description": "Scroll speed는 배치 전체의 이동 속도를 바꿉니다. 영상 속 사람의 움직임 속도는 바뀌지 않습니다. 화면당 초 단위 값이 클수록 천천히 이동합니다."
+      },
+      {
+        "title": "카드를 제거해도 원본은 남습니다",
+        "description": "제거 버튼은 현재 워터폴에서 해당 영상을 제외합니다. 사진 보관함이나 로컬 파일에 있는 원본 영상은 삭제하지 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Auto-scroll을 켰는데 움직이지 않는 이유는 무엇인가요?",
+        "answer": "모든 영상이 표시 영역 안에 들어가기 때문일 수 있습니다. Video size를 키우거나 영상을 추가한 다음 설정 패널을 닫고 다시 확인하세요."
+      },
+      {
+        "question": "Waterfall과 Counterflow는 어떻게 다른가요?",
+        "answer": "Waterfall은 영상을 하나의 스크롤 배치로 묶습니다. Counterflow는 별도의 행이나 열을 사용해 이웃한 영역이 반대 방향으로 움직입니다. 교차하는 움직임이 필요하면 Counterflow를 선택하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo reproducir varios vídeos en un mosaico con desplazamiento en {device}",
+    "description": "Crea un mosaico de vídeos con Waterfall en {device}. Añade clips, ajusta la dirección y el tamaño, y activa el desplazamiento automático.",
+    "summary": "Reúne clips verticales y horizontales en un mosaico animado. Waterfall organiza los vídeos respetando sus distintas proporciones.",
+    "answer": "Añade Waterfall a la barra inferior y púlsalo para abrir el modo. Vuelve a pulsarlo para acceder a Waterfall settings. Añade clips con Add videos, elige la dirección y el tamaño, y activa Auto-scroll.",
+    "requirement": "Waterfall requiere Premium. Prepara varios vídeos locales. El ejemplo usa ocho clips verticales y horizontales. Si no aparece Waterfall, añádelo desde More → Settings → {customizeToolbar}.",
+    "steps": [
+      {
+        "title": "Abrir Waterfall y añadir vídeos",
+        "text": "Pulsa Waterfall en la barra de herramientas. Los vídeos que ya estén abiertos pueden pasar a este modo. Pulsa Waterfall otra vez, elige Add videos en Waterfall settings y selecciona {source} en el menú de origen.",
+        "caption": "El menú de origen aparece al pulsar Add videos en los ajustes de Waterfall."
+      },
+      {
+        "title": "Seleccionar clips de distintos formatos",
+        "text": "Selecciona varios vídeos verticales y horizontales y confirma. Empieza con una cantidad moderada para que cada clip siga siendo fácil de ver. Los clips nuevos se añaden al mosaico existente; no necesitan tener las mismas dimensiones ni duración.",
+        "caption": "Selecciona los clips de ejemplo juntos y confirma la importación."
+      },
+      {
+        "title": "Ajustar la distribución y el desplazamiento",
+        "text": "En Scroll direction, elige Vertical u Horizontal. Selecciona Compact, Normal o Large en Video size y ajusta Video spacing. Activa Auto-scroll y usa Scroll speed para indicar cuántos segundos tarda el mosaico en recorrer una pantalla. Mantén Mute activado si quieres una presentación silenciosa.",
+        "caption": "Los vídeos grandes y el desplazamiento automático están activados."
+      },
+      {
+        "title": "Ver el mosaico en movimiento",
+        "text": "Cierra el panel de ajustes para ver el resultado. Si todos los clips caben en una pantalla, aumenta su tamaño o añade más vídeos para que haya contenido que desplazar. Pulsa un vídeo para mostrar su progreso y el botón para retirarlo. Para salir, abre los ajustes y elige Close Waterfall.",
+        "caption": "Los vídeos verticales y horizontales se reproducen mientras el mosaico se desplaza automáticamente."
+      }
+    ],
+    "features": [
+      {
+        "title": "Desplazamiento y reproducción tienen velocidades distintas",
+        "description": "Scroll speed cambia la velocidad a la que se mueve la distribución, no las acciones que ocurren dentro de cada vídeo. Más segundos por pantalla producen un desplazamiento más lento."
+      },
+      {
+        "title": "Retirar un clip no elimina el original",
+        "description": "El botón para retirar un vídeo lo saca del mosaico actual. El archivo original permanece en la fototeca o en tus archivos locales."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué parece que Auto-scroll no hace nada?",
+        "answer": "Puede que todos los clips quepan en la zona visible. Aumenta Video size o añade más vídeos y cierra los ajustes para comprobar el resultado."
+      },
+      {
+        "question": "¿En qué se diferencia de Counterflow?",
+        "answer": "Waterfall reúne los vídeos en una sola composición que se desplaza. Counterflow usa filas o columnas independientes que avanzan alternativamente en sentidos opuestos. Elige Counterflow para conseguir ese movimiento cruzado."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在{device}上将多个视频组合成自动滚动瀑布流",
+    "description": "在{device}上创建多视频瀑布流：批量添加本地视频，设置横向或纵向排列、视频尺寸和间距，再开启自动滚动。",
+    "summary": "把横屏和竖屏片段放进同一幅动态拼贴。瀑布流会根据视频的不同形状进行排列，适合连续展示一组素材。",
+    "answer": "先把 Waterfall 添加到底部工具栏，点击进入瀑布流，再点一次打开 Waterfall settings。通过 Add videos 添加视频，设置方向和尺寸后开启 Auto-scroll。",
+    "requirement": "瀑布流需要高级会员。准备多个本地视频。本例使用八段横竖混合素材；如果工具栏中没有 Waterfall，可在 More → Settings → {customizeToolbar} 中添加。",
+    "steps": [
+      {
+        "title": "打开瀑布流并添加视频",
+        "text": "点击工具栏的 Waterfall，当前已打开的视频可以带入瀑布流。再次点击 Waterfall，进入 Waterfall settings，选择 Add videos，再在来源菜单中选择 {source}。",
+        "caption": "在瀑布流设置中点击 Add videos 后出现的来源菜单。"
+      },
+      {
+        "title": "批量选择横竖混合素材",
+        "text": "选中多个横屏和竖屏视频并确认。建议先用数量适中的素材，让每个视频仍有足够的显示空间。新选的视频会加入现有瀑布流，不要求所有素材具有相同的尺寸或时长。",
+        "caption": "批量选中示例视频后确认导入。"
+      },
+      {
+        "title": "设置排列并开启自动滚动",
+        "text": "在 Scroll direction 中选择 Vertical 或 Horizontal，在 Video size 中选择 Compact、Normal 或 Large，并用 Video spacing 调整间距。开启 Auto-scroll，再用 Scroll speed 设置滚过一屏所需的时间。需要无声展示时保留 Mute。",
+        "caption": "瀑布流设置中已选择大尺寸卡片并开启自动滚动。"
+      },
+      {
+        "title": "观看动态瀑布流",
+        "text": "关闭设置面板即可观看。如果所有视频都能放进一屏，可增大卡片或继续添加素材，让画面有可滚动的内容。点击视频可显示进度和移除按钮。退出时重新打开设置，选择 Close Waterfall。",
+        "caption": "横屏与竖屏视频在自动滚动的瀑布流中播放。"
+      }
+    ],
+    "features": [
+      {
+        "title": "滚动速度不等于播放速度",
+        "description": "Scroll speed 控制整个排列移动的速度，不会改变视频里人物的动作速度。每屏秒数越大，画面整体移动得越慢。"
+      },
+      {
+        "title": "移除卡片不会删除原文件",
+        "description": "视频上的移除按钮只会把该视频移出当前瀑布流，不会删除相册或本地文件中的原始素材。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么开启自动滚动后看不出移动？",
+        "answer": "当前视频可能全部放得进可见区域。增大 Video size 或添加更多视频，关闭设置面板后再观察。"
+      },
+      {
+        "question": "瀑布流与对向流有什么区别？",
+        "answer": "瀑布流把视频放进同一个滚动排列；对向流使用独立的行或列，让相邻区域朝相反方向移动。需要这种交错运动时，可以选择 Counterflow。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Mehrere Videos als scrollendes Mosaik auf {device} abspielen",
+    "description": "Erstellen Sie mit Waterfall ein scrollendes Videomosaik auf {device}. Fügen Sie Clips hinzu und wählen Sie Richtung, Größe und automatisches Scrollen.",
+    "summary": "Fassen Sie Hochformat- und Querformatvideos zu einem bewegten Mosaik zusammen. Waterfall ordnet die Clips passend zu ihren unterschiedlichen Seitenverhältnissen an.",
+    "answer": "Fügen Sie Waterfall zur unteren Werkzeugleiste hinzu. Ein Antippen öffnet den Modus, ein weiteres die Waterfall settings. Wählen Sie über Add videos Ihre Clips und aktivieren Sie nach der Wahl von Richtung und Größe Auto-scroll.",
+    "requirement": "Waterfall erfordert Premium. Bereiten Sie mehrere lokale Videos vor. Das Beispiel verwendet acht Clips im Hoch- und Querformat. Falls Waterfall fehlt, fügen Sie die Funktion unter More → Settings → {customizeToolbar} hinzu.",
+    "steps": [
+      {
+        "title": "Waterfall öffnen und Videos hinzufügen",
+        "text": "Tippen Sie auf Waterfall. Bereits geöffnete Videos können in diesen Modus übernommen werden. Tippen Sie erneut auf Waterfall und in den Waterfall settings auf Add videos. Wählen Sie anschließend {source} als Quelle.",
+        "caption": "Das Quellenmenü nach Add videos in den Waterfall-Einstellungen."
+      },
+      {
+        "title": "Clips mit unterschiedlichen Formaten auswählen",
+        "text": "Markieren Sie mehrere Hochformat- und Querformatvideos und bestätigen Sie die Auswahl. Beginnen Sie mit einer überschaubaren Anzahl, damit die einzelnen Clips gut erkennbar bleiben. Neue Clips ergänzen das vorhandene Mosaik. Auflösung und Dauer müssen nicht übereinstimmen.",
+        "caption": "Die Beispielclips werden gemeinsam ausgewählt und geöffnet."
+      },
+      {
+        "title": "Anordnung und automatisches Scrollen einstellen",
+        "text": "Wählen Sie unter Scroll direction Vertical oder Horizontal. Unter Video size stehen Compact, Normal und Large zur Wahl. Video spacing regelt den Abstand. Aktivieren Sie Auto-scroll und stellen Sie mit Scroll speed die Zeit für eine Bildschirmstrecke ein. Lassen Sie Mute für eine stumme Präsentation eingeschaltet.",
+        "caption": "Große Videokacheln und automatisches Scrollen sind aktiviert."
+      },
+      {
+        "title": "Das bewegte Mosaik ansehen",
+        "text": "Schließen Sie die Einstellungen. Passen alle Clips auf den Bildschirm, vergrößern Sie die Kacheln oder ergänzen Sie Videos, damit gescrollt werden kann. Tippen Sie auf ein Video, um Fortschritt und Entfernen-Schaltfläche einzublenden. Zum Beenden öffnen Sie die Einstellungen erneut und wählen Close Waterfall.",
+        "caption": "Hochformat- und Querformatvideos laufen im automatisch scrollenden Mosaik."
+      }
+    ],
+    "features": [
+      {
+        "title": "Scrolltempo und Wiedergabetempo sind getrennt",
+        "description": "Scroll speed ändert die Bewegung der gesamten Anordnung. Die Bewegung innerhalb der Videos bleibt unverändert. Ein höherer Wert in Sekunden pro Bildschirm sorgt für langsameres Scrollen."
+      },
+      {
+        "title": "Eine Kachel entfernen, ohne die Quelldatei zu löschen",
+        "description": "Die Entfernen-Schaltfläche nimmt ein Video aus dem aktuellen Waterfall heraus. Das Original in Ihrer Fotomediathek oder Ihren lokalen Dateien bleibt erhalten."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum bewegt sich trotz Auto-scroll scheinbar nichts?",
+        "answer": "Möglicherweise passen alle Videos in den sichtbaren Bereich. Wählen Sie eine größere Video size oder ergänzen Sie Clips und schließen Sie die Einstellungen zur Kontrolle."
+      },
+      {
+        "question": "Was unterscheidet Waterfall von Counterflow?",
+        "answer": "Waterfall ordnet Videos in einer gemeinsamen scrollenden Komposition an. Counterflow bewegt separate Zeilen oder Spalten abwechselnd in entgegengesetzte Richtungen. Für diese gegenläufige Bewegung wählen Sie Counterflow."
+      }
+    ]
+  }
+}

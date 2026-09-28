@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで1つの動画を最大化して分割画面へ戻る方法",
+    "description": "Androidで動画を大きく表示し、次の領域へ切り替え、長押しで元の分割レイアウトへ戻します。",
+    "summary": "1つの視点を大きく確認したら、素材を開き直さず比較画面へ戻れます。",
+    "answer": "下のCycle Maximized Paneで内容のある領域を順に最大化します。同じボタンを長押しすると元の配置に戻ります。",
+    "requirement": "ローカル動画を2本開きます。ボタンがなければMore → Customize Home Bottom ToolbarからCycle Maximized Paneを追加します。",
+    "steps": [
+      {
+        "title": "元の配置を確認する",
+        "text": "選んだレイアウトに両方の動画が読み込まれていることを確認します。最大化はこの画面の内容がある領域を対象にします。",
+        "caption": "2本のゴルフ動画を分割表示しています。"
+      },
+      {
+        "title": "最初の領域を広げる",
+        "text": "枠内に外向きの矢印があるCycle Maximized Paneをタップします。最初の空でない領域が広がり、ツールバーに番号が表示されます。",
+        "caption": "最初の動画が広がり、ボタンに1と表示されます。"
+      },
+      {
+        "title": "次の領域へ切り替える",
+        "text": "同じボタンをもう一度タップします。次の内容がある領域が広がり、この2本の例では番号が2になります。",
+        "caption": "2本目のゴルフ動画を大きく確認できます。"
+      },
+      {
+        "title": "元の分割画面へ戻す",
+        "text": "同じ最大化ボタンを長押しします。動画は元の領域へ戻り、そのまま比較を続けられます。",
+        "caption": "元の2領域の配置が復元されました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "細部の一時確認に使う",
+        "description": "小さな領域で見づらい部分を大きく表示できます。表示面積が増えるのであり、素材の解像度が上がるわけではありません。"
+      },
+      {
+        "title": "必要な配置は別途保存する",
+        "description": "同じ素材と配置を後で開くにはワークスペースのブックマークを保存します。最大化だけでは保存されません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "動画を読み込み直す必要はありますか？",
+        "answer": "ありません。最大化を解除すると既存の配置へ戻ります。"
+      },
+      {
+        "question": "Fillと同じ機能ですか？",
+        "answer": "違います。Fillは領域内の動画を切り抜いて満たし、最大化は領域そのものを一時的に広げます。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Agrandir une vidéo puis revenir à l’écran partagé sur Android",
+    "description": "Agrandissez une zone vidéo Android, passez à la suivante et retrouvez la disposition initiale avec un appui prolongé.",
+    "summary": "Examinez un angle en grand, puis revenez à la comparaison sans rouvrir les vidéos ni reconstruire le layout.",
+    "answer": "Utilisez Cycle Maximized Pane dans la barre du bas pour agrandir les zones occupées successivement. Maintenez le même bouton pour restaurer la disposition.",
+    "requirement": "Chargez deux vidéos locales. Si le bouton manque, ajoutez Cycle Maximized Pane dans More → Customize Home Bottom Toolbar.",
+    "steps": [
+      {
+        "title": "Partir de l’espace complet",
+        "text": "Vérifiez que les deux vidéos sont chargées dans la disposition choisie. L’agrandissement parcourt les zones occupées de cet espace.",
+        "caption": "Deux vidéos de golf sont visibles en écran partagé."
+      },
+      {
+        "title": "Agrandir la première zone",
+        "text": "Touchez Cycle Maximized Pane, représenté par des flèches sortantes dans un cadre. La première zone occupée s’étend et le bouton indique son numéro.",
+        "caption": "La première vidéo occupe l’espace et le bouton indique 1."
+      },
+      {
+        "title": "Passer à la suivante",
+        "text": "Touchez à nouveau le même bouton pour examiner la zone occupée suivante. Dans cet exemple à deux vidéos, le numéro devient 2.",
+        "caption": "La seconde vidéo de golf est agrandie."
+      },
+      {
+        "title": "Restaurer la disposition",
+        "text": "Maintenez le même bouton. Les deux vidéos retrouvent leurs zones initiales et la comparaison peut continuer.",
+        "caption": "La disposition à deux zones est restaurée."
+      }
+    ],
+    "features": [
+      {
+        "title": "Examiner temporairement un détail",
+        "description": "L’agrandissement rend visibles de petits détails difficiles à lire dans une grille dense. Il augmente l’espace d’affichage, pas la résolution source."
+      },
+      {
+        "title": "Enregistrer les dispositions importantes",
+        "description": "Utilisez un signet pour rouvrir les mêmes sources et le même layout plus tard. L’agrandissement est une commande de consultation, pas de sauvegarde."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Faut-il recharger les vidéos ?",
+        "answer": "Non. Quitter l’agrandissement restaure l’arrangement existant sans rouvrir chaque fichier."
+      },
+      {
+        "question": "Est-ce la même chose que Fill ?",
+        "answer": "Non. Fill recadre l’image dans sa zone ; l’agrandissement étend temporairement la zone dans l’espace de travail."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to maximize one video and return to split screen on Android",
+    "description": "Enlarge one Android video pane for a closer look, cycle to the next pane, and restore the original split-screen layout with a long press.",
+    "summary": "Inspect one view at full size, then return to the comparison without reopening the videos or rebuilding the layout.",
+    "answer": "Use Cycle Maximized Pane in the bottom toolbar to enlarge each occupied pane in turn. Long-press the same button to restore the original layout.",
+    "requirement": "Load two local videos and add Cycle Maximized Pane through More → Customize Home Bottom Toolbar if the button is missing.",
+    "steps": [
+      {
+        "title": "Start with the full workspace",
+        "text": "Check that both clips are loaded in your chosen layout. The maximize control acts on the occupied panes of this workspace.",
+        "caption": "Two golf clips are visible in the split-screen layout."
+      },
+      {
+        "title": "Enlarge the first pane",
+        "text": "Tap Cycle Maximized Pane, shown with outward arrows inside a frame. The first occupied pane expands, and the toolbar shows its index.",
+        "caption": "The first video fills the workspace and the button shows 1."
+      },
+      {
+        "title": "Move to the next enlarged pane",
+        "text": "Tap the same button again to inspect the next occupied pane at full size. In this two-video example, the toolbar index changes to 2.",
+        "caption": "The second golf video is enlarged for inspection."
+      },
+      {
+        "title": "Restore the split-screen layout",
+        "text": "Long-press the same maximize button. Both videos return to their original regions. You can continue the comparison with the layout intact.",
+        "caption": "The original two-pane arrangement is restored."
+      }
+    ],
+    "features": [
+      {
+        "title": "Use it for a closer inspection",
+        "description": "Maximizing helps reveal small details that are hard to see in a dense layout. It changes the viewing area, not the source resolution."
+      },
+      {
+        "title": "Save important arrangements separately",
+        "description": "Use a workspace bookmark when you want to reopen the same sources and layout later. Maximizing is a viewing control, not a bookmark action."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do I need to load the videos again?",
+        "answer": "No. Returning from maximization restores the existing arrangement; you do not need to reopen each source."
+      },
+      {
+        "question": "Is this the same as Fill?",
+        "answer": "No. Fill crops a video within its region. Maximizing temporarily expands the region to use the workspace."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como ampliar um vídeo e voltar à tela dividida no Android",
+    "description": "Amplie uma área de vídeo no Android, passe à próxima e restaure o layout original mantendo o botão pressionado.",
+    "summary": "Examine uma vista maior e retorne à comparação sem reabrir os vídeos nem reconstruir o layout.",
+    "answer": "Use Cycle Maximized Pane na barra inferior para ampliar cada área ocupada em sequência. Segure o mesmo botão para restaurar o layout.",
+    "requirement": "Carregue dois vídeos locais. Se o botão não aparecer, adicione Cycle Maximized Pane em More → Customize Home Bottom Toolbar.",
+    "steps": [
+      {
+        "title": "Começar com o espaço completo",
+        "text": "Confira se os dois vídeos estão carregados no layout escolhido. A ampliação percorre as áreas ocupadas desse espaço.",
+        "caption": "Dois vídeos de golfe aparecem na tela dividida."
+      },
+      {
+        "title": "Ampliar a primeira área",
+        "text": "Toque em Cycle Maximized Pane, com setas para fora dentro de uma moldura. A primeira área ocupada se expande e o botão mostra seu número.",
+        "caption": "O primeiro vídeo ocupa o espaço e o botão indica 1."
+      },
+      {
+        "title": "Passar à próxima área",
+        "text": "Toque novamente no mesmo botão para examinar a próxima área. Neste exemplo de dois vídeos, o número muda para 2.",
+        "caption": "O segundo vídeo de golfe é ampliado."
+      },
+      {
+        "title": "Restaurar o layout",
+        "text": "Segure o mesmo botão. Os vídeos voltam às áreas originais e você pode continuar a comparação.",
+        "caption": "O layout original com duas áreas é restaurado."
+      }
+    ],
+    "features": [
+      {
+        "title": "Examinar detalhes temporariamente",
+        "description": "A ampliação ajuda a ver detalhes pequenos em uma composição densa. Aumenta a área de exibição, não a resolução do arquivo."
+      },
+      {
+        "title": "Salve layouts importantes separadamente",
+        "description": "Use um favorito para reabrir as mesmas fontes e organização depois. Ampliar é um controle de visualização, não de salvamento."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Preciso carregar os vídeos novamente?",
+        "answer": "Não. Sair da ampliação restaura a organização existente sem reabrir cada fonte."
+      },
+      {
+        "question": "É a mesma coisa que Fill?",
+        "answer": "Não. Fill recorta o vídeo dentro da área. Ampliar expande temporariamente a própria área no espaço de trabalho."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 한 영상을 확대하고 분할 화면으로 돌아가기",
+    "description": "Android에서 한 영상 영역을 크게 보고 다음 영역으로 전환하세요. 버튼을 길게 누르면 원래 분할 화면으로 돌아갑니다.",
+    "summary": "한 시점을 크게 확인한 뒤 영상을 다시 열거나 배치를 만들지 않고 비교 화면으로 복귀하세요.",
+    "answer": "아래 Cycle Maximized Pane으로 내용이 있는 영역을 차례로 확대합니다. 같은 버튼을 길게 누르면 원래 배치를 복원합니다.",
+    "requirement": "로컬 영상 두 개를 여세요. 버튼이 없다면 More → Customize Home Bottom Toolbar에 Cycle Maximized Pane을 추가합니다.",
+    "steps": [
+      {
+        "title": "전체 작업 공간에서 시작하기",
+        "text": "선택한 배치에 두 영상이 모두 불러와졌는지 확인하세요. 확대는 이 작업 공간의 내용이 있는 영역을 대상으로 합니다.",
+        "caption": "골프 영상 두 개가 분할 화면에 표시됩니다."
+      },
+      {
+        "title": "첫 영역 확대하기",
+        "text": "테두리 안에 바깥쪽 화살표가 있는 Cycle Maximized Pane을 누르세요. 첫 번째 비어 있지 않은 영역이 커지고 도구 모음에 번호가 표시됩니다.",
+        "caption": "첫 영상이 커지고 버튼에 1이 표시됩니다."
+      },
+      {
+        "title": "다음 영역으로 전환하기",
+        "text": "같은 버튼을 다시 눌러 다음 영역을 크게 보세요. 영상 두 개를 사용한 예시에서는 번호가 2로 바뀝니다.",
+        "caption": "두 번째 골프 영상을 크게 확인합니다."
+      },
+      {
+        "title": "원래 분할 화면 복원하기",
+        "text": "같은 확대 버튼을 길게 누르세요. 영상이 원래 영역으로 돌아오며 배치를 유지한 채 비교를 계속할 수 있습니다.",
+        "caption": "원래 두 영역 배치가 복원되었습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "세부 확인에 활용하세요",
+        "description": "촘촘한 화면에서 보기 어려운 작은 부분을 크게 볼 수 있습니다. 표시 면적이 커질 뿐 원본 해상도가 높아지지는 않습니다."
+      },
+      {
+        "title": "중요한 배치는 따로 저장하세요",
+        "description": "같은 소재와 배치를 나중에 다시 열려면 작업 공간 북마크를 저장하세요. 확대는 보기 조작이며 저장 기능이 아닙니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "영상을 다시 불러와야 하나요?",
+        "answer": "아니요. 확대를 끝내면 기존 배치가 복원되므로 파일을 다시 열 필요가 없습니다."
+      },
+      {
+        "question": "Fill과 같은 기능인가요?",
+        "answer": "아니요. Fill은 영역 안에서 영상을 잘라 채우고, 확대는 영역 자체를 작업 공간 크기로 펼칩니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo ampliar un vídeo y volver a la pantalla dividida en Android",
+    "description": "Amplía una zona de vídeo en Android, pasa a la siguiente y recupera la distribución original manteniendo pulsado el botón.",
+    "summary": "Examina una vista en grande y vuelve a la comparación sin reabrir los vídeos ni reconstruir la distribución.",
+    "answer": "Usa Cycle Maximized Pane en la barra inferior para ampliar cada zona ocupada por turno. Mantén el mismo botón para restaurar el layout.",
+    "requirement": "Carga dos vídeos locales. Si falta el botón, añade Cycle Maximized Pane en More → Customize Home Bottom Toolbar.",
+    "steps": [
+      {
+        "title": "Empezar con el espacio completo",
+        "text": "Comprueba que los dos vídeos están cargados en la distribución elegida. La ampliación recorre las zonas ocupadas de ese espacio.",
+        "caption": "Dos vídeos de golf aparecen en pantalla dividida."
+      },
+      {
+        "title": "Ampliar la primera zona",
+        "text": "Toca Cycle Maximized Pane, con flechas hacia fuera dentro de un marco. La primera zona ocupada se expande y el botón muestra su número.",
+        "caption": "El primer vídeo ocupa el espacio y el botón indica 1."
+      },
+      {
+        "title": "Pasar a la siguiente",
+        "text": "Toca de nuevo el mismo botón para examinar la siguiente zona. En este ejemplo de dos vídeos, el número cambia a 2.",
+        "caption": "El segundo vídeo de golf se muestra ampliado."
+      },
+      {
+        "title": "Restaurar la distribución",
+        "text": "Mantén el mismo botón. Los vídeos vuelven a sus zonas originales y puedes continuar la comparación.",
+        "caption": "Se restaura la distribución original de dos zonas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Examinar detalles temporalmente",
+        "description": "La ampliación ayuda a ver detalles pequeños de una distribución densa. Aumenta el área visible, no la resolución del archivo."
+      },
+      {
+        "title": "Guardar las distribuciones importantes",
+        "description": "Usa un marcador para reabrir las mismas fuentes y distribución más tarde. Ampliar es un control de visualización, no de guardado."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Necesito cargar los vídeos otra vez?",
+        "answer": "No. Al salir de la ampliación se restaura la distribución existente sin reabrir cada fuente."
+      },
+      {
+        "question": "¿Es lo mismo que Fill?",
+        "answer": "No. Fill recorta el vídeo dentro de su zona. Ampliar expande temporalmente la propia zona dentro del espacio de trabajo."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上放大单个视频并返回分屏",
+    "description": "在 Android 上放大一个视频区域查看细节，轮换到下一个区域，再长按按钮恢复原来的分屏布局。",
+    "summary": "先全幅检查一个视角，再回到多视频对比，无需重新打开素材或搭建布局。",
+    "answer": "使用底部 Cycle Maximized Pane 依次放大已有内容的区域，长按同一个按钮可恢复原分屏。",
+    "requirement": "先载入两段本地视频。缺少按钮时，在 More → Customize Home Bottom Toolbar 中添加 Cycle Maximized Pane。",
+    "steps": [
+      {
+        "title": "从完整工作区开始",
+        "text": "确认两段视频已经放在选好的布局中。放大控制会依次作用于当前工作区里已有内容的区域。",
+        "caption": "两段高尔夫视频显示在分屏布局中。"
+      },
+      {
+        "title": "放大第一个区域",
+        "text": "点按带边框和向外箭头的 Cycle Maximized Pane。第一个非空区域展开，工具栏显示对应编号。",
+        "caption": "第一个视频占满工作区，按钮显示编号 1。"
+      },
+      {
+        "title": "轮换到下一个区域",
+        "text": "再次点按同一按钮，全幅查看下一个非空区域。本例只有两个视频，工具栏编号变为 2。",
+        "caption": "第二段高尔夫视频被放大查看。"
+      },
+      {
+        "title": "恢复原来的分屏",
+        "text": "长按同一个放大按钮，两段视频回到原来的区域。布局保留，可以继续对比。",
+        "caption": "原有的两个区域已经恢复。"
+      }
+    ],
+    "features": [
+      {
+        "title": "用于临时检查细节",
+        "description": "密集布局中不容易看清的小细节，可以放大后查看。它增加显示面积，不会提升原素材分辨率。"
+      },
+      {
+        "title": "重要排列应另外保存",
+        "description": "要下次重新打开同样的素材和布局，请保存工作区书签。放大是观看操作，不会自动创建书签。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "返回时需要重新载入视频吗？",
+        "answer": "不需要。结束放大后恢复现有排列，无需逐个重新打开来源。"
+      },
+      {
+        "question": "放大区域等同于 Fill 吗？",
+        "answer": "不同。Fill 在区域内部裁剪填满视频，放大则临时让整个区域展开到工作区。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Ein Video auf Android maximieren und zur Teilansicht zurückkehren",
+    "description": "Vergrößern Sie einen Android-Videobereich, wechseln Sie zum nächsten und stellen Sie das ursprüngliche Layout durch langes Drücken wieder her.",
+    "summary": "Prüfen Sie eine Ansicht groß und kehren Sie zum Vergleich zurück, ohne Videos erneut zu laden oder das Layout neu aufzubauen.",
+    "answer": "Cycle Maximized Pane in der unteren Leiste maximiert belegte Bereiche nacheinander. Langes Drücken derselben Taste stellt die ursprüngliche Aufteilung wieder her.",
+    "requirement": "Laden Sie zwei lokale Videos. Ergänzen Sie Cycle Maximized Pane bei Bedarf unter More → Customize Home Bottom Toolbar.",
+    "steps": [
+      {
+        "title": "Mit dem ganzen Arbeitsbereich beginnen",
+        "text": "Prüfen Sie, ob beide Videos im gewählten Layout geladen sind. Die Maximierung durchläuft die belegten Bereiche dieses Arbeitsbereichs.",
+        "caption": "Zwei Golfclips sind im geteilten Bildschirm sichtbar."
+      },
+      {
+        "title": "Den ersten Bereich vergrößern",
+        "text": "Tippen Sie auf Cycle Maximized Pane mit den nach außen gerichteten Pfeilen im Rahmen. Der erste belegte Bereich wird groß, die Taste zeigt seine Nummer.",
+        "caption": "Das erste Video füllt den Arbeitsbereich; die Taste zeigt 1."
+      },
+      {
+        "title": "Zum nächsten Bereich wechseln",
+        "text": "Tippen Sie erneut auf dieselbe Taste. Der nächste belegte Bereich wird groß angezeigt. In diesem Beispiel wechselt die Nummer zu 2.",
+        "caption": "Das zweite Golfvideo ist zur Prüfung vergrößert."
+      },
+      {
+        "title": "Das ursprüngliche Layout wiederherstellen",
+        "text": "Halten Sie dieselbe Taste gedrückt. Beide Videos kehren in ihre bisherigen Bereiche zurück und der Vergleich kann weitergehen.",
+        "caption": "Die ursprüngliche Aufteilung in zwei Bereiche ist wieder da."
+      }
+    ],
+    "features": [
+      {
+        "title": "Details vorübergehend größer ansehen",
+        "description": "Kleine Details einer dichten Anordnung werden leichter erkennbar. Die Anzeige wächst, nicht die Auflösung der Quelle."
+      },
+      {
+        "title": "Wichtige Anordnungen separat speichern",
+        "description": "Speichern Sie ein Arbeitsbereich-Lesezeichen, um Quellen und Layout später wieder zu öffnen. Maximieren ist eine Ansichtssteuerung, keine Speicheraktion."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Muss ich die Videos erneut laden?",
+        "answer": "Nein. Das Beenden der Maximierung stellt die vorhandene Anordnung ohne erneutes Öffnen wieder her."
+      },
+      {
+        "question": "Ist das dasselbe wie Fill?",
+        "answer": "Nein. Fill beschneidet das Video innerhalb seines Bereichs. Maximieren erweitert vorübergehend den Bereich auf den Arbeitsbereich."
+      }
+    ]
+  }
+}

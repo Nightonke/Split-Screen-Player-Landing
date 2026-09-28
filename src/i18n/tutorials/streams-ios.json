@@ -1,0 +1,394 @@
+{
+  "en-US": {
+    "title": "How to play RTSP and HLS streams together on iPhone or iPad",
+    "description": "Open RTSP and HLS links together in Split Screen Player on iPhone or iPad. Follow real iPhone screenshots to add both sources and hide the controls.",
+    "summary": "Keep two network video sources in one split-screen workspace, then hide the controls for a clear view.",
+    "answer": "Choose a two-pane layout, tap the bottom + button (Open Multiple) and choose Web/Stream. Enter an RTSP URL and an HLS URL on separate lines, keep Auto selected and tap the blue arrow. This example places RTSP above HLS.",
+    "requirement": "Prepare reachable RTSP and HLS (.m3u8) URLs. For streams hosted on your Mac, connect the phone and Mac to the same local network. The addresses pictured belong to a local golf test setup; replace them with your own.",
+    "steps": [
+      {
+        "title": "Open the stream input",
+        "text": "Start with two empty panes arranged vertically. Tap the bottom + button (Open Multiple), then choose Web/Stream in the Open menu to add both sources together.",
+        "caption": "The Open menu includes Web/Stream beneath the media source buttons."
+      },
+      {
+        "title": "Enter both addresses",
+        "text": "Paste the RTSP address on the first line and the HLS address on the next. Leave the mode on Auto, as shown, and tap the blue arrow to open these direct stream links.",
+        "caption": "Two complete stream URLs entered on separate lines with Auto selected."
+      },
+      {
+        "title": "Check both players",
+        "text": "Wait for both pictures to appear, then tap the video areas to reveal their controls. In this example RTSP is on top and HLS is below; both players show LIVE. Check that both pictures continue moving.",
+        "caption": "RTSP above HLS on a real iPhone, with LIVE labels and playback controls visible."
+      },
+      {
+        "title": "Watch with the controls hidden",
+        "text": "Use Hide Toolbar to collapse the bottom toolbar and let the player controls fade. Both streams stay in view. The final screenshot shows a full-screen arrangement with no controls covering the golf swings.",
+        "caption": "Two golf streams displayed together with the controls hidden."
+      }
+    ],
+    "features": [
+      {
+        "title": "Allow for different delays",
+        "description": "RTSP and HLS can buffer differently. Playing them together does not align the same instant in both pictures; use local recordings for precise frame-by-frame comparison."
+      },
+      {
+        "title": "Test the sources separately if needed",
+        "description": "If one pane stays blank, try its URL alone and confirm the server is online. For a local server, also check the Wi-Fi connection and the app’s Local Network permission."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I copy the addresses in the screenshot?",
+        "answer": "They are temporary addresses on the test Mac’s local network, not public demo links. Use your own reachable stream endpoints; 127.0.0.1 on a phone refers to the phone itself."
+      },
+      {
+        "question": "Can I use a normal video webpage instead?",
+        "answer": "A watch-page URL is different from a direct RTSP or HLS media URL. Use Web for browsing pages. This guide uses direct streams and does not establish support for every website or protected service."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上同时播放 RTSP 和 HLS 流媒体",
+    "description": "在 iPhone 或 iPad 的 Split Screen Player 中一起打开 RTSP 和 HLS 地址。对照真机截图添加两路视频，再收起控件观看。",
+    "summary": "将两路网络视频放在同一个分屏工作区，收起控件后更清楚地观看画面。",
+    "answer": "选择上下双区布局，点底部 +（Open Multiple），再选 Web/Stream。将 RTSP 和 HLS 地址分别输入一行，保留 Auto 模式，点蓝色箭头打开。本例上方为 RTSP，下方为 HLS。",
+    "requirement": "准备可访问的 RTSP 和 HLS（.m3u8）地址。如果流由 Mac 提供，请让手机和 Mac 连接同一局域网。图中地址属于本地高尔夫测试源，使用时需要换成自己的地址。",
+    "steps": [
+      {
+        "title": "打开流媒体输入入口",
+        "text": "从上下两个空白区域开始。点底部 +（Open Multiple），在 Open 菜单中选择 Web/Stream，一次添加两路来源。",
+        "caption": "Open 菜单中的 Web/Stream 入口位于媒体来源按钮下方。"
+      },
+      {
+        "title": "输入两路地址",
+        "text": "第一行粘贴 RTSP 地址，下一行粘贴 HLS 地址。按照截图保留 Auto 模式，点蓝色箭头打开这两个直接流媒体地址。",
+        "caption": "两个完整流地址分别输入一行，模式为 Auto。"
+      },
+      {
+        "title": "检查两个播放器",
+        "text": "等待两路画面出现，再点按视频区域显示控件。本例上方为 RTSP，下方为 HLS，两个播放器都显示 LIVE。观察两幅画面是否持续变化。",
+        "caption": "iPhone 真机上，上方 RTSP、下方 HLS，均显示 LIVE 和播放控件。"
+      },
+      {
+        "title": "收起控件观看",
+        "text": "使用 Hide Toolbar 收起底部操作栏，等待播放器控件淡出，两路视频仍会保持可见。最后一张图展示了无遮挡的全屏布局，便于观看两段挥杆画面。",
+        "caption": "收起控件后，两路高尔夫流媒体在同一屏幕中显示。"
+      }
+    ],
+    "features": [
+      {
+        "title": "两路来源可能存在不同延迟",
+        "description": "RTSP 和 HLS 的缓冲方式可能不同，同时播放并不意味着画面对齐到同一时刻。需要精确逐帧对比时，请使用本地录像。"
+      },
+      {
+        "title": "遇到问题时分别检查来源",
+        "description": "如果某一区域没有画面，先单独打开该地址，并确认服务器在线。本地服务器还需要检查 Wi-Fi 连接和 App 的本地网络权限。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "可以直接复制截图中的地址吗？",
+        "answer": "这些是测试 Mac 所在局域网中的临时地址，不是公开演示链接。请使用自己能够访问的流地址；手机上的 127.0.0.1 指向手机自身。"
+      },
+      {
+        "question": "普通视频网页地址也能这样打开吗？",
+        "answer": "视频播放网页与直接的 RTSP 或 HLS 媒体地址不同。浏览网页请使用 Web。本教程展示直接流媒体，不代表所有网站或受保护服务都能按此方式播放。"
+      }
+    ]
+  },
+  "ja": {
+    "title": "iPhoneやiPadでRTSPとHLSを同時に再生する方法",
+    "description": "iPhoneやiPadのSplit Screen PlayerでRTSPとHLSのURLをまとめて開きます。実機のスクリーンショットで、追加から操作ボタンを隠すまでを確認できます。",
+    "summary": "2つのネットワーク動画を分割画面に並べ、操作ボタンを隠して見やすく表示します。",
+    "answer": "上下2つの領域を選び、下部の＋（Open Multiple）からWeb/Streamを開きます。RTSPとHLSのURLを1行ずつ入力し、Autoのまま青い矢印をタップします。この例では上がRTSP、下がHLSです。",
+    "requirement": "アクセス可能なRTSPとHLS（.m3u8）のURLを用意します。Macから配信する場合は、iPhoneとMacを同じローカルネットワークに接続してください。画像内のURLはゴルフ動画のローカルテスト用なので、自分のURLに置き換えます。",
+    "steps": [
+      {
+        "title": "ストリームの入力画面を開く",
+        "text": "上下2つの空の領域から始めます。下部の＋（Open Multiple）をタップし、OpenメニューでWeb/Streamを選んで2つの配信元をまとめて追加します。",
+        "caption": "Openメニューのメディア選択ボタンの下にWeb/Streamがあります。"
+      },
+      {
+        "title": "2つのURLを入力する",
+        "text": "1行目にRTSPのURL、次の行にHLSのURLを貼り付けます。画像と同じAutoを選んだまま青い矢印をタップし、直接のストリームURLを開きます。",
+        "caption": "完全なストリームURLを1行ずつ入力し、Autoを選択しています。"
+      },
+      {
+        "title": "両方のプレーヤーを確認する",
+        "text": "2つの映像が表示されるまで待ち、動画領域をタップして操作ボタンを表示します。この例では上がRTSP、下がHLSで、両方にLIVEと表示されています。両方の映像が動き続けることを確認してください。",
+        "caption": "iPhone実機で、上にRTSP、下にHLSを表示。LIVE表示と再生操作ボタンが見えます。"
+      },
+      {
+        "title": "操作ボタンを隠して見る",
+        "text": "Hide Toolbarで下部のツールバーを隠し、プレーヤーの操作ボタンが消えるまで待ちます。2つの映像はそのまま表示されます。最後の画像は、操作ボタンがスイングに重ならない全画面の配置です。",
+        "caption": "操作ボタンを隠した状態で、2つのゴルフ動画ストリームを表示しています。"
+      }
+    ],
+    "features": [
+      {
+        "title": "配信ごとの遅延に注意する",
+        "description": "RTSPとHLSではバッファリングが異なる場合があります。同時再生しても同じ瞬間にそろうとは限りません。正確なコマ送り比較にはローカル録画を使ってください。"
+      },
+      {
+        "title": "問題があれば配信元を個別に確認する",
+        "description": "一方が空白のままなら、そのURLだけを開き、サーバーが稼働しているか確認します。ローカルサーバーの場合はWi-Fi接続とアプリのローカルネットワーク権限も確認してください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "画像のURLをそのまま使えますか？",
+        "answer": "テスト用Macのローカルネットワーク内で使う一時的なURLで、公開デモのリンクではありません。自分がアクセスできる配信URLを使ってください。スマートフォン上の127.0.0.1は、そのスマートフォン自身を指します。"
+      },
+      {
+        "question": "普通の動画ページのURLも使えますか？",
+        "answer": "動画の視聴ページと、直接のRTSP・HLSメディアURLは異なります。ページの閲覧にはWebを使います。この手順は直接のストリームを対象としており、すべてのサイトや保護されたサービスの再生を保証するものではありません。"
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 RTSP와 HLS 스트림을 함께 재생하는 방법",
+    "description": "iPhone 또는 iPad의 Split Screen Player에서 RTSP와 HLS 주소를 함께 여세요. 실제 기기 스크린샷을 보며 두 영상을 추가하고 조작 버튼을 숨길 수 있습니다.",
+    "summary": "두 네트워크 영상을 하나의 분할 화면에 놓고 조작 버튼을 숨겨 더 넓게 감상하세요.",
+    "answer": "위아래 두 영역 레이아웃을 선택하고 하단 + 버튼(Open Multiple)에서 Web/Stream을 여세요. RTSP와 HLS 주소를 한 줄에 하나씩 입력한 뒤 Auto를 유지하고 파란 화살표를 누릅니다. 이 예에서는 위가 RTSP, 아래가 HLS입니다.",
+    "requirement": "접속 가능한 RTSP 및 HLS(.m3u8) 주소를 준비하세요. Mac에서 스트림을 제공한다면 휴대폰과 Mac을 같은 로컬 네트워크에 연결합니다. 사진 속 주소는 골프 영상 테스트용 로컬 주소이므로 자신의 주소로 바꿔야 합니다.",
+    "steps": [
+      {
+        "title": "스트림 입력 화면 열기",
+        "text": "위아래로 배치된 빈 영역 두 개에서 시작합니다. 하단 + 버튼(Open Multiple)을 누르고 Open 메뉴의 Web/Stream을 선택해 두 소스를 함께 추가하세요.",
+        "caption": "Open 메뉴의 미디어 소스 버튼 아래에 Web/Stream이 있습니다."
+      },
+      {
+        "title": "두 주소 입력하기",
+        "text": "첫 줄에 RTSP 주소를, 다음 줄에 HLS 주소를 붙여 넣습니다. 사진처럼 Auto를 유지하고 파란 화살표를 눌러 두 직접 스트림 주소를 여세요.",
+        "caption": "완전한 스트림 주소 두 개를 각각 한 줄에 입력하고 Auto를 선택한 화면입니다."
+      },
+      {
+        "title": "두 플레이어 확인하기",
+        "text": "두 영상이 나타날 때까지 기다린 뒤 영상 영역을 눌러 조작 버튼을 표시하세요. 이 예에서는 위쪽이 RTSP, 아래쪽이 HLS이며 둘 다 LIVE로 표시됩니다. 두 화면이 계속 움직이는지 확인합니다.",
+        "caption": "iPhone 실기기에서 위쪽 RTSP와 아래쪽 HLS의 LIVE 표시 및 재생 버튼이 보입니다."
+      },
+      {
+        "title": "조작 버튼을 숨기고 감상하기",
+        "text": "Hide Toolbar로 하단 도구 모음을 접고 플레이어 조작 버튼이 사라질 때까지 기다리세요. 두 영상은 계속 표시됩니다. 마지막 사진은 골프 스윙을 가리는 버튼이 없는 전체 화면 배치입니다.",
+        "caption": "조작 버튼을 숨긴 채 두 골프 스트림을 함께 표시합니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "스트림마다 지연이 다를 수 있습니다",
+        "description": "RTSP와 HLS는 버퍼링 방식이 다를 수 있습니다. 함께 재생해도 같은 순간으로 맞춰지는 것은 아닙니다. 정확한 프레임 비교에는 로컬 녹화 영상을 사용하세요."
+      },
+      {
+        "title": "문제가 생기면 소스를 하나씩 확인하세요",
+        "description": "한쪽 화면이 비어 있으면 해당 주소만 열어 보고 서버가 작동 중인지 확인하세요. 로컬 서버라면 Wi-Fi 연결과 앱의 로컬 네트워크 권한도 확인합니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "스크린샷의 주소를 그대로 써도 되나요?",
+        "answer": "테스트 Mac의 로컬 네트워크에서 사용하는 임시 주소이며 공개 데모 링크가 아닙니다. 직접 접속할 수 있는 스트림 주소를 사용하세요. 휴대폰에서 127.0.0.1은 그 휴대폰 자체를 가리킵니다."
+      },
+      {
+        "question": "일반 동영상 웹페이지 주소도 쓸 수 있나요?",
+        "answer": "시청용 웹페이지 주소와 직접 RTSP 또는 HLS 미디어 주소는 다릅니다. 웹페이지는 Web으로 여세요. 이 안내는 직접 스트림을 대상으로 하며 모든 웹사이트나 보호된 서비스의 지원을 확인한 것은 아닙니다."
+      }
+    ]
+  },
+  "fr": {
+    "title": "Lire des flux RTSP et HLS ensemble sur iPhone ou iPad",
+    "description": "Ouvrez des liens RTSP et HLS ensemble dans Split Screen Player sur iPhone ou iPad. Des captures sur iPhone montrent l’ajout des sources et le masquage des commandes.",
+    "summary": "Gardez deux vidéos réseau dans un même écran partagé, puis masquez les commandes pour mieux les voir.",
+    "answer": "Choisissez deux zones superposées, touchez le + du bas (Open Multiple), puis Web/Stream. Saisissez une URL RTSP et une URL HLS sur deux lignes, gardez Auto et touchez la flèche bleue. Ici, RTSP est en haut et HLS en bas.",
+    "requirement": "Préparez des URL RTSP et HLS (.m3u8) accessibles. Si le Mac héberge les flux, connectez le téléphone et le Mac au même réseau local. Les adresses illustrées servent à un test local avec des vidéos de golf : remplacez-les par les vôtres.",
+    "steps": [
+      {
+        "title": "Ouvrir la saisie des flux",
+        "text": "Partez de deux zones vides superposées. Touchez le + du bas (Open Multiple), puis Web/Stream dans le menu Open pour ajouter les deux sources ensemble.",
+        "caption": "Web/Stream se trouve dans le menu Open, sous les boutons des sources multimédias."
+      },
+      {
+        "title": "Saisir les deux adresses",
+        "text": "Collez l’adresse RTSP sur la première ligne et l’adresse HLS sur la suivante. Gardez Auto, comme sur la capture, puis touchez la flèche bleue pour ouvrir ces liens directs.",
+        "caption": "Deux URL de flux complètes sur des lignes distinctes, avec Auto sélectionné."
+      },
+      {
+        "title": "Vérifier les deux lecteurs",
+        "text": "Attendez que les deux images apparaissent, puis touchez les zones vidéo pour afficher les commandes. Dans cet exemple, RTSP est en haut et HLS en bas ; les deux lecteurs affichent LIVE. Vérifiez que les deux images continuent de bouger.",
+        "caption": "RTSP au-dessus de HLS sur un iPhone réel, avec les mentions LIVE et les commandes de lecture."
+      },
+      {
+        "title": "Regarder sans les commandes",
+        "text": "Utilisez Hide Toolbar pour masquer la barre du bas, puis laissez les commandes des lecteurs disparaître. Les deux flux restent visibles. La dernière capture montre une disposition plein écran sans boutons devant les swings.",
+        "caption": "Deux flux de golf affichés ensemble, commandes masquées."
+      }
+    ],
+    "features": [
+      {
+        "title": "Prévoir des délais différents",
+        "description": "RTSP et HLS peuvent utiliser des mises en mémoire tampon différentes. Les lire ensemble ne les aligne pas au même instant. Utilisez des enregistrements locaux pour une comparaison précise image par image."
+      },
+      {
+        "title": "Tester chaque source en cas de problème",
+        "description": "Si une zone reste vide, ouvrez son URL seule et vérifiez que le serveur fonctionne. Pour un serveur local, vérifiez aussi le Wi-Fi et l’autorisation Réseau local de l’app."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Puis-je copier les adresses de la capture ?",
+        "answer": "Ce sont des adresses temporaires sur le réseau local du Mac de test, pas des liens de démonstration publics. Utilisez vos propres sources accessibles. Sur un téléphone, 127.0.0.1 désigne le téléphone lui-même."
+      },
+      {
+        "question": "Puis-je utiliser une page web de vidéo ?",
+        "answer": "L’adresse d’une page de lecture diffère d’une URL multimédia RTSP ou HLS directe. Utilisez Web pour consulter une page. Ce guide concerne les flux directs et ne valide pas tous les sites ni les services protégés."
+      }
+    ]
+  },
+  "de": {
+    "title": "RTSP- und HLS-Streams auf iPhone oder iPad gleichzeitig abspielen",
+    "description": "Öffnen Sie RTSP- und HLS-Links zusammen in Split Screen Player auf iPhone oder iPad. Screenshots vom echten iPhone zeigen das Hinzufügen und Ausblenden der Bedienelemente.",
+    "summary": "Zeigen Sie zwei Netzwerkvideos in einem geteilten Bildschirm und blenden Sie die Bedienelemente für freie Sicht aus.",
+    "answer": "Wählen Sie zwei Bereiche untereinander, tippen Sie unten auf + (Open Multiple) und dann auf Web/Stream. Geben Sie je eine RTSP- und HLS-URL pro Zeile ein, lassen Sie Auto ausgewählt und tippen Sie auf den blauen Pfeil. Hier läuft RTSP oben und HLS unten.",
+    "requirement": "Halten Sie erreichbare RTSP- und HLS-URLs (.m3u8) bereit. Stellt Ihr Mac die Streams bereit, müssen Telefon und Mac im selben lokalen Netzwerk sein. Die gezeigten Adressen gehören zu einem lokalen Golf-Testaufbau; ersetzen Sie sie durch Ihre eigenen.",
+    "steps": [
+      {
+        "title": "Die Stream-Eingabe öffnen",
+        "text": "Beginnen Sie mit zwei leeren Bereichen untereinander. Tippen Sie unten auf + (Open Multiple) und wählen Sie Web/Stream im Menü Open, um beide Quellen zusammen hinzuzufügen.",
+        "caption": "Web/Stream steht im Menü Open unter den Schaltflächen für Medienquellen."
+      },
+      {
+        "title": "Beide Adressen eingeben",
+        "text": "Fügen Sie die RTSP-Adresse in die erste und die HLS-Adresse in die nächste Zeile ein. Lassen Sie wie im Bild Auto ausgewählt und tippen Sie auf den blauen Pfeil, um die direkten Stream-Links zu öffnen.",
+        "caption": "Zwei vollständige Stream-URLs in getrennten Zeilen bei ausgewähltem Auto-Modus."
+      },
+      {
+        "title": "Beide Player prüfen",
+        "text": "Warten Sie auf beide Bilder und tippen Sie auf die Videobereiche, um die Bedienelemente anzuzeigen. Hier ist RTSP oben und HLS unten; beide Player zeigen LIVE an. Prüfen Sie, ob sich beide Bilder weiterbewegen.",
+        "caption": "RTSP über HLS auf einem echten iPhone, mit LIVE-Anzeigen und Wiedergabesteuerung."
+      },
+      {
+        "title": "Ohne Bedienelemente ansehen",
+        "text": "Blenden Sie mit Hide Toolbar die untere Leiste aus und warten Sie, bis die Player-Steuerungen verschwinden. Beide Streams bleiben sichtbar. Das letzte Bild zeigt eine Vollbildanordnung ohne Schaltflächen vor den Golfschwüngen.",
+        "caption": "Zwei Golf-Streams gemeinsam bei ausgeblendeten Bedienelementen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Unterschiedliche Verzögerungen einplanen",
+        "description": "RTSP und HLS können unterschiedlich puffern. Gleichzeitige Wiedergabe richtet die Bilder nicht auf denselben Zeitpunkt aus. Verwenden Sie für genaue Einzelbildvergleiche lokale Aufnahmen."
+      },
+      {
+        "title": "Bei Problemen die Quellen einzeln prüfen",
+        "description": "Bleibt ein Bereich leer, öffnen Sie seine URL allein und prüfen Sie den Server. Bei einem lokalen Server sind auch WLAN-Verbindung und die Berechtigung Lokales Netzwerk der App zu prüfen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kann ich die Adressen aus dem Screenshot übernehmen?",
+        "answer": "Es sind vorübergehende Adressen im lokalen Netzwerk des Test-Macs, keine öffentlichen Demo-Links. Nutzen Sie eigene erreichbare Quellen. Auf einem Telefon bezeichnet 127.0.0.1 das Telefon selbst."
+      },
+      {
+        "question": "Kann ich auch eine normale Videowebseite verwenden?",
+        "answer": "Die Adresse einer Videoseite ist etwas anderes als eine direkte RTSP- oder HLS-Medien-URL. Verwenden Sie Web zum Surfen. Diese Anleitung behandelt direkte Streams und bestätigt keine Unterstützung für jede Website oder geschützte Dienste."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo reproducir RTSP y HLS a la vez en iPhone o iPad",
+    "description": "Abre enlaces RTSP y HLS juntos en Split Screen Player para iPhone o iPad. Las capturas de un iPhone real muestran cómo añadir las fuentes y ocultar los controles.",
+    "summary": "Mantén dos vídeos de red en una pantalla dividida y oculta los controles para verlos con claridad.",
+    "answer": "Elige dos zonas, una encima de otra, toca el + inferior (Open Multiple) y selecciona Web/Stream. Introduce una URL RTSP y otra HLS en líneas separadas, deja Auto y toca la flecha azul. En este ejemplo, RTSP está arriba y HLS abajo.",
+    "requirement": "Prepara URL RTSP y HLS (.m3u8) accesibles. Si el Mac sirve los vídeos, conecta el teléfono y el Mac a la misma red local. Las direcciones de las capturas son de una prueba local con vídeos de golf; sustitúyelas por las tuyas.",
+    "steps": [
+      {
+        "title": "Abrir la entrada de streams",
+        "text": "Empieza con dos zonas vacías en vertical. Toca el + inferior (Open Multiple) y elige Web/Stream en el menú Open para añadir ambas fuentes juntas.",
+        "caption": "Web/Stream aparece en el menú Open, debajo de los botones de fuentes multimedia."
+      },
+      {
+        "title": "Introducir las dos direcciones",
+        "text": "Pega la dirección RTSP en la primera línea y la HLS en la siguiente. Mantén Auto, como en la captura, y toca la flecha azul para abrir estos enlaces directos.",
+        "caption": "Dos URL completas en líneas separadas con Auto seleccionado."
+      },
+      {
+        "title": "Comprobar ambos reproductores",
+        "text": "Espera a que aparezcan ambas imágenes y toca las zonas de vídeo para mostrar los controles. Aquí RTSP está arriba y HLS abajo; ambos muestran LIVE. Comprueba que las dos imágenes siguen moviéndose.",
+        "caption": "RTSP arriba y HLS abajo en un iPhone real, con las etiquetas LIVE y los controles visibles."
+      },
+      {
+        "title": "Ver los vídeos sin controles",
+        "text": "Usa Hide Toolbar para ocultar la barra inferior y deja que desaparezcan los controles de los reproductores. Ambas fuentes siguen visibles. La última captura muestra una disposición a pantalla completa sin botones sobre los swings.",
+        "caption": "Dos streams de golf juntos con los controles ocultos."
+      }
+    ],
+    "features": [
+      {
+        "title": "Tener en cuenta los distintos retardos",
+        "description": "RTSP y HLS pueden almacenar el vídeo en búfer de forma distinta. Reproducirlos juntos no alinea el mismo instante en ambas imágenes. Para comparar fotogramas con precisión, usa grabaciones locales."
+      },
+      {
+        "title": "Probar las fuentes por separado si hay problemas",
+        "description": "Si una zona sigue vacía, abre su URL por separado y comprueba que el servidor esté activo. Con un servidor local, revisa también el Wi-Fi y el permiso Red local de la app."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Puedo copiar las direcciones de la captura?",
+        "answer": "Son direcciones temporales de la red local del Mac de prueba, no enlaces públicos de demostración. Usa fuentes a las que puedas acceder. En un teléfono, 127.0.0.1 se refiere al propio teléfono."
+      },
+      {
+        "question": "¿Puedo usar una página web de vídeo normal?",
+        "answer": "La URL de una página de reproducción no equivale a una URL multimedia RTSP o HLS directa. Usa Web para navegar por páginas. Esta guía trata de streams directos y no confirma la compatibilidad con todos los sitios o servicios protegidos."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como reproduzir RTSP e HLS juntos no iPhone ou iPad",
+    "description": "Abra links RTSP e HLS juntos no Split Screen Player para iPhone ou iPad. Capturas de um iPhone real mostram como adicionar as fontes e ocultar os controles.",
+    "summary": "Mantenha dois vídeos de rede em uma tela dividida e oculte os controles para ver as imagens com clareza.",
+    "answer": "Escolha duas áreas, uma acima da outra, toque no + inferior (Open Multiple) e selecione Web/Stream. Insira uma URL RTSP e uma HLS em linhas separadas, mantenha Auto e toque na seta azul. Neste exemplo, RTSP fica em cima e HLS embaixo.",
+    "requirement": "Prepare URLs RTSP e HLS (.m3u8) acessíveis. Se o Mac fornecer os streams, conecte o celular e o Mac à mesma rede local. Os endereços das capturas são de um teste local com vídeos de golfe; substitua-os pelos seus.",
+    "steps": [
+      {
+        "title": "Abrir a entrada de streams",
+        "text": "Comece com duas áreas vazias na vertical. Toque no + inferior (Open Multiple) e escolha Web/Stream no menu Open para adicionar as duas fontes juntas.",
+        "caption": "Web/Stream aparece no menu Open, abaixo dos botões de fontes de mídia."
+      },
+      {
+        "title": "Inserir os dois endereços",
+        "text": "Cole o endereço RTSP na primeira linha e o HLS na próxima. Mantenha Auto, como na captura, e toque na seta azul para abrir esses links diretos.",
+        "caption": "Duas URLs completas em linhas separadas, com Auto selecionado."
+      },
+      {
+        "title": "Verificar os dois players",
+        "text": "Espere as duas imagens aparecerem e toque nas áreas de vídeo para exibir os controles. Aqui, RTSP fica em cima e HLS embaixo; ambos mostram LIVE. Confira se as duas imagens continuam em movimento.",
+        "caption": "RTSP acima de HLS em um iPhone real, com indicações LIVE e controles de reprodução visíveis."
+      },
+      {
+        "title": "Assistir com os controles ocultos",
+        "text": "Use Hide Toolbar para recolher a barra inferior e espere os controles dos players desaparecerem. As duas fontes permanecem visíveis. A última captura mostra uma disposição em tela cheia, sem botões sobre as tacadas.",
+        "caption": "Dois streams de golfe exibidos juntos com os controles ocultos."
+      }
+    ],
+    "features": [
+      {
+        "title": "Considere os diferentes atrasos",
+        "description": "RTSP e HLS podem usar buffers diferentes. Reproduzir juntos não alinha as imagens no mesmo instante. Para uma comparação precisa quadro a quadro, use gravações locais."
+      },
+      {
+        "title": "Teste as fontes separadamente se necessário",
+        "description": "Se uma área continuar vazia, abra apenas a URL dela e confirme se o servidor está ativo. Com um servidor local, verifique também o Wi-Fi e a permissão Rede Local do app."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso copiar os endereços da captura?",
+        "answer": "São endereços temporários da rede local do Mac de teste, não links públicos de demonstração. Use fontes que você possa acessar. Em um celular, 127.0.0.1 se refere ao próprio celular."
+      },
+      {
+        "question": "Posso usar uma página comum de vídeo?",
+        "answer": "A URL de uma página de reprodução é diferente de uma URL de mídia RTSP ou HLS direta. Use Web para navegar em páginas. Este guia usa streams diretos e não confirma o suporte a todos os sites ou serviços protegidos."
+      }
+    ]
+  }
+}

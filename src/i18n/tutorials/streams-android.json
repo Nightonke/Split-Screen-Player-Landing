@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "AndroidでHLSとRTSPを同時再生する方法",
+    "description": "Split Screen PlayerでHLSとRTSPを別の枠に開き、同時再生と配信中断後の復帰を確認します。",
+    "summary": "対応する2つの配信ソースを同じ分割画面で見ます。",
+    "answer": "2分割レイアウトを選び、各枠の+ → Web/streamに直接の配信URLを入力します。Streamを選んで矢印をタップします。例では管理下のゴルフ映像を上でHLS、下でRTSPとして再生します。",
+    "requirement": "アクセス権があり、現在のネットワークから接続できるURLを用意してください。画像の127.0.0.1はローカルテスト用で、コピーして使える公開URLではありません。",
+    "steps": [
+      {
+        "title": "枠から配信を開く",
+        "text": "対象の枠の+をタップしてWeb/streamを選びます。2つ目のURLで最初の映像を置き換えないよう、各配信に別の枠を使います。",
+        "caption": "OpenメニューのWeb/stream。"
+      },
+      {
+        "title": "HLSのURLを入力する",
+        "text": "通常.m3u8で終わる直接のHLS URLを貼り付けます。Streamを選び、URL横の矢印をタップして映像の表示を待ちます。",
+        "caption": "Streamを選択したHLSテストURL。"
+      },
+      {
+        "title": "RTSPを追加する",
+        "text": "もう一方の枠でWeb/streamを開き、rtsp://のURLを入力します。Streamを選んで矢印をタップします。例では別のゴルフ録画を配信しています。",
+        "caption": "2つ目の枠に入力したRTSP URL。"
+      },
+      {
+        "title": "両方の映像を確認する",
+        "text": "読み込みを待ち、操作ボタンを表示します。下のRTSPにはLIVE、上のHLSにはサーバーが提供する再生可能な時間範囲が表示されます。両方の映像が動き続けることを確認します。",
+        "caption": "Pixel 8で同時再生するHLSとRTSP。"
+      }
+    ],
+    "features": [
+      {
+        "title": "配信中断から復帰する",
+        "description": "先に配信元やネットワークを復旧します。今回のRTSPテストでは送信停止で再生が中断し、送信を再開して対象枠の再生をタップすると再接続できました。結果は配信元と接続状態によって異なります。"
+      },
+      {
+        "title": "遅延の違いに注意する",
+        "description": "HLSのバッファとRTSPの転送では遅延が異なる場合があります。同時再生はフレーム単位の同期ではありません。詳細な動作比較にはローカル録画を使ってください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "動画サイトの視聴ページURLも使えますか？",
+        "answer": "ページURLは直接の配信URLとは限りません。ページにはWeb、対応メディアの配信先にはStreamを使います。このテストはDRMやログイン必須サービスへの対応を示すものではありません。"
+      },
+      {
+        "question": "画像のURLが自分の端末で開けないのはなぜですか？",
+        "answer": "ローカルのテスト環境専用だからです。ご自身の接続可能なHLSまたはRTSP URLに置き換えてください。コーデック、サーバー権限、ネットワーク状態も再生に影響します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Lire ensemble des flux HLS et RTSP sur Android",
+    "description": "Ouvrez un flux HLS et un flux RTSP dans deux zones, vérifiez la lecture et rétablissez une source interrompue dans Split Screen Player sur Android.",
+    "summary": "Regardez deux sources de streaming compatibles sur le même écran partagé.",
+    "answer": "Choisissez deux zones. Dans chacune, utilisez + → Web/stream, saisissez l’URL directe, choisissez Stream et touchez la flèche. L’exemple affiche un flux HLS en haut et RTSP en bas, à partir de vidéos de golf de test.",
+    "requirement": "Utilisez des URL autorisées et accessibles depuis votre réseau. Les adresses 127.0.0.1 illustrées appartiennent au test local : ce ne sont pas des liens publics à copier.",
+    "steps": [
+      {
+        "title": "Ouvrir un flux dans une zone",
+        "text": "Touchez + dans la zone puis Web/stream. Utilisez une zone distincte par source pour que la seconde adresse ne remplace pas la première.",
+        "caption": "Web/stream dans le menu Open d’une zone."
+      },
+      {
+        "title": "Saisir l’adresse HLS",
+        "text": "Collez l’URL HLS directe, généralement terminée par .m3u8. Choisissez Stream et touchez la flèche à côté de l’adresse. Attendez l’apparition de la vidéo.",
+        "caption": "Adresse HLS de test avec Stream sélectionné."
+      },
+      {
+        "title": "Ajouter la source RTSP",
+        "text": "Ouvrez Web/stream dans l’autre zone, saisissez l’adresse rtsp://, choisissez Stream puis la flèche. Ici, le second flux montre l’autre enregistrement de golf.",
+        "caption": "Adresse RTSP distincte pour la seconde zone."
+      },
+      {
+        "title": "Vérifier les deux images animées",
+        "text": "Attendez le chargement et affichez les commandes. RTSP indique LIVE en bas ; HLS affiche la fenêtre de lecture disponible sur le serveur. Vérifiez que les deux images continuent à bouger.",
+        "caption": "Lecture simultanée de HLS et RTSP sur Pixel 8."
+      }
+    ],
+    "features": [
+      {
+        "title": "Reprendre après une interruption",
+        "description": "Rétablissez d’abord la source ou le réseau. Dans notre test RTSP, l’arrêt de l’émetteur a interrompu la lecture ; après son redémarrage, le bouton de lecture de la zone a rétabli la connexion. Le résultat dépend de la source et du réseau."
+      },
+      {
+        "title": "Prévoir des délais différents",
+        "description": "Le tampon HLS et le transport RTSP peuvent introduire des délais différents. Une lecture simultanée ne garantit pas la synchronisation à l’image près. Préférez des enregistrements locaux pour une comparaison détaillée."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Puis-je coller l’URL d’une page de vidéo ordinaire ?",
+        "answer": "Une page web n’est pas forcément une adresse de flux directe. Choisissez Web pour une page et Stream pour une source compatible. Ce test ne démontre pas la prise en charge des services avec DRM ou connexion obligatoire."
+      },
+      {
+        "question": "Pourquoi les URL illustrées ne fonctionnent-elles pas chez moi ?",
+        "answer": "Elles appartiennent à un environnement de test local. Remplacez-les par votre propre source HLS ou RTSP accessible. Les codecs, les autorisations du serveur et le réseau influent aussi sur la lecture."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to play HLS and RTSP streams together on Android",
+    "description": "Open an HLS address and an RTSP stream in separate panes, check playback, and recover an interrupted source in Split Screen Player on Android.",
+    "summary": "Watch two supported stream sources in one split-screen workspace.",
+    "answer": "Choose a two-pane layout. In each pane, use + → Web/stream, paste a direct stream URL, select Stream and tap the arrow. This example plays HLS above and RTSP below using controlled golf test feeds.",
+    "requirement": "Use stream URLs you are allowed to access and a network that can reach them. The 127.0.0.1 addresses pictured are private test endpoints, not public links to copy.",
+    "steps": [
+      {
+        "title": "Open a stream in one pane",
+        "text": "Tap the pane's + button and choose Web/stream. Use a separate pane for each source so the second address does not replace the first.",
+        "caption": "Web/stream is available in the pane's Open menu."
+      },
+      {
+        "title": "Enter the HLS address",
+        "text": "Paste your direct HLS URL, usually ending in .m3u8. Choose Stream and tap the arrow beside the address. Wait for the first video to appear.",
+        "caption": "A test HLS playlist address entered with Stream selected."
+      },
+      {
+        "title": "Add the RTSP source",
+        "text": "Open Web/stream in the other pane, enter its rtsp:// address, choose Stream and tap the arrow. In this test, the second feed shows the other golf recording.",
+        "caption": "A separate RTSP address entered for the second pane."
+      },
+      {
+        "title": "Check both moving pictures",
+        "text": "Let both sources load and reveal their controls. The lower RTSP pane shows LIVE; the HLS pane displays the server's available playback window. Confirm that both pictures continue moving.",
+        "caption": "HLS and RTSP playing simultaneously on Pixel 8."
+      }
+    ],
+    "features": [
+      {
+        "title": "Recover after a source interruption",
+        "description": "First restore the source or network. In our RTSP test, stopping the publisher interrupted playback; after restarting it, tapping the affected pane's play button connected again. Recovery depends on the source and connection."
+      },
+      {
+        "title": "Expect different delays",
+        "description": "HLS buffering and RTSP transport can introduce different delays. Simultaneous playback does not mean frame-perfect synchronization; use local recordings for detailed frame-by-frame comparison."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I paste an ordinary video watch-page URL?",
+        "answer": "A web page is not necessarily a direct stream. Use Web for a page, and Stream for a supported media endpoint. This test does not establish support for DRM-protected or sign-in-only services."
+      },
+      {
+        "question": "Why do the pictured URLs not work on my phone?",
+        "answer": "They belong to a controlled local test setup. Replace them with your own reachable HLS or RTSP endpoint. Codec support, server permissions and network availability still affect playback."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como reproduzir HLS e RTSP juntos no Android",
+    "description": "Abra HLS e RTSP em áreas separadas, confira a reprodução e recupere uma fonte interrompida no Split Screen Player para Android.",
+    "summary": "Assista a duas fontes de streaming compatíveis na mesma tela dividida.",
+    "answer": "Escolha duas áreas. Em cada uma, use + → Web/stream, insira a URL direta, selecione Stream e toque na seta. O exemplo mostra fontes controladas de golfe: HLS acima e RTSP abaixo.",
+    "requirement": "Use URLs autorizadas e acessíveis pela sua rede. Os endereços 127.0.0.1 das capturas pertencem ao teste local, não são links públicos para copiar.",
+    "steps": [
+      {
+        "title": "Abrir um fluxo em uma área",
+        "text": "Toque no + da área e escolha Web/stream. Use uma área para cada fonte, para que o segundo endereço não substitua o primeiro.",
+        "caption": "Web/stream no menu Open de uma área."
+      },
+      {
+        "title": "Inserir o endereço HLS",
+        "text": "Cole a URL HLS direta, geralmente terminada em .m3u8. Escolha Stream e toque na seta ao lado do endereço. Aguarde o vídeo aparecer.",
+        "caption": "Endereço HLS de teste com Stream selecionado."
+      },
+      {
+        "title": "Adicionar a fonte RTSP",
+        "text": "Abra Web/stream na outra área, insira o endereço rtsp:// e escolha Stream e a seta. Aqui a segunda fonte mostra a outra gravação de golfe.",
+        "caption": "Endereço RTSP independente para a segunda área."
+      },
+      {
+        "title": "Conferir as duas imagens em movimento",
+        "text": "Aguarde o carregamento e mostre os controles. RTSP indica LIVE abaixo; HLS mostra a janela de reprodução disponível no servidor. Confirme que as duas imagens continuam se movendo.",
+        "caption": "HLS e RTSP sendo reproduzidos juntos no Pixel 8."
+      }
+    ],
+    "features": [
+      {
+        "title": "Recuperar uma fonte interrompida",
+        "description": "Restabeleça primeiro a fonte ou a rede. No teste RTSP, parar o transmissor interrompeu a reprodução; depois de reiniciá-lo, tocar no botão de reprodução da área reconectou o fluxo. O resultado depende da fonte e da conexão."
+      },
+      {
+        "title": "Considerar atrasos diferentes",
+        "description": "O buffer HLS e o transporte RTSP podem ter atrasos distintos. Reproduzir ao mesmo tempo não significa sincronização quadro a quadro. Use gravações locais para comparações detalhadas."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso colar a URL de uma página comum de vídeo?",
+        "answer": "Uma página web nem sempre é um endereço direto de streaming. Use Web para páginas e Stream para fontes de mídia compatíveis. Este teste não comprova suporte a DRM ou serviços que exigem login."
+      },
+      {
+        "question": "Por que os endereços das capturas não funcionam no meu celular?",
+        "answer": "Eles pertencem a um ambiente local de teste. Substitua-os pela sua fonte HLS ou RTSP acessível. Codecs, permissões do servidor e disponibilidade da rede também afetam a reprodução."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 HLS와 RTSP를 함께 재생하는 방법",
+    "description": "Split Screen Player의 별도 영역에 HLS와 RTSP 주소를 열고 동시 재생과 소스 중단 후 복구를 확인하세요.",
+    "summary": "지원되는 스트림 두 개를 한 분할 화면에서 봅니다.",
+    "answer": "두 영역 레이아웃에서 각 영역의 + → Web/stream에 직접 스트림 URL을 입력합니다. Stream을 선택하고 화살표를 누르세요. 예시는 제어 가능한 골프 테스트 영상을 위쪽 HLS와 아래쪽 RTSP로 재생합니다.",
+    "requirement": "접근 권한이 있고 현재 네트워크에서 연결할 수 있는 URL을 준비하세요. 화면의 127.0.0.1은 로컬 테스트 주소이며 복사해서 쓰는 공개 링크가 아닙니다.",
+    "steps": [
+      {
+        "title": "한 영역에서 스트림 열기",
+        "text": "영역의 +를 누르고 Web/stream을 선택합니다. 두 번째 주소가 첫 영상을 대체하지 않도록 각 소스에 별도 영역을 사용하세요.",
+        "caption": "영역의 Open 메뉴에 있는 Web/stream입니다."
+      },
+      {
+        "title": "HLS 주소 입력하기",
+        "text": "보통 .m3u8로 끝나는 직접 HLS URL을 붙여 넣습니다. Stream을 선택한 뒤 주소 옆 화살표를 누르고 첫 영상이 나타날 때까지 기다리세요.",
+        "caption": "Stream을 선택하고 입력한 HLS 테스트 주소입니다."
+      },
+      {
+        "title": "RTSP 소스 추가하기",
+        "text": "다른 영역에서 Web/stream을 열고 rtsp:// 주소를 입력합니다. Stream을 고르고 화살표를 누르세요. 예시에서는 다른 골프 녹화 영상을 전송합니다.",
+        "caption": "두 번째 영역에 입력한 별도의 RTSP 주소입니다."
+      },
+      {
+        "title": "두 영상의 움직임 확인하기",
+        "text": "로딩이 끝나면 컨트롤을 표시합니다. 아래 RTSP에는 LIVE, 위 HLS에는 서버가 제공하는 재생 가능 시간 범위가 표시됩니다. 두 영상이 계속 움직이는지 확인하세요.",
+        "caption": "Pixel 8에서 HLS와 RTSP를 동시에 재생합니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "소스 중단 후 복구하기",
+        "description": "먼저 소스나 네트워크를 복구하세요. 이번 RTSP 테스트에서는 송신 중단으로 재생이 끊겼고, 송신을 재개한 뒤 해당 영역의 재생 버튼을 누르자 다시 연결되었습니다. 복구 동작은 소스와 연결에 따라 다릅니다."
+      },
+      {
+        "title": "서로 다른 지연 고려하기",
+        "description": "HLS 버퍼와 RTSP 전송의 지연은 다를 수 있습니다. 동시 재생은 프레임 단위 동기화를 뜻하지 않습니다. 세밀한 동작 비교에는 로컬 녹화 영상을 사용하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "일반 동영상 사이트의 시청 URL도 되나요?",
+        "answer": "웹 페이지 주소가 직접 스트림 주소인 것은 아닙니다. 페이지에는 Web, 지원되는 미디어 주소에는 Stream을 사용하세요. 이 테스트는 DRM 또는 로그인 필수 서비스 지원을 입증하지 않습니다."
+      },
+      {
+        "question": "화면의 주소가 내 휴대전화에서 열리지 않는 이유는 무엇인가요?",
+        "answer": "로컬 테스트 환경 전용 주소이기 때문입니다. 직접 접근 가능한 HLS나 RTSP 주소로 바꾸세요. 코덱 지원, 서버 권한, 네트워크 상태도 재생에 영향을 줍니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo reproducir HLS y RTSP juntos en Android",
+    "description": "Abre HLS y RTSP en zonas distintas, comprueba la reproducción y recupera una fuente interrumpida en Split Screen Player para Android.",
+    "summary": "Mira dos fuentes de streaming compatibles en una pantalla dividida.",
+    "answer": "Elige dos zonas. En cada una, usa + → Web/stream, introduce la URL directa, selecciona Stream y pulsa la flecha. El ejemplo muestra fuentes de golf controladas: HLS arriba y RTSP abajo.",
+    "requirement": "Usa direcciones autorizadas y accesibles desde tu red. Las URL 127.0.0.1 de las capturas son del entorno local de prueba, no enlaces públicos para copiar.",
+    "steps": [
+      {
+        "title": "Abrir un flujo en una zona",
+        "text": "Pulsa + en la zona y elige Web/stream. Usa una zona distinta por fuente para que la segunda dirección no sustituya a la primera.",
+        "caption": "Web/stream en el menú Open de una zona."
+      },
+      {
+        "title": "Introducir la dirección HLS",
+        "text": "Pega la URL HLS directa, normalmente terminada en .m3u8. Elige Stream y pulsa la flecha junto a la dirección. Espera a que aparezca el vídeo.",
+        "caption": "Dirección HLS de prueba con Stream seleccionado."
+      },
+      {
+        "title": "Añadir la fuente RTSP",
+        "text": "Abre Web/stream en la otra zona, escribe la dirección rtsp:// y elige Stream y la flecha. Aquí la segunda fuente muestra la otra grabación de golf.",
+        "caption": "Dirección RTSP independiente para la segunda zona."
+      },
+      {
+        "title": "Comprobar ambas imágenes en movimiento",
+        "text": "Espera a que carguen y muestra los controles. RTSP indica LIVE abajo; HLS muestra el intervalo de reproducción disponible en el servidor. Confirma que ambas imágenes siguen moviéndose.",
+        "caption": "HLS y RTSP reproduciéndose a la vez en Pixel 8."
+      }
+    ],
+    "features": [
+      {
+        "title": "Recuperar una fuente interrumpida",
+        "description": "Restablece primero la fuente o la red. En la prueba RTSP, detener el emisor interrumpió la reproducción; tras reiniciarlo, el botón de reproducción de esa zona volvió a conectar. El resultado depende de la fuente y la conexión."
+      },
+      {
+        "title": "Prever diferencias de retardo",
+        "description": "El búfer HLS y el transporte RTSP pueden tener retardos distintos. Reproducir a la vez no garantiza sincronización fotograma a fotograma. Usa grabaciones locales para una comparación detallada."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Puedo pegar la URL de una página normal de vídeo?",
+        "answer": "Una página web no siempre es una dirección de flujo directa. Usa Web para páginas y Stream para fuentes multimedia compatibles. Esta prueba no demuestra compatibilidad con DRM ni servicios que exigen iniciar sesión."
+      },
+      {
+        "question": "¿Por qué no funcionan las direcciones de las capturas en mi móvil?",
+        "answer": "Son de un entorno de prueba local. Sustitúyelas por tu propia fuente HLS o RTSP accesible. Los códecs, los permisos del servidor y la red también afectan a la reproducción."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上同时播放 HLS 和 RTSP 流媒体",
+    "description": "在 Android 分屏播放器中分别打开 HLS 与 RTSP 地址，检查双路播放，并了解测试源中断后的恢复步骤。",
+    "summary": "把两路支持的流媒体放在同一个分屏工作区。",
+    "answer": "选择双区域布局，在各区分别用 + → Web/stream 输入直接流地址，选择 Stream 后点箭头。本例上方为 HLS，下方为 RTSP，画面来自受控的高尔夫测试源。",
+    "requirement": "准备有权访问、且当前网络可连接的流地址。截图里的 127.0.0.1 地址属于本地测试环境，不是可直接复制的公共链接。",
+    "steps": [
+      {
+        "title": "在一个区域打开流媒体",
+        "text": "点击该区域的 +，选择 Web/stream。每路来源使用独立区域，避免第二个地址替换第一路画面。",
+        "caption": "区域 Open 菜单中的 Web/stream 入口。"
+      },
+      {
+        "title": "输入 HLS 地址",
+        "text": "粘贴直接的 HLS 地址，通常以 .m3u8 结尾。选择 Stream，再点地址右侧箭头，等待第一路视频显示。",
+        "caption": "输入测试 HLS 播放列表地址，并选择 Stream。"
+      },
+      {
+        "title": "添加 RTSP 来源",
+        "text": "在另一区打开 Web/stream，输入 rtsp:// 地址，选择 Stream 后点箭头。本例第二路显示另一段高尔夫录像。",
+        "caption": "给第二个区域输入独立的 RTSP 地址。"
+      },
+      {
+        "title": "检查两路动态画面",
+        "text": "等待两路加载，显示播放控件。下方 RTSP 区域标有 LIVE，上方 HLS 显示服务器提供的可播放时间窗口。确认两路画面都持续变化。",
+        "caption": "Pixel 8 同时播放 HLS 和 RTSP。"
+      }
+    ],
+    "features": [
+      {
+        "title": "测试源中断后恢复",
+        "description": "先恢复来源或网络。本次 RTSP 测试中，停止推流导致播放中断；重新启动测试源后，点击受影响区域的播放按钮即可重新连接。实际恢复表现取决于来源和连接。"
+      },
+      {
+        "title": "两路可能存在延迟差",
+        "description": "HLS 缓冲和 RTSP 传输可能产生不同延迟。同时播放不等于逐帧同步；需要精细动作对比时，优先使用本地录像。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "能直接粘贴普通视频网站的观看页吗？",
+        "answer": "网页链接不一定是直接流地址。普通网页选择 Web，支持的媒体端点选择 Stream。本次测试不代表支持带 DRM 或必须登录的服务。"
+      },
+      {
+        "question": "为什么截图中的链接在我的手机上打不开？",
+        "answer": "这些地址属于受控的本地测试环境。请替换为自己可访问的 HLS 或 RTSP 来源；编码支持、服务器权限和网络状态仍会影响播放。"
+      }
+    ]
+  },
+  "de": {
+    "title": "HLS- und RTSP-Streams gemeinsam auf Android abspielen",
+    "description": "Öffnen Sie HLS und RTSP in getrennten Bereichen, prüfen Sie die Wiedergabe und verbinden Sie eine unterbrochene Quelle erneut in Split Screen Player.",
+    "summary": "Sehen Sie zwei unterstützte Streams in einem geteilten Arbeitsbereich.",
+    "answer": "Wählen Sie zwei Bereiche. Öffnen Sie in jedem + → Web/stream, geben Sie die direkte URL ein, wählen Sie Stream und tippen Sie auf den Pfeil. Das Beispiel zeigt kontrollierte Golf-Testfeeds: HLS oben, RTSP unten.",
+    "requirement": "Nutzen Sie URLs, für die Sie Zugriff haben und die Ihr Netzwerk erreicht. Die gezeigten 127.0.0.1-Adressen sind lokale Testadressen, keine öffentlichen Links zum Kopieren.",
+    "steps": [
+      {
+        "title": "Einen Stream im Bereich öffnen",
+        "text": "Tippen Sie im Bereich auf + und wählen Sie Web/stream. Verwenden Sie für jede Quelle einen eigenen Bereich, damit die zweite URL die erste nicht ersetzt.",
+        "caption": "Web/stream im Open-Menü eines Bereichs."
+      },
+      {
+        "title": "HLS-Adresse eingeben",
+        "text": "Fügen Sie die direkte HLS-URL ein, die meist auf .m3u8 endet. Wählen Sie Stream und tippen Sie auf den Pfeil neben der Adresse. Warten Sie auf das erste Bild.",
+        "caption": "HLS-Testadresse mit ausgewähltem Stream-Modus."
+      },
+      {
+        "title": "RTSP-Quelle hinzufügen",
+        "text": "Öffnen Sie Web/stream im anderen Bereich, geben Sie die rtsp://-Adresse ein und wählen Sie Stream und den Pfeil. Hier zeigt der zweite Feed die andere Golfaufnahme.",
+        "caption": "Eigene RTSP-Adresse für den zweiten Bereich."
+      },
+      {
+        "title": "Beide bewegten Bilder prüfen",
+        "text": "Warten Sie das Laden ab und zeigen Sie die Steuerung an. Unten zeigt RTSP LIVE, oben HLS das verfügbare Zeitfenster des Servers. Prüfen Sie, ob sich beide Bilder weiterbewegen.",
+        "caption": "HLS und RTSP laufen gleichzeitig auf dem Pixel 8."
+      }
+    ],
+    "features": [
+      {
+        "title": "Nach einer Unterbrechung fortsetzen",
+        "description": "Stellen Sie zuerst Quelle oder Netzwerk wieder her. Im RTSP-Test unterbrach das Stoppen des Senders die Wiedergabe. Nach dessen Neustart stellte die Wiedergabetaste des betroffenen Bereichs die Verbindung wieder her. Das Verhalten hängt von Quelle und Verbindung ab."
+      },
+      {
+        "title": "Unterschiedliche Verzögerungen beachten",
+        "description": "HLS-Pufferung und RTSP-Transport können unterschiedliche Verzögerungen verursachen. Gleichzeitiges Abspielen ist keine bildgenaue Synchronisierung. Verwenden Sie lokale Aufnahmen für genaue Einzelbildvergleiche."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kann ich die URL einer normalen Videoseite einfügen?",
+        "answer": "Eine Webseite ist nicht unbedingt eine direkte Streamquelle. Wählen Sie Web für Seiten und Stream für unterstützte Medienadressen. Dieser Test belegt keine Unterstützung für DRM oder Dienste mit Anmeldepflicht."
+      },
+      {
+        "question": "Warum funktionieren die gezeigten URLs bei mir nicht?",
+        "answer": "Sie gehören zu einer lokalen Testumgebung. Ersetzen Sie sie durch Ihre erreichbare HLS- oder RTSP-Quelle. Codecs, Serverberechtigungen und Netzwerkverfügbarkeit beeinflussen ebenfalls die Wiedergabe."
+      }
+    ]
+  }
+}

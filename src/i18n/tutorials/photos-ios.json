@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで複数の写真スライドショーを個別に再生する方法",
+    "description": "iPhone・iPadの2つの領域に4枚の写真を均等に分け、切り替え間隔と再生順を設定します。",
+    "summary": "領域ごとに別の写真セットを持たせ、それぞれのスライドショーを再生します。",
+    "answer": "Open Multiple → Photosで4枚選び、Play evenly with all 2 playersを選択します。間隔と順序はMore → Image Settingsで設定します。",
+    "requirement": "例では2分割レイアウトと4枚の写真を使います。元画像へのアクセスを維持してください。高度な設定ではPremiumの案内が表示される場合があります。",
+    "steps": [
+      {
+        "title": "スライドショー用の写真を選ぶ",
+        "text": "下部のOpen Multiple → Photosを選びます。写真を4枚選んでチェックをタップします。例の写真はデモ動画から切り出した静止画です。",
+        "caption": "スライドショー用の写真を選ぶ"
+      },
+      {
+        "title": "写真をフレームに振り分ける",
+        "text": "Open 4 photosでPlay evenly with all 2 players, approx. 2 per playerを選びます。既存の2領域に2枚ずつ入ります。単一プレーヤーを選ぶと4枚すべてが1領域に入ります。",
+        "caption": "写真をフレームに振り分ける"
+      },
+      {
+        "title": "表示間隔と順序を設定する",
+        "text": "More → Image SettingsでImage Playback IntervalとImage Playback Orderを確認します。例は4.6秒、From First to Last、Images per Pageは1×1です。",
+        "caption": "画像設定で写真の切り替え間隔と順序を指定。"
+      },
+      {
+        "title": "2つのスライドショーを再生する",
+        "text": "画面に戻り、写真が切り替わることを確認します。各領域が自分の2枚を順に再生します。領域をタップして操作を表示し、そのスライドショーだけを一時停止・再開できます。",
+        "caption": "領域ごとに別の写真セットを持たせ、それぞれのスライドショーを再生します。"
+      }
+    ],
+    "features": [
+      {
+        "title": "フレームごとに別の写真集",
+        "description": "グループ設定で各フレームの写真を決めます。旅行、人物、テーマごとに分ければ、すべてのフレームで同じ写真集を繰り返さずに済みます。"
+      },
+      {
+        "title": "1ページの枚数を確認する",
+        "description": "Images per Pageは1ページに表示する写真の枚数です。この例では1×1にして、各領域に1枚ずつ表示します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "ブックマークを保存すると動画ファイルができますか？",
+        "answer": "いいえ。ブックマークはアプリで再度開けるワークスペースを保存します。写真のスライドショーを完成した動画に書き出す操作ではありません。"
+      },
+      {
+        "question": "1つのフレームで写真が切り替わらないのはなぜですか？",
+        "answer": "そのフレームに複数の写真が入っているか確認し、設定した表示間隔が経過するまで待ってください。元ファイルにアクセスできることも確認します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comment lire plusieurs diaporamas indépendants sur iPhone ou iPad",
+    "description": "Répartissez quatre photos entre deux zones sur iPhone ou iPad, puis réglez l’intervalle et l’ordre du diaporama.",
+    "summary": "Attribuez une collection distincte à chaque zone pour lire deux diaporamas indépendants.",
+    "answer": "Dans Open Multiple → Photos, sélectionnez quatre images, puis Play evenly with all 2 players. Réglez l’intervalle et l’ordre dans More → Image Settings.",
+    "requirement": "Cet exemple utilise deux zones et quatre photos. Conservez l’accès aux originaux. Certaines options avancées peuvent demander Premium.",
+    "steps": [
+      {
+        "title": "Choisir les photos des diaporamas",
+        "text": "Touchez Open Multiple → Photos dans la barre inférieure. Sélectionnez quatre images et validez avec la coche. Les photos de l’exemple sont extraites des vidéos de démonstration.",
+        "caption": "Choisir les photos des diaporamas"
+      },
+      {
+        "title": "Répartir les photos entre les cadres",
+        "text": "Dans Open 4 photos, choisissez Play evenly with all 2 players, approx. 2 per player. Chaque zone reçoit deux photos. L’option de lecteur unique placerait les quatre photos dans une seule zone.",
+        "caption": "Répartir les photos entre les cadres"
+      },
+      {
+        "title": "Régler l’intervalle et l’ordre",
+        "text": "Ouvrez More → Image Settings. Vérifiez Image Playback Interval et Image Playback Order. L’exemple utilise 4,6 secondes, From First to Last et Images per Page sur 1×1.",
+        "caption": "Les réglages d’image définissent l’intervalle et l’ordre des photos."
+      },
+      {
+        "title": "Lire les deux diaporamas",
+        "text": "Revenez à la composition et observez les changements. Chaque zone parcourt ses deux photos. Touchez une zone pour afficher ses commandes et mettre son diaporama en pause ou le reprendre.",
+        "caption": "Attribuez une collection distincte à chaque zone pour lire deux diaporamas indépendants."
+      }
+    ],
+    "features": [
+      {
+        "title": "Une collection propre à chaque cadre",
+        "description": "Le regroupement détermine les photos de chaque cadre. Séparez un voyage, une personne ou un thème pour éviter de répéter la même collection partout."
+      },
+      {
+        "title": "Vérifier le nombre de photos par page",
+        "description": "Images per Page détermine le nombre de photos affichées sur une page. Gardez 1×1 pour afficher une seule photo à la fois dans chaque zone."
+      }
+    ],
+    "faq": [
+      {
+        "question": "L’enregistrement d’un favori crée-t-il une vidéo ?",
+        "answer": "Non. Le favori conserve un espace de travail à rouvrir dans l’application. Il ne transforme pas les diaporamas en fichier vidéo final."
+      },
+      {
+        "question": "Pourquoi un cadre reste-t-il sur la même photo ?",
+        "answer": "Vérifiez qu’il contient plusieurs photos et attendez la fin de l’intervalle choisi. Vérifiez également que les fichiers d’origine restent accessibles."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to play independent photo slideshows on iPhone or iPad",
+    "description": "Open four photos in two iPhone or iPad panes, distribute them evenly, and set the slideshow interval and playback order.",
+    "summary": "Give each region its own photo collection and let the two slideshows advance independently.",
+    "answer": "Tap Open Multiple → Photos, select four images, then choose Play evenly with all 2 players. Set the timing and order under More → Image Settings.",
+    "requirement": "This example uses a two-pane layout and four photos. Keep the original images accessible. Advanced options may show Premium prompts.",
+    "steps": [
+      {
+        "title": "Choose the photos for your slideshows",
+        "text": "Tap Open Multiple on the bottom toolbar and choose Photos. Select four pictures and tap the checkmark. The sample photos are stills from the demonstration videos.",
+        "caption": "Choose the photos for your slideshows"
+      },
+      {
+        "title": "Divide the photos between frames",
+        "text": "In Open 4 photos, choose Play evenly with all 2 players, approx. 2 per player. Each of the existing two panes receives a separate group. The single-player option would place all four photos in one pane.",
+        "caption": "Divide the photos between frames"
+      },
+      {
+        "title": "Set the slideshow timing and order",
+        "text": "Open More → Image Settings. Check Image Playback Interval and Image Playback Order. This example uses 4.6 seconds and From First to Last, with Images per Page set to 1×1.",
+        "caption": "Image settings control the interval and order of photo playback."
+      },
+      {
+        "title": "Play the two slideshows",
+        "text": "Return to the workspace and watch the pictures change. Each pane cycles through its own two images. Tap a pane to reveal its controls and pause or resume that slideshow independently.",
+        "caption": "Give each region its own photo collection and let the two slideshows advance independently."
+      }
+    ],
+    "features": [
+      {
+        "title": "Each frame has its own collection",
+        "description": "The grouping screen determines which photos belong to each frame. Use it to separate a trip, person, or theme into its own slideshow instead of repeating the whole collection in every frame."
+      },
+      {
+        "title": "Check the page size",
+        "description": "Images per Page controls how many photos appear on a page. Keep it at 1×1 for the single-photo slideshows shown here."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Will saving a bookmark create a video file?",
+        "answer": "No. The bookmark stores a workspace that the app can reopen. It does not render the photo slideshows as a finished video."
+      },
+      {
+        "question": "Why does a photo frame stay on one image?",
+        "answer": "Check that the frame contains more than one photo and allow the configured display interval to pass. Also check that the original files are still accessible."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como reproduzir apresentações de fotos independentes no iPhone ou iPad",
+    "description": "Divida quatro fotos entre duas áreas no iPhone ou iPad e configure o intervalo e a ordem de reprodução.",
+    "summary": "Dê a cada área uma coleção de fotos própria para reproduzir duas apresentações independentes.",
+    "answer": "Em Open Multiple → Photos, selecione quatro imagens e escolha Play evenly with all 2 players. Ajuste o intervalo e a ordem em More → Image Settings.",
+    "requirement": "O exemplo usa duas áreas e quatro fotos. Mantenha os originais acessíveis. Algumas opções avançadas podem exigir Premium.",
+    "steps": [
+      {
+        "title": "Escolha as fotos",
+        "text": "Toque em Open Multiple → Photos na barra inferior. Selecione quatro imagens e confirme com a marca de seleção. As fotos do exemplo são quadros extraídos dos vídeos de demonstração.",
+        "caption": "Escolha as fotos"
+      },
+      {
+        "title": "Divida as fotos entre as molduras",
+        "text": "Em Open 4 photos, escolha Play evenly with all 2 players, approx. 2 per player. Cada área recebe duas fotos. A opção de um único player colocaria as quatro na mesma área.",
+        "caption": "Divida as fotos entre as molduras"
+      },
+      {
+        "title": "Ajuste o intervalo e a ordem",
+        "text": "Abra More → Image Settings. Confira Image Playback Interval e Image Playback Order. O exemplo usa 4,6 segundos, From First to Last e Images per Page em 1×1.",
+        "caption": "As configurações de imagem controlam o intervalo e a ordem das fotos."
+      },
+      {
+        "title": "Reproduza as duas apresentações",
+        "text": "Volte à composição e observe as fotos mudarem. Cada área percorre suas duas imagens. Toque em uma área para mostrar os controles e pausar ou retomar apenas aquela apresentação.",
+        "caption": "Dê a cada área uma coleção de fotos própria para reproduzir duas apresentações independentes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Uma coleção própria em cada moldura",
+        "description": "O agrupamento define quais fotos pertencem a cada moldura. Separe viagens, pessoas ou temas para não repetir a coleção inteira em todas elas."
+      },
+      {
+        "title": "Conferir as fotos por página",
+        "description": "Images per Page define quantas fotos aparecem em uma página. Mantenha 1×1 para mostrar uma foto por área, como no exemplo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Salvar um favorito cria um arquivo de vídeo?",
+        "answer": "Não. O favorito armazena um espaço de trabalho que o aplicativo pode abrir novamente. Ele não transforma as apresentações de fotos em um vídeo finalizado."
+      },
+      {
+        "question": "Por que uma moldura fica na mesma foto?",
+        "answer": "Confira se ela contém várias fotos e aguarde o intervalo configurado. Verifique também se os arquivos originais continuam acessíveis."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 사진 슬라이드쇼를 각각 재생하는 방법",
+    "description": "iPhone 또는 iPad의 두 영역에 사진 네 장을 고르게 나누고 재생 간격과 순서를 설정하세요.",
+    "summary": "각 영역에 별도의 사진 모음을 넣고 슬라이드쇼를 독립적으로 재생합니다.",
+    "answer": "Open Multiple → Photos에서 네 장을 선택하고 Play evenly with all 2 players를 누르세요. More → Image Settings에서 간격과 순서를 설정합니다.",
+    "requirement": "예시는 두 영역과 사진 네 장을 사용합니다. 원본 사진에 대한 접근을 유지하세요. 고급 옵션에는 Premium 안내가 나타날 수 있습니다.",
+    "steps": [
+      {
+        "title": "슬라이드쇼에 사용할 사진 선택",
+        "text": "하단의 Open Multiple → Photos를 누르세요. 사진 네 장을 선택하고 체크 표시를 누릅니다. 예시 사진은 데모 영상에서 추출한 정지 화면입니다.",
+        "caption": "슬라이드쇼에 사용할 사진 선택"
+      },
+      {
+        "title": "사진을 액자별로 나누기",
+        "text": "Open 4 photos에서 Play evenly with all 2 players, approx. 2 per player를 선택하세요. 기존 두 영역에 각각 두 장씩 들어갑니다. 단일 플레이어 옵션은 네 장을 한 영역에 넣습니다.",
+        "caption": "사진을 액자별로 나누기"
+      },
+      {
+        "title": "전환 간격과 순서 설정",
+        "text": "More → Image Settings에서 Image Playback Interval과 Image Playback Order를 확인하세요. 예시는 4.6초, From First to Last, Images per Page는 1×1입니다.",
+        "caption": "사진 설정에서 표시 간격과 재생 순서를 조절합니다."
+      },
+      {
+        "title": "두 슬라이드쇼 재생하기",
+        "text": "작업 화면으로 돌아가 사진이 바뀌는지 확인하세요. 각 영역은 자신의 사진 두 장을 반복합니다. 영역을 탭해 버튼을 표시하고 해당 슬라이드쇼만 일시 정지하거나 다시 재생할 수 있습니다.",
+        "caption": "각 영역에 별도의 사진 모음을 넣고 슬라이드쇼를 독립적으로 재생합니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "액자마다 다른 사진 묶음",
+        "description": "그룹 설정에서 각 액자에 들어갈 사진을 정합니다. 여행, 인물, 주제별로 나누면 모든 액자에서 같은 사진 모음을 반복할 필요가 없습니다."
+      },
+      {
+        "title": "페이지당 사진 수 확인",
+        "description": "Images per Page는 한 페이지에 표시할 사진 수입니다. 예시처럼 영역마다 한 장씩 표시하려면 1×1을 유지하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "북마크를 저장하면 동영상 파일이 만들어지나요?",
+        "answer": "아니요. 북마크는 앱에서 다시 열 수 있는 작업 공간을 저장합니다. 사진 슬라이드쇼를 완성된 동영상으로 렌더링하지 않습니다."
+      },
+      {
+        "question": "액자에서 사진이 바뀌지 않는 이유는 무엇인가요?",
+        "answer": "해당 액자에 사진이 여러 장 있는지 확인하고 설정한 표시 간격이 지날 때까지 기다리세요. 원본 파일에 계속 접근할 수 있는지도 확인하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo reproducir presentaciones de fotos independientes en iPhone o iPad",
+    "description": "Reparte cuatro fotos entre dos zonas en iPhone o iPad y configura el intervalo y el orden de reproducción.",
+    "summary": "Asigna una colección distinta a cada zona para reproducir dos presentaciones independientes.",
+    "answer": "En Open Multiple → Photos, selecciona cuatro imágenes y elige Play evenly with all 2 players. Ajusta el intervalo y el orden en More → Image Settings.",
+    "requirement": "El ejemplo usa dos zonas y cuatro fotos. Mantén accesibles los originales. Algunas opciones avanzadas pueden requerir Premium.",
+    "steps": [
+      {
+        "title": "Selecciona las fotos",
+        "text": "Toca Open Multiple → Photos en la barra inferior. Selecciona cuatro imágenes y pulsa la marca de confirmación. Las fotos del ejemplo son fotogramas de los vídeos de demostración.",
+        "caption": "Selecciona las fotos"
+      },
+      {
+        "title": "Distribuye las fotos entre marcos",
+        "text": "En Open 4 photos, elige Play evenly with all 2 players, approx. 2 per player. Cada zona recibe dos fotos. La opción de un solo reproductor colocaría las cuatro en una misma zona.",
+        "caption": "Distribuye las fotos entre marcos"
+      },
+      {
+        "title": "Configura el intervalo y el orden",
+        "text": "Abre More → Image Settings. Comprueba Image Playback Interval e Image Playback Order. El ejemplo usa 4,6 segundos, From First to Last e Images per Page en 1×1.",
+        "caption": "Los ajustes de imagen controlan el intervalo y el orden de las fotos."
+      },
+      {
+        "title": "Reproduce las dos presentaciones",
+        "text": "Vuelve a la composición y observa los cambios. Cada zona recorre sus dos fotos. Toca una zona para mostrar sus controles y pausar o reanudar su presentación de forma independiente.",
+        "caption": "Asigna una colección distinta a cada zona para reproducir dos presentaciones independientes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Una colección propia en cada marco",
+        "description": "La agrupación determina qué fotos pertenecen a cada marco. Separa viajes, personas o temas para no repetir la colección completa en todos los marcos."
+      },
+      {
+        "title": "Comprobar las fotos por página",
+        "description": "Images per Page determina cuántas fotos aparecen en una página. Mantén 1×1 para mostrar una foto por zona, como en el ejemplo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Guardar un marcador crea un archivo de vídeo?",
+        "answer": "No. El marcador guarda un espacio de trabajo que la aplicación puede volver a abrir. No convierte las presentaciones de fotos en un vídeo terminado."
+      },
+      {
+        "question": "¿Por qué un marco no cambia de foto?",
+        "answer": "Comprueba que contiene varias fotos y espera a que transcurra el intervalo configurado. Revisa también que los archivos originales sigan siendo accesibles."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上播放多个独立照片轮播",
+    "description": "在 iPhone 或 iPad 中将四张照片均分到两个区域，设置轮播间隔和播放顺序。",
+    "summary": "让每个区域拥有自己的照片集合，分别轮播其中的图片。",
+    "answer": "点 Open Multiple → Photos，选择四张照片，再选 Play evenly with all 2 players。在 More → Image Settings 设置间隔和顺序。",
+    "requirement": "本例使用双区布局和四张照片。请保留原始图片的访问权限；高级选项可能提示需要 Premium。",
+    "steps": [
+      {
+        "title": "选择需要轮播的照片",
+        "text": "点底部 Open Multiple，再选 Photos。选中四张图片后点勾号。本例图片是演示视频中的静态画面。",
+        "caption": "选择需要轮播的照片"
+      },
+      {
+        "title": "把照片分配给不同相框",
+        "text": "在 Open 4 photos 中选择 Play evenly with all 2 players, approx. 2 per player，现有两个区域各分到两张照片。单播放器选项则会把四张照片都放入一个区域。",
+        "caption": "把照片分配给不同相框"
+      },
+      {
+        "title": "设置轮播间隔和顺序",
+        "text": "打开 More → Image Settings，检查 Image Playback Interval 和 Image Playback Order。本例为 4.6 秒、From First to Last，Images per Page 为 1×1。",
+        "caption": "在图片设置中调整照片的显示间隔与播放顺序。"
+      },
+      {
+        "title": "播放两个独立轮播",
+        "text": "返回工作区观察图片变化，每个区域轮播各自的两张照片。点区域显示控件，可分别暂停或继续该区域的轮播。",
+        "caption": "让每个区域拥有自己的照片集合，分别轮播其中的图片。"
+      }
+    ],
+    "features": [
+      {
+        "title": "每个相框都有自己的照片集",
+        "description": "分组页面决定每个相框包含哪些图片。可以按旅行、人物或主题分别整理，避免让每个相框重复播放同一整套照片。"
+      },
+      {
+        "title": "检查每页图片数量",
+        "description": "Images per Page 决定一页显示几张照片。本例保持 1×1，每个区域一次显示一张。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "保存书签会生成视频文件吗？",
+        "answer": "不会。书签保存的是可在应用中重新打开的工作区，不会把照片轮播渲染成一个成品视频。"
+      },
+      {
+        "question": "为什么某个相框一直显示同一张照片？",
+        "answer": "检查该相框是否包含多张照片，并等待所设的显示间隔结束。同时确认原始文件仍然可以访问。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Unabhängige Foto-Diashows auf dem iPhone oder iPad abspielen",
+    "description": "Verteilen Sie vier Fotos auf zwei Bereiche und stellen Sie auf dem iPhone oder iPad Intervall und Wiedergabereihenfolge ein.",
+    "summary": "Geben Sie jedem Bereich eine eigene Fotosammlung und spielen Sie beide Diashows unabhängig ab.",
+    "answer": "Wählen Sie unter Open Multiple → Photos vier Bilder und dann Play evenly with all 2 players. Intervall und Reihenfolge finden Sie unter More → Image Settings.",
+    "requirement": "Das Beispiel nutzt zwei Bereiche und vier Fotos. Halten Sie die Originalbilder verfügbar. Erweiterte Optionen können Premium erfordern.",
+    "steps": [
+      {
+        "title": "Fotos für die Diashows auswählen",
+        "text": "Tippen Sie unten auf Open Multiple → Photos. Wählen Sie vier Bilder und bestätigen Sie mit dem Häkchen. Die Beispielfotos sind Standbilder aus den Demovideos.",
+        "caption": "Fotos für die Diashows auswählen"
+      },
+      {
+        "title": "Fotos auf Rahmen verteilen",
+        "text": "Wählen Sie unter Open 4 photos die Option Play evenly with all 2 players, approx. 2 per player. Jeder Bereich erhält zwei Fotos. Die Option für einen einzelnen Player würde alle vier in einem Bereich abspielen.",
+        "caption": "Fotos auf Rahmen verteilen"
+      },
+      {
+        "title": "Intervall und Reihenfolge festlegen",
+        "text": "Öffnen Sie More → Image Settings. Prüfen Sie Image Playback Interval und Image Playback Order. Das Beispiel nutzt 4,6 Sekunden, From First to Last und Images per Page mit 1×1.",
+        "caption": "Die Bildeinstellungen bestimmen Wechselintervall und Reihenfolge."
+      },
+      {
+        "title": "Beide Diashows abspielen",
+        "text": "Kehren Sie zurück und beobachten Sie den Bildwechsel. Jeder Bereich durchläuft seine zwei Fotos. Tippen Sie auf einen Bereich, um dessen Diashow über die eingeblendeten Schaltflächen zu pausieren oder fortzusetzen.",
+        "caption": "Geben Sie jedem Bereich eine eigene Fotosammlung und spielen Sie beide Diashows unabhängig ab."
+      }
+    ],
+    "features": [
+      {
+        "title": "Eine eigene Sammlung pro Rahmen",
+        "description": "Die Gruppierung legt fest, welche Fotos zu welchem Rahmen gehören. Teile Bilder nach Reise, Person oder Thema auf, statt dieselbe Sammlung in allen Rahmen zu wiederholen."
+      },
+      {
+        "title": "Bilder pro Seite prüfen",
+        "description": "Images per Page legt die Anzahl der Fotos pro Seite fest. Mit 1×1 erscheint wie im Beispiel jeweils ein Foto in jedem Bereich."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Entsteht beim Speichern eines Lesezeichens eine Videodatei?",
+        "answer": "Nein. Das Lesezeichen speichert einen Arbeitsbereich, den die App wieder öffnen kann. Die Diashows werden dadurch nicht als fertiges Video gerendert."
+      },
+      {
+        "question": "Warum zeigt ein Rahmen ständig dasselbe Foto?",
+        "answer": "Prüfe, ob der Rahmen mehrere Fotos enthält, und warte das eingestellte Intervall ab. Die Originaldateien müssen weiterhin zugänglich sein."
+      }
+    ]
+  }
+}

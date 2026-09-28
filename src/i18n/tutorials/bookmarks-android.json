@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで動画ワークスペースを保存・復元する方法",
+    "description": "Androidの分割画面をブックマークに保存し、動画を閉じた後で元の配置を開いて確認作業を続けます。",
+    "summary": "便利な配置を残しておけば、次回は動画とレイアウトを最初から組み直さずに済みます。",
+    "answer": "星形のBookmarkをタップして保存確認を待ちます。後で下のツールバーからBookmarksを開き、保存した項目を選びます。",
+    "requirement": "ワークスペースの保存と復元にはPremiumが必要です。元ファイルとアクセス権を保持してください。ブックマークは全素材のコピーではありません。",
+    "steps": [
+      {
+        "title": "現在のワークスペースを保存する",
+        "text": "動画を配置して星形のBookmarkをタップします。画面を離れる前に、現在のレイアウトと各領域が保存されたことを確認します。",
+        "caption": "ワークスペースを保存したという通知が表示されています。"
+      },
+      {
+        "title": "必要に応じて動画を閉じる",
+        "text": "復元を試す場合はClose Allを使い、確認内容を読んで進めます。ワークスペースから動画が閉じられますが、元ファイルは削除されません。",
+        "caption": "Close Allは表示中の動画を閉じる前に確認します。"
+      },
+      {
+        "title": "保存したブックマークを選ぶ",
+        "text": "空のワークスペースから、下の星付きリストボタンでBookmarksを開きます。プレビューと保存時刻を目印に項目を選んでください。",
+        "caption": "空になったワークスペースから保存済みの配置を開けます。"
+      },
+      {
+        "title": "復元された配置を確認する",
+        "text": "読み込みを待ち、レイアウト、動画、確認用の印をチェックします。この例では2つのゴルフ映像と、チェックポイント・同期の印が戻ります。",
+        "caption": "確認用の印とともにゴルフ比較画面が復元されました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "元ファイルを利用できる状態にする",
+        "description": "素材の移動・削除やアクセス権の取り消しによって復元できなくなる場合があります。継続して使う素材は安定した場所に保存します。"
+      },
+      {
+        "title": "目的に合った保存方法を選ぶ",
+        "description": "ブックマークは操作を続けられるワークスペース、比較画像はPNG、動画書き出しは再生可能なファイルを保存します。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close Allで動画自体が削除されますか？",
+        "answer": "いいえ。プレーヤーで表示中のメディアを閉じるだけです。元ファイルは保存場所に残ります。"
+      },
+      {
+        "question": "ブックマークは素材のバックアップですか？",
+        "answer": "いいえ。重要な素材は別途コピーを保管してください。ワークスペースのブックマークはファイルのバックアップを代替しません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Enregistrer et restaurer un espace de travail vidéo sur Android",
+    "description": "Enregistrez votre écran partagé comme signet sur Android, fermez les vidéos affichées puis retrouvez la disposition pour poursuivre votre analyse.",
+    "summary": "Gardez une disposition utile afin de retrouver ses vidéos et son organisation sans tout reconstruire.",
+    "answer": "Touchez l’étoile Bookmark et attendez la confirmation. Plus tard, ouvrez Bookmarks dans la barre du bas et sélectionnez l’entrée enregistrée.",
+    "requirement": "L’enregistrement et la restauration des signets nécessitent Premium. Conservez les fichiers sources et leurs autorisations : le signet ne contient pas une copie de tous les médias.",
+    "steps": [
+      {
+        "title": "Enregistrer l’espace actuel",
+        "text": "Disposez vos vidéos et touchez l’étoile Bookmark. Avant de quitter, attendez la confirmation que la disposition et les zones ont été enregistrées.",
+        "caption": "L’application confirme l’enregistrement de l’espace de travail."
+      },
+      {
+        "title": "Fermer les vidéos si nécessaire",
+        "text": "Pour tester la restauration, utilisez Close All et lisez la confirmation. Cette opération retire les vidéos de l’espace de travail sans supprimer leurs fichiers sources.",
+        "caption": "Close All demande confirmation avant de fermer les vidéos affichées."
+      },
+      {
+        "title": "Choisir le signet enregistré",
+        "text": "Depuis l’espace vide, ouvrez Bookmarks avec le bouton représentant une liste et une étoile. Identifiez l’entrée par son aperçu et sa date, puis touchez-la.",
+        "caption": "L’espace vide peut être rempli à nouveau depuis un signet."
+      },
+      {
+        "title": "Contrôler la restauration",
+        "text": "Attendez le chargement, puis vérifiez la disposition, les sources et les marques d’analyse. Ici, les deux vues de golf reviennent avec leurs repères et marques de synchronisation.",
+        "caption": "La comparaison de golf retrouve ses marques d’analyse."
+      }
+    ],
+    "features": [
+      {
+        "title": "Garder les sources accessibles",
+        "description": "Déplacer ou supprimer un fichier, ou retirer son autorisation, peut empêcher sa restauration. Conservez les médias importants dans un emplacement stable."
+      },
+      {
+        "title": "Choisir le bon résultat",
+        "description": "Un signet rouvre un espace modifiable. Une image de comparaison est un PNG ; l’exportation vidéo crée un fichier à lire."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All efface-t-il mes vidéos ?",
+        "answer": "Non. Il ferme les médias actuellement affichés dans le lecteur. Les fichiers sources restent à leur emplacement."
+      },
+      {
+        "question": "Un signet sauvegarde-t-il les fichiers sources ?",
+        "answer": "Non. Conservez des copies distinctes des médias importants. Un signet d’espace de travail ne remplace pas une sauvegarde de fichiers."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to save and restore a video workspace on Android",
+    "description": "Save a split-screen video workspace as a bookmark on Android, close the visible clips, and reopen the saved arrangement to continue reviewing.",
+    "summary": "Keep a useful arrangement so that you can return to its videos and layout without rebuilding the workspace.",
+    "answer": "Tap the star-shaped Bookmark button and wait for confirmation. Later, open Bookmarks from the bottom toolbar and choose the saved entry to restore it.",
+    "requirement": "Saving and restoring workspace bookmarks requires Premium. Keep source files available and retain access permissions; a bookmark does not contain copies of all your media.",
+    "steps": [
+      {
+        "title": "Save the current workspace",
+        "text": "Arrange your clips and use the star-shaped Bookmark button. Wait for the confirmation that the current layout and panes were bookmarked before leaving the workspace.",
+        "caption": "The app confirms that the current workspace was bookmarked."
+      },
+      {
+        "title": "Close the visible videos if needed",
+        "text": "To check restoration, use Close All and review the confirmation before proceeding. Closing videos clears them from the workspace; it does not delete their source files.",
+        "caption": "Close All asks for confirmation before closing the visible videos."
+      },
+      {
+        "title": "Choose the saved bookmark",
+        "text": "From the empty workspace, open Bookmarks using the list-and-star button in the bottom toolbar. Find the entry by its preview and saved time, then tap it.",
+        "caption": "The cleared workspace is ready to reopen a saved bookmark."
+      },
+      {
+        "title": "Check the restored arrangement",
+        "text": "Wait for the media to load. Confirm the layout, video sources, and any saved review markers. This example restores the two visible golf views with checkpoint and sync markers.",
+        "caption": "The golf comparison reopens with its review markers visible."
+      }
+    ],
+    "features": [
+      {
+        "title": "Keep the original files accessible",
+        "description": "Moving or deleting a source, or revoking its permission, can prevent restoration. Keep important review media in a stable location."
+      },
+      {
+        "title": "Use the right kind of saved result",
+        "description": "A bookmark reopens an editable workspace. A comparison image is a PNG, while video export renders a playable file."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Close All erase my videos?",
+        "answer": "No. It closes the currently displayed media in the player. The source files remain in their storage location."
+      },
+      {
+        "question": "Is a bookmark a backup of the source files?",
+        "answer": "No. Keep separate copies of valuable media. A workspace bookmark should not be treated as a replacement for a file backup."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como salvar e restaurar um espaço de trabalho de vídeo no Android",
+    "description": "Salve a tela dividida como favorito no Android, feche os vídeos visíveis e reabra o layout para continuar a análise.",
+    "summary": "Guarde uma organização útil para retornar aos vídeos e ao layout sem reconstruir o espaço de trabalho.",
+    "answer": "Toque na estrela Bookmark e espere a confirmação. Depois, abra Bookmarks na barra inferior e selecione a entrada salva.",
+    "requirement": "Salvar e restaurar favoritos exige Premium. Mantenha os arquivos originais e as permissões de acesso; um favorito não contém cópias de toda a mídia.",
+    "steps": [
+      {
+        "title": "Salvar o espaço atual",
+        "text": "Organize os vídeos e toque na estrela Bookmark. Antes de sair, espere a confirmação de que o layout e as áreas foram salvos.",
+        "caption": "O aplicativo confirma que o espaço de trabalho foi salvo."
+      },
+      {
+        "title": "Fechar os vídeos, se necessário",
+        "text": "Para testar a restauração, use Close All e leia a confirmação. Os vídeos são fechados no espaço de trabalho, mas os arquivos originais não são apagados.",
+        "caption": "Close All pede confirmação antes de fechar os vídeos visíveis."
+      },
+      {
+        "title": "Escolher o favorito salvo",
+        "text": "No espaço vazio, abra Bookmarks pelo botão de lista com estrela. Encontre a entrada pela prévia e pelo horário de salvamento, depois toque nela.",
+        "caption": "O espaço vazio pode ser restaurado a partir de um favorito."
+      },
+      {
+        "title": "Conferir a restauração",
+        "text": "Espere o carregamento e confira o layout, as fontes e as marcas salvas. Aqui, as duas vistas de golfe retornam com pontos de controle e marcas de sincronização.",
+        "caption": "A comparação de golfe reabre com suas marcas de análise."
+      }
+    ],
+    "features": [
+      {
+        "title": "Mantenha os originais acessíveis",
+        "description": "Mover ou apagar um arquivo, ou revogar sua permissão, pode impedir a restauração. Guarde mídias importantes em um local estável."
+      },
+      {
+        "title": "Escolha o tipo certo de resultado",
+        "description": "Um favorito reabre um espaço editável. Uma imagem de comparação é um PNG; a exportação de vídeo cria um arquivo reproduzível."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All apaga meus vídeos?",
+        "answer": "Não. Ele fecha a mídia exibida nos players. Os arquivos originais continuam no local de armazenamento."
+      },
+      {
+        "question": "Um favorito é um backup dos arquivos?",
+        "answer": "Não. Mantenha cópias separadas das mídias importantes. Um favorito do espaço de trabalho não substitui um backup dos arquivos."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 영상 작업 공간을 저장하고 복원하는 방법",
+    "description": "Android 분할 화면을 북마크로 저장하고 현재 영상을 닫은 뒤 저장된 배치를 다시 열어 검토를 계속하세요.",
+    "summary": "유용한 배치를 저장하면 다음에 영상과 화면 구성을 처음부터 다시 만들 필요가 없습니다.",
+    "answer": "별 모양 Bookmark 버튼을 누르고 저장 확인을 기다리세요. 나중에 아래 도구 모음의 Bookmarks를 열고 저장한 항목을 선택합니다.",
+    "requirement": "작업 공간 북마크 저장과 복원은 Premium이 필요합니다. 원본 파일과 접근 권한을 유지하세요. 북마크는 모든 미디어를 복사해 보관하지 않습니다.",
+    "steps": [
+      {
+        "title": "현재 작업 공간 저장하기",
+        "text": "영상을 배치하고 별 모양 Bookmark를 누르세요. 화면을 떠나기 전에 현재 배치와 영역이 저장됐다는 안내를 확인합니다.",
+        "caption": "현재 작업 공간이 북마크로 저장됐다는 안내입니다."
+      },
+      {
+        "title": "필요하면 현재 영상 닫기",
+        "text": "복원을 확인하려면 Close All을 사용하고 확인 내용을 읽은 뒤 진행하세요. 작업 공간에서 영상을 닫지만 원본 파일을 삭제하지는 않습니다.",
+        "caption": "Close All은 현재 영상을 닫기 전에 확인을 요청합니다."
+      },
+      {
+        "title": "저장한 북마크 선택하기",
+        "text": "빈 작업 공간에서 아래의 별이 있는 목록 버튼으로 Bookmarks를 여세요. 미리 보기와 저장 시간으로 항목을 찾고 누릅니다.",
+        "caption": "비어 있는 작업 공간에서 저장된 배치를 다시 열 수 있습니다."
+      },
+      {
+        "title": "복원된 배치 확인하기",
+        "text": "로딩을 기다린 뒤 배치, 영상과 저장된 검토 표시를 확인하세요. 이 예시에서는 골프 화면 두 개와 체크포인트 및 동기화 표시가 복원됩니다.",
+        "caption": "검토 표시와 함께 골프 비교 화면이 다시 열립니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "원본 파일을 접근 가능한 상태로 유지하세요",
+        "description": "파일을 이동하거나 삭제하고 접근 권한을 취소하면 복원하지 못할 수 있습니다. 계속 사용할 소재는 안정적인 위치에 보관하세요."
+      },
+      {
+        "title": "목적에 맞게 저장하세요",
+        "description": "북마크는 계속 조작할 작업 공간, 비교 이미지는 PNG, 영상 내보내기는 재생 가능한 파일을 저장합니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All을 누르면 영상 파일이 삭제되나요?",
+        "answer": "아니요. 플레이어에 현재 표시된 미디어를 닫습니다. 원본 파일은 저장 위치에 남습니다."
+      },
+      {
+        "question": "북마크를 원본 파일 백업으로 써도 되나요?",
+        "answer": "아니요. 중요한 미디어는 별도로 복사해 보관하세요. 작업 공간 북마크는 파일 백업을 대신하지 않습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo guardar y restaurar un espacio de trabajo de vídeo en Android",
+    "description": "Guarda la pantalla dividida como marcador en Android, cierra los vídeos visibles y recupera la distribución para seguir revisándolos.",
+    "summary": "Conserva una distribución útil para volver a sus vídeos y organización sin reconstruir el espacio de trabajo.",
+    "answer": "Toca la estrella Bookmark y espera la confirmación. Después, abre Bookmarks en la barra inferior y selecciona la entrada guardada.",
+    "requirement": "Guardar y restaurar marcadores requiere Premium. Conserva los archivos originales y sus permisos; un marcador no contiene copias de todos los contenidos.",
+    "steps": [
+      {
+        "title": "Guardar el espacio actual",
+        "text": "Organiza los vídeos y toca la estrella Bookmark. Antes de salir, espera la confirmación de que se han guardado la distribución y las zonas.",
+        "caption": "La aplicación confirma que se ha guardado el espacio de trabajo."
+      },
+      {
+        "title": "Cerrar los vídeos si hace falta",
+        "text": "Para probar la restauración, usa Close All y lee la confirmación. Se cierran los vídeos del espacio de trabajo, pero sus archivos originales no se eliminan.",
+        "caption": "Close All pide confirmación antes de cerrar los vídeos visibles."
+      },
+      {
+        "title": "Elegir el marcador guardado",
+        "text": "Desde el espacio vacío, abre Bookmarks con el botón de lista y estrella. Identifica la entrada por la vista previa y la hora de guardado, y tócala.",
+        "caption": "El espacio vacío puede recuperar una distribución desde un marcador."
+      },
+      {
+        "title": "Comprobar la restauración",
+        "text": "Espera a que carguen los contenidos y revisa la distribución, las fuentes y las marcas guardadas. Aquí vuelven las dos vistas de golf con puntos de control y marcas de sincronización.",
+        "caption": "La comparación de golf vuelve con sus marcas de revisión."
+      }
+    ],
+    "features": [
+      {
+        "title": "Mantener accesibles los originales",
+        "description": "Mover o borrar un archivo, o revocar su permiso, puede impedir la restauración. Guarda los contenidos importantes en una ubicación estable."
+      },
+      {
+        "title": "Elegir el tipo de resultado",
+        "description": "Un marcador abre un espacio editable. Una imagen comparativa es un PNG; la exportación de vídeo crea un archivo reproducible."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Close All borra mis vídeos?",
+        "answer": "No. Cierra los contenidos que se muestran en el reproductor. Los archivos originales permanecen en su ubicación."
+      },
+      {
+        "question": "¿Un marcador es una copia de seguridad?",
+        "answer": "No. Conserva copias independientes de los archivos importantes. Un marcador del espacio de trabajo no sustituye una copia de seguridad."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上保存并恢复视频工作区",
+    "description": "将 Android 分屏视频工作区保存为书签，关闭当前视频后重新打开布局，继续查看原来的素材与复看标记。",
+    "summary": "保留有用的分屏安排，下次直接回到视频与布局，无需重新搭建工作区。",
+    "answer": "点按星形 Bookmark 按钮并等待保存提示。之后从底部工具栏打开 Bookmarks，选择对应条目即可恢复。",
+    "requirement": "保存和恢复工作区书签需要 Premium。请保留原文件及访问权限，书签不会复制全部媒体素材。",
+    "steps": [
+      {
+        "title": "保存当前工作区",
+        "text": "排列好视频后点按星形 Bookmark。离开工作区前，确认已出现当前布局和区域内容保存成功的提示。",
+        "caption": "应用提示当前工作区已保存为书签。"
+      },
+      {
+        "title": "按需关闭当前视频",
+        "text": "要检查恢复效果，可使用 Close All，确认提示内容后再继续。关闭操作会清空工作区中的视频，不会删除原文件。",
+        "caption": "Close All 在关闭当前视频前要求确认。"
+      },
+      {
+        "title": "选择已保存的书签",
+        "text": "在空白工作区中，点按底部带星号的列表按钮打开 Bookmarks。通过预览图和保存时间找到对应条目，点按打开。",
+        "caption": "清空后的工作区可以通过书签重新载入。"
+      },
+      {
+        "title": "检查恢复结果",
+        "text": "等待素材加载，检查布局、视频来源和已保存的复看标记。本例恢复了两个可见的高尔夫画面，并显示检查点和同步标记。",
+        "caption": "高尔夫对比工作区恢复后，复看标记重新显示。"
+      }
+    ],
+    "features": [
+      {
+        "title": "保持原素材可访问",
+        "description": "移动、删除素材或撤销访问权限，可能导致无法恢复。建议将需要长期复看的素材保存在稳定位置。"
+      },
+      {
+        "title": "区分保存结果的用途",
+        "description": "书签恢复可继续操作的工作区；对比图片生成 PNG；视频导出则生成可播放文件。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Close All 会删除我的视频吗？",
+        "answer": "不会。它关闭播放器中当前显示的媒体，原文件仍保存在原来的存储位置。"
+      },
+      {
+        "question": "书签可以作为原视频备份吗？",
+        "answer": "不可以。重要素材应另外备份，工作区书签不能代替文件备份。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Einen Video-Arbeitsbereich auf Android speichern und wiederherstellen",
+    "description": "Speichern Sie einen geteilten Video-Arbeitsbereich als Lesezeichen auf Android, schließen Sie die Videos und öffnen Sie später die gespeicherte Anordnung.",
+    "summary": "Bewahren Sie eine nützliche Anordnung auf, um Videos und Layout später ohne erneuten Aufbau wiederzufinden.",
+    "answer": "Tippen Sie auf den Stern Bookmark und warten Sie auf die Bestätigung. Öffnen Sie später Bookmarks in der unteren Werkzeugleiste und wählen Sie den Eintrag.",
+    "requirement": "Speichern und Wiederherstellen von Lesezeichen benötigen Premium. Behalten Sie Quelldateien und Zugriffsrechte; ein Lesezeichen enthält keine Kopien aller Medien.",
+    "steps": [
+      {
+        "title": "Den aktuellen Arbeitsbereich speichern",
+        "text": "Ordnen Sie Ihre Clips an und tippen Sie auf Bookmark. Warten Sie vor dem Verlassen auf die Bestätigung, dass Layout und Bereiche gespeichert wurden.",
+        "caption": "Die App bestätigt das gespeicherte Arbeitsbereich-Lesezeichen."
+      },
+      {
+        "title": "Videos bei Bedarf schließen",
+        "text": "Zum Prüfen der Wiederherstellung nutzen Sie Close All und lesen die Bestätigung. Die Videos werden aus dem Arbeitsbereich geschlossen; ihre Quelldateien bleiben erhalten.",
+        "caption": "Close All fragt vor dem Schließen der sichtbaren Videos nach."
+      },
+      {
+        "title": "Das gespeicherte Lesezeichen wählen",
+        "text": "Öffnen Sie im leeren Arbeitsbereich Bookmarks über die Liste mit Stern. Finden Sie den Eintrag anhand von Vorschau und Speicherzeit und tippen Sie darauf.",
+        "caption": "Im leeren Arbeitsbereich lässt sich eine gespeicherte Anordnung öffnen."
+      },
+      {
+        "title": "Die Wiederherstellung prüfen",
+        "text": "Warten Sie auf die Medien und prüfen Sie Layout, Quellen und gespeicherte Markierungen. Hier erscheinen beide Golfansichten mit Prüfpunkt- und Synchronisationsmarkierungen erneut.",
+        "caption": "Der Golfvergleich öffnet sich mit den gespeicherten Markierungen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Quelldateien zugänglich halten",
+        "description": "Verschieben, Löschen oder entzogene Rechte können die Wiederherstellung verhindern. Bewahren Sie wichtige Medien an einem stabilen Speicherort auf."
+      },
+      {
+        "title": "Das passende Ergebnis speichern",
+        "description": "Ein Lesezeichen öffnet einen veränderbaren Arbeitsbereich. Ein Vergleichsbild ist ein PNG; der Videoexport erzeugt eine abspielbare Datei."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Löscht Close All meine Videos?",
+        "answer": "Nein. Es schließt die aktuell angezeigten Medien im Player. Die Quelldateien bleiben an ihrem Speicherort."
+      },
+      {
+        "question": "Ist ein Lesezeichen eine Dateisicherung?",
+        "answer": "Nein. Sichern Sie wichtige Medien separat. Ein Arbeitsbereich-Lesezeichen ersetzt keine Kopie der Quelldateien."
+      }
+    ]
+  }
+}

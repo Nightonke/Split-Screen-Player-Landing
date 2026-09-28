@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "{device}で動く動画ギャラリーを作る方法",
+    "description": "{device}で複数の動画を額縁に入れて並べます。構図、フレーム、背景を選び、ブックマークに保存して再表示できます。",
+    "summary": "各動画を独立した額縁に入れ、ギャラリーとして配置します。額縁の中でも動画が再生されるため、思い出の場面を動く展示にできます。",
+    "answer": "ツールバーの{gallery}を開き、Content → Addから動画を追加します。{templateTab}で構図を選び、Styleで外観を調整し、星形ボタンでブックマークに保存します。",
+    "requirement": "この例はPremiumで8つの動画フレームを使用しています。3本以上の動画や写真フレームにはPremiumが必要です。ボタンがない場合はMore → Settings → {customizeToolbar}で{gallery}を追加します。 ブックマークの保存と復元にもPremiumが必要です。",
+    "steps": [
+      {
+        "title": "ギャラリーに使う動画を選ぶ",
+        "text": "{gallery}をタップして編集画面を開きます。すでに開いている動画を最初のフレームにできます。Content → Add → {source}から動画を選んで確定します。不要なフレームはプレビューで選び、ContentのRemove frameで外します。",
+        "caption": "動画ギャラリーに使うローカル素材をまとめて選択します。"
+      },
+      {
+        "title": "構図を選ぶ",
+        "text": "{templateTab}を開き、CompositionのMixed rowsを選びます。前後のレイアウト矢印で別の配置も試せます。フレームのプリセットを選んで編集の土台にしましょう。この例では縦長と横長の動画を混ぜています。",
+        "caption": "Mixed rowsで縦長と横長の素材を組み合わせた配置。"
+      },
+      {
+        "title": "額縁と背景を調整する",
+        "text": "StyleでWood frameを選びます。Background color、Border color、Mat colorを素材に合わせて調整してください。1つのフレームだけサイズや位置を変えたい場合は、プレビューで選択してAdjustを開きます。",
+        "caption": "木製の額縁と明るい背景で外観を統一したギャラリー。"
+      },
+      {
+        "title": "保存して後から開き直す",
+        "text": "編集画面の星形ボタンでギャラリーをブックマークに保存します。保存完了後にギャラリーを終了し、ツールバーのブックマーク一覧から同じ項目を開けます。元の素材は残しておいてください。この例は保存、終了、復元まで確認しています。",
+        "caption": "ギャラリーのブックマークが保存されたことを示す表示。"
+      }
+    ],
+    "features": [
+      {
+        "title": "縦向きのスマートフォンに横長のキャンバスを表示",
+        "description": "ギャラリーは横長のキャンバスを使います。縦向きの作業画面では上下に余白ができますが、素材が消えたわけではありません。個別のフレームを変える前に構図全体を確認してください。"
+      },
+      {
+        "title": "音声は別に設定する",
+        "description": "Contentには音声の設定もあります。無音にするには{galleryMute}を選びます。1本だけ音を流す場合は選択中のフレームの音声を使います。この例の一部の動画には音声トラックがありません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "保存すると完成した動画ファイルになりますか？",
+        "answer": "いいえ。ギャラリーのブックマークは、プレーヤーで開き直せるシーンを保存します。合成動画ファイルの書き出しとは別の操作です。"
+      },
+      {
+        "question": "写真と動画を一緒に表示できますか？",
+        "answer": "はい。Premiumでは写真フレームも使えます。Content → Addで写真の保存先を選んでください。1つのフレームで複数の写真を再生する場合は、写真スライドショーの別チュートリアルでグループと順番を設定します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Créer une galerie vidéo animée sur {device}",
+    "description": "Disposez plusieurs vidéos dans des cadres sur {device}. Choisissez une composition, personnalisez le fond et les cadres, puis enregistrez la galerie en favori.",
+    "summary": "Donnez à chaque vidéo son propre cadre et organisez les clips comme une galerie. Les vidéos continuent à jouer à l’intérieur : votre collection devient une exposition animée.",
+    "answer": "Ouvrez {gallery} dans la barre d’outils. Dans Content, utilisez Add pour ajouter des vidéos. Choisissez une composition dans {templateTab}, personnalisez Style, puis enregistrez avec le bouton étoile.",
+    "requirement": "Cet exemple utilise Premium et huit cadres vidéo. Plus de deux vidéos et les cadres photo nécessitent Premium. Si le bouton manque, ajoutez {gallery} dans More → Settings → {customizeToolbar}. L’enregistrement et la restauration des favoris nécessitent aussi Premium.",
+    "steps": [
+      {
+        "title": "Choisir les vidéos de la galerie",
+        "text": "Touchez {gallery} pour ouvrir l’éditeur. Les vidéos déjà ouvertes peuvent devenir les premiers cadres. Dans Content, choisissez Add → {source}, sélectionnez vos clips et validez. Pour retirer un cadre, sélectionnez-le dans l’aperçu puis utilisez Remove frame dans Content.",
+        "caption": "Sélection de plusieurs clips locaux pour la galerie vidéo."
+      },
+      {
+        "title": "Choisir une composition",
+        "text": "Ouvrez {templateTab} et choisissez Mixed rows sous Composition. Les flèches de disposition précédente et suivante permettent d’explorer d’autres arrangements. Sélectionnez un préréglage de cadre comme point de départ. L’exemple mélange vidéos verticales et horizontales.",
+        "caption": "Mixed rows réunit les clips verticaux et horizontaux dans une même composition."
+      },
+      {
+        "title": "Personnaliser les cadres et le fond",
+        "text": "Dans Style, choisissez Wood frame. Ajustez Background color, Border color et Mat color selon vos clips. Ces réglages modifient l’apparence de la galerie. Pour changer seulement la taille ou la position d’un cadre, sélectionnez-le dans l’aperçu puis ouvrez Adjust.",
+        "caption": "Des cadres en bois et un fond clair donnent une apparence cohérente à la galerie."
+      },
+      {
+        "title": "Enregistrer et retrouver la galerie",
+        "text": "Touchez l’étoile dans l’éditeur pour enregistrer la galerie en favori. Après confirmation, vous pouvez la quitter et ouvrir cette entrée depuis la liste de favoris de la barre d’outils. Conservez les fichiers sources. Cet exemple a été vérifié en enregistrant, quittant puis restaurant la scène.",
+        "caption": "L’application confirme l’enregistrement du favori de la galerie."
+      }
+    ],
+    "features": [
+      {
+        "title": "Un canevas horizontal sur un téléphone vertical",
+        "description": "La galerie utilise un canevas large. Dans un espace de travail vertical, des marges apparaissent au-dessus et au-dessous ; elles ne signalent pas des médias manquants. Vérifiez la composition complète avant d’ajuster les cadres."
+      },
+      {
+        "title": "Régler le son séparément",
+        "description": "Content contient les réglages audio. Choisissez {galleryMute} pour une galerie silencieuse, ou l’audio du cadre sélectionné si un clip doit fournir la bande-son. Certains clips de cet exemple n’ont pas de piste audio."
+      }
+    ],
+    "faq": [
+      {
+        "question": "L’enregistrement crée-t-il un fichier vidéo terminé ?",
+        "answer": "Non. Le favori de galerie conserve une scène à rouvrir dans le lecteur. C’est une opération différente de l’exportation d’une vidéo combinée."
+      },
+      {
+        "question": "Peut-on mélanger photos et vidéos ?",
+        "answer": "Oui, les cadres photo sont disponibles avec Premium. Choisissez une source de photos dans Content → Add. Pour plusieurs photos dans un même cadre, suivez le tutoriel consacré aux diaporamas afin de définir les groupes et l’ordre de lecture."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to create a dynamic video gallery on {device}",
+    "description": "Build a gallery of playing videos on {device}. Choose a composition, add picture frames, adjust the background, and save the wall as a bookmark.",
+    "summary": "Give each video its own picture frame and arrange the clips as a gallery. The videos keep playing inside the frames, so a collection of moments becomes a moving wall of pictures.",
+    "answer": "Open {gallery} from the toolbar. In Content, use Add to choose local videos. Select a composition in {templateTab}, customize the frames in Style, then use the star button to save a bookmark.",
+    "requirement": "This example uses Premium and eight video frames. More than two videos and photo frames require Premium. Add {gallery} through More → Settings → {customizeToolbar} if it is missing. Saving and restoring bookmarks also requires Premium.",
+    "steps": [
+      {
+        "title": "Choose videos for the gallery",
+        "text": "Tap {gallery} to open the editor. Existing videos can become the first frames. In Content, choose Add → {source}, select your clips and confirm. To remove a frame you do not want, select it in the preview and choose Remove frame in Content.",
+        "caption": "Select a group of local clips for the video gallery."
+      },
+      {
+        "title": "Choose a composition",
+        "text": "Open {templateTab} and select Mixed rows under Composition. Try the previous-layout and next-layout arrows to explore arrangements. Choose a framing preset as a starting point; the example uses a mixture of wide and tall clips.",
+        "caption": "Mixed rows arranges portrait and landscape clips together."
+      },
+      {
+        "title": "Customize frames and background",
+        "text": "Open Style and choose Wood frame. Adjust Background color, Border color and Mat color to suit your clips. The style controls change the gallery appearance. To change just one frame’s dimensions or position, select it in the preview and open Adjust.",
+        "caption": "Wood frames and a light background give the gallery a consistent appearance."
+      },
+      {
+        "title": "Save the gallery and reopen it later",
+        "text": "Use the star button in the editor to save the gallery as a bookmark. After the saved confirmation, you can exit the gallery and open that entry from the toolbar’s bookmark list. Keep the source files available. The example was checked by saving, exiting, and restoring the wall.",
+        "caption": "The app confirms that the gallery bookmark has been saved."
+      }
+    ],
+    "features": [
+      {
+        "title": "A landscape canvas on a portrait phone",
+        "description": "The gallery uses a wide canvas. In a portrait workspace it appears with space above and below; those margins do not indicate missing media. Check the complete composition before changing individual frames."
+      },
+      {
+        "title": "Control the sound separately",
+        "description": "Content contains audio controls. Select {galleryMute} for a silent wall, or choose the selected frame’s audio when one clip should provide the soundtrack. Several clips in this example have no audio track."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the gallery save a finished video file?",
+        "answer": "No. A gallery bookmark stores a scene you can reopen in the player. It is different from exporting a combined video file."
+      },
+      {
+        "question": "Can the gallery include photos as well as videos?",
+        "answer": "Yes, photo frames are available with Premium. Use the photo source in Content → Add. For several photos inside one frame, follow the separate photo-slideshow tutorial so grouping and playback order are configured deliberately."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como criar uma galeria de vídeos em movimento no {device}",
+    "description": "Coloque vários vídeos em molduras no {device}. Escolha a composição, personalize as molduras e o fundo e salve a galeria como favorito.",
+    "summary": "Dê a cada vídeo sua própria moldura e organize os clipes como uma galeria. Eles continuam sendo reproduzidos dentro das molduras, transformando a coleção em uma exposição em movimento.",
+    "answer": "Abra {gallery} na barra de ferramentas. Em Content, use Add para adicionar vídeos. Escolha uma composição em {templateTab}, personalize Style e salve um favorito com o botão de estrela.",
+    "requirement": "Este exemplo usa Premium e oito molduras de vídeo. Mais de dois vídeos e molduras de fotos exigem Premium. Se o botão não aparecer, adicione {gallery} em More → Settings → {customizeToolbar}. Salvar e restaurar favoritos também requer Premium.",
+    "steps": [
+      {
+        "title": "Escolher os vídeos da galeria",
+        "text": "Toque em {gallery} para abrir o editor. Os vídeos já abertos podem se tornar as primeiras molduras. Em Content, escolha Add → {source}, selecione os clipes e confirme. Para remover uma moldura, selecione-a na prévia e escolha Remove frame em Content.",
+        "caption": "Seleção de vários clipes locais para a galeria de vídeos."
+      },
+      {
+        "title": "Escolher uma composição",
+        "text": "Abra {templateTab} e selecione Mixed rows em Composition. Use as setas de layout anterior e seguinte para explorar outras disposições. Escolha um estilo de moldura predefinido como ponto de partida. O exemplo mistura clipes verticais e horizontais.",
+        "caption": "Mixed rows combina clipes verticais e horizontais na mesma composição."
+      },
+      {
+        "title": "Personalizar as molduras e o fundo",
+        "text": "Em Style, escolha Wood frame. Ajuste Background color, Border color e Mat color de acordo com os clipes. Esses controles mudam a aparência da galeria. Para alterar apenas o tamanho ou a posição de uma moldura, selecione-a na prévia e abra Adjust.",
+        "caption": "Molduras de madeira e um fundo claro deixam a aparência da galeria uniforme."
+      },
+      {
+        "title": "Salvar a galeria e abrir novamente",
+        "text": "Use a estrela no editor para salvar a galeria como favorito. Após a confirmação, você pode sair da galeria e abrir a entrada pela lista de favoritos da barra. Mantenha os arquivos originais disponíveis. O exemplo foi verificado salvando, saindo e restaurando a cena.",
+        "caption": "O aplicativo confirma que o favorito da galeria foi salvo."
+      }
+    ],
+    "features": [
+      {
+        "title": "Uma tela de composição horizontal no celular em pé",
+        "description": "A galeria usa uma área de composição larga. Em um espaço de trabalho vertical, aparecem margens acima e abaixo; elas não indicam falta de arquivos. Confira a composição completa antes de alterar cada moldura."
+      },
+      {
+        "title": "Controlar o som separadamente",
+        "description": "Content contém os controles de áudio. Escolha {galleryMute} para uma galeria silenciosa ou o áudio da moldura selecionada quando um clipe deve fornecer a trilha sonora. Alguns vídeos deste exemplo não têm faixa de áudio."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Salvar a galeria cria um arquivo de vídeo pronto?",
+        "answer": "Não. O favorito da galeria guarda uma cena que pode ser reaberta no player. Isso é diferente de exportar um arquivo de vídeo combinado."
+      },
+      {
+        "question": "Posso incluir fotos e vídeos na mesma galeria?",
+        "answer": "Sim, as molduras de fotos estão disponíveis com Premium. Escolha uma origem de fotos em Content → Add. Para reproduzir várias fotos em uma moldura, siga o tutorial de apresentações de fotos e configure os grupos e a ordem de reprodução."
+      }
+    ]
+  },
+  "ko": {
+    "title": "{device}에서 움직이는 동영상 갤러리를 만드는 방법",
+    "description": "{device}에서 여러 영상을 액자에 넣어 배치하세요. 구도, 액자, 배경을 고르고 북마크로 저장해 다시 열 수 있습니다.",
+    "summary": "영상마다 독립된 액자를 만들어 갤러리처럼 배치합니다. 액자 안에서도 영상이 계속 재생되어 여러 장면을 움직이는 전시로 보여 줍니다.",
+    "answer": "도구 모음에서 {gallery}를 열고 Content → Add로 영상을 추가합니다. {templateTab}에서 구도를 고르고 Style에서 모양을 조절한 뒤 별 버튼으로 북마크를 저장합니다.",
+    "requirement": "예시는 Premium으로 8개의 영상 액자를 사용합니다. 영상 3개 이상이나 사진 액자에는 Premium이 필요합니다. 버튼이 없다면 More → Settings → {customizeToolbar}에서 {gallery}를 추가하세요. 북마크 저장과 복원에도 Premium이 필요합니다.",
+    "steps": [
+      {
+        "title": "갤러리에 사용할 영상 선택하기",
+        "text": "{gallery}를 눌러 편집기를 엽니다. 기존에 열린 영상을 첫 액자로 사용할 수 있습니다. Content → Add → {source}에서 영상을 선택하고 확인하세요. 불필요한 액자는 미리보기에서 선택한 다음 Content의 Remove frame으로 뺍니다.",
+        "caption": "동영상 갤러리에 사용할 로컬 클립을 함께 선택합니다."
+      },
+      {
+        "title": "갤러리 구도 선택하기",
+        "text": "{templateTab}에서 Composition 아래의 Mixed rows를 선택합니다. 이전 및 다음 레이아웃 화살표로 다른 배치를 시험할 수 있습니다. 액자 프리셋을 출발점으로 선택하세요. 예시에서는 가로와 세로 영상을 섞었습니다.",
+        "caption": "Mixed rows가 가로와 세로 클립을 함께 배치합니다."
+      },
+      {
+        "title": "액자와 배경 꾸미기",
+        "text": "Style에서 Wood frame을 고릅니다. Background color, Border color, Mat color를 영상에 맞게 조절하세요. 이 설정은 갤러리의 모양을 바꿉니다. 한 액자의 크기나 위치만 바꾸려면 미리보기에서 선택하고 Adjust를 엽니다.",
+        "caption": "나무 액자와 밝은 배경으로 통일한 갤러리입니다."
+      },
+      {
+        "title": "저장하고 나중에 다시 열기",
+        "text": "편집기의 별 버튼으로 갤러리를 북마크에 저장합니다. 저장 완료 메시지가 나타나면 갤러리를 나갔다가 도구 모음의 북마크 목록에서 해당 항목을 열 수 있습니다. 원본 파일은 보관하세요. 예시는 저장, 종료, 복원까지 확인했습니다.",
+        "caption": "갤러리 북마크가 저장되었다는 메시지가 표시됩니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "세로 휴대폰 화면에 표시되는 가로 캔버스",
+        "description": "갤러리는 가로로 넓은 캔버스를 사용합니다. 세로 작업 공간에서는 위아래에 여백이 생기며, 이는 미디어가 사라졌다는 뜻이 아닙니다. 개별 액자를 바꾸기 전에 전체 구도를 확인하세요."
+      },
+      {
+        "title": "소리는 별도로 설정하기",
+        "description": "Content에는 오디오 설정이 있습니다. 소리 없이 표시하려면 {galleryMute}를 선택하세요. 한 영상만 배경음을 제공하게 하려면 선택한 액자의 오디오를 사용합니다. 예시 영상 중 일부에는 오디오 트랙이 없습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "갤러리를 저장하면 완성된 영상 파일이 만들어지나요?",
+        "answer": "아니요. 갤러리 북마크는 플레이어에서 다시 열 수 있는 장면을 저장합니다. 합성 동영상 파일을 내보내는 작업과는 다릅니다."
+      },
+      {
+        "question": "갤러리에 사진과 동영상을 함께 넣을 수 있나요?",
+        "answer": "네. Premium에서는 사진 액자를 사용할 수 있습니다. Content → Add에서 사진 소스를 선택하세요. 한 액자에서 여러 사진을 재생하려면 별도의 사진 슬라이드쇼 안내에 따라 그룹과 순서를 설정하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo crear una galería de vídeos animada en {device}",
+    "description": "Coloca varios vídeos en marcos en {device}. Elige la composición, personaliza los marcos y el fondo, y guarda la galería como marcador.",
+    "summary": "Dale a cada vídeo su propio marco y organiza los clips como una galería. Los vídeos siguen reproduciéndose dentro de los marcos y convierten la colección en una exposición en movimiento.",
+    "answer": "Abre {gallery} desde la barra de herramientas. En Content, usa Add para añadir vídeos. Elige una composición en {templateTab}, personaliza Style y guarda un marcador con el botón de estrella.",
+    "requirement": "Este ejemplo utiliza Premium y ocho marcos de vídeo. Más de dos vídeos y los marcos de fotos requieren Premium. Si falta el botón, añade {gallery} en More → Settings → {customizeToolbar}. Guardar y restaurar marcadores también requiere Premium.",
+    "steps": [
+      {
+        "title": "Elegir los vídeos de la galería",
+        "text": "Pulsa {gallery} para abrir el editor. Los vídeos ya abiertos pueden convertirse en los primeros marcos. En Content, elige Add → {source}, selecciona los clips y confirma. Para retirar un marco, selecciónalo en la vista previa y elige Remove frame en Content.",
+        "caption": "Selección de varios clips locales para la galería de vídeos."
+      },
+      {
+        "title": "Elegir una composición",
+        "text": "Abre {templateTab} y selecciona Mixed rows en Composition. Prueba las flechas de distribución anterior y siguiente para explorar otras composiciones. Elige un estilo de marco predefinido como punto de partida. El ejemplo mezcla clips verticales y horizontales.",
+        "caption": "Mixed rows combina clips verticales y horizontales en una misma composición."
+      },
+      {
+        "title": "Personalizar los marcos y el fondo",
+        "text": "En Style, elige Wood frame. Ajusta Background color, Border color y Mat color según tus clips. Estos controles cambian el aspecto de la galería. Para modificar solo el tamaño o la posición de un marco, selecciónalo en la vista previa y abre Adjust.",
+        "caption": "Los marcos de madera y el fondo claro dan a la galería un aspecto uniforme."
+      },
+      {
+        "title": "Guardar la galería y volver a abrirla",
+        "text": "Pulsa la estrella del editor para guardar la galería como marcador. Tras la confirmación, puedes salir de la galería y abrir esa entrada desde la lista de marcadores de la barra. Conserva los archivos originales. El ejemplo se ha comprobado guardando, saliendo y restaurando la escena.",
+        "caption": "La aplicación confirma que el marcador de la galería se ha guardado."
+      }
+    ],
+    "features": [
+      {
+        "title": "Un lienzo horizontal en un teléfono vertical",
+        "description": "La galería utiliza un lienzo ancho. En un espacio de trabajo vertical aparecen márgenes arriba y abajo; no indican que falten archivos. Comprueba la composición completa antes de modificar cada marco."
+      },
+      {
+        "title": "Controlar el sonido por separado",
+        "description": "Content incluye los controles de audio. Elige {galleryMute} para una galería silenciosa, o el audio del marco seleccionado si un clip debe aportar la banda sonora. Algunos vídeos de este ejemplo no tienen pista de audio."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Guardar la galería crea un archivo de vídeo terminado?",
+        "answer": "No. El marcador de la galería guarda una escena que puedes volver a abrir en el reproductor. Es distinto de exportar un archivo de vídeo combinado."
+      },
+      {
+        "question": "¿Puedo incluir fotos y vídeos en la misma galería?",
+        "answer": "Sí, los marcos de fotos están disponibles con Premium. Elige una fuente de fotos en Content → Add. Para reproducir varias fotos en un marco, sigue el tutorial de presentaciones de fotos y configura los grupos y el orden de reproducción."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在{device}上创建动态视频画廊",
+    "description": "在{device}上把多个视频放进相框，选择画廊构图、相框样式和背景，再保存为可恢复的书签。",
+    "summary": "为每个视频加上独立相框，将多个片段排列成一面画廊。视频会在相框内继续播放，让一组画面成为动态展示。",
+    "answer": "从工具栏打开 {gallery}，在 Content 中选择 Add 添加本地视频。在 {templateTab} 中选择构图，在 Style 中调整外观，最后点击星形按钮保存书签。",
+    "requirement": "本例使用高级会员和八个视频相框。超过两个视频或使用照片相框需要高级会员。如果没有 {gallery} 按钮，可在 More → Settings → {customizeToolbar} 中添加。 保存和恢复书签也需要高级会员。",
+    "steps": [
+      {
+        "title": "选择画廊使用的视频",
+        "text": "点击 {gallery} 打开编辑器，已有视频可以成为第一批相框。在 Content 中选择 Add → {source}，选中素材并确认。不需要某个相框时，在预览中选中它，再点击 Content 中的 Remove frame。",
+        "caption": "为视频画廊批量选择本地片段。"
+      },
+      {
+        "title": "选择画廊构图",
+        "text": "进入 {templateTab}，在 Composition 下选择 Mixed rows。可以用上一种和下一种布局箭头尝试其他排列，再选一个相框预设作为起点。本例混合使用横屏和竖屏素材。",
+        "caption": "Mixed rows 将横屏与竖屏素材组合排列。"
+      },
+      {
+        "title": "调整相框与背景",
+        "text": "进入 Style，选择 Wood frame。按素材需要调整 Background color、Border color 和 Mat color。这些样式控件会改变画廊外观。如果只想改变一个相框的大小或位置，先在预览中选中它，再进入 Adjust。",
+        "caption": "木质相框与浅色背景让画廊保持统一外观。"
+      },
+      {
+        "title": "保存画廊并重新打开",
+        "text": "点击编辑器中的星形按钮，将画廊保存为书签。出现保存成功提示后，可以退出画廊，再从工具栏的书签列表中打开该条目。请保留原始素材。本例已完成保存、退出和恢复的验证。",
+        "caption": "应用提示画廊书签已保存。"
+      }
+    ],
+    "features": [
+      {
+        "title": "竖屏手机里的横向画布",
+        "description": "画廊使用横向画布，因此在竖屏工作区中会留出上下空间。这不表示素材丢失；调整单个相框前，先检查整体构图是否完整。"
+      },
+      {
+        "title": "单独设置声音",
+        "description": "Content 中包含声音选项。需要无声展示时选择 {galleryMute}，需要一段视频提供配乐时选择当前相框的声音。本例中的部分视频本身没有音轨。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "保存画廊会生成合成视频文件吗？",
+        "answer": "不会。画廊书签保存的是可在播放器中重新打开的场景，与导出合成视频文件是不同操作。"
+      },
+      {
+        "question": "画廊可以同时包含照片和视频吗？",
+        "answer": "可以，照片相框需要高级会员。可在 Content → Add 中选择照片来源。如果要让多张照片在同一个相框中播放，请参照独立的照片轮播教程设置分组和播放顺序。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Eine bewegte Videogalerie auf {device} erstellen",
+    "description": "Ordnen Sie mehrere Videos auf {device} in Bilderrahmen an. Wählen Sie Komposition, Rahmen und Hintergrund und speichern Sie die Galerie als Lesezeichen.",
+    "summary": "Geben Sie jedem Video einen eigenen Bilderrahmen und ordnen Sie die Clips wie eine Galerie an. Die Videos laufen in ihren Rahmen weiter und machen die Sammlung zu einer bewegten Ausstellung.",
+    "answer": "Öffnen Sie {gallery} in der Werkzeugleiste. Unter Content fügen Sie mit Add Videos hinzu. Wählen Sie eine Komposition in {templateTab}, passen Sie Style an und speichern Sie mit der Stern-Schaltfläche.",
+    "requirement": "Das Beispiel verwendet Premium und acht Videorahmen. Mehr als zwei Videos sowie Fotorahmen erfordern Premium. Fehlt die Funktion, ergänzen Sie {gallery} unter More → Settings → {customizeToolbar}. Auch das Speichern und Wiederherstellen von Lesezeichen erfordert Premium.",
+    "steps": [
+      {
+        "title": "Videos für die Galerie auswählen",
+        "text": "Tippen Sie auf {gallery}, um den Editor zu öffnen. Bereits geöffnete Videos können die ersten Rahmen bilden. Wählen Sie Content → Add → {source}, markieren Sie Ihre Clips und bestätigen Sie. Einen unerwünschten Rahmen wählen Sie in der Vorschau aus und entfernen ihn mit Remove frame unter Content.",
+        "caption": "Mehrere lokale Clips werden für die Videogalerie ausgewählt."
+      },
+      {
+        "title": "Eine Komposition auswählen",
+        "text": "Öffnen Sie {templateTab} und wählen Sie Mixed rows unter Composition. Mit den Pfeilen für das vorherige und nächste Layout probieren Sie andere Anordnungen aus. Wählen Sie eine Rahmenvorlage als Ausgangspunkt. Das Beispiel mischt Hochformat- und Querformatvideos.",
+        "caption": "Mixed rows kombiniert Hochformat- und Querformatclips in einer Anordnung."
+      },
+      {
+        "title": "Rahmen und Hintergrund gestalten",
+        "text": "Wählen Sie Wood frame unter Style. Passen Sie Background color, Border color und Mat color an Ihre Clips an. Diese Einstellungen verändern die Galeriegestaltung. Um nur Größe oder Position eines Rahmens zu ändern, wählen Sie ihn in der Vorschau aus und öffnen Adjust.",
+        "caption": "Holzrahmen und ein heller Hintergrund sorgen für ein einheitliches Erscheinungsbild."
+      },
+      {
+        "title": "Galerie speichern und später wieder öffnen",
+        "text": "Mit dem Stern im Editor speichern Sie die Galerie als Lesezeichen. Nach der Bestätigung können Sie die Galerie verlassen und den Eintrag aus der Lesezeichenliste der Werkzeugleiste öffnen. Bewahren Sie die Quelldateien auf. Das Beispiel wurde durch Speichern, Verlassen und Wiederherstellen geprüft.",
+        "caption": "Die App bestätigt das gespeicherte Galerie-Lesezeichen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Eine breite Leinwand auf einem hochkant gehaltenen Smartphone",
+        "description": "Die Galerie verwendet eine breite Leinwand. Im Hochformat entstehen darüber und darunter freie Flächen. Diese bedeuten nicht, dass Medien fehlen. Prüfen Sie die gesamte Komposition, bevor Sie einzelne Rahmen ändern."
+      },
+      {
+        "title": "Den Ton gesondert einstellen",
+        "description": "Unter Content finden Sie die Audiosteuerung. Wählen Sie {galleryMute} für eine stumme Galerie oder den Ton des ausgewählten Rahmens, wenn ein Clip die Tonspur liefern soll. Einige Beispielvideos enthalten keine Audiospur."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Entsteht beim Speichern eine fertige Videodatei?",
+        "answer": "Nein. Ein Galerie-Lesezeichen speichert eine Szene, die sich im Player erneut öffnen lässt. Der Export einer zusammengesetzten Videodatei ist ein anderer Vorgang."
+      },
+      {
+        "question": "Kann die Galerie Fotos und Videos enthalten?",
+        "answer": "Ja. Fotorahmen stehen mit Premium zur Verfügung. Wählen Sie unter Content → Add eine Fotoquelle. Für mehrere Fotos in einem Rahmen erklärt die separate Diashow-Anleitung die Gruppierung und Wiedergabereihenfolge."
+      }
+    ]
+  }
+}

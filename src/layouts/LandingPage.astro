@@ -310,11 +310,13 @@ structuredData.push({
 								href={localizedPath(content.locale, `guides/${guide.slug}`)}
 								data-reveal
 							>
-								<span class="guide-card-number">{String(index + 1).padStart(2, "0")}</span>
-								<p class="section-kicker">{guide.eyebrow}</p>
+								<p class="section-kicker guide-card-keywords">{guide.keywords.join(" · ")}</p>
 								<h3>{guide.title}</h3>
 								<p>{guide.summary}</p>
-								<span class="text-link">{guides.hub.readLabel}</span>
+								<div class="guide-card-footer">
+									<span class="text-link">{guides.hub.readLabel}</span>
+									<span class="guide-card-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+								</div>
 							</a>
 						);
 					})}

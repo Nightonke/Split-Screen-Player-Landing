@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで複数の動画プレイリストをまとめて切り替える方法",
+    "description": "iPhone・iPadの領域ごとにプレイリストを作り、順序を確認して、全プレーヤーを次または前の項目へ一括で切り替えます。",
+    "summary": "異なる動画集を別々の領域に置き、ファイルを開き直さず一緒に切り替えます。",
+    "answer": "各領域のOpenでPlaylistをオンにし、複数のVideosを選びます。別の領域でも繰り返し、下のNext Video for All PlayersまたはPrevious Video for All Playersを使います。",
+    "requirement": "一括の前・次操作にはPremiumが必要です。More → Customize Home Bottom Buttonsで追加できます。例は各領域2本です。",
+    "steps": [
+      {
+        "title": "領域のプレイリストを有効にする",
+        "text": "加号からOpenを開き、PlaylistをオンにしてVideosを選びます。選んだ動画は各領域への個別配置ではなく、この領域内の順番になります。",
+        "caption": "アルバムの選択前にPlaylistが有効です。"
+      },
+      {
+        "title": "その領域の動画を選ぶ",
+        "text": "目的のアルバムで2本を選んで✓を押し、次の領域では別の2本を選びます。タップ順とは限らないため、完成した一覧で順序を確認します。",
+        "caption": "1つのプレイリスト用に2本選択しています。"
+      },
+      {
+        "title": "各リストを確認する",
+        "text": "操作ボタンを表示してリストを開き、ファイル名、長さ、現在の項目を確認します。上のリストはIMG_0015.MP4、IMG_0014.MP4の順です。",
+        "caption": "上の領域に2本の再生順が表示されています。"
+      },
+      {
+        "title": "まとめて次・前へ切り替える",
+        "text": "Next Video for All Playersを押すと、例では階段と屋外の映像がアイスクリームと傘の映像に切り替わります。Previous Video for All Playersで前の組へ戻ります。切り替えると再生が始まるため、確認時はPause All Playersを使います。",
+        "caption": "両領域がそれぞれのリストの次の動画を表示します。"
+      }
+    ],
+    "features": [
+      {
+        "title": "リストは領域ごとに独立する",
+        "description": "一括操作は各リストを進めるもので、1つに統合しません。項目数が異なると進み具合も異なる場合があります。"
+      },
+      {
+        "title": "よく使う配置を保存する",
+        "description": "ワークスペースのブックマークで後から開けます。元ファイルと権限を保持してください。ブックマークにはPremiumが必要です。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "動画が別々の領域に入るのはなぜですか？",
+        "answer": "選択前に対象領域のOpenでPlaylistを確認してください。この手順は1領域内にリストを作ります。"
+      },
+      {
+        "question": "リスト切り替えで動作も同期しますか？",
+        "answer": "いいえ。再生する項目を変える操作です。対応する瞬間を合わせる場合は同期点を別途設定します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Changer plusieurs playlists vidéo ensemble sur iPhone ou iPad",
+    "description": "Créez une playlist par zone iPhone ou iPad, vérifiez l’ordre et passez tous les lecteurs à l’élément suivant ou précédent ensemble.",
+    "summary": "Conservez des collections distinctes dans chaque zone et parcourez-les ensemble sans rouvrir chaque fichier.",
+    "answer": "Activez Playlist dans Open et sélectionnez plusieurs Videos. Répétez dans l’autre zone, puis utilisez Next Video for All Players ou Previous Video for All Players.",
+    "requirement": "Les actions globales précédent/suivant nécessitent Premium. Ajoutez-les dans More → Customize Home Bottom Buttons. L’exemple utilise deux vidéos par zone.",
+    "steps": [
+      {
+        "title": "Activer la playlist d’une zone",
+        "text": "Touchez le plus, activez Playlist dans Open et choisissez Videos. La sélection forme une séquence dans cette zone, plutôt qu’une vidéo par région.",
+        "caption": "Playlist est activé avant la sélection dans l’album."
+      },
+      {
+        "title": "Choisir les vidéos de la zone",
+        "text": "Sélectionnez l’album, deux vidéos, puis ✓. Choisissez une autre paire pour la seconde zone. Vérifiez l’ordre réel au lieu de supposer qu’il suit l’ordre des touches.",
+        "caption": "Deux extraits sont sélectionnés pour une playlist."
+      },
+      {
+        "title": "Vérifier les listes",
+        "text": "Affichez les commandes et ouvrez la liste. Vérifiez les noms, durées et l’élément actuel. La liste du haut contient IMG_0015.MP4, puis IMG_0014.MP4.",
+        "caption": "La zone supérieure affiche deux vidéos dans l’ordre de lecture."
+      },
+      {
+        "title": "Changer les playlists ensemble",
+        "text": "Touchez Next Video for All Players : les scènes des marches et de plein air passent aux vidéos de glace et de parapluie. Previous Video for All Players revient à la paire précédente. Le changement lance la lecture ; utilisez Pause All Players pour examiner le résultat.",
+        "caption": "Chaque zone affiche l’élément suivant de sa propre liste."
+      }
+    ],
+    "features": [
+      {
+        "title": "Les collections restent indépendantes",
+        "description": "L’action globale avance chaque liste sans les fusionner. Des listes de longueurs différentes peuvent atteindre des étapes différentes."
+      },
+      {
+        "title": "Enregistrer une disposition utile",
+        "description": "Un signet d’espace de travail permet de la rouvrir. Conservez fichiers et autorisations. Les signets nécessitent Premium."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi les vidéos occupent-elles des zones séparées ?",
+        "answer": "Vérifiez Playlist dans Open avant la sélection. Ce tutoriel crée une liste à l’intérieur d’une zone, pas une vidéo par zone."
+      },
+      {
+        "question": "Le changement aligne-t-il les actions filmées ?",
+        "answer": "Non. Il change l’élément lu. Définissez séparément des points de synchronisation pour faire correspondre les instants."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to switch multiple video playlists together on iPhone or iPad",
+    "description": "Create a separate video playlist in each iPhone or iPad pane, inspect its clip order, and switch all players to the next or previous item together.",
+    "summary": "Keep different collections in separate regions and move through them together without reopening every file.",
+    "answer": "Enable Playlist in a pane’s Open menu and select multiple album videos. Repeat in another pane, then use Next Video for All Players or Previous Video for All Players from the bottom toolbar.",
+    "requirement": "The global next and previous actions require Premium. Add them through More → Customize Home Bottom Buttons. This example uses two videos per pane.",
+    "steps": [
+      {
+        "title": "Enable a playlist in one pane",
+        "text": "Tap the pane’s plus button and turn on Playlist in Open. Choose Videos. The selection will become a sequence inside that pane instead of one clip per region.",
+        "caption": "Playlist is enabled before selecting album videos."
+      },
+      {
+        "title": "Select the clips for that pane",
+        "text": "Choose the desired album, select two videos, and tap ✓. Repeat for the second pane with a different pair. Review the resulting list order instead of assuming it follows your tapping order.",
+        "caption": "Two example clips are selected for one playlist."
+      },
+      {
+        "title": "Inspect each playlist",
+        "text": "Reveal the player controls and open the list button. Check filenames, durations and the current entry. The upper list here contains IMG_0015.MP4 followed by IMG_0014.MP4.",
+        "caption": "The upper pane’s list contains two videos in playback order."
+      },
+      {
+        "title": "Switch the playlists together",
+        "text": "Tap Next Video for All Players. In this test, the steps and outdoor scenes switch to the ice-cream and umbrella clips. Previous Video for All Players returns to the previous pair. Switching starts playback; use Pause All Players if you need to inspect the result.",
+        "caption": "Both panes show the next item from their own playlists."
+      }
+    ],
+    "features": [
+      {
+        "title": "Each pane keeps its own collection",
+        "description": "The global action advances each playlist; it does not merge the lists into one. A playlist with fewer items may reach a different stage from a longer one."
+      },
+      {
+        "title": "Save a useful arrangement",
+        "description": "Use a workspace bookmark to reopen the composition later, keeping the original files and access permissions available. Bookmarks require Premium."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why do my videos occupy separate regions?",
+        "answer": "Check Playlist in the target pane’s Open menu before selecting the clips. This walkthrough builds a list inside a region, rather than opening one video in every region."
+      },
+      {
+        "question": "Does switching playlists align the action in the clips?",
+        "answer": "No. It changes which item each pane plays. Use synchronization points separately when the new clips need to show corresponding moments."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como trocar várias playlists de vídeo juntas no iPhone ou iPad",
+    "description": "Crie uma playlist por área no iPhone ou iPad, confira a ordem e passe todos os players ao próximo ou ao item anterior juntos.",
+    "summary": "Mantenha coleções separadas em cada área e percorra todas sem reabrir cada arquivo.",
+    "answer": "Ative Playlist em Open e selecione vários Videos. Repita na outra área e use Next Video for All Players ou Previous Video for All Players na barra inferior.",
+    "requirement": "As ações globais anterior/próximo exigem Premium. Adicione em More → Customize Home Bottom Buttons. O exemplo usa dois vídeos por área.",
+    "steps": [
+      {
+        "title": "Ativar a lista de uma área",
+        "text": "Toque no sinal de mais, ative Playlist em Open e escolha Videos. A seleção vira uma sequência dentro dessa área, não um vídeo por região.",
+        "caption": "Playlist está ativado antes de escolher os vídeos do álbum."
+      },
+      {
+        "title": "Escolher os clipes",
+        "text": "Selecione o álbum, dois vídeos e ✓. Escolha outro par para a segunda área. Confira a lista resultante em vez de presumir que segue a ordem dos toques.",
+        "caption": "Dois clipes estão selecionados para uma playlist."
+      },
+      {
+        "title": "Conferir cada lista",
+        "text": "Mostre os controles e abra a lista. Confira os nomes, durações e o item atual. A lista de cima contém IMG_0015.MP4 seguido de IMG_0014.MP4.",
+        "caption": "A área superior mostra dois vídeos na ordem de reprodução."
+      },
+      {
+        "title": "Trocar as listas juntas",
+        "text": "Toque em Next Video for All Players. As cenas de escadas e ambiente externo mudam para sorvete e guarda-chuva. Previous Video for All Players volta ao par anterior. A troca inicia a reprodução; use Pause All Players para conferir o resultado.",
+        "caption": "Cada área mostra o próximo item da própria lista."
+      }
+    ],
+    "features": [
+      {
+        "title": "As coleções continuam separadas",
+        "description": "A ação global avança cada lista, sem uni-las. Listas com quantidades diferentes de itens podem chegar a etapas diferentes."
+      },
+      {
+        "title": "Salvar uma organização útil",
+        "description": "Reabra depois com um favorito do espaço de trabalho. Mantenha arquivos e permissões. Favoritos exigem Premium."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que os vídeos aparecem em áreas separadas?",
+        "answer": "Confira Playlist em Open antes de selecionar. Este tutorial cria uma lista dentro de uma área, não um vídeo por região."
+      },
+      {
+        "question": "A troca alinha as ações gravadas?",
+        "answer": "Não. Ela muda o item reproduzido. Defina pontos de sincronização separadamente para fazer os momentos corresponderem."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 여러 영상 재생 목록을 함께 전환하기",
+    "description": "iPhone 또는 iPad 영역마다 재생 목록을 만들고 순서를 확인한 뒤 전체 플레이어를 다음 또는 이전 항목으로 함께 전환하세요.",
+    "summary": "서로 다른 영상 모음을 각 영역에 두고 파일을 다시 열지 않고 함께 넘기세요.",
+    "answer": "영역의 Open에서 Playlist를 켜고 Videos 여러 개를 고르세요. 다른 영역에서도 반복한 뒤 아래 Next Video for All Players 또는 Previous Video for All Players를 사용합니다.",
+    "requirement": "전체 이전·다음 조작은 Premium이 필요합니다. More → Customize Home Bottom Buttons에서 추가하세요. 예시는 영역마다 영상 두 개입니다.",
+    "steps": [
+      {
+        "title": "영역의 목록 기능 켜기",
+        "text": "더하기로 Open을 열고 Playlist를 켠 뒤 Videos를 고르세요. 선택한 영상은 각각 다른 영역에 놓이지 않고 이 영역 안의 순서가 됩니다.",
+        "caption": "앨범 영상을 고르기 전에 Playlist가 켜져 있습니다."
+      },
+      {
+        "title": "해당 영역의 영상 선택하기",
+        "text": "원하는 앨범에서 두 개를 골라 ✓을 누르고, 다른 영역에는 다른 두 개를 선택하세요. 누른 순서와 같다고 가정하지 말고 완성된 목록을 확인하세요.",
+        "caption": "한 재생 목록에 넣을 영상 두 개를 골랐습니다."
+      },
+      {
+        "title": "각 목록 확인하기",
+        "text": "재생 버튼을 표시하고 목록을 열어 파일명, 길이와 현재 항목을 확인하세요. 위쪽 목록은 IMG_0015.MP4 다음에 IMG_0014.MP4가 있습니다.",
+        "caption": "위쪽 영역에 두 영상의 재생 순서가 표시됩니다."
+      },
+      {
+        "title": "목록 함께 전환하기",
+        "text": "Next Video for All Players를 누르면 예시의 계단과 야외 영상이 아이스크림과 우산 영상으로 바뀝니다. Previous Video for All Players로 이전 조합으로 돌아갑니다. 전환하면 재생이 시작되므로 멈춰 확인하려면 Pause All Players를 사용하세요.",
+        "caption": "두 영역이 각자 목록의 다음 영상을 보여 줍니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "각 영역의 모음은 독립적입니다",
+        "description": "전체 조작은 각 목록을 넘길 뿐 하나로 합치지 않습니다. 항목 수가 다르면 진행 단계도 달라질 수 있습니다."
+      },
+      {
+        "title": "자주 쓰는 배치 저장하기",
+        "description": "작업 공간 북마크로 나중에 다시 여세요. 원본과 접근 권한을 유지해야 하며 북마크는 Premium이 필요합니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "영상이 별도 영역에 놓이는 이유는 무엇인가요?",
+        "answer": "선택 전에 대상 영역의 Open에서 Playlist를 확인하세요. 이 방법은 한 영역 안에 목록을 만듭니다."
+      },
+      {
+        "question": "목록을 전환하면 동작도 동기화되나요?",
+        "answer": "아니요. 재생할 항목만 바꿉니다. 같은 순간을 맞추려면 동기화 지점을 별도로 설정하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo cambiar varias listas de vídeos a la vez en iPhone o iPad",
+    "description": "Crea una lista por zona iPhone o iPad, revisa el orden y cambia todos los reproductores al elemento siguiente o anterior a la vez.",
+    "summary": "Mantén colecciones separadas en cada zona y recórrelas juntas sin reabrir cada archivo.",
+    "answer": "Activa Playlist en Open y selecciona varios Videos. Repite en la otra zona y usa Next Video for All Players o Previous Video for All Players en la barra inferior.",
+    "requirement": "Las acciones globales anterior/siguiente requieren Premium. Añádelas en More → Customize Home Bottom Buttons. El ejemplo usa dos vídeos por zona.",
+    "steps": [
+      {
+        "title": "Activar la lista de una zona",
+        "text": "Toca el signo más, activa Playlist en Open y elige Videos. La selección será una secuencia dentro de esa zona, no un vídeo por región.",
+        "caption": "Playlist está activado antes de elegir los vídeos del álbum."
+      },
+      {
+        "title": "Elegir los clips",
+        "text": "Selecciona el álbum, dos vídeos y ✓. Elige otra pareja para la segunda zona. Revisa la lista resultante en vez de asumir que coincide con el orden de tus pulsaciones.",
+        "caption": "Dos clips están seleccionados para una lista."
+      },
+      {
+        "title": "Revisar cada lista",
+        "text": "Muestra los controles y abre la lista. Revisa nombres, duración y entrada actual. La lista superior contiene IMG_0015.MP4 seguido de IMG_0014.MP4.",
+        "caption": "La zona superior muestra dos vídeos en orden de reproducción."
+      },
+      {
+        "title": "Cambiar las listas juntas",
+        "text": "Toca Next Video for All Players. Las escenas de escaleras y exterior cambian a las de helado y paraguas. Previous Video for All Players vuelve a la pareja anterior. El cambio inicia la reproducción; usa Pause All Players para revisar el resultado.",
+        "caption": "Cada zona muestra el siguiente elemento de su propia lista."
+      }
+    ],
+    "features": [
+      {
+        "title": "Las colecciones siguen separadas",
+        "description": "La acción global avanza cada lista, no las fusiona. Las listas con distinto número de elementos pueden alcanzar etapas diferentes."
+      },
+      {
+        "title": "Guardar una distribución útil",
+        "description": "Recupérala después con un marcador del espacio de trabajo. Mantén los archivos y permisos. Los marcadores requieren Premium."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué los vídeos aparecen en zonas separadas?",
+        "answer": "Comprueba Playlist en Open antes de seleccionarlos. Este tutorial crea una lista dentro de una zona, no un vídeo por región."
+      },
+      {
+        "question": "¿El cambio alinea las acciones grabadas?",
+        "answer": "No. Cambia el elemento reproducido. Define puntos de sincronización aparte para hacer coincidir los momentos."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上一起切换多个视频播放列表",
+    "description": "为 iPhone 或 iPad 每个分屏区域建立独立播放列表，检查视频顺序，再统一切换到下一段或上一段，无需逐个重新打开文件。",
+    "summary": "将不同的视频集合放在不同区域，使用全局按钮一起切换各自的列表项目。",
+    "answer": "在某区 Open 菜单开启 Playlist，批量选择相册视频，再为另一区重复操作。通过底部 Next Video for All Players、Previous Video for All Players 一起切换。",
+    "requirement": "全局上一段、下一段需要 Premium。可在 More → Customize Home Bottom Buttons 添加。本例每区各使用两段视频。",
+    "steps": [
+      {
+        "title": "开启区域内播放列表",
+        "text": "点按某区加号，在 Open 中开启 Playlist，再选择 Videos。选中的视频会组成该区域内的序列，而不是每区各放一个。",
+        "caption": "选择相册视频前，Playlist 已开启。"
+      },
+      {
+        "title": "选择该区域的视频",
+        "text": "进入需要的相册，选择两段视频并点 ✓，再为第二区域选择另一组。完成后检查实际列表顺序，不要假定它与点选先后相同。",
+        "caption": "为一个区域的播放列表选中两段示例视频。"
+      },
+      {
+        "title": "检查各自的播放列表",
+        "text": "显示播放器控件，点列表按钮检查文件名、时长和当前条目。本例上区依次为 IMG_0015.MP4、IMG_0014.MP4。",
+        "caption": "上方区域的列表显示两个视频及播放顺序。"
+      },
+      {
+        "title": "一起切换列表项目",
+        "text": "点 Next Video for All Players。本例台阶和户外画面同时切换为冰淇淋和雨伞视频；Previous Video for All Players 返回上一组。切换后会开始播放，需要查看静态画面时可点 Pause All Players。",
+        "caption": "两个区域分别显示各自列表的下一段。"
+      }
+    ],
+    "features": [
+      {
+        "title": "每区仍保留自己的集合",
+        "description": "全局按钮推进的是各自的列表，不会把它们合成一个。列表长短不同，切换后的进度阶段也可能不同。"
+      },
+      {
+        "title": "保存常用的排列",
+        "description": "可用工作区书签保存组合，以便下次打开，并保持原文件与访问权限可用。书签需要 Premium。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么视频分别占据了不同区域？",
+        "answer": "批量选素材之前，请先检查目标区域 Open 菜单的 Playlist。本教程是在一个区域内建立列表，而不是给每区分配单个视频。"
+      },
+      {
+        "question": "切换列表会自动对齐视频中的动作吗？",
+        "answer": "不会。它只改变各区播放哪个条目。新素材需要对应动作时，应另外设置同步点。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Mehrere Video-Playlists auf dem iPhone oder iPad gemeinsam umschalten",
+    "description": "Erstellen Sie je iPhone oder iPad-Bereich eine Playlist, prüfen Sie die Reihenfolge und wechseln Sie alle Player gemeinsam zum nächsten oder vorherigen Eintrag.",
+    "summary": "Behalten Sie getrennte Sammlungen in den Bereichen und blättern Sie gemeinsam, ohne jede Datei neu zu öffnen.",
+    "answer": "Aktivieren Sie Playlist unter Open und wählen Sie mehrere Videos. Wiederholen Sie das im zweiten Bereich. Nutzen Sie danach Next Video for All Players oder Previous Video for All Players.",
+    "requirement": "Die globalen Vorherige/Nächste-Aktionen benötigen Premium. Fügen Sie sie unter More → Customize Home Bottom Buttons hinzu. Das Beispiel nutzt je zwei Videos.",
+    "steps": [
+      {
+        "title": "Die Playlist eines Bereichs aktivieren",
+        "text": "Tippen Sie auf Plus, aktivieren Sie Playlist unter Open und wählen Sie Videos. Die Auswahl wird eine Folge in diesem Bereich statt je ein Clip pro Bereich.",
+        "caption": "Playlist ist vor der Albumauswahl aktiviert."
+      },
+      {
+        "title": "Die Clips auswählen",
+        "text": "Wählen Sie Album und zwei Videos, dann ✓. Wählen Sie im zweiten Bereich ein anderes Paar. Prüfen Sie die tatsächliche Liste; sie muss nicht der Tipp-Reihenfolge entsprechen.",
+        "caption": "Zwei Clips sind für eine Playlist ausgewählt."
+      },
+      {
+        "title": "Die einzelnen Listen prüfen",
+        "text": "Blenden Sie die Steuerung ein und öffnen Sie die Liste. Prüfen Sie Dateinamen, Dauer und aktuellen Eintrag. Oben folgt IMG_0014.MP4 auf IMG_0015.MP4.",
+        "caption": "Der obere Bereich zeigt zwei Videos in Wiedergabereihenfolge."
+      },
+      {
+        "title": "Die Listen gemeinsam umschalten",
+        "text": "Tippen Sie auf Next Video for All Players. Im Beispiel wechseln Treppen- und Außenszene zu Eis- und Regenschirmvideo. Previous Video for All Players führt zum vorherigen Paar zurück. Beim Wechsel beginnt die Wiedergabe; mit Pause All Players halten Sie das Ergebnis an.",
+        "caption": "Beide Bereiche zeigen den nächsten Eintrag ihrer eigenen Liste."
+      }
+    ],
+    "features": [
+      {
+        "title": "Jeder Bereich behält seine Sammlung",
+        "description": "Die globale Aktion bewegt die einzelnen Listen, führt sie aber nicht zusammen. Unterschiedlich lange Listen können verschiedene Stände erreichen."
+      },
+      {
+        "title": "Eine nützliche Anordnung speichern",
+        "description": "Öffnen Sie sie später über ein Arbeitsbereich-Lesezeichen. Behalten Sie Dateien und Berechtigungen. Lesezeichen benötigen Premium."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum erscheinen Videos in getrennten Bereichen?",
+        "answer": "Prüfen Sie vor der Auswahl Playlist im Open-Menü des Zielbereichs. Diese Anleitung erstellt eine Liste innerhalb eines Bereichs."
+      },
+      {
+        "question": "Richtet das Umschalten die Bewegungen aus?",
+        "answer": "Nein. Es ändert den abgespielten Eintrag. Setzen Sie passende Synchronisationspunkte separat, wenn die Aktionen übereinstimmen sollen."
+      }
+    ]
+  }
+}

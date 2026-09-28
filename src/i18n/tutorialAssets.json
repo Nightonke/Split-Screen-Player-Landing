@@ -1,0 +1,846 @@
+{
+  "/images/guides/audio/android/en/01-two-videos.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/audio/android/en/02-solo-first.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/audio/android/en/03-solo-next.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/audio/android/en/04-mute-all.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/audio/ios/en/01-two-videos.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/audio/ios/en/02-solo-first.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/audio/ios/en/03-solo-next.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/audio/ios/en/04-mute-all.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/bookmarks/android/en/01-saved.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/bookmarks/android/en/02-close.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/bookmarks/android/en/03-empty.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/bookmarks/android/en/04-restored.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/bookmarks/ios/en/01-saved.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/bookmarks/ios/en/02-close.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/bookmarks/ios/en/03-empty.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/bookmarks/ios/en/04-restored.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/checkpoints/android/en/01-help.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/checkpoints/android/en/02-added.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/checkpoints/android/en/03-list.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/checkpoints/android/en/04-jumped.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/checkpoints/ios/en/01-help.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/checkpoints/ios/en/02-added.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/checkpoints/ios/en/03-move-away.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/checkpoints/ios/en/04-jumped.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/counterflow/android/en/01-source.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/counterflow/android/en/02-settings.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/counterflow/android/en/03-direction.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/counterflow/android/en/04-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/counterflow/ios/en/01-source.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/counterflow/ios/en/02-settings.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/counterflow/ios/en/03-direction.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/counterflow/ios/en/04-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/documents/android/en/01-open.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/documents/android/en/02-file.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/documents/android/en/03-first-page.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/documents/android/en/04-next-page.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/documents/ios/en/01-open.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/documents/ios/en/02-file.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/documents/ios/en/03-first-page.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/documents/ios/en/04-next-page.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/export/android/en/01-range.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/export/android/en/02-framing.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/export/android/en/03-output.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/export/android/en/05-complete.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/export/android/en/06-saved.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/export/ios/en/01-range.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/export/ios/en/02-framing.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/export/ios/en/03-output.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/export/ios/en/05-complete.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/export/ios/en/06-saved.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/files/android/en/01-open.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/files/android/en/02-folder.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/files/android/en/03-permission.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/files/android/en/04-imported.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/files/android/en/06-restored.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/files/ios/en/01-open.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/files/ios/en/02-select.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/files/ios/en/03-folder.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/files/ios/en/04-imported.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/files/ios/en/06-restored.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/filter/android/en/01-enable.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/filter/android/en/02-select.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/filter/android/en/03-matches.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/filter/android/en/04-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/filter/ios/en/01-enable.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/filter/ios/en/02-select.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/filter/ios/en/03-matches.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/filter/ios/en/04-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/focus/android/en/01-workspace.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/focus/android/en/02-first.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/focus/android/en/03-next.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/focus/android/en/04-restored.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/focus/ios/en/01-workspace.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/focus/ios/en/02-first.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/focus/ios/en/03-next.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/focus/ios/en/04-restored.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/frames/android/en/01-frame-mode.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/frames/android/en/02-next-frame.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/frames/android/en/03-slow-motion.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/frames/android/en/04-return-checkpoint.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/frames/ios/en/01-frame-mode.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/frames/ios/en/02-next-frame.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/frames/ios/en/03-slow-motion.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/frames/ios/en/04-second-player.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/gallery/android/en/01-select.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/gallery/android/en/02-template.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/gallery/android/en/03-style.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/gallery/android/en/04-bookmark.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/gallery/android/en/06-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/gallery/ios/en/01-select.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/gallery/ios/en/02-template.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/gallery/ios/en/03-style.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/gallery/ios/en/04-bookmark.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/gallery/ios/en/06-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/global/android/en/01-play-all.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/global/android/en/02-pause-all.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/global/android/en/03-progress.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/global/android/en/04-restart.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/global/ios/en/01-play-all.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/global/ios/en/02-pause-all.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/global/ios/en/03-progress.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/global/ios/en/04-restart.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/looks/android/en/01-presets.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/looks/android/en/02-intensity.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/looks/android/en/03-single-player.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/looks/android/en/04-all-frames.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/looks/android/en/05-all-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/looks/ios/en/01-presets.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/looks/ios/en/02-intensity.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/looks/ios/en/03-single-player.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/looks/ios/en/04-all-frames.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/looks/ios/en/05-all-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/photos/android/en/02-select.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/photos/android/en/03-group.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/photos/android/en/04-settings.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/photos/android/en/05-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/photos/ios/en/02-select.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/photos/ios/en/03-group.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/photos/ios/en/04-settings.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/photos/ios/en/05-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playback/android/en/01-controls.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playback/android/en/02-speed.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playback/android/en/03-all-speed.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playback/android/en/04-hold-fast.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playback/ios/en/01-controls.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playback/ios/en/02-speed.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playback/ios/en/03-all-speed.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playback/ios/en/04-normal-speed.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playlists/android/en/01-enable.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playlists/android/en/02-select.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playlists/android/en/03-first-pair.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playlists/android/en/04-next-pair.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playlists/android/en/05-list.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/playlists/ios/en/01-enable.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playlists/ios/en/02-select.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playlists/ios/en/03-first-pair.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playlists/ios/en/04-next-pair.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/playlists/ios/en/05-list.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/snapshot/android/en/01-add-action.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/snapshot/android/en/02-arrange.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/snapshot/android/en/03-save.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/snapshot/android/en/04-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/snapshot/ios/en/01-add-action.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/snapshot/ios/en/02-arrange.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/snapshot/ios/en/04-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/streams/android/en/01-open.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/streams/android/en/02-hls.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/streams/android/en/03-rtsp.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/streams/android/en/04-both.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/streams/ios/en/01-open.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/streams/ios/en/02-addresses.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/streams/ios/en/03-both.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/streams/ios/en/04-fullscreen.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/swipe/android/en/01-controls.webp": {
+    "width": 2508,
+    "height": 1191
+  },
+  "/images/guides/swipe/android/en/02-directions.webp": {
+    "width": 2508,
+    "height": 1191
+  },
+  "/images/guides/swipe/android/en/04-alignment.webp": {
+    "width": 2508,
+    "height": 1191
+  },
+  "/images/guides/swipe/android/en/07-reference-lines.webp": {
+    "width": 2508,
+    "height": 1191
+  },
+  "/images/guides/swipe/ios/en/01-controls.webp": {
+    "width": 2748,
+    "height": 1319
+  },
+  "/images/guides/swipe/ios/en/02-directions.webp": {
+    "width": 2748,
+    "height": 1319
+  },
+  "/images/guides/swipe/ios/en/04-alignment.webp": {
+    "width": 2748,
+    "height": 1319
+  },
+  "/images/guides/swipe/ios/en/06-result.webp": {
+    "width": 2748,
+    "height": 1319
+  },
+  "/images/guides/sync/android/en/01-groups.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/sync/android/en/02-adjust-points.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/sync/android/en/03-preview.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/sync/android/en/04-enable.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/sync/android/en/05-applied.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/sync/ios/en/01-groups.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/sync/ios/en/02-adjust-points.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/sync/ios/en/03-preview.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/sync/ios/en/04-enable.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/sync/ios/en/05-applied.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/timer/android/en/01-presets.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/timer/android/en/02-custom.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/timer/android/en/03-running.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/timer/android/en/04-paused.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/timer/ios/en/01-presets.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/timer/ios/en/02-custom.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/timer/ios/en/03-running.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/timer/ios/en/04-paused.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/toolbar/android/en/01-settings.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/toolbar/android/en/03-available.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/toolbar/android/en/04-reordered.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/toolbar/android/en/05-home.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/toolbar/ios/en/01-settings.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/toolbar/ios/en/03-available.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/toolbar/ios/en/04-added-action.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/toolbar/ios/en/05-home.webp": {
+    "width": 2748,
+    "height": 1319
+  },
+  "/images/guides/transform/android/en/01-fit.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/transform/android/en/02-fill.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/transform/android/en/03-rotate.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/transform/android/en/05-mirror.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/transform/ios/en/01-fit.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/transform/ios/en/02-fill.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/transform/ios/en/03-rotate.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/transform/ios/en/04-mirror.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/waterfall/android/en/01-source.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/waterfall/android/en/02-select.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/waterfall/android/en/03-settings.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/waterfall/android/en/04-result.webp": {
+    "width": 1191,
+    "height": 2508
+  },
+  "/images/guides/waterfall/ios/en/01-source.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/waterfall/ios/en/02-select.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/waterfall/ios/en/03-settings.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/waterfall/ios/en/04-result.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/web-video/ios/en/01-source.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/web-video/ios/en/02-detected.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/web-video/ios/en/03-transferred.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/web-video/ios/en/04-controls.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/youtube/ios/en/01-source.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/youtube/ios/en/02-detected.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/youtube/ios/en/03-transferred.webp": {
+    "width": 1319,
+    "height": 2748
+  },
+  "/images/guides/youtube/ios/en/04-both.webp": {
+    "width": 1319,
+    "height": 2748
+  }
+}

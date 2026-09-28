@@ -1,0 +1,51 @@
+---
+import type { getMultiVideoRecommendations } from "@/i18n/multiVideoRecommendations";
+import { localizedPath, type Locale } from "@/i18n/locales";
+import { pageChrome } from "@/i18n/chrome";
+
+interface Props {
+  locale: Locale;
+  recommendations: ReturnType<typeof getMultiVideoRecommendations>;
+}
+const { locale, recommendations } = Astro.props;
+---
+<section id="next-guides" class="guide-next" aria-labelledby="next-guides-title">
+  <h2 id="next-guides-title">{recommendations.title}</h2>
+  {recommendations.groups.map(group => (
+    <section class="guide-next-group" aria-labelledby={`next-guides-${group.id}`}>
+      <h3 id={`next-guides-${group.id}`}>{group.title}</h3>
+      <div class="guide-next-grid">
+        {group.items.map(({ page, description }) => (
+          <a class="guide-next-card" href={localizedPath(locale, `guides/${page.slug}`)}>
+            <span class="guide-next-keywords">{page.keywords.join(" · ")}</span>
+            <h4>{page.title}</h4>
+            <p class="guide-next-summary">{description}</p>
+            <span class="guide-next-arrow" aria-hidden="true">↗</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+  <a class="text-link" href={localizedPath(locale, "guides")}>{pageChrome[locale].viewAllGuides}</a>
+</section>
+
+<style>
+  .guide-next { padding-top: 48px; scroll-margin-top: 112px; }
+  .guide-next-group { margin: 28px 0; }
+  .guide-next-group h3 { margin: 0 0 14px; font-size: 1.05rem; line-height: 1.5; }
+  .guide-next-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .guide-next-card { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; padding: 20px; border: 1px solid var(--line-strong); border-radius: 18px; background: var(--paper-strong); transition: background 160ms ease, border-color 160ms ease; }
+  .guide-next-card:hover { border-color: var(--ink); background: var(--blue-soft); }
+  .guide-next-keywords { font-family: var(--mono); font-size: .65rem; font-weight: 700; line-height: 1.7; color: var(--ink-soft); overflow-wrap: anywhere; }
+  .guide-next-card h4 { margin: 12px 0 10px; font-size: 1.05rem; line-height: 1.6; font-weight: 750; overflow-wrap: anywhere; }
+  .guide-next-card .guide-next-summary { margin: 0 0 14px; font-size: .88rem; line-height: 1.8; }
+  .guide-next-arrow { align-self: flex-end; margin-top: auto; font-size: 1.15rem; line-height: 1; }
+  @media (max-width: 680px) {
+    .guide-next-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+    .guide-next-card { position: relative; padding: 18px 44px 18px 18px; }
+    .guide-next-card h4 { margin: 8px 0; }
+    .guide-next-card .guide-next-summary { margin-bottom: 0; }
+    .guide-next-arrow { position: absolute; right: 18px; top: 18px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .guide-next-card { transition: none; } }
+</style>

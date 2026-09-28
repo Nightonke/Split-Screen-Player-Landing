@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadでウェブ動画を別の分割領域に開く方法",
+    "description": "Mini Playerで対応するウェブ動画を検出し、元のページを残したまま別の領域で再生します。",
+    "summary": "元のページと独立した動画プレーヤーを並べ、読みながら一時停止や確認ができます。",
+    "answer": "Web/Streamでページを開いて動画を再生し、アドレス横のMini Playerをタップします。検出動画を選ぶと空き領域に開きます。空きがない場合は置き換える領域を選びます。",
+    "requirement": "ウェブ閲覧にはPremiumが必要です。2分割とアクセス権のあるページを用意します。画像は提供されたゴルフ動画を含むローカルデモです。127.0.0.1は公開サンプルではありません。",
+    "steps": [
+      {
+        "title": "ページを開いて再生する",
+        "text": "領域の＋ → Web/StreamでURLを入力し、Webpageを選びます。埋め込み動画を再生してメディアを検出させます。",
+        "caption": "デモページ内でゴルフ動画が再生されています。"
+      },
+      {
+        "title": "検出結果を確認する",
+        "text": "アドレス横のMini Playerをタップします。数字は検出数です。タイトル、長さ、解像度で目的の動画を確認します。検出されても再生できるとは限りません。",
+        "caption": "10秒、960×540のゴルフ動画が表示されています。"
+      },
+      {
+        "title": "別の領域に開く",
+        "text": "該当項目をタップします。空き領域があれば自動で開きます。なければChoose Playback Locationで置き換える領域を選びます。",
+        "caption": "元のページを上に残し、下に独立したプレーヤーが開きます。"
+      },
+      {
+        "title": "プレーヤーを個別に操作する",
+        "text": "新しい動画をタップして一時停止・再開します。元の記事や別の動画が必要ならReturn to Source Webpageで戻れます。",
+        "caption": "下の動画には独立した再生操作があります。"
+      }
+    ],
+    "features": [
+      {
+        "title": "再生可能なソースが必要です",
+        "description": "URLの期限、ログイン、保護やサーバーの動作により再生できない場合があります。元のページで再生し直してから再試行します。制限されたコンテンツへのアクセス権は付与されません。"
+      },
+      {
+        "title": "音声は片方にする",
+        "description": "両方から音が出る場合は、ページかプレーヤーをミュートします。再生位置は独立しています。精密な比較には対応するローカルファイルとSync Pointを使います。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mini Playerが空なのはなぜですか？",
+        "answer": "ページで動画を再生して再確認します。対応ソースを公開しないサイトもあります。検出項目が広告の場合もあるため確認してください。"
+      },
+      {
+        "question": "動画はダウンロードされますか？",
+        "answer": "いいえ。これは再生用プレーヤーに開く操作で、オフライン保存ではありません。ネット接続を保ち、利用権のある素材を使ってください。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comment ouvrir une vidéo web dans une autre zone sur iPhone ou iPad",
+    "description": "Détectez une vidéo web compatible avec Mini Player et ouvrez-la dans une autre zone tout en gardant sa page visible.",
+    "summary": "Gardez la page source à côté d’un lecteur indépendant pour lire, mettre en pause et revoir un passage.",
+    "answer": "Ouvrez la page via Web/Stream, lancez sa vidéo, puis touchez Mini Player près de l’adresse. Sélectionnez la vidéo détectée : elle s’ouvre dans une zone libre ou vous choisissez la zone à remplacer.",
+    "requirement": "La navigation web nécessite Premium. Préparez deux zones et une page accessible. Les captures utilisent une page locale avec le clip de golf fourni ; 127.0.0.1 n’est pas un exemple public à ouvrir.",
+    "steps": [
+      {
+        "title": "Ouvrir et lire la page source",
+        "text": "Touchez + → Web/Stream dans une zone, saisissez l’adresse et choisissez Webpage. Lancez la vidéo intégrée pour permettre sa détection.",
+        "caption": "Le clip de golf est lu dans la page de démonstration."
+      },
+      {
+        "title": "Vérifier la vidéo détectée",
+        "text": "Touchez Mini Player près de l’adresse. Le nombre indique les vidéos détectées. Vérifiez titre, durée et dimensions. La détection ne garantit pas la lecture.",
+        "caption": "Mini Player affiche le clip de golf de 10 secondes en 960×540."
+      },
+      {
+        "title": "Ouvrir une autre zone",
+        "text": "Touchez le bon élément. Une zone vide reçoit automatiquement la vidéo. Sinon, Choose Playback Location permet de choisir le contenu à remplacer.",
+        "caption": "La page reste au-dessus du lecteur indépendant."
+      },
+      {
+        "title": "Utiliser le lecteur séparément",
+        "text": "Touchez la nouvelle vidéo pour la mettre en pause ou la reprendre. Return to Source Webpage permet de retrouver la page d’origine et ses autres contenus.",
+        "caption": "La vidéo inférieure dispose de ses propres commandes."
+      }
+    ],
+    "features": [
+      {
+        "title": "La source doit rester lisible",
+        "description": "Une adresse expirée, l’authentification, la protection ou le serveur peuvent empêcher la lecture. Relancez la vidéo depuis sa page avant de réessayer. Cette fonction n’accorde aucun accès à un contenu restreint."
+      },
+      {
+        "title": "Garder une seule source sonore",
+        "description": "Coupez le son de la page ou du lecteur si les deux sont audibles. Les positions sont indépendantes. Pour une comparaison précise, utilisez des fichiers locaux compatibles et Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi Mini Player est-il vide ?",
+        "answer": "Lancez une vidéo dans la page et vérifiez à nouveau. Certains sites n’exposent pas de source compatible. Une entrée détectée peut aussi être une publicité."
+      },
+      {
+        "question": "La vidéo est-elle téléchargée ?",
+        "answer": "Non. Cette procédure ouvre un lecteur, sans téléchargement hors ligne. Gardez votre connexion et utilisez des médias auxquels vous avez accès."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to open a web video in another split-screen region on iPhone or iPad",
+    "description": "Use Mini Player to detect a compatible web video and open it in another iPhone or iPad region while keeping the page visible.",
+    "summary": "Keep the source page beside an independent video player for reading, pausing and reviewing.",
+    "answer": "Open a page through Web/Stream, play its video, then tap Mini Player beside the address bar. Choose the detected video to open it in an empty region, or select a destination when all regions are occupied.",
+    "requirement": "Web browsing requires Premium. Start with two regions and a page you may access. The screenshot uses a local demonstration page containing the supplied golf clip; its 127.0.0.1 address is not a public sample link.",
+    "steps": [
+      {
+        "title": "Open and play the source page",
+        "text": "Tap a region’s plus button → Web/Stream, enter the page address and choose Webpage. Start the embedded video so the app can identify the media.",
+        "caption": "The golf clip plays inside the demonstration webpage."
+      },
+      {
+        "title": "Inspect the detected video",
+        "text": "Tap Mini Player beside the web address. Its number is the detected count. Match the title, duration and dimensions before choosing an item; detection alone does not guarantee playback.",
+        "caption": "Mini Player lists the 10-second, 960×540 golf video."
+      },
+      {
+        "title": "Open it in another region",
+        "text": "Tap the matching item. An empty region receives the video automatically. If none is empty, Choose Playback Location asks which region’s current content to replace.",
+        "caption": "The source page stays above the independent video player."
+      },
+      {
+        "title": "Use the player separately",
+        "text": "Tap the new video for its controls. Pause or resume it independently. Return to Source Webpage opens the original page again when you need the surrounding text or another video.",
+        "caption": "The lower video has its own playback controls."
+      }
+    ],
+    "features": [
+      {
+        "title": "The source must remain playable",
+        "description": "Expiring media addresses, authentication, content protection and server behavior can prevent playback. Return to the source page and start the video again before retrying. This feature does not grant access to restricted content."
+      },
+      {
+        "title": "Keep one audio source",
+        "description": "Mute the webpage or the independent player if both produce sound. The two playheads are independent; use compatible local files and Sync Point for precise comparison."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is Mini Player empty?",
+        "answer": "Start a video in the page and check again. Some sites do not expose a compatible source. A detected entry may also be an advertisement rather than the video you wanted."
+      },
+      {
+        "question": "Does this download the video?",
+        "answer": "No. Opening it in a player is a playback workflow, not an offline download. Keep network access and use media you are authorized to access."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como abrir um vídeo da web em outra área no iPhone ou iPad",
+    "description": "Detecte um vídeo da web compatível com Mini Player e abra-o em outra área sem perder a página original de vista.",
+    "summary": "Mantenha a página ao lado de um player independente para ler, pausar e revisar o vídeo.",
+    "answer": "Abra a página com Web/Stream, reproduza o vídeo e toque em Mini Player junto ao endereço. Selecione o vídeo detectado para uma área vazia ou escolha qual área substituir.",
+    "requirement": "A navegação web exige Premium. Prepare duas áreas e uma página acessível. As capturas usam uma página local com o clipe de golfe fornecido; 127.0.0.1 não é um endereço público de exemplo.",
+    "steps": [
+      {
+        "title": "Abra e reproduza a página",
+        "text": "Toque em + → Web/Stream em uma área, digite o endereço e escolha Webpage. Reproduza o vídeo incorporado para permitir a detecção.",
+        "caption": "O clipe de golfe é reproduzido na página de demonstração."
+      },
+      {
+        "title": "Confira o vídeo detectado",
+        "text": "Toque em Mini Player junto ao endereço. O número indica quantos vídeos foram detectados. Confira título, duração e resolução. A detecção não garante a reprodução.",
+        "caption": "Mini Player mostra o clipe de golfe de 10 segundos e 960×540."
+      },
+      {
+        "title": "Abra em outra área",
+        "text": "Toque no item correto. Uma área vazia recebe o vídeo automaticamente. Se não houver espaço, Choose Playback Location permite escolher qual conteúdo substituir.",
+        "caption": "A página continua acima do player independente."
+      },
+      {
+        "title": "Controle o player separadamente",
+        "text": "Toque no novo vídeo para pausar ou retomar. Return to Source Webpage permite voltar ao texto original ou encontrar outro vídeo.",
+        "caption": "O vídeo inferior tem seus próprios controles."
+      }
+    ],
+    "features": [
+      {
+        "title": "A fonte precisa continuar reproduzível",
+        "description": "Endereços expirados, login, proteção e comportamento do servidor podem impedir a reprodução. Volte à página e inicie o vídeo antes de tentar novamente. O recurso não concede acesso a conteúdo restrito."
+      },
+      {
+        "title": "Mantenha apenas uma fonte de som",
+        "description": "Silencie a página ou o player se ambos tiverem áudio. As posições são independentes. Para comparar com precisão, use arquivos locais compatíveis e Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que Mini Player está vazio?",
+        "answer": "Inicie um vídeo na página e confira novamente. Alguns sites não oferecem uma fonte compatível. Um item detectado também pode ser um anúncio."
+      },
+      {
+        "question": "Isso baixa o vídeo?",
+        "answer": "Não. Este fluxo abre um player, sem download para uso offline. Mantenha a conexão e use mídias às quais você tenha direito de acesso."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 웹 영상을 다른 분할 영역으로 여는 방법",
+    "description": "Mini Player로 호환되는 웹 영상을 감지하고 원래 페이지를 남긴 채 다른 영역에서 재생하세요.",
+    "summary": "원본 페이지와 독립된 영상 플레이어를 나란히 두고 읽거나 일시 정지하며 살펴봅니다.",
+    "answer": "Web/Stream으로 페이지를 열고 영상을 재생한 뒤 주소 옆 Mini Player를 누르세요. 감지된 영상을 선택하면 빈 영역에 열리며, 빈 영역이 없으면 교체할 위치를 선택합니다.",
+    "requirement": "웹 탐색에는 Premium이 필요합니다. 두 영역과 접근 가능한 페이지를 준비하세요. 예시는 제공된 골프 영상으로 만든 로컬 데모 페이지입니다. 127.0.0.1은 공개 예제 주소가 아닙니다.",
+    "steps": [
+      {
+        "title": "페이지를 열고 재생하기",
+        "text": "영역의 + → Web/Stream에서 주소를 입력하고 Webpage를 선택하세요. 페이지 안의 영상을 재생해 미디어가 감지되도록 합니다.",
+        "caption": "데모 페이지에서 골프 영상이 재생됩니다."
+      },
+      {
+        "title": "감지된 영상 확인하기",
+        "text": "주소 옆 Mini Player를 누르세요. 숫자는 감지된 개수입니다. 제목, 길이, 해상도로 원하는 영상을 확인하세요. 감지되었다고 재생이 보장되지는 않습니다.",
+        "caption": "10초, 960×540 골프 영상이 목록에 표시됩니다."
+      },
+      {
+        "title": "다른 영역에서 열기",
+        "text": "일치하는 항목을 누르세요. 빈 영역이 있으면 자동으로 열립니다. 없으면 Choose Playback Location에서 현재 내용을 교체할 영역을 선택합니다.",
+        "caption": "원본 페이지 아래에 독립된 영상 플레이어가 열립니다."
+      },
+      {
+        "title": "플레이어를 따로 조작하기",
+        "text": "새 영상을 탭해 버튼을 표시하고 개별적으로 일시 정지하거나 재생하세요. 원문이나 다른 영상이 필요하면 Return to Source Webpage로 돌아갑니다.",
+        "caption": "아래쪽 영상에 별도의 재생 버튼이 있습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "재생 가능한 원본이 필요합니다",
+        "description": "주소 만료, 로그인, 콘텐츠 보호 및 서버 동작 때문에 재생하지 못할 수 있습니다. 원본 페이지에서 영상을 다시 재생한 뒤 시도하세요. 제한된 콘텐츠의 접근 권한을 제공하는 기능은 아닙니다."
+      },
+      {
+        "title": "소리는 한쪽만 켜기",
+        "description": "양쪽에서 소리가 나면 웹페이지나 독립 플레이어를 음소거하세요. 재생 위치는 서로 독립적입니다. 정확한 비교에는 호환되는 로컬 파일과 Sync Point를 사용하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mini Player가 비어 있는 이유는 무엇인가요?",
+        "answer": "페이지에서 영상을 재생한 뒤 다시 확인하세요. 일부 사이트는 호환 소스를 제공하지 않습니다. 감지 항목이 광고일 수도 있으니 확인하세요."
+      },
+      {
+        "question": "영상이 다운로드되나요?",
+        "answer": "아니요. 플레이어로 여는 재생 기능이며 오프라인 다운로드가 아닙니다. 네트워크 연결을 유지하고 접근 권한이 있는 미디어를 사용하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo abrir un vídeo web en otra zona en iPhone o iPad",
+    "description": "Detecta un vídeo web compatible con Mini Player y ábrelo en otra zona sin perder de vista la página original.",
+    "summary": "Mantén la página junto a un reproductor independiente para leer, pausar y revisar el vídeo.",
+    "answer": "Abre la página con Web/Stream, reproduce el vídeo y toca Mini Player junto a la dirección. Selecciona el vídeo detectado para abrirlo en una zona vacía o elige qué zona sustituir.",
+    "requirement": "La navegación web requiere Premium. Prepara dos zonas y una página accesible. Las capturas usan una página local con el clip de golf proporcionado; 127.0.0.1 no es un enlace público de ejemplo.",
+    "steps": [
+      {
+        "title": "Abre y reproduce la página",
+        "text": "Toca + → Web/Stream en una zona, introduce la dirección y elige Webpage. Reproduce el vídeo integrado para que la app lo detecte.",
+        "caption": "El clip de golf se reproduce dentro de la página de demostración."
+      },
+      {
+        "title": "Comprueba el vídeo detectado",
+        "text": "Toca Mini Player junto a la dirección. El número indica los vídeos detectados. Revisa título, duración y resolución. La detección no garantiza la reproducción.",
+        "caption": "Mini Player muestra el clip de golf de 10 segundos y 960×540."
+      },
+      {
+        "title": "Ábrelo en otra zona",
+        "text": "Toca el elemento correcto. Si hay una zona vacía, se abre allí automáticamente. Si no, Choose Playback Location permite elegir qué contenido sustituir.",
+        "caption": "La página permanece encima del reproductor independiente."
+      },
+      {
+        "title": "Controla el reproductor por separado",
+        "text": "Toca el nuevo vídeo para pausarlo o reanudarlo. Return to Source Webpage permite volver al texto original o buscar otro vídeo.",
+        "caption": "El vídeo inferior tiene sus propios controles."
+      }
+    ],
+    "features": [
+      {
+        "title": "La fuente debe seguir disponible",
+        "description": "Las direcciones caducadas, el inicio de sesión, la protección y el servidor pueden impedir la reproducción. Vuelve a la página y reproduce el vídeo antes de reintentar. La función no concede acceso a contenido restringido."
+      },
+      {
+        "title": "Mantén una sola fuente de audio",
+        "description": "Silencia la página o el reproductor si ambos tienen sonido. Las posiciones son independientes. Para comparar con precisión, usa archivos locales compatibles y Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué Mini Player está vacío?",
+        "answer": "Reproduce un vídeo en la página y vuelve a comprobarlo. Algunos sitios no ofrecen una fuente compatible. Un elemento detectado también puede ser un anuncio."
+      },
+      {
+        "question": "¿Esto descarga el vídeo?",
+        "answer": "No. Es un flujo de reproducción, no una descarga sin conexión. Mantén la conexión y utiliza medios a los que tengas derecho a acceder."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上将网页视频放到另一个分屏",
+    "description": "用 Mini Player 检测兼容的网页视频，在 iPhone 或 iPad 的另一区域播放，同时保留原网页。",
+    "summary": "将原网页与独立播放器并排保留，方便阅读、暂停和回看。",
+    "answer": "通过 Web/Stream 打开网页并播放其中的视频，再点地址栏旁的 Mini Player。选择检测到的视频，自动放入空白区域；没有空位时选择要替换的区域。",
+    "requirement": "网页浏览需要 Premium。先准备双区布局和有权访问的网页。截图使用含高尔夫素材的本地演示页，127.0.0.1 不是可供读者访问的公共示例链接。",
+    "steps": [
+      {
+        "title": "打开网页并开始播放",
+        "text": "点区域加号 → Web/Stream，输入页面地址并选择 Webpage。先播放网页中的视频，让 App 检测媒体。",
+        "caption": "高尔夫视频正在演示网页内播放。"
+      },
+      {
+        "title": "查看检测结果",
+        "text": "点地址旁的 Mini Player，数字表示检测数量。根据标题、时长和分辨率选择目标；检测到并不代表一定能播放。",
+        "caption": "Mini Player 列出 10 秒、960×540 的高尔夫视频。"
+      },
+      {
+        "title": "在另一区域打开",
+        "text": "点匹配的条目。有空白区域时自动放入；没有空位时，Choose Playback Location 会让你选择要替换现有内容的区域。",
+        "caption": "上方保留原网页，下方出现独立播放器。"
+      },
+      {
+        "title": "独立操作播放器",
+        "text": "点新视频显示控件，可单独暂停或继续。需要原文或其他视频时，Return to Source Webpage 可以返回来源网页。",
+        "caption": "下方视频拥有独立的播放控件。"
+      }
+    ],
+    "features": [
+      {
+        "title": "来源需要保持可播放",
+        "description": "过期地址、登录状态、内容保护和服务器行为都可能影响播放。失败时回到来源页，重新播放后再试；此功能不会授予受限内容的访问权限。"
+      },
+      {
+        "title": "保留一路声音",
+        "description": "两处都有声音时，将网页或独立播放器静音。两条时间线彼此独立；需要精确对比时，使用兼容的本地文件和 Sync Point。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么 Mini Player 没有内容？",
+        "answer": "先在网页中开始播放，再检查列表。有些网站不会提供兼容的媒体来源；检测条目也可能是广告，请核对目标。"
+      },
+      {
+        "question": "这样会下载视频吗？",
+        "answer": "不会。这是打开播放器的流程，不等于离线下载。请保持联网，并仅使用有权访问的素材。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Ein Webvideo auf dem iPhone oder iPad in einem anderen Bereich öffnen",
+    "description": "Erkennen Sie kompatible Webvideos mit Mini Player und öffnen Sie sie in einem anderen Bereich, während die Webseite sichtbar bleibt.",
+    "summary": "Lesen Sie die Quellseite neben einem unabhängigen Videoplayer und pausieren oder prüfen Sie einzelne Stellen.",
+    "answer": "Öffnen Sie eine Seite über Web/Stream, starten Sie das Video und tippen Sie neben der Adresse auf Mini Player. Wählen Sie einen Treffer für einen freien Bereich oder bestimmen Sie, welcher Bereich ersetzt wird.",
+    "requirement": "Webbrowsing erfordert Premium. Bereiten Sie zwei Bereiche und eine zugängliche Seite vor. Die Bilder zeigen eine lokale Demoseite mit dem bereitgestellten Golfclip. 127.0.0.1 ist kein öffentlicher Beispiellink.",
+    "steps": [
+      {
+        "title": "Die Quellseite öffnen und abspielen",
+        "text": "Tippen Sie im Bereich auf + → Web/Stream, geben Sie die Adresse ein und wählen Sie Webpage. Starten Sie das eingebettete Video zur Erkennung.",
+        "caption": "Der Golfclip läuft in der Demoseite."
+      },
+      {
+        "title": "Den erkannten Treffer prüfen",
+        "text": "Tippen Sie neben der Adresse auf Mini Player. Die Zahl zeigt die Trefferanzahl. Prüfen Sie Titel, Dauer und Auflösung. Erkennung garantiert keine erfolgreiche Wiedergabe.",
+        "caption": "Mini Player zeigt den 10 Sekunden langen Golfclip mit 960×540."
+      },
+      {
+        "title": "In einem anderen Bereich öffnen",
+        "text": "Tippen Sie auf den passenden Eintrag. Ein leerer Bereich nimmt das Video automatisch auf. Andernfalls wählen Sie unter Choose Playback Location den zu ersetzenden Bereich.",
+        "caption": "Die Quellseite bleibt über dem unabhängigen Player sichtbar."
+      },
+      {
+        "title": "Den Player getrennt steuern",
+        "text": "Tippen Sie auf das neue Video, um es zu pausieren oder fortzusetzen. Return to Source Webpage führt zurück zum ursprünglichen Text und weiteren Videos.",
+        "caption": "Das untere Video besitzt eine eigene Wiedergabesteuerung."
+      }
+    ],
+    "features": [
+      {
+        "title": "Die Quelle muss abspielbar bleiben",
+        "description": "Abgelaufene Adressen, Anmeldung, Schutzmechanismen oder Serververhalten können die Wiedergabe verhindern. Starten Sie das Video auf der Quellseite neu und versuchen Sie es erneut. Die Funktion gewährt keine Zugriffsrechte auf eingeschränkte Inhalte."
+      },
+      {
+        "title": "Nur eine Tonquelle nutzen",
+        "description": "Schalten Sie die Seite oder den Player stumm, wenn beide Ton liefern. Die Positionen sind unabhängig. Für genaue Vergleiche nutzen Sie kompatible lokale Dateien und Sync Point."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum ist Mini Player leer?",
+        "answer": "Starten Sie ein Video auf der Seite und prüfen Sie erneut. Manche Seiten bieten keine kompatible Quelle. Ein erkannter Eintrag kann auch Werbung sein."
+      },
+      {
+        "question": "Wird das Video heruntergeladen?",
+        "answer": "Nein. Dies öffnet einen Player und ist kein Offline-Download. Halten Sie die Netzwerkverbindung aufrecht und verwenden Sie zugängliche Medien."
+      }
+    ]
+  }
+}

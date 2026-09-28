@@ -1,0 +1,1253 @@
+{
+  "en-US": {
+    "multi-video": [
+      "Multi-video playback",
+      "Split screen"
+    ],
+    "multi-camera": [
+      "Multi-camera review",
+      "Version comparison"
+    ],
+    "websites": [
+      "Dual browsing",
+      "Side-by-side reading"
+    ],
+    "video-web": [
+      "Video & web",
+      "Reference material"
+    ],
+    "smart-layout": [
+      "Smart layout",
+      "Portrait & landscape"
+    ],
+    "resize-reorder": [
+      "Pane resizing",
+      "Content rearrangement"
+    ],
+    "overlay": [
+      "Video overlay",
+      "Opacity",
+      "Motion analysis"
+    ],
+    "toolbar": [
+      "Toolbar",
+      "Shortcuts"
+    ],
+    "swipe": [
+      "Swipe comparison",
+      "Divider",
+      "Reference guides"
+    ],
+    "waterfall": [
+      "Video waterfall",
+      "Auto-scroll"
+    ],
+    "counterflow": [
+      "Counterflow",
+      "Opposite scrolling"
+    ],
+    "gallery": [
+      "Video gallery",
+      "Picture frames"
+    ],
+    "photos": [
+      "Photo slideshows",
+      "Independent playback"
+    ],
+    "frames": [
+      "Frame stepping",
+      "Sports analysis"
+    ],
+    "checkpoints": [
+      "Checkpoints",
+      "Key moments"
+    ],
+    "sync": [
+      "Sync playback",
+      "Sync points"
+    ],
+    "snapshot": [
+      "Split-screen snapshot",
+      "Comparison image"
+    ],
+    "bookmarks": [
+      "Workspace bookmarks",
+      "Restore layout"
+    ],
+    "export": [
+      "Video export",
+      "Split-screen video"
+    ],
+    "playback": [
+      "Playback speed",
+      "Slow motion"
+    ],
+    "global": [
+      "Global controls",
+      "Shared progress",
+      "Replay"
+    ],
+    "timer": [
+      "Sleep timer",
+      "Stop playback"
+    ],
+    "looks": [
+      "Video filters",
+      "Color effects"
+    ],
+    "transform": [
+      "Fit & fill",
+      "Rotation",
+      "Mirroring"
+    ],
+    "focus": [
+      "Maximize a video",
+      "Return to split screen"
+    ],
+    "audio": [
+      "Solo audio",
+      "Mute controls"
+    ],
+    "playlists": [
+      "Multiple playlists",
+      "Batch switching"
+    ],
+    "filter": [
+      "Album filtering",
+      "Batch selection"
+    ],
+    "documents": [
+      "Video & PDF",
+      "Reference reading"
+    ],
+    "files": [
+      "Local files",
+      "Folder import"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "Live streams"
+    ],
+    "web-video": [
+      "Web video",
+      "Mini player"
+    ],
+    "youtube": [
+      "YouTube",
+      "Dual playback"
+    ]
+  },
+  "zh-Hans": {
+    "multi-video": [
+      "多视频播放",
+      "分屏布局"
+    ],
+    "multi-camera": [
+      "多机位回看",
+      "版本对比"
+    ],
+    "websites": [
+      "双网页浏览",
+      "对照阅读"
+    ],
+    "video-web": [
+      "视频与网页",
+      "资料查阅"
+    ],
+    "smart-layout": [
+      "智能布局",
+      "横竖混排"
+    ],
+    "resize-reorder": [
+      "区域大小",
+      "内容换位"
+    ],
+    "overlay": [
+      "重叠对比",
+      "透明度",
+      "动作分析"
+    ],
+    "toolbar": [
+      "工具栏",
+      "快捷按钮"
+    ],
+    "swipe": [
+      "滑动对比",
+      "分割线",
+      "参考线"
+    ],
+    "waterfall": [
+      "视频瀑布流",
+      "自动滚动"
+    ],
+    "counterflow": [
+      "对向流",
+      "反向滚动"
+    ],
+    "gallery": [
+      "动态画廊",
+      "视频相框"
+    ],
+    "photos": [
+      "照片轮播",
+      "独立播放"
+    ],
+    "frames": [
+      "逐帧对比",
+      "运动分析"
+    ],
+    "checkpoints": [
+      "检查点",
+      "关键时刻"
+    ],
+    "sync": [
+      "同步播放",
+      "同步点"
+    ],
+    "snapshot": [
+      "分屏截图",
+      "对比图片"
+    ],
+    "bookmarks": [
+      "工作区书签",
+      "布局恢复"
+    ],
+    "export": [
+      "视频导出",
+      "分屏合成"
+    ],
+    "playback": [
+      "播放速度",
+      "慢动作"
+    ],
+    "global": [
+      "全局控制",
+      "共同进度",
+      "重播"
+    ],
+    "timer": [
+      "睡眠定时",
+      "定时停止"
+    ],
+    "looks": [
+      "视频滤镜",
+      "色彩效果"
+    ],
+    "transform": [
+      "适应与填满",
+      "旋转",
+      "镜像"
+    ],
+    "focus": [
+      "单区放大",
+      "返回分屏"
+    ],
+    "audio": [
+      "单路声音",
+      "静音控制"
+    ],
+    "playlists": [
+      "多播放列表",
+      "批量切换"
+    ],
+    "filter": [
+      "相册筛选",
+      "批量选择"
+    ],
+    "documents": [
+      "视频与 PDF",
+      "对照阅读"
+    ],
+    "files": [
+      "本地文件",
+      "文件夹导入"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "流媒体"
+    ],
+    "web-video": [
+      "网页视频",
+      "独立播放器"
+    ],
+    "youtube": [
+      "YouTube",
+      "双视频播放"
+    ]
+  },
+  "zh-Hant": {
+    "multi-video": [
+      "多影片播放",
+      "分割畫面"
+    ],
+    "multi-camera": [
+      "多機位回看",
+      "版本比較"
+    ],
+    "websites": [
+      "雙網頁瀏覽",
+      "對照閱讀"
+    ],
+    "video-web": [
+      "影片與網頁",
+      "資料查閱"
+    ],
+    "smart-layout": [
+      "智慧版面",
+      "橫直混排"
+    ],
+    "resize-reorder": [
+      "區域大小",
+      "內容換位"
+    ],
+    "overlay": [
+      "疊加比較",
+      "透明度",
+      "動作分析"
+    ],
+    "toolbar": [
+      "工具列",
+      "快捷按鈕"
+    ],
+    "swipe": [
+      "滑動比較",
+      "分割線",
+      "參考線"
+    ],
+    "waterfall": [
+      "影片瀑布流",
+      "自動捲動"
+    ],
+    "counterflow": [
+      "對向流",
+      "反向捲動"
+    ],
+    "gallery": [
+      "動態藝廊",
+      "影片相框"
+    ],
+    "photos": [
+      "照片輪播",
+      "獨立播放"
+    ],
+    "frames": [
+      "逐格比較",
+      "運動分析"
+    ],
+    "checkpoints": [
+      "檢查點",
+      "關鍵時刻"
+    ],
+    "sync": [
+      "同步播放",
+      "同步點"
+    ],
+    "snapshot": [
+      "分割畫面截圖",
+      "比較圖片"
+    ],
+    "bookmarks": [
+      "工作區書籤",
+      "版面還原"
+    ],
+    "export": [
+      "影片匯出",
+      "分割畫面合成"
+    ],
+    "playback": [
+      "播放速度",
+      "慢動作"
+    ],
+    "global": [
+      "全域控制",
+      "共同進度",
+      "重播"
+    ],
+    "timer": [
+      "睡眠計時",
+      "定時停止"
+    ],
+    "looks": [
+      "影片濾鏡",
+      "色彩效果"
+    ],
+    "transform": [
+      "完整顯示與填滿",
+      "旋轉",
+      "鏡像"
+    ],
+    "focus": [
+      "單區放大",
+      "返回分割畫面"
+    ],
+    "audio": [
+      "單路聲音",
+      "靜音控制"
+    ],
+    "playlists": [
+      "多播放清單",
+      "批次切換"
+    ],
+    "filter": [
+      "相簿篩選",
+      "批次選取"
+    ],
+    "documents": [
+      "影片與 PDF",
+      "對照閱讀"
+    ],
+    "files": [
+      "本機檔案",
+      "資料夾匯入"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "串流"
+    ],
+    "web-video": [
+      "網頁影片",
+      "獨立播放器"
+    ],
+    "youtube": [
+      "YouTube",
+      "雙影片播放"
+    ]
+  },
+  "ja": {
+    "multi-video": [
+      "複数動画再生",
+      "画面分割"
+    ],
+    "multi-camera": [
+      "マルチカメラ確認",
+      "バージョン比較"
+    ],
+    "websites": [
+      "2つのウェブページ",
+      "並べて読む"
+    ],
+    "video-web": [
+      "動画とウェブ",
+      "資料の参照"
+    ],
+    "smart-layout": [
+      "スマートレイアウト",
+      "縦横混在"
+    ],
+    "resize-reorder": [
+      "領域サイズ",
+      "配置の入れ替え"
+    ],
+    "overlay": [
+      "重ね合わせ比較",
+      "透明度",
+      "動作分析"
+    ],
+    "toolbar": [
+      "ツールバー",
+      "ショートカット"
+    ],
+    "swipe": [
+      "スワイプ比較",
+      "分割線",
+      "ガイド線"
+    ],
+    "waterfall": [
+      "動画ウォーターフォール",
+      "自動スクロール"
+    ],
+    "counterflow": [
+      "カウンターフロー",
+      "逆方向スクロール"
+    ],
+    "gallery": [
+      "動画ギャラリー",
+      "フレーム"
+    ],
+    "photos": [
+      "写真スライドショー",
+      "個別再生"
+    ],
+    "frames": [
+      "コマ送り比較",
+      "スポーツ分析"
+    ],
+    "checkpoints": [
+      "チェックポイント",
+      "重要な瞬間"
+    ],
+    "sync": [
+      "同期再生",
+      "同期ポイント"
+    ],
+    "snapshot": [
+      "分割画面の保存",
+      "比較画像"
+    ],
+    "bookmarks": [
+      "ワークスペース保存",
+      "レイアウト復元"
+    ],
+    "export": [
+      "動画書き出し",
+      "分割画面動画"
+    ],
+    "playback": [
+      "再生速度",
+      "スローモーション"
+    ],
+    "global": [
+      "一括操作",
+      "共通シークバー",
+      "リプレイ"
+    ],
+    "timer": [
+      "スリープタイマー",
+      "再生停止"
+    ],
+    "looks": [
+      "動画フィルター",
+      "色彩効果"
+    ],
+    "transform": [
+      "フィットとフィル",
+      "回転",
+      "ミラー"
+    ],
+    "focus": [
+      "領域の最大化",
+      "分割画面に戻る"
+    ],
+    "audio": [
+      "単独音声",
+      "ミュート操作"
+    ],
+    "playlists": [
+      "複数プレイリスト",
+      "一括切り替え"
+    ],
+    "filter": [
+      "アルバム絞り込み",
+      "一括選択"
+    ],
+    "documents": [
+      "動画とPDF",
+      "資料を読み比べる"
+    ],
+    "files": [
+      "ローカルファイル",
+      "フォルダ読み込み"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "ライブ配信"
+    ],
+    "web-video": [
+      "ウェブ動画",
+      "ミニプレーヤー"
+    ],
+    "youtube": [
+      "YouTube",
+      "2本同時再生"
+    ]
+  },
+  "ko": {
+    "multi-video": [
+      "여러 동영상 재생",
+      "화면 분할"
+    ],
+    "multi-camera": [
+      "멀티캠 검토",
+      "버전 비교"
+    ],
+    "websites": [
+      "두 웹페이지",
+      "나란히 읽기"
+    ],
+    "video-web": [
+      "동영상과 웹",
+      "참고 자료"
+    ],
+    "smart-layout": [
+      "스마트 레이아웃",
+      "가로·세로 혼합"
+    ],
+    "resize-reorder": [
+      "영역 크기",
+      "위치 바꾸기"
+    ],
+    "overlay": [
+      "오버레이 비교",
+      "투명도",
+      "동작 분석"
+    ],
+    "toolbar": [
+      "도구 모음",
+      "바로가기"
+    ],
+    "swipe": [
+      "스와이프 비교",
+      "분할선",
+      "기준선"
+    ],
+    "waterfall": [
+      "동영상 워터폴",
+      "자동 스크롤"
+    ],
+    "counterflow": [
+      "카운터플로",
+      "반대 방향 스크롤"
+    ],
+    "gallery": [
+      "동영상 갤러리",
+      "액자"
+    ],
+    "photos": [
+      "사진 슬라이드쇼",
+      "개별 재생"
+    ],
+    "frames": [
+      "프레임 비교",
+      "스포츠 분석"
+    ],
+    "checkpoints": [
+      "체크포인트",
+      "주요 순간"
+    ],
+    "sync": [
+      "동기화 재생",
+      "동기화 지점"
+    ],
+    "snapshot": [
+      "분할 화면 캡처",
+      "비교 이미지"
+    ],
+    "bookmarks": [
+      "작업 공간 북마크",
+      "레이아웃 복원"
+    ],
+    "export": [
+      "동영상 내보내기",
+      "분할 영상 합성"
+    ],
+    "playback": [
+      "재생 속도",
+      "슬로 모션"
+    ],
+    "global": [
+      "전체 제어",
+      "공통 진행률",
+      "다시 재생"
+    ],
+    "timer": [
+      "취침 타이머",
+      "재생 종료"
+    ],
+    "looks": [
+      "동영상 필터",
+      "색상 효과"
+    ],
+    "transform": [
+      "맞춤과 채우기",
+      "회전",
+      "미러링"
+    ],
+    "focus": [
+      "영역 확대",
+      "분할 화면 복귀"
+    ],
+    "audio": [
+      "단일 오디오",
+      "음소거 제어"
+    ],
+    "playlists": [
+      "여러 재생 목록",
+      "일괄 전환"
+    ],
+    "filter": [
+      "앨범 필터링",
+      "일괄 선택"
+    ],
+    "documents": [
+      "동영상과 PDF",
+      "자료 대조"
+    ],
+    "files": [
+      "로컬 파일",
+      "폴더 가져오기"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "라이브 스트림"
+    ],
+    "web-video": [
+      "웹 동영상",
+      "미니 플레이어"
+    ],
+    "youtube": [
+      "YouTube",
+      "두 영상 동시 재생"
+    ]
+  },
+  "fr": {
+    "multi-video": [
+      "Lecture multividéo",
+      "Écran partagé"
+    ],
+    "multi-camera": [
+      "Revue multicaméra",
+      "Comparaison de versions"
+    ],
+    "websites": [
+      "Deux pages web",
+      "Lecture en parallèle"
+    ],
+    "video-web": [
+      "Vidéo et web",
+      "Documents de référence"
+    ],
+    "smart-layout": [
+      "Disposition intelligente",
+      "Portrait et paysage"
+    ],
+    "resize-reorder": [
+      "Taille des zones",
+      "Réorganisation"
+    ],
+    "overlay": [
+      "Superposition",
+      "Opacité",
+      "Analyse du mouvement"
+    ],
+    "toolbar": [
+      "Barre d’outils",
+      "Raccourcis"
+    ],
+    "swipe": [
+      "Comparaison par balayage",
+      "Séparateur",
+      "Repères"
+    ],
+    "waterfall": [
+      "Cascade vidéo",
+      "Défilement automatique"
+    ],
+    "counterflow": [
+      "Contre-flux",
+      "Défilement opposé"
+    ],
+    "gallery": [
+      "Galerie vidéo",
+      "Cadres"
+    ],
+    "photos": [
+      "Diaporamas photo",
+      "Lecture indépendante"
+    ],
+    "frames": [
+      "Image par image",
+      "Analyse sportive"
+    ],
+    "checkpoints": [
+      "Points de repère",
+      "Moments clés"
+    ],
+    "sync": [
+      "Lecture synchronisée",
+      "Points de synchro"
+    ],
+    "snapshot": [
+      "Capture d’écran partagé",
+      "Image comparative"
+    ],
+    "bookmarks": [
+      "Favoris d’espace de travail",
+      "Restauration"
+    ],
+    "export": [
+      "Export vidéo",
+      "Vidéo en écran partagé"
+    ],
+    "playback": [
+      "Vitesse de lecture",
+      "Ralenti"
+    ],
+    "global": [
+      "Commandes globales",
+      "Progression commune",
+      "Relecture"
+    ],
+    "timer": [
+      "Minuterie de veille",
+      "Arrêt programmé"
+    ],
+    "looks": [
+      "Filtres vidéo",
+      "Effets de couleur"
+    ],
+    "transform": [
+      "Ajuster et remplir",
+      "Rotation",
+      "Miroir"
+    ],
+    "focus": [
+      "Agrandir une vidéo",
+      "Retour à l’écran partagé"
+    ],
+    "audio": [
+      "Audio solo",
+      "Commandes de sourdine"
+    ],
+    "playlists": [
+      "Listes de lecture",
+      "Changement groupé"
+    ],
+    "filter": [
+      "Filtrage d’album",
+      "Sélection multiple"
+    ],
+    "documents": [
+      "Vidéo et PDF",
+      "Lecture de référence"
+    ],
+    "files": [
+      "Fichiers locaux",
+      "Import de dossiers"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "Flux en direct"
+    ],
+    "web-video": [
+      "Vidéo web",
+      "Mini-lecteur"
+    ],
+    "youtube": [
+      "YouTube",
+      "Deux vidéos à la fois"
+    ]
+  },
+  "de": {
+    "multi-video": [
+      "Mehrere Videos",
+      "Geteilter Bildschirm"
+    ],
+    "multi-camera": [
+      "Mehrkamera-Ansicht",
+      "Versionsvergleich"
+    ],
+    "websites": [
+      "Zwei Webseiten",
+      "Parallel lesen"
+    ],
+    "video-web": [
+      "Video und Web",
+      "Begleitmaterial"
+    ],
+    "smart-layout": [
+      "Intelligentes Layout",
+      "Hoch- und Querformat"
+    ],
+    "resize-reorder": [
+      "Bereichsgröße",
+      "Inhalte umordnen"
+    ],
+    "overlay": [
+      "Videoüberlagerung",
+      "Deckkraft",
+      "Bewegungsanalyse"
+    ],
+    "toolbar": [
+      "Werkzeugleiste",
+      "Schnellzugriff"
+    ],
+    "swipe": [
+      "Wischvergleich",
+      "Trennlinie",
+      "Hilfslinien"
+    ],
+    "waterfall": [
+      "Video-Wasserfall",
+      "Automatisches Scrollen"
+    ],
+    "counterflow": [
+      "Gegenläufige Videos",
+      "Entgegengesetztes Scrollen"
+    ],
+    "gallery": [
+      "Videogalerie",
+      "Bilderrahmen"
+    ],
+    "photos": [
+      "Foto-Diashows",
+      "Unabhängige Wiedergabe"
+    ],
+    "frames": [
+      "Einzelbildvergleich",
+      "Sportanalyse"
+    ],
+    "checkpoints": [
+      "Kontrollpunkte",
+      "Schlüsselmomente"
+    ],
+    "sync": [
+      "Synchrone Wiedergabe",
+      "Synchronpunkte"
+    ],
+    "snapshot": [
+      "Splitscreen-Screenshot",
+      "Vergleichsbild"
+    ],
+    "bookmarks": [
+      "Arbeitsbereich-Lesezeichen",
+      "Layout wiederherstellen"
+    ],
+    "export": [
+      "Videoexport",
+      "Splitscreen-Video"
+    ],
+    "playback": [
+      "Wiedergabetempo",
+      "Zeitlupe"
+    ],
+    "global": [
+      "Globale Steuerung",
+      "Gemeinsamer Fortschritt",
+      "Neustart"
+    ],
+    "timer": [
+      "Schlaftimer",
+      "Wiedergabe stoppen"
+    ],
+    "looks": [
+      "Videofilter",
+      "Farbeffekte"
+    ],
+    "transform": [
+      "Einpassen und Füllen",
+      "Drehen",
+      "Spiegeln"
+    ],
+    "focus": [
+      "Video maximieren",
+      "Zurück zur Teilung"
+    ],
+    "audio": [
+      "Einzelne Tonspur",
+      "Stummschaltung"
+    ],
+    "playlists": [
+      "Mehrere Playlists",
+      "Gemeinsam wechseln"
+    ],
+    "filter": [
+      "Albumfilter",
+      "Mehrfachauswahl"
+    ],
+    "documents": [
+      "Video und PDF",
+      "Begleitend lesen"
+    ],
+    "files": [
+      "Lokale Dateien",
+      "Ordnerimport"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "Livestreams"
+    ],
+    "web-video": [
+      "Webvideo",
+      "Miniplayer"
+    ],
+    "youtube": [
+      "YouTube",
+      "Zwei Videos gleichzeitig"
+    ]
+  },
+  "es": {
+    "multi-video": [
+      "Varios vídeos",
+      "Pantalla dividida"
+    ],
+    "multi-camera": [
+      "Revisión multicámara",
+      "Comparación de versiones"
+    ],
+    "websites": [
+      "Dos páginas web",
+      "Lectura en paralelo"
+    ],
+    "video-web": [
+      "Vídeo y web",
+      "Material de consulta"
+    ],
+    "smart-layout": [
+      "Diseño inteligente",
+      "Vertical y horizontal"
+    ],
+    "resize-reorder": [
+      "Tamaño de las zonas",
+      "Reorganización"
+    ],
+    "overlay": [
+      "Superposición",
+      "Opacidad",
+      "Análisis del movimiento"
+    ],
+    "toolbar": [
+      "Barra de herramientas",
+      "Accesos directos"
+    ],
+    "swipe": [
+      "Comparación deslizante",
+      "Divisor",
+      "Guías"
+    ],
+    "waterfall": [
+      "Cascada de vídeos",
+      "Desplazamiento automático"
+    ],
+    "counterflow": [
+      "Flujo opuesto",
+      "Desplazamiento inverso"
+    ],
+    "gallery": [
+      "Galería de vídeos",
+      "Marcos"
+    ],
+    "photos": [
+      "Pases de fotos",
+      "Reproducción independiente"
+    ],
+    "frames": [
+      "Fotograma a fotograma",
+      "Análisis deportivo"
+    ],
+    "checkpoints": [
+      "Puntos de control",
+      "Momentos clave"
+    ],
+    "sync": [
+      "Reproducción sincronizada",
+      "Puntos de sincronía"
+    ],
+    "snapshot": [
+      "Captura de pantalla dividida",
+      "Imagen comparativa"
+    ],
+    "bookmarks": [
+      "Marcadores del espacio",
+      "Restaurar diseño"
+    ],
+    "export": [
+      "Exportación de vídeo",
+      "Vídeo en pantalla dividida"
+    ],
+    "playback": [
+      "Velocidad de reproducción",
+      "Cámara lenta"
+    ],
+    "global": [
+      "Controles globales",
+      "Progreso común",
+      "Repetición"
+    ],
+    "timer": [
+      "Temporizador de apagado",
+      "Detener reproducción"
+    ],
+    "looks": [
+      "Filtros de vídeo",
+      "Efectos de color"
+    ],
+    "transform": [
+      "Ajustar y rellenar",
+      "Rotación",
+      "Espejo"
+    ],
+    "focus": [
+      "Ampliar un vídeo",
+      "Volver a la vista dividida"
+    ],
+    "audio": [
+      "Audio individual",
+      "Silencio"
+    ],
+    "playlists": [
+      "Varias listas",
+      "Cambio conjunto"
+    ],
+    "filter": [
+      "Filtrado del álbum",
+      "Selección múltiple"
+    ],
+    "documents": [
+      "Vídeo y PDF",
+      "Lectura de referencia"
+    ],
+    "files": [
+      "Archivos locales",
+      "Importar carpetas"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "Transmisiones en directo"
+    ],
+    "web-video": [
+      "Vídeo web",
+      "Minirreproductor"
+    ],
+    "youtube": [
+      "YouTube",
+      "Dos vídeos a la vez"
+    ]
+  },
+  "pt-BR": {
+    "multi-video": [
+      "Vários vídeos",
+      "Tela dividida"
+    ],
+    "multi-camera": [
+      "Revisão multicâmera",
+      "Comparação de versões"
+    ],
+    "websites": [
+      "Duas páginas web",
+      "Leitura lado a lado"
+    ],
+    "video-web": [
+      "Vídeo e web",
+      "Material de consulta"
+    ],
+    "smart-layout": [
+      "Layout inteligente",
+      "Vertical e horizontal"
+    ],
+    "resize-reorder": [
+      "Tamanho das áreas",
+      "Reorganização"
+    ],
+    "overlay": [
+      "Sobreposição",
+      "Opacidade",
+      "Análise de movimento"
+    ],
+    "toolbar": [
+      "Barra de ferramentas",
+      "Atalhos"
+    ],
+    "swipe": [
+      "Comparação deslizante",
+      "Divisória",
+      "Guias"
+    ],
+    "waterfall": [
+      "Cascata de vídeos",
+      "Rolagem automática"
+    ],
+    "counterflow": [
+      "Fluxo oposto",
+      "Rolagem inversa"
+    ],
+    "gallery": [
+      "Galeria de vídeos",
+      "Molduras"
+    ],
+    "photos": [
+      "Slides de fotos",
+      "Reprodução independente"
+    ],
+    "frames": [
+      "Quadro a quadro",
+      "Análise esportiva"
+    ],
+    "checkpoints": [
+      "Pontos de controle",
+      "Momentos importantes"
+    ],
+    "sync": [
+      "Reprodução sincronizada",
+      "Pontos de sincronia"
+    ],
+    "snapshot": [
+      "Captura da tela dividida",
+      "Imagem comparativa"
+    ],
+    "bookmarks": [
+      "Favoritos do espaço",
+      "Restaurar layout"
+    ],
+    "export": [
+      "Exportação de vídeo",
+      "Vídeo em tela dividida"
+    ],
+    "playback": [
+      "Velocidade de reprodução",
+      "Câmera lenta"
+    ],
+    "global": [
+      "Controles globais",
+      "Progresso conjunto",
+      "Reinício"
+    ],
+    "timer": [
+      "Timer de suspensão",
+      "Parar reprodução"
+    ],
+    "looks": [
+      "Filtros de vídeo",
+      "Efeitos de cor"
+    ],
+    "transform": [
+      "Ajustar e preencher",
+      "Rotação",
+      "Espelhamento"
+    ],
+    "focus": [
+      "Ampliar um vídeo",
+      "Voltar à tela dividida"
+    ],
+    "audio": [
+      "Áudio individual",
+      "Controle de mudo"
+    ],
+    "playlists": [
+      "Várias playlists",
+      "Troca em conjunto"
+    ],
+    "filter": [
+      "Filtro de álbum",
+      "Seleção múltipla"
+    ],
+    "documents": [
+      "Vídeo e PDF",
+      "Leitura de referência"
+    ],
+    "files": [
+      "Arquivos locais",
+      "Importar pastas"
+    ],
+    "streams": [
+      "RTSP",
+      "HLS",
+      "Transmissões ao vivo"
+    ],
+    "web-video": [
+      "Vídeo da web",
+      "Miniplayer"
+    ],
+    "youtube": [
+      "YouTube",
+      "Dois vídeos ao mesmo tempo"
+    ]
+  }
+}

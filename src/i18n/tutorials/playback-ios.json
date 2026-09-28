@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadで複数の動画の再生速度を変更する方法",
+    "description": "iPhone・iPadで1本だけ速度を変え、全動画を同じ速度にそろえて通常再生に戻します。",
+    "summary": "まず1本を個別に調整し、次に全動画を同じ速度にして比較します。",
+    "answer": "動画の速度メーターをタップすると速度が切り替わり、Video Speedが開きます。下部のChange Speed for All Playersで全動画を同じ速度にできます。",
+    "requirement": "More → Customize Home Bottom ButtonsでChange Speed for All Playersを追加します。対応するローカル動画を使い、個別調整時はLockとSynchronized playbackをオフにします。高度な操作にはPremiumが必要な場合があります。",
+    "steps": [
+      {
+        "title": "個別の速度ボタンを探す",
+        "text": "動画をタップして操作を表示します。メーターと数値はその領域のものです。例では上の動画が1×から始まります。",
+        "caption": "上の動画に個別の速度ボタンが表示されています。"
+      },
+      {
+        "title": "1本の速度を変える",
+        "text": "メーターをタップすると次の速度に進み、Video Speedが表示されます。例は1.4×です。速度スライダーもあり、Remember Speedは別の記憶設定です。",
+        "caption": "上の動画は1.4×で、Remember Speedはオフです。"
+      },
+      {
+        "title": "全動画を同じ速度にする",
+        "text": "下部のChange Speed for All Playersを繰り返しタップして速度を切り替えます。両方の領域を確認します。例では両動画が0.8×です。",
+        "caption": "全体操作で両動画が0.8×になりました。"
+      },
+      {
+        "title": "通常速度に戻す",
+        "text": "全体の速度を1×まで切り替えます。各領域の操作を表示して数値を確認し、再生を再開します。一時停止と速度変更は別の操作です。",
+        "caption": "両領域が1×に戻りました。"
+      }
+    ],
+    "features": [
+      {
+        "title": "一時的な早送りとスロー再生",
+        "description": "下部にはLong-Press Fast ForwardとLong-Press Slow Motionもあります。押している間だけ速度が変わり、離すと元に戻ります。同期をオフにして使います。一時的な倍率は設定によって異なります。"
+      },
+      {
+        "title": "再生速度と書き出し",
+        "description": "速度の変更では新しいファイルは作られません。動画ファイルが必要な場合は、分割画面の書き出し機能とその時間設定を確認してください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "別の領域も速度が変わるのはなぜですか？",
+        "answer": "LockとSynchronized playbackを確認してください。連動操作は他の領域にも反映されます。個別に調整する場合はオフにします。"
+      },
+      {
+        "question": "速度を維持するには？",
+        "answer": "個別のメーターか全体の速度ボタンを使います。一時的な長押し操作は、離すと元の速度に戻ります。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comment changer la vitesse de plusieurs vidéos sur iPhone ou iPad",
+    "description": "Réglez une vidéo, appliquez une vitesse commune à tous les lecteurs et retrouvez la vitesse normale sur iPhone ou iPad.",
+    "summary": "Ajustez d’abord un clip seul, puis donnez la même vitesse à toutes les vidéos pour les comparer.",
+    "answer": "Touchez la jauge d’une vidéo pour passer à la vitesse suivante et afficher Video Speed. Change Speed for All Players règle tous les lecteurs ensemble.",
+    "requirement": "Ajoutez Change Speed for All Players dans More → Customize Home Bottom Buttons. Utilisez des vidéos locales compatibles et désactivez Lock et Synchronized playback pour un réglage indépendant. Certaines actions nécessitent Premium.",
+    "steps": [
+      {
+        "title": "Repérer la vitesse individuelle",
+        "text": "Touchez une vidéo pour afficher ses commandes. La jauge et sa valeur concernent cette zone. La vidéo supérieure commence ici à 1×.",
+        "caption": "La vidéo supérieure affiche sa commande de vitesse."
+      },
+      {
+        "title": "Modifier une seule vidéo",
+        "text": "Touchez la jauge pour passer à la vitesse suivante et afficher Video Speed. L’exemple atteint 1,4×. Le panneau propose aussi un curseur ; Remember Speed est une préférence distincte.",
+        "caption": "La vidéo supérieure est à 1,4×, avec Remember Speed désactivé."
+      },
+      {
+        "title": "Choisir une vitesse commune",
+        "text": "Touchez plusieurs fois Change Speed for All Players dans la barre inférieure. Vérifiez les deux zones : l’exemple les règle toutes deux à 0,8×.",
+        "caption": "Les deux vidéos affichent 0,8× après le réglage global."
+      },
+      {
+        "title": "Revenir à la vitesse normale",
+        "text": "Continuez jusqu’à 1×. Affichez les commandes de chaque zone pour vérifier la valeur, puis reprenez la lecture. La pause et la vitesse sont des commandes distinctes.",
+        "caption": "Les deux zones sont revenues à 1×."
+      }
+    ],
+    "features": [
+      {
+        "title": "Accélération et ralenti temporaires",
+        "description": "La barre propose aussi Long-Press Fast Forward et Long-Press Slow Motion. Maintenez le bouton pour changer temporairement la vitesse ; relâchez pour rétablir la précédente. Désactivez la synchronisation. Le multiplicateur dépend des réglages."
+      },
+      {
+        "title": "Lecture et exportation",
+        "description": "Changer la vitesse ne crée pas de fichier. Pour produire une vidéo, utilisez l’exportation de l’écran partagé et vérifiez ses paramètres temporels."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi la vitesse de l’autre zone change-t-elle aussi ?",
+        "answer": "Vérifiez Lock et Synchronized playback. Les commandes liées peuvent agir sur les autres zones ; désactivez-les pour un réglage indépendant."
+      },
+      {
+        "question": "Comment conserver une vitesse différente ?",
+        "answer": "Utilisez la jauge individuelle ou l’action globale. Les boutons temporaires rétablissent la vitesse précédente dès que vous les relâchez."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to change multiple video speeds on iPhone or iPad",
+    "description": "Set one video’s speed, apply a common rate to all players, and return to normal playback on iPhone or iPad.",
+    "summary": "Adjust one clip independently, then give all videos the same playback speed for comparison.",
+    "answer": "Tap a video’s speed gauge to cycle its rate and open Video Speed. Use Change Speed for All Players in the bottom toolbar to set every player to a common rate.",
+    "requirement": "Add Change Speed for All Players in More → Customize Home Bottom Buttons. Use compatible local videos and turn off Lock and Synchronized playback when adjusting a single pane independently. Advanced actions may require Premium.",
+    "steps": [
+      {
+        "title": "Find the individual speed control",
+        "text": "Tap a video to reveal its controls. The gauge and value belong to that pane; the upper video starts at 1× in this example.",
+        "caption": "The upper video shows its individual speed control."
+      },
+      {
+        "title": "Change one video’s rate",
+        "text": "Tap the speed gauge to advance to the next rate and reveal Video Speed. The example reaches 1.4×. The panel also offers a speed slider; Remember Speed is a separate preference.",
+        "caption": "The upper video is set to 1.4× with Remember Speed off."
+      },
+      {
+        "title": "Set a common speed",
+        "text": "Tap Change Speed for All Players repeatedly to cycle the available rates. Check both panes: the example reaches 0.8× for both videos.",
+        "caption": "Both videos show 0.8× after the global speed action."
+      },
+      {
+        "title": "Return to normal playback",
+        "text": "Continue cycling the global speed to 1×. Reveal each pane’s controls to check its rate, then resume playback. Pausing and changing speed are separate controls.",
+        "caption": "Both panes are back at 1×."
+      }
+    ],
+    "features": [
+      {
+        "title": "Temporary speed controls",
+        "description": "The toolbar also offers Long-Press Fast Forward and Long-Press Slow Motion. These apply while held and restore the previous rate when released. Disable synchronization before using them; the temporary multiplier depends on your settings."
+      },
+      {
+        "title": "Viewing speed and exported files",
+        "description": "Changing playback speed does not create a new file. Use the separate split-screen exporter and check its timing settings when you need an output video."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why did another pane’s speed change too?",
+        "answer": "Check Lock and Synchronized playback. Linked controls can propagate a single-pane change; turn them off for independent adjustment."
+      },
+      {
+        "question": "How do I keep a different speed?",
+        "answer": "Use the individual gauge or the global speed action for a sustained change. Temporary long-press controls return to the earlier rate when released."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como mudar a velocidade de vários vídeos no iPhone ou iPad",
+    "description": "Ajuste um vídeo, aplique uma velocidade comum a todos os players e volte à reprodução normal no iPhone ou iPad.",
+    "summary": "Ajuste primeiro um clipe separadamente e depois use a mesma velocidade em todos para comparar.",
+    "answer": "Toque no indicador de velocidade para passar ao próximo valor e abrir Video Speed. Change Speed for All Players ajusta todos os players juntos.",
+    "requirement": "Adicione Change Speed for All Players em More → Customize Home Bottom Buttons. Use vídeos locais compatíveis e desative Lock e Synchronized playback para ajustar uma área separadamente. Algumas ações exigem Premium.",
+    "steps": [
+      {
+        "title": "Encontre o controle individual",
+        "text": "Toque em um vídeo para mostrar seus controles. O indicador e o valor pertencem àquela área. O vídeo superior começa em 1× neste exemplo.",
+        "caption": "O vídeo superior mostra seu próprio controle de velocidade."
+      },
+      {
+        "title": "Mude um vídeo",
+        "text": "Toque no indicador para avançar ao próximo valor e mostrar Video Speed. O exemplo chega a 1,4×. O painel também oferece um controle deslizante; Remember Speed é uma preferência separada.",
+        "caption": "O vídeo superior está em 1,4×, com Remember Speed desativado."
+      },
+      {
+        "title": "Defina uma velocidade comum",
+        "text": "Toque várias vezes em Change Speed for All Players na barra inferior. Confira as duas áreas: o exemplo coloca ambas em 0,8×.",
+        "caption": "Os dois vídeos mostram 0,8× após o ajuste global."
+      },
+      {
+        "title": "Volte à velocidade normal",
+        "text": "Continue até chegar a 1×. Mostre os controles de cada área, confira o valor e retome a reprodução. Pausar e mudar a velocidade são ações separadas.",
+        "caption": "As duas áreas voltam a 1×."
+      }
+    ],
+    "features": [
+      {
+        "title": "Mudanças temporárias",
+        "description": "A barra também oferece Long-Press Fast Forward e Long-Press Slow Motion. A mudança dura enquanto o botão estiver pressionado; ao soltar, a velocidade anterior volta. Desative a sincronização. O multiplicador depende das configurações."
+      },
+      {
+        "title": "Reprodução e exportação",
+        "description": "Mudar a velocidade não cria um arquivo. Para produzir um vídeo, use a exportação de tela dividida e confira suas configurações de tempo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que a outra área também muda?",
+        "answer": "Confira Lock e Synchronized playback. Controles vinculados podem propagar as alterações; desative-os para ajustar uma área separadamente."
+      },
+      {
+        "question": "Como manter outra velocidade?",
+        "answer": "Use o indicador individual ou a ação global. Os botões temporários restauram a velocidade anterior quando você os solta."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 여러 영상의 재생 속도를 바꾸는 방법",
+    "description": "iPhone 또는 iPad에서 한 영상의 속도를 바꾸고 모든 영상에 같은 배속을 적용한 뒤 정상 속도로 돌아가세요.",
+    "summary": "한 영상을 따로 조절한 다음 모든 영상을 같은 속도로 맞춰 비교합니다.",
+    "answer": "영상의 배속 게이지를 누르면 다음 속도로 바뀌고 Video Speed가 열립니다. 하단의 Change Speed for All Players로 전체 속도를 맞출 수 있습니다.",
+    "requirement": "More → Customize Home Bottom Buttons에서 Change Speed for All Players를 추가하세요. 호환되는 로컬 영상을 사용하고 개별 조절 시 Lock과 Synchronized playback을 끄세요. 고급 기능에는 Premium이 필요할 수 있습니다.",
+    "steps": [
+      {
+        "title": "개별 속도 버튼 찾기",
+        "text": "영상을 탭해 버튼을 표시하세요. 게이지와 값은 해당 영역의 속도입니다. 예시의 위쪽 영상은 1×로 시작합니다.",
+        "caption": "위쪽 영상에 개별 배속 버튼이 표시됩니다."
+      },
+      {
+        "title": "한 영상의 속도 바꾸기",
+        "text": "게이지를 누르면 다음 속도로 바뀌며 Video Speed가 표시됩니다. 예시는 1.4×입니다. 속도 슬라이더도 제공하며 Remember Speed는 별도의 기억 설정입니다.",
+        "caption": "위쪽 영상은 1.4×이며 Remember Speed는 꺼져 있습니다."
+      },
+      {
+        "title": "모든 영상의 속도 맞추기",
+        "text": "하단의 Change Speed for All Players를 반복해서 눌러 속도를 순환합니다. 두 영역을 확인하세요. 예시에서는 모두 0.8×로 맞췄습니다.",
+        "caption": "전체 배속 버튼으로 두 영상 모두 0.8×가 되었습니다."
+      },
+      {
+        "title": "정상 속도로 돌아가기",
+        "text": "전체 배속 버튼을 계속 눌러 1×로 맞추세요. 각 영역의 값을 확인하고 재생을 다시 시작합니다. 일시 정지와 배속 변경은 별도 기능입니다.",
+        "caption": "두 영역 모두 1×로 돌아왔습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "일시적인 빠른 재생과 느린 재생",
+        "description": "도구 모음에 Long-Press Fast Forward와 Long-Press Slow Motion도 있습니다. 누르는 동안만 속도가 바뀌고 손을 떼면 이전 속도로 돌아옵니다. 동기화를 끄고 사용하세요. 임시 배율은 설정에 따라 다릅니다."
+      },
+      {
+        "title": "재생 속도와 내보내기",
+        "description": "배속을 바꿔도 새 파일이 생성되지는 않습니다. 출력 영상이 필요하면 별도의 분할 화면 내보내기를 열어 시간 설정을 확인하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "왜 다른 영역의 속도도 바뀌나요?",
+        "answer": "Lock과 Synchronized playback을 확인하세요. 연결된 조작은 다른 영역에도 적용될 수 있습니다. 개별 조절 시에는 끄세요."
+      },
+      {
+        "question": "새 배속을 유지하려면 어떻게 하나요?",
+        "answer": "개별 게이지나 전체 배속 버튼을 사용하세요. 임시 길게 누르기 기능은 손을 떼면 이전 속도로 돌아갑니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo cambiar la velocidad de varios vídeos en iPhone o iPad",
+    "description": "Ajusta un vídeo, aplica una velocidad común a todos los reproductores y vuelve a la reproducción normal en iPhone o iPad.",
+    "summary": "Ajusta primero un clip por separado y después usa la misma velocidad en todos para compararlos.",
+    "answer": "Toca el indicador de velocidad para pasar al siguiente valor y abrir Video Speed. Change Speed for All Players ajusta todos los reproductores a la vez.",
+    "requirement": "Añade Change Speed for All Players en More → Customize Home Bottom Buttons. Usa vídeos locales compatibles y desactiva Lock y Synchronized playback para ajustar una sola zona. Algunas funciones requieren Premium.",
+    "steps": [
+      {
+        "title": "Localiza el control individual",
+        "text": "Toca un vídeo para mostrar sus controles. El indicador y su valor pertenecen a esa zona. El vídeo superior empieza aquí en 1×.",
+        "caption": "El vídeo superior muestra su control de velocidad."
+      },
+      {
+        "title": "Cambia un solo vídeo",
+        "text": "Toca el indicador para pasar al siguiente valor y mostrar Video Speed. El ejemplo llega a 1,4×. El panel también ofrece un deslizador; Remember Speed es una preferencia independiente.",
+        "caption": "El vídeo superior está en 1,4×, con Remember Speed desactivado."
+      },
+      {
+        "title": "Aplica una velocidad común",
+        "text": "Toca varias veces Change Speed for All Players en la barra inferior. Comprueba ambas zonas: el ejemplo ajusta las dos a 0,8×.",
+        "caption": "Ambos vídeos muestran 0,8× después del ajuste global."
+      },
+      {
+        "title": "Vuelve a la velocidad normal",
+        "text": "Sigue cambiando la velocidad global hasta 1×. Muestra los controles de cada zona, comprueba el valor y reanuda la reproducción. Pausar y cambiar la velocidad son acciones independientes.",
+        "caption": "Las dos zonas vuelven a 1×."
+      }
+    ],
+    "features": [
+      {
+        "title": "Cambios temporales",
+        "description": "La barra también ofrece Long-Press Fast Forward y Long-Press Slow Motion. Mantén el botón pulsado para cambiar temporalmente la velocidad y suéltalo para recuperar la anterior. Desactiva la sincronización. El multiplicador depende de los ajustes."
+      },
+      {
+        "title": "Reproducción y exportación",
+        "description": "Cambiar la velocidad no crea un archivo. Para producir un vídeo, abre la exportación de pantalla dividida y comprueba sus ajustes de tiempo."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué también cambia la otra zona?",
+        "answer": "Revisa Lock y Synchronized playback. Los controles vinculados pueden propagar los cambios; desactívalos para ajustar una zona por separado."
+      },
+      {
+        "question": "¿Cómo mantengo una velocidad distinta?",
+        "answer": "Usa el indicador individual o la acción global. Los botones temporales recuperan la velocidad anterior al soltarlos."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上调整多个视频的播放速度",
+    "description": "在 iPhone 或 iPad 上单独调整一个视频的速度，统一所有播放器的倍速，再恢复正常播放。",
+    "summary": "先独立调整一段视频，再让多个视频使用相同速度，方便观察和比较。",
+    "answer": "点视频的倍速表盘，逐档切换并显示 Video Speed。底部 Change Speed for All Players 可以统一所有播放器的速度。",
+    "requirement": "在 More → Customize Home Bottom Buttons 添加 Change Speed for All Players。使用兼容的本地视频；单独调节前关闭 Lock 和 Synchronized playback。高级操作可能需要 Premium。",
+    "steps": [
+      {
+        "title": "找到单区速度按钮",
+        "text": "点视频显示控件。表盘及其数值属于当前区域，本例上方视频最初为 1×。",
+        "caption": "上方视频显示自己的倍速控件。"
+      },
+      {
+        "title": "改变一个视频的速度",
+        "text": "点倍速表盘切换到下一档并显示 Video Speed，本例调至 1.4×。面板还提供速度滑块；Remember Speed 是单独的记忆选项。",
+        "caption": "上方视频为 1.4×，Remember Speed 关闭。"
+      },
+      {
+        "title": "统一多个视频的倍速",
+        "text": "反复点底部 Change Speed for All Players，逐档循环可选速度。检查两个区域，本例都调至 0.8×。",
+        "caption": "使用全局变速后，两个视频均显示 0.8×。"
+      },
+      {
+        "title": "恢复正常播放",
+        "text": "继续点全局变速按钮至 1×。显示各区控件确认数值，再继续播放。暂停和变速是两个独立操作。",
+        "caption": "两个区域均恢复为 1×。"
+      }
+    ],
+    "features": [
+      {
+        "title": "临时快放与慢放",
+        "description": "工具栏另有 Long-Press Fast Forward 和 Long-Press Slow Motion，按住期间临时变速，松手恢复之前的速度。使用前关闭同步；临时倍率取决于相应设置。"
+      },
+      {
+        "title": "观看速度与导出文件",
+        "description": "改变播放速度不会生成新文件。需要输出视频时，请使用独立的分屏导出功能，并检查其中的时间设置。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么其他区域也跟着变速？",
+        "answer": "检查 Lock 和 Synchronized playback。关联控制可能将单区操作同步到其他区域；需要独立调节时先关闭。"
+      },
+      {
+        "question": "怎样让新的倍速持续生效？",
+        "answer": "使用单区表盘或全局变速按钮。临时长按控件会在松手后恢复原来的速度。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Die Geschwindigkeit mehrerer Videos auf dem iPhone oder iPad ändern",
+    "description": "Ändern Sie ein einzelnes Video, stellen Sie alle Player auf dieselbe Geschwindigkeit und kehren Sie zur normalen Wiedergabe zurück.",
+    "summary": "Passen Sie einen Clip einzeln an und geben Sie anschließend allen Videos dieselbe Geschwindigkeit für den Vergleich.",
+    "answer": "Tippen Sie auf die Geschwindigkeitsanzeige eines Videos, um zur nächsten Stufe zu wechseln und Video Speed einzublenden. Change Speed for All Players steuert alle Player gemeinsam.",
+    "requirement": "Fügen Sie Change Speed for All Players unter More → Customize Home Bottom Buttons hinzu. Nutzen Sie kompatible lokale Videos. Schalten Sie Lock und Synchronized playback für einzelne Anpassungen aus. Erweiterte Aktionen können Premium erfordern.",
+    "steps": [
+      {
+        "title": "Die individuelle Steuerung finden",
+        "text": "Tippen Sie auf ein Video, um die Steuerung einzublenden. Anzeige und Wert gehören zu diesem Bereich. Das obere Video beginnt hier bei 1×.",
+        "caption": "Das obere Video zeigt seine eigene Geschwindigkeitssteuerung."
+      },
+      {
+        "title": "Ein Video anpassen",
+        "text": "Tippen Sie auf die Anzeige, um die nächste Stufe und Video Speed aufzurufen. Das Beispiel erreicht 1,4×. Das Feld bietet auch einen Schieberegler; Remember Speed ist eine separate Einstellung.",
+        "caption": "Das obere Video läuft mit 1,4×; Remember Speed ist aus."
+      },
+      {
+        "title": "Alle Videos gleich einstellen",
+        "text": "Tippen Sie wiederholt auf Change Speed for All Players in der unteren Leiste. Prüfen Sie beide Bereiche. Das Beispiel stellt beide auf 0,8×.",
+        "caption": "Beide Videos zeigen nach der gemeinsamen Anpassung 0,8×."
+      },
+      {
+        "title": "Zur Normalgeschwindigkeit zurückkehren",
+        "text": "Schalten Sie weiter bis 1×. Blenden Sie die Steuerung jedes Bereichs ein, prüfen Sie den Wert und setzen Sie die Wiedergabe fort. Pause und Geschwindigkeit sind getrennte Aktionen.",
+        "caption": "Beide Bereiche sind wieder auf 1× eingestellt."
+      }
+    ],
+    "features": [
+      {
+        "title": "Vorübergehend schneller oder langsamer",
+        "description": "Die Leiste bietet auch Long-Press Fast Forward und Long-Press Slow Motion. Die Änderung gilt während des Gedrückthaltens; beim Loslassen kehrt die vorherige Geschwindigkeit zurück. Schalten Sie die Synchronisierung aus. Der Multiplikator hängt von den Einstellungen ab."
+      },
+      {
+        "title": "Wiedergabe und Export",
+        "description": "Eine Geschwindigkeitsänderung erzeugt keine Datei. Verwenden Sie für ein neues Video den separaten Export und prüfen Sie dort die Zeiteinstellungen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum ändert sich auch der andere Bereich?",
+        "answer": "Prüfen Sie Lock und Synchronized playback. Verknüpfte Steuerungen können Änderungen weitergeben. Schalten Sie sie für unabhängige Anpassungen aus."
+      },
+      {
+        "question": "Wie bleibt eine neue Geschwindigkeit eingestellt?",
+        "answer": "Nutzen Sie die individuelle Anzeige oder die globale Aktion. Die temporären Tasten stellen beim Loslassen die vorherige Geschwindigkeit wieder her."
+      }
+    ]
+  }
+}

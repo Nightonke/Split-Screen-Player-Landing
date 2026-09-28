@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidでアルバム動画を絞り込んで開く方法",
+    "description": "Split Screen Playerで向き、長さ、ファイル名を条件に動画を絞り込み、Androidのプレイリストにまとめます。",
+    "summary": "縦横が混在する素材から縦向き動画のリストを作ります。",
+    "answer": "対象プレイヤーのOpenでPlaylistとVideo filterを有効にします。Album videosで候補を選び、Doneの後で条件を指定します。この例では8本中4本がPortraitに一致します。",
+    "requirement": "アルバムから開ける動画を用意してください。件数は素材と取得できるメタデータによって変わります。",
+    "steps": [
+      {
+        "title": "リストとフィルターを有効にする",
+        "text": "対象プレイヤーの+をタップし、Playlist、Video filterの順に有効にしてAlbum videosを開きます。一致した動画をこのプレイヤーのリストに入れる手順です。",
+        "caption": "OpenでPlaylistとVideo filterを有効にした状態。"
+      },
+      {
+        "title": "候補の動画を選ぶ",
+        "text": "アルバムを選び、絞り込み対象の動画を選択します。この例では8本を選び、Doneで条件選択に進みます。",
+        "caption": "アルバムで選択した8本の候補。"
+      },
+      {
+        "title": "条件を選ぶ",
+        "text": "Choose a Filterには各条件の一致件数が表示されます。Portraitを選び、この例ではPlay 4 Videosをタップします。Play All 8 Videos (No Filter)は絞り込みを省略します。",
+        "caption": "Portraitに一致する動画は8本中4本。"
+      },
+      {
+        "title": "リストを確認する",
+        "text": "プレイヤーの操作ボタンを表示し、プレイリストのボタンを開きます。4件を確認し、再生する動画を選びます。他のプレイヤーの内容はそのままです。",
+        "caption": "4本の縦向き動画が並ぶリスト。"
+      }
+    ],
+    "features": [
+      {
+        "title": "独自の条件を作る",
+        "description": "Choose a Filterの+ AddからDuration、Orientation、File Nameの条件を追加できます。複数の条件を組み合わせ、開く前に一致件数を確認してください。"
+      },
+      {
+        "title": "メタデータがない場合",
+        "description": "一部の形式では長さや向きによる絞り込みができない旨が表示されます。情報を取得できないファイルが結果に残ることもあり、厳密な属性検査にはなりません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "写真ライブラリ全体が検索されますか？",
+        "answer": "この手順では先に選んだ動画が対象です。該当するアルバムと候補動画を選択してから条件を適用してください。"
+      },
+      {
+        "question": "プレイリストにせずに絞り込めますか？",
+        "answer": "下部ツールバーのOpenにもVideo filterがあり、一括でワークスペースを作成できます。上記では1つのプレイヤーにまとめるためPlaylistを使用しています。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Filtrer et ouvrir des vidéos d’album sur Android",
+    "description": "Filtrez les vidéos par orientation, durée ou nom de fichier et regroupez les résultats dans une liste de lecture avec Split Screen Player sur Android.",
+    "summary": "Créez une liste de vidéos verticales à partir d’une sélection variée.",
+    "answer": "Dans Open du lecteur choisi, activez Playlist et Video filter. Sélectionnez les vidéos dans Album videos, touchez Done, puis choisissez un filtre. Ici, Portrait retient quatre vidéos sur huit.",
+    "requirement": "Préparez des vidéos accessibles dans l’album. Le nombre de résultats dépend des fichiers et des métadonnées disponibles.",
+    "steps": [
+      {
+        "title": "Activer le filtrage de la liste",
+        "text": "Touchez + dans le lecteur, activez Playlist puis Video filter et choisissez Album videos. Cette méthode rassemble les résultats dans ce lecteur.",
+        "caption": "Playlist et Video filter sont activés dans Open."
+      },
+      {
+        "title": "Choisir les vidéos candidates",
+        "text": "Ouvrez l’album et sélectionnez les vidéos à examiner. Ici, les huit clips sont sélectionnés. Touchez Done pour choisir le filtre.",
+        "caption": "Huit vidéos candidates sélectionnées dans l’album."
+      },
+      {
+        "title": "Choisir une règle",
+        "text": "Choose a Filter indique le nombre de résultats pour chaque règle. Choisissez Portrait puis, ici, Play 4 Videos. Play All 8 Videos (No Filter) ignore le filtrage.",
+        "caption": "Portrait retient quatre des huit vidéos."
+      },
+      {
+        "title": "Vérifier la liste obtenue",
+        "text": "Affichez les commandes du lecteur, puis ouvrez sa liste de lecture. Vérifiez les quatre entrées et choisissez une vidéo. Les autres lecteurs conservent leur contenu.",
+        "caption": "La liste obtenue contient quatre vidéos verticales."
+      }
+    ],
+    "features": [
+      {
+        "title": "Créer un filtre personnalisé",
+        "description": "Dans Choose a Filter, utilisez + Add pour ajouter des conditions Duration, Orientation ou File Name. Les conditions se combinent : vérifiez le nombre de résultats avant d’ouvrir les vidéos."
+      },
+      {
+        "title": "Métadonnées manquantes",
+        "description": "L’application signale que certains formats ne permettent pas le filtrage par durée ou orientation. Un fichier sans métadonnées lisibles peut rester dans les résultats : le filtre ne garantit pas des propriétés exactes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Le filtre recherche-t-il dans toute ma photothèque ?",
+        "answer": "Cette méthode filtre les vidéos sélectionnées au préalable. Choisissez d’abord l’album et les clips candidats, puis appliquez la règle."
+      },
+      {
+        "question": "Puis-je filtrer sans créer une seule liste ?",
+        "answer": "Open dans la barre du bas propose aussi Video filter pour constituer un espace de travail par lot. Les étapes ci-dessus utilisent Playlist pour garder les résultats dans un seul lecteur."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to filter and open album videos on Android",
+    "description": "Select album videos, filter them by orientation, duration or filename, and open the matches as a playlist in Split Screen Player on Android.",
+    "summary": "Build a portrait-video playlist from a mixed selection.",
+    "answer": "In a player's Open menu, enable Playlist and Video filter. Choose candidate clips in Album videos, tap Done, then select a filter and play the matches. In this example, Portrait returns four of eight videos.",
+    "requirement": "Have a selection of local videos available. Counts depend on your files and readable metadata.",
+    "steps": [
+      {
+        "title": "Enable playlist filtering",
+        "text": "Tap the target player's + button. Turn on Playlist, then Video filter. Choose Album videos; this flow builds a playlist in that player.",
+        "caption": "Playlist and Video filter are enabled in Open."
+      },
+      {
+        "title": "Select the candidate videos",
+        "text": "Choose the album and select the clips to check. Here all eight scene videos are selected. Tap Done to continue to the filter chooser.",
+        "caption": "Eight candidate videos selected in the album."
+      },
+      {
+        "title": "Choose the matching rule",
+        "text": "Choose a Filter shows a count beside each rule. Select Portrait and tap Play 4 Videos in this example. Play All 8 Videos (No Filter) would bypass filtering.",
+        "caption": "Portrait matches four of the eight selected videos."
+      },
+      {
+        "title": "Review the resulting playlist",
+        "text": "Reveal the player's controls and open its playlist button. Check the four entries, then choose an entry to play. Other players keep their own content.",
+        "caption": "The resulting playlist contains four portrait clips."
+      }
+    ],
+    "features": [
+      {
+        "title": "Create a custom filter",
+        "description": "Use + Add in Choose a Filter. Add conditions for Duration, Orientation or File Name. Multiple conditions are combined; review the displayed match count before opening."
+      },
+      {
+        "title": "Allow for missing metadata",
+        "description": "The app warns that some formats cannot be filtered by duration or orientation. Files with unavailable metadata can remain in the results; filtering is not a guarantee of exact file properties."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the filter search my entire photo library?",
+        "answer": "This workflow filters the videos you selected first. Choose the relevant album and candidate clips before applying the rule."
+      },
+      {
+        "question": "Can I use filtering without making one playlist?",
+        "answer": "The bottom toolbar's Open menu also offers Video filter for a batch workspace. The steps above deliberately use a player's Playlist setting to keep the matches in one player."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como filtrar e abrir vídeos do álbum no Android",
+    "description": "Filtre vídeos por orientação, duração ou nome do arquivo e abra os resultados em uma lista de reprodução no Split Screen Player para Android.",
+    "summary": "Crie uma lista de vídeos verticais a partir de uma seleção variada.",
+    "answer": "No Open do reprodutor, ative Playlist e Video filter. Selecione os candidatos em Album videos, toque em Done e escolha um filtro. Neste exemplo, Portrait encontra quatro dos oito vídeos.",
+    "requirement": "Tenha vídeos acessíveis pelo álbum. A quantidade de resultados depende dos arquivos e dos metadados disponíveis.",
+    "steps": [
+      {
+        "title": "Ativar lista e filtro",
+        "text": "Toque no + do reprodutor, ative Playlist e depois Video filter e escolha Album videos. Esse processo reúne os resultados nesse reprodutor.",
+        "caption": "Playlist e Video filter ativados no Open."
+      },
+      {
+        "title": "Selecionar os candidatos",
+        "text": "Abra o álbum e escolha os vídeos a verificar. Aqui foram selecionados oito clipes. Toque em Done para escolher o filtro.",
+        "caption": "Oito vídeos candidatos selecionados no álbum."
+      },
+      {
+        "title": "Escolher a regra",
+        "text": "Choose a Filter mostra quantos vídeos correspondem a cada regra. Escolha Portrait e, neste caso, Play 4 Videos. Play All 8 Videos (No Filter) ignora o filtro.",
+        "caption": "Portrait encontra quatro dos oito vídeos selecionados."
+      },
+      {
+        "title": "Conferir a lista resultante",
+        "text": "Mostre os controles do reprodutor e abra a lista de reprodução. Confira as quatro entradas e escolha uma para reproduzir. Os outros reprodutores mantêm seus conteúdos.",
+        "caption": "A lista resultante contém quatro vídeos verticais."
+      }
+    ],
+    "features": [
+      {
+        "title": "Criar um filtro personalizado",
+        "description": "Use + Add em Choose a Filter para adicionar condições Duration, Orientation ou File Name. As condições são combinadas; confira a quantidade de resultados antes de abrir."
+      },
+      {
+        "title": "Metadados ausentes",
+        "description": "O aplicativo avisa que alguns formatos não permitem filtrar por duração ou orientação. Arquivos sem metadados legíveis podem permanecer nos resultados; o filtro não garante propriedades exatas."
+      }
+    ],
+    "faq": [
+      {
+        "question": "O filtro pesquisa toda a fototeca?",
+        "answer": "Esse processo filtra os vídeos selecionados anteriormente. Escolha primeiro o álbum e os candidatos, depois aplique a regra."
+      },
+      {
+        "question": "Posso filtrar sem criar uma única lista?",
+        "answer": "Open na barra inferior também oferece Video filter para criar um espaço de trabalho em lote. As etapas acima usam Playlist para manter os resultados em um reprodutor."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 앨범 동영상을 필터링해 여는 방법",
+    "description": "Split Screen Player에서 방향, 길이, 파일 이름으로 동영상을 필터링하고 일치하는 항목을 Android 재생 목록으로 여세요.",
+    "summary": "가로와 세로 영상이 섞인 앨범에서 세로 영상 목록을 만듭니다.",
+    "answer": "대상 플레이어의 Open에서 Playlist와 Video filter를 켭니다. Album videos에서 후보를 선택하고 Done을 누른 다음 필터를 고릅니다. 예시에서는 8개 중 4개가 Portrait에 해당합니다.",
+    "requirement": "앨범에서 열 수 있는 동영상을 준비하세요. 결과 수는 파일과 읽을 수 있는 메타데이터에 따라 달라집니다.",
+    "steps": [
+      {
+        "title": "목록과 필터 켜기",
+        "text": "대상 플레이어의 +를 누르고 Playlist, Video filter를 차례로 켠 다음 Album videos를 선택합니다. 이 과정은 해당 플레이어에 재생 목록을 만듭니다.",
+        "caption": "Open에서 Playlist와 Video filter를 켠 상태입니다."
+      },
+      {
+        "title": "후보 영상 선택하기",
+        "text": "앨범을 고르고 검사할 영상을 선택합니다. 예시에서는 장면 영상 8개를 선택했습니다. Done을 눌러 필터 선택으로 이동합니다.",
+        "caption": "앨범에서 후보 영상 8개를 선택했습니다."
+      },
+      {
+        "title": "조건 고르기",
+        "text": "Choose a Filter는 조건마다 일치하는 개수를 표시합니다. Portrait를 선택하고 예시의 Play 4 Videos를 누릅니다. Play All 8 Videos (No Filter)는 필터를 건너뜁니다.",
+        "caption": "Portrait 조건에 8개 중 4개가 일치합니다."
+      },
+      {
+        "title": "결과 목록 확인하기",
+        "text": "플레이어의 컨트롤을 표시하고 재생 목록 버튼을 누릅니다. 4개 항목을 확인한 뒤 재생할 영상을 고르세요. 다른 플레이어의 콘텐츠는 유지됩니다.",
+        "caption": "세로 영상 4개로 구성된 재생 목록입니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "사용자 지정 필터 만들기",
+        "description": "Choose a Filter에서 + Add를 눌러 Duration, Orientation, File Name 조건을 추가합니다. 여러 조건을 함께 적용할 수 있으며 열기 전에 결과 수를 확인하세요."
+      },
+      {
+        "title": "메타데이터가 없는 파일",
+        "description": "일부 형식은 길이나 방향 필터링을 지원하지 않는다는 안내가 표시됩니다. 정보를 읽지 못한 파일이 결과에 남을 수 있으므로 정확한 파일 속성을 보장하는 검사는 아닙니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "전체 사진 라이브러리를 검색하나요?",
+        "answer": "이 과정에서는 먼저 선택한 동영상만 필터링합니다. 관련 앨범과 후보 영상을 선택한 뒤 조건을 적용하세요."
+      },
+      {
+        "question": "한 재생 목록으로 만들지 않아도 되나요?",
+        "answer": "하단 도구 모음의 Open에도 Video filter가 있어 작업 공간을 일괄 구성할 수 있습니다. 위 단계는 한 플레이어에 결과를 모으기 위해 Playlist를 사용합니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo filtrar y abrir vídeos del álbum en Android",
+    "description": "Filtra vídeos por orientación, duración o nombre de archivo y abre los resultados en una lista de reproducción de Split Screen Player en Android.",
+    "summary": "Crea una lista de vídeos verticales a partir de una selección mixta.",
+    "answer": "En Open del reproductor, activa Playlist y Video filter. Selecciona candidatos en Album videos, pulsa Done y elige un filtro. En el ejemplo, Portrait encuentra cuatro de ocho vídeos.",
+    "requirement": "Prepara vídeos accesibles desde el álbum. La cantidad de resultados depende de los archivos y sus metadatos legibles.",
+    "steps": [
+      {
+        "title": "Activar lista y filtro",
+        "text": "Pulsa + en el reproductor, activa Playlist y después Video filter, y elige Album videos. Este proceso crea una lista en ese reproductor.",
+        "caption": "Playlist y Video filter activados en Open."
+      },
+      {
+        "title": "Seleccionar los candidatos",
+        "text": "Abre el álbum y selecciona los vídeos que quieres comprobar. Aquí se eligen ocho clips. Pulsa Done para ir al selector de filtros.",
+        "caption": "Ocho vídeos candidatos seleccionados en el álbum."
+      },
+      {
+        "title": "Elegir una regla",
+        "text": "Choose a Filter muestra la cantidad de coincidencias de cada regla. Elige Portrait y, en este caso, Play 4 Videos. Play All 8 Videos (No Filter) omite el filtro.",
+        "caption": "Portrait encuentra cuatro de los ocho vídeos."
+      },
+      {
+        "title": "Revisar la lista resultante",
+        "text": "Muestra los controles del reproductor y abre su lista de reproducción. Revisa las cuatro entradas y elige una. Los demás reproductores conservan su contenido.",
+        "caption": "La lista resultante contiene cuatro vídeos verticales."
+      }
+    ],
+    "features": [
+      {
+        "title": "Crear un filtro propio",
+        "description": "Usa + Add en Choose a Filter para añadir condiciones Duration, Orientation o File Name. Las condiciones se combinan; comprueba la cantidad de resultados antes de abrirlos."
+      },
+      {
+        "title": "Metadatos no disponibles",
+        "description": "La aplicación avisa de que algunos formatos no permiten filtrar por duración u orientación. Los archivos sin metadatos legibles pueden permanecer en los resultados; el filtro no garantiza propiedades exactas."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Busca el filtro en toda mi fototeca?",
+        "answer": "Este proceso filtra los vídeos seleccionados previamente. Elige primero el álbum y los candidatos y después aplica la regla."
+      },
+      {
+        "question": "¿Puedo filtrar sin crear una sola lista?",
+        "answer": "Open en la barra inferior también incluye Video filter para crear un espacio de trabajo por lotes. Estos pasos utilizan Playlist para mantener los resultados en un reproductor."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上筛选并批量打开相册视频",
+    "description": "在 Android 分屏播放器中按横竖方向、时长或文件名筛选相册视频，将匹配片段放入同一播放列表。",
+    "summary": "从横竖混合的素材中建立竖屏视频播放列表。",
+    "answer": "在目标播放器的 Open 中开启 Playlist 和 Video filter，进入 Album videos 选择候选片段，点 Done 后再选择筛选规则。本例八段素材中有四段匹配 Portrait。",
+    "requirement": "准备可在相册中访问的本地视频。匹配数量取决于素材及可读取的元数据。",
+    "steps": [
+      {
+        "title": "开启播放列表筛选",
+        "text": "点击目标播放器的 +，开启 Playlist，再开启 Video filter，选择 Album videos。本流程把匹配视频放入该播放器的列表。",
+        "caption": "Open 中已开启 Playlist 和 Video filter。"
+      },
+      {
+        "title": "选择候选素材",
+        "text": "进入目标相册，选择要筛选的视频。本例选中八段场景素材，再点 Done 进入筛选器。",
+        "caption": "相册中选中了八段候选视频。"
+      },
+      {
+        "title": "选择匹配规则",
+        "text": "Choose a Filter 在每条规则旁显示匹配数量。选择 Portrait，本例再点 Play 4 Videos。Play All 8 Videos (No Filter) 则会跳过筛选。",
+        "caption": "Portrait 匹配八段素材中的四段。"
+      },
+      {
+        "title": "检查生成的播放列表",
+        "text": "显示该区播放控件，点击播放列表按钮，检查四个条目并选一段播放。其他播放器保留各自内容。",
+        "caption": "结果列表包含四段竖屏视频。"
+      }
+    ],
+    "features": [
+      {
+        "title": "自定义筛选条件",
+        "description": "在 Choose a Filter 中点 + Add，添加 Duration、Orientation 或 File Name 条件。多个条件组合使用，打开前先确认界面显示的匹配数量。"
+      },
+      {
+        "title": "注意缺失的元数据",
+        "description": "应用提示部分格式不支持时长或方向筛选。无法读取相关元数据的文件可能仍被保留，因此筛选不能保证每个结果都具有精确的文件属性。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "筛选器会搜索整个照片图库吗？",
+        "answer": "此流程筛选的是先前选中的视频。请先进入相关相册、选好候选片段，再应用规则。"
+      },
+      {
+        "question": "能否不建立一个播放列表？",
+        "answer": "底部工具栏的 Open 也提供 Video filter，可用于批量建立工作区。以上步骤使用单个播放器的 Playlist，让匹配结果留在同一区域。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Albumvideos auf Android filtern und öffnen",
+    "description": "Filtern Sie Videos nach Ausrichtung, Dauer oder Dateiname und öffnen Sie die Treffer als Wiedergabeliste in Split Screen Player auf Android.",
+    "summary": "Erstellen Sie aus gemischtem Material eine Liste mit Hochformatvideos.",
+    "answer": "Aktivieren Sie im Open-Menü eines Players Playlist und Video filter. Wählen Sie in Album videos die Kandidaten, tippen Sie auf Done und wählen Sie den Filter. Hier liefert Portrait vier von acht Videos.",
+    "requirement": "Halten Sie Videos bereit, die im Album zugänglich sind. Die Trefferzahl hängt von den Dateien und lesbaren Metadaten ab.",
+    "steps": [
+      {
+        "title": "Liste und Filter aktivieren",
+        "text": "Tippen Sie im gewünschten Player auf +. Aktivieren Sie Playlist und danach Video filter und wählen Sie Album videos. So entsteht eine Liste in diesem Player.",
+        "caption": "Playlist und Video filter sind in Open aktiviert."
+      },
+      {
+        "title": "Kandidaten auswählen",
+        "text": "Wählen Sie das Album und die zu prüfenden Clips. Im Beispiel sind alle acht Szenenvideos ausgewählt. Mit Done gelangen Sie zur Filterauswahl.",
+        "caption": "Acht ausgewählte Videos im Album."
+      },
+      {
+        "title": "Regel auswählen",
+        "text": "Choose a Filter zeigt neben jeder Regel die Trefferzahl. Wählen Sie Portrait und hier Play 4 Videos. Play All 8 Videos (No Filter) überspringt den Filter.",
+        "caption": "Portrait findet vier der acht ausgewählten Videos."
+      },
+      {
+        "title": "Ergebnisliste prüfen",
+        "text": "Blenden Sie die Playersteuerung ein und öffnen Sie die Wiedergabeliste. Prüfen Sie die vier Einträge und wählen Sie einen zum Abspielen. Die anderen Player behalten ihre Inhalte.",
+        "caption": "Die Ergebnisliste enthält vier Hochformatvideos."
+      }
+    ],
+    "features": [
+      {
+        "title": "Eigenen Filter erstellen",
+        "description": "Mit + Add in Choose a Filter fügen Sie Bedingungen für Duration, Orientation oder File Name hinzu. Mehrere Bedingungen werden kombiniert. Prüfen Sie vor dem Öffnen die Trefferzahl."
+      },
+      {
+        "title": "Fehlende Metadaten beachten",
+        "description": "Die App weist darauf hin, dass manche Formate keine Filterung nach Dauer oder Ausrichtung erlauben. Dateien ohne lesbare Metadaten können im Ergebnis bleiben; der Filter garantiert keine exakten Dateieigenschaften."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Durchsucht der Filter die ganze Fotomediathek?",
+        "answer": "Dieser Ablauf filtert die zuvor ausgewählten Videos. Wählen Sie zuerst das passende Album und die Kandidaten und wenden Sie danach die Regel an."
+      },
+      {
+        "question": "Geht es auch ohne eine gemeinsame Wiedergabeliste?",
+        "answer": "Open in der unteren Werkzeugleiste bietet ebenfalls Video filter für einen Arbeitsbereich mit mehreren Dateien. Die Schritte oben verwenden Playlist, damit alle Treffer in einem Player bleiben."
+      }
+    ]
+  }
+}

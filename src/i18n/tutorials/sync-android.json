@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidで開始時刻が異なる動画を同期する方法",
+    "description": "Androidで各動画の同期点を指定し、コマ単位で調整。Align PreviewとSync Playbackで撮影開始の異なる映像を合わせます。",
+    "summary": "ゴルフのスイング開始など、両方に映る動作を基準に、開始時刻が異なる録画を比較します。",
+    "answer": "下のツールバーからSync Groupsを開き、各動画に同期点を設定します。Align Previewで確認し、Sync PlaybackをオンにしてApplyをタップします。",
+    "requirement": "同期機能にはPremiumが必要です。ボタンがない場合はMore → Customize Home Bottom ToolbarからSync to Videoを追加します。例ではローカルのゴルフ動画を2本使用します。",
+    "steps": [
+      {
+        "title": "同期グループを開く",
+        "text": "別々の画面に動画を読み込み、Sync Groupsを開きます。2本を含むグループで、それぞれのプレビューから同じ動作段階を探します。",
+        "caption": "各動画に個別の同期点が表示されています。"
+      },
+      {
+        "title": "基準位置を調整する",
+        "text": "プレビューのタイムラインとコマ送りボタンで位置を合わせます。この例では1本目を2.340秒から2.373秒へ変更し、2本目は2.117秒のままです。",
+        "caption": "対応する動作に異なる時刻を設定した状態。"
+      },
+      {
+        "title": "プレビューで一致を確認する",
+        "text": "Align Previewをタップして同期点の前後を再生します。必要な前後の範囲を選び、停止してから、動作が合うまで同期点を調整します。",
+        "caption": "Align Previewで2本を並べて確認できます。"
+      },
+      {
+        "title": "同期再生を適用する",
+        "text": "Sync PlaybackをオンにしてApplyをタップします。ワークスペースに戻るとSync Lock Onと表示されます。再生して対応する動作を確認してください。",
+        "caption": "適用前にSync Playbackをオンにします。"
+      }
+    ],
+    "features": [
+      {
+        "title": "対応する場面は自分で選ぶ",
+        "description": "どのスイングの姿勢が対応するかをアプリが自動判断するわけではありません。元動画から場面を選び、プレビューで確かめます。"
+      },
+      {
+        "title": "操作の連動とは別の設定",
+        "description": "通常のLockはプレーヤー操作を連動させます。同期再生は設定した基準位置も使うため、同時に再生するだけでは撮影開始の差は揃いません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "同期点の時刻は同じにしますか？",
+        "answer": "いいえ。撮影開始が違えば時刻も違って構いません。一致させるのは映っている動作の段階です。"
+      },
+      {
+        "question": "チェックポイントと同期点は同じですか？",
+        "answer": "異なります。チェックポイントは1本の動画を見返す位置、同期点は複数動画を合わせる基準です。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Synchroniser des vidéos qui commencent à des instants différents sur Android",
+    "description": "Alignez deux enregistrements sur Android avec des points de synchronisation distincts, un réglage image par image, Align Preview et Sync Playback.",
+    "summary": "Comparez des prises commencées à des instants différents en choisissant un événement visible commun, comme le début d’un swing de golf.",
+    "answer": "Ouvrez Sync Groups dans la barre du bas. Réglez un point par vidéo, vérifiez avec Align Preview, activez Sync Playback puis touchez Apply.",
+    "requirement": "Les outils de synchronisation nécessitent Premium. Si le bouton manque, ajoutez Sync to Video dans More → Customize Home Bottom Toolbar. L’exemple utilise deux vidéos de golf locales.",
+    "steps": [
+      {
+        "title": "Ouvrir le groupe de synchronisation",
+        "text": "Chargez les vidéos dans deux zones, puis ouvrez Sync Groups. Dans leur groupe, recherchez la même phase du geste dans les deux aperçus.",
+        "caption": "Chaque vidéo possède son propre point de synchronisation."
+      },
+      {
+        "title": "Ajuster les positions de référence",
+        "text": "Utilisez les barres de progression et les boutons d’image pour affiner les points. Ici, le premier passe de 2.340 à 2.373 secondes et le second reste à 2.117 secondes.",
+        "caption": "Des temps différents correspondent au geste à comparer."
+      },
+      {
+        "title": "Vérifier dans l’aperçu",
+        "text": "Touchez Align Preview pour lire les vidéos autour des points. Réglez les plages avant et après pour inclure le contexte utile, arrêtez l’aperçu et corrigez les points si nécessaire.",
+        "caption": "Align Preview permet de comparer les deux vidéos en lecture."
+      },
+      {
+        "title": "Appliquer la synchronisation",
+        "text": "Activez Sync Playback et touchez Apply. Le message Sync Lock On confirme l’activation dans l’espace de travail. Lancez les vidéos et vérifiez la correspondance du geste.",
+        "caption": "Sync Playback est activé avant l’application du groupe."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choisir soi-même l’événement",
+        "description": "L’application ne détermine pas automatiquement quelles postures doivent coïncider. Choisissez les instants dans les vidéos et vérifiez visuellement le résultat."
+      },
+      {
+        "title": "Les commandes liées sont distinctes",
+        "description": "Le bouton Lock ordinaire lie les commandes des lecteurs. La synchronisation utilise aussi vos positions de référence : démarrer ensemble ne suffit pas à compenser des débuts différents."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Les deux points doivent-ils avoir le même temps ?",
+        "answer": "Non. Des temps différents sont normaux si les prises commencent à des instants différents. C’est la phase du geste qui doit correspondre."
+      },
+      {
+        "question": "Un point de repère est-il un point de synchronisation ?",
+        "answer": "Non. Le premier sert à retrouver une position dans une vidéo ; le second fournit une référence pour coordonner plusieurs vidéos."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to sync videos with different start times on Android",
+    "description": "Align two recordings of the same action on Android using separate sync points, frame adjustments, Align Preview, and Sync Playback.",
+    "summary": "Compare recordings that begin at different times by matching a visible event in each clip, such as the start of a golf swing.",
+    "answer": "Open Sync Groups from the bottom toolbar. Set a sync point in each video, check the pairing in Align Preview, turn on Sync Playback, and tap Apply.",
+    "requirement": "Sync controls require Premium. Add Sync to Video through More → Customize Home Bottom Toolbar if its button is missing. This example uses two local golf clips.",
+    "steps": [
+      {
+        "title": "Open the synchronization group",
+        "text": "Load the clips in separate panes and open Sync Groups. Work in the group containing the two recordings, and identify the same stage of the movement in both previews.",
+        "caption": "The group shows a separate synchronization point for each clip."
+      },
+      {
+        "title": "Adjust each clip’s reference point",
+        "text": "Use each preview’s timeline and frame buttons to refine its point. In the example, the first point changes from 2.340 to 2.373 seconds while the second stays at 2.117 seconds.",
+        "caption": "The clips use different timestamps for corresponding action."
+      },
+      {
+        "title": "Check the alignment in a preview",
+        "text": "Tap Align Preview to watch the clips around their points. Use the before-and-after ranges to include enough context, stop the preview, and adjust the points if the action still does not match.",
+        "caption": "Align Preview plays the selected clips together for a visual check."
+      },
+      {
+        "title": "Enable synchronized playback",
+        "text": "Turn on Sync Playback and tap Apply. Back in the workspace, the Sync Lock On message confirms activation. Play the videos and check that the chosen action remains paired.",
+        "caption": "Sync Playback is enabled before applying the group."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choose the event yourself",
+        "description": "The app does not infer which golf swing poses should match. Select corresponding moments in the source videos and use the preview to judge the result."
+      },
+      {
+        "title": "Linked controls are a separate setting",
+        "description": "The ordinary Lock button links player controls. Synchronization also uses the reference points you set, so simultaneous Play alone does not align different recording starts."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Must both sync points have the same timestamp?",
+        "answer": "No. Different timestamps are expected when recordings start at different times. The visible event is what should correspond."
+      },
+      {
+        "question": "Are checkpoints the same as sync points?",
+        "answer": "No. A checkpoint helps you revisit one video position; a sync point defines the reference used to coordinate clips."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como sincronizar vídeos com inícios diferentes no Android",
+    "description": "Alinhe duas gravações no Android com pontos de sincronização individuais, ajustes por quadro, Align Preview e Sync Playback.",
+    "summary": "Compare gravações iniciadas em momentos diferentes usando uma ação visível em ambas, como o começo de uma tacada de golfe.",
+    "answer": "Abra Sync Groups na barra inferior. Defina um ponto em cada vídeo, confira com Align Preview, ative Sync Playback e toque em Apply.",
+    "requirement": "As ferramentas de sincronização exigem Premium. Se o botão não aparecer, adicione Sync to Video em More → Customize Home Bottom Toolbar. O exemplo usa dois vídeos locais de golfe.",
+    "steps": [
+      {
+        "title": "Abrir o grupo de sincronização",
+        "text": "Carregue os vídeos em áreas separadas e abra Sync Groups. No grupo das duas gravações, encontre a mesma fase do movimento em ambas as prévias.",
+        "caption": "Cada vídeo tem seu próprio ponto de sincronização."
+      },
+      {
+        "title": "Ajustar as referências",
+        "text": "Use as linhas do tempo e os botões de quadro para refinar cada ponto. Aqui, o primeiro muda de 2.340 para 2.373 segundos e o segundo permanece em 2.117 segundos.",
+        "caption": "A ação correspondente está em tempos diferentes em cada vídeo."
+      },
+      {
+        "title": "Conferir o alinhamento na prévia",
+        "text": "Toque em Align Preview para reproduzir ao redor dos pontos. Ajuste os intervalos anteriores e posteriores para incluir contexto, pare a prévia e corrija os pontos se necessário.",
+        "caption": "Align Preview reproduz os dois vídeos para uma conferência visual."
+      },
+      {
+        "title": "Aplicar a reprodução sincronizada",
+        "text": "Ative Sync Playback e toque em Apply. Ao voltar ao espaço de trabalho, Sync Lock On confirma a ativação. Reproduza os vídeos e confira se a ação escolhida corresponde.",
+        "caption": "Sync Playback está ativado antes de aplicar o grupo."
+      }
+    ],
+    "features": [
+      {
+        "title": "Escolha a ação de referência",
+        "description": "O aplicativo não determina automaticamente quais posturas devem coincidir. Selecione momentos correspondentes nos vídeos e confira o resultado na prévia."
+      },
+      {
+        "title": "Controles vinculados são outra função",
+        "description": "O botão Lock comum vincula os controles dos players. A sincronização também usa as referências definidas; iniciar juntos não compensa, por si só, começos de gravação diferentes."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Os dois pontos precisam ter o mesmo tempo?",
+        "answer": "Não. Tempos diferentes são esperados quando as gravações começam em instantes distintos. O que deve corresponder é a fase visível da ação."
+      },
+      {
+        "question": "Ponto de controle e ponto de sincronização são iguais?",
+        "answer": "Não. O primeiro permite retornar a uma posição de um vídeo; o segundo fornece uma referência para coordenar vários vídeos."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 시작 시점이 다른 영상을 동기화하는 방법",
+    "description": "Android에서 영상별 동기화 지점을 설정하고 프레임 단위로 조절하세요. Align Preview와 Sync Playback으로 서로 다른 녹화 시작 시점을 맞춥니다.",
+    "summary": "골프 스윙의 시작처럼 두 영상에 공통으로 보이는 동작을 기준으로 녹화 시점이 다른 영상을 비교하세요.",
+    "answer": "아래 도구 모음에서 Sync Groups를 열고 영상별 지점을 설정하세요. Align Preview로 확인한 뒤 Sync Playback을 켜고 Apply를 누릅니다.",
+    "requirement": "동기화 기능은 Premium이 필요합니다. 버튼이 없다면 More → Customize Home Bottom Toolbar에서 Sync to Video를 추가하세요. 로컬 골프 영상 두 개를 사용합니다.",
+    "steps": [
+      {
+        "title": "동기화 그룹 열기",
+        "text": "서로 다른 영역에 영상을 불러온 뒤 Sync Groups를 여세요. 두 영상이 포함된 그룹에서 미리 보기를 보며 같은 동작 단계를 찾습니다.",
+        "caption": "각 영상에 개별 동기화 지점이 표시됩니다."
+      },
+      {
+        "title": "영상별 기준 위치 조절하기",
+        "text": "미리 보기의 타임라인과 프레임 버튼으로 위치를 미세 조절하세요. 예시에서는 첫 번째 지점을 2.340초에서 2.373초로 바꾸고 두 번째는 2.117초로 유지합니다.",
+        "caption": "같은 동작에 서로 다른 타임스탬프가 설정되어 있습니다."
+      },
+      {
+        "title": "미리 보기로 맞춤 상태 확인하기",
+        "text": "Align Preview를 눌러 지점 전후를 재생하세요. 앞뒤 범위에 충분한 동작을 포함하고, 미리 보기를 멈춘 다음 필요한 경우 지점을 다시 조절합니다.",
+        "caption": "Align Preview에서 두 영상을 함께 확인합니다."
+      },
+      {
+        "title": "동기화 재생 적용하기",
+        "text": "Sync Playback을 켜고 Apply를 누르세요. 작업 공간에 Sync Lock On이 표시되면 활성화된 것입니다. 재생하여 선택한 동작이 함께 나타나는지 확인하세요.",
+        "caption": "적용하기 전에 Sync Playback을 켠 상태입니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "기준 동작은 직접 선택합니다",
+        "description": "앱이 어떤 스윙 자세를 맞출지 자동으로 판단하지는 않습니다. 원본 영상에서 대응하는 순간을 선택하고 미리 보기로 확인하세요."
+      },
+      {
+        "title": "조작 연결과는 별개입니다",
+        "description": "일반 Lock 버튼은 플레이어 조작을 연결합니다. 동기화는 설정한 기준점도 사용하므로 동시에 재생하기만 해서는 녹화 시작 차이가 맞춰지지 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "두 지점의 시간이 같아야 하나요?",
+        "answer": "아니요. 녹화를 시작한 시점이 다르면 시간이 달라도 됩니다. 화면에 보이는 동작 단계가 서로 대응해야 합니다."
+      },
+      {
+        "question": "체크포인트와 동기화 지점은 같은가요?",
+        "answer": "아니요. 체크포인트는 한 영상으로 돌아갈 위치이고, 동기화 지점은 여러 영상을 맞추는 기준입니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo sincronizar vídeos con distintos tiempos de inicio en Android",
+    "description": "Alinea dos grabaciones en Android con puntos de sincronización independientes, ajustes por fotogramas, Align Preview y Sync Playback.",
+    "summary": "Compara grabaciones que empiezan en momentos diferentes usando una acción visible común, como el comienzo de un swing de golf.",
+    "answer": "Abre Sync Groups desde la barra inferior. Define un punto en cada vídeo, comprueba Align Preview, activa Sync Playback y toca Apply.",
+    "requirement": "Las herramientas de sincronización requieren Premium. Si falta el botón, añade Sync to Video en More → Customize Home Bottom Toolbar. El ejemplo usa dos vídeos locales de golf.",
+    "steps": [
+      {
+        "title": "Abrir el grupo de sincronización",
+        "text": "Carga los vídeos en zonas separadas y abre Sync Groups. En el grupo de las dos grabaciones, busca la misma fase del movimiento en ambas vistas previas.",
+        "caption": "Cada vídeo tiene su propio punto de sincronización."
+      },
+      {
+        "title": "Ajustar las referencias",
+        "text": "Usa las líneas de tiempo y los botones de fotogramas para afinar cada punto. Aquí, el primero pasa de 2.340 a 2.373 segundos y el segundo permanece en 2.117 segundos.",
+        "caption": "La acción correspondiente ocupa tiempos distintos en cada vídeo."
+      },
+      {
+        "title": "Comprobar la alineación",
+        "text": "Toca Align Preview para reproducir alrededor de los puntos. Ajusta los intervalos anteriores y posteriores para incluir contexto, detén la vista previa y corrige los puntos si hace falta.",
+        "caption": "Align Preview reproduce los dos vídeos para comprobarlos visualmente."
+      },
+      {
+        "title": "Aplicar la reproducción sincronizada",
+        "text": "Activa Sync Playback y toca Apply. Al volver al espacio de trabajo, Sync Lock On confirma la activación. Reproduce los vídeos y comprueba la correspondencia del movimiento.",
+        "caption": "Sync Playback está activado antes de aplicar el grupo."
+      }
+    ],
+    "features": [
+      {
+        "title": "Elige tú la acción de referencia",
+        "description": "La aplicación no decide automáticamente qué posturas deben coincidir. Selecciona momentos equivalentes en los vídeos y compruébalos en la vista previa."
+      },
+      {
+        "title": "Los controles vinculados son otra función",
+        "description": "El botón Lock normal vincula los controles. La sincronización también usa las referencias definidas; empezar a reproducir a la vez no compensa por sí solo distintos inicios de grabación."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Los puntos deben tener la misma marca de tiempo?",
+        "answer": "No. Es normal que sean distintos si las grabaciones empiezan en momentos diferentes. Lo que debe coincidir es la fase visible de la acción."
+      },
+      {
+        "question": "¿Un punto de control es un punto de sincronización?",
+        "answer": "No. El primero permite volver a una posición de un vídeo; el segundo sirve como referencia para coordinar varios vídeos."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上同步起点不同的多个视频",
+    "description": "在 Android 中为两段视频分别设置同步点，通过逐帧微调、Align Preview 预览和 Sync Playback，对齐开拍时间不同的动作录像。",
+    "summary": "两段视频开拍时间不同，也可以通过相同动作阶段来对齐，例如高尔夫挥杆的起始姿态。",
+    "answer": "从底部工具栏打开 Sync Groups，分别设置同步点，使用 Align Preview 检查，开启 Sync Playback，最后点按 Apply。",
+    "requirement": "同步工具需要 Premium。按钮未显示时，在 More → Customize Home Bottom Toolbar 中添加 Sync to Video。本例使用两段本地高尔夫视频。",
+    "steps": [
+      {
+        "title": "打开同步分组",
+        "text": "在两个区域载入视频，打开 Sync Groups。找到包含这两段录像的分组，在两幅预览中寻找相同动作阶段。",
+        "caption": "分组为每段视频分别显示同步点。"
+      },
+      {
+        "title": "微调各自的参考位置",
+        "text": "利用各预览的进度条和逐帧按钮调整位置。本例第一段从 2.340 秒微调到 2.373 秒，第二段保持 2.117 秒。",
+        "caption": "对应动作在两段视频中使用不同时间戳。"
+      },
+      {
+        "title": "预览两段视频的对齐效果",
+        "text": "点按 Align Preview，查看同步点前后的连续动作。按需调整前后预览范围，停止预览后再微调同步点，直到动作阶段相符。",
+        "caption": "Align Preview 将两段视频一起播放，便于目视核对。"
+      },
+      {
+        "title": "开启并应用同步播放",
+        "text": "开启 Sync Playback，再点按 Apply。回到工作区出现 Sync Lock On 提示，表示已启用。播放视频，继续检查对应动作。",
+        "caption": "应用分组之前，Sync Playback 已开启。"
+      }
+    ],
+    "features": [
+      {
+        "title": "对应动作需要手动选择",
+        "description": "应用不会自动判断两段挥杆的哪些姿态应该配对。需要在原视频中选择对应时刻，再用预览检查效果。"
+      },
+      {
+        "title": "关联控制与同步点不同",
+        "description": "普通 Lock 按钮关联播放器控制；同步播放还使用各自的参考点。因此，同时按下播放并不能直接对齐不同的录制起点。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "两个同步点的秒数必须一样吗？",
+        "answer": "不需要。开拍时间不同，时间戳通常也不同；应当对应的是画面里的动作阶段。"
+      },
+      {
+        "question": "检查点就是同步点吗？",
+        "answer": "不是。检查点方便跳回单段视频的某个位置，同步点则为多段视频的协调播放提供参考。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Videos mit unterschiedlichen Startzeiten auf Android synchronisieren",
+    "description": "Richten Sie zwei Aufnahmen auf Android mit eigenen Synchronisationspunkten, Einzelbildkorrekturen, Align Preview und Sync Playback aneinander aus.",
+    "summary": "Vergleichen Sie unterschiedlich gestartete Aufnahmen anhand einer gemeinsamen sichtbaren Aktion, etwa dem Beginn eines Golfschwungs.",
+    "answer": "Öffnen Sie Sync Groups in der unteren Werkzeugleiste. Setzen Sie je Video einen Punkt, prüfen Sie Align Preview, aktivieren Sie Sync Playback und tippen Sie auf Apply.",
+    "requirement": "Synchronisationswerkzeuge benötigen Premium. Fehlt die Schaltfläche, fügen Sie Sync to Video unter More → Customize Home Bottom Toolbar hinzu. Das Beispiel nutzt zwei lokale Golfvideos.",
+    "steps": [
+      {
+        "title": "Die Synchronisationsgruppe öffnen",
+        "text": "Laden Sie die Clips in getrennte Bereiche und öffnen Sie Sync Groups. Suchen Sie in der Gruppe beider Aufnahmen dieselbe Bewegungsphase in den Vorschauen.",
+        "caption": "Jeder Clip hat einen eigenen Synchronisationspunkt."
+      },
+      {
+        "title": "Die Referenzpositionen anpassen",
+        "text": "Verwenden Sie die Zeitleisten und Einzelbildtasten für die Feinabstimmung. Hier wird der erste Punkt von 2.340 auf 2.373 Sekunden verschoben; der zweite bleibt bei 2.117 Sekunden.",
+        "caption": "Passende Bewegungen liegen an unterschiedlichen Zeitpositionen."
+      },
+      {
+        "title": "Die Ausrichtung in der Vorschau prüfen",
+        "text": "Tippen Sie auf Align Preview. Stellen Sie die Bereiche vor und nach den Punkten so ein, dass genug Bewegung sichtbar ist. Stoppen Sie die Vorschau und korrigieren Sie die Punkte bei Bedarf.",
+        "caption": "Align Preview spielt die Videos gemeinsam zur Sichtprüfung ab."
+      },
+      {
+        "title": "Synchronisierte Wiedergabe anwenden",
+        "text": "Aktivieren Sie Sync Playback und tippen Sie auf Apply. Zurück im Arbeitsbereich bestätigt Sync Lock On die Aktivierung. Spielen Sie die Videos ab und prüfen Sie die gewählte Aktion.",
+        "caption": "Sync Playback ist vor dem Anwenden eingeschaltet."
+      }
+    ],
+    "features": [
+      {
+        "title": "Das gemeinsame Ereignis selbst wählen",
+        "description": "Die App erkennt nicht automatisch, welche Schwungpositionen zusammengehören. Wählen Sie entsprechende Momente in den Videos und kontrollieren Sie die Vorschau."
+      },
+      {
+        "title": "Verknüpfte Steuerung ist eine eigene Funktion",
+        "description": "Die normale Lock-Taste verknüpft Player-Bedienelemente. Synchronisation nutzt zusätzlich Ihre Referenzpunkte. Gleichzeitiges Starten allein gleicht unterschiedliche Aufnahmebeginne nicht aus."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Müssen beide Punkte dieselbe Zeit zeigen?",
+        "answer": "Nein. Bei unterschiedlich gestarteten Aufnahmen sind verschiedene Zeiten zu erwarten. Übereinstimmen soll die sichtbare Bewegungsphase."
+      },
+      {
+        "question": "Sind Prüfpunkte und Synchronisationspunkte dasselbe?",
+        "answer": "Nein. Ein Prüfpunkt dient zur Rückkehr an eine Videostelle; ein Synchronisationspunkt ist die Referenz für das Zusammenspiel mehrerer Clips."
+      }
+    ]
+  }
+}

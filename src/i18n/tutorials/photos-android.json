@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "{device}のギャラリーで複数の写真スライドショーを再生する方法",
+    "description": "写真を別々のフレームに分け、表示間隔と順序を設定します。動画と混在させ、ブックマークから配置を復元できます。",
+    "summary": "1つのギャラリーに複数のスライドショーを置けます。フレームごとに写真のグループを割り当てると、周囲の動画を再生しながら写真が切り替わります。",
+    "answer": "Gallery settingsのContent → Add → Album imagesで写真を選びます。Photo groupingでフレーム数とグループを決め、More → Imagesで表示間隔と順序を設定します。",
+    "requirement": "写真フレームとブックマークにはPremiumが必要です。例では4枚の写真を2つのフレームに分け、8本の動画と並べています。",
+    "steps": [
+      {
+        "title": "スライドショー用の写真を選ぶ",
+        "text": "ツールバーのGalleryを開き、Gallery settings → Content → Add → Album imagesに進みます。アルバム選択で目的のアルバムを表示し、4枚を選んでDoneをタップします。アクセスが制限されている場合は、使用する写真にアクセスを許可してください。",
+        "caption": "専用アルバムから4枚のサンプル写真を選択。"
+      },
+      {
+        "title": "写真をフレームに振り分ける",
+        "text": "Photo groupingでNumber of framesを2にします。Distribute evenlyを選び、各フレームに2枚ずつ入っていることを確認してCreate Gallery Wallをタップします。写真が1枚だけのフレームでは、その写真が表示され続けます。",
+        "caption": "各2枚の写真を含む、独立した2つのフレーム。"
+      },
+      {
+        "title": "表示間隔と順序を設定する",
+        "text": "More → Imagesを開き、Image Display IntervalとImage Play Orderを確認します。例は4.6秒とFirst to lastです。Last to firstやRandomも選べます。画像の設定なので、動画の再生速度やウォーターフォールのスクロール速度とは別です。",
+        "caption": "画像設定で写真の切り替え間隔と順序を指定。"
+      },
+      {
+        "title": "再生してギャラリーを保存する",
+        "text": "ギャラリーに戻り、両方の写真フレームが切り替わることを確認します。例では8つの動画フレームも残しています。Gallery settingsの星形ボタンでブックマークに保存します。終了後に開き直すとグループを復元できます。元の写真は残してください。",
+        "caption": "動画と2つの独立した写真スライドショーが並ぶギャラリー。"
+      }
+    ],
+    "features": [
+      {
+        "title": "フレームごとに別の写真集",
+        "description": "グループ設定で各フレームの写真を決めます。旅行、人物、テーマごとに分ければ、すべてのフレームで同じ写真集を繰り返さずに済みます。"
+      },
+      {
+        "title": "ギャラリーの構図を整える",
+        "description": "Templateで構図、Styleで枠と背景を選びます。1つのフレームを選択すると、ほかのフレームを作り直さずにその内容を変更できます。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "ブックマークを保存すると動画ファイルができますか？",
+        "answer": "いいえ。ブックマークはアプリで再度開けるワークスペースを保存します。写真のスライドショーを完成した動画に書き出す操作ではありません。"
+      },
+      {
+        "question": "1つのフレームで写真が切り替わらないのはなぜですか？",
+        "answer": "そのフレームに複数の写真が入っているか確認し、設定した表示間隔が経過するまで待ってください。元ファイルにアクセスできることも確認します。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Créer plusieurs diaporamas photo dans une galerie sur {device}",
+    "description": "Répartissez vos photos dans des cadres distincts sur {device}. Réglez l’intervalle et l’ordre, ajoutez des vidéos et enregistrez la composition dans un favori.",
+    "summary": "Une galerie peut accueillir plusieurs diaporamas. Chaque cadre possède son propre groupe de photos, qui défilent pendant que les vidéos voisines continuent de jouer.",
+    "answer": "Dans Gallery settings, ouvrez Content → Add → Album images. Sélectionnez vos photos, puis répartissez-les dans Photo grouping. Réglez l’intervalle et l’ordre dans More → Images.",
+    "requirement": "Les cadres photo et les favoris nécessitent Premium. Cet exemple utilise quatre photos, réparties dans deux cadres à côté de huit vidéos.",
+    "steps": [
+      {
+        "title": "Choisir les photos des diaporamas",
+        "text": "Ouvrez Gallery dans la barre d’outils, puis Gallery settings → Content → Add → Album images. Choisissez l’album voulu, sélectionnez quatre photos et touchez Done. Si l’accès est limité, autorisez uniquement les photos à utiliser.",
+        "caption": "Quatre photos d’exemple sélectionnées dans un album dédié."
+      },
+      {
+        "title": "Répartir les photos entre les cadres",
+        "text": "Dans Photo grouping, réglez Number of frames sur 2. Touchez Distribute evenly, vérifiez que chaque cadre contient deux photos, puis choisissez Create Gallery Wall. Un cadre ne contenant qu’une photo conserve cette image à l’écran.",
+        "caption": "Deux cadres indépendants contenant chacun deux photos."
+      },
+      {
+        "title": "Régler l’intervalle et l’ordre",
+        "text": "Ouvrez More → Images et vérifiez Image Display Interval et Image Play Order. L’exemple utilise 4,6 secondes et First to last. Last to first et Random sont également disponibles. Ces réglages concernent les images, séparément de la vitesse vidéo et du défilement Waterfall.",
+        "caption": "Les réglages d’image définissent l’intervalle et l’ordre des photos."
+      },
+      {
+        "title": "Lire et enregistrer la galerie",
+        "text": "Revenez à la galerie et observez le changement des photos dans les deux cadres. L’exemple conserve aussi huit cadres vidéo. Enregistrez un favori avec l’étoile de Gallery settings. Quittez la galerie, puis rouvrez ce favori pour retrouver les groupes. Gardez les fichiers photo d’origine.",
+        "caption": "La galerie associe des vidéos en lecture à deux diaporamas indépendants."
+      }
+    ],
+    "features": [
+      {
+        "title": "Une collection propre à chaque cadre",
+        "description": "Le regroupement détermine les photos de chaque cadre. Séparez un voyage, une personne ou un thème pour éviter de répéter la même collection partout."
+      },
+      {
+        "title": "Soigner la composition",
+        "description": "Choisissez une composition dans Template et réglez les bordures et le fond dans Style. Sélectionnez un cadre pour modifier son contenu sans reconstruire les autres."
+      }
+    ],
+    "faq": [
+      {
+        "question": "L’enregistrement d’un favori crée-t-il une vidéo ?",
+        "answer": "Non. Le favori conserve un espace de travail à rouvrir dans l’application. Il ne transforme pas les diaporamas en fichier vidéo final."
+      },
+      {
+        "question": "Pourquoi un cadre reste-t-il sur la même photo ?",
+        "answer": "Vérifiez qu’il contient plusieurs photos et attendez la fin de l’intervalle choisi. Vérifiez également que les fichiers d’origine restent accessibles."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to play independent photo slideshows in a gallery on {device}",
+    "description": "Group photos into separate gallery frames on {device}. Set the slideshow interval and order, mix photos with videos, and save the arrangement as a bookmark.",
+    "summary": "One gallery can contain several photo slideshows. Give each frame its own group of pictures, then let the groups advance while the surrounding videos keep playing.",
+    "answer": "In Gallery settings, open Content → Add → Album images. Select photos, choose the number of frames in Photo grouping, and distribute the pictures. Set the interval and order in More → Images.",
+    "requirement": "Photo frames and bookmarks require Premium. This example uses four photos, grouped into two frames alongside eight videos.",
+    "steps": [
+      {
+        "title": "Choose the photos for your slideshows",
+        "text": "Open Gallery from the toolbar, then Gallery settings → Content → Add → Album images. Use the album selector to show the album you want, select four photos, and tap Done. If access is limited, grant access only to the pictures you intend to use.",
+        "caption": "Four example photos selected from a dedicated album."
+      },
+      {
+        "title": "Divide the photos between frames",
+        "text": "In Photo grouping, set Number of frames to 2. Choose Distribute evenly and check that each frame contains two pictures, then tap Create Gallery Wall. You can review the groups before creating them; a frame with only one picture stays on that picture.",
+        "caption": "Two independent frames, each containing two photos."
+      },
+      {
+        "title": "Set the slideshow timing and order",
+        "text": "Open More → Images. Check Image Display Interval and Image Play Order; the example uses 4.6 seconds and First to last. Last to first and Random are also available. These are image settings, so they are different from video speed and waterfall scrolling speed.",
+        "caption": "Image settings control the interval and order of photo playback."
+      },
+      {
+        "title": "Play the gallery and save it",
+        "text": "Return to the gallery and watch both photo frames change. The example keeps eight video frames beside them. Use the star in Gallery settings to save a bookmark. After exiting, reopen that bookmark to restore the groups; keep the original photo files available.",
+        "caption": "A gallery mixes playing videos with two independent photo slideshows."
+      }
+    ],
+    "features": [
+      {
+        "title": "Each frame has its own collection",
+        "description": "The grouping screen determines which photos belong to each frame. Use it to separate a trip, person, or theme into its own slideshow instead of repeating the whole collection in every frame."
+      },
+      {
+        "title": "Use the gallery’s composition controls",
+        "description": "Choose a composition under Template and adjust borders and background under Style. Selecting a frame lets you change its content without rebuilding the other frames."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Will saving a bookmark create a video file?",
+        "answer": "No. The bookmark stores a workspace that the app can reopen. It does not render the photo slideshows as a finished video."
+      },
+      {
+        "question": "Why does a photo frame stay on one image?",
+        "answer": "Check that the frame contains more than one photo and allow the configured display interval to pass. Also check that the original files are still accessible."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como reproduzir apresentações de fotos independentes em uma galeria no {device}",
+    "description": "Distribua fotos em molduras separadas no {device}. Ajuste o intervalo e a ordem, combine com vídeos e salve a composição como favorito.",
+    "summary": "Uma galeria pode ter várias apresentações de fotos. Cada moldura recebe seu próprio grupo de imagens, que muda enquanto os vídeos ao redor continuam em reprodução.",
+    "answer": "Em Gallery settings, abra Content → Add → Album images. Selecione as fotos e distribua-as em Photo grouping. Ajuste o intervalo e a ordem em More → Images.",
+    "requirement": "Molduras de fotos e favoritos exigem Premium. O exemplo usa quatro fotos, divididas em duas molduras ao lado de oito vídeos.",
+    "steps": [
+      {
+        "title": "Escolha as fotos",
+        "text": "Abra Gallery na barra de ferramentas e depois Gallery settings → Content → Add → Album images. Escolha o álbum desejado, selecione quatro fotos e toque em Done. Se o acesso estiver limitado, autorize apenas as fotos que pretende usar.",
+        "caption": "Quatro fotos de exemplo selecionadas em um álbum específico."
+      },
+      {
+        "title": "Divida as fotos entre as molduras",
+        "text": "Em Photo grouping, defina Number of frames como 2. Toque em Distribute evenly, confira se cada moldura contém duas fotos e escolha Create Gallery Wall. Uma moldura com apenas uma foto continuará exibindo essa imagem.",
+        "caption": "Duas molduras independentes, cada uma com duas fotos."
+      },
+      {
+        "title": "Ajuste o intervalo e a ordem",
+        "text": "Abra More → Images e confira Image Display Interval e Image Play Order. O exemplo usa 4,6 segundos e First to last. Last to first e Random também estão disponíveis. Essas opções de imagem são independentes da velocidade dos vídeos e da rolagem Waterfall.",
+        "caption": "As configurações de imagem controlam o intervalo e a ordem das fotos."
+      },
+      {
+        "title": "Reproduza e salve a galeria",
+        "text": "Volte à galeria e observe as fotos mudarem nas duas molduras. O exemplo também mantém oito molduras de vídeo. Use a estrela em Gallery settings para salvar um favorito. Saia da galeria e abra esse favorito novamente para restaurar os grupos. Mantenha os arquivos originais.",
+        "caption": "A galeria combina vídeos em reprodução com duas apresentações independentes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Uma coleção própria em cada moldura",
+        "description": "O agrupamento define quais fotos pertencem a cada moldura. Separe viagens, pessoas ou temas para não repetir a coleção inteira em todas elas."
+      },
+      {
+        "title": "Ajuste a composição da galeria",
+        "description": "Escolha uma composição em Template e ajuste bordas e fundo em Style. Selecione uma moldura para mudar seu conteúdo sem refazer as demais."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Salvar um favorito cria um arquivo de vídeo?",
+        "answer": "Não. O favorito armazena um espaço de trabalho que o aplicativo pode abrir novamente. Ele não transforma as apresentações de fotos em um vídeo finalizado."
+      },
+      {
+        "question": "Por que uma moldura fica na mesma foto?",
+        "answer": "Confira se ela contém várias fotos e aguarde o intervalo configurado. Verifique também se os arquivos originais continuam acessíveis."
+      }
+    ]
+  },
+  "ko": {
+    "title": "{device} 갤러리에서 여러 사진 슬라이드쇼를 따로 재생하는 방법",
+    "description": "사진을 여러 액자에 나누고 전환 간격과 순서를 설정하세요. 동영상과 함께 배치하고 북마크로 저장해 다시 열 수 있습니다.",
+    "summary": "하나의 갤러리에서 여러 사진 슬라이드쇼를 재생할 수 있습니다. 액자마다 다른 사진 묶음을 넣으면 주변 동영상이 재생되는 동안 각 묶음의 사진이 바뀝니다.",
+    "answer": "Gallery settings에서 Content → Add → Album images를 엽니다. 사진을 선택하고 Photo grouping에서 액자 수와 묶음을 정한 뒤 More → Images에서 간격과 순서를 설정합니다.",
+    "requirement": "사진 액자와 북마크에는 Premium이 필요합니다. 예제는 사진 4장을 액자 2개에 나누고 동영상 8개와 함께 배치합니다.",
+    "steps": [
+      {
+        "title": "슬라이드쇼에 사용할 사진 선택",
+        "text": "도구 모음의 Gallery를 열고 Gallery settings → Content → Add → Album images로 이동합니다. 앨범 선택기로 원하는 앨범을 열어 사진 4장을 선택한 뒤 Done을 누릅니다. 접근이 제한되어 있다면 사용할 사진에만 접근을 허용하세요.",
+        "caption": "전용 앨범에서 예제 사진 4장을 선택한 화면."
+      },
+      {
+        "title": "사진을 액자별로 나누기",
+        "text": "Photo grouping에서 Number of frames를 2로 설정합니다. Distribute evenly를 누르고 액자마다 사진 2장씩 들어 있는지 확인한 뒤 Create Gallery Wall을 누릅니다. 사진이 한 장뿐인 액자는 그 사진을 계속 표시합니다.",
+        "caption": "각각 사진 2장이 들어 있는 독립된 액자 2개."
+      },
+      {
+        "title": "전환 간격과 순서 설정",
+        "text": "More → Images를 열어 Image Display Interval과 Image Play Order를 확인합니다. 예제는 4.6초와 First to last를 사용하며 Last to first와 Random도 선택할 수 있습니다. 이 설정은 동영상 배속이나 워터폴 스크롤 속도와 별개입니다.",
+        "caption": "사진 설정에서 표시 간격과 재생 순서를 조절합니다."
+      },
+      {
+        "title": "갤러리를 재생하고 저장하기",
+        "text": "갤러리로 돌아가 두 사진 액자가 바뀌는 모습을 확인합니다. 예제에는 동영상 액자 8개도 있습니다. Gallery settings의 별 버튼으로 북마크를 저장하세요. 갤러리를 나간 뒤 같은 북마크를 열면 사진 묶음이 복원됩니다. 원본 사진 파일은 유지하세요.",
+        "caption": "재생 중인 동영상과 사진 슬라이드쇼 2개가 함께 있는 갤러리."
+      }
+    ],
+    "features": [
+      {
+        "title": "액자마다 다른 사진 묶음",
+        "description": "그룹 설정에서 각 액자에 들어갈 사진을 정합니다. 여행, 인물, 주제별로 나누면 모든 액자에서 같은 사진 모음을 반복할 필요가 없습니다."
+      },
+      {
+        "title": "갤러리 구성 조절",
+        "description": "Template에서 배치를 선택하고 Style에서 테두리와 배경을 조절하세요. 액자 하나를 선택하면 다른 액자를 다시 만들지 않고 그 액자의 내용만 바꿀 수 있습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "북마크를 저장하면 동영상 파일이 만들어지나요?",
+        "answer": "아니요. 북마크는 앱에서 다시 열 수 있는 작업 공간을 저장합니다. 사진 슬라이드쇼를 완성된 동영상으로 렌더링하지 않습니다."
+      },
+      {
+        "question": "액자에서 사진이 바뀌지 않는 이유는 무엇인가요?",
+        "answer": "해당 액자에 사진이 여러 장 있는지 확인하고 설정한 표시 간격이 지날 때까지 기다리세요. 원본 파일에 계속 접근할 수 있는지도 확인하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo reproducir varias presentaciones de fotos en una galería en {device}",
+    "description": "Reparte fotos entre marcos independientes en {device}. Ajusta el intervalo y el orden, combínalas con vídeos y guarda la composición como marcador.",
+    "summary": "Una galería puede contener varias presentaciones de fotos. Cada marco tiene su propio grupo de imágenes, que cambia mientras los vídeos cercanos siguen reproduciéndose.",
+    "answer": "En Gallery settings, abre Content → Add → Album images. Selecciona las fotos y distribúyelas en Photo grouping. Configura el intervalo y el orden en More → Images.",
+    "requirement": "Los marcos de fotos y los marcadores requieren Premium. El ejemplo usa cuatro fotos, repartidas entre dos marcos junto a ocho vídeos.",
+    "steps": [
+      {
+        "title": "Selecciona las fotos",
+        "text": "Abre Gallery desde la barra y entra en Gallery settings → Content → Add → Album images. Elige el álbum que quieras, selecciona cuatro fotos y toca Done. Si el acceso está limitado, permite únicamente las fotos que vayas a utilizar.",
+        "caption": "Cuatro fotos de ejemplo seleccionadas en un álbum específico."
+      },
+      {
+        "title": "Distribuye las fotos entre marcos",
+        "text": "En Photo grouping, establece Number of frames en 2. Toca Distribute evenly, comprueba que cada marco contiene dos fotos y pulsa Create Gallery Wall. Un marco con una sola foto seguirá mostrando esa imagen.",
+        "caption": "Dos marcos independientes con dos fotos en cada uno."
+      },
+      {
+        "title": "Configura el intervalo y el orden",
+        "text": "Abre More → Images y revisa Image Display Interval e Image Play Order. El ejemplo usa 4,6 segundos y First to last. También puedes elegir Last to first o Random. Estos ajustes de imagen son independientes de la velocidad de vídeo y del desplazamiento Waterfall.",
+        "caption": "Los ajustes de imagen controlan el intervalo y el orden de las fotos."
+      },
+      {
+        "title": "Reproduce y guarda la galería",
+        "text": "Vuelve a la galería y observa cómo cambian ambos marcos de fotos. El ejemplo conserva también ocho marcos de vídeo. Usa la estrella de Gallery settings para guardar un marcador. Sal y vuelve a abrirlo para recuperar los grupos; conserva los archivos originales.",
+        "caption": "La galería combina vídeos en reproducción con dos presentaciones independientes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Una colección propia en cada marco",
+        "description": "La agrupación determina qué fotos pertenecen a cada marco. Separa viajes, personas o temas para no repetir la colección completa en todos los marcos."
+      },
+      {
+        "title": "Ajusta la composición de la galería",
+        "description": "Elige la distribución en Template y los bordes y el fondo en Style. Selecciona un marco para cambiar su contenido sin reconstruir los demás."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Guardar un marcador crea un archivo de vídeo?",
+        "answer": "No. El marcador guarda un espacio de trabajo que la aplicación puede volver a abrir. No convierte las presentaciones de fotos en un vídeo terminado."
+      },
+      {
+        "question": "¿Por qué un marco no cambia de foto?",
+        "answer": "Comprueba que contiene varias fotos y espera a que transcurra el intervalo configurado. Revisa también que los archivos originales sigan siendo accesibles."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 {device} 画廊中播放多个独立照片轮播",
+    "description": "在 {device} 上把照片分配给不同相框，设置轮播间隔和顺序，与视频混合展示，再保存为书签以便恢复。",
+    "summary": "同一个画廊可以容纳多个照片轮播。为每个相框分配不同的照片组，它们就能各自切换，同时让周围的视频继续播放。",
+    "answer": "进入 Gallery settings，选择 Content → Add → Album images。选好照片后，在 Photo grouping 中设置相框数量并分组，再到 More → Images 设置轮播间隔和顺序。",
+    "requirement": "照片相框和书签需要高级会员。示例使用四张照片，分为两个相框，与八个视频一起展示。",
+    "steps": [
+      {
+        "title": "选择需要轮播的照片",
+        "text": "从底部工具栏进入 Gallery，再打开 Gallery settings → Content → Add → Album images。用顶部相册选择器切换到所需相册，选中四张照片并点 Done。如果当前只能访问部分照片，只需为本次要用的图片开放访问权限。",
+        "caption": "在专用相册中选中四张示例照片。"
+      },
+      {
+        "title": "把照片分配给不同相框",
+        "text": "在 Photo grouping 中将 Number of frames 设为 2。点击 Distribute evenly，确认每个相框有两张照片，再点 Create Gallery Wall。创建前可以检查分组；只含一张照片的相框会一直显示该图片。",
+        "caption": "两个独立相框，每个相框包含两张照片。"
+      },
+      {
+        "title": "设置轮播间隔和顺序",
+        "text": "打开 More → Images，查看 Image Display Interval 和 Image Play Order。示例使用 4.6 秒及 First to last，也可选择 Last to first 或 Random。这些是图片播放设置，与视频倍速及瀑布流滚动速度不同。",
+        "caption": "在图片设置中调整照片的显示间隔与播放顺序。"
+      },
+      {
+        "title": "播放并保存画廊",
+        "text": "返回画廊，观察两个照片相框各自切换。示例还保留八个视频相框。点击 Gallery settings 中的星形按钮保存书签，退出后从书签列表重新打开，即可恢复分组；请保留原始照片文件。",
+        "caption": "画廊同时展示播放中的视频和两个独立照片轮播。"
+      }
+    ],
+    "features": [
+      {
+        "title": "每个相框都有自己的照片集",
+        "description": "分组页面决定每个相框包含哪些图片。可以按旅行、人物或主题分别整理，避免让每个相框重复播放同一整套照片。"
+      },
+      {
+        "title": "搭配画廊构图设置",
+        "description": "在 Template 中选择构图，在 Style 中调整边框和背景。选中某个相框后，可以单独更换其内容，无需重建其他相框。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "保存书签会生成视频文件吗？",
+        "answer": "不会。书签保存的是可在应用中重新打开的工作区，不会把照片轮播渲染成一个成品视频。"
+      },
+      {
+        "question": "为什么某个相框一直显示同一张照片？",
+        "answer": "检查该相框是否包含多张照片，并等待所设的显示间隔结束。同时确认原始文件仍然可以访问。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Mehrere unabhängige Foto-Diashows in einer Galerie auf {device} abspielen",
+    "description": "Verteile Fotos auf einzelne Galerierahmen, wähle Anzeigeintervall und Reihenfolge und kombiniere sie mit Videos. Speichere die Anordnung als Lesezeichen.",
+    "summary": "Eine Galerie kann mehrere Diashows enthalten. Jeder Rahmen erhält seine eigene Fotogruppe, deren Bilder wechseln, während die Videos daneben weiterlaufen.",
+    "answer": "Öffne in Gallery settings den Pfad Content → Add → Album images. Wähle Fotos und teile sie unter Photo grouping auf Rahmen auf. Intervall und Reihenfolge findest du unter More → Images.",
+    "requirement": "Fotorahmen und Lesezeichen erfordern Premium. Das Beispiel verwendet vier Fotos, verteilt auf zwei Rahmen neben acht Videos.",
+    "steps": [
+      {
+        "title": "Fotos für die Diashows auswählen",
+        "text": "Öffne Gallery in der Werkzeugleiste und dann Gallery settings → Content → Add → Album images. Wähle das gewünschte Album, markiere vier Fotos und tippe auf Done. Bei eingeschränktem Zugriff gib nur die benötigten Fotos frei.",
+        "caption": "Vier Beispielbilder sind in einem eigenen Album ausgewählt."
+      },
+      {
+        "title": "Fotos auf Rahmen verteilen",
+        "text": "Setze Number of frames unter Photo grouping auf 2. Wähle Distribute evenly und prüfe, ob jeder Rahmen zwei Fotos enthält. Tippe dann auf Create Gallery Wall. Enthält ein Rahmen nur ein Bild, bleibt dieses sichtbar.",
+        "caption": "Zwei unabhängige Rahmen mit jeweils zwei Fotos."
+      },
+      {
+        "title": "Intervall und Reihenfolge festlegen",
+        "text": "Öffne More → Images und prüfe Image Display Interval sowie Image Play Order. Das Beispiel nutzt 4,6 Sekunden und First to last. Auch Last to first und Random stehen zur Wahl. Diese Bildoptionen sind unabhängig von Videotempo und Waterfall-Bildlauf.",
+        "caption": "Die Bildeinstellungen bestimmen Wechselintervall und Reihenfolge."
+      },
+      {
+        "title": "Galerie abspielen und speichern",
+        "text": "Kehre zur Galerie zurück und beobachte den Bildwechsel in beiden Fotorahmen. Im Beispiel laufen außerdem acht Videos. Speichere mit dem Stern in Gallery settings ein Lesezeichen. Verlasse die Galerie und öffne das Lesezeichen erneut, um die Gruppen wiederherzustellen. Behalte die Originalfotos.",
+        "caption": "Die Galerie kombiniert laufende Videos mit zwei unabhängigen Diashows."
+      }
+    ],
+    "features": [
+      {
+        "title": "Eine eigene Sammlung pro Rahmen",
+        "description": "Die Gruppierung legt fest, welche Fotos zu welchem Rahmen gehören. Teile Bilder nach Reise, Person oder Thema auf, statt dieselbe Sammlung in allen Rahmen zu wiederholen."
+      },
+      {
+        "title": "Die Galerie gestalten",
+        "description": "Wähle unter Template eine Anordnung und unter Style Rahmen und Hintergrund. Wähle einen einzelnen Rahmen aus, um seinen Inhalt zu ändern, ohne die anderen neu anzulegen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Entsteht beim Speichern eines Lesezeichens eine Videodatei?",
+        "answer": "Nein. Das Lesezeichen speichert einen Arbeitsbereich, den die App wieder öffnen kann. Die Diashows werden dadurch nicht als fertiges Video gerendert."
+      },
+      {
+        "question": "Warum zeigt ein Rahmen ständig dasselbe Foto?",
+        "answer": "Prüfe, ob der Rahmen mehrere Fotos enthält, und warte das eingestellte Intervall ab. Die Originaldateien müssen weiterhin zugänglich sein."
+      }
+    ]
+  }
+}

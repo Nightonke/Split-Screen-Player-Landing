@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "Androidでローカル動画やフォルダを分割表示する方法",
+    "description": "ローカルフォルダから複数動画を開き、アクセスを許可し、Split Screen Playerのブックマークで配置を保存します。",
+    "summary": "フォルダ内の動画で複数動画のワークスペースを作ります。",
+    "answer": "下部ツールバーのOpenからFolderを選び、フォルダを開いてUse this folder、Allowの順にタップします。例では2本のゴルフ動画を別々の枠に読み込みます。再利用する組み合わせはブックマークに保存します。",
+    "requirement": "端末上の元ファイルを残してください。ワークスペースのブックマークにはPremiumが必要です。フォルダのアクセス許可と保存は別の操作です。",
+    "steps": [
+      {
+        "title": "下部ツールバーから開く",
+        "text": "下部の+をタップし、Folderを選びます。例ではVideo filterをオフにして、対応する動画を読み込みます。枠内の+とは対象範囲が異なります。",
+        "caption": "ツールバーのOpenにあるFileとFolder。"
+      },
+      {
+        "title": "素材フォルダを選ぶ",
+        "text": "Androidの選択画面で素材専用フォルダに移動します。例のSSP-Golf-TutorialにはGolf 01.movとGolf 02.movがあります。Use this folderをタップします。",
+        "caption": "2本のローカル動画を含むフォルダ。"
+      },
+      {
+        "title": "フォルダへのアクセスを許可する",
+        "text": "確認画面のフォルダ名を確かめてAllowをタップします。保存領域のルートを選べない場合は、具体的なサブフォルダに入ってください。",
+        "caption": "SSP-Golf-Tutorialへのアクセス確認。"
+      },
+      {
+        "title": "読み込んだ配置を確認する",
+        "text": "読み込みを待ち、両方の枠で再生して別々の動画が開いたことを確認します。次回使うためにワークスペースのブックマークを保存します。",
+        "caption": "フォルダの2本の動画が別々の枠に表示された状態。"
+      }
+    ],
+    "features": [
+      {
+        "title": "ファイルを個別に選ぶ",
+        "description": "ツールバーのOpenでFileを選びます。Androidの選択画面で1本を長押しし、ほかの動画も選んで確定すると、フォルダ全体ではなく一部だけを開けます。"
+      },
+      {
+        "title": "ブックマークから再度開く",
+        "description": "今回のテストではアプリ再起動後に保存済みの配置を復元し、両方の動画を再生できました。元ファイルとアクセス権を維持してください。ブックマークは動画のバックアップではありません。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "枠内でフォルダを開くと1本しか表示されないのはなぜですか？",
+        "answer": "実測したバージョンでは、枠内のFolderはPlaylistがオンでも最初の動画だけを開きました。一括配置には下部ツールバーを使い、1枠のリストにはPlaylistをオンにして複数ファイルを選んでください。"
+      },
+      {
+        "question": "読み込めば再起動時に自動復元されますか？",
+        "answer": "必ずしもそうではありません。テストでは空の枠で起動しました。自動復元を前提にせず、保存したブックマークから組み合わせを復元してください。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ouvrir des fichiers et dossiers vidéo locaux sur Android",
+    "description": "Créez un espace de travail à partir d’un dossier local, autorisez son accès et sauvegardez la disposition avec un signet dans Split Screen Player.",
+    "summary": "Ouvrez les clips d’un dossier dans plusieurs zones vidéo.",
+    "answer": "Utilisez Open dans la barre du bas, puis Folder. Choisissez le dossier, touchez Use this folder puis Allow. Ici, deux clips de golf s’ouvrent dans deux zones. Enregistrez un signet pour retrouver la combinaison plus tard.",
+    "requirement": "Conservez les fichiers sur l’appareil. Les signets nécessitent Premium ; l’accès au dossier et l’enregistrement du signet sont deux opérations distinctes.",
+    "steps": [
+      {
+        "title": "Utiliser Open dans la barre du bas",
+        "text": "Touchez + dans la barre inférieure, puis Folder. Laissez Video filter désactivé pour inclure les vidéos compatibles de cet exemple. Le + d’une zone a une portée différente.",
+        "caption": "Les choix File et Folder dans Open de la barre inférieure."
+      },
+      {
+        "title": "Choisir le dossier source",
+        "text": "Dans le sélecteur Android, ouvrez un dossier réservé aux médias. Ici, SSP-Golf-Tutorial contient Golf 01.mov et Golf 02.mov. Touchez Use this folder.",
+        "caption": "Le dossier contenant les deux clips de golf locaux."
+      },
+      {
+        "title": "Autoriser l’accès au dossier",
+        "text": "Vérifiez le nom du dossier dans la demande Android, puis touchez Allow. Si Android interdit de choisir la racine du stockage, ouvrez un sous-dossier précis.",
+        "caption": "Demande d’accès Android à SSP-Golf-Tutorial."
+      },
+      {
+        "title": "Vérifier l’espace importé",
+        "text": "Attendez la fin de l’importation et lancez la lecture dans les deux zones. Les clips s’ouvrent séparément. Enregistrez un signet pour conserver la disposition pour une autre session.",
+        "caption": "Deux clips du dossier ouverts dans des zones séparées."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choisir des fichiers individuellement",
+        "description": "Choisissez File dans Open de la barre du bas. Dans le sélecteur Android, maintenez le doigt sur une vidéo, sélectionnez les autres et touchez Select pour n’importer qu’une partie des fichiers."
+      },
+      {
+        "title": "Rouvrir avec un signet",
+        "description": "Lors du test, le signet a restauré l’espace après un redémarrage de l’application et les deux clips étaient lisibles. Conservez les fichiers et leur accès : le signet n’est pas une sauvegarde des vidéos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi Folder dans une zone n’ouvre-t-il qu’une vidéo ?",
+        "answer": "Dans la version testée, cette action ouvre la première vidéo même avec Playlist activé. Utilisez la barre du bas pour ouvrir un lot dans l’espace de travail, ou Playlist avec une sélection de fichiers pour une liste dans une seule zone."
+      },
+      {
+        "question": "L’importation active-t-elle la restauration automatique ?",
+        "answer": "Pas forcément. L’application testée a redémarré avec des zones vides. Utilisez un signet enregistré pour restaurer la combinaison au lieu de compter sur une récupération automatique."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to open local video files and folders on Android",
+    "description": "Build a split-screen workspace from a local folder, grant access to that folder, and save the arrangement with a bookmark in Split Screen Player.",
+    "summary": "Open a folder of local clips as a multi-video workspace.",
+    "answer": "Use the bottom toolbar's Open button and choose Folder. Select the folder, tap Use this folder, then Allow. This example imports two golf clips into two panes. Save a workspace bookmark if you want to reopen the combination later.",
+    "requirement": "Keep the source files on the device. Workspace bookmarks require Premium; folder access and bookmarking are separate steps.",
+    "steps": [
+      {
+        "title": "Use the bottom toolbar's Open",
+        "text": "Tap + on the bottom toolbar, then Folder. Leave Video filter off to include all supported videos in this example. A pane's own + has a different scope.",
+        "caption": "The toolbar's Open menu with File and Folder choices."
+      },
+      {
+        "title": "Choose the source folder",
+        "text": "Navigate to a dedicated media folder in Android's picker. Here SSP-Golf-Tutorial contains Golf 01.mov and Golf 02.mov. Tap Use this folder.",
+        "caption": "A folder containing the two local golf clips."
+      },
+      {
+        "title": "Allow access to that folder",
+        "text": "Check the folder named in Android's prompt, then tap Allow. The app can now read the selected folder. Choose a subfolder if Android does not allow selecting a storage root.",
+        "caption": "Android asks for access to SSP-Golf-Tutorial."
+      },
+      {
+        "title": "Check the imported workspace",
+        "text": "Wait for the import and start playback in both panes. The two clips are opened separately. Save a workspace bookmark to retain the arrangement for another session.",
+        "caption": "Two clips imported from the folder into separate panes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Choose individual files instead",
+        "description": "Select File from the toolbar's Open menu. In the Android picker, long-press one video, select the others and use the selection confirmation. This lets you choose a subset without importing the folder."
+      },
+      {
+        "title": "Reopen with a bookmark",
+        "description": "In our test, the saved folder workspace reopened after restarting the app and both clips played. Keep files in place and retain access; a bookmark does not contain a backup of your videos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does opening a folder from one pane show only one video?",
+        "answer": "In the tested version, a pane's Folder action opened the first video even with Playlist enabled. Use the bottom toolbar for a batch workspace, or select multiple files with a pane's Playlist option for a list."
+      },
+      {
+        "question": "Does importing make the workspace restore automatically?",
+        "answer": "Not necessarily. The tested app restarted with empty panes. Use a saved bookmark to restore the combination rather than relying on automatic session recovery."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como abrir arquivos e pastas de vídeos locais no Android",
+    "description": "Crie uma tela dividida a partir de uma pasta local, permita o acesso e salve a disposição com um favorito no Split Screen Player.",
+    "summary": "Abra os clipes de uma pasta em várias áreas de vídeo.",
+    "answer": "Use Open na barra inferior e escolha Folder. Selecione a pasta, toque em Use this folder e depois Allow. Aqui dois clipes de golfe abrem em duas áreas. Salve um favorito para recuperar a combinação mais tarde.",
+    "requirement": "Mantenha os arquivos originais no dispositivo. Favoritos do espaço de trabalho requerem Premium; acesso à pasta e salvamento do favorito são etapas distintas.",
+    "steps": [
+      {
+        "title": "Usar Open na barra inferior",
+        "text": "Toque em + na barra inferior e escolha Folder. Deixe Video filter desativado para incluir os vídeos compatíveis do exemplo. O + dentro de uma área tem outro alcance.",
+        "caption": "File e Folder no menu Open da barra inferior."
+      },
+      {
+        "title": "Escolher a pasta de origem",
+        "text": "No seletor do Android, entre em uma pasta dedicada às mídias. Aqui SSP-Golf-Tutorial contém Golf 01.mov e Golf 02.mov. Toque em Use this folder.",
+        "caption": "Pasta com os dois clipes locais de golfe."
+      },
+      {
+        "title": "Permitir acesso à pasta",
+        "text": "Confira o nome na solicitação do Android e toque em Allow. Se não for possível escolher a raiz do armazenamento, entre em uma subpasta específica.",
+        "caption": "O Android solicita acesso a SSP-Golf-Tutorial."
+      },
+      {
+        "title": "Conferir o espaço importado",
+        "text": "Aguarde a importação e inicie a reprodução nas duas áreas. Os clipes abrem separadamente. Salve um favorito para manter a disposição para outra sessão.",
+        "caption": "Dois clipes da pasta abertos em áreas separadas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Selecionar arquivos individuais",
+        "description": "Escolha File em Open na barra inferior. No seletor do Android, pressione um vídeo por alguns instantes, selecione os outros e toque em Select. Assim é possível importar só parte dos arquivos."
+      },
+      {
+        "title": "Abrir novamente com um favorito",
+        "description": "No teste, o favorito restaurou o espaço após reiniciar o aplicativo e os dois clipes foram reproduzidos. Mantenha os arquivos e o acesso; o favorito não inclui uma cópia dos vídeos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que Folder dentro de uma área abre só um vídeo?",
+        "answer": "Na versão testada, essa ação abriu o primeiro vídeo mesmo com Playlist ativado. Use a barra inferior para um espaço com vários arquivos, ou Playlist com seleção múltipla para uma lista em uma área."
+      },
+      {
+        "question": "A importação ativa a restauração automática?",
+        "answer": "Não necessariamente. O aplicativo testado reiniciou com áreas vazias. Recupere a combinação por um favorito salvo, sem depender da restauração automática."
+      }
+    ]
+  },
+  "ko": {
+    "title": "Android에서 로컬 파일과 폴더로 분할 화면을 만드는 방법",
+    "description": "로컬 폴더에서 여러 영상을 열고 폴더 접근을 허용한 뒤 Split Screen Player 책갈피로 배치를 저장하세요.",
+    "summary": "폴더 안의 영상으로 여러 동영상 작업 공간을 만듭니다.",
+    "answer": "하단 도구 모음의 Open에서 Folder를 선택하세요. 폴더에 들어가 Use this folder, Allow를 누릅니다. 예시에서는 골프 영상 두 개를 각각의 영역에 엽니다. 다시 사용할 조합은 작업 공간 책갈피에 저장하세요.",
+    "requirement": "기기에 원본 파일을 유지하세요. 작업 공간 책갈피에는 Premium이 필요합니다. 폴더 접근 허용과 책갈피 저장은 별도 과정입니다.",
+    "steps": [
+      {
+        "title": "하단 도구 모음에서 열기",
+        "text": "하단의 +를 누르고 Folder를 선택합니다. 예시에서는 Video filter를 꺼 지원되는 영상을 가져옵니다. 영역 안의 +는 적용 범위가 다릅니다.",
+        "caption": "도구 모음 Open의 File과 Folder입니다."
+      },
+      {
+        "title": "소스 폴더 고르기",
+        "text": "Android 선택기에서 미디어 전용 폴더로 이동합니다. 예시의 SSP-Golf-Tutorial에는 Golf 01.mov와 Golf 02.mov가 있습니다. Use this folder를 누르세요.",
+        "caption": "로컬 골프 영상 두 개가 있는 폴더입니다."
+      },
+      {
+        "title": "폴더 접근 허용하기",
+        "text": "Android 확인 창의 폴더 이름을 확인하고 Allow를 누릅니다. 저장소 루트를 선택할 수 없다면 구체적인 하위 폴더로 들어가세요.",
+        "caption": "SSP-Golf-Tutorial 접근을 요청하는 Android 창입니다."
+      },
+      {
+        "title": "가져온 작업 공간 확인하기",
+        "text": "가져오기가 끝나면 두 영역을 재생해 각각 다른 영상이 열렸는지 확인합니다. 다음 세션에도 쓰려면 작업 공간 책갈피를 저장하세요.",
+        "caption": "폴더의 두 영상이 별도 영역에 열렸습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "파일을 개별 선택하기",
+        "description": "도구 모음 Open에서 File을 선택합니다. Android 선택기에서 한 영상을 길게 누르고 다른 파일도 선택한 뒤 확정하면 일부 파일만 가져올 수 있습니다."
+      },
+      {
+        "title": "책갈피로 다시 열기",
+        "description": "테스트에서는 앱을 재시작한 뒤 저장된 작업 공간을 복원해 두 영상을 재생했습니다. 원본 파일과 접근 권한을 유지하세요. 책갈피에는 영상 백업이 포함되지 않습니다."
+      }
+    ],
+    "faq": [
+      {
+        "question": "한 영역에서 폴더를 열면 영상 하나만 나오는 이유는 무엇인가요?",
+        "answer": "실측 버전에서는 영역 안의 Folder가 Playlist를 켜도 첫 영상만 열었습니다. 일괄 작업 공간은 하단 도구 모음을 사용하고, 한 영역의 목록은 Playlist를 켜고 여러 파일을 선택하세요."
+      },
+      {
+        "question": "가져오면 재시작할 때 자동 복원되나요?",
+        "answer": "반드시 그렇지는 않습니다. 테스트한 앱은 빈 영역으로 다시 시작했습니다. 자동 복원에 의존하지 말고 저장된 책갈피로 조합을 복원하세요."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo abrir archivos y carpetas de vídeo locales en Android",
+    "description": "Crea un espacio de pantalla dividida desde una carpeta local, permite el acceso y guarda la distribución con un marcador en Split Screen Player.",
+    "summary": "Abre los clips de una carpeta en varias zonas de vídeo.",
+    "answer": "Usa Open en la barra inferior y elige Folder. Selecciona la carpeta, pulsa Use this folder y después Allow. Aquí se abren dos clips de golf en dos zonas. Guarda un marcador para recuperar la combinación más adelante.",
+    "requirement": "Conserva los archivos originales en el dispositivo. Los marcadores requieren Premium; dar acceso a la carpeta y guardar un marcador son pasos distintos.",
+    "steps": [
+      {
+        "title": "Usar Open en la barra inferior",
+        "text": "Pulsa + en la barra inferior y elige Folder. Deja Video filter desactivado para incluir los vídeos compatibles del ejemplo. El + de una zona tiene otro alcance.",
+        "caption": "File y Folder en el menú Open de la barra inferior."
+      },
+      {
+        "title": "Elegir la carpeta de origen",
+        "text": "En el selector de Android, entra en una carpeta dedicada a los vídeos. Aquí SSP-Golf-Tutorial contiene Golf 01.mov y Golf 02.mov. Pulsa Use this folder.",
+        "caption": "Carpeta con los dos clips de golf locales."
+      },
+      {
+        "title": "Permitir el acceso a esa carpeta",
+        "text": "Comprueba el nombre en la solicitud de Android y pulsa Allow. Si no se permite elegir la raíz del almacenamiento, entra en una subcarpeta concreta.",
+        "caption": "Android solicita acceso a SSP-Golf-Tutorial."
+      },
+      {
+        "title": "Comprobar el espacio importado",
+        "text": "Espera a que termine la importación e inicia las dos zonas. Los clips se abren por separado. Guarda un marcador para conservar la distribución para otra sesión.",
+        "caption": "Dos clips de la carpeta abiertos en zonas distintas."
+      }
+    ],
+    "features": [
+      {
+        "title": "Seleccionar archivos individuales",
+        "description": "Elige File en Open de la barra inferior. Mantén pulsado un vídeo en el selector de Android, selecciona los demás y pulsa Select. Así puedes importar solo parte de los archivos."
+      },
+      {
+        "title": "Volver a abrir con un marcador",
+        "description": "En la prueba, el marcador recuperó el espacio tras reiniciar la aplicación y ambos clips se reprodujeron. Conserva los archivos y el acceso; un marcador no incluye una copia de los vídeos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué Folder dentro de una zona solo abre un vídeo?",
+        "answer": "En la versión probada, esa acción abrió el primer vídeo incluso con Playlist activado. Usa la barra inferior para un espacio con varios archivos, o Playlist con selección múltiple para una lista en una zona."
+      },
+      {
+        "question": "¿La importación activa la restauración automática?",
+        "answer": "No necesariamente. La aplicación probada reinició con zonas vacías. Recupera la combinación mediante un marcador guardado, sin depender de la restauración automática."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 Android 上从本地文件或文件夹建立分屏工作区",
+    "description": "从本地文件夹导入多个视频，授予目录访问权限，再用分屏播放器书签保存工作区，方便以后重新打开。",
+    "summary": "将文件夹中的本地片段打开为多视频工作区。",
+    "answer": "点击底部工具栏的 Open，选择 Folder，在系统选择器中进入目录，依次点 Use this folder 和 Allow。本例将两个高尔夫片段分别载入两区；常用组合可保存为工作区书签。",
+    "requirement": "保留手机上的源文件。工作区书签需要 Premium；文件夹访问授权和保存书签是两个不同的步骤。",
+    "steps": [
+      {
+        "title": "使用底部工具栏的 Open",
+        "text": "点击底部工具栏的 +，再选 Folder。本例关闭 Video filter，导入支持的视频。区域内部的 + 作用范围不同。",
+        "caption": "工具栏 Open 菜单中的 File 与 Folder。"
+      },
+      {
+        "title": "选择素材文件夹",
+        "text": "在 Android 系统选择器中进入专用素材目录。本例 SSP-Golf-Tutorial 含 Golf 01.mov 和 Golf 02.mov，点击 Use this folder。",
+        "caption": "包含两个本地高尔夫片段的文件夹。"
+      },
+      {
+        "title": "允许访问该目录",
+        "text": "核对系统提示中的文件夹名，再点 Allow，允许应用读取该目录。如果 Android 不允许选择存储根目录，请进入具体子文件夹。",
+        "caption": "Android 请求访问 SSP-Golf-Tutorial。"
+      },
+      {
+        "title": "检查导入的工作区",
+        "text": "等待导入完成，让两区分别播放，确认两个片段独立打开。需要下次继续使用时，保存工作区书签。",
+        "caption": "文件夹中的两个片段分别载入两个区域。"
+      }
+    ],
+    "features": [
+      {
+        "title": "也可以逐个选择文件",
+        "description": "在工具栏 Open 中选 File。在 Android 文件选择器中长按一个视频，再选择其他文件并确认，即可只导入部分素材。"
+      },
+      {
+        "title": "通过书签重新打开",
+        "description": "本次测试保存工作区后重启应用，再从书签恢复，两段视频均可播放。请保留原文件及访问权限；书签不包含视频文件的备份。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么从单个区域打开文件夹只出现一段视频？",
+        "answer": "实测版本中，区域内的 Folder 即使开启 Playlist 也只打开首段视频。批量建立工作区请用底部工具栏；建立单区列表可开启该区 Playlist 后多选文件。"
+      },
+      {
+        "question": "导入后会在重启时自动恢复吗？",
+        "answer": "不一定。实测应用重启后显示空区域。请用保存的书签恢复组合，不要依赖自动会话恢复。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Lokale Videodateien und Ordner auf Android öffnen",
+    "description": "Erstellen Sie aus einem lokalen Ordner einen geteilten Arbeitsbereich, erlauben Sie den Zugriff und speichern Sie die Anordnung als Lesezeichen.",
+    "summary": "Öffnen Sie die Clips eines Ordners in mehreren Videobereichen.",
+    "answer": "Wählen Sie Open in der unteren Werkzeugleiste und dann Folder. Öffnen Sie den Ordner, tippen Sie auf Use this folder und Allow. Hier erscheinen zwei Golfclips in zwei Bereichen. Ein Lesezeichen speichert die Kombination für später.",
+    "requirement": "Behalten Sie die Quelldateien auf dem Gerät. Lesezeichen benötigen Premium. Ordnerzugriff und Lesezeichen sind getrennte Schritte.",
+    "steps": [
+      {
+        "title": "Open in der unteren Leiste verwenden",
+        "text": "Tippen Sie unten auf + und dann auf Folder. Lassen Sie Video filter für dieses Beispiel ausgeschaltet, um unterstützte Videos einzubeziehen. Das + innerhalb eines Bereichs hat einen anderen Umfang.",
+        "caption": "File und Folder im Open-Menü der unteren Leiste."
+      },
+      {
+        "title": "Quellordner auswählen",
+        "text": "Navigieren Sie in der Android-Auswahl zu einem eigenen Medienordner. SSP-Golf-Tutorial enthält hier Golf 01.mov und Golf 02.mov. Tippen Sie auf Use this folder.",
+        "caption": "Ordner mit den beiden lokalen Golfclips."
+      },
+      {
+        "title": "Zugriff auf den Ordner erlauben",
+        "text": "Prüfen Sie den Ordnernamen in der Android-Abfrage und tippen Sie auf Allow. Falls Android das Stammverzeichnis nicht zulässt, wählen Sie einen konkreten Unterordner.",
+        "caption": "Android fragt nach Zugriff auf SSP-Golf-Tutorial."
+      },
+      {
+        "title": "Importierten Arbeitsbereich prüfen",
+        "text": "Warten Sie den Import ab und starten Sie beide Bereiche. Die Clips werden getrennt geöffnet. Speichern Sie ein Lesezeichen, wenn Sie die Anordnung später wieder nutzen möchten.",
+        "caption": "Zwei Clips aus dem Ordner in getrennten Bereichen."
+      }
+    ],
+    "features": [
+      {
+        "title": "Einzelne Dateien auswählen",
+        "description": "Wählen Sie File im Open-Menü der unteren Leiste. Halten Sie in der Android-Auswahl ein Video gedrückt, wählen Sie weitere und tippen Sie auf Select. So importieren Sie nur einen Teil der Dateien."
+      },
+      {
+        "title": "Mit einem Lesezeichen erneut öffnen",
+        "description": "Im Test ließ sich der gespeicherte Arbeitsbereich nach einem App-Neustart wiederherstellen und beide Clips liefen. Behalten Sie Dateien und Zugriff bei; ein Lesezeichen ist keine Sicherungskopie der Videos."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum öffnet Folder innerhalb eines Bereichs nur ein Video?",
+        "answer": "In der getesteten Version öffnete diese Aktion auch mit Playlist nur das erste Video. Verwenden Sie die untere Leiste für einen Arbeitsbereich aus mehreren Dateien oder Playlist mit Mehrfachauswahl für eine Liste in einem Bereich."
+      },
+      {
+        "question": "Wird nach dem Import automatisch wiederhergestellt?",
+        "answer": "Nicht unbedingt. Die getestete App startete mit leeren Bereichen. Stellen Sie die Kombination über ein gespeichertes Lesezeichen wieder her, statt sich auf automatische Wiederherstellung zu verlassen."
+      }
+    ]
+  }
+}

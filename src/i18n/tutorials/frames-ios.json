@@ -1,0 +1,394 @@
+{
+  "ja": {
+    "title": "iPhone・iPadでスポーツ動画をコマ送り比較する方法",
+    "description": "iPhone・iPadでコマ送りボタンを表示し、2本のスポーツ動画を個別に移動。ミリ秒表示とスロー再生で動作を確認します。",
+    "summary": "2本のゴルフ動画を停止し、見たい瞬間を通り過ぎずに各プレーヤーを確認できます。",
+    "answer": "Settings → Video SettingsでShow Frame Mode Buttonを有効にします。ローカル動画を2本開き、操作部のフィルムアイコンを押し、再生ボタン横の−1 Frameと+1 Frameを使います。",
+    "requirement": "画面はiPhone 17 Proと2本のローカルのゴルフ動画です。コマ送りには対応するローカル動画が必要です。",
+    "steps": [
+      {
+        "title": "コマ送り操作を表示する",
+        "text": "フィルムアイコンがなければ、Video SettingsでShow Frame Mode Buttonを有効にします。動画をタップして操作部を表示し、フィルムアイコンを押すと停止してミリ秒が表示されます。",
+        "caption": "上の動画がFrame Modeで00:07.479に停止しています。"
+      },
+      {
+        "title": "隣のフレームを確認する",
+        "text": "再生ボタン横の+1 Frameまたは−1 Frameを使います。画像では00:07.479と00:07.513が隣接しています。一定の間隔と決めつけず、実際の動画の時刻を確認してください。",
+        "caption": "上の動画が次のフレーム、00:07.513を表示しています。"
+      },
+      {
+        "title": "動作をゆっくり再生する",
+        "text": "速度計ボタンからVideo Speedを1×未満にします。再生して動作を見た後、停止してコマ送りを続けます。図の0.05×のような低速にも対応します。",
+        "caption": "Video SpeedにはスライダーとRemember Speedがあります。"
+      },
+      {
+        "title": "もう一方も個別に調整する",
+        "text": "2本目の操作部を表示し、フィルムアイコンを有効にします。同じ動作段階になるよう個別にコマ送りしてください。同じ経過時間が同じ姿勢とは限りません。",
+        "caption": "下の動画にも独立したコマ送りボタンとミリ秒表示があります。"
+      }
+    ],
+    "features": [
+      {
+        "title": "同じ動作段階を比較する",
+        "description": "ボールに当たる瞬間など、共通の出来事を探します。再生中も合わせるには同期点を使います。"
+      },
+      {
+        "title": "先に操作部を表示する",
+        "description": "再生操作部は自動で消えます。小さなボタンを押す前に動画をタップして再表示してください。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "フィルムアイコンがありません",
+        "answer": "Video SettingsのShow Frame Mode Buttonを確認し、対応するローカル動画を使ってください。ウェブコンテンツでは使えない場合があります。"
+      },
+      {
+        "question": "スロー再生で細部が増えますか？",
+        "answer": "いいえ。撮影済みの動作を遅く再生する機能で、欠けたフレームや解像度は補いません。"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Comparer des vidéos sportives image par image sur iPhone ou iPad",
+    "description": "Activez les commandes image par image sur iPhone ou iPad, comparez deux vidéos sportives et utilisez le ralenti pour examiner un mouvement.",
+    "summary": "Mettez deux vidéos de golf en pause et examinez chaque lecteur sans dépasser sans cesse le moment recherché.",
+    "answer": "Dans Settings → Video Settings, activez Show Frame Mode Button. Ouvrez deux vidéos locales, affichez les commandes et touchez la pellicule, puis −1 Frame ou +1 Frame près de Lecture.",
+    "requirement": "Les captures utilisent un iPhone 17 Pro et deux vidéos de golf locales. Les commandes image par image nécessitent une vidéo locale compatible.",
+    "steps": [
+      {
+        "title": "Afficher le mode image par image",
+        "text": "Si la pellicule manque, activez Show Frame Mode Button dans Video Settings. Touchez la vidéo pour afficher les commandes, puis la pellicule. Ce mode met la vidéo en pause et affiche les millisecondes.",
+        "caption": "La vidéo du haut est arrêtée à 00:07.479 en Frame Mode."
+      },
+      {
+        "title": "Examiner l’image suivante",
+        "text": "Utilisez +1 Frame ou −1 Frame près de Lecture. Les captures montrent les positions voisines 00:07.479 et 00:07.513. Lisez le temps réel de votre vidéo sans supposer un intervalle fixe.",
+        "caption": "Le lecteur du haut affiche l’image suivante à 00:07.513."
+      },
+      {
+        "title": "Observer le mouvement au ralenti",
+        "text": "Ouvrez le compteur de vitesse et réglez Video Speed sous 1×. Lancez la lecture pour observer le mouvement, puis arrêtez-la pour examiner les images. Le curseur permet notamment le 0.05× illustré ici.",
+        "caption": "Video Speed propose un curseur et l’option Remember Speed."
+      },
+      {
+        "title": "Régler l’autre lecteur",
+        "text": "Affichez les commandes de la seconde vidéo et activez sa pellicule. Avancez séparément jusqu’au même stade du mouvement. Des temps identiques ne correspondent pas forcément à des poses identiques.",
+        "caption": "La vidéo du bas possède ses propres commandes et son affichage en millisecondes."
+      }
+    ],
+    "features": [
+      {
+        "title": "Comparer le même événement",
+        "description": "Repérez un événement commun, comme le contact avec la balle. Utilisez les points de synchronisation pour le garder aligné pendant la lecture."
+      },
+      {
+        "title": "Afficher d’abord les commandes",
+        "description": "Les commandes s’effacent automatiquement. Touchez la vidéo pour les faire réapparaître avant de choisir un petit bouton."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pourquoi la pellicule est-elle absente ?",
+        "answer": "Vérifiez Show Frame Mode Button dans Video Settings et utilisez une vidéo locale compatible. Le contenu web ne propose pas forcément ces commandes."
+      },
+      {
+        "question": "Le ralenti ajoute-t-il des détails ?",
+        "answer": "Non. Il ralentit le mouvement enregistré sans créer les images manquantes ni améliorer la résolution source."
+      }
+    ]
+  },
+  "en-US": {
+    "title": "How to compare sports videos frame by frame on iPhone or iPad",
+    "description": "Inspect two sports videos frame by frame on iPhone or iPad. Enable the filmstrip controls, compare positions, and use slow playback to review movement.",
+    "summary": "Pause two golf recordings and inspect each player independently, without repeatedly scrubbing past the useful moment.",
+    "answer": "In Settings → Video Settings, enable Show Frame Mode Button. Open two local videos, reveal a player’s controls, and tap the filmstrip. Use −1 Frame and +1 Frame beside Play.",
+    "requirement": "The screenshots use an iPhone 17 Pro and two local golf recordings. Frame controls require a compatible local video.",
+    "steps": [
+      {
+        "title": "Reveal and enable frame controls",
+        "text": "If the filmstrip is missing, enable Show Frame Mode Button in Video Settings first. Tap a video to reveal its controls, then tap the filmstrip. Frame mode pauses the video and displays milliseconds.",
+        "caption": "The upper video is paused in Frame Mode at 00:07.479."
+      },
+      {
+        "title": "Inspect the next recorded frame",
+        "text": "Use +1 Frame or −1 Frame beside Play. The screenshots show adjacent positions of 00:07.479 and 00:07.513. Read the actual time in your clip rather than assuming a fixed frame interval.",
+        "caption": "The upper player displays the next frame at 00:07.513."
+      },
+      {
+        "title": "Review movement at a slower speed",
+        "text": "Open the speedometer control and adjust Video Speed below 1×. Resume playback to watch the motion, then pause for further frame inspection. The slider supports very slow rates, including the 0.05× shown here.",
+        "caption": "Video Speed provides a slider and a Remember Speed option."
+      },
+      {
+        "title": "Repeat in the other player",
+        "text": "Reveal the second video’s controls and enable its filmstrip. Step that clip independently to find the same stage of the action. Equal elapsed times do not necessarily represent matching poses.",
+        "caption": "The lower video has its own frame buttons and millisecond readout."
+      }
+    ],
+    "features": [
+      {
+        "title": "Compare matching actions",
+        "description": "Find a shared event such as ball contact in each recording. Use synchronization points when you want to keep those events aligned during playback."
+      },
+      {
+        "title": "Reveal controls before tapping",
+        "description": "Playback controls fade away. Tap the video to show them again before choosing a small frame or speed button."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is the filmstrip missing?",
+        "answer": "Check Show Frame Mode Button in Video Settings and use a compatible local video. Web content does not necessarily expose these controls."
+      },
+      {
+        "question": "Does slow motion create extra detail?",
+        "answer": "No. It slows the recorded movement; it does not add missing frames or improve the source resolution."
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Como comparar vídeos esportivos quadro a quadro no iPhone ou iPad",
+    "description": "Ative os controles quadro a quadro no iPhone ou iPad, compare dois vídeos esportivos e use a reprodução lenta para examinar os movimentos.",
+    "summary": "Pause duas gravações de golfe e examine cada player sem passar repetidamente do momento que deseja observar.",
+    "answer": "Em Settings → Video Settings, ative Show Frame Mode Button. Abra dois vídeos locais, exiba os controles e toque no filme; use −1 Frame e +1 Frame ao lado de Reproduzir.",
+    "requirement": "As capturas usam um iPhone 17 Pro e duas gravações locais de golfe. Os controles de quadros exigem um vídeo local compatível.",
+    "steps": [
+      {
+        "title": "Exibir os controles de quadros",
+        "text": "Se o ícone de filme não aparecer, ative Show Frame Mode Button em Video Settings. Toque no vídeo e depois no filme. O modo pausa o vídeo e exibe milissegundos.",
+        "caption": "O vídeo superior está pausado em Frame Mode em 00:07.479."
+      },
+      {
+        "title": "Examinar o próximo quadro",
+        "text": "Use +1 Frame ou −1 Frame ao lado de Reproduzir. As capturas mostram posições vizinhas em 00:07.479 e 00:07.513. Leia o tempo real do arquivo sem presumir um intervalo fixo.",
+        "caption": "O player superior mostra o próximo quadro em 00:07.513."
+      },
+      {
+        "title": "Observar o movimento devagar",
+        "text": "Abra o velocímetro e ajuste Video Speed abaixo de 1×. Reproduza para observar o movimento e pause novamente para examinar os quadros. O controle permite velocidades baixas, como o 0.05× mostrado.",
+        "caption": "Video Speed oferece um controle deslizante e Remember Speed."
+      },
+      {
+        "title": "Ajustar o outro player",
+        "text": "Exiba os controles do segundo vídeo e ative seu filme. Avance separadamente até a mesma fase do movimento. Tempos iguais não representam necessariamente a mesma postura.",
+        "caption": "O vídeo inferior tem seus próprios botões de quadros e indicação de milissegundos."
+      }
+    ],
+    "features": [
+      {
+        "title": "Comparar a mesma ação",
+        "description": "Encontre um evento comum, como o contato com a bola. Use pontos de sincronização para mantê-lo alinhado durante a reprodução."
+      },
+      {
+        "title": "Exibir os controles primeiro",
+        "description": "Os controles desaparecem automaticamente. Toque no vídeo para exibi-los antes de escolher um pequeno botão de quadro ou velocidade."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Por que o ícone de filme não aparece?",
+        "answer": "Confira Show Frame Mode Button em Video Settings e use um vídeo local compatível. Conteúdo da web pode não oferecer esses controles."
+      },
+      {
+        "question": "A reprodução lenta acrescenta detalhes?",
+        "answer": "Não. Ela desacelera o movimento gravado, mas não cria quadros ausentes nem melhora a resolução original."
+      }
+    ]
+  },
+  "ko": {
+    "title": "iPhone 또는 iPad에서 스포츠 영상을 프레임별로 비교하는 방법",
+    "description": "iPhone 또는 iPad에서 프레임 버튼을 켜고 두 스포츠 영상을 개별적으로 이동하며 밀리초 표시와 느린 재생으로 동작을 살펴보세요.",
+    "summary": "두 골프 영상을 멈춘 뒤 각 플레이어를 조작하여 원하는 순간을 지나치지 않고 확인합니다.",
+    "answer": "Settings → Video Settings에서 Show Frame Mode Button을 켜세요. 로컬 영상 두 개를 열고 영상의 필름 아이콘을 누른 다음 재생 버튼 옆의 −1 Frame과 +1 Frame을 사용합니다.",
+    "requirement": "화면은 iPhone 17 Pro와 두 개의 로컬 골프 영상입니다. 프레임 컨트롤에는 호환되는 로컬 영상이 필요합니다.",
+    "steps": [
+      {
+        "title": "프레임 컨트롤 표시하기",
+        "text": "필름 아이콘이 없으면 Video Settings에서 Show Frame Mode Button을 켜세요. 영상을 눌러 컨트롤을 표시하고 필름 아이콘을 누르면 영상이 멈추고 밀리초가 표시됩니다.",
+        "caption": "위쪽 영상이 Frame Mode에서 00:07.479에 멈춰 있습니다."
+      },
+      {
+        "title": "인접 프레임 확인하기",
+        "text": "재생 버튼 옆의 +1 Frame 또는 −1 Frame을 누르세요. 예시의 인접 위치는 00:07.479와 00:07.513입니다. 프레임 간격을 고정값으로 가정하지 말고 실제 시간을 확인하세요.",
+        "caption": "위쪽 플레이어가 다음 프레임인 00:07.513을 표시합니다."
+      },
+      {
+        "title": "느린 속도로 동작 살펴보기",
+        "text": "속도계 버튼을 열어 Video Speed를 1×보다 낮게 설정하세요. 재생으로 동작을 보고 다시 멈춰 프레임을 살펴봅니다. 그림의 0.05× 같은 낮은 속도도 지원합니다.",
+        "caption": "Video Speed에는 슬라이더와 Remember Speed 옵션이 있습니다."
+      },
+      {
+        "title": "다른 플레이어도 조정하기",
+        "text": "두 번째 영상의 컨트롤을 표시하고 필름 아이콘을 켭니다. 같은 동작 단계가 되도록 개별적으로 이동하세요. 같은 경과 시간이 같은 자세를 뜻하지는 않습니다.",
+        "caption": "아래쪽 영상에도 독립적인 프레임 버튼과 밀리초 표시가 있습니다."
+      }
+    ],
+    "features": [
+      {
+        "title": "같은 동작 단계 비교하기",
+        "description": "공이 맞는 순간처럼 두 영상에 공통된 사건을 찾으세요. 재생 중에도 맞추려면 동기화 지점을 사용합니다."
+      },
+      {
+        "title": "컨트롤 먼저 표시하기",
+        "description": "재생 컨트롤은 자동으로 사라집니다. 작은 프레임 또는 속도 버튼을 누르기 전에 영상을 눌러 다시 표시하세요."
+      }
+    ],
+    "faq": [
+      {
+        "question": "필름 아이콘이 없는 이유는 무엇인가요?",
+        "answer": "Video Settings의 Show Frame Mode Button을 확인하고 호환되는 로컬 영상을 사용하세요. 웹 콘텐츠는 이 컨트롤을 제공하지 않을 수 있습니다."
+      },
+      {
+        "question": "느린 재생으로 세부 정보가 추가되나요?",
+        "answer": "아니요. 녹화된 동작을 느리게 보여 줄 뿐 누락된 프레임이나 원본 해상도를 개선하지 않습니다."
+      }
+    ]
+  },
+  "es": {
+    "title": "Cómo comparar vídeos deportivos fotograma a fotograma en iPhone o iPad",
+    "description": "Activa los controles por fotogramas en iPhone o iPad, compara dos vídeos deportivos y usa la reproducción lenta para examinar el movimiento.",
+    "summary": "Pausa dos grabaciones de golf y examina cada reproductor sin pasar repetidamente del instante que buscas.",
+    "answer": "En Settings → Video Settings, activa Show Frame Mode Button. Abre dos vídeos locales, muestra los controles y toca la película; usa −1 Frame y +1 Frame junto a Reproducir.",
+    "requirement": "Las capturas usan un iPhone 17 Pro y dos grabaciones locales de golf. Los controles por fotogramas requieren un vídeo local compatible.",
+    "steps": [
+      {
+        "title": "Mostrar los controles por fotogramas",
+        "text": "Si falta el icono de película, activa Show Frame Mode Button en Video Settings. Toca el vídeo y después la película. Este modo pausa el vídeo y muestra milisegundos.",
+        "caption": "El vídeo superior está pausado en Frame Mode en 00:07.479."
+      },
+      {
+        "title": "Examinar el fotograma siguiente",
+        "text": "Usa +1 Frame o −1 Frame junto a Reproducir. Las capturas muestran posiciones contiguas en 00:07.479 y 00:07.513. Lee el tiempo real del vídeo sin suponer un intervalo fijo.",
+        "caption": "El reproductor superior muestra el fotograma siguiente en 00:07.513."
+      },
+      {
+        "title": "Ver el movimiento más despacio",
+        "text": "Abre el velocímetro y ajusta Video Speed por debajo de 1×. Reproduce para observar el movimiento y vuelve a pausar para examinar fotogramas. El control permite valores tan bajos como el 0.05× mostrado.",
+        "caption": "Video Speed ofrece un deslizador y Remember Speed."
+      },
+      {
+        "title": "Ajustar el otro reproductor",
+        "text": "Muestra los controles del segundo vídeo y activa su película. Avanza por separado hasta la misma fase del movimiento. El mismo tiempo transcurrido no garantiza la misma postura.",
+        "caption": "El vídeo inferior tiene sus propios botones por fotogramas y lectura en milisegundos."
+      }
+    ],
+    "features": [
+      {
+        "title": "Comparar la misma acción",
+        "description": "Busca un evento común, como el contacto con la pelota. Usa puntos de sincronización si quieres mantenerlo alineado durante la reproducción."
+      },
+      {
+        "title": "Mostrar primero los controles",
+        "description": "Los controles se ocultan automáticamente. Toca el vídeo para mostrarlos antes de elegir un botón pequeño de fotogramas o velocidad."
+      }
+    ],
+    "faq": [
+      {
+        "question": "¿Por qué falta el icono de película?",
+        "answer": "Comprueba Show Frame Mode Button en Video Settings y utiliza un vídeo local compatible. El contenido web puede no ofrecer estos controles."
+      },
+      {
+        "question": "¿La cámara lenta añade detalles?",
+        "answer": "No. Ralentiza el movimiento grabado, pero no crea fotogramas ausentes ni mejora la resolución original."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "title": "如何在 iPhone 或 iPad 上逐帧对比运动视频",
+    "description": "在 iPhone 或 iPad 上启用逐帧按钮，分别定位两段运动视频，通过毫秒读数和慢速播放检查高尔夫挥杆等动作。",
+    "summary": "暂停两段高尔夫录像，分别检查每个播放器，避免反复拖过要看的关键时刻。",
+    "answer": "在 Settings → Video Settings 开启 Show Frame Mode Button。打开两段本地视频，显示控制栏并点按胶片图标，再使用播放按钮旁的 −1 Frame 和 +1 Frame。",
+    "requirement": "截图使用 iPhone 17 Pro 和两段本地高尔夫录像。逐帧控制需要兼容的本地视频。",
+    "steps": [
+      {
+        "title": "显示并启用逐帧控制",
+        "text": "若没有胶片图标，先在 Video Settings 开启 Show Frame Mode Button。点按视频显示控制栏，再点按胶片图标。逐帧模式会暂停视频并显示毫秒。",
+        "caption": "上方视频在 Frame Mode 中暂停于 00:07.479。"
+      },
+      {
+        "title": "检查下一帧画面",
+        "text": "使用播放按钮旁的 +1 Frame 或 −1 Frame。截图展示相邻的 00:07.479 和 00:07.513。请读取自己素材的实际时间，不要假定每帧间隔固定。",
+        "caption": "上方播放器显示 00:07.513 的下一帧。"
+      },
+      {
+        "title": "慢速查看动作过程",
+        "text": "打开速度表按钮，将 Video Speed 调到 1× 以下。继续播放观察动作，再暂停逐帧检查。滑块支持更低的速度，包括图示的 0.05×。",
+        "caption": "Video Speed 提供速度滑块及 Remember Speed 选项。"
+      },
+      {
+        "title": "分别调整另一个播放器",
+        "text": "显示第二段视频的控制栏并启用胶片按钮，单独逐帧找到相同动作阶段。两段视频的相同秒数不一定对应相同姿态。",
+        "caption": "下方视频有独立的逐帧按钮和毫秒读数。"
+      }
+    ],
+    "features": [
+      {
+        "title": "比较相同动作阶段",
+        "description": "分别找到击球等共同事件。需要播放时保持这些事件对齐，可使用同步点。"
+      },
+      {
+        "title": "先显示控制栏",
+        "description": "播放控件会自动隐藏。使用较小的逐帧或速度按钮前，先点按视频使其重新显示。"
+      }
+    ],
+    "faq": [
+      {
+        "question": "为什么没有胶片图标？",
+        "answer": "检查 Video Settings 中的 Show Frame Mode Button，并使用兼容的本地视频。网页内容不一定提供这些控制。"
+      },
+      {
+        "question": "慢放会增加画面细节吗？",
+        "answer": "不会。它放慢已录下的动作，不会补出缺失帧或提高原视频分辨率。"
+      }
+    ]
+  },
+  "de": {
+    "title": "Sportvideos auf dem iPhone oder iPad Bild für Bild vergleichen",
+    "description": "Aktivieren Sie die Einzelbildsteuerung auf dem iPhone oder iPad, vergleichen Sie zwei Sportvideos und betrachten Sie Bewegungen in Zeitlupe.",
+    "summary": "Pausieren Sie zwei Golfaufnahmen und untersuchen Sie jeden Player einzeln, ohne die gesuchte Stelle beim Spulen zu überspringen.",
+    "answer": "Aktivieren Sie unter Settings → Video Settings die Option Show Frame Mode Button. Öffnen Sie zwei lokale Videos, zeigen Sie die Steuerung an und tippen Sie auf den Filmstreifen sowie −1 Frame oder +1 Frame.",
+    "requirement": "Die Screenshots zeigen ein iPhone 17 Pro und zwei lokale Golfaufnahmen. Die Einzelbildsteuerung benötigt ein kompatibles lokales Video.",
+    "steps": [
+      {
+        "title": "Einzelbildsteuerung anzeigen",
+        "text": "Fehlt der Filmstreifen, aktivieren Sie Show Frame Mode Button unter Video Settings. Tippen Sie auf das Video und dann auf den Filmstreifen. Der Modus pausiert das Video und zeigt Millisekunden an.",
+        "caption": "Das obere Video steht im Frame Mode bei 00:07.479."
+      },
+      {
+        "title": "Das nächste Bild prüfen",
+        "text": "Verwenden Sie +1 Frame oder −1 Frame neben Wiedergabe. Die Bilder zeigen benachbarte Positionen bei 00:07.479 und 00:07.513. Lesen Sie die tatsächliche Zeit ab; der Abstand ist nicht für jedes Video gleich.",
+        "caption": "Der obere Player zeigt das nächste Bild bei 00:07.513."
+      },
+      {
+        "title": "Die Bewegung langsam ansehen",
+        "text": "Öffnen Sie das Tachosymbol und stellen Sie Video Speed unter 1× ein. Starten Sie die Wiedergabe und pausieren Sie erneut zur Einzelbildprüfung. Auch sehr langsame Werte wie die gezeigten 0.05× sind möglich.",
+        "caption": "Video Speed bietet einen Regler und Remember Speed."
+      },
+      {
+        "title": "Den zweiten Player einstellen",
+        "text": "Zeigen Sie die Steuerung des zweiten Videos an und aktivieren Sie dessen Filmstreifen. Suchen Sie dieselbe Bewegungsphase durch einzelne Schritte. Gleiche Laufzeiten bedeuten nicht automatisch gleiche Körperhaltungen.",
+        "caption": "Das untere Video besitzt eigene Einzelbildtasten und eine Millisekundenanzeige."
+      }
+    ],
+    "features": [
+      {
+        "title": "Dasselbe Ereignis vergleichen",
+        "description": "Suchen Sie etwa den Ballkontakt in beiden Aufnahmen. Synchronisationspunkte helfen, diese Ereignisse bei der Wiedergabe auszurichten."
+      },
+      {
+        "title": "Zuerst die Steuerung einblenden",
+        "description": "Die Bedienelemente werden automatisch ausgeblendet. Tippen Sie auf das Video, bevor Sie eine kleine Einzelbild- oder Geschwindigkeitstaste wählen."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum fehlt der Filmstreifen?",
+        "answer": "Prüfen Sie Show Frame Mode Button unter Video Settings und verwenden Sie ein kompatibles lokales Video. Webinhalte bieten diese Steuerung nicht immer."
+      },
+      {
+        "question": "Erzeugt Zeitlupe zusätzliche Details?",
+        "answer": "Nein. Sie verlangsamt die aufgezeichnete Bewegung, ergänzt aber keine fehlenden Bilder und erhöht nicht die Auflösung."
+      }
+    ]
+  }
+}
