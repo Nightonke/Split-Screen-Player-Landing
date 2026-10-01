@@ -1,5 +1,6 @@
 ---
 import { landingContent } from "@/i18n/content";
+import { androidPrivacySupplement } from "@/i18n/androidPrivacySupplement";
 import { pageChrome } from "@/i18n/chrome";
 import { defaultLocale, getLanguageLinks, localizedPath } from "@/i18n/locales";
 import Layout from "@layouts/Layout.astro";
@@ -25,7 +26,7 @@ const languageLinks = getLanguageLinks(defaultLocale, "privacy");
 	<MarkdownContent
 		breadcrumbAriaLabel={chrome.breadcrumbLabel}
 		breadcrumbLabel={content.legal.privacyTitle}
-		content={content.legal.privacy}
+		content={`${content.legal.privacy}\n\n${androidPrivacySupplement[defaultLocale]}`}
 		homeLabel={chrome.homeLabel}
 		homeHref={localizedPath(defaultLocale)}
 	/>
