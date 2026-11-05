@@ -12,8 +12,8 @@ const copy = getClipDockHome(Astro.props.locale);
       <div class="related-app-identity">
         <img src="/images/clipdock-app-icon.jpg" alt="" width="80" height="80" loading="lazy" />
         <div>
+          <p class="related-app-name" dir="ltr">ClipDock</p>
           <p class="related-app-label">{copy.label}</p>
-          <p class="related-app-name" dir="ltr">ClipDock <span>iPhone / iPad</span></p>
         </div>
       </div>
       <div class="related-app-copy">
@@ -41,9 +41,8 @@ const copy = getClipDockHome(Astro.props.locale);
   }
   .related-app-identity { display: flex; align-items: center; gap: 18px; min-width: 0; }
   .related-app-identity img { flex: 0 0 64px; width: 64px; height: 64px; border-radius: 15px; }
-  .related-app-label { margin: 0 0 8px; color: var(--ink-soft); font-size: .8rem; line-height: 1.5; }
+  .related-app-label { margin: 4px 0 0; color: var(--ink-soft); font-size: .8rem; line-height: 1.5; }
   .related-app-name { margin: 0; font-weight: 800; font-size: 1.25rem; }
-  .related-app-name span { display: block; margin-top: 4px; color: var(--ink-soft); font-size: .75rem; font-weight: 500; }
   .related-app-copy { min-width: 0; }
   .related-app-copy h2 {
     margin: 0 0 16px;
