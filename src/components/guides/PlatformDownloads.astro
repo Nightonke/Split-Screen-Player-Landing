@@ -1,8 +1,10 @@
 ---
 import { appFacts } from "@config/appFacts";
-import { FaApple, FaGooglePlay } from "react-icons/fa";
+import { FaApple, FaChevronDown, FaGooglePlay, FaQrcode } from "react-icons/fa";
+import { FiArrowUpRight } from "react-icons/fi";
 import { pageChrome } from "@/i18n/chrome";
 import { articleChrome } from "@/i18n/articleChrome";
+import { installOnAnotherDevice } from "@/i18n/downloadCopy";
 import type { Locale } from "@/i18n/locales";
 interface Props { locale?: Locale; primary?: "ios" | "android"; }
 const { primary = "ios", locale = "zh-Hans" } = Astro.props;
@@ -14,30 +16,69 @@ const links = [
 ].sort((a, b) => Number(b.platform === primary) - Number(a.platform === primary));
 ---
 <div class="platform-downloads" aria-label={copy.choosePlatform}>
-  {links.map(({ href, label, store, qr, Icon }) => (
-    <a class="button button-dark" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${store} · ${download} · ${label}`}>
-      <span class="platform-download-icon"><Icon aria-hidden="true" /></span>
-      <span class="platform-download-copy">{label}<small><span>{store}</span><span class="platform-download-separator"> · </span><span>{download}</span></small></span>
-      <img class="platform-download-qr" src={qr} width="84" height="84" alt={`${copy.scan} · ${store} · ${label}`} />
-    </a>
-  ))}
+  <div class="platform-download-links">
+    {links.map(({ href, label, store, qr, Icon }) => (
+      <a class="button button-dark platform-download-link" href={href} target="_blank" rel="noopener noreferrer" aria-label={`${store} · ${download} · ${label}`}>
+        <span class="platform-download-icon"><Icon aria-hidden="true" /></span>
+        <span class="platform-download-copy">
+          <strong class="platform-download-desktop">{label}</strong>
+          <strong class="platform-download-mobile">{store}</strong>
+          <small class="platform-download-desktop">{store} · {download}</small>
+          <small class="platform-download-mobile">{label}</small>
+        </span>
+        <img class="platform-download-qr" src={qr} width="84" height="84" alt={`${copy.scan} · ${store} · ${label}`} loading="lazy" />
+        <FiArrowUpRight className="platform-download-arrow" aria-hidden="true" />
+      </a>
+    ))}
+  </div>
+  <details class="platform-qr-disclosure">
+    <summary>
+      <FaQrcode aria-hidden="true" />
+      <span>{installOnAnotherDevice[locale]}</span>
+      <FaChevronDown className="platform-qr-chevron" aria-hidden="true" />
+    </summary>
+    <div class="platform-qr-options">
+      {links.map(({ href, label, store, qr }) => (
+        <a href={href} target="_blank" rel="noopener noreferrer" aria-label={`${copy.scan} · ${store} · ${label}`}>
+          <img src={qr} width="104" height="104" alt={`${copy.scan} · ${store} · ${label}`} loading="lazy" />
+          <span>{label}</span>
+        </a>
+      ))}
+    </div>
+  </details>
 </div>
 <style>
   .platform-downloads { display: grid; gap: 12px; width: min(100%, 360px); }
-  .platform-downloads a { display: grid; grid-template-columns: 24px minmax(0, 1fr) 84px; width: 100%; gap: 12px; padding: 12px; text-align: start; }
+  .platform-download-links { display: grid; gap: 12px; }
+  .platform-download-link { display: grid; grid-template-columns: 24px minmax(0, 1fr) 84px; width: 100%; gap: 12px; padding: 12px; text-align: start; margin: 0; }
+  .platform-download-links > .platform-download-link { margin: 0; }
   .platform-download-icon { display: flex; align-items: center; justify-content: center; }
   .platform-download-copy { display: grid; gap: 6px; line-height: 1.4; font-size: .95rem; }
+  .platform-download-copy strong { font-weight: 750; }
   .platform-downloads small { font-size: .7rem; font-weight: 500; opacity: .85; }
   .platform-download-qr { width: 84px; height: 84px; border-radius: 6px; background: white; }
+  .platform-download-mobile, .platform-download-arrow, .platform-qr-disclosure { display: none; }
   @media (max-width: 680px) {
-    .platform-downloads { width: min(100%, 500px); grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-    .platform-downloads a { min-width: 0; grid-template-columns: 20px minmax(0, 1fr); grid-template-rows: 1fr auto; align-items: start; gap: 10px 6px; padding: 12px 10px; }
-    .platform-download-icon { padding-block-start: 1px; }
-    .platform-download-icon svg { width: 20px; height: 20px; }
-    .platform-download-copy { min-width: 0; gap: 4px; font-size: .85rem; overflow-wrap: anywhere; }
-    .platform-downloads small { line-height: 1.5; }
-    .platform-downloads small > span { display: block; }
-    .platform-downloads small > .platform-download-separator { display: none; }
-    .platform-download-qr { grid-column: 1 / -1; justify-self: center; }
+    .platform-downloads { width: min(100%, 500px); gap: 6px; }
+    .platform-download-links { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .platform-download-link { min-width: 0; min-height: 76px; grid-template-columns: minmax(0, 1fr) 16px; gap: 8px; padding: 14px 12px; border-radius: 16px; }
+    .platform-download-link:hover { transform: none; box-shadow: none; background: var(--ink-soft); }
+    .platform-download-icon, .platform-download-desktop, .platform-download-qr { display: none; }
+    .platform-download-mobile, .platform-qr-disclosure { display: block; }
+    .platform-download-copy { min-width: 0; gap: 3px; overflow-wrap: anywhere; }
+    .platform-download-copy small { font-weight: 400; opacity: .72; }
+    .platform-download-link .platform-download-arrow { display: block; width: 16px; height: 16px; opacity: .8; }
+    .platform-qr-disclosure > summary { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 8px 4px; list-style: none; color: var(--ink-soft); font-size: .75rem; line-height: 1.5; text-align: center; cursor: pointer; }
+    .platform-qr-disclosure > summary::-webkit-details-marker { display: none; }
+    .platform-qr-disclosure > summary > span { min-width: 0; overflow-wrap: anywhere; }
+    .platform-qr-disclosure > summary > svg { flex: none; width: 13px; height: 13px; }
+    .platform-qr-disclosure[open] .platform-qr-chevron { transform: rotate(180deg); }
+    .platform-qr-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding-top: 18px; border-top: 1px solid var(--line); }
+    .platform-qr-options a { display: grid; justify-items: center; align-content: start; gap: 9px; min-width: 0; border-radius: 8px; text-align: center; font-size: .75rem; line-height: 1.5; color: var(--ink-soft); overflow-wrap: anywhere; }
+    .platform-qr-options img { width: 104px; height: 104px; border-radius: 8px; }
+  }
+  @media (max-width: 360px) {
+    .platform-download-link { grid-template-columns: minmax(0, 1fr); }
+    .platform-download-link .platform-download-arrow { display: none; }
   }
 </style>
