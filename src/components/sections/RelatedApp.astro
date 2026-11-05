@@ -1,0 +1,65 @@
+---
+import { getClipDockHome } from "@/i18n/clipDock";
+import type { Locale } from "@/i18n/locales";
+
+interface Props { locale: Locale; }
+const copy = getClipDockHome(Astro.props.locale);
+---
+
+<section class="related-app-section" aria-labelledby="related-app-title">
+  <div class="site-shell">
+    <div class="related-app-card">
+      <div class="related-app-identity">
+        <img src="/images/clipdock-app-icon.jpg" alt="" width="80" height="80" loading="lazy" />
+        <div>
+          <p class="related-app-label">{copy.label}</p>
+          <p class="related-app-name" dir="ltr">ClipDock <span>iPhone / iPad</span></p>
+        </div>
+      </div>
+      <div class="related-app-copy">
+        <h2 id="related-app-title">{copy.title}</h2>
+        <p>{copy.description}</p>
+        <a class="button button-light related-app-link" href={copy.href}>
+          <span>{copy.linkLabel}</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .related-app-section { padding-block: 32px 56px; }
+  .related-app-card {
+    display: grid;
+    grid-template-columns: minmax(200px, .75fr) minmax(0, 1.6fr);
+    gap: clamp(28px, 5vw, 64px);
+    align-items: start;
+    padding: clamp(24px, 4vw, 48px);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-md);
+    background: var(--paper-strong);
+  }
+  .related-app-identity { display: flex; align-items: center; gap: 18px; min-width: 0; }
+  .related-app-identity img { flex: 0 0 64px; width: 64px; height: 64px; border-radius: 15px; }
+  .related-app-label { margin: 0 0 8px; color: var(--ink-soft); font-size: .8rem; line-height: 1.5; }
+  .related-app-name { margin: 0; font-weight: 800; font-size: 1.25rem; }
+  .related-app-name span { display: block; margin-top: 4px; color: var(--ink-soft); font-size: .75rem; font-weight: 500; }
+  .related-app-copy { min-width: 0; }
+  .related-app-copy h2 {
+    margin: 0 0 16px;
+    font-family: var(--display);
+    font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+    line-height: 1.2;
+    letter-spacing: -.035em;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
+  .related-app-copy > p { margin: 0 0 24px; color: var(--ink-soft); line-height: 1.8; }
+  .related-app-link { max-width: 100%; min-height: 48px; text-align: start; line-height: 1.4; }
+  .related-app-link span:first-child { min-width: 0; overflow-wrap: anywhere; }
+  .related-app-link span:last-child { flex-shrink: 0; }
+  @media (max-width: 760px) {
+    .related-app-card { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+    .related-app-section { padding-block: 24px 40px; }
+  }
+</style>

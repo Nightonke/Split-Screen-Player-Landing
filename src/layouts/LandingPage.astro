@@ -11,6 +11,7 @@ import { getGuides } from "@/i18n/guideCatalog";
 import { appFacts } from "@config/appFacts";
 import { FaStar } from "react-icons/fa";
 import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
+import RelatedApp from "../components/sections/RelatedApp.astro";
 import Layout from "./Layout.astro";
 
 type LandingContent = (typeof landingContent)[keyof typeof landingContent];
@@ -262,6 +263,8 @@ structuredData.push({
 				</section>
 			))}
 		</div>
+
+		<RelatedApp locale={content.locale} />
 
 		<section id="use-cases" class="section use-cases">
 			<div class="site-shell">

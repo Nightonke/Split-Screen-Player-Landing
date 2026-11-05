@@ -7,6 +7,7 @@ import { articleChrome } from "@/i18n/articleChrome";
 import { pageChrome } from "@/i18n/chrome";
 import { localizedPath, isGuideLocale, type Locale } from "@/i18n/locales";
 import { appFacts } from "@config/appFacts";
+import { getClipDockGuide } from "@/i18n/clipDock";
 import PlatformDownloads from "./PlatformDownloads.astro";
 import GuideScreenshot from "./GuideScreenshot.astro";
 import GuideNextSteps from "./GuideNextSteps.astro";
@@ -14,6 +15,7 @@ import "@/styles/guide-article.css";
 interface Props { guide: GuidePage; locale: Locale; }
 const { guide, locale } = Astro.props;
 const article = guide.article!;
+const relatedTool = getClipDockGuide(locale, guide.slug);
 const copy = articleChrome[locale];
 const chrome = pageChrome[locale];
 const pages = getGuides(locale);
@@ -95,6 +97,9 @@ const related = [...preferred, ...pages].filter((page, index, all) =>
           <p>{feature.description}</p>
           {feature.link && <a class="text-link" href={localizedPath(locale, feature.link.path)}>{feature.link.label}</a>}
         </section>)}
+        {relatedTool && <aside class="article-tool-note">
+          <p>{relatedTool.before}{relatedTool.separator}<a href={relatedTool.href}>{relatedTool.label}</a>{relatedTool.separator}{relatedTool.after}</p>
+        </aside>}
       </section>
       <section class="article-guide-faq" id="questions">
         <h2>{copy.faq}</h2>
@@ -119,6 +124,17 @@ const related = [...preferred, ...pages].filter((page, index, all) =>
   <button type="button" class="article-guide-lightbox-close" aria-label={copy.close}>{copy.close} ×</button>
   <div class="article-guide-lightbox-content"></div>
 </dialog>
+<style>
+  .article-tool-note {
+    margin-top: 28px;
+    padding: 20px 24px;
+    border-inline-start: 3px solid var(--blue-strong);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    background: var(--paper-strong);
+  }
+  .article-tool-note p { margin: 0; }
+  .article-tool-note a { text-decoration: underline; text-underline-offset: .2em; font-weight: 700; }
+</style>
 <script>
   const dialog = document.querySelector<HTMLDialogElement>(".article-guide-lightbox");
   const content = dialog?.querySelector<HTMLElement>(".article-guide-lightbox-content");

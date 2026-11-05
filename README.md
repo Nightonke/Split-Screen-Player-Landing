@@ -71,6 +71,16 @@ Partially translated guide libraries show their available tutorials plus a label
 
 `npm run build` verifies translation completeness, source freshness, facts and placeholders, generated guide routes, core and guide metadata, reciprocal alternates, page direction, sitemap coverage and internal links. `npm run check:localization` reruns these checks against an existing build.
 
+## Related app recommendation
+
+Homepages recommend ClipDock after the main feature chapters. The copy in
+`src/i18n/clipDock.ts` covers all 39 site languages; links match ClipDock's nine
+published languages and otherwise lead to its English homepage. The iOS local-file
+and display-transform tutorials also contain contextual links to ClipDock's
+transcode and resize articles, across their nine published translations. Both apps
+are used separately: users save prepared files, then import them into Split Screen
+Player. Recommendations are static HTML links and do not change indexing metadata.
+
 ## Tech Stack
 
 - Astro 5
