@@ -10,6 +10,7 @@ The site is built with Astro, React, TypeScript, and Tailwind CSS, then deployed
 - Version: 1.0.20
 - Updated: August 3, 2026
 - Rating copy: 4.9 / 166 ratings
+- Google Play rating: 4.5 / 23 reviews (displayed separately from App Store ratings)
 - Core message: play, compare, sync, and export up to 36 videos with 144 layouts
 - New release highlight: IPTV / Xtream Codes live channel support
 

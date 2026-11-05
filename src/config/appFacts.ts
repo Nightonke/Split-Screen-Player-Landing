@@ -1,6 +1,6 @@
 /**
  * Public product facts used across visible copy, metadata, and structured data.
- * Update this file when the App Store listing or product limits change.
+ * Update this file when a store listing or product limit changes.
  */
 export const appFacts = {
 	appStoreAppId: 6758291951,
@@ -11,6 +11,10 @@ export const appFacts = {
 	rating: {
 		score: 4.9,
 		count: 166,
+	},
+	googlePlayRating: {
+		score: 4.5,
+		reviewCount: 23,
 	},
 	ageRating: "4+",
 	version: "1.0.26",

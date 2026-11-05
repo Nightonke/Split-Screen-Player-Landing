@@ -6,6 +6,7 @@ import { getGuideHub, getGuideEntry } from "@/i18n/guideHub";
 import { pageChrome } from "@/i18n/chrome";
 import { localizedPath } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
+import { getGooglePlayRatingText } from "@/i18n/storeRatings";
 import { getGuides } from "@/i18n/guideCatalog";
 import { appFacts } from "@config/appFacts";
 import { FaStar } from "react-icons/fa";
@@ -21,6 +22,7 @@ interface Props {
 
 const { content, languageLinks } = Astro.props;
 const marketing = marketingContent[content.locale];
+const storeRatingTexts = [marketing.hero.ratingText, getGooglePlayRatingText(content.locale)];
 const guides = getGuideHub(content.locale);
 const pages = getGuides(content.locale);
 const guideEntry = pages.length ? undefined : getGuideEntry(content.locale);
@@ -101,6 +103,13 @@ structuredData.push({
   image: new URL(content.logo, siteURL).href,
   featureList: marketing.capabilities,
   offers: { "@type": "Offer", price: 0, priceCurrency: "USD", availability: "https://schema.org/InStock" },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: appFacts.googlePlayRating.score,
+    reviewCount: appFacts.googlePlayRating.reviewCount,
+    bestRating: 5,
+    worstRating: 1,
+  },
 });
 ---
 
@@ -129,7 +138,9 @@ structuredData.push({
 							<PlatformDownloads locale={content.locale} />
 						</div>
 						<p class="hero-proof">
-							<span class="hero-proof-item"><span>{marketing.hero.ratingText.split("★").map((text, index) => <>{index > 0 && <FaStar className="hero-rating-star" aria-hidden="true" />}{text}</>)}</span></span>
+							{storeRatingTexts.map(text => (
+								<span class="hero-proof-item"><span>{text.split("★").map((part, index) => <>{index > 0 && <FaStar className="hero-rating-star" aria-hidden="true" />}{part}</>)}</span></span>
+							))}
 							<span class="hero-proof-item">{marketing.hero.privacyText}</span>
 						</p>
 					</div>
