@@ -29,7 +29,7 @@ const titleId = `language-picker-title-${placement}`;
 
 <language-picker class:list={["language-picker", `language-picker--${placement}`]}>
   <details name="mobile-header-menu">
-    <summary class="language-picker-trigger" aria-label={`${copy.title}: ${active?.label}`}>
+    <summary class:list={["language-picker-trigger", { "header-icon-control": placement === "header" }]} aria-label={`${copy.title}: ${active?.label}`}>
       <img class="language-flag" src={`/images/flags/${localeMeta[locale].flagCode}.svg`} alt="" width="24" height="18" />
       <span class="language-trigger-label" dir="auto">{active?.label}</span>
       <FaChevronDown className="language-trigger-chevron" aria-hidden="true" />
@@ -152,10 +152,9 @@ const titleId = `language-picker-title-${placement}`;
   .language-picker--footer .language-picker-panel { inset-block-start: auto; inset-block-end: calc(100% + 10px); inset-inline-end: 0; }
   @media (max-width: 1120px) {
     .language-picker--header .language-trigger-label, .language-picker--header .language-trigger-chevron { display: none; }
-    .language-picker--header .language-picker-trigger { width: 46px; padding: 0; }
+    .language-picker--header .language-picker-trigger { width: var(--header-control-size, 46px); padding: 0; }
   }
   @media (max-width: 680px) {
-    .language-picker--header .language-picker-trigger { width: 42px; min-height: 42px; }
     .language-picker-panel { width: calc(100vw - 48px); max-height: min(72dvh, 620px); padding: 12px; border-radius: 18px; inset-inline-end: 7px; }
     .language-picker-title { font-size: 1rem; gap: 8px; }
     .language-picker-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 4px; }

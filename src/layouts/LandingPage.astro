@@ -8,6 +8,7 @@ import { localizedPath } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import { getGuides } from "@/i18n/guideCatalog";
 import { appFacts } from "@config/appFacts";
+import { FaStar } from "react-icons/fa";
 import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
 import Layout from "./Layout.astro";
 
@@ -128,8 +129,8 @@ structuredData.push({
 							<PlatformDownloads locale={content.locale} />
 						</div>
 						<p class="hero-proof">
-							<span>{marketing.hero.ratingText}</span>
-							<span>{marketing.hero.privacyText}</span>
+							<span class="hero-proof-item"><span>{marketing.hero.ratingText.split("★").map((text, index) => <>{index > 0 && <FaStar className="hero-rating-star" aria-hidden="true" />}{text}</>)}</span></span>
+							<span class="hero-proof-item">{marketing.hero.privacyText}</span>
 						</p>
 					</div>
 

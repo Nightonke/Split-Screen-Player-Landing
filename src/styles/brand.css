@@ -533,19 +533,28 @@ html[lang^="zh"] .hero-title {
 	font-weight: 800;
 }
 
-.hero-proof span {
+.hero-proof-item {
 	display: inline-flex;
 	align-items: center;
 	gap: 7px;
 }
 
-.hero-proof span::before {
+.hero-proof-item::before {
+	flex: none;
 	width: 7px;
 	height: 7px;
 	border: 1px solid var(--ink);
 	border-radius: 50%;
 	background: var(--blue);
 	content: "";
+}
+
+.hero-rating-star {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: -3px;
+	color: #a86408;
 }
 
 .hero-qr {
@@ -2334,22 +2343,36 @@ html[lang^="zh"] .hero-title {
 	}
 
 	.header-actions {
+		--header-control-size: 44px;
 		gap: 6px;
 		padding-inline-end: 6px;
 	}
 
-	.header-actions > .button {
-		display: inline-flex;
-		min-height: 42px;
-		border-radius: 11px;
-		padding-inline: 0.85rem;
-		font-size: 0.78rem;
-		white-space: nowrap;
-	}
-	.mobile-menu > summary {
-		width: 42px;
-		min-height: 42px;
+	.header-actions .header-icon-control {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: var(--header-control-size);
+		height: var(--header-control-size);
+		min-width: var(--header-control-size);
+		min-height: var(--header-control-size);
 		padding: 0;
+		border-width: 1.5px;
+		border-radius: 12px;
+		line-height: 1;
+	}
+	.header-actions .header-icon-control > span {
+		display: none;
+	}
+	.header-actions .header-icon-control:hover {
+		transform: none;
+		box-shadow: none;
+	}
+	.header-actions .header-icon-control > svg {
+		display: block;
+		width: 20px;
+		height: 20px;
+		flex: none;
 	}
 
 	.hero {
@@ -2697,23 +2720,6 @@ html[lang^="zh"] .hero-title {
 		white-space: nowrap;
 	}
 
-	.header-actions > .header-store-button {
-		display: inline-flex;
-		width: 42px;
-		height: 42px;
-		min-height: 42px;
-		padding: 0;
-	}
-
-	.header-store-button span {
-		display: none;
-	}
-
-	.header-store-button svg {
-		display: block;
-		width: 1.15rem;
-		height: 1.15rem;
-	}
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2864,10 +2870,6 @@ html[lang^="zh"] .hero-title {
 .platform-store-popover span { display: grid; gap: 5px; }
 .platform-store-popover small { font-size: .72rem; color: var(--ink-soft); }
 .closing-panel > .platform-downloads { margin: 28px auto 0; }
-@media (max-width: 680px) {
-  .platform-store-menu > summary { width: 44px; height: 44px; min-width: 44px; padding: 0; border-radius: 12px; }
-  .platform-store-menu > summary span { display: none; }
-}
 .hero-actions:has(.platform-downloads) { display: block; width: min(100%, 500px); }
 .hero-actions .platform-downloads .button { height: auto; min-height: 76px; }
 

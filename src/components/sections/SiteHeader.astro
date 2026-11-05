@@ -50,13 +50,13 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 			<LanguagePicker languageLinks={languageLinks} />
 
 			{googlePlayHref ? <details class="platform-store-menu" name="mobile-header-menu">
-				<summary class="button button-dark button-small" aria-label={nav.getApp}><FaDownload aria-hidden="true" /><span>{nav.getApp}</span></summary>
+				<summary class="button button-dark button-small header-icon-control" aria-label={nav.getApp}><FaDownload aria-hidden="true" /><span>{nav.getApp}</span></summary>
 				<div class="language-popover platform-store-popover">
 					<a href={storeHref} target="_blank" rel="noopener noreferrer"><FaApple aria-hidden="true" /><span>iPhone / iPad<small>App Store</small></span></a>
 					<a href={googlePlayHref} target="_blank" rel="noopener noreferrer"><FaGooglePlay aria-hidden="true" /><span>Android<small>Google Play</small></span></a>
 				</div>
 			</details> : <a
-				class="button button-dark button-small header-store-button"
+				class="button button-dark button-small header-store-button header-icon-control"
 				href={storeHref}
 				target="_blank"
 				rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 			</a>}
 
 			<details class="mobile-menu" name="mobile-header-menu">
-				<summary aria-label={nav.menu} title={nav.menu}>
+				<summary class="header-icon-control" aria-label={nav.menu} title={nav.menu}>
 					<FaBars aria-hidden="true" />
 				</summary>
 				<nav class="mobile-popover" aria-label={labels.mobileNavigation}>
