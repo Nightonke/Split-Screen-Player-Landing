@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "วิธีดูวิดีโอ YouTube สองรายการพร้อมกันบน iPhone หรือ iPad",
+  "seoTitle": "วิธีดูวิดีโอ YouTube สองรายการพร้อมกันบน iPhone หรือ iPad",
+  "metaDescription": "ย้ายวิดีโอ YouTube ที่เข้ากันได้ไปยังเครื่องเล่นอื่น จากนั้นเปิดหน้า YouTube อีกหน้าเพื่อดูวิดีโอสองรายการบน iPhone หรือ iPad",
+  "summary": "เก็บวิดีโอ YouTube แรกไว้ในเครื่องเล่นอิสระในขณะที่วิดีโอที่สองเล่นในหน้าเว็บด้านบน",
+  "answer": "เปิดหน้า YouTube หน้าแรกและเริ่มเล่น แตะเครื่องเล่นขนาดเล็ก เลือกวิดีโอที่ตรวจพบที่ตรงกัน และปล่อยให้เปิดในพื้นที่ว่าง จากนั้นเปิดและเล่น URL YouTube ที่สองในภูมิภาคเว็บดั้งเดิม",
+  "note": "เวิร์กโฟลว์นี้ต้องใช้ Premium และแหล่งที่มาที่ตรวจพบที่เข้ากันได้ ทำซ้ำด้วย Big Buck Bunny และ Sintel ของ Blender ในเครื่องจำลอง iPhone 17 Pro การแสดงโฆษณา การเข้าสู่ระบบ และการป้องกัน YouTube อาจส่งผลต่อวิดีโออื่นๆ มันไม่รับประกันสำหรับทุกลิงค์ ภาพหน้าจอแสดงอินเทอร์เฟซภาษาอังกฤษบนเครื่องจำลอง iPhone 17 Pro",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "วิดีโอ Sintel และ Big Buck Bunny ต่างเล่นกันในพื้นที่หน้าจอแยกกัน",
+    "alt": "iPhone 17 Pro — วิดีโอ Sintel และ Big Buck Bunny กำลังเล่นในพื้นที่หน้าจอแยกกัน",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "เปิดวิดีโอ YouTube แรก",
+      "description": "เลือกเค้าโครงแบบสองภูมิภาค ในพื้นที่ด้านบน ให้แตะ + → เว็บ/สตรีม และเปิด URL หน้าสำหรับดู YouTube แรกเป็นหน้าเว็บ เริ่มเล่นในหน้า; ส่วนล่างควรว่างเปล่า",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "วิดีโอ Big Buck Bunny จะเล่นในหน้าเว็บด้านบน โดยมีพื้นที่หน้าจอว่างด้านล่าง",
+        "alt": "iPhone 17 Pro — วิดีโอ Big Buck Bunny จะเล่นในหน้าเว็บด้านบน โดยมีพื้นที่หน้าจอว่างด้านล่าง",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "ตรวจสอบวิดีโอที่ตรวจพบ",
+      "description": "แตะปุ่มเครื่องเล่นขนาดเล็กข้างที่อยู่เว็บ ตัวเลขบนปุ่มนี้คือจำนวนวิดีโอที่ตรวจพบ ตรวจสอบว่าชื่อ ระยะเวลา และขนาดตรงกับวิดีโอที่คุณต้องการก่อนที่จะเลือกวิดีโอที่ตรวจพบ การตรวจจับเพียงอย่างเดียวไม่รับประกันว่าจะเล่นได้",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "รายการที่ตรวจพบคือ 10:35 และ 640×360 ในเซสชันนี้",
+        "alt": "iPhone 17 Pro — รายการที่ตรวจพบคือ 10:35 และ 640×360 ในเซสชันนี้",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "เปิดในภูมิภาคอื่น",
+      "description": "แตะรายการที่ตรงกัน พื้นที่ว่างจะได้รับวิดีโอโดยอัตโนมัติ หากไม่มีช่องว่าง เลือกตำแหน่งการเล่น จะถามว่าเนื้อหาปัจจุบันของภูมิภาคใดที่จะแทนที่",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "หน้าต้นฉบับจะอยู่เหนือโปรแกรมเล่นวิดีโออิสระ",
+        "alt": "iPhone 17 Pro — หน้าต้นฉบับจะอยู่เหนือเครื่องเล่นวิดีโออิสระ",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "เล่นวิดีโออื่นในหน้าเว็บ",
+      "description": "เก็บวิดีโอที่ถ่ายโอนไว้ในเครื่องเล่นด้านล่าง แตะที่อยู่เว็บของพื้นที่หน้าจอด้านบน → เว็บ/สตรีม และป้อน URL สำหรับดู YouTube ที่สอง เล่นวิดีโอในหน้า ในตัวอย่างนี้ วิดีโอ Sintel จะเล่นในพื้นที่หน้าจอด้านบน ในขณะที่วิดีโอ Big Buck Bunny ยังคงเล่นต่อด้านล่าง",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "วิดีโอ Sintel และ Big Buck Bunny ต่างเล่นกันในพื้นที่หน้าจอแยกกัน",
+        "alt": "iPhone 17 Pro — วิดีโอ Sintel และ Big Buck Bunny กำลังเล่นในพื้นที่หน้าจอแยกกัน",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "รายละเอียดที่เป็นประโยชน์",
+    "featuresIntro": "ตรวจสอบรายละเอียดเหล่านี้ขณะที่คุณทำตามขั้นตอน",
+    "features": [
+      {
+        "title": "แหล่งที่มาจะต้องสามารถเล่นได้",
+        "description": "ที่อยู่สื่อที่หมดอายุ การรับรองความถูกต้อง การป้องกันเนื้อหา และพฤติกรรมของเซิร์ฟเวอร์สามารถป้องกันการเล่นได้ กลับไปที่หน้าต้นฉบับและเริ่มวิดีโออีกครั้งก่อนที่จะลองอีกครั้ง คุณลักษณะนี้ไม่อนุญาตให้เข้าถึงเนื้อหาที่ถูกจำกัด"
+      },
+      {
+        "title": "เก็บแหล่งเสียงไว้แหล่งเดียว",
+        "description": "ปิดเสียงหน้าเว็บหรือเครื่องเล่นอิสระหากทั้งคู่ส่งเสียง เพลย์เฮดทั้งสองมีความเป็นอิสระ ใช้ไฟล์ในเครื่องที่เข้ากันได้และ Sync Point เพื่อการเปรียบเทียบที่แม่นยำ"
+      }
+    ],
+    "faq": [
+      {
+        "question": "ทำไม Mini Player ถึงว่างเปล่า?",
+        "answer": "เริ่มวิดีโอในหน้าและตรวจสอบอีกครั้ง เว็บไซต์บางแห่งไม่เปิดเผยแหล่งที่มาที่เข้ากันได้ รายการที่ตรวจพบอาจเป็นโฆษณาแทนที่จะเป็นวิดีโอที่คุณต้องการ"
+      },
+      {
+        "question": "ทำไมไม่เปิดหน้าเว็บ YouTube สองหน้าล่ะ",
+        "answer": "แอพเตือนเกี่ยวกับการเล่นพร้อมกันในหลายพื้นที่เว็บบน iOS ขั้นตอนการทำงานนี้จะย้ายวิดีโอแรกไปยังโปรแกรมเล่นอิสระและเหลือเพียงวิดีโอที่สองในหน้าเว็บ มันยังขึ้นอยู่กับความเข้ากันได้ของแหล่งที่มา"
+      }
+    ],
+    "closingTitle": "ลองสิ่งนี้กับสื่อของคุณเอง",
+    "closingDescription": "เปิด Split Screen Player แล้วทำตามขั้นตอนกับไฟล์ที่คุณต้องการใช้"
+  },
+  "keywords": [
+    "YouTube",
+    "การเล่นแบบคู่"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

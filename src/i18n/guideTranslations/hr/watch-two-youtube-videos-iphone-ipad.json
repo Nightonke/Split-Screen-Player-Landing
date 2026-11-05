@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Kako gledati dva YouTube videozapisa odjednom na uređaju iPhone ili iPad",
+  "seoTitle": "Kako gledati dva YouTube videozapisa odjednom na uređaju iPhone ili iPad",
+  "metaDescription": "Premjestite kompatibilni YouTube video u zaseban player, a zatim otvorite drugu YouTube stranicu da gledate dva videa na iPhone ili iPad.",
+  "summary": "Zadržite prvi YouTube videozapis u neovisnom playeru dok se drugi videozapis reproducira na gornjoj web stranici.",
+  "answer": "Otvorite prvu YouTube stranicu i pokrenite reprodukciju. Dodirnite Mini Player, odaberite odgovarajući otkriveni videozapis i pustite ga da se otvori u praznom području. Zatim otvorite i reproducirajte drugi YouTube URL u izvornoj web regiji.",
+  "note": "Ovaj tijek rada zahtijeva Premium i kompatibilan otkriveni izvor. Reproduciran je s Blender Big Buck Bunny i Sintel u simulatoru iPhone 17 Pro. YouTube isporuka, oglasi, prijava i zaštita mogu utjecati na druge videozapise; to nije garancija za svaki link. Slike zaslona prikazuju englesko sučelje na iPhone 17 Pro simulatoru.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Video zapisi Sintel i Big Buck Bunny reproduciraju se u odvojenim područjima zaslona.",
+    "alt": "iPhone 17 Pro — Video zapisi Sintel i Big Buck Bunny reproduciraju se u odvojenim područjima zaslona.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Otvorite prvi YouTube video",
+      "description": "Odaberite raspored s dvije regije. U gornjem dijelu dodirnite + → Web/Stream i otvorite URL prve YouTube stranice za gledanje kao Web stranicu. Pokrenite reprodukciju na stranici; donja regija treba ostati prazna.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Video Big Buck Bunny reproducira se na gornjoj web stranici, s praznim područjem zaslona ispod.",
+        "alt": "iPhone 17 Pro — Big Buck Bunny video se reproducira na gornjoj web stranici, s praznim područjem zaslona ispod.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Pregledajte otkriveni video",
+      "description": "Dodirnite gumb Mini Player pored web adrese. Broj na ovom gumbu je broj otkrivenih videozapisa. Provjerite odgovaraju li naslov, trajanje i dimenzije željenom videozapisu prije odabira otkrivenog videozapisa; samo otkrivanje ne jamči reprodukciju.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Otkriveni unos je 10:35 i 640×360 u ovoj sesiji.",
+        "alt": "iPhone 17 Pro — Otkriveni unos je 10:35 i 640×360 u ovoj sesiji.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Otvorite ga u drugoj regiji",
+      "description": "Dodirnite odgovarajuću stavku. Prazna regija automatski prima video. Ako nijedna nije prazna, Odaberi mjesto reprodukcije pita koji će trenutni sadržaj regije zamijeniti.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Izvorna stranica ostaje iznad nezavisnog video playera.",
+        "alt": "iPhone 17 Pro — Izvorna stranica ostaje iznad nezavisnog video playera.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Reproducirajte drugi video na web stranici",
+      "description": "Držite preneseni video u donjem playeru. Dodirnite web adresu gornjeg dijela zaslona → Web/Stream i unesite drugi URL za gledanje YouTube. Reproducirajte video na stranici. U ovom primjeru, Sintel video se reproducira u gornjem dijelu zaslona dok se Big Buck Bunny video nastavlja reproducirati ispod.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Video zapisi Sintel i Big Buck Bunny reproduciraju se u odvojenim područjima zaslona.",
+        "alt": "iPhone 17 Pro — Video zapisi Sintel i Big Buck Bunny reproduciraju se u odvojenim područjima zaslona.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Korisni detalji",
+    "featuresIntro": "Provjerite ove pojedinosti dok slijedite korake.",
+    "features": [
+      {
+        "title": "Izvor mora ostati reproduciran",
+        "description": "Medijske adrese koje istječu, provjera autentičnosti, zaštita sadržaja i ponašanje poslužitelja mogu spriječiti reprodukciju. Vratite se na izvornu stranicu i ponovo pokrenite video prije ponovnog pokušaja. Ova značajka ne dopušta pristup ograničenom sadržaju."
+      },
+      {
+        "title": "Zadrži jedan izvor zvuka",
+        "description": "Isključite zvuk web stranice ili neovisnog playera ako oba proizvode zvuk. Dva playheada su neovisna; koristite kompatibilne lokalne datoteke i Sync Point za preciznu usporedbu."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Zašto je Mini Player prazan?",
+        "answer": "Pokrenite video na stranici i provjerite ponovno. Neka mjesta ne izlažu kompatibilan izvor. Otkriveni unos također može biti oglas, a ne videozapis koji ste željeli."
+      },
+      {
+        "question": "Zašto jednostavno ne otvorite dvije YouTube web stranice?",
+        "answer": "Aplikacija upozorava na istodobnu reprodukciju u više web regija na iOS. Ovaj tijek rada premješta prvi videozapis u neovisni player i ostavlja samo drugi na web stranici. Još uvijek ovisi o kompatibilnosti izvora."
+      }
+    ],
+    "closingTitle": "Pokušajte ovo sa svojim medijima",
+    "closingDescription": "Otvorite Split Screen Player i slijedite korake s datotekama koje želite koristiti."
+  },
+  "keywords": [
+    "YouTube",
+    "Dvostruka reprodukcija"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

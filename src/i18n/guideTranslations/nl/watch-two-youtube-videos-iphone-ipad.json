@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Hoe je twee YouTube-video's tegelijk kunt bekijken op iPhone of iPad",
+  "seoTitle": "Hoe je twee YouTube-video's tegelijk kunt bekijken op iPhone of iPad",
+  "metaDescription": "Verplaats een compatibele YouTube-video naar een aparte speler en open vervolgens een andere YouTube pagina om twee video's op iPhone of iPad te bekijken.",
+  "summary": "Bewaar de eerste YouTube-video in een onafhankelijke speler terwijl een tweede video op de bovenstaande webpagina wordt afgespeeld.",
+  "answer": "Open de eerste YouTube pagina en start het afspelen. Tik op Mini Player, kies de overeenkomende gedetecteerde video en laat deze openen in het lege gebied. Open en speel vervolgens de tweede YouTube URL af in de oorspronkelijke webregio.",
+  "note": "Voor deze workflow zijn Premium en een compatibele gedetecteerde bron vereist. Het werd gereproduceerd met Blender 's Big Buck Bunny en Sintel in de iPhone 17 Pro simulator. YouTube levering, advertenties, login en bescherming kunnen andere video's beïnvloeden; het is geen garantie voor elke link. Screenshots tonen de Engelse interface op een iPhone 17 Pro -simulator.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "De video's Sintel en Big Buck Bunny spelen beide in aparte schermgebieden.",
+    "alt": "iPhone 17 Pro — De video's Sintel en Big Buck Bunny spelen beide in aparte schermgebieden.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Open de eerste YouTube-video",
+      "description": "Kies een lay-out met twee regio's. Tik in het bovenste gedeelte op + → Web/Stream en open de eerste YouTube -weergavepagina-URL als webpagina. Start het afspelen op de pagina; het onderste gebied moet leeg blijven.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "De Big Buck Bunny -video wordt op de bovenste webpagina afgespeeld, met daaronder een leeg schermgebied.",
+        "alt": "iPhone 17 Pro — De Big Buck Bunny -video wordt bovenaan de webpagina afgespeeld, met daaronder een leeg schermgebied.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Inspecteer de gedetecteerde video",
+      "description": "Tik op de minispelerknop naast het webadres. Het getal op deze knop is het aantal gedetecteerde video's. Controleer of de titel, duur en afmetingen overeenkomen met de gewenste video voordat u een gedetecteerde video selecteert; detectie alleen garandeert geen weergave.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "De gedetecteerde invoer is 10:35 en 640×360 in deze sessie.",
+        "alt": "iPhone 17 Pro — De gedetecteerde invoer is 10:35 en 640×360 in deze sessie.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Open het in een andere regio",
+      "description": "Tik op het overeenkomende item. Een leeg gebied ontvangt de video automatisch. Als er geen leeg is, vraagt ​​Kies afspeellocatie welke regio's huidige inhoud moet worden vervangen.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "De bronpagina blijft boven de onafhankelijke videospeler.",
+        "alt": "iPhone 17 Pro — De bronpagina blijft boven de onafhankelijke videospeler.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Speel een andere video af op de webpagina",
+      "description": "Bewaar de overgedragen video in de onderste speler. Tik op het webadres in het bovenste schermgebied → Web/Stream en voer de tweede YouTube -kijk-URL in. Speel de video af op de pagina. In dit voorbeeld wordt de Sintel -video bovenaan het scherm afgespeeld, terwijl de Big Buck Bunny -video hieronder verder wordt afgespeeld.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "De video's Sintel en Big Buck Bunny spelen beide in aparte schermgebieden.",
+        "alt": "iPhone 17 Pro — De video's Sintel en Big Buck Bunny spelen beide in aparte schermgebieden.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Nuttige details",
+    "featuresIntro": "Controleer deze gegevens terwijl u de stappen volgt.",
+    "features": [
+      {
+        "title": "De bron moet afspeelbaar blijven",
+        "description": "Het verlopen van mediaadressen, authenticatie, inhoudbescherming en servergedrag kunnen het afspelen verhinderen. Keer terug naar de bronpagina en start de video opnieuw voordat u het opnieuw probeert. Deze functie geeft geen toegang tot beperkte inhoud."
+      },
+      {
+        "title": "Houd één audiobron aan",
+        "description": "Demp de webpagina of de onafhankelijke speler als beide geluid produceren. De twee afspeelkoppen zijn onafhankelijk; gebruik compatibele lokale bestanden en Sync Point voor nauwkeurige vergelijking."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Waarom is minispeler leeg?",
+        "answer": "Start een video op de pagina en controleer het opnieuw. Sommige sites bieden geen compatibele bron aan. Een gedetecteerde vermelding kan ook een advertentie zijn in plaats van de gewenste video."
+      },
+      {
+        "question": "Waarom opent u niet gewoon twee YouTube webpagina's?",
+        "answer": "De app waarschuwt voor gelijktijdig afspelen in meerdere webregio's op iOS. Deze workflow verplaatst de eerste video naar een onafhankelijke speler en laat alleen de tweede op een webpagina staan. Het hangt nog steeds af van broncompatibiliteit."
+      }
+    ],
+    "closingTitle": "Probeer dit eens met uw eigen media",
+    "closingDescription": "Open Split Screen Player en volg de stappen met de bestanden die u wilt gebruiken."
+  },
+  "keywords": [
+    "YouTube",
+    "Dubbele weergave"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

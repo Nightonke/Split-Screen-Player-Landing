@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Cara memainkan berbilang video serentak pada telefon atau tablet Android",
+  "seoTitle": "Cara memainkan berbilang video serentak pada telefon atau tablet Android",
+  "metaDescription": "Tonton dua, tiga atau empat video serentak pada telefon atau tablet Android. Pilih baris bertindan atau grid 2×2, tambahkan klip setempat, kawal bunyi dan simpan persediaan anda.",
+  "summary": "Bandingkan dua klip video tanpa bertukar antara aplikasi pemain media, susun tiga video dalam baris menegak atau tonton empat sudut kamera dalam grid sambil memegang peranti secara mendatar. Split Screen Player Pisah memastikan setiap video kelihatan pada telefon atau tablet Android.",
+  "answer": "Pilih reka letak skrin pisah, ketik + di setiap rantau dan tambahkan video daripada galeri atau fail anda. Setiap klip mempunyai main balik dan kawalan bunyi yang berasingan. Anda boleh mulakan dengan dua video dan tambah lagi apabila anda memerlukannya.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tiga video dimainkan dalam susun atur potret bertindan.",
+    "caption": "Tiga video dimainkan dalam susun atur potret bertindan.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Daripada tiga baris bertindan kepada grid empat video",
+  "steps": [
+    {
+      "title": "Pilih dua atau tiga kawasan video",
+      "description": "Ketik ikon susun atur empat segi empat dalam bar alat. Kumpulan pertama menawarkan susun atur bertindan dan bersebelahan untuk dua video. Untuk tiga klip, pilih lakaran kecil tiga baris yang digariskan dalam kumpulan lajur tunggal menegak.",
+      "detail": "Jalur kecil dalam setiap lakaran kecil menunjukkan tempat letak bar alat. Gunakan penapis nombor dan orientasi di bahagian bawah untuk mengecilkan pilihan.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Reka letak tiga baris digariskan antara susunan lain.",
+        "caption": "Susun atur tiga baris digariskan antara susunan lain.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Tambahkan video pada setiap wilayah",
+      "description": "Ketik + di kawasan kosong. Dalam Buka, pilih Video album dan pilih klip. Ulangi untuk kawasan lain. Gunakan Fail untuk video yang disimpan di tempat lain pada peranti.",
+      "detail": "Untuk menggantikan klip, ketik gambarnya dan kemudian + dalam kawalannya. Senarai main membolehkan beberapa klip dimainkan satu demi satu dalam kawasan yang sama.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Pilih video Album atau Fail untuk menambah video.",
+        "caption": "Pilih video Album atau Fail untuk menambah video.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Kawal main balik dan pilih perkara yang anda dengar",
+      "description": "Ketik video untuk mendedahkan kawalannya. Gunakan butang tengah untuk memainkan atau menjedanya dan seret garis masa ke saat lain. Klip lain boleh terus bermain secara bebas.",
+      "detail": "Redamkan klip yang anda tidak mahu dengar dengan butang pembesar suaranya. Gunakan butang kelajuan untuk memperlahankan pergerakan yang anda bandingkan.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Setiap video mempunyai bunyi, kelajuan dan kawalan main balik sendiri.",
+        "caption": "Setiap video mempunyai bunyi, kelajuan dan kawalan main balik sendiri.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Tukar kepada grid 2×2 landskap",
+      "description": "Buka pemilih reka letak, pilih 4 dalam penapis nombor dan pilih Landskap R. Pilih lakaran kecil dua demi dua dalam kumpulan simetri tengah.",
+      "detail": "Jalur di sebelah kanan lakaran kecil mewakili bar alat. Pegang peranti anda secara mendatar untuk melihat empat kawasan.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Pilih empat kawasan dengan bar alat di sebelah kanan.",
+        "caption": "Pilih empat kawasan dengan bar alat di sebelah kanan.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Tambahkan klip keempat dan simpan gabungan itu",
+      "description": "Tiga video pertama kekal tersedia selepas perubahan reka letak. Ketik + di kawasan kosong dan tambahkan klip keempat.",
+      "detail": "Ketik bintang, Penanda Halaman, untuk menyimpan video dan reka letak semasa. Kemudian, buka Penanda Halaman di sebelahnya untuk memulihkan gabungan ini.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Empat video dimainkan bersama dalam grid landskap.",
+        "caption": "Empat video dimainkan bersama dalam grid landskap.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bina skrin pisah yang sesuai dengan tontonan anda",
+    "featuresIntro": "Simpan rujukan di sebelah rakaman anda sendiri, semak sudut kamera atau tonton pelajaran dengan bahan sokongannya.",
+    "features": [
+      {
+        "title": "144 reka letak, dengan sehingga 36 video sekali gus",
+        "description": "Pilih baris bertindan, paparan sebelah menyebelah, grid empat video atau susunan yang lebih padat. Tablet memberi setiap gambar lebih banyak ruang. Main balik yang lancar bergantung pada peranti, codec dan peleraian, jadi tambahkan video secara beransur-ansur."
+      },
+      {
+        "title": "Berikan gambar utama lebih ruang",
+        "description": "Buka Tersuai dalam pemilih reka letak untuk membuat susunan anda sendiri. Alihkan kawasan, ubah saiznya dan bahagikan skrin dengan garisan untuk mengimbangi video utama dan rujukannya."
+      },
+      {
+        "title": "Gabungkan video, imej, PDF dan halaman web",
+        "description": "Setiap rantau boleh menyimpan jenis kandungan yang berbeza: video, audio, koleksi imej, PDF atau halaman web. Anda juga boleh membuka pautan strim HLS (M3U8) dan RTSP."
+      },
+      {
+        "title": "Buka fail MP4, MOV, MKV dan WebM setempat",
+        "description": "Tambahkan rakaman daripada galeri anda atau buka fail daripada folder. Sokongan untuk fail tertentu bergantung pada codec video dan audionya, bukan hanya sambungan nama failnya."
+      },
+      {
+        "title": "Bandingkan detik yang sama atau kongsi hasilnya",
+        "description": "Mata Penyegerakan membantu menjajarkan rakaman yang bermula pada masa yang berbeza. Apabila anda ingin berkongsi beberapa gambar sebagai satu video, gunakan eksport video skrin pisah dengan klip tempatan anda."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Bolehkah saya mulakan dengan hanya dua video?",
+        "answer": "ya. Pilih reka letak dua wilayah dan tambahkan satu video pada setiap wilayah. Anda boleh menyimpannya bertindan atau bersebelahan, dengan main balik dan kawalan bunyi yang berasingan."
+      },
+      {
+        "question": "Adakah ia berfungsi pada tablet?",
+        "answer": "ya. Aplikasi yang sama menyokong telefon dan tablet. Skrin yang lebih besar berguna untuk menyemak beberapa sudut atau membaca bahan rujukan di sebelah video."
+      },
+      {
+        "question": "Adakah saya perlu menggabungkan video terlebih dahulu?",
+        "answer": "Tidak. Main balik skrin pisah memastikan klip berasingan. Senarai main memainkan klip secara berurutan dalam satu rantau; susun atur skrin belah menunjukkan klip yang berbeza pada masa yang sama."
+      },
+      {
+        "question": "Bagaimanakah cara saya mengeluarkan bar hitam?",
+        "answer": "Pilih Isi dan Pangkas dalam tetapan penskalaan video. Ia mengisi setiap kawasan dengan memotong tepi apabila bentuk berbeza. Gunakan Fit apabila melihat keseluruhan bingkai asal lebih penting."
+      },
+      {
+        "question": "Bolehkah ia memaparkan dua apl penstriman berasingan?",
+        "answer": "Panduan ini merangkumi kandungan yang dibuka di dalam Split Screen Player. Ia tidak membenamkan apl lain. Main semula dari halaman web bergantung pada tapak web tersebut dan sekatannya."
+      },
+      {
+        "question": "Adakah apl itu percuma?",
+        "answer": "Apl ini percuma untuk dimuat turun, dengan main balik video asas dan reka letak percuma. Reka letak bertanda VIP, penggunaan reka letak tersuai, penanda halaman dan ciri lanjutan lain memerlukan keahlian."
+      }
+    ],
+    "closingTitle": "Simpan video yang anda ingin tonton pada satu skrin",
+    "closingDescription": "Mulakan dengan dua klip, kemudian cuba tiga baris bertindan atau grid empat video. Muat turun versi untuk peranti anda daripada App Store atau Google Play."
+  },
+  "keywords": [
+    "Main balik berbilang video",
+    "Skrin belah"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

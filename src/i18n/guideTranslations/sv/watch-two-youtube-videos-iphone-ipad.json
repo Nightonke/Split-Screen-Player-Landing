@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Hur man tittar på två YouTube-videor samtidigt på iPhone eller iPad",
+  "seoTitle": "Hur man tittar på två YouTube-videor samtidigt på iPhone eller iPad",
+  "metaDescription": "Flytta en kompatibel YouTube-video till en separat spelare och öppna sedan en annan YouTube-sida för att titta på två videor på iPhone eller iPad.",
+  "summary": "Behåll den första YouTube-videon i en oberoende spelare medan en andra video spelas upp på webbsidan ovan.",
+  "answer": "Öppna den första YouTube-sidan och starta uppspelningen. Tryck på Mini Player, välj den matchande upptäckta videon och låt den öppnas i det tomma området. Öppna sedan och spela upp den andra YouTube URL:n i den ursprungliga webbregionen.",
+  "note": "Detta arbetsflöde kräver Premium och en kompatibel detekterad källa. Den återgavs med Blender Big Buck Bunny och Sintel i iPhone 17 Pro simulatorn. YouTube leverans, annonser, inloggning och skydd kan påverka andra videor; det är inte en garanti för varje länk. Skärmbilder visar det engelska gränssnittet på en iPhone 17 Pro -simulator.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Videorna Sintel och Big Buck Bunny spelas båda på separata skärmområden.",
+    "alt": "iPhone 17 Pro — Videorna Sintel och Big Buck Bunny spelas båda på separata skärmområden.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Öppna den första YouTube-videon",
+      "description": "Välj en layout med två regioner. I det övre området trycker du på + → Webb/Stream och öppnar den första YouTube -visningssidans URL som webbsida. Starta uppspelning på sidan; den nedre regionen ska förbli tom.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Big Buck Bunny -videon spelas upp på den övre webbsidan, med ett tomt skärmområde nedan.",
+        "alt": "iPhone 17 Pro — Big Buck Bunny -videon spelas upp på den övre webbsidan, med ett tomt skärmområde nedanför.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Inspektera den upptäckta videon",
+      "description": "Tryck på knappen Mini Player bredvid webbadressen. Siffran på den här knappen är antalet upptäckta videor. Kontrollera att titel, längd och dimensioner matchar den video du vill ha innan du väljer en upptäckt video; enbart detektering garanterar inte uppspelning.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Den upptäckta posten är 10:35 och 640×360 i denna session.",
+        "alt": "iPhone 17 Pro — Det detekterade inträdet är 10:35 och 640×360 i denna session.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Öppna den i en annan region",
+      "description": "Tryck på det matchande objektet. En tom region tar emot videon automatiskt. Om ingen är tom frågar Välj uppspelningsplats vilken regions nuvarande innehåll som ska ersättas.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Källsidan stannar ovanför den oberoende videospelaren.",
+        "alt": "iPhone 17 Pro — Källsidan förblir ovanför den oberoende videospelaren.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Spela upp en annan video på webbsidan",
+      "description": "Behåll den överförda videon i den nedre spelaren. Tryck på den övre skärmens webbadress → Webb/Stream och ange den andra YouTube visningsadressen. Spela upp videon på sidan. I det här exemplet spelas Sintel videon i det övre skärmområdet medan Big Buck Bunny -videon fortsätter att spelas nedan.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Videorna Sintel och Big Buck Bunny spelas båda på separata skärmområden.",
+        "alt": "iPhone 17 Pro — Videorna Sintel och Big Buck Bunny spelas båda på separata skärmområden.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Användbara detaljer",
+    "featuresIntro": "Kontrollera dessa detaljer när du följer stegen.",
+    "features": [
+      {
+        "title": "Källan måste förbli spelbar",
+        "description": "Utgående medieadresser, autentisering, innehållsskydd och serverbeteende kan förhindra uppspelning. Gå tillbaka till källsidan och starta videon igen innan du försöker igen. Den här funktionen ger inte åtkomst till begränsat innehåll."
+      },
+      {
+        "title": "Behåll en ljudkälla",
+        "description": "Stäng av ljudet på webbsidan eller den oberoende spelaren om båda producerar ljud. De två spelhuvudena är oberoende; använd kompatibla lokala filer och Sync Point för exakt jämförelse."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Varför är Mini Player tom?",
+        "answer": "Starta en video på sidan och kolla igen. Vissa webbplatser visar inte en kompatibel källa. En upptäckt post kan också vara en reklam snarare än videon du ville ha."
+      },
+      {
+        "question": "Varför inte bara öppna två YouTube webbsidor?",
+        "answer": "Appen varnar för samtidig uppspelning i flera webbregioner på iOS. Detta arbetsflöde flyttar den första videon till en oberoende spelare och lämnar bara den andra på en webbsida. Det beror fortfarande på källkompatibilitet."
+      }
+    ],
+    "closingTitle": "Prova detta med din egen media",
+    "closingDescription": "Öppna Split Screen Player och följ stegen med filer du vill använda."
+  },
+  "keywords": [
+    "YouTube",
+    "Dubbel uppspelning"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

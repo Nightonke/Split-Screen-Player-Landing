@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Usean videon toisto · iPhone ja iPad",
+  "title": "Näin toistat useita videoita samanaikaisesti iPhonella tai iPadilla",
+  "seoTitle": "Näin toistat useita videoita samanaikaisesti iPhonella tai iPadilla",
+  "metaDescription": "Katso kahta videota rinnakkain, kolmea allekkain tai neljää ruudukossa iPhonella ja iPadilla. Valitse asettelu, lisää omat videosi, säädä ääntä ja tallenna asetukset.",
+  "summary": "Vertaa kahta videoleikettä vaihtamatta mediasoitinsovellusten välillä, järjestä kolme videota pystyriveille tai katso neljää kamerakulmaa ruudukossa pitäen laitetta vaakasuorassa. Split Screen Player pitää jokaisen videon näkyvissä ja itsenäisesti toistettavissa iPhone ja iPad.",
+  "answer": "Valitse jaetun näytön asettelu, napauta + jokaisella tyhjällä alueella ja lisää video Valokuvista tai Tiedostoista. Leikkeet toistetaan eri alueilla yhdistämättä niitä ensin yhdeksi tiedostoksi. Aloita kahdella videolla tai seuraa alla olevia kolmen ja neljän videon esimerkkejä.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Kolme videota pinottuina eri riveihin iPhone Split Screen Player",
+    "caption": "Kolme videota pysyy näkyvissä pystyasetelmassa.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Kolmesta rivistä neljän videon ruudukkoon",
+  "steps": [
+    {
+      "title": "Valitse asettelu, jossa on kaksi tai kolme aluetta",
+      "description": "Napauta neljän neliön asettelukuvaketta työkalupalkissa ja avaa Oletus. Valitse kahdelle videolle pinottu tai vierekkäinen asettelu kohdasta 1–2 videota. Valitse kolmen videon kohdalla korostettu kolmen rivin pikkukuva Pysty, 1 sarake yhteensä.",
+      "detail": "Jokainen suorakulmio edustaa videoaluetta; ohut kaistale näyttää työkalupalkin sijainnin. Käytä alareunassa olevia numero- ja suuntasuodattimia, kun haluat tietyn järjestelyn.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Asettelukirjastossa on useita järjestelyjä, joissa on esitetty kolmirivinen asettelu",
+        "caption": "Valitse kaksi aluetta tai hahmoteltu asettelu kolmelle päällekkäiselle videolle.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Lisää video jokaiselle alueelle",
+      "description": "Napauta + tyhjällä näyttöalueella. Valitse Avaa-valikosta Videot ja valitse leike Kuvat-sovelluksesta. Toista muille näytön alueille. Jos videosi on tallennettu Tiedostot-sovellukseen, valitse Tiedostot-vaihtoehto Avaa-valikosta.",
+      "detail": "Voit korvata leikkeen napauttamalla sen kuvaa ja sitten + sen säätimissä. Voit myös toistaa useita leikkeitä peräkkäin yhdellä alueella soittolistan avulla.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "iPhone Open-valikossa on videot, tiedostot, kuvat ja soittolista",
+        "caption": "Valitse Videot-vaihtoehto avataksesi videon Kuvat-sovelluksesta. Valitse Tiedostot-vaihtoehto avataksesi muualle tallennetun videon.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Hallitse jokaista videota ja valitse, mitä kuulet",
+      "description": "Napauta videota paljastaaksesi sen säätimet. Käytä keskipainiketta toistaaksesi tai keskeyttääksesi sen ja vetämällä sen aikajanan toiseen hetkeen. Muut videot voivat jatkaa toistamista itsenäisesti.",
+      "detail": "Mykistä leikkeet, joita et halua kuulla niiden kaiutinpainikkeilla. Käytä nopeuspainiketta hidastaaksesi vertailtavaa liikettä. Napauta kuvaa uudelleen aina, kun säätimet ovat piilossa.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Ensimmäinen kolmesta videosta näyttää sen kaiuttimen, nopeuden, toiston ja aikajanan säätimet",
+        "caption": "Jokaisella videolla on omat äänen, nopeuden ja toiston säätimet.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Vaihda vaakasuuntaiseen 2×2 -ruudukkoon",
+      "description": "Avaa asettelun valitsin uudelleen. Valitse numerosuodattimesta 4 ja suuntaa varten Land.(R), ja valitse sitten kaksi kertaa kaksi pikkukuva keskisymmetriaryhmästä.",
+      "detail": "Pieni nauha pikkukuvan oikealla puolella tarkoittaa, että työkalurivi on oikealla. Pidä laitetta vaakasuorassa nähdäksesi neljä aluetta vaakasuunnassa.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "iPhone asetteluvalitsin suodatetaan neljään videoon ja vaakasuuntaan oikeanpuoleisen työkalupalkin avulla",
+        "caption": "Valitse neljä aluetta oikealla olevan työkalupalkin avulla.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Lisää neljäs leike ja tallenna asetukset",
+      "description": "Kolme ensimmäistä klipsiäsi pysyvät paikoillaan. Napauta + tyhjällä alueella lisätäksesi neljännen videon ja täydentääksesi ruudukkoa.",
+      "detail": "Voit palata tähän yhdistelmään myöhemmin napauttamalla tähteä (Suosikki) työkalupalkissa. Avaa Suosikit-luettelo sen vieressä palauttaaksesi tallennetut videot ja asettelun.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Neljä videota vaakasuuntaisessa ruudukossa iPhone oikeanpuoleisella työkalupalkilla",
+        "caption": "Pidä neljä kamerakulmaa tai referenssileikettä yhdessä näytössä.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Rakenna jaettu näyttö, joka sopii siihen, mitä haluat katsoa",
+    "featuresIntro": "Aloita kahdella klipsillä, lisää sitten lisää kuvakulmia tai pidä oppitunti ja sen vertailumateriaali näkyvissä yhdessä.",
+    "features": [
+      {
+        "title": "144 esiasetettua asettelua, jopa 36 videota kerralla",
+        "description": "Valitse pinotut rivit, vierekkäiset näkymät, neljän videon ruudukko tai tiheämpi järjestely. iPhone on kätevä nopeaan katseluun; iPad antaa jokaiselle kuvalle enemmän tilaa. Tasainen toisto riippuu laitteesta, koodekista ja resoluutiosta, joten lisää videoita vähitellen.",
+        "link": {
+          "label": "Tutustu usean videon toistoon",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Säädä kunkin alueen sijaintia ja kokoa",
+        "description": "Luo oma asettelu avaamalla Mukautettu asetteluvalitsimessa. Siirrä alueita, muuta niiden kulmien kokoa tai jaa näyttö viivoilla. Anna pääoppitunnille enemmän tilaa ja pidä pienempi viite sen viereen."
+      },
+      {
+        "title": "Pidä videot, kuvat, PDF tiedostot ja verkkosivut yhdessä",
+        "description": "Jokainen alue voi näyttää erilaista sisältöä, kuten videoita, ääntä, kuvia, kuvakansioita, PDF tiedostoja ja verkkosivuja. Voit myös avata HLS (M3U8) ja RTSP stream -linkkejä."
+      },
+      {
+        "title": "Toista paikallisia MP4, MOV, MKV ja muita tiedostoja",
+        "description": "Avaa päivittäiset tallennukset MP4, MOV, M4V tai 3GP muodossa. Sovelluksen sisäinen mukautettu soitin tukee myös säiliöitä, kuten MKV, AVI, WebM, FLV, F4V, WMV ja RMVB. Toisto riippuu tiedoston sisällä olevasta koodekista."
+      },
+      {
+        "title": "Järjestä sama hetki eri äänityksissä",
+        "description": "Kun tallennukset alkavat eri aikoina, aseta synkronointipiste samalle toiminnolle jokaisessa leikkeessä ja ota synkronointilukko käyttöön. Tämä auttaa vertailemaan tanssiliikettä, swingiä tai samaa tapahtumaa useista kameroista.",
+        "link": {
+          "label": "Lisätietoja synkronointipisteistä ja synkronoinnin lukituksesta",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Voinko toistaa kahta videota samanaikaisesti iPhone?",
+        "answer": "Kyllä. Valitse asettelu, jossa on kaksi aluetta, ja lisää video kuhunkin. Molemmat kuvat pysyvät näkyvissä erillisillä toisto-, edistymis- ja äänisäätimillä."
+      },
+      {
+        "question": "Toimiiko tämä myös iPad?",
+        "answer": "Kyllä. Split Screen Player tukee sekä iPhone että iPad. Suurempi iPad näyttö on hyödyllinen kamerakulman tarkastelussa, liikkeiden vertailussa ja oppitunnin katselemisessa PDF ohella."
+      },
+      {
+        "question": "Pitääkö minun yhdistää videot ensin?",
+        "answer": "Ei. Jaetun näytön toisto pitää leikkeet erillään. Voit muuttaa asettelua tai keskeyttää yhden videon milloin tahansa. Käytä jaetun näytön videovientiä, kun haluat jakaa yhdistetyt kuvat uutena videotiedostona."
+      },
+      {
+        "question": "Kuinka poistan mustat palkit videoiden välistä?",
+        "answer": "Valitse videonäyttöasetuksista Täyttötila täyttääksesi koko näytön alueen videokuvalla. Tämä tila rajaa kuvan reunat, kun video ja sen näyttöalue ovat eri muotoisia. Valitse Sovita-tila, kun haluat nähdä koko alkuperäisen videokehyksen."
+      },
+      {
+        "question": "Voinko katsoa videoita kahdesta suoratoistosovelluksesta tällä tavalla?",
+        "answer": "Tämä opas kattaa videot, jotka avaat Split Screen Player. Se ei sijoita kahta erillistä sovellusta alueilleen. Web-videon toisto riippuu kustakin verkkosivustosta ja sen toistorajoituksista."
+      },
+      {
+        "question": "Onko Split Screen Player ilmainen?",
+        "answer": "Sovellus on ladattavissa ilmaiseksi, ja siinä on perusvideotoisto ja ilmaisia ​​asetteluja. VIP -merkityt asettelut, mukautetun ulkoasun käyttö, kirjanmerkit ja muut lisäominaisuudet edellyttävät jäsenyyttä."
+      }
+    ],
+    "closingTitle": "Pidä videot, joita haluat katsoa, ​​yhdellä näytöllä",
+    "closingDescription": "Kokeile kahta leikettä iPhonella tai iPadilla ja tutki sitten kolmea pinottua riviä tai neljän videon ruudukkoa. Android versio on saatavilla myös Google Play."
+  },
+  "keywords": [
+    "Usean videon toisto",
+    "Jaettu näyttö"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

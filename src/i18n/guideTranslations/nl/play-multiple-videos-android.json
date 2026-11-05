@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Hoe u meerdere video's tegelijk kunt afspelen op een Android-telefoon of -tablet",
+  "seoTitle": "Hoe u meerdere video's tegelijk kunt afspelen op een Android-telefoon of -tablet",
+  "metaDescription": "Bekijk twee, drie of vier video's tegelijk op een Android-telefoon of -tablet. Kies gestapelde rijen of een 2×2 raster, voeg lokale clips toe, bedien het geluid en sla uw opstelling op.",
+  "summary": "Vergelijk twee videoclips zonder te schakelen tussen mediaspelerapplicaties, rangschik drie video's in verticale rijen of bekijk vier camerahoeken in een raster terwijl u het apparaat horizontaal houdt. Split Screen Player houdt elke video zichtbaar op een Android-telefoon of tablet.",
+  "answer": "Kies een indeling voor een gesplitst scherm, tik op + in elke regio en voeg een video toe uit uw galerij of bestanden. Elke clip heeft afzonderlijke afspeel- en geluidsbedieningen. Je kunt beginnen met twee video's en er meer toevoegen wanneer je ze nodig hebt.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Drie video's worden afgespeeld in een gestapelde portretindeling.",
+    "caption": "Drie video's worden afgespeeld in een gestapelde portretindeling.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Van drie gestapelde rijen naar een raster met vier video's",
+  "steps": [
+    {
+      "title": "Kies twee of drie videoregio's",
+      "description": "Tik op het vierhoekige lay-outpictogram in de werkbalk. De eerste groep biedt gestapelde en naast elkaar geplaatste lay-outs voor twee video's. Voor drie clips kiest u de omlijnde miniatuur van drie rijen in de verticale groep met één kolom.",
+      "detail": "De kleine strook in elke miniatuur laat zien waar de werkbalk zich bevindt. Gebruik de nummer- en oriëntatiefilters onderaan om de keuzes te verfijnen.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — De lay-out met drie rijen wordt tussen de andere arrangementen weergegeven.",
+        "caption": "De indeling met drie rijen wordt tussen de andere arrangementen geschetst.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Voeg een video toe aan elke regio",
+      "description": "Tik op + in een leeg gebied. Kies in Openen Albumvideo's en selecteer een clip. Herhaal dit voor de andere regio's. Gebruik Bestand voor een video die elders op het apparaat is opgeslagen.",
+      "detail": "Om een ​​fragment te vervangen, tikt u op de afbeelding ervan en vervolgens op + in de bedieningselementen. Met de afspeellijst kunnen meerdere clips achter elkaar worden afgespeeld binnen dezelfde regio.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Kies Albumvideo's of Bestand om een ​​video toe te voegen.",
+        "caption": "Kies Albumvideo's of Bestand om een ​​video toe te voegen.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Bedien het afspelen en kies wat je hoort",
+      "description": "Tik op een video om de bedieningselementen weer te geven. Gebruik de middelste knop om het af te spelen of te pauzeren en sleep de tijdlijn naar een ander moment. Andere clips kunnen onafhankelijk blijven spelen.",
+      "detail": "Demp de clips die u niet wilt horen met de luidsprekerknoppen. Gebruik de snelheidsknop om een ​​beweging die u vergelijkt te vertragen.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Elke video heeft zijn eigen geluids-, snelheids- en afspeelknoppen.",
+        "caption": "Elke video heeft zijn eigen bedieningselementen voor geluid, snelheid en afspelen.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Schakel over naar een liggend 2×2 -raster",
+      "description": "Open de lay-outkiezer, selecteer 4 in het getalfilter en kies Liggend R. Selecteer de miniatuur van twee bij twee in de middensymmetriegroep.",
+      "detail": "De strook aan de rechterkant van de miniatuur vertegenwoordigt de werkbalk. Houd uw apparaat horizontaal om de vier regio's te bekijken.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Kies vier regio's met de werkbalk aan de rechterkant.",
+        "caption": "Kies vier regio's met de werkbalk aan de rechterkant.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Voeg de vierde clip toe en sla de combinatie op",
+      "description": "De eerste drie video's blijven na de lay-outwijziging beschikbaar. Tik op + in het lege gebied en voeg een vierde clip toe.",
+      "detail": "Tik op de ster, Bookmark, om de huidige video's en lay-out op te slaan. Open later Bladwijzers ernaast om deze combinatie te herstellen.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Vier video's worden samen afgespeeld in een liggend raster.",
+        "caption": "Vier video's worden samen afgespeeld in een landschapsraster.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bouw het gesplitste scherm dat bij uw kijkervaring past",
+    "featuresIntro": "Bewaar een referentie naast uw eigen opname, bekijk de camerahoeken of bekijk een les met ondersteunend materiaal.",
+    "features": [
+      {
+        "title": "144 lay-outs, met maximaal 36 video's tegelijk",
+        "description": "Kies gestapelde rijen, zij-aan-zij weergaven, een raster met vier video's of een compactere opstelling. Tablets geven elke foto meer ruimte. Vloeiend afspelen is afhankelijk van het apparaat, de codec en de resolutie, dus voeg geleidelijk video's toe."
+      },
+      {
+        "title": "Geef de hoofdfoto meer ruimte",
+        "description": "Open Aangepast in de lay-outkiezer om uw eigen arrangement te maken. Verplaats gebieden, pas de grootte ervan aan en verdeel het scherm met lijnen om de hoofdvideo en de referenties ervan in evenwicht te brengen."
+      },
+      {
+        "title": "Combineer video's, afbeeldingen, PDF 's en webpagina's",
+        "description": "Elke regio kan een ander soort inhoud bevatten: video's, audio, afbeeldingscollecties, PDF 's of webpagina's. U kunt ook HLS (M3U8)- en RTSP streamlinks openen."
+      },
+      {
+        "title": "Open lokale MP4, MOV, MKV en WebM bestanden",
+        "description": "Voeg opnamen toe vanuit uw galerij of open bestanden vanuit een map. Ondersteuning voor een bepaald bestand is afhankelijk van de video- en audiocodecs ervan, en niet alleen van de bestandsnaamextensie."
+      },
+      {
+        "title": "Vergelijk hetzelfde moment of deel het resultaat",
+        "description": "Synchronisatiepunten helpen bij het uitlijnen van opnamen die op verschillende tijdstippen zijn begonnen. Als u meerdere foto's als één video wilt delen, gebruikt u video-export op gesplitst scherm met uw lokale clips."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kan ik beginnen met slechts twee video's?",
+        "answer": "Ja. Kies een lay-out met twee regio's en voeg één video toe aan elke regio. Je kunt ze gestapeld of naast elkaar bewaren, met aparte afspeel- en geluidsbediening."
+      },
+      {
+        "question": "Werkt het op tablets?",
+        "answer": "Ja. Dezelfde app ondersteunt telefoons en tablets. Een groter scherm is handig voor het bekijken van verschillende hoeken of het lezen van referentiemateriaal naast een video."
+      },
+      {
+        "question": "Moet ik de video's eerst samenvoegen?",
+        "answer": "Nee. Bij afspelen op gesplitst scherm blijven de clips gescheiden. Een afspeellijst speelt clips opeenvolgend af in één regio; een gesplitste schermindeling toont verschillende clips tegelijkertijd."
+      },
+      {
+        "question": "Hoe verwijder ik zwarte balken?",
+        "answer": "Kies Vullen en bijsnijden in de instellingen voor videoschaling. Het vult elk gebied door de randen bij te snijden wanneer de vormen verschillen. Gebruik Fit als het belangrijker is om het hele originele frame te zien."
+      },
+      {
+        "question": "Kan het twee afzonderlijke streaming-apps weergeven?",
+        "answer": "Deze handleiding behandelt inhoud die is geopend in Split Screen Player. Er worden geen andere apps ingesloten. Het afspelen vanaf een webpagina is afhankelijk van die website en de beperkingen ervan."
+      },
+      {
+        "question": "Is de app gratis?",
+        "answer": "De app is gratis te downloaden, met eenvoudige videoweergave en gratis lay-outs. Voor lay-outs gemarkeerd met VIP, gebruik van aangepaste lay-out, bladwijzers en andere geavanceerde functies is lidmaatschap vereist."
+      }
+    ],
+    "closingTitle": "Bewaar de video's die u wilt bekijken op één scherm",
+    "closingDescription": "Begin met twee clips en probeer vervolgens drie gestapelde rijen of een raster met vier video's. Download de versie voor uw apparaat uit de App Store of Google Play."
+  },
+  "keywords": [
+    "Afspelen van meerdere video's",
+    "Gesplitst scherm"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

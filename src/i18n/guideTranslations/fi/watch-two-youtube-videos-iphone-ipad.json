@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Näin katsot kahta YouTube-videota samanaikaisesti iPhonella tai iPadilla",
+  "seoTitle": "Näin katsot kahta YouTube-videota samanaikaisesti iPhonella tai iPadilla",
+  "metaDescription": "Siirrä yhteensopiva YouTube-video erilliseen soittimeen ja avaa sitten toinen YouTube sivu ja katso kaksi videota iPhonella tai iPadilla.",
+  "summary": "Pidä ensimmäinen YouTube-video erillisessä soittimessa, kun taas toinen video toistetaan yllä olevalla verkkosivulla.",
+  "answer": "Avaa ensimmäinen YouTube sivu ja aloita toisto. Napauta Mini Player, valitse vastaava havaittu video ja anna sen avautua tyhjällä alueella. Avaa ja toista sitten toinen YouTube URL-osoite alkuperäisellä verkkoalueella.",
+  "note": "Tämä työnkulku vaatii Premiumin ja yhteensopivan tunnistetun lähteen. Se toistettiin Blender 's Big Buck Bunny ja Sintel iPhone 17 Pro -simulaattorissa. YouTube toimitus, mainokset, kirjautuminen ja suojaus voivat vaikuttaa muihin videoihin; se ei ole takuu jokaiselle linkille. Näyttökaappaukset näyttävät englanninkielisen käyttöliittymän iPhone 17 Pro -simulaattorissa.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Videot Sintel ja Big Buck Bunny toistetaan molemmat erillisillä näyttöalueilla.",
+    "alt": "iPhone 17 Pro – Sintel ja Big Buck Bunny -videot toistetaan molemmat erillisillä näyttöalueilla.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Avaa ensimmäinen YouTube-video",
+      "description": "Valitse kahden alueen asettelu. Napauta yläosassa + → Web/Stream ja avaa ensimmäinen YouTube -katselusivun URL-osoite verkkosivuna. Aloita toisto sivulla; alemman alueen tulee jäädä tyhjäksi.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Big Buck Bunny -video toistetaan verkkosivun yläosassa, ja alapuolella on tyhjä näyttöalue.",
+        "alt": "iPhone 17 Pro — Big Buck Bunny -video toistetaan verkkosivun yläosassa, ja alapuolella on tyhjä näyttöalue.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Tarkista havaittu video",
+      "description": "Napauta Web-osoitteen vieressä olevaa Minisoitin-painiketta. Tämän painikkeen numero on havaittujen videoiden määrä. Tarkista, että otsikko, kesto ja mitat vastaavat haluamaasi videota, ennen kuin valitset havaitun videon. Pelkkä tunnistus ei takaa toistoa.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Havaittu merkintä on 10:35 ja 640×360 tässä istunnossa.",
+        "alt": "iPhone 17 Pro — Havaittu merkintä on 10:35 ja 640×360 tässä istunnossa.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Avaa se toisella alueella",
+      "description": "Napauta vastaavaa kohdetta. Tyhjä alue vastaanottaa videon automaattisesti. Jos mikään ei ole tyhjä, Valitse toistopaikka kysyy, minkä alueen nykyinen sisältö korvataan.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Lähdesivu pysyy itsenäisen videosoittimen yläpuolella.",
+        "alt": "iPhone 17 Pro – Lähdesivu pysyy itsenäisen videosoittimen yläpuolella.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Toista eri video verkkosivulla",
+      "description": "Säilytä siirretty video alemmassa soittimessa. Napauta näytön yläosan verkko-osoitetta → Web/Stream ja kirjoita toinen YouTube katselu-URL-osoite. Toista video sivulla. Tässä esimerkissä Sintel -video toistetaan näytön yläosassa, kun taas Big Buck Bunny -videon toisto jatkuu alapuolella.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Videot Sintel ja Big Buck Bunny toistetaan molemmat erillisillä näyttöalueilla.",
+        "alt": "iPhone 17 Pro – Sintel ja Big Buck Bunny -videot toistetaan molemmat erillisillä näyttöalueilla.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Hyödyllisiä yksityiskohtia",
+    "featuresIntro": "Tarkista nämä tiedot noudattamalla ohjeita.",
+    "features": [
+      {
+        "title": "Lähteen on säilyttävä toistettavissa",
+        "description": "Vanhenevat mediaosoitteet, todennus, sisällön suojaus ja palvelimen toiminta voivat estää toiston. Palaa lähdesivulle ja aloita video uudelleen ennen kuin yrität uudelleen. Tämä ominaisuus ei anna pääsyä rajoitettuun sisältöön."
+      },
+      {
+        "title": "Säilytä yksi äänilähde",
+        "description": "Mykistä verkkosivu tai itsenäinen soitin, jos molemmat tuottavat ääntä. Kaksi leikkipaikkaa ovat itsenäisiä; Käytä yhteensopivia paikallisia tiedostoja ja synkronointipistettä tarkkoja vertailuja varten."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Miksi Mini Player on tyhjä?",
+        "answer": "Aloita video sivulla ja tarkista uudelleen. Jotkut sivustot eivät paljasta yhteensopivaa lähdettä. Havaittu merkintä voi myös olla mainos mieluummin kuin haluamasi video."
+      },
+      {
+        "question": "Mikset vain avaa kahta YouTube verkkosivua?",
+        "answer": "Sovellus varoittaa iOS n samanaikaisesta toistosta useilla verkkoalueilla. Tämä työnkulku siirtää ensimmäisen videon itsenäiseen soittimeen ja jättää vain toisen verkkosivulle. Se riippuu edelleen lähteiden yhteensopivuudesta."
+      }
+    ],
+    "closingTitle": "Kokeile tätä omalla mediallasi",
+    "closingDescription": "Avaa Split Screen Player ja seuraa ohjeita tiedostojen kanssa, joita haluat käyttää."
+  },
+  "keywords": [
+    "YouTube",
+    "Kaksoistoisto"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

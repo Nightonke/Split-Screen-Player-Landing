@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Come guardare due video YouTube contemporaneamente su iPhone o iPad",
+  "seoTitle": "Come guardare due video YouTube contemporaneamente su iPhone o iPad",
+  "metaDescription": "Sposta un video YouTube compatibile in un player separato, quindi apri un'altra pagina YouTube per guardare due video su iPhone o iPad.",
+  "summary": "Mantieni il primo video YouTube in un player indipendente mentre un secondo video viene riprodotto nella pagina web in alto.",
+  "answer": "Apri la prima pagina YouTube e avvia la riproduzione. Tocca Mini Player, scegli il video rilevato corrispondente e lascialo aprire nell’area vuota. Quindi apri e riproduci il secondo URL YouTube nell’area web originale.",
+  "note": "Questo flusso di lavoro richiede Premium e una fonte rilevata compatibile. È stato riprodotto con Big Buck Bunny e Sintel di Blender nel simulatore iPhone 17 Pro. La distribuzione, gli annunci, l'accesso e la protezione YouTube possono influire su altri video; non è una garanzia per ogni collegamento. Gli screenshot mostrano l'interfaccia inglese su un simulatore iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "I video Sintel e Big Buck Bunny vengono entrambi riprodotti in aree dello schermo separate.",
+    "alt": "iPhone 17 Pro : i video Sintel e Big Buck Bunny vengono entrambi riprodotti in aree dello schermo separate.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Apri il primo video YouTube",
+      "description": "Scegli un layout a due aree. Nell’area superiore, tocca + → Web/Stream e apri l'URL della prima pagina di visualizzazione YouTube come Pagina Web. Avvia la riproduzione nella pagina; l’area inferiore dovrebbe rimanere vuota.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Il video Big Buck Bunny viene riprodotto nella pagina Web superiore, con un'area vuota dello schermo in basso.",
+        "alt": "iPhone 17 Pro : il video Big Buck Bunny viene riprodotto nella pagina Web superiore, con un'area vuota dello schermo in basso.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Esamina il video rilevato",
+      "description": "Tocca il pulsante Mini Player accanto all'indirizzo web. Il numero su questo pulsante è il numero di video rilevati. Verifica che titolo, durata e dimensioni corrispondano al video desiderato prima di selezionare un video rilevato; il rilevamento da solo non garantisce la riproduzione.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "La voce rilevata è 10:35 e 640×360 in questa sessione.",
+        "alt": "iPhone 17 Pro : la voce rilevata è 10:35 e 640×360 in questa sessione.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Aprilo in un'altra area",
+      "description": "Tocca l'elemento corrispondente. Un’area vuota riceve il video automaticamente. Se nessuna area è vuota, Scegli posizione di riproduzione chiede quale contenuto corrente dell’area sostituire.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "La pagina di origine rimane sopra il lettore video indipendente.",
+        "alt": "iPhone 17 Pro : la pagina sorgente rimane sopra il lettore video indipendente.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Riproduci un video diverso nella pagina web",
+      "description": "Mantieni il video trasferito nel player inferiore. Tocca l'indirizzo web dell'area superiore dello schermo → Web/Stream e inserisci il secondo URL di visualizzazione YouTube. Riproduci il video nella pagina. In questo esempio, il video Sintel viene riprodotto nell'area superiore dello schermo mentre il video Big Buck Bunny continua a essere riprodotto in basso.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "I video Sintel e Big Buck Bunny vengono entrambi riprodotti in aree dello schermo separate.",
+        "alt": "iPhone 17 Pro : i video Sintel e Big Buck Bunny vengono entrambi riprodotti in aree dello schermo separate.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Dettagli utili",
+    "featuresIntro": "Controlla questi dettagli mentre segui i passaggi.",
+    "features": [
+      {
+        "title": "La sorgente deve rimanere riproducibile",
+        "description": "La scadenza degli indirizzi multimediali, l'autenticazione, la protezione dei contenuti e il comportamento del server possono impedire la riproduzione. Torna alla pagina di origine e avvia nuovamente il video prima di riprovare. Questa funzione non consente di accedere a contenuti riservati."
+      },
+      {
+        "title": "Mantieni una sorgente audio",
+        "description": "Disattiva l'audio della pagina Web o del lettore indipendente se entrambi producono audio. Le due testine di riproduzione sono indipendenti; utilizza file locali compatibili e Sync Point per un confronto preciso."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Perché Mini Player è vuoto?",
+        "answer": "Avvia un video nella pagina e ricontrolla. Alcuni siti non espongono una fonte compatibile. Una voce rilevata potrebbe anche essere una pubblicità anziché il video desiderato."
+      },
+      {
+        "question": "Perché non aprire semplicemente due pagine Web YouTube?",
+        "answer": "L'app avvisa della riproduzione simultanea in più aree Web su iOS. Questo flusso di lavoro sposta il primo video in un player indipendente e lascia solo il secondo in una pagina web. Dipende ancora dalla compatibilità della sorgente."
+      }
+    ],
+    "closingTitle": "Provalo con i tuoi contenuti multimediali",
+    "closingDescription": "Apri Split Screen Player e segui i passaggi con i file che desideri utilizzare."
+  },
+  "keywords": [
+    "YouTube",
+    "Doppia riproduzione"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

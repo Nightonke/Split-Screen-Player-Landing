@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Odtwarzanie wielu filmów · iPhone i iPad",
+  "title": "Jak odtwarzać wiele filmów jednocześnie na urządzeniu iPhone lub iPad",
+  "seoTitle": "Jak odtwarzać wiele filmów jednocześnie na urządzeniu iPhone lub iPad",
+  "metaDescription": "Oglądaj dwa filmy obok siebie, układaj trzy filmy w stosy lub odtwarzaj cztery w siatce na iPhone i iPad. Wybierz układ, dodaj lokalne klipy, steruj dźwiękiem i zapisz konfigurację.",
+  "summary": "Porównaj dwa klipy wideo bez przełączania między aplikacjami odtwarzaczy multimedialnych, ułóż trzy filmy w pionowych rzędach lub oglądaj cztery kamery w siatce, trzymając urządzenie poziomo. Split Screen Player sprawia, że ​​każdy film jest widoczny i niezależnie odtwarzany na iPhone i iPad.",
+  "answer": "Wybierz układ podzielonego ekranu, dotknij + w każdym pustym regionie i dodaj wideo ze Zdjęć lub Plików. Klipy są odtwarzane w oddzielnych regionach bez konieczności wcześniejszego łączenia ich w jeden plik. Zacznij od dwóch filmów lub postępuj zgodnie z poniższymi przykładami trzech i czterech filmów.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Trzy filmy ułożone w oddzielnych rzędach na iPhone w Split Screen Player",
+    "caption": "Trzy filmy pozostają widoczne w układzie pionowym.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Od trzech rzędów do siatki czterech wideo",
+  "steps": [
+    {
+      "title": "Wybierz układ z dwoma lub trzema regionami",
+      "description": "Stuknij ikonę układu czterech kwadratów na pasku narzędzi i otwórz Domyślne. W przypadku dwóch filmów wybierz układ skumulowany lub obok siebie w sekcji 1–2 filmy. W przypadku trzech filmów wybierz podświetloną miniaturę w trzech wierszach w obszarze Pionowo, łącznie 1 kolumna.",
+      "detail": "Każdy prostokąt reprezentuje obszar wideo; cienki pasek pokazuje położenie paska narzędzi. Jeśli chcesz uzyskać określony układ, użyj filtrów liczbowych i orientacji na dole.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Biblioteka układów pokazuje kilka aranżacji z zarysem układu trzyrzędowego",
+        "caption": "Wybierz dwa regiony lub zarys trzech ułożonych na sobie filmów.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Dodaj film do każdego regionu",
+      "description": "Stuknij + w pustym obszarze ekranu. W menu Otwórz wybierz opcję Wideo i wybierz klip z aplikacji Zdjęcia. Powtórz tę czynność dla pozostałych obszarów ekranu. Jeśli plik wideo jest przechowywany w aplikacji Pliki, wybierz opcję Pliki w menu Otwórz.",
+      "detail": "Aby zastąpić klip, dotknij jego zdjęcia, a następnie + w elementach sterujących. Możesz także użyć listy odtwarzania, aby odtwarzać kilka klipów jeden po drugim w jednym regionie.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Menu otwarte iPhone oferuje filmy, pliki, obrazy i listy odtwarzania",
+        "caption": "Wybierz opcję Filmy, aby otworzyć wideo z aplikacji Zdjęcia; wybierz opcję Pliki, aby otworzyć plik wideo zapisany w innym miejscu.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Kontroluj każdy film i wybieraj, co słyszysz",
+      "description": "Stuknij wideo, aby wyświetlić elementy sterujące. Użyj środkowego przycisku, aby odtworzyć lub wstrzymać odtwarzanie i przeciągnąć jego oś czasu do innego momentu. Pozostałe filmy można odtwarzać niezależnie.",
+      "detail": "Wycisz klipy, których nie chcesz słuchać, za pomocą przycisków głośników. Użyj przycisku prędkości, aby spowolnić porównywany ruch. Stuknij zdjęcie ponownie, gdy elementy sterujące zostaną ukryte.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Pierwszy z trzech filmów przedstawia elementy sterujące głośnikiem, szybkością, odtwarzaniem i osią czasu",
+        "caption": "Każdy film ma własne elementy sterujące dźwiękiem, szybkością i odtwarzaniem.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Przełącz na poziomą siatkę 2×2",
+      "description": "Otwórz ponownie selektor układu. Wybierz 4 w filtrze liczbowym i Land.(R) dla orientacji, a następnie wybierz miniaturę dwa na dwa w grupie o środkowej symetrii.",
+      "detail": "Mały pasek po prawej stronie miniatury oznacza, że ​​pasek narzędzi będzie po prawej stronie. Trzymaj urządzenie poziomo, aby wyświetlić cztery regiony w układzie poziomym.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Selektor układu iPhone jest filtrowany do czterech filmów i układu poziomego z paskiem narzędzi po prawej stronie",
+        "caption": "Wybierz cztery regiony za pomocą paska narzędzi po prawej stronie.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Dodaj czwarty klip i zapisz konfigurację",
+      "description": "Twoje pierwsze trzy klipy pozostają na swoim miejscu. Kliknij + w pustym obszarze, aby dodać czwarty film i uzupełnić siatkę.",
+      "detail": "Aby później wrócić do tej kombinacji, dotknij gwiazdki (Ulubione) na pasku narzędzi. Otwórz listę ulubionych obok, aby przywrócić zapisane filmy i układ.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Cztery filmy w poziomej siatce na iPhone z paskiem narzędzi po prawej stronie",
+        "caption": "Trzymaj cztery ujęcia kamery lub klipy referencyjne razem na jednym ekranie.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Zbuduj podzielony ekran, który pasuje do tego, co chcesz oglądać",
+    "featuresIntro": "Zacznij od dwóch klipów, a następnie dodaj więcej ujęć lub umieść lekcję i jej materiały referencyjne widoczne razem.",
+    "features": [
+      {
+        "title": "144 gotowe układy z maksymalnie 36 filmami jednocześnie",
+        "description": "Wybierz ułożone rzędy, widoki obok siebie, siatkę czterech filmów lub gęstszy układ. iPhone jest wygodny do szybkiego przeglądania; iPad zapewnia każdemu obrazowi więcej miejsca. Płynne odtwarzanie zależy od urządzenia, kodeka i rozdzielczości, dlatego dodawaj filmy stopniowo.",
+        "link": {
+          "label": "Poznaj odtwarzanie wielu filmów",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Dostosuj położenie i rozmiar każdego regionu",
+        "description": "Otwórz opcję Niestandardowy w selektorze układu, aby utworzyć własny układ. Przesuwaj regiony, zmieniaj rozmiar ich rogów lub dziel ekran liniami. Daj głównej lekcji więcej miejsca i umieść obok niej mniejszy odnośnik."
+      },
+      {
+        "title": "Przechowuj filmy, obrazy, pliki PDF i strony internetowe razem",
+        "description": "Każdy region może wyświetlać inny rodzaj treści, w tym wideo, audio, obrazy, foldery obrazów, pliki PDF i strony internetowe. Możesz także otwierać łącza strumieniowe HLS (M3U8) i RTSP."
+      },
+      {
+        "title": "Odtwarzaj lokalne MP4, MOV, MKV i inne",
+        "description": "Otwieraj codzienne nagrania w formacie MP4, MOV, M4V lub 3GP. Niestandardowy odtwarzacz w aplikacji obsługuje także kontenery takie jak MKV, AVI, WebM, FLV, F4V, WMV i RMVB. Odtwarzanie zależy od kodeka znajdującego się w pliku."
+      },
+      {
+        "title": "Ustaw ten sam moment w różnych nagraniach",
+        "description": "Jeśli nagrania rozpoczynają się w różnym czasie, ustaw punkt synchronizacji na tę samą akcję w każdym klipie i włącz blokadę synchronizacji. Pomaga to porównać ruch taneczny, huśtawkę lub to samo wydarzenie z kilku kamer.",
+        "link": {
+          "label": "Dowiedz się o punktach synchronizacji i blokadzie synchronizacji",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Czy mogę odtwarzać dwa filmy jednocześnie na iPhone?",
+        "answer": "Tak. Wybierz układ z dwoma regionami i dodaj wideo do każdego z nich. Obydwa obrazy pozostają widoczne, z oddzielnym sterowaniem odtwarzaniem, postępem i dźwiękiem."
+      },
+      {
+        "question": "Czy to działa również na iPad?",
+        "answer": "Tak. Split Screen Player obsługuje zarówno iPhone, jak i iPad. Większy ekran iPad przydaje się do sprawdzania kąta kamery, porównywania ruchów i oglądania lekcji wraz z PDF."
+      },
+      {
+        "question": "Czy muszę najpierw scalić filmy?",
+        "answer": "Nie. Podczas odtwarzania na podzielonym ekranie klipy są oddzielane. W dowolnym momencie możesz zmienić układ lub wstrzymać jeden film. Użyj eksportu wideo na podzielonym ekranie, jeśli chcesz udostępnić połączone zdjęcia jako nowy plik wideo."
+      },
+      {
+        "question": "Jak usunąć czarne paski pomiędzy filmami?",
+        "answer": "W ustawieniach wyświetlania wideo wybierz tryb Wypełniania, aby wypełnić cały obszar ekranu obrazem wideo. Ten tryb przycina krawędzie obrazu, gdy wideo i obszar ekranu mają różne kształty. Wybierz tryb Dopasuj, jeśli chcesz zobaczyć całą oryginalną klatkę wideo."
+      },
+      {
+        "question": "Czy mogę w ten sposób oglądać filmy z dwóch aplikacji do przesyłania strumieniowego?",
+        "answer": "W tym przewodniku opisano filmy otwierane w programie Split Screen Player. Nie umieszcza dwóch oddzielnych aplikacji w swoich regionach. Odtwarzanie wideo w Internecie zależy od każdej witryny internetowej i jej ograniczeń odtwarzania."
+      },
+      {
+        "question": "Czy Split Screen Player jest darmowy?",
+        "answer": "Aplikację można pobrać bezpłatnie i zapewnia podstawowe odtwarzanie wideo oraz bezpłatne układy. Układy oznaczone jako VIP, niestandardowe układy, zakładki i inne zaawansowane funkcje wymagają członkostwa."
+      }
+    ],
+    "closingTitle": "Trzymaj filmy, które chcesz oglądać na jednym ekranie",
+    "closingDescription": "Wypróbuj dwa klipy na iPhone lub iPad, a następnie przejrzyj trzy nałożone na siebie rzędy lub siatkę czterech filmów. Wersja Android jest również dostępna w Google Play."
+  },
+  "keywords": [
+    "Odtwarzanie wielu filmów",
+    "Podzielony ekran"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

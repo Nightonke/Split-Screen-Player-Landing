@@ -1,4 +1,5 @@
-import type { Locale } from "./locales";
+import { isGuideLocale, type GuideLocale, type Locale } from "./locales";
+import { localizeCore } from "./coreTranslation";
 import type { GuidePage } from "./guides";
 import type { GuideTopic } from "./tutorialTopics";
 
@@ -12,14 +13,15 @@ const navigation = {
   de: ["Anleitungen für iPhone, iPad und Android", "Lerne mit praktischen Anleitungen für Split Screen Player, Medien abzuspielen, zu vergleichen, anzuordnen und zu speichern.", "Anleitung finden", "Anleitungen durchsuchen", "Plattform", "Alle Plattformen", "Thema", "Alle Themen", "{count} Anleitungen", "Keine Anleitung passt zu diesen Filtern.", "Videovergleich", "Layouts", "Galerien und Fotos", "Wiedergabesteuerung", "Import und Export", "Web und Streams"],
   es: ["Tutoriales para iPhone, iPad y Android", "Aprende a reproducir, comparar, organizar y guardar tus contenidos con los tutoriales prácticos de Split Screen Player.", "Encontrar un tutorial", "Buscar tutoriales", "Plataforma", "Todas las plataformas", "Tema", "Todos los temas", "{count} tutoriales", "Ningún tutorial coincide con estos filtros.", "Comparación de vídeos", "Distribuciones", "Galerías y fotos", "Controles de reproducción", "Importar y exportar", "Web y transmisiones"],
   "pt-BR": ["Tutoriais para iPhone, iPad e Android", "Aprenda a reproduzir, comparar, organizar e salvar sua mídia com os tutoriais práticos do Split Screen Player.", "Encontrar um tutorial", "Buscar tutoriais", "Plataforma", "Todas as plataformas", "Tema", "Todos os temas", "{count} tutoriais", "Nenhum tutorial corresponde a estes filtros.", "Comparação de vídeos", "Layouts", "Galerias e fotos", "Controles de reprodução", "Importação e exportação", "Web e transmissões"],
-} satisfies Record<Locale, string[]>;
+} satisfies Record<GuideLocale, string[]>;
 
 export const guideTopics: GuideTopic[] = ["comparison", "layout", "gallery", "playback", "media", "web"];
-export function getGuideNavigation(locale: Locale) {
+export function getGuideNavigation(locale: Locale): { title: string; description: string; label: string; search: string; platformLabel: string; allPlatforms: string; topic: string; allTopics: string; count: string; empty: string; topics: Array<{ id: GuideTopic; label: string }> } {
+  if (!isGuideLocale(locale)) return localizeCore(getGuideNavigation("en-US"), locale);
   const text = navigation[locale];
   return {
     title: text[0], description: text[1], label: text[2], search: text[3],
-    platform: text[4], allPlatforms: text[5], topic: text[6], allTopics: text[7],
+    platformLabel: text[4], allPlatforms: text[5], topic: text[6], allTopics: text[7],
     count: text[8], empty: text[9],
     topics: guideTopics.map((id, index) => ({ id, label: text[10 + index] })),
   };

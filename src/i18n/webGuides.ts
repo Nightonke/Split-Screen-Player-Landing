@@ -1,5 +1,5 @@
 import type { GuideImage, GuidePage } from './guides';
-import type { Locale } from './locales';
+import type { GuideLocale as Locale } from './locales';
 import menus from './appMenuLabels.json';
 import zhHant from './webGuideTranslations/zh-Hant.json';
 import ja from './webGuideTranslations/ja.json';

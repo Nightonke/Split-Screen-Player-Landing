@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Main balik berbilang video · iPhone & iPad",
+  "title": "Cara memainkan berbilang video serentak pada iPhone atau iPad",
+  "seoTitle": "Cara Memainkan Berbilang Video Sekaligus pada iPhone atau iPad",
+  "metaDescription": "Tonton dua video sebelah menyebelah, susun tiga video atau mainkan empat video dalam grid pada iPhone dan iPad. Pilih reka letak, tambah klip setempat, kawal audio dan simpan persediaan anda.",
+  "summary": "Bandingkan dua klip video tanpa bertukar antara aplikasi pemain media, susun tiga video dalam baris menegak atau tonton empat sudut kamera dalam grid sambil memegang peranti secara mendatar. Split Screen Player memastikan setiap video kelihatan dan boleh dimainkan secara berasingan pada iPhone dan iPad.",
+  "answer": "Pilih reka letak skrin pisah, ketik + di setiap kawasan kosong dan tambahkan video daripada Foto atau Fail. Klip dimainkan di kawasan berasingan tanpa menggabungkannya terlebih dahulu ke dalam satu fail. Mulakan dengan dua video, atau ikuti contoh tiga baris dan empat video di bawah.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tiga video disusun dalam baris berasingan pada iPhone dalam Split Screen Player",
+    "caption": "Tiga video kekal kelihatan dalam reka letak potret.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Daripada tiga baris kepada grid empat video",
+  "steps": [
+    {
+      "title": "Pilih reka letak dengan dua atau tiga wilayah",
+      "description": "Ketik ikon susun atur empat segi empat dalam bar alat dan buka Lalai. Untuk dua video, pilih susun atur bertindan atau bersebelahan di bawah 1–2 Video. Untuk tiga video, pilih lakaran kecil tiga baris yang diserlahkan di bawah Menegak, Jumlah 1 Lajur.",
+      "detail": "Setiap segi empat tepat mewakili rantau video; jalur nipis menunjukkan kedudukan bar alat. Gunakan penapis nombor dan orientasi di bahagian bawah apabila anda mahu susunan tertentu.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Pustaka susun atur menunjukkan beberapa susunan dengan susun atur tiga baris digariskan",
+        "caption": "Pilih dua wilayah atau reka letak yang digariskan untuk tiga video bertindan.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Tambahkan video pada setiap wilayah",
+      "description": "Ketik + dalam kawasan skrin kosong. Dalam menu Buka, pilih Video dan pilih klip daripada apl Foto. Ulang untuk kawasan skrin yang lain. Jika video anda disimpan dalam apl Fail, pilih pilihan Fail dalam menu Buka.",
+      "detail": "Untuk menggantikan klip, ketik gambarnya dan kemudian + dalam kawalannya. Anda juga boleh menggunakan Senarai Main untuk memainkan beberapa klip satu demi satu dalam satu rantau.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Menu Buka iPhone menawarkan Video, Fail, Imej dan Senarai Main",
+        "caption": "Pilih pilihan Video untuk membuka video daripada apl Foto; pilih pilihan Fail untuk membuka video yang disimpan di tempat lain.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Kawal setiap video dan pilih perkara yang anda dengar",
+      "description": "Ketik video untuk mendedahkan kawalannya. Gunakan butang tengah untuk memainkan atau menjedanya dan seret garis masanya ke saat lain. Video lain boleh terus dimainkan secara bebas.",
+      "detail": "Redamkan klip yang anda tidak mahu dengar dengan butang pembesar suaranya. Gunakan butang kelajuan untuk memperlahankan pergerakan yang anda bandingkan. Ketik gambar sekali lagi apabila kawalan bersembunyi.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Yang pertama daripada tiga video memaparkan kawalan pembesar suara, kelajuan, main balik dan garis masanya",
+        "caption": "Setiap video mempunyai bunyi, kelajuan dan kawalan main balik sendiri.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Tukar kepada grid 2×2 landskap",
+      "description": "Buka pemilih susun atur sekali lagi. Pilih 4 dalam penapis nombor dan Tanah.(R) untuk orientasi, kemudian pilih lakaran kecil dua demi dua dalam kumpulan simetri tengah.",
+      "detail": "Jalur kecil di sebelah kanan lakaran kecil bermakna bar alat akan berada di sebelah kanan. Pegang peranti anda secara mendatar untuk melihat empat wilayah dalam landskap.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Pemilih reka letak iPhone ditapis kepada empat video dan landskap dengan bar alat di sebelah kanan",
+        "caption": "Pilih empat kawasan dengan bar alat di sebelah kanan.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Tambahkan klip keempat dan simpan persediaan anda",
+      "description": "Tiga klip pertama anda kekal di tempatnya. Ketik + di kawasan kosong untuk menambah video keempat dan melengkapkan grid.",
+      "detail": "Untuk kembali kepada gabungan ini kemudian, ketik bintang (Kegemaran) dalam bar alat. Buka Senarai Kegemaran di sebelahnya untuk memulihkan video dan reka letak yang disimpan.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Empat video dalam grid landskap pada iPhone dengan bar alat di sebelah kanan",
+        "caption": "Simpan empat sudut kamera atau klip rujukan bersama-sama dalam satu skrin.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bina skrin pisah yang sesuai dengan apa yang anda mahu tonton",
+    "featuresIntro": "Mulakan dengan dua klip, kemudian tambahkan lebih banyak sudut atau simpan pelajaran dan bahan rujukannya kelihatan bersama-sama.",
+    "features": [
+      {
+        "title": "144 susun atur pratetap, dengan sehingga 36 video sekali gus",
+        "description": "Pilih baris bertindan, paparan sebelah menyebelah, grid empat video atau susunan yang lebih padat. iPhone adalah mudah untuk tontonan pantas; iPad memberikan setiap gambar lebih banyak ruang. Main balik yang lancar bergantung pada peranti, codec dan peleraian, jadi tambahkan video secara beransur-ansur.",
+        "link": {
+          "label": "Terokai main balik berbilang video",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Laraskan kedudukan dan saiz setiap rantau",
+        "description": "Buka Tersuai dalam pemilih reka letak untuk membuat reka letak anda sendiri. Gerakkan kawasan, ubah saiz sudutnya atau bahagikan skrin dengan garisan. Berikan pelajaran utama lebih banyak ruang dan simpan rujukan yang lebih kecil di sebelahnya."
+      },
+      {
+        "title": "Simpan video, imej, PDF dan halaman web bersama-sama",
+        "description": "Setiap rantau boleh menunjukkan jenis kandungan yang berbeza, termasuk video, audio, imej, folder imej, PDF dan halaman web. Anda juga boleh membuka pautan strim HLS (M3U8) dan RTSP."
+      },
+      {
+        "title": "Mainkan MP4 tempatan, MOV, MKV dan banyak lagi",
+        "description": "Buka rakaman setiap hari dalam MP4, MOV, M4V atau 3GP. Pemain tersuai dalam apl juga menyokong bekas seperti MKV, AVI, WebM, FLV, F4V, WMV dan RMVB. Main semula bergantung pada codec di dalam fail."
+      },
+      {
+        "title": "Selaraskan detik yang sama dalam rakaman yang berbeza",
+        "description": "Apabila rakaman bermula pada masa yang berbeza, tetapkan Titik Penyegerakan pada tindakan yang sama dalam setiap klip dan dayakan Kunci Penyegerakan. Ini membantu membandingkan gerakan tarian, hayunan atau acara yang sama daripada beberapa kamera.",
+        "link": {
+          "label": "Ketahui tentang Titik Segerak dan Kunci Segerak",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Bolehkah saya memainkan dua video pada masa yang sama pada iPhone?",
+        "answer": "ya. Pilih reka letak dengan dua wilayah dan tambahkan video pada setiap satu. Kedua-dua gambar kekal kelihatan, dengan main balik, kemajuan dan kawalan bunyi yang berasingan."
+      },
+      {
+        "question": "Adakah ini berfungsi pada iPad juga?",
+        "answer": "ya. Split Screen Player menyokong kedua-dua iPhone dan iPad. Skrin iPad yang lebih besar berguna untuk semakan sudut kamera, perbandingan pergerakan dan menonton pelajaran bersama PDF."
+      },
+      {
+        "question": "Adakah saya perlu menggabungkan video terlebih dahulu?",
+        "answer": "Tidak. Main balik skrin pisah memastikan klip berasingan. Anda boleh menukar reka letak atau menjeda satu video pada bila-bila masa. Gunakan eksport video skrin pisah apabila anda ingin berkongsi gambar gabungan sebagai fail video baharu."
+      },
+      {
+        "question": "Bagaimanakah cara saya mengalih keluar bar hitam antara video?",
+        "answer": "Dalam tetapan paparan video, pilih mod Isi untuk mengisi seluruh kawasan skrin dengan imej video. Mod ini memangkas tepi imej apabila video dan kawasan skrinnya mempunyai bentuk yang berbeza. Pilih mod Fit apabila anda perlu melihat keseluruhan bingkai video asal."
+      },
+      {
+        "question": "Bolehkah saya menonton video daripada dua apl penstriman dengan cara ini?",
+        "answer": "Panduan ini merangkumi video yang anda buka dalam Split Screen Player. Ia tidak meletakkan dua apl berasingan di dalam kawasannya. Main balik video web bergantung pada setiap tapak web dan sekatan main baliknya."
+      },
+      {
+        "question": "Adakah Split Screen Player percuma?",
+        "answer": "Apl ini percuma untuk dimuat turun, dengan main balik video asas dan reka letak percuma. Reka letak bertanda VIP, penggunaan reka letak tersuai, penanda halaman dan ciri lanjutan lain memerlukan keahlian."
+      }
+    ],
+    "closingTitle": "Simpan video yang anda ingin tonton pada satu skrin",
+    "closingDescription": "Cuba dua klip pada iPhone atau iPad anda, kemudian terokai tiga baris bertindan atau grid empat video. Versi Android juga tersedia di Google Play."
+  },
+  "keywords": [
+    "Main balik berbilang video",
+    "Skrin belah"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

@@ -1,4 +1,5 @@
-import type { Locale } from './locales';
+import { extendCoreContent } from "./coreTranslation";
+import type { GuideLocale as Locale } from './locales';
 
 const copy = {
   'en-US': ['On this page', 'More possibilities', 'Frequently asked questions', 'preset layouts', 'videos at once, up to', 'Make it yours', 'Position, size and dividers', 'Try another way to use Split Screen Player', 'Read guide', 'Choose your device', 'Enlarge image', 'Close image', 'View the iPhone / iPad guide', 'View the Android guide', 'iPhone / iPad', 'Android', 'Scan to download'],
@@ -12,7 +13,9 @@ const copy = {
   'pt-BR': ['Neste guia', 'Mais possibilidades', 'Perguntas frequentes', 'layouts predefinidos', 'vídeos simultâneos, no máximo', 'Do seu jeito', 'Posição, tamanho e divisórias', 'Conheça outras formas de usar o app', 'Ler guia', 'Escolha seu dispositivo', 'Ampliar imagem', 'Fechar imagem', 'Ver o guia para iPhone / iPad', 'Ver o guia para Android', 'iPhone / iPad', 'Android', 'Escanear para baixar'],
 } satisfies Record<Locale, string[]>;
 
-export const articleChrome = Object.fromEntries(Object.entries(copy).map(([locale, value]) => {
+const existingArticleChrome = Object.fromEntries(Object.entries(copy).map(([locale, value]) => {
   const [toc, more, faq, layouts, videos, customize, geometry, related, read, choosePlatform, enlarge, close, iosGuide, androidGuide, iosLabel, androidLabel, scan] = value;
   return [locale, { toc, more, faq, layouts, videos, customize, geometry, related, read, choosePlatform, enlarge, close, iosGuide, androidGuide, iosLabel, androidLabel, scan }];
 })) as Record<Locale, { toc: string; more: string; faq: string; layouts: string; videos: string; customize: string; geometry: string; related: string; read: string; choosePlatform: string; enlarge: string; close: string; iosGuide: string; androidGuide: string; iosLabel: string; androidLabel: string; scan: string }>;
+
+export const articleChrome = extendCoreContent(existingArticleChrome);

@@ -1,0 +1,4 @@
+{
+  "structuralKeys": ["src", "poster", "videoSrc", "posterSrc", "visualSrc", "href", "url", "slug", "id", "number", "icon", "linkPath", "path", "relatedFeature", "relatedUseCase", "kind", "locale", "htmlLang", "logo", "author", "reviews", "version", "releaseDate", "storeLinks", "platform"],
+  "invariantTerms": ["Split Screen Player", "Google Play", "App Store", "Xtream Codes", "Firebase Analytics", "Firebase Crashlytics", "Firebase Performance Monitoring", "Tencent Cloud", "iPhone", "iPadOS", "iPad", "iOS", "Android", "IPTV", "Xtream", "HLS", "M3U8", "RTSP", "PDF", "VIP", "YouTube", "AirPlay"]
+}

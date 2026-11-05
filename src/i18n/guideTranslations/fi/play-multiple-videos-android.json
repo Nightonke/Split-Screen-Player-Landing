@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Näin toistat useita videoita samanaikaisesti Android-puhelimella tai -tabletilla",
+  "seoTitle": "Näin toistat useita videoita samanaikaisesti Android-puhelimella tai -tabletilla",
+  "metaDescription": "Katso kahta, kolmea tai neljää videota kerralla Android-puhelimella tai -tabletilla. Valitse pinotut rivit tai 2×2 ruudukko, lisää paikallisia leikkeitä, ohjaa ääntä ja tallenna asetukset.",
+  "summary": "Vertaa kahta videoleikettä vaihtamatta mediasoitinsovellusten välillä, järjestä kolme videota pystyriveille tai katso neljää kamerakulmaa ruudukossa pitäen laitetta vaakasuorassa. Split Screen Player pitää jokaisen videon näkyvissä Android-puhelimella tai -tabletilla.",
+  "answer": "Valitse jaetun näytön asettelu, napauta + kullakin alueella ja lisää video galleriastasi tai tiedostoistasi. Jokaisella leikkeellä on erilliset toisto- ja ääniohjaimet. Voit aloittaa kahdella videolla ja lisätä lisää tarvittaessa.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Kolme videota toistetaan pinottuina pystyasetteluina.",
+    "caption": "Kolme videota toistetaan pinottuina pystyasetteluina.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Kolmesta päällekkäisestä rivistä neljän videon ruudukkoon",
+  "steps": [
+    {
+      "title": "Valitse kaksi tai kolme videoaluetta",
+      "description": "Napauta työkalupalkin neljän neliön asettelukuvaketta. Ensimmäinen ryhmä tarjoaa pinotut ja vierekkäiset asettelut kahdelle videolle. Valitse kolmen leikkeen kohdalla kolmirivinen pikkukuva pystysuorasta yhden sarakkeen ryhmästä.",
+      "detail": "Jokaisen pikkukuvan pieni kaistale näyttää työkalupalkin sijainnin. Käytä alareunassa olevia numero- ja suuntasuodattimia rajataksesi valintoja.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Kolmirivinen asettelu on esitetty muiden järjestelyjen joukossa.",
+        "caption": "Kolmirivinen asettelu on hahmoteltu muiden järjestelyjen joukossa.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Lisää video jokaiselle alueelle",
+      "description": "Napauta + tyhjällä alueella. Valitse Avaa-kohdasta Albumin videot ja valitse leike. Toista muille alueille. Käytä tiedostoa muualle laitteeseen tallennetulle videolle.",
+      "detail": "Voit korvata leikkeen napauttamalla sen kuvaa ja sitten + sen säätimissä. Soittolistan avulla voit toistaa useita leikkeitä peräkkäin samalla alueella.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Valitse Albumivideot tai Tiedosto lisätäksesi videon.",
+        "caption": "Lisää video valitsemalla Albumin videot tai Tiedosto.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Ohjaa toistoa ja valitse, mitä kuulet",
+      "description": "Napauta videota paljastaaksesi sen säätimet. Käytä keskipainiketta toistaaksesi tai keskeyttääksesi sen ja vedä aikajana toiseen hetkeen. Muut leikkeet voivat jatkaa toistamista itsenäisesti.",
+      "detail": "Mykistä leikkeet, joita et halua kuulla niiden kaiutinpainikkeilla. Käytä nopeuspainiketta hidastaaksesi vertailtavaa liikettä.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Jokaisella videolla on omat äänen, nopeuden ja toiston säätimet.",
+        "caption": "Jokaisella videolla on omat äänen, nopeuden ja toiston säätimet.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Vaihda vaakasuuntaiseen 2×2 -ruudukkoon",
+      "description": "Avaa asetteluvalitsin, valitse numerosuodattimesta 4 ja valitse Vaaka R. Valitse kaksi kertaa kaksi pikkukuva keskisymmetriaryhmästä.",
+      "detail": "Pikkukuvan oikealla puolella oleva nauha edustaa työkalupalkkia. Pidä laitetta vaakasuorassa nähdäksesi neljä aluetta.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Valitse neljä aluetta oikealla olevan työkalupalkin avulla.",
+        "caption": "Valitse neljä aluetta oikealla olevan työkalupalkin avulla.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Lisää neljäs leike ja tallenna yhdistelmä",
+      "description": "Kolme ensimmäistä videota ovat edelleen saatavilla asettelun muutoksen jälkeen. Napauta + tyhjällä alueella ja lisää neljäs leike.",
+      "detail": "Napauta tähteä, Kirjanmerkki, tallentaaksesi nykyiset videot ja asettelun. Palauta tämä yhdistelmä avaamalla myöhemmin sen vieressä oleva Kirjanmerkit.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Neljä videota toistetaan yhdessä maisemaruudukossa.",
+        "caption": "Neljä videota toistetaan yhdessä maisemaruudukossa.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Rakenna jaettu näyttö, joka sopii katseluun",
+    "featuresIntro": "Pidä viittaus oman tallentuksesi viereen, katso kamerakulmia tai katso oppitunti sen tukimateriaalin kanssa.",
+    "features": [
+      {
+        "title": "144 asettelua, jopa 36 videota kerralla",
+        "description": "Valitse pinotut rivit, vierekkäiset näkymät, neljän videon ruudukko tai tiheämpi järjestely. Tabletit antavat jokaiselle kuvalle enemmän tilaa. Tasainen toisto riippuu laitteesta, koodekista ja resoluutiosta, joten lisää videoita vähitellen."
+      },
+      {
+        "title": "Anna pääkuvalle enemmän tilaa",
+        "description": "Luo oma järjestely avaamalla Mukautettu asetteluvalitsimessa. Siirrä alueita, muuta niiden kokoa ja jaa näyttö viivoilla tasapainottaaksesi päävideota ja sen viittauksia."
+      },
+      {
+        "title": "Yhdistä videoita, kuvia, PDF tiedostoja ja verkkosivuja",
+        "description": "Jokaisella alueella voi olla erilaista sisältöä: videoita, ääntä, kuvakokoelmia, PDF tiedostoja tai verkkosivuja. Voit myös avata HLS (M3U8) ja RTSP stream -linkkejä."
+      },
+      {
+        "title": "Avaa paikalliset MP4, MOV, MKV ja WebM -tiedostot",
+        "description": "Lisää tallenteita galleriastasi tai avaa tiedostoja kansiosta. Tietyn tiedoston tuki riippuu sen video- ja äänikoodekeista, ei vain sen tiedostotunnisteesta."
+      },
+      {
+        "title": "Vertaa samaa hetkeä tai jaa tulos",
+        "description": "Synkronointipisteet auttavat kohdistamaan eri aikoina alkaneet tallenteet. Kun haluat jakaa useita kuvia yhtenä videona, käytä jaetun näytön videovientiä paikallisten leikkeiden kanssa."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Voinko aloittaa kahdella videolla?",
+        "answer": "Kyllä. Valitse kahden alueen asettelu ja lisää yksi video kullekin alueelle. Voit pitää ne pinottuina tai vierekkäin erillisillä toisto- ja äänisäätimillä."
+      },
+      {
+        "question": "Toimiiko tableteilla?",
+        "answer": "Kyllä. Sama sovellus tukee puhelimia ja tabletteja. Suuremmasta näytöstä on hyötyä, kun tarkastellaan useita kuvakulmia tai luetaan viitemateriaalia videon vieressä."
+      },
+      {
+        "question": "Pitääkö minun yhdistää videot ensin?",
+        "answer": "Ei. Jaetun näytön toisto pitää leikkeet erillään. Soittolista toistaa leikkeitä peräkkäin yhdellä alueella; jaetun näytön asettelu näyttää erilaisia ​​leikkeitä samanaikaisesti."
+      },
+      {
+        "question": "Kuinka poistan mustat palkit?",
+        "answer": "Valitse videon skaalausasetuksista Täytä ja rajaa. Se täyttää jokaisen alueen leikkaamalla reunoja, kun muodot eroavat toisistaan. Käytä Fitiä, kun näet koko alkuperäisen kehyksen tärkeämmän."
+      },
+      {
+        "question": "Voiko se näyttää kaksi erillistä suoratoistosovellusta?",
+        "answer": "Tämä opas kattaa Split Screen Player sisällä avatun sisällön. Se ei upota muita sovelluksia. Toisto verkkosivulta riippuu kyseisestä verkkosivustosta ja sen rajoituksista."
+      },
+      {
+        "question": "Onko sovellus ilmainen?",
+        "answer": "Sovellus on ladattavissa ilmaiseksi, ja siinä on perusvideotoisto ja ilmaisia ​​asetteluja. VIP -merkityt asettelut, mukautetun ulkoasun käyttö, kirjanmerkit ja muut lisäominaisuudet edellyttävät jäsenyyttä."
+      }
+    ],
+    "closingTitle": "Pidä videot, joita haluat katsoa, ​​yhdellä näytöllä",
+    "closingDescription": "Aloita kahdella leikeellä ja kokeile sitten kolmea pinottua riviä tai neljän videon ruudukkoa. Lataa versio laitteellesi App Store tai Google Play."
+  },
+  "keywords": [
+    "Usean videon toisto",
+    "Jaettu näyttö"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

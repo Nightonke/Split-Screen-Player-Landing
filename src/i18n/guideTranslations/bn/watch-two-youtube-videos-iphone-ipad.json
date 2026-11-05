@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "iPhone বা iPad-এ একসঙ্গে দুটি YouTube ভিডিও দেখবেন কীভাবে",
+  "seoTitle": "iPhone বা iPad-এ একসঙ্গে দুটি YouTube ভিডিও দেখবেন কীভাবে",
+  "metaDescription": "একটি সামঞ্জস্যপূর্ণ YouTube ভিডিও একটি পৃথক প্লেয়ারে সরান, তারপর iPhone বা iPad এ দুটি ভিডিও দেখতে অন্য YouTube পৃষ্ঠা খুলুন৷",
+  "summary": "প্রথম YouTube ভিডিওটি একটি স্বাধীন প্লেয়ারে রাখুন যখন একটি দ্বিতীয় ভিডিও উপরের ওয়েবপেজে চলে।",
+  "answer": "প্রথম YouTube পৃষ্ঠা খুলুন এবং প্লেব্যাক শুরু করুন। মিনি প্লেয়ারে আলতো চাপুন, ম্যাচিং শনাক্ত করা ভিডিও চয়ন করুন এবং এটি খালি অঞ্চলে খুলতে দিন। তারপরে মূল ওয়েব অঞ্চলে দ্বিতীয় YouTube ইউআরএলটি খুলুন এবং প্লে করুন।",
+  "note": "এই কর্মপ্রবাহের জন্য প্রিমিয়াম এবং একটি সামঞ্জস্যপূর্ণ শনাক্ত করা উৎস প্রয়োজন। এটি iPhone 17 Pro সিমুলেটরে Blender Big Buck Bunny এবং Sintel সাথে পুনরুত্পাদন করা হয়েছিল। YouTube বিতরণ, বিজ্ঞাপন, লগইন এবং সুরক্ষা অন্যান্য ভিডিওগুলিকে প্রভাবিত করতে পারে; এটি প্রতিটি লিঙ্কের জন্য একটি গ্যারান্টি নয়। স্ক্রিনশটগুলি একটি iPhone 17 Pro সিমুলেটরে ইংরেজি ইন্টারফেস দেখায়।",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "ভিডিও Sintel এবং Big Buck Bunny উভয়ই আলাদা স্ক্রিন এলাকায় চলছে৷",
+    "alt": "iPhone 17 Pro — Sintel এবং Big Buck Bunny ভিডিও দুটি আলাদা স্ক্রীন এলাকায় চলছে।",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "প্রথম YouTube ভিডিও খুলুন",
+      "description": "একটি দুই-অঞ্চলের বিন্যাস চয়ন করুন। উপরের অঞ্চলে, + → ওয়েব/স্ট্রিম আলতো চাপুন এবং ওয়েবপেজ হিসাবে প্রথম YouTube দেখার-পৃষ্ঠার URL খুলুন। পৃষ্ঠায় প্লেব্যাক শুরু করুন; নিম্ন অঞ্চলটি খালি থাকা উচিত।",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Big Buck Bunny ভিডিওটি উপরের ওয়েবপেজে চলে, নীচে একটি খালি স্ক্রীন এলাকা সহ।",
+        "alt": "iPhone 17 Pro — দ্য Big Buck Bunny ভিডিওটি উপরের ওয়েবপেজে চলে, নিচে একটি খালি স্ক্রীন এরিয়া সহ।",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "সনাক্ত করা ভিডিও পরিদর্শন করুন",
+      "description": "ওয়েব ঠিকানার পাশে মিনি প্লেয়ার বোতামটি আলতো চাপুন। এই বোতামের নম্বরটি সনাক্ত করা ভিডিওগুলির সংখ্যা। একটি শনাক্ত করা ভিডিও নির্বাচন করার আগে শিরোনাম, সময়কাল এবং মাত্রা আপনার পছন্দের ভিডিওটির সাথে মেলে কিনা তা পরীক্ষা করুন; একা সনাক্তকরণ প্লেব্যাকের গ্যারান্টি দেয় না।",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "এই সেশনে সনাক্ত করা এন্ট্রি হল 10:35 এবং 640×360 ।",
+        "alt": "iPhone 17 Pro — এই সেশনে সনাক্ত করা এন্ট্রি হল 10:35 এবং 640×360 ।",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "এটি অন্য অঞ্চলে খুলুন",
+      "description": "ম্যাচিং আইটেম আলতো চাপুন. একটি খালি অঞ্চল ভিডিওটি স্বয়ংক্রিয়ভাবে গ্রহণ করে। কোনটি খালি না থাকলে, প্লেব্যাক অবস্থান চয়ন করুন কোন অঞ্চলের বর্তমান সামগ্রী প্রতিস্থাপন করতে হবে তা জিজ্ঞাসা করে৷",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "উৎস পৃষ্ঠাটি স্বাধীন ভিডিও প্লেয়ারের উপরে থাকে।",
+        "alt": "iPhone 17 Pro — উৎস পৃষ্ঠাটি স্বাধীন ভিডিও প্লেয়ারের উপরে থাকে।",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "ওয়েবপেজে একটি ভিন্ন ভিডিও চালান",
+      "description": "নিচের প্লেয়ারে স্থানান্তরিত ভিডিও রাখুন। উপরের স্ক্রীন এলাকার ওয়েব ঠিকানা → ওয়েব/স্ট্রিমে আলতো চাপুন এবং দ্বিতীয় YouTube দেখার URL লিখুন। পেজে ভিডিওটি চালান। এই উদাহরণে, Sintel ভিডিওটি উপরের স্ক্রীন এলাকায় প্লে হয় যখন Big Buck Bunny ভিডিওটি নীচে চলতে থাকে।",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "ভিডিও Sintel এবং Big Buck Bunny উভয়ই আলাদা স্ক্রিন এলাকায় চলছে৷",
+        "alt": "iPhone 17 Pro — Sintel এবং Big Buck Bunny ভিডিও দুটি আলাদা স্ক্রীন এলাকায় চলছে।",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "দরকারী বিবরণ",
+    "featuresIntro": "আপনি পদক্ষেপগুলি অনুসরণ করার সাথে সাথে এই বিবরণগুলি পরীক্ষা করুন৷",
+    "features": [
+      {
+        "title": "উৎস অবশ্যই খেলার যোগ্য থাকতে হবে",
+        "description": "মেয়াদোত্তীর্ণ মিডিয়া ঠিকানা, প্রমাণীকরণ, সামগ্রী সুরক্ষা এবং সার্ভার আচরণ প্লেব্যাক প্রতিরোধ করতে পারে। উত্স পৃষ্ঠায় ফিরে যান এবং পুনরায় চেষ্টা করার আগে ভিডিওটি আবার শুরু করুন৷ এই বৈশিষ্ট্যটি সীমাবদ্ধ সামগ্রীতে অ্যাক্সেস দেয় না।"
+      },
+      {
+        "title": "একটি অডিও উৎস রাখুন",
+        "description": "ওয়েবপৃষ্ঠা বা স্বাধীন প্লেয়ারকে নিঃশব্দ করুন যদি উভয়ই শব্দ উৎপন্ন করে। দুটি প্লেহেড স্বাধীন; সুনির্দিষ্ট তুলনার জন্য সামঞ্জস্যপূর্ণ স্থানীয় ফাইল এবং সিঙ্ক পয়েন্ট ব্যবহার করুন।"
+      }
+    ],
+    "faq": [
+      {
+        "question": "মিনি প্লেয়ার খালি কেন?",
+        "answer": "পৃষ্ঠায় একটি ভিডিও শুরু করুন এবং আবার চেক করুন। কিছু সাইট একটি সামঞ্জস্যপূর্ণ উৎস প্রকাশ করে না। একটি শনাক্ত এন্ট্রি আপনি চেয়েছিলেন ভিডিও পরিবর্তে একটি বিজ্ঞাপন হতে পারে."
+      },
+      {
+        "question": "কেন শুধু দুটি YouTube ওয়েবপেজ খুলবেন না?",
+        "answer": "অ্যাপটি iOS এ একাধিক ওয়েব অঞ্চলে একযোগে প্লেব্যাক সম্পর্কে সতর্ক করে। এই ওয়ার্কফ্লো প্রথম ভিডিওটিকে একটি স্বাধীন প্লেয়ারে স্থানান্তরিত করে এবং একটি ওয়েবপেজে শুধুমাত্র দ্বিতীয়টি ছেড়ে দেয়৷ এটি এখনও উত্স সামঞ্জস্যের উপর নির্ভর করে।"
+      }
+    ],
+    "closingTitle": "আপনার নিজের মিডিয়া দিয়ে এটি চেষ্টা করুন",
+    "closingDescription": "Split Screen Player খুলুন এবং আপনি যে ফাইলগুলি ব্যবহার করতে চান তার সাথে ধাপগুলি অনুসরণ করুন৷"
+  },
+  "keywords": [
+    "YouTube",
+    "দ্বৈত প্লেব্যাক"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

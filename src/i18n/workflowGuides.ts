@@ -1,5 +1,5 @@
 import type { GuideImage, GuidePage } from "./guides";
-import type { Locale } from "./locales";
+import type { GuideLocale as Locale } from "./locales";
 import translationData from "./workflowGuideTranslations.json";
 
 type Platform = "ios" | "android";

@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "كيفية مشاهدة مقطعين فيديو YouTube في وقت واحد على iPhone أو iPad",
+  "seoTitle": "كيفية مشاهدة مقطعين فيديو YouTube في وقت واحد على iPhone أو iPad",
+  "metaDescription": "انقل مقطع فيديو YouTube متوافقًا إلى مشغل منفصل، ثم افتح صفحة YouTube أخرى لمشاهدة مقطعي فيديو على iPhone أو iPad.",
+  "summary": "احتفظ بفيديو YouTube الأول في مشغل مستقل بينما يتم تشغيل مقطع فيديو ثانٍ في صفحة الويب أعلاه.",
+  "answer": "افتح صفحة YouTube الأولى وابدأ التشغيل. اضغط على Mini Player، واختر الفيديو المطابق الذي تم اكتشافه، واتركه مفتوحًا في المنطقة الفارغة. ثم افتح عنوان URL الثاني YouTube وقم بتشغيله في منطقة الويب الأصلية.",
+  "note": "يتطلب سير العمل هذا Premium ومصدرًا متوافقًا تم اكتشافه. تم إعادة إنتاجه باستخدام Big Buck Bunny و Sintel من Blender في جهاز محاكاة iPhone 17 Pro. يمكن أن يؤثر التسليم والإعلانات وتسجيل الدخول والحماية YouTube على مقاطع الفيديو الأخرى؛ فهو ليس ضمانًا لكل رابط. تُظهر لقطات الشاشة الواجهة الإنجليزية على جهاز محاكاة iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "يتم تشغيل مقاطع الفيديو Sintel و Big Buck Bunny في مناطق شاشة منفصلة.",
+    "alt": "iPhone 17 Pro - يتم تشغيل مقاطع الفيديو Sintel و Big Buck Bunny في مناطق شاشة منفصلة.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "افتح أول فيديو YouTube",
+      "description": "اختر تخطيطًا لمنطقتين. في المنطقة العلوية، اضغط على + → Web/Stream وافتح عنوان URL الأول لصفحة مشاهدة YouTube كصفحة ويب. ابدأ التشغيل في الصفحة؛ يجب أن تظل المنطقة السفلية فارغة.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "يتم تشغيل فيديو Big Buck Bunny في صفحة الويب العلوية، مع وجود منطقة شاشة فارغة أدناه.",
+        "alt": "iPhone 17 Pro - يتم تشغيل فيديو Big Buck Bunny في صفحة الويب العلوية، مع وجود منطقة شاشة فارغة أدناه.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "فحص الفيديو المكتشف",
+      "description": "اضغط على زر Mini Player بجوار عنوان الويب. الرقم الموجود على هذا الزر هو عدد مقاطع الفيديو المكتشفة. تأكد من أن العنوان والمدة والأبعاد تتطابق مع الفيديو الذي تريده قبل تحديد مقطع فيديو تم اكتشافه؛ الكشف وحده لا يضمن التشغيل.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "الإدخال المكتشف هو 10:35 و 640×360 في هذه الجلسة.",
+        "alt": "iPhone 17 Pro — الإدخال المكتشف هو 10:35 و 640×360 في هذه الجلسة.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "افتحه في منطقة أخرى",
+      "description": "اضغط على العنصر المطابق. تستقبل المنطقة الفارغة الفيديو تلقائيًا. إذا لم يكن أي شيء فارغًا، فإن اختيار موقع التشغيل يسألك عن المحتوى الحالي للمنطقة المراد استبداله.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "تظل الصفحة المصدر أعلى مشغل الفيديو المستقل.",
+        "alt": "iPhone 17 Pro — تظل الصفحة المصدر أعلى مشغل الفيديو المستقل.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "قم بتشغيل مقطع فيديو مختلف في صفحة الويب",
+      "description": "احتفظ بالفيديو المنقول في المشغل السفلي. اضغط على عنوان الويب الخاص بمنطقة الشاشة العلوية → Web/Stream وأدخل عنوان URL الثاني لمشاهدة YouTube. قم بتشغيل الفيديو في الصفحة. في هذا المثال، يتم تشغيل فيديو Sintel في منطقة الشاشة العلوية بينما يستمر تشغيل فيديو Big Buck Bunny بالأسفل.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "يتم تشغيل مقاطع الفيديو Sintel و Big Buck Bunny في مناطق شاشة منفصلة.",
+        "alt": "iPhone 17 Pro - يتم تشغيل مقاطع الفيديو Sintel و Big Buck Bunny في مناطق شاشة منفصلة.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "تفاصيل مفيدة",
+    "featuresIntro": "تحقق من هذه التفاصيل أثناء اتباع الخطوات.",
+    "features": [
+      {
+        "title": "يجب أن يظل المصدر قابلاً للتشغيل",
+        "description": "يمكن أن تؤدي انتهاء صلاحية عناوين الوسائط والمصادقة وحماية المحتوى وسلوك الخادم إلى منع التشغيل. ارجع إلى الصفحة المصدر وابدأ تشغيل الفيديو مرة أخرى قبل إعادة المحاولة. لا تمنح هذه الميزة الوصول إلى المحتوى المقيد."
+      },
+      {
+        "title": "احتفظ بمصدر صوتي واحد",
+        "description": "قم بكتم صوت صفحة الويب أو المشغل المستقل إذا كان كلاهما يصدر صوتًا. رأسا التشغيل مستقلان. استخدم الملفات المحلية المتوافقة ونقطة المزامنة لإجراء مقارنة دقيقة."
+      }
+    ],
+    "faq": [
+      {
+        "question": "لماذا يكون Mini Player فارغًا؟",
+        "answer": "ابدأ مقطع فيديو في الصفحة وتحقق مرة أخرى. بعض المواقع لا تكشف عن مصدر متوافق. قد يكون الإدخال المكتشف أيضًا إعلانًا وليس الفيديو الذي تريده."
+      },
+      {
+        "question": "لماذا لا تفتح صفحتين على الويب YouTube فقط؟",
+        "answer": "يحذر التطبيق من التشغيل المتزامن في مناطق ويب متعددة على iOS. ينقل سير العمل هذا الفيديو الأول إلى مشغل مستقل ويترك الثاني فقط في صفحة الويب. لا يزال يعتمد على توافق المصدر."
+      }
+    ],
+    "closingTitle": "جرب هذا مع الوسائط الخاصة بك",
+    "closingDescription": "افتح Split Screen Player واتبع الخطوات مع الملفات التي تريد استخدامها."
+  },
+  "keywords": [
+    "YouTube",
+    "تشغيل مزدوج"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

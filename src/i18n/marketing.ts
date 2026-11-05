@@ -1,3 +1,4 @@
+import { extendCoreContent } from "./coreTranslation";
 import platformCopy from "./platformCopy.json";
 import type { Locale } from "./locales";
 import { localizeDeep, type ExtendedLocale } from "./translation";
@@ -1027,7 +1028,7 @@ const createExtendedMarketing = (locale: ExtendedLocale): MarketingContent => {
 	};
 };
 
-export const marketingContent: Record<Locale, MarketingContent> = {
+const existingMarketingContent: Record<string, MarketingContent> = {
 	...coreMarketingContent,
 	ja: createExtendedMarketing("ja"),
 	ko: createExtendedMarketing("ko"),
@@ -1038,7 +1039,7 @@ export const marketingContent: Record<Locale, MarketingContent> = {
 };
 
 for (const [locale, copy] of Object.entries(platformCopy)) {
-  const page = marketingContent[locale as Locale];
+  const page = existingMarketingContent[locale as Locale];
   page.hero.eyebrow = "iPhone / iPad / Android";
   page.hero.description = copy.description;
   page.hero.ratingText = `App Store · ${page.hero.ratingText}`;
@@ -1056,9 +1057,11 @@ for (const [locale, copy] of Object.entries(platformCopy)) {
   }
 }
 
-for (const page of Object.values(marketingContent)) {
+for (const page of Object.values(existingMarketingContent)) {
   for (const detail of [...Object.values(page.details.features), ...Object.values(page.details.useCases)]) {
     if (detail === page.details.features['iptv-streaming']) continue;
     detail.seoTitle = `${detail.title} | iPhone, iPad & Android`;
   }
 }
+
+export const marketingContent = extendCoreContent(existingMarketingContent);

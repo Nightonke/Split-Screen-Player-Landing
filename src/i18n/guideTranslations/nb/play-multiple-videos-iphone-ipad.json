@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Multi-videoavspilling · iPhone og iPad",
+  "title": "Slik spiller du av flere videoer samtidig på iPhone eller iPad",
+  "seoTitle": "Slik spiller du av flere videoer samtidig på iPhone eller iPad",
+  "metaDescription": "Se to videoer side ved side, stable tre videoer, eller spill fire i et rutenett på iPhone og iPad. Velg et oppsett, legg til lokale klipp, kontroller lyden og lagre oppsettet ditt.",
+  "summary": "Sammenlign to videoklipp uten å bytte mellom mediespillerapplikasjoner, ordne tre videoer i vertikale rader, eller se fire kameravinkler i et rutenett mens du holder enheten horisontalt. Split Screen Player holder hver video synlig og kan spilles av uavhengig på iPhone og iPad.",
+  "answer": "Velg et delt skjermoppsett, trykk på + i hver tomme region, og legg til en video fra Bilder eller Filer. Klippene spilles av i separate regioner uten først å slå dem sammen til én fil. Start med to videoer, eller følg eksemplene med tre rader og fire videoer nedenfor.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tre videoer stablet i separate rader på en iPhone i Split Screen Player",
+    "caption": "Tre videoer forblir synlige i et portrettoppsett.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Fra tre rader til et rutenett med fire videoer",
+  "steps": [
+    {
+      "title": "Velg en layout med to eller tre regioner",
+      "description": "Trykk på det fire kvadratiske layoutikonet på verktøylinjen og åpne Standard. For to videoer, velg et stablet eller side-ved-side-oppsett under 1–2 videoer. For tre videoer, velg det uthevede miniatyrbildet med tre rader under Vertikal, 1 kolonne totalt.",
+      "detail": "Hvert rektangel representerer et videoområde; den tynne stripen viser verktøylinjens posisjon. Bruk tall- og orienteringsfiltrene nederst når du ønsker et bestemt arrangement.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Layoutbiblioteket viser flere arrangementer med treradsoppsettet skissert",
+        "caption": "Velg to områder, eller det skisserte oppsettet for tre stablede videoer.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Legg til en video til hver region",
+      "description": "Trykk på + i et tomt skjermområde. I Åpne-menyen velger du Videoer og velger et klipp fra Bilder-appen. Gjenta for de andre skjermområdene. Hvis videoen din er lagret i Filer-appen, velg Filer-alternativet i Åpne-menyen.",
+      "detail": "For å erstatte et klipp, trykk på bildet og deretter + i kontrollene. Du kan også bruke spilleliste til å spille av flere klipp etter hverandre innenfor en enkelt region.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "iPhone Åpne-menyen tilbyr videoer, filer, bilder og spilleliste",
+        "caption": "Velg alternativet Videoer for å åpne en video fra Bilder-appen; velg alternativet Filer for å åpne en video som er lagret et annet sted.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Kontroller hver video og velg hva du hører",
+      "description": "Trykk på en video for å vise kontrollene. Bruk midtknappen til å spille av eller sette den på pause og dra tidslinjen til et annet øyeblikk. De andre videoene kan fortsette å spille uavhengig.",
+      "detail": "Demp klippene du ikke vil høre med høyttalerknappene. Bruk hastighetsknappen for å bremse en bevegelse du sammenligner. Trykk på bildet igjen når kontrollene skjuler seg.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Den første av tre videoer viser høyttaler-, hastighets-, avspillings- og tidslinjekontroller",
+        "caption": "Hver video har sine egne lyd-, hastighets- og avspillingskontroller.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Bytt til et liggende 2×2 rutenett",
+      "description": "Åpne layoutvelgeren igjen. Velg 4 i tallfilteret og Land.(R) for orienteringen, og velg deretter miniatyrbildet to ganger to i midtsymmetrigruppen.",
+      "detail": "Den lille stripen til høyre for miniatyrbildet betyr at verktøylinjen vil være til høyre. Hold enheten horisontalt for å se de fire områdene i landskapet.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "iPhone layoutvelgeren filtreres til fire videoer og liggende med verktøylinjen til høyre",
+        "caption": "Velg fire regioner med verktøylinjen til høyre.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Legg til det fjerde klippet og lagre oppsettet",
+      "description": "De tre første klippene dine forblir på plass. Trykk på + i det tomme området for å legge til en fjerde video og fullføre rutenettet.",
+      "detail": "For å gå tilbake til denne kombinasjonen senere, trykk på stjernen (Favoritt) på verktøylinjen. Åpne favorittlisten ved siden av for å gjenopprette de lagrede videoene og oppsettet.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Fire videoer i et liggende rutenett på iPhone med verktøylinjen til høyre",
+        "caption": "Hold fire kameravinkler eller referanseklipp sammen på én skjerm.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bygg den delte skjermen som passer til det du vil se",
+    "featuresIntro": "Start med to klipp, legg deretter til flere vinkler eller hold en leksjon og referansematerialet synlig sammen.",
+    "features": [
+      {
+        "title": "144 forhåndsinnstilte oppsett, med opptil 36 videoer samtidig",
+        "description": "Velg stablede rader, side-ved-side-visninger, et rutenett med fire videoer eller et tettere arrangement. iPhone er praktisk for rask visning; iPad gir hvert bilde mer plass. Jevn avspilling avhenger av enheten, kodeken og oppløsningen, så legg til videoer gradvis.",
+        "link": {
+          "label": "Utforsk avspilling av flere videoer",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Juster plasseringen og størrelsen på hver region",
+        "description": "Åpne Custom i layoutvelgeren for å lage din egen layout. Flytt områder, endre størrelsen på hjørnene eller del skjermen med linjer. Gi hovedleksjonen mer plass og ha en mindre referanse ved siden av."
+      },
+      {
+        "title": "Hold videoer, bilder, PDF er og nettsider sammen",
+        "description": "Hver region kan vise en annen type innhold, inkludert videoer, lyd, bilder, bildemapper, PDF er og nettsider. Du kan også åpne HLS (M3U8) og RTSP strømkoblinger."
+      },
+      {
+        "title": "Spill lokal MP4, MOV, MKV og mer",
+        "description": "Åpne hverdagsopptak i MP4, MOV, M4V eller 3GP. Den tilpassede spilleren i appen støtter også beholdere som MKV, AVI, WebM, FLV, F4V, WMV og RMVB. Avspilling avhenger av kodeken inne i filen."
+      },
+      {
+        "title": "Still opp samme øyeblikk i forskjellige opptak",
+        "description": "Når opptak starter til forskjellige tider, sett et synkroniseringspunkt ved samme handling i hvert klipp og aktiver synkroniseringslås. Dette hjelper deg med å sammenligne et dansetrekk, en sving eller samme hendelse fra flere kameraer.",
+        "link": {
+          "label": "Lær om Sync Points og Sync Lock",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kan jeg spille av to videoer samtidig på iPhone?",
+        "answer": "Ja. Velg et oppsett med to regioner og legg til en video til hver. Begge bildene forblir synlige, med separate avspillings-, fremdrifts- og lydkontroller."
+      },
+      {
+        "question": "Fungerer dette på iPad også?",
+        "answer": "Ja. Split Screen Player støtter både iPhone og iPad. En større iPad skjerm er nyttig for kameravinkelgjennomgang, bevegelsessammenligning og se en leksjon sammen med en PDF."
+      },
+      {
+        "question": "Må jeg slå sammen videoene først?",
+        "answer": "Nei. Avspilling med delt skjerm holder klippene adskilt. Du kan endre oppsettet eller sette én video på pause når som helst. Bruk delt skjerm-videoeksport når du vil dele de kombinerte bildene som en ny videofil."
+      },
+      {
+        "question": "Hvordan fjerner jeg svarte streker mellom videoer?",
+        "answer": "I videovisningsinnstillingene velger du Fyll-modus for å fylle hele skjermområdet med videobildet. Denne modusen beskjærer bildekantene når videoen og skjermområdet har forskjellige former. Velg Tilpass-modus når du trenger å se hele den originale videorammen."
+      },
+      {
+        "question": "Kan jeg se videoer fra to strømmeapper på denne måten?",
+        "answer": "Denne guiden dekker videoer du åpner i Split Screen Player. Den plasserer ikke to separate apper i regionene sine. Nettvideoavspilling avhenger av hvert nettsted og dets avspillingsbegrensninger."
+      },
+      {
+        "question": "Er Split Screen Player gratis?",
+        "answer": "Appen er gratis å laste ned, med grunnleggende videoavspilling og gratis oppsett. Oppsett merket VIP, bruk av tilpasset oppsett, bokmerker og andre avanserte funksjoner krever medlemskap."
+      }
+    ],
+    "closingTitle": "Hold videoene du vil se på én skjerm",
+    "closingDescription": "Prøv to klipp på iPhone eller iPad, og utforsk deretter tre stablede rader eller et rutenett med fire videoer. En Android versjon er også tilgjengelig på Google Play."
+  },
+  "keywords": [
+    "Avspilling av flere videoer",
+    "Delt skjerm"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

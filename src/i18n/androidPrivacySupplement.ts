@@ -1,8 +1,9 @@
+import { extendCoreContent } from "./coreTranslation";
 import type { Locale } from "./locales";
 
 // Kept separate from the older iOS policy text so the Android disclosure is
 // identical in scope on every localized privacy page.
-export const androidPrivacySupplement: Record<Locale, string> = {
+const existingAndroidPrivacySupplement: Record<string, string> = {
 	"en-US": `## Android privacy supplement
 
 **Effective:** October 2, 2026. This section applies to the Google Play Android app.
@@ -103,3 +104,5 @@ Consultas sobre privacidad en Android: daysinyear@foxmail.com.`,
 
 Dúvidas sobre privacidade no Android: daysinyear@foxmail.com.`,
 };
+
+export const androidPrivacySupplement = extendCoreContent(existingAndroidPrivacySupplement);

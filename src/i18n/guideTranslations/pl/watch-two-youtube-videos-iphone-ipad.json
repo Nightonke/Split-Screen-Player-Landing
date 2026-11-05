@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Jak oglądać dwa filmy YouTube jednocześnie na urządzeniu iPhone lub iPad",
+  "seoTitle": "Jak oglądać dwa filmy YouTube jednocześnie na urządzeniu iPhone lub iPad",
+  "metaDescription": "Przenieś zgodny film YouTube do osobnego odtwarzacza, a następnie otwórz inną stronę YouTube, aby obejrzeć dwa filmy na iPhone lub iPad.",
+  "summary": "Zachowaj pierwszy film YouTube w niezależnym odtwarzaczu, a drugi film będzie odtwarzany na powyższej stronie internetowej.",
+  "answer": "Otwórz pierwszą stronę YouTube i rozpocznij odtwarzanie. Stuknij Mini Player, wybierz pasujący wykryty film i pozwól mu otworzyć się w pustym regionie. Następnie otwórz i odtwórz drugi adres URL YouTube w oryginalnym regionie internetowym.",
+  "note": "Ten przepływ pracy wymaga wersji Premium i kompatybilnego wykrytego źródła. Został odtworzony za pomocą Big Buck Bunny i Sintel firmy Blender w symulatorze iPhone 17 Pro. Dostawa YouTube, reklamy, logowanie i ochrona mogą mieć wpływ na inne filmy; nie stanowi gwarancji na każdy link. Zrzuty ekranu pokazują angielski interfejs na symulatorze iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Filmy Sintel i Big Buck Bunny są odtwarzane w oddzielnych obszarach ekranu.",
+    "alt": "iPhone 17 Pro — filmy Sintel i Big Buck Bunny odtwarzają się w oddzielnych obszarach ekranu.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Otwórz pierwszy film YouTube",
+      "description": "Wybierz układ z dwoma regionami. W górnym obszarze dotknij + → Sieć/strumień i otwórz adres URL pierwszej strony odtwarzania YouTube jako stronę internetową. Rozpocznij odtwarzanie na stronie; dolny obszar powinien pozostać pusty.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Film z Big Buck Bunny jest odtwarzany w górnej części strony internetowej, z pustym obszarem ekranu poniżej.",
+        "alt": "iPhone 17 Pro — wideo z Big Buck Bunny jest odtwarzane w górnej części strony internetowej, a poniżej pusty obszar ekranu.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Sprawdź wykryte wideo",
+      "description": "Stuknij przycisk Mini Player obok adresu internetowego. Liczba na tym przycisku oznacza liczbę wykrytych filmów. Przed wybraniem wykrytego filmu sprawdź, czy tytuł, czas trwania i wymiary odpowiadają żądanemu filmowi; samo wykrycie nie gwarantuje odtwarzania.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Wykryty wpis w tej sesji to 10:35 i 640×360.",
+        "alt": "iPhone 17 Pro — wykryty wpis w tej sesji to 10:35 i 640×360.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Otwórz go w innym regionie",
+      "description": "Kliknij pasujący element. Pusty region automatycznie odbiera wideo. Jeśli żadna nie jest pusta, opcja Wybierz lokalizację odtwarzania zapyta, który region ma zastąpić bieżącą zawartość.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Strona źródłowa pozostaje nad niezależnym odtwarzaczem wideo.",
+        "alt": "iPhone 17 Pro — strona źródłowa znajduje się nad niezależnym odtwarzaczem wideo.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Odtwórz inny film na stronie internetowej",
+      "description": "Zachowaj przesłany film w dolnym odtwarzaczu. Dotknij adresu internetowego w górnym obszarze ekranu → Sieć/strumień i wprowadź adres URL drugiego oglądania YouTube. Odtwórz wideo na stronie. W tym przykładzie wideo Sintel jest odtwarzane w górnym obszarze ekranu, podczas gdy wideo Big Buck Bunny jest kontynuowane poniżej.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Filmy Sintel i Big Buck Bunny są odtwarzane w oddzielnych obszarach ekranu.",
+        "alt": "iPhone 17 Pro — filmy Sintel i Big Buck Bunny odtwarzają się w oddzielnych obszarach ekranu.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Przydatne szczegóły",
+    "featuresIntro": "Sprawdź te szczegóły, wykonując kolejne kroki.",
+    "features": [
+      {
+        "title": "Źródło musi pozostać odtwarzalne",
+        "description": "Wygasające adresy multimediów, uwierzytelnianie, ochrona treści i zachowanie serwera mogą uniemożliwić odtwarzanie. Wróć do strony źródłowej i uruchom wideo ponownie przed ponowną próbą. Ta funkcja nie zapewnia dostępu do treści objętych ograniczeniami."
+      },
+      {
+        "title": "Zachowaj jedno źródło dźwięku",
+        "description": "Wycisz stronę internetową lub niezależny odtwarzacz, jeśli oba wydają dźwięk. Obie głowice odtwarzające są niezależne; użyj kompatybilnych plików lokalnych i punktu synchronizacji w celu dokładnego porównania."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Dlaczego Mini Player jest pusty?",
+        "answer": "Uruchom film na stronie i sprawdź ponownie. Niektóre witryny nie udostępniają kompatybilnego źródła. Wykryty wpis może być również reklamą, a nie żądanym filmem."
+      },
+      {
+        "question": "Dlaczego po prostu nie otworzyć dwóch stron YouTube?",
+        "answer": "Aplikacja ostrzega o jednoczesnym odtwarzaniu w wielu regionach internetowych w iOS. Ten przepływ pracy powoduje przeniesienie pierwszego filmu do niezależnego odtwarzacza i pozostawienie tylko drugiego na stronie internetowej. To nadal zależy od zgodności źródła."
+      }
+    ],
+    "closingTitle": "Spróbuj tego z własnymi mediami",
+    "closingDescription": "Otwórz Split Screen Player i postępuj zgodnie z instrukcjami dotyczącymi plików, których chcesz użyć."
+  },
+  "keywords": [
+    "YouTube",
+    "Podwójne odtwarzanie"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

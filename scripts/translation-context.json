@@ -1,0 +1,22 @@
+{
+  "Home": "Home page",
+  "Back to home": "Back to the home page",
+  "Menu": "Navigation menu",
+  "Breadcrumb": "Breadcrumb navigation",
+  "Features": "App features",
+  "Explore global controls": "Explore controls for all videos",
+  "Global control · Fast and simple": "Control all videos · Fast and simple",
+  "Global controls": "Controls for all videos",
+  "Global playback controls": "Playback controls for all videos",
+  "Global playback controls for multiple videos": "Controls for playing all videos together",
+  "Global progress": "Playback progress for all videos",
+  "Global progress control": "Control playback progress for all videos",
+  "One-tap global actions": "Control all videos with one tap",
+  "Portrait + landscape": "Vertical + horizontal screen layouts",
+  "Portrait and landscape": "Vertical and horizontal screen layouts",
+  "Takes & camera angles": "Video recordings and camera angles",
+  "Use case / takes & camera angles": "Use case / video recordings and camera angles",
+  "Use global playback, progress, mute, and display controls across the workspace.": "Control playback, progress, muting, and display settings for all videos in the workspace.",
+  "When one view leaves something out.": "See details that a single camera angle misses.",
+  "System Picture in Picture": "Operating system picture-in-picture mode"
+}

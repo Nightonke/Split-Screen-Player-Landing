@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Jak sledovat dvě videa YouTube najednou na zařízení iPhone nebo iPad",
+  "seoTitle": "Jak sledovat dvě videa YouTube najednou na zařízení iPhone nebo iPad",
+  "metaDescription": "Přesuňte kompatibilní video YouTube do samostatného přehrávače a poté otevřete další stránku YouTube a sledujte dvě videa na iPhone nebo iPad.",
+  "summary": "Ponechejte první video YouTube v nezávislém přehrávači, zatímco druhé video se přehraje na výše uvedené webové stránce.",
+  "answer": "Otevřete první stránku YouTube a spusťte přehrávání. Klepněte na Mini Player, vyberte odpovídající detekované video a nechte jej otevřít v prázdné oblasti. Poté otevřete a přehrajte druhou adresu URL YouTube v původní webové oblasti.",
+  "note": "Tento pracovní postup vyžaduje Premium a kompatibilní detekovaný zdroj. Byl reprodukován pomocí Blender 's Big Buck Bunny a Sintel v simulátoru iPhone 17 Pro. Doručování YouTube, reklamy, přihlášení a ochrana mohou ovlivnit další videa; není zárukou pro každý odkaz. Snímky obrazovky ukazují anglické rozhraní na simulátoru iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Videa Sintel a Big Buck Bunny se přehrávají v oddělených oblastech obrazovky.",
+    "alt": "iPhone 17 Pro — Videa Sintel a Big Buck Bunny se přehrávají v samostatných oblastech obrazovky.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Otevřete první video YouTube",
+      "description": "Vyberte rozvržení dvou oblastí. V horní oblasti klepněte na + → Web/Stream a otevřete první adresu URL stránky sledování YouTube jako webovou stránku. Spusťte přehrávání na stránce; spodní oblast by měla zůstat prázdná.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Video Big Buck Bunny se přehrává v horní části webové stránky a pod ním je prázdná oblast obrazovky.",
+        "alt": "iPhone 17 Pro – Video Big Buck Bunny se přehrává na horní webové stránce, pod níž je prázdná oblast obrazovky.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Zkontrolujte detekované video",
+      "description": "Klepněte na tlačítko Mini Player vedle webové adresy. Číslo na tomto tlačítku představuje počet detekovaných videí. Před výběrem detekovaného videa zkontrolujte, zda název, trvání a rozměry odpovídají požadovanému videu; samotná detekce nezaručuje přehrávání.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Zjištěný záznam je v této relaci 10:35 a 640×360.",
+        "alt": "iPhone 17 Pro — Zjištěný záznam je v této relaci 10:35 a 640×360.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Otevřete jej v jiné oblasti",
+      "description": "Klepněte na odpovídající položku. Prázdná oblast přijímá video automaticky. Pokud žádná není prázdná, Volba umístění přehrávání se zeptá, který region má aktuální obsah nahradit.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Zdrojová stránka zůstane nad nezávislým přehrávačem videa.",
+        "alt": "iPhone 17 Pro — Zdrojová stránka zůstane nad nezávislým přehrávačem videa.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Přehrajte na webové stránce jiné video",
+      "description": "Přenesené video ponechte ve spodním přehrávači. Klepněte na webovou adresu v horní oblasti obrazovky → Web/Stream a zadejte druhou adresu URL sledování YouTube. Přehrajte si video na stránce. V tomto příkladu se video Sintel přehrává v horní oblasti obrazovky, zatímco video Big Buck Bunny pokračuje v přehrávání níže.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Videa Sintel a Big Buck Bunny se přehrávají v oddělených oblastech obrazovky.",
+        "alt": "iPhone 17 Pro — Videa Sintel a Big Buck Bunny se přehrávají v samostatných oblastech obrazovky.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Užitečné detaily",
+    "featuresIntro": "Při provádění kroků zkontrolujte tyto podrobnosti.",
+    "features": [
+      {
+        "title": "Zdroj musí zůstat hratelný",
+        "description": "Přehrávání může bránit vypršení platnosti adres médií, ověřování, ochrany obsahu a chování serveru. Před dalším pokusem se vraťte na zdrojovou stránku a spusťte video znovu. Tato funkce neuděluje přístup k omezenému obsahu."
+      },
+      {
+        "title": "Ponechte si jeden zdroj zvuku",
+        "description": "Ztlumte webovou stránku nebo nezávislý přehrávač, pokud oba produkují zvuk. Dvě přehrávací hlavy jsou nezávislé; použijte kompatibilní místní soubory a synchronizační bod pro přesné srovnání."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Proč je Mini Player prázdný?",
+        "answer": "Spusťte na stránce video a znovu jej zkontrolujte. Některé stránky neuvádějí kompatibilní zdroj. Zjištěným záznamem může být také reklama, nikoli video, které jste chtěli."
+      },
+      {
+        "question": "Proč neotevřete dvě webové stránky YouTube?",
+        "answer": "Aplikace varuje před současným přehráváním ve více oblastech webu na iOS. Tento pracovní postup přesune první video do nezávislého přehrávače a na webové stránce ponechá pouze druhé. Stále záleží na kompatibilitě zdroje."
+      }
+    ],
+    "closingTitle": "Zkuste to se svými vlastními médii",
+    "closingDescription": "Otevřete Split Screen Player a postupujte podle pokynů se soubory, které chcete použít."
+  },
+  "keywords": [
+    "YouTube",
+    "Duální přehrávání"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

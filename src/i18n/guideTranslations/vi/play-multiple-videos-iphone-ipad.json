@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Phát lại nhiều video · iPhone & iPad",
+  "title": "Cách phát nhiều video cùng lúc trên iPhone hoặc iPad",
+  "seoTitle": "Cách phát nhiều video cùng một lúc trên iPhone hoặc iPad",
+  "metaDescription": "Xem hai video cạnh nhau, xếp chồng ba video hoặc phát bốn video trong một lưới trên iPhone và iPad. Chọn bố cục, thêm clip cục bộ, điều khiển âm thanh và lưu thiết lập của bạn.",
+  "summary": "So sánh hai video clip mà không cần chuyển đổi giữa các ứng dụng trình phát đa phương tiện, sắp xếp ba video theo hàng dọc hoặc xem bốn góc camera theo dạng lưới trong khi giữ thiết bị theo chiều ngang. Split Screen Player giúp mỗi video hiển thị và có thể phát độc lập trên iPhone và iPad.",
+  "answer": "Chọn bố cục chia đôi màn hình, nhấn vào + ở từng vùng trống và thêm video từ Ảnh hoặc Tệp. Các clip phát ở các vùng riêng biệt mà không cần hợp nhất chúng thành một tệp trước. Bắt đầu với hai video hoặc làm theo các ví dụ ba hàng và bốn video bên dưới.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Ba video được xếp thành các hàng riêng biệt trên iPhone trong Split Screen Player",
+    "caption": "Ba video vẫn hiển thị ở bố cục dọc.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Từ ba hàng đến lưới bốn video",
+  "steps": [
+    {
+      "title": "Chọn bố cục có hai hoặc ba vùng",
+      "description": "Nhấn vào biểu tượng bố cục bốn ô vuông trên thanh công cụ và mở Mặc định. Đối với hai video, hãy chọn bố cục xếp chồng hoặc cạnh nhau trong 1–2 Video. Đối với ba video, hãy chọn hình thu nhỏ ba hàng được đánh dấu trong Dọc, Tổng cộng 1 cột.",
+      "detail": "Mỗi hình chữ nhật đại diện cho một vùng video; dải mỏng hiển thị vị trí thanh công cụ. Sử dụng các bộ lọc số và hướng ở phía dưới khi bạn muốn sắp xếp cụ thể.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Thư viện bố cục hiển thị một số cách sắp xếp với bố cục ba hàng được phác thảo",
+        "caption": "Chọn hai vùng hoặc bố cục có đường viền cho ba video xếp chồng lên nhau.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Thêm video vào từng khu vực",
+      "description": "Nhấn vào + ở vùng màn hình trống. Trong menu Mở, chọn Video và chọn clip từ ứng dụng Ảnh. Lặp lại cho các khu vực màn hình khác. Nếu video của bạn được lưu trữ trong ứng dụng Tệp, hãy chọn tùy chọn Tệp trong menu Mở.",
+      "detail": "Để thay thế một clip, hãy nhấn vào ảnh của clip đó rồi chạm vào dấu + trong phần điều khiển của clip đó. Bạn cũng có thể sử dụng Danh sách phát để phát lần lượt nhiều clip trong một vùng.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Menu Mở iPhone cung cấp Video, Tệp, Hình ảnh và Danh sách phát",
+        "caption": "Chọn tùy chọn Video để mở video từ ứng dụng Ảnh; chọn tùy chọn Tệp để mở video được lưu ở nơi khác.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Kiểm soát từng video và chọn những gì bạn nghe thấy",
+      "description": "Nhấn vào một video để hiển thị các điều khiển của video đó. Sử dụng nút giữa để phát hoặc tạm dừng và kéo dòng thời gian của nó sang thời điểm khác. Các video khác có thể tiếp tục phát độc lập.",
+      "detail": "Tắt tiếng các clip bạn không muốn nghe bằng nút loa của chúng. Sử dụng nút tốc độ để làm chậm chuyển động bạn đang so sánh. Nhấn lại vào ảnh bất cứ khi nào điều khiển ẩn.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Video đầu tiên trong số ba video hiển thị các điều khiển loa, tốc độ, phát lại và dòng thời gian",
+        "caption": "Mỗi video có các điều khiển âm thanh, tốc độ và phát lại riêng.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Chuyển sang lưới ngang 2×2",
+      "description": "Mở lại bộ chọn bố cục. Chọn 4 trong bộ lọc số và Land.(R) cho hướng, sau đó chọn hình thu nhỏ 2 x 2 trong nhóm đối xứng trung tâm.",
+      "detail": "Dải nhỏ ở bên phải hình thu nhỏ có nghĩa là thanh công cụ sẽ ở bên phải. Giữ thiết bị của bạn theo chiều ngang để xem bốn vùng ở chế độ ngang.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Bộ chọn bố cục iPhone được lọc thành bốn video và nằm ngang với thanh công cụ ở bên phải",
+        "caption": "Chọn bốn vùng bằng thanh công cụ ở bên phải.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Thêm clip thứ tư và lưu thiết lập của bạn",
+      "description": "Ba clip đầu tiên của bạn vẫn được giữ nguyên. Nhấn vào + trong vùng trống để thêm video thứ tư và hoàn thành lưới.",
+      "detail": "Để quay lại kết hợp này sau, hãy nhấn vào ngôi sao (Yêu thích) trên thanh công cụ. Mở Danh sách yêu thích bên cạnh để khôi phục bố cục và video đã lưu.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Bốn video ở dạng lưới ngang trên iPhone với thanh công cụ ở bên phải",
+        "caption": "Giữ bốn góc camera hoặc clip tham chiếu cùng nhau trong một màn hình.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Xây dựng màn hình chia nhỏ phù hợp với nội dung bạn muốn xem",
+    "featuresIntro": "Bắt đầu với hai clip, sau đó thêm nhiều góc độ hơn hoặc hiển thị bài học và tài liệu tham khảo cùng nhau.",
+    "features": [
+      {
+        "title": "144 bố cục cài sẵn, có thể xem tối đa 36 video cùng một lúc",
+        "description": "Chọn các hàng xếp chồng lên nhau, chế độ xem cạnh nhau, lưới bốn video hoặc sắp xếp dày đặc hơn. iPhone thuận tiện cho việc xem nhanh; iPad mang đến cho mỗi bức ảnh nhiều không gian hơn. Việc phát lại mượt mà phụ thuộc vào thiết bị, codec và độ phân giải, vì vậy hãy thêm video dần dần.",
+        "link": {
+          "label": "Khám phá phát lại nhiều video",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Điều chỉnh vị trí và kích thước của từng vùng",
+        "description": "Mở Tùy chỉnh trong bộ chọn bố cục để tạo bố cục của riêng bạn. Di chuyển các vùng, thay đổi kích thước các góc của chúng hoặc chia màn hình bằng các đường kẻ. Cung cấp thêm không gian cho bài học chính và giữ một tài liệu tham khảo nhỏ hơn bên cạnh nó."
+      },
+      {
+        "title": "Giữ video, hình ảnh, tệp PDF và trang web cùng nhau",
+        "description": "Mỗi khu vực có thể hiển thị một loại nội dung khác nhau, bao gồm video, âm thanh, hình ảnh, thư mục hình ảnh, tệp PDF và trang web. Bạn cũng có thể mở các liên kết luồng HLS (M3U8) và RTSP."
+      },
+      {
+        "title": "Phát MP4, MOV, MKV cục bộ và hơn thế nữa",
+        "description": "Mở các bản ghi hàng ngày ở định dạng MP4, MOV, M4V hoặc 3GP. Trình phát tùy chỉnh trong ứng dụng cũng hỗ trợ các vùng chứa như MKV, AVI, WebM, FLV, F4V, WMV và RMVB. Phát lại phụ thuộc vào codec bên trong tệp."
+      },
+      {
+        "title": "Xếp hàng cùng một thời điểm trong các bản ghi khác nhau",
+        "description": "Khi quá trình ghi bắt đầu vào những thời điểm khác nhau, hãy đặt Điểm đồng bộ hóa ở cùng một hành động trong mỗi clip và bật Khóa đồng bộ hóa. Điều này giúp so sánh một bước nhảy, một cú xoay người hoặc cùng một sự kiện từ nhiều camera.",
+        "link": {
+          "label": "Tìm hiểu về Điểm đồng bộ hóa và Khóa đồng bộ hóa",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Tôi có thể phát hai video cùng lúc trên iPhone không?",
+        "answer": "Đúng. Chọn bố cục có hai vùng và thêm video vào từng vùng. Cả hai hình ảnh vẫn hiển thị với các điều khiển phát lại, tiến trình và âm thanh riêng biệt."
+      },
+      {
+        "question": "Điều này cũng hoạt động trên iPad phải không?",
+        "answer": "Đúng. Split Screen Player hỗ trợ cả iPhone và iPad. Màn hình iPad lớn hơn rất hữu ích cho việc xem xét góc máy ảnh, so sánh chuyển động và xem bài học cùng với PDF."
+      },
+      {
+        "question": "Tôi có cần hợp nhất các video trước không?",
+        "answer": "Không. Tính năng phát lại chia đôi màn hình sẽ giữ các clip riêng biệt. Bạn có thể thay đổi bố cục hoặc tạm dừng một video bất kỳ lúc nào. Sử dụng tính năng xuất video chia đôi màn hình khi bạn muốn chia sẻ các ảnh đã kết hợp dưới dạng tệp video mới."
+      },
+      {
+        "question": "Làm cách nào để xóa thanh màu đen giữa các video?",
+        "answer": "Trong cài đặt hiển thị video, chọn chế độ Lấp đầy để lấp đầy toàn bộ khu vực màn hình bằng hình ảnh video. Chế độ này cắt các cạnh của hình ảnh khi video và vùng màn hình của nó có hình dạng khác nhau. Chọn chế độ Fit khi bạn cần xem toàn bộ khung hình video gốc."
+      },
+      {
+        "question": "Tôi có thể xem video từ hai ứng dụng phát trực tuyến theo cách này không?",
+        "answer": "Hướng dẫn này bao gồm các video bạn mở bên trong Split Screen Player. Nó không đặt hai ứng dụng riêng biệt trong các khu vực của nó. Việc phát lại video trên web tùy thuộc vào từng trang web và các hạn chế phát lại của nó."
+      },
+      {
+        "question": "Split Screen Player có miễn phí không?",
+        "answer": "Ứng dụng này được tải xuống miễn phí với tính năng phát lại video cơ bản và bố cục miễn phí. Các bố cục được đánh dấu VIP, sử dụng bố cục tùy chỉnh, dấu trang và các tính năng nâng cao khác yêu cầu phải có tư cách thành viên."
+      }
+    ],
+    "closingTitle": "Giữ các video bạn muốn xem trên một màn hình",
+    "closingDescription": "Hãy thử hai clip trên iPhone hoặc iPad của bạn, sau đó khám phá ba hàng xếp chồng lên nhau hoặc lưới bốn video. Phiên bản Android cũng có sẵn trên Google Play."
+  },
+  "keywords": [
+    "Phát nhiều video",
+    "Chia màn hình"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

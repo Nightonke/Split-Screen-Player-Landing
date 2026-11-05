@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Jak odtwarzać wiele filmów jednocześnie na telefonie lub tablecie z systemem Android",
+  "seoTitle": "Jak odtwarzać wiele filmów jednocześnie na telefonie lub tablecie z systemem Android",
+  "metaDescription": "Oglądaj dwa, trzy lub cztery filmy jednocześnie na telefonie lub tablecie Android. Wybierz ułożone w stos rzędy lub siatkę 2×2, dodaj lokalne klipy, kontroluj dźwięk i zapisz swoją konfigurację.",
+  "summary": "Porównaj dwa klipy wideo bez przełączania między aplikacjami odtwarzaczy multimedialnych, ułóż trzy filmy w pionowych rzędach lub oglądaj cztery kamery w siatce, trzymając urządzenie poziomo. Split Screen Player sprawia, że ​​każdy film jest widoczny na telefonie lub tablecie Android.",
+  "answer": "Wybierz układ podzielonego ekranu, dotknij + w każdym regionie i dodaj film ze swojej galerii lub plików. Każdy klip ma osobne sterowanie odtwarzaniem i dźwiękiem. Możesz zacząć od dwóch filmów i dodać więcej, gdy ich potrzebujesz.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — trzy filmy odtwarzane w układzie pionowym.",
+    "caption": "Trzy filmy odtwarzane w układzie skumulowanym w pionie.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Od trzech ułożonych w stos rzędów do siatki czterech wideo",
+  "steps": [
+    {
+      "title": "Wybierz dwa lub trzy regiony wideo",
+      "description": "Kliknij ikonę układu czterech kwadratów na pasku narzędzi. Pierwsza grupa oferuje układy piętrowe i obok siebie dla dwóch filmów. W przypadku trzech klipów wybierz obrysowaną miniaturę z trzema wierszami w pionowej grupie z jedną kolumną.",
+      "detail": "Mały pasek na każdej miniaturze pokazuje, gdzie znajduje się pasek narzędzi. Użyj filtrów liczbowych i orientacji na dole, aby zawęzić wybór.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — wśród innych układów przedstawiono układ trzech rzędów.",
+        "caption": "Wśród innych układów zarysowuje się układ trójrzędowy.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Dodaj film do każdego regionu",
+      "description": "Kliknij + w pustym regionie. W Otwórz wybierz Filmy z albumu i wybierz klip. Powtórz dla pozostałych regionów. Użyj opcji Plik w przypadku filmu zapisanego w innym miejscu na urządzeniu.",
+      "detail": "Aby zastąpić klip, dotknij jego zdjęcia, a następnie + w elementach sterujących. Lista odtwarzania umożliwia odtwarzanie kilku klipów jeden po drugim w tym samym regionie.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Wybierz Filmy z albumu lub Plik, aby dodać wideo.",
+        "caption": "Wybierz Filmy z albumu lub Plik, aby dodać wideo.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Steruj odtwarzaniem i wybieraj, co słyszysz",
+      "description": "Stuknij wideo, aby wyświetlić elementy sterujące. Użyj środkowego przycisku, aby odtworzyć lub wstrzymać odtwarzanie, a następnie przeciągnij oś czasu do innego momentu. Inne klipy mogą być odtwarzane niezależnie.",
+      "detail": "Wycisz klipy, których nie chcesz słuchać, za pomocą przycisków głośników. Użyj przycisku prędkości, aby spowolnić porównywany ruch.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — każdy film ma własne elementy sterujące dźwiękiem, szybkością i odtwarzaniem.",
+        "caption": "Każdy film ma własne elementy sterujące dźwiękiem, szybkością i odtwarzaniem.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Przełącz na poziomą siatkę 2×2",
+      "description": "Otwórz selektor układu, wybierz 4 w filtrze liczb i wybierz Poziomo R. Wybierz miniaturę dwa na dwa w grupie o symetrii środkowej.",
+      "detail": "Pasek po prawej stronie miniatury reprezentuje pasek narzędzi. Trzymaj urządzenie poziomo, aby wyświetlić cztery regiony.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — wybierz cztery regiony za pomocą paska narzędzi po prawej stronie.",
+        "caption": "Wybierz cztery regiony za pomocą paska narzędzi po prawej stronie.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Dodaj czwarty klip i zapisz kombinację",
+      "description": "Pierwsze trzy filmy pozostają dostępne po zmianie układu. Stuknij + w pustym regionie i dodaj czwarty klip.",
+      "detail": "Kliknij gwiazdkę, Zakładkę, aby zapisać bieżące filmy i układ. Później otwórz zakładki obok, aby przywrócić tę kombinację.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Cztery filmy odtwarzane są razem w poziomej siatce.",
+        "caption": "Cztery filmy odtwarzają się razem w siatce poziomej.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Zbuduj podzielony ekran, który pasuje do Twoich potrzeb",
+    "featuresIntro": "Zachowaj odniesienie obok własnego nagrania, przejrzyj kąty kamery lub obejrzyj lekcję z materiałami pomocniczymi.",
+    "features": [
+      {
+        "title": "144 układy z maksymalnie 36 filmami jednocześnie",
+        "description": "Wybierz ułożone rzędy, widoki obok siebie, siatkę czterech filmów lub gęstszy układ. Tablety dają każdemu obrazowi więcej miejsca. Płynne odtwarzanie zależy od urządzenia, kodeka i rozdzielczości, dlatego dodawaj filmy stopniowo."
+      },
+      {
+        "title": "Daj głównemu obrazowi więcej miejsca",
+        "description": "Otwórz opcję Niestandardowy w selektorze układu, aby utworzyć własną aranżację. Przesuwaj regiony, zmieniaj ich rozmiar i dziel ekran liniami, aby zrównoważyć główny film i jego odniesienia."
+      },
+      {
+        "title": "Łącz filmy, obrazy, pliki PDF i strony internetowe",
+        "description": "Każdy region może przechowywać inny rodzaj treści: filmy, pliki audio, kolekcje obrazów, pliki PDF lub strony internetowe. Możesz także otwierać łącza strumieniowe HLS (M3U8) i RTSP."
+      },
+      {
+        "title": "Otwórz lokalne pliki MP4, MOV, MKV i WebM",
+        "description": "Dodaj nagrania ze swojej galerii lub otwórz pliki z folderu. Obsługa konkretnego pliku zależy od kodeków wideo i audio, a nie tylko od rozszerzenia nazwy pliku."
+      },
+      {
+        "title": "Porównaj ten sam moment lub udostępnij wynik",
+        "description": "Punkty synchronizacji pomagają dopasować nagrania rozpoczęte w różnym czasie. Jeśli chcesz udostępnić kilka zdjęć w jednym filmie, użyj funkcji eksportu wideo na podzielonym ekranie z lokalnymi klipami."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Czy mogę zacząć od dwóch filmów?",
+        "answer": "Tak. Wybierz układ obejmujący dwa regiony i dodaj po jednym filmie do każdego regionu. Można je przechowywać jeden na drugim lub obok siebie, korzystając z oddzielnej kontroli odtwarzania i dźwięku."
+      },
+      {
+        "question": "Czy to działa na tabletach?",
+        "answer": "Tak. Ta sama aplikacja obsługuje telefony i tablety. Większy ekran przydaje się do przeglądania kilku ujęć lub czytania materiałów referencyjnych obok filmu."
+      },
+      {
+        "question": "Czy muszę najpierw połączyć filmy?",
+        "answer": "Nie. Podczas odtwarzania na podzielonym ekranie klipy są oddzielane. Playlista odtwarza klipy sekwencyjnie w jednym regionie; układ podzielonego ekranu pokazuje jednocześnie różne klipy."
+      },
+      {
+        "question": "Jak usunąć czarne paski?",
+        "answer": "Wybierz opcję Wypełnij i przytnij w ustawieniach skalowania wideo. Wypełnia każdy region, przycinając krawędzie, gdy kształty się różnią. Użyj opcji Dopasuj, jeśli ważniejsza jest cała oryginalna klatka."
+      },
+      {
+        "question": "Czy może wyświetlać dwie oddzielne aplikacje do przesyłania strumieniowego?",
+        "answer": "W tym przewodniku opisano zawartość otwieraną w programie Split Screen Player. Nie osadza innych aplikacji. Odtwarzanie ze strony internetowej zależy od tej witryny i jej ograniczeń."
+      },
+      {
+        "question": "Czy aplikacja jest bezpłatna?",
+        "answer": "Aplikację można pobrać bezpłatnie i zapewnia podstawowe odtwarzanie wideo oraz bezpłatne układy. Układy oznaczone jako VIP, niestandardowe układy, zakładki i inne zaawansowane funkcje wymagają członkostwa."
+      }
+    ],
+    "closingTitle": "Trzymaj filmy, które chcesz oglądać na jednym ekranie",
+    "closingDescription": "Zacznij od dwóch klipów, a następnie wypróbuj trzy ułożone w stos rzędy lub siatkę czterech filmów. Pobierz wersję na swoje urządzenie ze App Store lub Google Play."
+  },
+  "keywords": [
+    "Odtwarzanie wielu filmów",
+    "Podzielony ekran"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

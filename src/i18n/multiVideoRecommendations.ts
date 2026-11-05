@@ -1,7 +1,7 @@
 import translations from "./multiVideoRecommendationsCopy.json";
 import type { CatalogGuide } from "./guideCatalog";
 import type { GuidePage } from "./guides";
-import type { Locale } from "./locales";
+import type { GuideLocale as Locale } from "./locales";
 
 type RecommendationId = keyof typeof translations["en-US"]["descriptions"];
 type GroupId = keyof typeof translations["en-US"]["groups"];

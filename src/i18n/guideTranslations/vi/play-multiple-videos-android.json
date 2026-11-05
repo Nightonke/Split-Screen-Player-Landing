@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Cách phát nhiều video cùng lúc trên điện thoại hoặc máy tính bảng Android",
+  "seoTitle": "Cách phát nhiều video cùng lúc trên điện thoại hoặc máy tính bảng Android",
+  "metaDescription": "Xem hai, ba hoặc bốn video cùng lúc trên điện thoại hoặc máy tính bảng Android. Chọn các hàng xếp chồng lên nhau hoặc lưới 2×2, thêm clip cục bộ, điều khiển âm thanh và lưu thiết lập của bạn.",
+  "summary": "So sánh hai video clip mà không cần chuyển đổi giữa các ứng dụng trình phát đa phương tiện, sắp xếp ba video theo hàng dọc hoặc xem bốn góc camera theo dạng lưới trong khi giữ thiết bị theo chiều ngang. Split Screen Player giúp hiển thị từng video trên điện thoại hoặc máy tính bảng Android.",
+  "answer": "Chọn bố cục chia đôi màn hình, nhấn vào + ở từng vùng và thêm video từ thư viện hoặc tệp của bạn. Mỗi clip có điều khiển phát lại và âm thanh riêng biệt. Bạn có thể bắt đầu với hai video và thêm nhiều video khác khi bạn cần.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Ba video phát ở bố cục dọc xếp chồng lên nhau.",
+    "caption": "Ba video đang phát ở bố cục dọc xếp chồng lên nhau.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Từ ba hàng xếp chồng lên nhau thành lưới bốn video",
+  "steps": [
+    {
+      "title": "Chọn hai hoặc ba vùng video",
+      "description": "Nhấn vào biểu tượng bố cục bốn ô vuông trên thanh công cụ. Nhóm đầu tiên cung cấp bố cục xếp chồng và cạnh nhau cho hai video. Đối với ba clip, hãy chọn hình thu nhỏ ba hàng có đường viền trong nhóm một cột dọc.",
+      "detail": "Dải nhỏ trong mỗi hình thu nhỏ hiển thị vị trí của thanh công cụ. Sử dụng bộ lọc số và hướng ở phía dưới để thu hẹp các lựa chọn.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Bố cục ba hàng được phác thảo trong số các cách sắp xếp khác.",
+        "caption": "Bố cục ba hàng được phác thảo trong số các cách sắp xếp khác.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Thêm video vào từng khu vực",
+      "description": "Nhấn vào + ở vùng trống. Trong Mở, chọn Video album và chọn một clip. Lặp lại cho các vùng khác. Sử dụng Tệp cho video được lưu ở nơi khác trên thiết bị.",
+      "detail": "Để thay thế một clip, hãy nhấn vào ảnh của clip đó rồi nhấn vào dấu + trong phần điều khiển của clip đó. Danh sách phát cho phép nhiều clip phát lần lượt trong cùng một khu vực.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Chọn video Album hoặc Tệp để thêm video.",
+        "caption": "Chọn Album video hoặc File để thêm video.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Kiểm soát phát lại và chọn những gì bạn nghe thấy",
+      "description": "Nhấn vào một video để hiển thị các điều khiển của video đó. Sử dụng nút giữa để phát hoặc tạm dừng và kéo dòng thời gian sang thời điểm khác. Các clip khác có thể tiếp tục phát độc lập.",
+      "detail": "Tắt tiếng các clip bạn không muốn nghe bằng nút loa của chúng. Sử dụng nút tốc độ để làm chậm chuyển động bạn đang so sánh.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Mỗi video có âm thanh, tốc độ và điều khiển phát lại riêng.",
+        "caption": "Mỗi video có các điều khiển âm thanh, tốc độ và phát lại riêng.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Chuyển sang lưới ngang 2×2",
+      "description": "Mở bộ chọn bố cục, chọn 4 trong bộ lọc số và chọn Phong cảnh R. Chọn hình thu nhỏ 2 x 2 trong nhóm đối xứng giữa.",
+      "detail": "Dải bên phải hình thu nhỏ tượng trưng cho thanh công cụ. Giữ thiết bị của bạn theo chiều ngang để xem bốn vùng.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Chọn bốn vùng bằng thanh công cụ ở bên phải.",
+        "caption": "Chọn bốn vùng bằng thanh công cụ ở bên phải.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Thêm clip thứ tư và lưu kết hợp",
+      "description": "Ba video đầu tiên vẫn có sẵn sau khi thay đổi bố cục. Nhấn vào + ở vùng trống và thêm clip thứ tư.",
+      "detail": "Nhấn vào dấu sao, Dấu trang, để lưu video và bố cục hiện tại. Sau đó, mở Dấu trang bên cạnh để khôi phục sự kết hợp này.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Bốn video phát cùng nhau trong một lưới ngang.",
+        "caption": "Bốn video phát cùng nhau trong một lưới ngang.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Xây dựng màn hình chia nhỏ phù hợp với chế độ xem của bạn",
+    "featuresIntro": "Giữ một tài liệu tham khảo bên cạnh bản ghi của riêng bạn, xem lại các góc máy hoặc xem một bài học với tài liệu hỗ trợ.",
+    "features": [
+      {
+        "title": "144 bố cục, với tối đa 36 video cùng một lúc",
+        "description": "Chọn các hàng xếp chồng lên nhau, chế độ xem cạnh nhau, lưới bốn video hoặc sắp xếp dày đặc hơn. Máy tính bảng cung cấp cho mỗi bức ảnh nhiều không gian hơn. Việc phát lại mượt mà phụ thuộc vào thiết bị, codec và độ phân giải, vì vậy hãy thêm video dần dần."
+      },
+      {
+        "title": "Cung cấp cho hình ảnh chính nhiều không gian hơn",
+        "description": "Mở Tùy chỉnh trong bộ chọn bố cục để tạo cách sắp xếp của riêng bạn. Di chuyển các vùng, thay đổi kích thước và chia màn hình bằng các đường để cân bằng video chính và các tham chiếu của nó."
+      },
+      {
+        "title": "Kết hợp video, hình ảnh, PDF và trang web",
+        "description": "Mỗi khu vực có thể chứa một loại nội dung khác nhau: video, âm thanh, bộ sưu tập hình ảnh, tệp PDF hoặc trang web. Bạn cũng có thể mở các liên kết luồng HLS (M3U8) và RTSP."
+      },
+      {
+        "title": "Mở các tệp MP4, MOV, MKV và WebM cục bộ",
+        "description": "Thêm bản ghi từ thư viện của bạn hoặc mở tệp từ một thư mục. Hỗ trợ cho một tệp cụ thể phụ thuộc vào codec video và âm thanh của nó, không chỉ phần mở rộng tên tệp của nó."
+      },
+      {
+        "title": "So sánh cùng một thời điểm hoặc chia sẻ kết quả",
+        "description": "Điểm đồng bộ giúp căn chỉnh các bản ghi bắt đầu ở những thời điểm khác nhau. Khi bạn muốn chia sẻ nhiều ảnh dưới dạng một video, hãy sử dụng tính năng xuất video chia đôi màn hình với các clip cục bộ của bạn."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Tôi có thể bắt đầu chỉ với hai video không?",
+        "answer": "Đúng. Chọn bố cục hai vùng và thêm một video vào mỗi vùng. Bạn có thể đặt chúng xếp chồng lên nhau hoặc cạnh nhau, với các điều khiển âm thanh và phát lại riêng biệt."
+      },
+      {
+        "question": "Nó có hoạt động trên máy tính bảng không?",
+        "answer": "Đúng. Ứng dụng tương tự hỗ trợ điện thoại và máy tính bảng. Màn hình lớn hơn rất hữu ích để xem lại nhiều góc độ hoặc đọc tài liệu tham khảo bên cạnh video."
+      },
+      {
+        "question": "Tôi có phải hợp nhất các video trước không?",
+        "answer": "Không. Tính năng phát lại chia đôi màn hình sẽ giữ các clip riêng biệt. Danh sách phát phát các clip tuần tự trong một vùng; bố cục chia đôi màn hình hiển thị các clip khác nhau cùng một lúc."
+      },
+      {
+        "question": "Làm cách nào để loại bỏ các thanh màu đen?",
+        "answer": "Chọn Điền và Cắt trong cài đặt chia tỷ lệ video. Nó lấp đầy từng vùng bằng cách cắt xén các cạnh khi hình dạng khác nhau. Sử dụng Fit khi xem toàn bộ khung hình gốc quan trọng hơn."
+      },
+      {
+        "question": "Nó có thể hiển thị hai ứng dụng phát trực tuyến riêng biệt không?",
+        "answer": "Hướng dẫn này bao gồm nội dung được mở bên trong Split Screen Player. Nó không nhúng các ứng dụng khác. Việc phát lại từ một trang web tùy thuộc vào trang web đó và những hạn chế của nó."
+      },
+      {
+        "question": "Ứng dụng này có miễn phí không?",
+        "answer": "Ứng dụng này được tải xuống miễn phí với tính năng phát lại video cơ bản và bố cục miễn phí. Các bố cục được đánh dấu VIP, sử dụng bố cục tùy chỉnh, dấu trang và các tính năng nâng cao khác yêu cầu tư cách thành viên."
+      }
+    ],
+    "closingTitle": "Giữ các video bạn muốn xem trên một màn hình",
+    "closingDescription": "Bắt đầu với hai clip, sau đó thử ba hàng xếp chồng lên nhau hoặc lưới bốn video. Tải xuống phiên bản dành cho thiết bị của bạn từ App Store hoặc Google Play."
+  },
+  "keywords": [
+    "Phát nhiều video",
+    "Chia màn hình"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

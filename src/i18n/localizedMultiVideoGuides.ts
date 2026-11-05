@@ -1,7 +1,7 @@
 import platformCopy from "./platformCopy.json";
 import type { GuideImage, GuidePage } from './guides';
-import type { Locale } from './locales';
-import { locales } from './locales';
+import type { GuideLocale as Locale } from './locales';
+import { guideLocales as locales } from './locales';
 import { illustratedMultiVideoGuides } from './illustratedMultiVideoGuide';
 import { androidMultiVideoGuide } from './androidMultiVideoGuide';
 import menus from './appMenuLabels.json';

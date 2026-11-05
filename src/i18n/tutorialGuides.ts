@@ -1,5 +1,5 @@
 import type { GuidePage, GuideImage } from "./guides";
-import type { Locale } from "./locales";
+import type { GuideLocale as Locale } from "./locales";
 import { tutorialTopics, tutorialSlug, type TutorialTopic } from "./tutorialTopics";
 import assets from "./tutorialAssets.json";
 import * as OpenCC from "opencc-js";

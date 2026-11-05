@@ -5,6 +5,7 @@ import SiteHeader from "@/sections/SiteHeader.astro";
 import { siteConfig } from "@config/site";
 import { landingContent } from "@/i18n/content";
 import { pageChrome } from "@/i18n/chrome";
+import { getLanguageSuggestionCopy } from "@/i18n/languageSuggestion";
 import { marketingContent } from "@/i18n/marketing";
 import {
 	defaultLocale,
@@ -40,7 +41,7 @@ const {
 	termsHref = localizedPath(defaultLocale, "terms"),
 	labels = landingContent[defaultLocale].labels,
 	ogImage = "/og.png",
-	ogImageAlt = "Split Screen Player — Every angle. Perfectly in sync.",
+	ogImageAlt = "Split Screen Player",
 	ogType = "website",
 	ogImageType = "image/png",
 	ogImageWidth = 1536,
@@ -74,16 +75,13 @@ const xDefaultHref =
 const ogLocaleMap = Object.fromEntries(
 	locales.map((locale) => [locale, localeMeta[locale].ogLocale]),
 ) as Record<Locale, string>;
-const localizedPathPrefixes = locales
-	.filter((locale) => locale !== defaultLocale)
-	.map((locale) => `/${locale}`);
 const jsonLd = structuredData
 	? JSON.stringify(structuredData).replace(/</g, "\\u003c")
 	: undefined;
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={localeMeta[activeLocale].direction}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -142,80 +140,67 @@ const jsonLd = structuredData
 
 		{jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
 		<script is:inline>document.documentElement.classList.add("js");</script>
-		<script
-			is:inline
-			define:vars={{
-				activeLocale,
-				defaultLocale,
-				supportedLocales: locales,
-				localeDetectionEntries,
-				localizedPathPrefixes,
-				availableAlternates: alternates.map(({ locale, href }) => ({ locale, href })),
-			}}
-		>
-			(() => {
-				const storageKey = "split-screen-player-locale";
-				const pathname = window.location.pathname;
-				const isLocalizedPath = localizedPathPrefixes.some(
-					(prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
-				);
-
-				if (
-					activeLocale !== defaultLocale ||
-					isLocalizedPath
-				) {
-					return;
-				}
-
-				let preferredLocale = null;
-				try {
-					const savedLocale = window.localStorage.getItem(storageKey);
-					if (supportedLocales.includes(savedLocale)) {
-						preferredLocale = savedLocale;
-					}
-				} catch {
-					// Language detection still works when storage is unavailable.
-				}
-
-				if (!preferredLocale) {
-					const deviceLanguages =
-						navigator.languages?.length
-							? navigator.languages
-							: [navigator.language];
-
-					for (const language of deviceLanguages) {
-						const normalizedLanguage = language
-							.toLowerCase()
-							.replaceAll("_", "-");
-
-						for (const [prefix, locale] of localeDetectionEntries) {
-							if (
-								normalizedLanguage === prefix ||
-								normalizedLanguage.startsWith(`${prefix}-`)
-							) {
-								preferredLocale = locale;
-								break;
-							}
-						}
-
-						if (preferredLocale) break;
-					}
-				}
-
-				if (!preferredLocale || preferredLocale === defaultLocale) {
-					return;
-				}
-
-				const localizedPath = availableAlternates.find(link => link.locale === preferredLocale)?.href;
-				if (!localizedPath) return;
-
-				window.location.replace(
-					`${localizedPath}${window.location.search}${window.location.hash}`,
-				);
-			})();
-		</script>
+		<script is:inline define:vars={{
+      activeLocale,
+      supportedLocales: locales,
+      localeDetectionEntries,
+      availableAlternates: alternates.map(({ locale, href }) => ({
+        locale, href,
+        lang: localeMeta[locale as Locale].htmlLang,
+        direction: localeMeta[locale as Locale].direction,
+        ...getLanguageSuggestionCopy(locale as Locale),
+      })),
+    }}>
+      // Suggest a language without changing the URL selected by a visitor or crawler.
+      document.addEventListener("DOMContentLoaded", () => {
+        let preferredLocale = null;
+        try {
+          const saved = localStorage.getItem("split-screen-player-locale");
+          if (supportedLocales.includes(saved)) preferredLocale = saved;
+        } catch {}
+        if (!preferredLocale) {
+          for (const language of navigator.languages?.length ? navigator.languages : [navigator.language]) {
+            const normalized = language.toLowerCase().replaceAll("_", "-");
+            preferredLocale = localeDetectionEntries.find(([prefix]) => normalized === prefix || normalized.startsWith(`${prefix}-`))?.[1];
+            if (preferredLocale) break;
+          }
+        }
+        if (!preferredLocale || preferredLocale === activeLocale) return;
+        const target = availableAlternates.find(link => link.locale === preferredLocale);
+        if (!target) return;
+        const dismissalKey = "ssp-language-suggestion-dismissed";
+        try {
+          if (sessionStorage.getItem(dismissalKey) || sessionStorage.getItem(`ssp-language-suggestion:${activeLocale}:${preferredLocale}`)) return;
+        } catch {}
+        const banner = document.querySelector("[data-language-suggestion]");
+        const link = banner?.querySelector("a");
+        const message = banner?.querySelector("[data-language-suggestion-text]");
+        const close = banner?.querySelector("button");
+        if (!banner || !link || !message || !close) return;
+        banner.lang = target.lang;
+        banner.dir = target.direction;
+        message.textContent = target.message;
+        link.href = `${target.href}${location.search}${location.hash}`;
+        link.textContent = target.action;
+        link.hreflang = target.lang;
+        link.dataset.localeChoice = target.locale;
+        close.setAttribute("aria-label", target.close);
+        close.title = target.close;
+        banner.hidden = false;
+        close.addEventListener("click", () => {
+          banner.hidden = true;
+          try { sessionStorage.setItem(dismissalKey, "1"); } catch {}
+        });
+      });
+    </script>
 	</head>
 	<body>
+    <aside class="language-suggestion" data-language-suggestion hidden>
+      <div class="site-shell">
+        <p><span data-language-suggestion-text></span> <a href={homeHref} data-locale-choice=""></a></p>
+        <button type="button">×</button>
+      </div>
+    </aside>
 		<a class="skip-link" href="#main-content">{chrome.skipToContent}</a>
 		<SiteHeader
 			name={navTitle}

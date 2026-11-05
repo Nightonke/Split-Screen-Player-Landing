@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Cum să redați mai multe videoclipuri simultan pe un telefon sau o tabletă Android",
+  "seoTitle": "Cum să redați mai multe videoclipuri simultan pe un telefon sau o tabletă Android",
+  "metaDescription": "Vizionați două, trei sau patru videoclipuri simultan pe un telefon sau o tabletă Android. Alegeți rânduri stivuite sau o grilă 2×2, adăugați clipuri locale, controlați sunetul și salvați configurația.",
+  "summary": "Comparați două videoclipuri fără a comuta între aplicațiile media player, aranjați trei videoclipuri în rânduri verticale sau urmăriți patru unghiuri ale camerei într-o grilă în timp ce țineți dispozitivul pe orizontală. Split Screen Player păstrează fiecare videoclip vizibil pe un telefon sau o tabletă Android.",
+  "answer": "Alegeți un aspect pe ecran divizat, atingeți + în fiecare regiune și adăugați un videoclip din galeria sau fișierele dvs. Fiecare clip are comenzi separate pentru redare și sunet. Puteți începe cu două videoclipuri și puteți adăuga mai multe când aveți nevoie de ele.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Trei videoclipuri redate într-un aspect portret stivuit.",
+    "caption": "Trei videoclipuri redate într-un aspect portret stivuit.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "De la trei rânduri stivuite la o grilă cu patru videoclipuri",
+  "steps": [
+    {
+      "title": "Alegeți două sau trei regiuni video",
+      "description": "Atingeți pictograma de aspect cu patru pătrate din bara de instrumente. Primul grup oferă aspecte stivuite și unul lângă altul pentru două videoclipuri. Pentru trei clipuri, alegeți miniatura conturată pe trei rânduri în grupul vertical cu o singură coloană.",
+      "detail": "Banda mică din fiecare miniatură arată unde se află bara de instrumente. Utilizați filtrele de număr și orientare din partea de jos pentru a restrânge opțiunile.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Aspectul pe trei rânduri este conturat printre celelalte aranjamente.",
+        "caption": "Dispunerea pe trei rânduri este conturată printre celelalte aranjamente.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Adăugați un videoclip în fiecare regiune",
+      "description": "Atingeți + într-o regiune goală. În Deschidere, alegeți videoclipuri din album și selectați un clip. Repetați pentru celelalte regiuni. Utilizați Fișier pentru un videoclip salvat în altă parte pe dispozitiv.",
+      "detail": "Pentru a înlocui un clip, atingeți imaginea acestuia și apoi + în comenzile acestuia. Lista de redare permite redarea mai multor clipuri unul după altul în aceeași regiune.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Alegeți Album videoclipuri sau Fișier pentru a adăuga un videoclip.",
+        "caption": "Alegeți videoclipuri din album sau Fișier pentru a adăuga un videoclip.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Controlați redarea și alegeți ceea ce auziți",
+      "description": "Atingeți un videoclip pentru a-i dezvălui comenzile. Folosiți butonul central pentru a-l reda sau pentru a-l întrerupe și trageți cronologia într-un alt moment. Alte clipuri pot continua să fie redate independent.",
+      "detail": "Dezactivați sunetul clipurilor pe care nu doriți să le auziți cu butoanele difuzoarelor. Utilizați butonul de viteză pentru a încetini o mișcare pe care o comparați.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Fiecare videoclip are propriile controale pentru sunet, viteză și redare.",
+        "caption": "Fiecare videoclip are propriile controale pentru sunet, viteză și redare.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Comutați la o grilă peisaj 2×2",
+      "description": "Deschideți selectorul de aspect, selectați 4 în filtrul de numere și alegeți Peisaj R. Selectați miniatura de două câte două din grupul de simetrie centrală.",
+      "detail": "Banda din dreapta miniaturii reprezintă bara de instrumente. Țineți dispozitivul pe orizontală pentru a vizualiza cele patru regiuni.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Alegeți patru regiuni cu bara de instrumente din dreapta.",
+        "caption": "Alegeți patru regiuni cu bara de instrumente din dreapta.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Adăugați al patrulea clip și salvați combinația",
+      "description": "Primele trei videoclipuri rămân disponibile după schimbarea aspectului. Atingeți + în regiunea goală și adăugați un al patrulea clip.",
+      "detail": "Atingeți steaua, Marcaj, pentru a salva videoclipurile și aspectul curent. Mai târziu, deschideți Marcaje lângă el pentru a restabili această combinație.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Patru videoclipuri sunt redate împreună într-o grilă peisaj.",
+        "caption": "Patru videoclipuri sunt redate împreună într-o grilă peisaj.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Construiți ecranul divizat care se potrivește cu vizionarea dvs",
+    "featuresIntro": "Păstrați o referință lângă propria dvs. înregistrare, revizuiți unghiurile camerei sau urmăriți o lecție cu materialul suport.",
+    "features": [
+      {
+        "title": "144 de aspecte, cu până la 36 de videoclipuri simultan",
+        "description": "Alegeți rânduri stivuite, vizualizări una lângă alta, o grilă cu patru videoclipuri sau un aranjament mai dens. Tabletele oferă fiecărei imagini mai mult spațiu. Redarea lină depinde de dispozitiv, codec și rezoluție, așa că adăugați videoclipuri treptat."
+      },
+      {
+        "title": "Oferiți mai mult spațiu imaginii principale",
+        "description": "Deschideți Personalizat în selectorul de aspect pentru a vă crea propriul aranjament. Mutați regiuni, redimensionați-le și împărțiți ecranul cu linii pentru a echilibra videoclipul principal și referințele acestuia."
+      },
+      {
+        "title": "Combină videoclipuri, imagini, PDF uri și pagini web",
+        "description": "Fiecare regiune poate deține un tip diferit de conținut: videoclipuri, audio, colecții de imagini, PDF -uri sau pagini web. De asemenea, puteți deschide legături de flux HLS (M3U8) și RTSP."
+      },
+      {
+        "title": "Deschideți fișierele locale MP4, MOV, MKV și WebM",
+        "description": "Adăugați înregistrări din galeria dvs. sau deschideți fișiere dintr-un folder. Suportul pentru un anumit fișier depinde de codecurile sale video și audio, nu doar de extensia numelui de fișier."
+      },
+      {
+        "title": "Comparați același moment sau împărtășiți rezultatul",
+        "description": "Punctele de sincronizare ajută la alinierea înregistrărilor care au început în momente diferite. Când doriți să partajați mai multe imagini ca un singur videoclip, utilizați exportul video pe ecran divizat cu clipurile locale."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pot începe cu doar două videoclipuri?",
+        "answer": "Da. Alegeți un aspect în două regiuni și adăugați câte un videoclip în fiecare regiune. Le puteți păstra stivuite sau una lângă alta, cu comenzi separate pentru redare și sunet."
+      },
+      {
+        "question": "Functioneaza pe tablete?",
+        "answer": "Da. Aceeași aplicație acceptă telefoane și tablete. Un ecran mai mare este util pentru a revizui mai multe unghiuri sau pentru a citi materiale de referință lângă un videoclip."
+      },
+      {
+        "question": "Mai întâi trebuie să îmbin videoclipurile?",
+        "answer": "Nu. Redarea pe ecran împărțit păstrează clipurile separate. O listă de redare redă secvențial clipuri într-o regiune; un aspect cu ecran divizat arată diferite clipuri în același timp."
+      },
+      {
+        "question": "Cum elimin barele negre?",
+        "answer": "Alegeți Umpleți și Decupați în setările de scalare video. Umple fiecare regiune prin tăierea marginilor atunci când formele diferă. Utilizați Fit când vedeți întregul cadru original contează mai mult."
+      },
+      {
+        "question": "Poate afișa două aplicații de streaming separate?",
+        "answer": "Acest ghid acoperă conținutul deschis în Split Screen Player. Nu încorporează alte aplicații. Redarea de pe o pagină web depinde de site-ul respectiv și de restricțiile acestuia."
+      },
+      {
+        "question": "Aplicația este gratuită?",
+        "answer": "Aplicația se poate descărca gratuit, cu redare video de bază și machete gratuite. Aspectele marcate VIP, utilizarea aspectului personalizat, marcajele și alte funcții avansate necesită calitatea de membru."
+      }
+    ],
+    "closingTitle": "Păstrați videoclipurile pe care doriți să le vizionați pe un singur ecran",
+    "closingDescription": "Începeți cu două clipuri, apoi încercați trei rânduri stivuite sau o grilă de patru videoclipuri. Descărcați versiunea pentru dispozitivul dvs. din App Store sau Google Play."
+  },
+  "keywords": [
+    "Redare multi-video",
+    "Ecran împărțit"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

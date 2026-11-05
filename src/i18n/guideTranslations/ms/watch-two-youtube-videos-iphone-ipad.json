@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Cara menonton dua video YouTube serentak pada iPhone atau iPad",
+  "seoTitle": "Cara menonton dua video YouTube serentak pada iPhone atau iPad",
+  "metaDescription": "Alihkan video YouTube yang serasi ke dalam pemain berasingan, kemudian buka halaman YouTube yang lain untuk menonton dua video pada iPhone atau iPad.",
+  "summary": "Simpan video YouTube pertama dalam pemain bebas manakala video kedua dimainkan dalam halaman web di atas.",
+  "answer": "Buka halaman YouTube pertama dan mulakan main balik. Ketik Mini Player, pilih video yang dikesan sepadan dan biarkan ia terbuka di kawasan kosong. Kemudian buka dan mainkan URL YouTube kedua di rantau web asal.",
+  "note": "Aliran kerja ini memerlukan Premium dan sumber yang dikesan yang serasi. Ia diterbitkan semula dengan Blender 's Big Buck Bunny dan Sintel dalam simulator iPhone 17 Pro. Penghantaran, iklan, log masuk dan perlindungan YouTube boleh menjejaskan video lain; ia bukan jaminan untuk setiap pautan. Tangkapan skrin menunjukkan antara muka bahasa Inggeris pada simulator iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Video Sintel dan Big Buck Bunny dimainkan di kawasan skrin yang berasingan.",
+    "alt": "iPhone 17 Pro — Video Sintel dan Big Buck Bunny kedua-duanya dimainkan di kawasan skrin yang berasingan.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Buka video YouTube pertama",
+      "description": "Pilih susun atur dua wilayah. Di kawasan atas, ketik + → Web/Strim dan buka URL halaman tontonan YouTube yang pertama sebagai Halaman Web. Mulakan main semula dalam halaman; kawasan bawah harus kekal kosong.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Video Big Buck Bunny dimainkan di halaman web atas, dengan kawasan skrin kosong di bawah.",
+        "alt": "iPhone 17 Pro — Video Big Buck Bunny dimainkan di halaman web atas, dengan kawasan skrin kosong di bawah.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Periksa video yang dikesan",
+      "description": "Ketik butang Pemain Mini di sebelah alamat web. Nombor pada butang ini ialah bilangan video yang dikesan. Semak sama ada tajuk, tempoh dan dimensi sepadan dengan video yang anda inginkan sebelum memilih video yang dikesan; pengesanan sahaja tidak menjamin main balik.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Kemasukan yang dikesan ialah 10:35 dan 640×360 dalam sesi ini.",
+        "alt": "iPhone 17 Pro — Kemasukan yang dikesan ialah 10:35 dan 640×360 dalam sesi ini.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Buka di kawasan lain",
+      "description": "Ketik item yang sepadan. Kawasan kosong menerima video secara automatik. Jika tiada yang kosong, Pilih Lokasi Main Semula meminta kandungan semasa rantau mana yang hendak diganti.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Halaman sumber kekal di atas pemain video bebas.",
+        "alt": "iPhone 17 Pro — Halaman sumber kekal di atas pemain video bebas.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Mainkan video lain dalam halaman web",
+      "description": "Simpan video yang dipindahkan dalam pemain yang lebih rendah. Ketik alamat web kawasan skrin atas → Web/Strim dan masukkan URL tontonan YouTube kedua. Mainkan video dalam halaman. Dalam contoh ini, video Sintel dimainkan di kawasan skrin atas manakala video Big Buck Bunny terus dimainkan di bawah.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Video Sintel dan Big Buck Bunny dimainkan di kawasan skrin yang berasingan.",
+        "alt": "iPhone 17 Pro — Video Sintel dan Big Buck Bunny kedua-duanya dimainkan di kawasan skrin yang berasingan.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Butiran berguna",
+    "featuresIntro": "Semak butiran ini semasa anda mengikuti langkah.",
+    "features": [
+      {
+        "title": "Sumber mesti kekal boleh dimainkan",
+        "description": "Alamat media yang tamat tempoh, pengesahan, perlindungan kandungan dan tingkah laku pelayan boleh menghalang main semula. Kembali ke halaman sumber dan mulakan video semula sebelum mencuba semula. Ciri ini tidak memberikan akses kepada kandungan terhad."
+      },
+      {
+        "title": "Simpan satu sumber audio",
+        "description": "Redamkan halaman web atau pemain bebas jika kedua-duanya menghasilkan bunyi. Kedua-dua kepala main adalah bebas; gunakan fail tempatan yang serasi dan Titik Segerak untuk perbandingan yang tepat."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mengapa Mini Player kosong?",
+        "answer": "Mulakan video dalam halaman dan semak semula. Sesetengah tapak tidak mendedahkan sumber yang serasi. Entri yang dikesan mungkin juga merupakan iklan dan bukannya video yang anda inginkan."
+      },
+      {
+        "question": "Mengapa tidak buka dua halaman web YouTube sahaja?",
+        "answer": "Apl ini memberi amaran tentang main balik serentak dalam berbilang kawasan web pada iOS. Aliran kerja ini mengalihkan video pertama menjadi pemain bebas dan hanya meninggalkan yang kedua dalam halaman web. Ia masih bergantung pada keserasian sumber."
+      }
+    ],
+    "closingTitle": "Cuba ini dengan media anda sendiri",
+    "closingDescription": "Buka Split Screen Player dan ikuti langkah dengan fail yang ingin anda gunakan."
+  },
+  "keywords": [
+    "YouTube",
+    "Main balik serentak"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

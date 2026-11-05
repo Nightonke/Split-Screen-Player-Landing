@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Jak přehrávat více videí najednou na telefonu nebo tabletu Android",
+  "seoTitle": "Jak přehrávat více videí najednou na telefonu nebo tabletu Android",
+  "metaDescription": "Sledujte dvě, tři nebo čtyři videa najednou na telefonu nebo tabletu Android. Vyberte naskládané řádky nebo mřížku 2×2, přidejte místní klipy, ovládejte zvuk a uložte nastavení.",
+  "summary": "Porovnejte dva videoklipy bez přepínání mezi aplikacemi přehrávače médií, uspořádejte tři videa do svislých řad nebo sledujte čtyři úhly kamery v mřížce a držte zařízení vodorovně. Split Screen Player udržuje každé video viditelné na telefonu nebo tabletu Android.",
+  "answer": "Vyberte rozvržení rozdělené obrazovky, klepněte na + v každé oblasti a přidejte video z galerie nebo souborů. Každý klip má samostatné ovládání přehrávání a zvuku. Můžete začít se dvěma videi a přidat další, když je budete potřebovat.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tři videa přehrávaná v rozvržení na výšku.",
+    "caption": "Tři videa přehrávaná v rozvržení na výšku.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Od tří naskládaných řad po mřížku se čtyřmi videy",
+  "steps": [
+    {
+      "title": "Vyberte dvě nebo tři oblasti videa",
+      "description": "Klepněte na ikonu čtyřčtvercového rozvržení na panelu nástrojů. První skupina nabízí naskládané a vedle sebe rozvržení pro dvě videa. Pro tři klipy vyberte naznačenou třířádkovou miniaturu ve svislé skupině s jedním sloupcem.",
+      "detail": "Malý proužek v každé miniatuře ukazuje, kde se nachází panel nástrojů. Pomocí číselných a orientačních filtrů v dolní části zúžíte možnosti.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Rozložení ve třech řadách je nastíněno mezi ostatními uspořádáními.",
+        "caption": "Mezi ostatními uspořádáními je nastíněno třířadé uspořádání.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Přidejte video do každého regionu",
+      "description": "Klepněte na + v prázdné oblasti. V nabídce Otevřít vyberte Videa alba a vyberte klip. Opakujte pro ostatní regiony. Použijte Soubor pro video uložené jinde v zařízení.",
+      "detail": "Chcete-li klip nahradit, klepněte na jeho obrázek a poté na + v jeho ovládacích prvcích. Seznam stop umožňuje přehrávání několika klipů jeden po druhém ve stejné oblasti.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Chcete-li přidat video, vyberte možnost Videa alba nebo Soubor.",
+        "caption": "Chcete-li přidat video, vyberte možnost Videa alba nebo Soubor.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Ovládejte přehrávání a vyberte si, co slyšíte",
+      "description": "Klepnutím na video zobrazíte jeho ovládací prvky. Pomocí středového tlačítka jej přehrajte nebo pozastavte a přetáhněte časovou osu na jiný okamžik. Ostatní klipy se mohou přehrávat nezávisle.",
+      "detail": "Pomocí tlačítek reproduktoru ztlumte klipy, které nechcete slyšet. Pomocí tlačítka rychlosti zpomalíte pohyb, který porovnáváte.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Každé video má svůj vlastní zvuk, rychlost a ovládání přehrávání.",
+        "caption": "Každé video má vlastní ovládání zvuku, rychlosti a přehrávání.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Přepněte na mřížku na šířku 2×2",
+      "description": "Otevřete výběr rozvržení, ve filtru čísel vyberte 4 a zvolte Na šířku R. Ve skupině středové symetrie vyberte miniaturu po dvou.",
+      "detail": "Proužek napravo od miniatury představuje panel nástrojů. Chcete-li zobrazit čtyři oblasti, držte zařízení vodorovně.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Pomocí panelu nástrojů vpravo vyberte čtyři oblasti.",
+        "caption": "Vyberte čtyři oblasti pomocí panelu nástrojů vpravo.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Přidejte čtvrtý klip a uložte kombinaci",
+      "description": "První tři videa zůstanou dostupná i po změně rozvržení. Klepněte na + v prázdné oblasti a přidejte čtvrtý klip.",
+      "detail": "Klepnutím na hvězdičku Záložka uložíte aktuální videa a rozvržení. Později otevřete Záložky vedle něj a obnovte tuto kombinaci.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Čtyři videa se přehrávají společně v mřížce na šířku.",
+        "caption": "Čtyři videa se přehrávají společně v mřížce na šířku.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Sestavte si rozdělenou obrazovku, která vyhovuje vašemu sledování",
+    "featuresIntro": "Uchovávejte si referenci vedle své vlastní nahrávky, prohlédněte si úhly kamery nebo se podívejte na lekci s podpůrným materiálem.",
+    "features": [
+      {
+        "title": "144 rozložení s až 36 videi najednou",
+        "description": "Vyberte složené řádky, pohledy vedle sebe, mřížku se čtyřmi videy nebo hustší uspořádání. Tablety dávají každému obrázku více prostoru. Plynulé přehrávání závisí na zařízení, kodeku a rozlišení, takže videa přidávejte postupně."
+      },
+      {
+        "title": "Dejte hlavnímu obrázku více prostoru",
+        "description": "Otevřete Vlastní ve výběru rozvržení a vytvořte si vlastní uspořádání. Přesuňte oblasti, změňte jejich velikost a rozdělte obrazovku pomocí čar, abyste vyvážili hlavní video a jeho odkazy."
+      },
+      {
+        "title": "Kombinujte videa, obrázky, soubory PDF a webové stránky",
+        "description": "Každá oblast může obsahovat jiný druh obsahu: videa, zvuk, sbírky obrázků, soubory PDF nebo webové stránky. Můžete také otevřít odkazy na streamy HLS (M3U8) a RTSP."
+      },
+      {
+        "title": "Otevřete místní soubory MP4, MOV, MKV a WebM",
+        "description": "Přidejte nahrávky z galerie nebo otevřete soubory ze složky. Podpora konkrétního souboru závisí na jeho video a audio kodecích, nejen na jeho příponě souboru."
+      },
+      {
+        "title": "Porovnejte stejný okamžik nebo sdílejte výsledek",
+        "description": "Synchronizační body pomáhají zarovnat nahrávky, které začaly v různých časech. Pokud chcete sdílet několik obrázků jako jedno video, použijte export videa na rozdělené obrazovce s místními klipy."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mohu začít jen dvěma videi?",
+        "answer": "Ano. Vyberte rozvržení dvou oblastí a do každé oblasti přidejte jedno video. Můžete je mít naskládané nebo vedle sebe s oddělenými ovládacími prvky přehrávání a zvuku."
+      },
+      {
+        "question": "Funguje to na tabletech?",
+        "answer": "Ano. Stejná aplikace podporuje telefony a tablety. Větší obrazovka je užitečná pro prohlížení několika úhlů pohledu nebo čtení referenčního materiálu vedle videa."
+      },
+      {
+        "question": "Musím videa nejprve sloučit?",
+        "answer": "Ne. Přehrávání na rozdělené obrazovce udržuje klipy oddělené. Seznam stop přehrává klipy postupně v jedné oblasti; rozvržení rozdělené obrazovky zobrazuje různé klipy současně."
+      },
+      {
+        "question": "Jak odstraním černé pruhy?",
+        "answer": "V nastavení měřítka videa zvolte Vyplnit a oříznout. Vyplní každou oblast oříznutím okrajů, když se tvary liší. Pokud chcete vidět celý původní rám, použijte Fit."
+      },
+      {
+        "question": "Dokáže zobrazit dvě samostatné streamovací aplikace?",
+        "answer": "Tato příručka pokrývá obsah otevřený v Split Screen Player. Nezahrnuje jiné aplikace. Přehrávání z webové stránky závisí na této webové stránce a jejích omezeních."
+      },
+      {
+        "question": "Je aplikace zdarma?",
+        "answer": "Aplikace je zdarma ke stažení se základním přehráváním videa a bezplatnými rozvrženími. Rozvržení označená VIP, použití vlastního rozvržení, záložky a další pokročilé funkce vyžadují členství."
+      }
+    ],
+    "closingTitle": "Udržujte videa, která chcete sledovat, na jedné obrazovce",
+    "closingDescription": "Začněte se dvěma klipy a poté vyzkoušejte tři naskládané řádky nebo mřížku se čtyřmi videy. Stáhněte si verzi pro své zařízení z App Store nebo Google Play."
+  },
+  "keywords": [
+    "Přehrávání více videí",
+    "Rozdělená obrazovka"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

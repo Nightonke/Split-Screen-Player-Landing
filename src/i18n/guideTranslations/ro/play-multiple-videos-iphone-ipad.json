@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Redare multi-video · iPhone și iPad",
+  "title": "Cum să redați mai multe videoclipuri simultan pe iPhone sau iPad",
+  "seoTitle": "Cum să redați mai multe videoclipuri simultan pe iPhone sau iPad",
+  "metaDescription": "Vizionați două videoclipuri unul lângă altul, stivuiți trei videoclipuri sau redați patru într-o grilă pe iPhone și iPad. Alegeți un aspect, adăugați clipuri locale, controlați sunetul și salvați configurația.",
+  "summary": "Comparați două videoclipuri fără a comuta între aplicațiile media player, aranjați trei videoclipuri în rânduri verticale sau urmăriți patru unghiuri ale camerei într-o grilă în timp ce țineți dispozitivul pe orizontală. Split Screen Player menține fiecare videoclip vizibil și redat independent pe iPhone și iPad.",
+  "answer": "Alegeți un aspect pe ecran divizat, atingeți + în fiecare regiune goală și adăugați un videoclip din Fotografii sau Fișiere. Clipurile sunt redate în regiuni separate fără a le îmbina mai întâi într-un singur fișier. Începeți cu două videoclipuri sau urmați exemplele de trei rânduri și patru videoclipuri de mai jos.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Trei videoclipuri stivuite în rânduri separate pe un iPhone în Split Screen Player",
+    "caption": "Trei videoclipuri rămân vizibile într-un aspect portret.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "De la trei rânduri la o grilă cu patru videoclipuri",
+  "steps": [
+    {
+      "title": "Alegeți un aspect cu două sau trei regiuni",
+      "description": "Atingeți pictograma de aspect cu patru pătrate din bara de instrumente și deschideți Implicit. Pentru două videoclipuri, alegeți un aspect stivuit sau unul lângă altul sub 1–2 videoclipuri. Pentru trei videoclipuri, alege miniatura pe trei rânduri evidențiată sub Vertical, 1 coloană Total.",
+      "detail": "Fiecare dreptunghi reprezintă o regiune video; banda subțire arată poziția barei de instrumente. Utilizați filtrele de număr și orientare din partea de jos atunci când doriți un anumit aranjament.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Biblioteca de aspect prezintă mai multe aranjamente cu aspectul pe trei rânduri conturat",
+        "caption": "Alegeți două regiuni sau aspectul conturat pentru trei videoclipuri stivuite.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Adăugați un videoclip în fiecare regiune",
+      "description": "Atingeți + într-o zonă goală a ecranului. În meniul Deschidere, selectați Videoclipuri și alegeți un clip din aplicația Fotografii. Repetați pentru celelalte zone ale ecranului. Dacă videoclipul dvs. este stocat în aplicația Fișiere, selectați opțiunea Fișiere din meniul Deschidere.",
+      "detail": "Pentru a înlocui un clip, atingeți imaginea acestuia și apoi + în comenzile acestuia. De asemenea, puteți utiliza Lista de redare pentru a reda mai multe clipuri unul după altul într-o singură regiune.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Meniul iPhone Open oferă videoclipuri, fișiere, imagini și playlist",
+        "caption": "Selectați opțiunea Videoclipuri pentru a deschide un videoclip din aplicația Fotografii; selectați opțiunea Fișiere pentru a deschide un videoclip salvat în altă parte.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Controlați fiecare videoclip și alegeți ceea ce auziți",
+      "description": "Atingeți un videoclip pentru a-i dezvălui comenzile. Folosiți butonul central pentru a-l reda sau pentru a-l întrerupe și trageți cronologia lui într-un alt moment. Celelalte videoclipuri pot continua să fie redate independent.",
+      "detail": "Dezactivați sunetul clipurilor pe care nu doriți să le auziți cu butoanele difuzoarelor. Utilizați butonul de viteză pentru a încetini o mișcare pe care o comparați. Atingeți din nou imaginea ori de câte ori controalele se ascund.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Primul dintre cele trei videoclipuri afișează controalele pentru difuzor, viteză, redare și cronologie",
+        "caption": "Fiecare videoclip are propriile controale pentru sunet, viteză și redare.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Comutați la o grilă peisaj 2×2",
+      "description": "Deschideți din nou selectorul de aspect. Selectați 4 în filtrul de numere și Land.(R) pentru orientare, apoi alegeți miniatura de două câte două din grupul de simetrie centrală.",
+      "detail": "Banda mică din dreapta miniaturii înseamnă că bara de instrumente va fi în dreapta. Țineți dispozitivul pe orizontală pentru a vedea cele patru regiuni în peisaj.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Selectorul de aspect iPhone este filtrat la patru videoclipuri și peisaj cu bara de instrumente în partea dreaptă",
+        "caption": "Alegeți patru regiuni cu bara de instrumente din dreapta.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Adăugați al patrulea clip și salvați configurația",
+      "description": "Primele trei clipuri rămân pe loc. Atingeți + în regiunea goală pentru a adăuga un al patrulea videoclip și a completa grila.",
+      "detail": "Pentru a reveni la această combinație mai târziu, atingeți steaua (Favorita) din bara de instrumente. Deschideți Lista de preferințe lângă ea pentru a restabili videoclipurile salvate și aspectul.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Patru videoclipuri într-o grilă peisaj pe iPhone cu bara de instrumente în dreapta",
+        "caption": "Păstrați împreună patru unghiuri ale camerei sau clipuri de referință într-un singur ecran.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Construiți ecranul divizat care se potrivește cu ceea ce doriți să vizionați",
+    "featuresIntro": "Începeți cu două agrafe, apoi adăugați mai multe unghiuri sau păstrați o lecție și materialul de referință vizibil împreună.",
+    "features": [
+      {
+        "title": "144 de aspecte presetate, cu până la 36 de videoclipuri simultan",
+        "description": "Alegeți rânduri stivuite, vizualizări una lângă alta, o grilă cu patru videoclipuri sau un aranjament mai dens. iPhone este convenabil pentru vizualizare rapidă; iPad oferă fiecărei imagini mai mult spațiu. Redarea lină depinde de dispozitiv, codec și rezoluție, așa că adăugați videoclipuri treptat.",
+        "link": {
+          "label": "Explorați redarea mai multor videoclipuri",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Reglați poziția și dimensiunea fiecărei regiuni",
+        "description": "Deschideți Personalizat în selectorul de aspect pentru a vă crea propriul aspect. Mutați regiuni, redimensionați-le colțurile sau împărțiți ecranul cu linii. Oferă lecției principale mai mult spațiu și păstrează o referință mai mică lângă ea."
+      },
+      {
+        "title": "Păstrați împreună videoclipurile, imaginile, PDF -urile și paginile web",
+        "description": "Fiecare regiune poate afișa un tip diferit de conținut, inclusiv videoclipuri, audio, imagini, foldere cu imagini, PDF uri și pagini web. De asemenea, puteți deschide legături de flux HLS (M3U8) și RTSP."
+      },
+      {
+        "title": "Redați MP4 local, MOV, MKV și multe altele",
+        "description": "Deschideți înregistrările de zi cu zi în MP4, MOV, M4V sau 3GP. Playerul personalizat în aplicație acceptă și containere precum MKV, AVI, WebM, FLV, F4V, WMV și RMVB. Redarea depinde de codecul din interiorul fișierului."
+      },
+      {
+        "title": "Aliniați același moment în diferite înregistrări",
+        "description": "Când înregistrările încep la momente diferite, setați un Punct de sincronizare la aceeași acțiune în fiecare clip și activați Blocarea sincronizării. Acest lucru ajută la compararea unei mișcări de dans, un leagăn sau același eveniment de la mai multe camere.",
+        "link": {
+          "label": "Aflați despre Puncte de sincronizare și Blocare sincronizare",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Pot reda două videoclipuri în același timp pe iPhone?",
+        "answer": "Da. Alegeți un aspect cu două regiuni și adăugați câte un videoclip la fiecare. Ambele imagini rămân vizibile, cu comenzi separate pentru redare, progres și sunet."
+      },
+      {
+        "question": "Funcționează și pe iPad?",
+        "answer": "Da. Split Screen Player acceptă atât iPhone, cât și iPad. Un ecran iPad mai mare este util pentru examinarea unghiului camerei, compararea mișcărilor și vizionarea unei lecții alături de un PDF."
+      },
+      {
+        "question": "Trebuie să îmbin mai întâi videoclipurile?",
+        "answer": "Nu. Redarea pe ecran împărțit păstrează clipurile separate. Puteți schimba aspectul sau puteți întrerupe un videoclip în orice moment. Utilizați exportul video pe ecran divizat când doriți să partajați imaginile combinate ca fișier video nou."
+      },
+      {
+        "question": "Cum elimin barele negre dintre videoclipuri?",
+        "answer": "În setările de afișare video, selectați modul Umplere pentru a umple întreaga zonă a ecranului cu imaginea video. Acest mod decupează marginile imaginii atunci când videoclipul și zona sa de ecran au forme diferite. Selectați modul Fit atunci când trebuie să vedeți întregul cadru video original."
+      },
+      {
+        "question": "Pot să vizionez videoclipuri din două aplicații de streaming în acest fel?",
+        "answer": "Acest ghid acoperă videoclipurile pe care le deschideți în Split Screen Player. Nu plasează două aplicații separate în regiunile sale. Redarea web-video depinde de fiecare site web și de restricțiile sale de redare."
+      },
+      {
+        "question": "Split Screen Player este gratuit?",
+        "answer": "Aplicația se poate descărca gratuit, cu redare video de bază și machete gratuite. Aspectele marcate VIP, utilizarea aspectului personalizat, marcajele și alte funcții avansate necesită abonament."
+      }
+    ],
+    "closingTitle": "Păstrați videoclipurile pe care doriți să le vizionați pe un singur ecran",
+    "closingDescription": "Încercați două clipuri pe iPhone sau iPad, apoi explorați trei rânduri stivuite sau o grilă de patru videoclipuri. O versiune Android este disponibilă și pe Google Play."
+  },
+  "keywords": [
+    "Redare multi-video",
+    "Ecran împărțit"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

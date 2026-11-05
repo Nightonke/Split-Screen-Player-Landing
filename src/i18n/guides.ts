@@ -1,5 +1,5 @@
 import platformCopy from "./platformCopy.json";
-import type { Locale } from "./locales";
+import type { GuideLocale as Locale } from "./locales";
 import type { TutorialSlug, GuideTopic } from "./tutorialTopics";
 import { localizeDeep } from "./translation";
 import type { FeatureSlug, UseCaseSlug } from "./marketing";

@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Reproducció de múltiples vídeos · iPhone i iPad",
+  "title": "Com reproduir diversos vídeos alhora a iPhone o iPad",
+  "seoTitle": "Com reproduir diversos vídeos alhora a iPhone o iPad",
+  "metaDescription": "Mira dos vídeos un al costat de l'altre, apila tres vídeos o reprodueix-ne quatre en una graella a iPhone i iPad. Trieu un disseny, afegiu clips locals, controleu l'àudio i deseu la configuració.",
+  "summary": "Compareu dos clips de vídeo sense canviar entre aplicacions de reproductor multimèdia, organitzeu tres vídeos en files verticals o mireu quatre angles de càmera en una quadrícula mentre sosteniu el dispositiu horitzontalment. Split Screen Player manté cada vídeo visible i reproduïble de manera independent a iPhone i iPad.",
+  "answer": "Tria un disseny de pantalla dividida, toca + a cada regió buida i afegeix un vídeo des de Fotos o Fitxers. Els clips es reprodueixen en regions separades sense fusionar-los abans en un sol fitxer. Comenceu amb dos vídeos o seguiu els exemples de tres i quatre vídeos que hi ha a continuació.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tres vídeos apilats en files separades en un iPhone amb Split Screen Player",
+    "caption": "Tres vídeos es mantenen visibles en un disseny retrat.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "De tres files a una graella de quatre vídeos",
+  "steps": [
+    {
+      "title": "Trieu un disseny amb dues o tres regions",
+      "description": "Toqueu la icona de disseny de quatre quadrats a la barra d'eines i obriu Predeterminat. Per a dos vídeos, tria un disseny apilat o al costat de l'altre a 1–2 vídeos. Per a tres vídeos, tria la miniatura de tres files ressaltada a Vertical, 1 columna total.",
+      "detail": "Cada rectangle representa una regió de vídeo; la tira fina mostra la posició de la barra d'eines. Utilitzeu els filtres de nombre i orientació de la part inferior quan vulgueu una disposició concreta.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "La biblioteca de dissenys mostra diversos arranjaments amb el disseny de tres files esbossat",
+        "caption": "Trieu dues regions o el disseny esbossat per a tres vídeos apilats.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Afegeix un vídeo a cada regió",
+      "description": "Toqueu + en una àrea de pantalla buida. Al menú Obre, selecciona Vídeos i tria un clip de l'aplicació Fotos. Repetiu-ho per a les altres àrees de la pantalla. Si el vostre vídeo està emmagatzemat a l'aplicació Fitxers, seleccioneu l'opció Fitxers al menú Obre.",
+      "detail": "Per substituir un clip, toqueu la seva imatge i després + als seus controls. També podeu utilitzar Playlist per reproduir diversos clips un darrere l'altre dins d'una mateixa regió.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "El menú Obre iPhone ofereix vídeos, fitxers, imatges i llista de reproducció",
+        "caption": "Seleccioneu l'opció Vídeos per obrir un vídeo des de l'aplicació Fotos; seleccioneu l'opció Fitxers per obrir un vídeo desat en un altre lloc.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Controla cada vídeo i tria el que escoltes",
+      "description": "Toca un vídeo per mostrar-ne els controls. Feu servir el botó central per reproduir-lo o posar-lo en pausa i arrossegar la seva línia de temps a un altre moment. Els altres vídeos es poden seguir reproduint de manera independent.",
+      "detail": "Silencia els clips que no vols escoltar amb els botons dels altaveus. Utilitzeu el botó de velocitat per frenar un moviment que esteu comparant. Torneu a tocar la imatge sempre que s'amaguin els controls.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "El primer dels tres vídeos mostra els controls d'altaveu, velocitat, reproducció i línia de temps",
+        "caption": "Cada vídeo té els seus propis controls de so, velocitat i reproducció.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Canvia a una quadrícula horitzontal 2×2",
+      "description": "Torneu a obrir el selector de disseny. Seleccioneu 4 al filtre de números i Land.(R) per a l'orientació i, a continuació, trieu la miniatura de dos en dos al grup de simetria central.",
+      "detail": "La petita franja a la dreta de la miniatura significa que la barra d'eines estarà a la dreta. Mantingueu el dispositiu horitzontalment per veure les quatre regions en horitzontal.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "El selector de disseny iPhone es filtra a quatre vídeos i paisatge amb la barra d'eines a la dreta",
+        "caption": "Trieu quatre regions amb la barra d'eines de la dreta.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Afegiu el quart clip i deseu la configuració",
+      "description": "Els vostres primers tres clips romanen al seu lloc. Toqueu + a la regió buida per afegir un quart vídeo i completar la quadrícula.",
+      "detail": "Per tornar a aquesta combinació més tard, toqueu l'estrella (Preferit) a la barra d'eines. Obriu la Llista de preferits al costat per restaurar els vídeos i el disseny desats.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Quatre vídeos en una graella horitzontal a iPhone amb la barra d'eines a la dreta",
+        "caption": "Mantingueu quatre angles de càmera o clips de referència junts en una pantalla.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Creeu la pantalla dividida que s'adapti al que voleu veure",
+    "featuresIntro": "Comenceu amb dos clips, després afegiu més angles o mantingueu una lliçó i el seu material de referència visibles junts.",
+    "features": [
+      {
+        "title": "144 dissenys preestablerts, amb fins a 36 vídeos alhora",
+        "description": "Trieu files apilades, vistes una al costat de l'altra, una quadrícula de quatre vídeos o una disposició més densa. iPhone és convenient per a una visualització ràpida; iPad dóna més espai a cada imatge. La reproducció fluida depèn del dispositiu, el còdec i la resolució, així que afegiu vídeos gradualment.",
+        "link": {
+          "label": "Exploreu la reproducció de diversos vídeos",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Ajusteu la posició i la mida de cada regió",
+        "description": "Obriu Personalitzat al selector de disseny per crear el vostre propi disseny. Mou regions, canvia la mida de les seves cantonades o divideix la pantalla amb línies. Doneu més espai a la lliçó principal i manteniu una referència més petita al costat."
+      },
+      {
+        "title": "Mantingui vídeos, imatges, PDF i pàgines web junts",
+        "description": "Cada regió pot mostrar un tipus de contingut diferent, com ara vídeos, àudio, imatges, carpetes d'imatges, PDF i pàgines web. També podeu obrir els enllaços de flux HLS (M3U8) i RTSP."
+      },
+      {
+        "title": "Reprodueix MP4, MOV, MKV locals i molt més",
+        "description": "Obriu les gravacions quotidianes en MP4, MOV, M4V o 3GP. El reproductor personalitzat de l'aplicació també admet contenidors com ara MKV, AVI, WebM, FLV, F4V, WMV i RMVB. La reproducció depèn del còdec dins del fitxer."
+      },
+      {
+        "title": "Alinea el mateix moment en diferents gravacions",
+        "description": "Quan les gravacions comencen a diferents moments, establiu un punt de sincronització a la mateixa acció a cada clip i activeu el bloqueig de sincronització. Això ajuda a comparar un moviment de ball, un swing o el mateix esdeveniment de diverses càmeres.",
+        "link": {
+          "label": "Més informació sobre els punts de sincronització i el bloqueig de sincronització",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Puc reproduir dos vídeos alhora a l' iPhone?",
+        "answer": "Sí. Trieu un disseny amb dues regions i afegiu-hi un vídeo. Les dues imatges es mantenen visibles, amb controls de reproducció, progrés i so separats."
+      },
+      {
+        "question": "Això també funciona a iPad?",
+        "answer": "Sí. Split Screen Player és compatible amb iPhone i iPad. Una pantalla iPad més gran és útil per revisar l'angle de la càmera, comparar moviments i veure una lliçó juntament amb un PDF."
+      },
+      {
+        "question": "He de combinar els vídeos primer?",
+        "answer": "No. La reproducció en pantalla dividida manté els clips separats. Pots canviar el disseny o posar en pausa un vídeo en qualsevol moment. Utilitzeu l'exportació de vídeo de pantalla dividida quan vulgueu compartir les imatges combinades com a fitxer de vídeo nou."
+      },
+      {
+        "question": "Com puc eliminar les barres negres entre vídeos?",
+        "answer": "A la configuració de visualització de vídeo, seleccioneu el mode Omplir per omplir tota l'àrea de la pantalla amb la imatge de vídeo. Aquest mode retalla les vores de la imatge quan el vídeo i la seva àrea de pantalla tenen formes diferents. Seleccioneu el mode Ajust quan necessiteu veure el fotograma de vídeo original complet."
+      },
+      {
+        "question": "Puc veure vídeos de dues aplicacions de transmissió d'aquesta manera?",
+        "answer": "Aquesta guia inclou els vídeos que obriu dins Split Screen Player. No col·loca dues aplicacions separades dins de les seves regions. La reproducció de vídeos web depèn de cada lloc web i de les seves restriccions de reproducció."
+      },
+      {
+        "question": "Split Screen Player és gratuït?",
+        "answer": "L'aplicació es pot descarregar gratuïtament, amb reproducció de vídeo bàsica i dissenys gratuïts. Els dissenys marcats com VIP, l'ús de disseny personalitzat, les adreces d'interès i altres funcions avançades requereixen una subscripció."
+      }
+    ],
+    "closingTitle": "Manteniu els vídeos que voleu veure en una pantalla",
+    "closingDescription": "Proveu dos clips al vostre iPhone o iPad i, a continuació, exploreu tres files apilades o una graella de quatre vídeos. També hi ha disponible una versió Android a Google Play."
+  },
+  "keywords": [
+    "Reproducció de múltiples vídeos",
+    "Pantalla dividida"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

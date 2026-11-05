@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "כיצד לצפות בשני סרטוני YouTube בו־זמנית ב-iPhone או ב-iPad",
+  "seoTitle": "כיצד לצפות בשני סרטוני YouTube בו־זמנית ב-iPhone או ב-iPad",
+  "metaDescription": "העבר סרטון YouTube תואם לנגן נפרד, ואז פתח דף YouTube אחר כדי לצפות בשני סרטונים iPhone או iPad.",
+  "summary": "שמור את סרטון YouTube הראשון בנגן עצמאי בעוד סרטון שני מופעל בדף האינטרנט למעלה.",
+  "answer": "פתח את עמוד YouTube הראשון והתחל את ההשמעה. הקש על Mini Player, בחר את הסרטון התואם שזוהה ואפשר לו להיפתח באזור הריק. לאחר מכן פתח והפעל את כתובת האתר השנייה YouTube באזור האינטרנט המקורי.",
+  "note": "זרימת עבודה זו דורשת פרימיום ומקור שזוהה תואם. זה שוחזר עם Big Buck Bunny של Blender ו- Sintel בסימולטור iPhone 17 Pro. משלוח, מודעות, כניסה והגנה YouTube יכולים להשפיע על סרטונים אחרים; זה לא ערובה לכל קישור. צילומי מסך מציגים את הממשק האנגלי בסימולטור iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "הסרטונים Sintel Big Buck Bunny מתנגנים שניהם באזורי מסך נפרדים.",
+    "alt": "iPhone 17 Pro - הסרטונים Sintel Big Buck Bunny מתנגנים שניהם באזורי מסך נפרדים.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "פתח את הסרטון הראשון YouTube",
+      "description": "בחר פריסה של שני אזורים. באזור העליון, הקש על + → אינטרנט/זרם ופתח את כתובת האתר הראשונה של דף הצפייה YouTube כדף אינטרנט. התחל השמעה בעמוד; האזור התחתון צריך להישאר ריק.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "סרטון ה- Big Buck Bunny מופעל בדף האינטרנט העליון, עם אזור מסך ריק למטה.",
+        "alt": "iPhone 17 Pro - סרטון ה- Big Buck Bunny מתנגן בדף האינטרנט העליון, עם אזור מסך ריק למטה.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "בדוק את הסרטון שזוהה",
+      "description": "הקש על הלחצן Mini Player לצד כתובת האינטרנט. המספר בלחצן זה הוא מספר הסרטונים שזוהו. בדוק שהכותרת, משך הזמן והממדים תואמים לסרטון הרצוי לפני בחירת סרטון שזוהה; זיהוי לבדו אינו מבטיח השמעה.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "הערך שזוהה הוא 10:35 ו 640×360 בהפעלה זו.",
+        "alt": "iPhone 17 Pro - הערך שזוהה הוא 10:35 ו 640×360 בהפעלה זו.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "פתח אותו באזור אחר",
+      "description": "הקש על הפריט התואם. אזור ריק מקבל את הסרטון באופן אוטומטי. אם אף אחד לא ריק, בחר מיקום השמעה ישאל באיזה אזור להחליף את התוכן הנוכחי.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "דף המקור נשאר מעל נגן הווידאו העצמאי.",
+        "alt": "iPhone 17 Pro - דף המקור נשאר מעל נגן הווידאו העצמאי.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "הפעל סרטון אחר בדף האינטרנט",
+      "description": "שמור את הסרטון שהועבר בנגן התחתון. הקש על כתובת האינטרנט של אזור המסך העליון ← אינטרנט/זרם והזן את כתובת האתר השנייה לצפייה YouTube. הפעל את הסרטון בעמוד. בדוגמה זו, סרטון ה- Sintel מתנגן באזור המסך העליון בעוד סרטון ה- Big Buck Bunny ממשיך להתנגן למטה.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "הסרטונים Sintel Big Buck Bunny מתנגנים שניהם באזורי מסך נפרדים.",
+        "alt": "iPhone 17 Pro - הסרטונים Sintel Big Buck Bunny מתנגנים שניהם באזורי מסך נפרדים.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "פרטים שימושיים",
+    "featuresIntro": "בדוק את הפרטים האלה תוך כדי ביצוע השלבים.",
+    "features": [
+      {
+        "title": "המקור חייב להישאר ניתן לשחק",
+        "description": "כתובות מדיה שפג תוקפן, אימות, הגנת תוכן והתנהגות שרת יכולים למנוע הפעלה. חזור לדף המקור והתחל שוב את הסרטון לפני שתנסה שוב. תכונה זו אינה מעניקה גישה לתוכן מוגבל."
+      },
+      {
+        "title": "שמור על מקור שמע אחד",
+        "description": "השתק את דף האינטרנט או את הנגן העצמאי אם שניהם מפיקים צליל. שני ראשי המשחקים עצמאיים; השתמש בקבצים מקומיים תואמים וב-Sync Point להשוואה מדויקת."
+      }
+    ],
+    "faq": [
+      {
+        "question": "למה Mini Player ריק?",
+        "answer": "התחל סרטון בדף ובדוק שוב. חלק מהאתרים אינם חושפים מקור תואם. ערך שזוהה עשוי להיות גם פרסומת ולא הסרטון שרצית."
+      },
+      {
+        "question": "למה לא פשוט לפתוח שני דפי YouTube?",
+        "answer": "האפליקציה מזהירה על השמעה בו-זמנית באזורי אינטרנט מרובים ב- iOS. זרימת עבודה זו מעבירה את הסרטון הראשון לנגן עצמאי ומשאירה רק את השני בדף אינטרנט. זה עדיין תלוי בתאימות מקור."
+      }
+    ],
+    "closingTitle": "נסה זאת עם המדיה שלך",
+    "closingDescription": "פתח Split Screen Player ובצע את השלבים עם הקבצים שבהם ברצונך להשתמש."
+  },
+  "keywords": [
+    "YouTube",
+    "השמעה כפולה"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

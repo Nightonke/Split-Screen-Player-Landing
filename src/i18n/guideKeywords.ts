@@ -1,6 +1,6 @@
 import translations from "./guideKeywordTranslations.json";
 import type { GuidePage } from "./guides";
-import type { Locale } from "./locales";
+import type { GuideLocale as Locale } from "./locales";
 import { tutorialSlug, tutorialTopics, type TutorialTopic } from "./tutorialTopics";
 
 type KeywordGroup = keyof typeof translations["en-US"];

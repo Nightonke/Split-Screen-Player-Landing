@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Reprodukcija više videozapisa · iPhone i iPad",
+  "title": "Kako reproducirati više videozapisa odjednom na uređaju iPhone ili iPad",
+  "seoTitle": "Kako reproducirati više videozapisa odjednom na uređaju iPhone ili iPad",
+  "metaDescription": "Gledajte dva videozapisa jedan pored drugog, složite tri videozapisa ili reproducirajte četiri u mreži na iPhone i iPad. Odaberite izgled, dodajte lokalne isječke, upravljajte zvukom i spremite svoje postavke.",
+  "summary": "Usporedite dva video isječka bez prebacivanja između aplikacija za reprodukciju medija, posložite tri videa u okomite retke ili gledajte četiri kuta kamere u mreži dok držite uređaj vodoravno. Split Screen Player čini svaki video vidljivim i neovisno reproduciranim na iPhone i iPad.",
+  "answer": "Odaberite raspored podijeljenog zaslona, ​​dodirnite + u svakom praznom području i dodajte videozapis iz fotografija ili datoteka. Isječci se reproduciraju u zasebnim regijama bez prethodnog spajanja u jednu datoteku. Započnite s dva videozapisa ili slijedite primjere s tri i četiri videozapisa u nastavku.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tri videozapisa složena u zasebne retke na iPhone u Split Screen Player",
+    "caption": "Tri videozapisa ostaju vidljiva u portretnom rasporedu.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Od tri retka do rešetke s četiri videozapisa",
+  "steps": [
+    {
+      "title": "Odaberite izgled s dvije ili tri regije",
+      "description": "Dodirnite ikonu rasporeda s četiri kvadrata na alatnoj traci i otvorite Zadano. Za dva videozapisa odaberite naslagani ili jedan pored drugoga ispod 1–2 videozapisa. Za tri videozapisa odaberite istaknutu minijaturu s tri retka pod Okomito, ukupno 1 stupac.",
+      "detail": "Svaki pravokutnik predstavlja video regiju; tanka traka pokazuje položaj alatne trake. Koristite filtre brojeva i orijentacije na dnu kada želite određeni raspored.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Knjižnica izgleda prikazuje nekoliko rasporeda s naznačenim rasporedom u tri reda",
+        "caption": "Odaberite dvije regije ili zacrtani izgled za tri naslagana videozapisa.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Dodajte videozapis svakoj regiji",
+      "description": "Dodirnite + u praznom području zaslona. U izborniku Otvori odaberite Video i odaberite isječak iz aplikacije Fotografije. Ponovite za ostala područja zaslona. Ako je vaš video pohranjen u aplikaciji Datoteke, odaberite opciju Datoteke u izborniku Otvori.",
+      "detail": "Da biste zamijenili isječak, dodirnite njegovu sliku, a zatim + u njegovim kontrolama. Također možete koristiti Playlist za reprodukciju nekoliko isječaka jedan za drugim unutar jedne regije.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "iPhone Open izbornik nudi video zapise, datoteke, slike i popis za reprodukciju",
+        "caption": "Odaberite opciju Videozapisi za otvaranje videozapisa iz aplikacije Fotografije; odaberite opciju Datoteke za otvaranje videozapisa spremljenog negdje drugdje.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Upravljajte svakim videozapisom i odaberite ono što čujete",
+      "description": "Dodirnite videozapis da biste otkrili njegove kontrole. Koristite središnju tipku za reprodukciju ili pauziranje i povucite njegovu vremensku traku na drugi trenutak. Ostali videozapisi mogu se reproducirati neovisno.",
+      "detail": "Isključite isječke koje ne želite čuti pomoću gumba zvučnika. Koristite gumb za brzinu da usporite pokret koji uspoređujete. Ponovno dodirnite sliku kad god se kontrole sakriju.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Prvi od tri videozapisa prikazuje kontrole zvučnika, brzine, reprodukcije i vremenske trake",
+        "caption": "Svaki video ima vlastite kontrole zvuka, brzine i reprodukcije.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Prebacite se na pejzažnu mrežu 2×2",
+      "description": "Ponovno otvorite birač izgleda. Odaberite 4 u filtru brojeva i Land.(R) za orijentaciju, zatim odaberite minijaturu dva puta dva u grupi središnje simetrije.",
+      "detail": "Mala traka s desne strane minijature znači da će alatna traka biti s desne strane. Držite uređaj vodoravno kako biste vidjeli četiri regije u pejzažu.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "iPhone alat za odabir izgleda filtriran je na četiri videozapisa i pejzaž s alatnom trakom na desnoj strani",
+        "caption": "Odaberite četiri regije pomoću alatne trake s desne strane.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Dodajte četvrti isječak i spremite svoje postavke",
+      "description": "Vaša prva tri isječka ostaju na mjestu. Dodirnite + u praznom području za dodavanje četvrtog videozapisa i dovršetak mreže.",
+      "detail": "Da biste se kasnije vratili na ovu kombinaciju, dodirnite zvjezdicu (Favorite) na alatnoj traci. Otvorite popis favorita pokraj njega da vratite spremljene videozapise i izgled.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Četiri videozapisa u pejzažnoj mreži na iPhone s alatnom trakom s desne strane",
+        "caption": "Držite četiri kuta kamere ili referentne isječke zajedno na jednom zaslonu.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Izgradite podijeljeni zaslon koji odgovara onome što želite gledati",
+    "featuresIntro": "Započnite s dva isječka, a zatim dodajte više kutova ili neka lekcija i njezin referentni materijal budu vidljivi zajedno.",
+    "features": [
+      {
+        "title": "144 unaprijed postavljena izgleda, s do 36 videozapisa odjednom",
+        "description": "Odaberite naslagane retke, prikaze jedan uz drugi, rešetku od četiri videozapisa ili gušći raspored. iPhone je prikladan za brzo gledanje; iPad daje svakoj slici više prostora. Glatka reprodukcija ovisi o uređaju, kodeku i razlučivosti, stoga dodajte videozapise postupno.",
+        "link": {
+          "label": "Istražite reprodukciju više videozapisa",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Podesite položaj i veličinu svake regije",
+        "description": "Otvorite Custom u alatu za odabir izgleda da biste izradili vlastiti izgled. Premjestite regije, promijenite veličinu njihovih kutova ili podijelite zaslon linijama. Dajte glavnoj lekciji više prostora i držite manju referencu pokraj nje."
+      },
+      {
+        "title": "Držite videozapise, slike, PDF datoteke i web stranice zajedno",
+        "description": "Svaka regija može prikazati različitu vrstu sadržaja, uključujući video, audio, slike, mape sa slikama, PDF -ove i web stranice. Također možete otvoriti HLS (M3U8) i RTSP stream veze."
+      },
+      {
+        "title": "Reproducirajte lokalni MP4, MOV, MKV i više",
+        "description": "Otvorite svakodnevne snimke u MP4, MOV, M4V ili 3GP. Prilagođeni player unutar aplikacije također podržava spremnike kao što su MKV, AVI, WebM, FLV, F4V, WMV i RMVB. Reprodukcija ovisi o kodeku unutar datoteke."
+      },
+      {
+        "title": "Poravnajte isti trenutak u različitim snimkama",
+        "description": "Kada snimanje započne u različito vrijeme, postavite točku sinkronizacije na istu radnju u svakom isječku i omogućite zaključavanje sinkronizacije. To pomaže u usporedbi plesnog pokreta, ljuljačke ili istog događaja s nekoliko kamera.",
+        "link": {
+          "label": "Saznajte više o točkama sinkronizacije i zaključavanju sinkronizacije",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mogu li reproducirati dva videa u isto vrijeme na iPhone?",
+        "answer": "Da. Odaberite izgled s dvije regije i dodajte videozapis u svaku. Obje slike ostaju vidljive, s odvojenim kontrolama reprodukcije, napretka i zvuka."
+      },
+      {
+        "question": "Radi li ovo i na iPad?",
+        "answer": "Da. Split Screen Player podržava iPhone i iPad. Veći zaslon iPad koristan je za pregled kuta kamere, usporedbu pokreta i gledanje lekcije uz PDF."
+      },
+      {
+        "question": "Trebam li prvo spojiti videozapise?",
+        "answer": "Ne. Reprodukcija podijeljenog zaslona drži isječke odvojene. Možete promijeniti izgled ili pauzirati jedan videozapis u bilo kojem trenutku. Koristite izvoz videozapisa podijeljenog zaslona kada želite podijeliti kombinirane slike kao novu video datoteku."
+      },
+      {
+        "question": "Kako mogu ukloniti crne trake između videozapisa?",
+        "answer": "U postavkama prikaza videozapisa odaberite način Ispuni kako biste ispunili cijelo područje zaslona video slikom. Ovaj način rada izrezuje rubove slike kada videozapis i njegovo područje zaslona imaju različite oblike. Odaberite način rada Fit kada trebate vidjeti cijeli originalni okvir videa."
+      },
+      {
+        "question": "Mogu li na ovaj način gledati videozapise iz dvije aplikacije za strujanje?",
+        "answer": "Ovaj vodič pokriva videozapise koje otvorite u Split Screen Player. Ne postavlja dvije odvojene aplikacije unutar svojih regija. Reprodukcija web-videozapisa ovisi o svakoj web stranici i njezinim ograničenjima reprodukcije."
+      },
+      {
+        "question": "Je li Split Screen Player besplatan?",
+        "answer": "Aplikaciju je besplatno preuzeti, s osnovnom reprodukcijom videozapisa i besplatnim izgledima. Izgledi označeni kao VIP, upotreba prilagođenog izgleda, oznake i druge napredne značajke zahtijevaju članstvo."
+      }
+    ],
+    "closingTitle": "Držite videozapise koje želite gledati na jednom zaslonu",
+    "closingDescription": "Isprobajte dva isječka na svom iPhone ili iPad, a zatim istražite tri naslagana reda ili rešetku od četiri videozapisa. Na Google Play dostupna je i verzija Android."
+  },
+  "keywords": [
+    "Reprodukcija više videozapisa",
+    "Podijeljeni ekran"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

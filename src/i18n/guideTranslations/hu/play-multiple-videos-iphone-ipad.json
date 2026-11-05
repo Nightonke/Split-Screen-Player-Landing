@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Több videó lejátszás · iPhone és iPad",
+  "title": "Több videó lejátszása egyszerre iPhone vagy iPad készüléken",
+  "seoTitle": "Több videó lejátszása egyszerre iPhone vagy iPad készüléken",
+  "metaDescription": "Nézzen meg két videót egymás mellett, helyezzen egymásra három videót, vagy játsszon le négyet egy rácsban iPhone és iPad készüléken. Válasszon elrendezést, adjon hozzá helyi klipeket, vezérelje a hangot, és mentse el a beállításokat.",
+  "summary": "Hasonlítson össze két videoklipet a médialejátszó-alkalmazások közötti váltás nélkül, rendezzen három videót függőleges sorokba, vagy nézzen négy kameraállást egy rácsban, miközben a készüléket vízszintesen tartja. Split Screen Player minden videót láthatóvá és egymástól függetlenül lejátszhatóvá tesz iPhone-on és iPad.",
+  "answer": "Válasszon egy osztott képernyős elrendezést, érintse meg a + jelet minden üres területen, és adjon hozzá egy videót a Fotók vagy a Fájlok közül. A klipek külön régiókban játszódnak le anélkül, hogy először egy fájlba egyesítenék őket. Kezdje két videóval, vagy kövesse az alábbi háromsoros és négyvideós példákat.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Három videó külön sorokban egymásra helyezve iPhone készüléken Split Screen Player",
+    "caption": "Három videó marad látható álló elrendezésben.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Három sortól egy négyvideós rácsig",
+  "steps": [
+    {
+      "title": "Válasszon két vagy három régiót tartalmazó elrendezést",
+      "description": "Érintse meg a négy négyzet alakú elrendezés ikonját az eszköztáron, és nyissa meg az Alapértelmezett lehetőséget. Két videó esetén válasszon halmozott vagy egymás melletti elrendezést 1–2 Videók alatt. Három videó esetén válassza ki a kiemelt háromsoros miniatűrt a Függőleges, összesen 1 oszlop alatt.",
+      "detail": "Minden téglalap egy videó régiót jelöl; a vékony csík az eszköztár helyzetét mutatja. Ha egy adott elrendezést szeretne, használja az alján található szám- és tájolásszűrőket.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Az elrendezési könyvtár több elrendezést mutat a háromsoros elrendezéssel",
+        "caption": "Válasszon két régiót, vagy a három egymásra helyezett videó vázolt elrendezését.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Adjon hozzá egy videót minden régióhoz",
+      "description": "Érintse meg a + gombot egy üres képernyőterületen. A Megnyitás menüben válassza a Videók lehetőséget, és válasszon egy klipet a Fotók alkalmazásból. Ismételje meg a többi képernyőterületen. Ha a videót a Fájlok alkalmazásban tárolta, válassza a Fájlok lehetőséget a Megnyitás menüben.",
+      "detail": "A klip cseréjéhez érintse meg a képét, majd a + gombot a vezérlőelemekben. A Lejátszási lista segítségével több klipet is lejátszhat egymás után egyetlen régión belül.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Az iPhone Open menüje videók, fájlok, képek és lejátszási listákat kínál",
+        "caption": "Válassza a Videók lehetőséget, ha meg szeretne nyitni egy videót a Fotók alkalmazásból; válassza a Fájlok lehetőséget a máshová mentett videó megnyitásához.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Irányítsd az egyes videókat, és válaszd ki, mit hallasz",
+      "description": "Koppintson egy videóra a vezérlőelemek megjelenítéséhez. Használja a középső gombot a lejátszáshoz vagy szüneteltetéshez, és húzza az idővonalat egy másik pillanatra. A többi videó önállóan is lejátszható.",
+      "detail": "A hangszóró gombjaival némítsa el azokat a klipeket, amelyeket nem szeretne hallani. A sebesség gombbal lelassíthatja az összehasonlítandó mozgást. Érintse meg újra a képet, amikor a vezérlők elrejtőznek.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "A három videó közül az első megjeleníti a hangszórót, a sebességet, a lejátszást és az idővonalat",
+        "caption": "Minden videónak saját hang-, sebesség- és lejátszásvezérlője van.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Váltson fekvő 2×2 rácsra",
+      "description": "Nyissa meg újra az elrendezésválasztót. Válassza ki 4 a számszűrőben és a Land.(R)-t a tájoláshoz, majd válassza ki a két-két bélyegképet a középső szimmetria csoportban.",
+      "detail": "Az indexkép jobb oldalán lévő kis csík azt jelenti, hogy az eszköztár a jobb oldalon lesz. Tartsa a készüléket vízszintesen a négy régió fekvő nézetéhez.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Az iPhone elrendezésválasztója négy videóra és fekvőre szűrve van a jobb oldali eszköztárral",
+        "caption": "Válasszon négy régiót a jobb oldali eszköztárral.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Adja hozzá a negyedik klipet, és mentse el a beállítást",
+      "description": "Az első három klip a helyén marad. Érintse meg a + gombot az üres területen egy negyedik videó hozzáadásához és a rács kitöltéséhez.",
+      "detail": "Ha később vissza szeretne térni ehhez a kombinációhoz, érintse meg a csillagot (Kedvenc) az eszköztáron. Nyissa meg mellette a Kedvencek listát a mentett videók és elrendezés visszaállításához.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Négy videó fekvő rácsban iPhone készüléken a jobb oldali eszköztárral",
+        "caption": "Tartson négy kameraállást vagy referencia klipet együtt egy képernyőn.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Készítse el az osztott képernyőt, amely illeszkedik ahhoz, amit nézni szeretne",
+    "featuresIntro": "Kezdje két klippel, majd adjon hozzá további szögeket, vagy tartsa együtt a leckét és annak referenciaanyagát.",
+    "features": [
+      {
+        "title": "144 előre beállított elrendezés, akár 36 videóval egyszerre",
+        "description": "Válasszon halmozott sorokat, egymás melletti nézeteket, négy videóból álló rácsot vagy sűrűbb elrendezést. iPhone kényelmes a gyors megtekintéshez; iPad minden képnek több helyet biztosít. A sima lejátszás az eszköztől, a kodektől és a felbontástól függ, ezért fokozatosan adjon hozzá videókat.",
+        "link": {
+          "label": "Fedezze fel a többvideós lejátszást",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Állítsa be az egyes régiók helyzetét és méretét",
+        "description": "Saját elrendezés létrehozásához nyissa meg az Egyéni lehetőséget az elrendezésválasztóban. Mozgassa a régiókat, méretezze át a sarkukat, vagy ossza fel a képernyőt vonalakkal. Hagyjon nagyobb teret a fő leckének, és legyen mellette egy kisebb hivatkozás."
+      },
+      {
+        "title": "Tartsa együtt a videókat, képeket, PDF eket és weboldalakat",
+        "description": "Minden régió más típusú tartalmat jeleníthet meg, beleértve a videókat, hangokat, képeket, képmappákat, PDF -eket és weboldalakat. HLS (M3U8) és RTSP adatfolyam hivatkozásokat is megnyithat."
+      },
+      {
+        "title": "Játssz le helyi MP4, MOV, MKV és még sok mást",
+        "description": "Nyissa meg mindennapi felvételeit MP4, MOV, M4V vagy 3GP formátumban. Az alkalmazáson belüli egyéni lejátszó olyan konténereket is támogat, mint MKV, AVI, WebM, FLV, F4V, WMV és RMVB. A lejátszás a fájlon belüli kodektől függ."
+      },
+      {
+        "title": "Sorolja fel ugyanazt a pillanatot a különböző felvételeken",
+        "description": "Ha a felvételek különböző időpontokban kezdődnek, állítson be egy szinkronizálási pontot ugyanahhoz a művelethez minden klipben, és engedélyezze a Sync Lock funkciót. Ez segít összehasonlítani egy táncmozdulatot, egy swinget vagy ugyanazt az eseményt több kamerából.",
+        "link": {
+          "label": "További információ a szinkronizálási pontokról és a szinkronizálási zárolásról",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Lejátszhatok két videót egyszerre iPhone-on?",
+        "answer": "Igen. Válasszon egy elrendezést két régióból, és adjon hozzá egy videót mindegyikhez. Mindkét kép látható marad, külön lejátszás, haladás és hangvezérléssel."
+      },
+      {
+        "question": "Ez iPad is működik?",
+        "answer": "Igen. Split Screen Player támogatja iPhone és iPad is. A nagyobb iPad képernyő hasznos a kameraállás áttekintéséhez, a mozgások összehasonlításához és a leckék megtekintéséhez PDF mellett."
+      },
+      {
+        "question": "Előbb össze kell vonnom a videókat?",
+        "answer": "Nem. Az osztott képernyős lejátszás külön tartja a klipeket. Bármikor módosíthatja az elrendezést, vagy szüneteltetheti egy videót. Használja az osztott képernyős videóexportálást, ha az egyesített képeket új videofájlként szeretné megosztani."
+      },
+      {
+        "question": "Hogyan távolíthatom el a fekete sávokat a videók között?",
+        "answer": "A videomegjelenítési beállításoknál válassza a Kitöltés módot, hogy a teljes képernyőterületet kitöltse a videoképpel. Ez a mód levágja a kép széleit, ha a videó és a képernyő területe eltérő alakú. Válassza a Fit módot, ha a teljes eredeti videókockát szeretné látni."
+      },
+      {
+        "question": "Megnézhetek videókat két streaming alkalmazásból így?",
+        "answer": "Ez az útmutató Split Screen Player megnyitott videókra vonatkozik. Nem helyez el két külön alkalmazást a régióiba. A webes videók lejátszása az egyes webhelyektől és a lejátszási korlátozásoktól függ."
+      },
+      {
+        "question": "A Split Screen Player ingyenes?",
+        "answer": "Az alkalmazás ingyenesen letölthető, alapvető videólejátszással és ingyenes elrendezésekkel. VIP jelölésű elrendezésekhez, az egyéni elrendezés használatához, a könyvjelzőkhöz és egyéb speciális funkciókhoz tagság szükséges."
+      }
+    ],
+    "closingTitle": "Tartsa a megtekinteni kívánt videókat egy képernyőn",
+    "closingDescription": "Próbáljon ki két klipet iPhone vagy iPad készülékén, majd fedezzen fel három egymásra helyezett sort vagy egy négy videóból álló rácsot. Android verzió is elérhető a Google Play."
+  },
+  "keywords": [
+    "Több videó lejátszása",
+    "Osztott képernyő"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

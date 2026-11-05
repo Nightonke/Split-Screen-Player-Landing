@@ -1,10 +1,11 @@
 ---
-import { guideContent, type GuidePage } from "@/i18n/guides";
+import { type GuidePage } from "@/i18n/guides";
+import { getGuideHub } from "@/i18n/guideHub";
 import { getGuides } from "@/i18n/guideCatalog";
 import { getMultiVideoRecommendations } from "@/i18n/multiVideoRecommendations";
 import { articleChrome } from "@/i18n/articleChrome";
 import { pageChrome } from "@/i18n/chrome";
-import { localizedPath, type Locale } from "@/i18n/locales";
+import { localizedPath, isGuideLocale, type Locale } from "@/i18n/locales";
 import { appFacts } from "@config/appFacts";
 import PlatformDownloads from "./PlatformDownloads.astro";
 import GuideScreenshot from "./GuideScreenshot.astro";
@@ -17,11 +18,23 @@ const copy = articleChrome[locale];
 const chrome = pageChrome[locale];
 const pages = getGuides(locale);
 const isAndroid = guide.platform === "android";
-const recommendations = guide.slug === "play-multiple-videos-iphone-ipad" || guide.slug === "play-multiple-videos-android"
+const recommendations = isGuideLocale(locale) && (guide.slug === "play-multiple-videos-iphone-ipad" || guide.slug === "play-multiple-videos-android")
   ? getMultiVideoRecommendations(locale, pages, isAndroid ? "android" : "ios") : null;
+// A partially translated catalog can link to the translated feature overview
+// until the more detailed guide is available in this language.
+function publishedFeatureLink(link: { label: string; path: string } | undefined) {
+  if (!link?.path.startsWith("guides/")) return link;
+  const slug = link.path.slice(7).split("#")[0];
+  if (pages.some(page => page.slug === slug)) return link;
+  const source = getGuides("en-US").find(page => page.slug === slug);
+  // Illustrated sync tutorials inherit the generic player category; use the
+  // synchronization overview for their introductory links.
+  const feature = slug.startsWith("sync-videos-") ? "video-sync-comparison" : source?.relatedFeature;
+  return feature ? { ...link, path: `features/${feature}` } : undefined;
+}
 const features = article.features.map((feature, index) => ({
   ...feature,
-  link: feature.link ?? recommendations?.featureLinks[index],
+  link: publishedFeatureLink(feature.link ?? recommendations?.featureLinks[index]),
 }));
 const primaryStore = isAndroid ? appFacts.googlePlayUrl : appFacts.appStoreUrl;
 const otherPlatform = pages.find(page => page.slug === guide.otherPlatformSlug);
@@ -35,7 +48,7 @@ const related = [...preferred, ...pages].filter((page, index, all) =>
 <main id="main-content" class="ssp-guide-article site-shell">
   <nav class="detail-breadcrumb" aria-label={chrome.breadcrumbLabel}>
     <a href={localizedPath(locale)}>{chrome.homeLabel}</a>
-    <a href={localizedPath(locale, "guides")}>{guideContent[locale].labels.guides}</a>
+    <a href={localizedPath(locale, "guides")}>{getGuideHub(locale).labels.guides}</a>
     <span aria-current="page">{guide.eyebrow}</span>
   </nav>
   <header class="article-guide-hero">

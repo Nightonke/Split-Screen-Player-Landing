@@ -31,11 +31,12 @@
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "node scripts/check-content-consistency.mjs && astro build && node scripts/check-guide-pages.mjs",
+		"build": "node scripts/check-content-consistency.mjs && node scripts/check-core-copy.mjs && node scripts/check-guide-copy.mjs && astro build && node scripts/check-guide-pages.mjs && node scripts/check-core-pages.mjs",
 		"check:guides": "node scripts/check-guide-pages.mjs",
 		"preview": "astro preview",
 		"toolbar:disable": "astro preferences disable devToolbar",
-		"toolbar:enable": "astro preferences enable devToolbar"
+		"toolbar:enable": "astro preferences enable devToolbar",
+		"check:localization": "node scripts/check-core-copy.mjs && node scripts/check-guide-copy.mjs && node scripts/check-guide-pages.mjs && node scripts/check-core-pages.mjs"
 	},
 	"dependencies": {
 		"@astrojs/react": "^4.4.2",

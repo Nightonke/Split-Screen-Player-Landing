@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Cách xem hai video YouTube cùng lúc trên iPhone hoặc iPad",
+  "seoTitle": "Cách xem hai video YouTube cùng lúc trên iPhone hoặc iPad",
+  "metaDescription": "Di chuyển video YouTube tương thích sang một trình phát riêng biệt, sau đó mở một trang YouTube khác để xem hai video trên iPhone hoặc iPad.",
+  "summary": "Giữ video YouTube đầu tiên trong một trình phát độc lập trong khi video thứ hai phát trên trang web ở trên.",
+  "answer": "Mở trang YouTube đầu tiên và bắt đầu phát lại. Nhấn vào Trình phát mini, chọn video được phát hiện phù hợp và để video mở ở vùng trống. Sau đó mở và phát URL YouTube thứ hai trong vùng web gốc.",
+  "note": "Quy trình công việc này yêu cầu Premium và nguồn được phát hiện tương thích. Nó được tái tạo bằng Big Buck Bunny và Sintel của Blender trong trình mô phỏng iPhone 17 Pro. Việc phân phối, quảng cáo, đăng nhập và bảo vệ YouTube có thể ảnh hưởng đến các video khác; nó không phải là sự đảm bảo cho mọi liên kết. Ảnh chụp màn hình hiển thị giao diện tiếng Anh trên trình giả lập iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Các video Sintel và Big Buck Bunny đều đang phát ở các khu vực màn hình riêng biệt.",
+    "alt": "iPhone 17 Pro - Các video Sintel và Big Buck Bunny đều đang phát ở các khu vực màn hình riêng biệt.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Mở video YouTube đầu tiên",
+      "description": "Chọn bố cục hai vùng. Ở khu vực phía trên, chạm vào + → Web/Stream và mở URL trang xem YouTube đầu tiên dưới dạng Trang web. Bắt đầu phát lại trong trang; khu vực phía dưới sẽ vẫn trống.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Video Big Buck Bunny phát ở trang web phía trên, với vùng màn hình trống bên dưới.",
+        "alt": "iPhone 17 Pro — Video Big Buck Bunny phát ở trang web phía trên, với vùng màn hình trống bên dưới.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Kiểm tra video được phát hiện",
+      "description": "Nhấn vào nút Trình phát mini bên cạnh địa chỉ web. Con số trên nút này là số lượng video được phát hiện. Kiểm tra xem tiêu đề, thời lượng và kích thước có khớp với video bạn muốn hay không trước khi chọn video được phát hiện; phát hiện một mình không đảm bảo phát lại.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Mục được phát hiện là 10:35 và 640×360 trong phiên này.",
+        "alt": "iPhone 17 Pro — Mục nhập được phát hiện là 10:35 và 640×360 trong phiên này.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Mở nó ở khu vực khác",
+      "description": "Nhấn vào mục phù hợp. Vùng trống sẽ tự động nhận video. Nếu không có mục nào trống, Chọn Vị trí phát lại sẽ hỏi nội dung hiện tại của khu vực nào cần thay thế.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Trang nguồn nằm phía trên trình phát video độc lập.",
+        "alt": "iPhone 17 Pro – Trang nguồn nằm phía trên trình phát video độc lập.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Phát một video khác trên trang web",
+      "description": "Giữ video được chuyển ở trình phát thấp hơn. Nhấn vào địa chỉ web của khu vực màn hình phía trên → Web/Stream và nhập URL xem YouTube thứ hai. Phát video trong trang. Trong ví dụ này, video Sintel phát ở khu vực màn hình phía trên trong khi video Big Buck Bunny tiếp tục phát bên dưới.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Các video Sintel và Big Buck Bunny đều đang phát ở các khu vực màn hình riêng biệt.",
+        "alt": "iPhone 17 Pro - Các video Sintel và Big Buck Bunny đều đang phát ở các khu vực màn hình riêng biệt.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Chi tiết hữu ích",
+    "featuresIntro": "Kiểm tra các chi tiết này khi bạn làm theo các bước.",
+    "features": [
+      {
+        "title": "Nguồn phải vẫn có thể phát được",
+        "description": "Địa chỉ phương tiện hết hạn, xác thực, bảo vệ nội dung và hành vi của máy chủ có thể ngăn việc phát lại. Quay lại trang nguồn và bắt đầu lại video trước khi thử lại. Tính năng này không cấp quyền truy cập vào nội dung bị hạn chế."
+      },
+      {
+        "title": "Giữ một nguồn âm thanh",
+        "description": "Tắt tiếng trang web hoặc trình phát độc lập nếu cả hai đều tạo ra âm thanh. Hai đầu phát độc lập; sử dụng các tệp cục bộ tương thích và Điểm đồng bộ hóa để so sánh chính xác."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Tại sao Mini Player lại trống?",
+        "answer": "Bắt đầu một video trên trang và kiểm tra lại. Một số trang web không hiển thị nguồn tương thích. Mục nhập được phát hiện cũng có thể là quảng cáo chứ không phải video bạn muốn."
+      },
+      {
+        "question": "Tại sao không mở hai trang web YouTube?",
+        "answer": "Ứng dụng cảnh báo về việc phát lại đồng thời ở nhiều vùng web trên iOS. Quy trình công việc này chuyển video đầu tiên thành một trình phát độc lập và chỉ để lại video thứ hai trong trang web. Nó vẫn phụ thuộc vào khả năng tương thích nguồn."
+      }
+    ],
+    "closingTitle": "Hãy thử điều này với phương tiện truyền thông của riêng bạn",
+    "closingDescription": "Mở Split Screen Player và làm theo các bước với tệp bạn muốn sử dụng."
+  },
+  "keywords": [
+    "YouTube",
+    "Phát đồng thời hai video"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

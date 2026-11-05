@@ -1,0 +1,172 @@
+---
+import type { LanguageLink } from "@/types/content";
+import { defaultLocale, localeMeta, type Locale } from "@/i18n/locales";
+import { getLanguagePickerCopy } from "@/i18n/languagePicker";
+import { FaCheck, FaChevronDown, FaSearch, FaTimes } from "react-icons/fa";
+
+interface Props {
+  languageLinks: LanguageLink[];
+  placement?: "header" | "footer";
+}
+
+const { languageLinks, placement = "header" } = Astro.props;
+const active = languageLinks.find(link => link.isActive) ?? languageLinks[0];
+const locale = (active?.locale ?? defaultLocale) as Locale;
+const copy = getLanguagePickerCopy(locale);
+const englishNames = new Intl.DisplayNames(["en"], { type: "language" });
+const translatedNames = new Intl.DisplayNames([localeMeta[locale].htmlLang], { type: "language" });
+const items = languageLinks.map(link => {
+  const meta = localeMeta[link.locale as Locale];
+  const nameCode = link.locale === "en-US" ? "en" : link.locale;
+  const englishName = englishNames.of(nameCode) ?? link.label;
+  const familyName = englishNames.of(nameCode.split("-")[0]) ?? englishName;
+  const translatedName = translatedNames.of(nameCode) ?? englishName;
+  const secondaryName = translatedName !== link.label ? translatedName : englishName !== link.label ? englishName : undefined;
+  return { ...link, meta, englishName, familyName, translatedName, secondaryName };
+}).sort((left, right) => left.familyName.localeCompare(right.familyName, "en") || left.englishName.localeCompare(right.englishName, "en"));
+const titleId = `language-picker-title-${placement}`;
+---
+
+<language-picker class:list={["language-picker", `language-picker--${placement}`]}>
+  <details name="mobile-header-menu">
+    <summary class="language-picker-trigger" aria-label={`${copy.title}: ${active?.label}`}>
+      <img class="language-flag" src={`/images/flags/${localeMeta[locale].flagCode}.svg`} alt="" width="24" height="18" />
+      <span class="language-trigger-label" dir="auto">{active?.label}</span>
+      <FaChevronDown className="language-trigger-chevron" aria-hidden="true" />
+    </summary>
+    <section class="language-picker-panel" aria-labelledby={titleId}>
+      <div class="language-picker-heading">
+        <div class="language-picker-title"><strong id={titleId}>{copy.title}</strong><output class="language-result-count" aria-live="polite" aria-atomic="true" dir="ltr">{items.length}</output></div>
+        <button class="language-icon-button language-picker-close" type="button" aria-label={copy.close} hidden><FaTimes aria-hidden="true" /></button>
+      </div>
+      <div class="language-search" hidden>
+        <FaSearch aria-hidden="true" />
+        <input type="search" aria-label={copy.search} placeholder={copy.search} autocomplete="off" spellcheck="false" dir="auto" />
+        <button class="language-icon-button language-search-clear" type="button" aria-label={copy.clear} hidden><FaTimes aria-hidden="true" /></button>
+      </div>
+      <div class="language-picker-scroll">
+        <ul class="language-picker-grid">
+          {items.map(link => (
+            <li data-language-option data-search={`${link.label} ${link.englishName} ${link.translatedName} ${link.locale} ${link.meta.languagePrefixes.join(" ")}`}>
+              <a href={link.href} hreflang={link.hrefLang} data-locale-choice={link.locale} aria-current={link.isActive ? "page" : undefined}>
+                <img class="language-flag" src={`/images/flags/${link.meta.flagCode}.svg`} alt="" width="24" height="18" loading="lazy" />
+                <span class="language-option-label"><span lang={link.meta.htmlLang} dir="auto">{link.label}</span>{link.secondaryName && <small dir="auto" lang={link.secondaryName === link.englishName ? "en" : undefined}>{link.secondaryName}</small>}</span>
+                {link.isActive && <FaCheck className="language-selected-check" aria-hidden="true" />}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p class="language-picker-empty" hidden>{copy.empty}</p>
+      </div>
+    </section>
+  </details>
+</language-picker>
+
+<script>
+  class LanguagePicker extends HTMLElement {
+    connectedCallback() {
+      const details = this.querySelector("details")!;
+      const trigger = this.querySelector<HTMLElement>("summary")!;
+      const search = this.querySelector<HTMLInputElement>("input")!;
+      const searchBar = this.querySelector<HTMLElement>(".language-search")!;
+      const clear = this.querySelector<HTMLButtonElement>(".language-search-clear")!;
+      const count = this.querySelector<HTMLOutputElement>("output")!;
+      const empty = this.querySelector<HTMLElement>(".language-picker-empty")!;
+      const options = Array.from(this.querySelectorAll<HTMLElement>("[data-language-option]"));
+      const normalize = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[-_]/g, " ");
+      const index = options.map(option => normalize(option.dataset.search ?? ""));
+      const filter = () => {
+        const words = normalize(search.value).trim().split(/\s+/).filter(Boolean);
+        let visible = 0;
+        options.forEach((option, position) => {
+          option.hidden = !words.every(word => index[position].includes(word));
+          if (!option.hidden) visible++;
+        });
+        count.textContent = words.length ? `${visible} / ${options.length}` : `${options.length}`;
+        empty.hidden = visible > 0;
+        clear.hidden = search.value.length === 0;
+      };
+      const close = (restoreFocus = false) => {
+        details.open = false;
+        if (restoreFocus) trigger.focus();
+      };
+      searchBar.hidden = false;
+      search.addEventListener("input", filter);
+      clear.addEventListener("click", () => { search.value = ""; filter(); search.focus(); });
+      const closeButton = this.querySelector<HTMLButtonElement>(".language-picker-close")!;
+      closeButton.hidden = false;
+      closeButton.addEventListener("click", () => close(true));
+      details.addEventListener("toggle", () => {
+        if (details.open) {
+          search.value = "";
+          filter();
+          this.querySelector(".language-picker-scroll")!.scrollTop = 0;
+          if (window.matchMedia("(min-width: 681px) and (pointer: fine)").matches) search.focus({ preventScroll: true });
+        }
+      });
+      document.addEventListener("pointerdown", event => {
+        if (details.open && event.target instanceof Node && !this.contains(event.target)) close();
+      });
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && details.open) { event.preventDefault(); close(true); }
+      });
+      this.addEventListener("focusout", event => {
+        if (event.relatedTarget instanceof Node && !this.contains(event.relatedTarget)) close();
+      });
+    }
+  }
+  if (!customElements.get("language-picker")) customElements.define("language-picker", LanguagePicker);
+</script>
+
+<style>
+  .language-picker { display: block; font-family: var(--body); letter-spacing: normal; text-transform: none; }
+  .language-picker-trigger { display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 0 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--paper-strong); font-size: .86rem; font-weight: 750; list-style: none; cursor: pointer; }
+  .language-picker-trigger::-webkit-details-marker { display: none; }
+  .language-trigger-chevron { width: 9px; height: 9px; color: var(--ink-soft); }
+  details[open] .language-trigger-chevron { transform: rotate(180deg); }
+  .language-flag { flex: none; width: 24px; height: 18px; object-fit: cover; border-radius: 3px; box-shadow: 0 0 0 1px rgba(23,25,22,.12); }
+  .language-picker-panel { position: absolute; inset-block-start: calc(100% + 10px); inset-inline-end: 10px; z-index: 60; display: flex; flex-direction: column; width: min(700px, calc(100vw - 48px)); max-height: min(76dvh, 650px); padding: 18px; overflow: hidden; border: 1.5px solid var(--line); border-radius: 22px; background: var(--paper-strong); box-shadow: 0 18px 60px rgba(23,25,22,.18); text-align: start; }
+  .language-picker-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-block-end: 10px; flex: none; }
+  .language-picker-title { display: flex; align-items: center; gap: 10px; font-size: 1.12rem; line-height: 1.4; }
+  .language-result-count { display: inline-block; flex: none; padding: 4px 8px; border-radius: 8px; background: var(--blue-soft); font-size: .72rem; font-weight: 750; }
+  .language-icon-button { display: inline-flex; justify-content: center; align-items: center; width: 40px; height: 40px; flex: none; border: 0; border-radius: 10px; background: transparent; color: var(--ink-soft); cursor: pointer; }
+  .language-icon-button svg { width: 14px; height: 14px; }
+  .language-icon-button:hover { background: var(--blue-soft); color: var(--ink); }
+  .language-search { display: flex; align-items: center; gap: 10px; flex: none; min-height: 46px; padding-inline: 13px 4px; margin-block-end: 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+  .language-search > svg { width: 14px; height: 14px; flex: none; color: var(--ink-soft); }
+  .language-search input { width: 100%; min-width: 0; border: 0; outline: 0; padding: 10px 0; background: transparent; color: var(--ink); font: inherit; font-size: 16px; text-align: start; }
+  .language-search input::-webkit-search-cancel-button { -webkit-appearance: none; }
+  .language-search:focus-within { outline: 2px solid var(--blue); outline-offset: 2px; }
+  .language-picker-scroll { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; padding: 3px; }
+  .language-picker-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 6px; margin: 0; padding: 0; list-style: none; }
+  .language-picker-grid a { display: flex; align-items: center; gap: 10px; min-height: 66px; height: 100%; padding: 10px; border: 1px solid transparent; border-radius: 12px; color: var(--ink); text-decoration: none; transition: background 150ms ease; }
+  .language-picker-grid a:hover { background: rgba(23,25,22,.045); }
+  .language-picker-grid a[aria-current="page"] { border-color: var(--blue); background: var(--blue-soft); }
+  .language-option-label { display: grid; gap: 3px; flex: 1; min-width: 0; font-size: .86rem; font-weight: 700; line-height: 1.35; overflow-wrap: anywhere; }
+  .language-option-label small { font-size: .7rem; font-weight: 450; color: var(--ink-soft); }
+  .language-selected-check { flex: none; width: 11px; height: 11px; }
+  .language-picker-empty { margin: 0; padding: 30px 10px; text-align: center; color: var(--ink-soft); font-size: .9rem; }
+  .language-picker [hidden] { display: none !important; }
+  .language-picker :is(a, button, summary):focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+  .language-picker--footer { position: relative; align-self: end; width: fit-content; margin-inline-start: auto; }
+  .language-picker--footer .language-picker-panel { inset-block-start: auto; inset-block-end: calc(100% + 10px); inset-inline-end: 0; }
+  @media (max-width: 1120px) {
+    .language-picker--header .language-trigger-label, .language-picker--header .language-trigger-chevron { display: none; }
+    .language-picker--header .language-picker-trigger { width: 46px; padding: 0; }
+  }
+  @media (max-width: 680px) {
+    .language-picker--header .language-picker-trigger { width: 42px; min-height: 42px; }
+    .language-picker-panel { width: calc(100vw - 48px); max-height: min(72dvh, 620px); padding: 12px; border-radius: 18px; inset-inline-end: 7px; }
+    .language-picker-title { font-size: 1rem; gap: 8px; }
+    .language-picker-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 4px; }
+    .language-picker-grid a { gap: 8px; padding: 8px; min-height: 64px; }
+    .language-picker-grid .language-flag { width: 22px; height: 16.5px; }
+    .language-option-label { font-size: .8rem; }
+    .language-option-label small { font-size: .66rem; }
+    .language-selected-check { width: 9px; height: 9px; }
+    .language-picker--footer .language-picker-panel { width: calc(100vw - 48px); }
+  }
+  @media (max-width: 360px) {
+    .language-picker-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>

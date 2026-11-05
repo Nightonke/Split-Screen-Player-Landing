@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Přehrávání více videí · iPhone a iPad",
+  "title": "Jak přehrávat více videí najednou na zařízení iPhone nebo iPad",
+  "seoTitle": "Jak přehrávat více videí najednou na zařízení iPhone nebo iPad",
+  "metaDescription": "Sledujte dvě videa vedle sebe, naskládejte tři videa nebo přehrajte čtyři v mřížce na iPhone a iPad. Vyberte rozvržení, přidejte místní klipy, ovládejte zvuk a uložte nastavení.",
+  "summary": "Porovnejte dva videoklipy bez přepínání mezi aplikacemi přehrávače médií, uspořádejte tři videa do svislých řad nebo sledujte čtyři úhly kamery v mřížce a držte zařízení vodorovně. Split Screen Player udržuje každé video viditelné a samostatně přehrávatelné na iPhone a iPad.",
+  "answer": "Vyberte rozvržení rozdělené obrazovky, klepněte na + v každé prázdné oblasti a přidejte video z fotografií nebo souborů. Klipy se přehrávají v samostatných oblastech, aniž by je nejprve sloučily do jednoho souboru. Začněte se dvěma videy nebo postupujte podle příkladů se třemi řádky a čtyřmi videi níže.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tři videa naskládaná v samostatných řadách na iPhone v Split Screen Player",
+    "caption": "V rozložení na výšku zůstanou viditelná tři videa.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Od tří řad až po mřížku se čtyřmi videy",
+  "steps": [
+    {
+      "title": "Vyberte rozvržení se dvěma nebo třemi oblastmi",
+      "description": "Klepněte na ikonu čtyřčtvercového rozvržení na panelu nástrojů a otevřete Výchozí. U dvou videí zvolte rozvržení na sebe nebo vedle sebe v rámci 1–2 videí. U tří videí vyberte zvýrazněnou třířádkovou miniaturu pod Svisle, 1 sloupec celkem.",
+      "detail": "Každý obdélník představuje video region; tenký proužek ukazuje polohu panelu nástrojů. Pokud chcete konkrétní uspořádání, použijte filtry počtu a orientace ve spodní části.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Knihovna rozvržení zobrazuje několik uspořádání s naznačeným třířadým rozvržením",
+        "caption": "Vyberte dvě oblasti nebo nastíněné rozvržení pro tři naskládaná videa.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Přidejte video do každého regionu",
+      "description": "Klepněte na + v prázdné oblasti obrazovky. V nabídce Otevřít vyberte možnost Videa a vyberte klip z aplikace Fotky. Opakujte pro ostatní oblasti obrazovky. Pokud je vaše video uloženo v aplikaci Soubory, vyberte možnost Soubory v nabídce Otevřít.",
+      "detail": "Chcete-li klip nahradit, klepněte na jeho obrázek a poté na + v jeho ovládacích prvcích. Seznam stop můžete také použít k přehrávání několika klipů po sobě v rámci jedné oblasti.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Nabídka Otevřít iPhone nabízí Videa, Soubory, Obrázky a Seznam stop",
+        "caption": "Výběrem možnosti Videa otevřete video z aplikace Fotky; výběrem možnosti Soubory otevřete video uložené jinde.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Ovládejte každé video a vyberte si, co uslyšíte",
+      "description": "Klepnutím na video zobrazíte jeho ovládací prvky. Pomocí středového tlačítka jej přehrajte nebo pozastavte a přetáhněte jeho časovou osu do jiného okamžiku. Ostatní videa se mohou přehrávat nezávisle.",
+      "detail": "Pomocí tlačítek reproduktoru ztlumte klipy, které nechcete slyšet. Pomocí tlačítka rychlosti zpomalíte pohyb, který porovnáváte. Kdykoli se ovládací prvky skryjí, klepněte na obrázek znovu.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "První ze tří videí zobrazuje jeho reproduktor, rychlost, přehrávání a ovládání časové osy",
+        "caption": "Každé video má vlastní ovládání zvuku, rychlosti a přehrávání.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Přepněte na mřížku na šířku 2×2",
+      "description": "Znovu otevřete výběr rozvržení. Vyberte 4 v číselném filtru a Land.(R) pro orientaci, poté zvolte miniaturu po dvou ve skupině středové symetrie.",
+      "detail": "Malý proužek napravo od miniatury znamená, že panel nástrojů bude vpravo. Chcete-li zobrazit čtyři oblasti na šířku, držte zařízení vodorovně.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Výběr rozvržení iPhone je filtrován na čtyři videa a na šířku s panelem nástrojů vpravo",
+        "caption": "Vyberte čtyři oblasti pomocí panelu nástrojů vpravo.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Přidejte čtvrtý klip a uložte nastavení",
+      "description": "Vaše první tři klipy zůstanou na svém místě. Klepnutím na + v prázdné oblasti přidáte čtvrté video a dokončete mřížku.",
+      "detail": "Chcete-li se k této kombinaci vrátit později, klepněte na hvězdičku (Oblíbené) na panelu nástrojů. Otevřete seznam oblíbených vedle něj a obnovte uložená videa a rozvržení.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Čtyři videa v mřížce na šířku na iPhone s panelem nástrojů vpravo",
+        "caption": "Udržujte čtyři úhly kamery nebo referenční klipy pohromadě na jedné obrazovce.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Vytvořte rozdělenou obrazovku, která odpovídá tomu, co chcete sledovat",
+    "featuresIntro": "Začněte se dvěma klipy, pak přidejte více úhlů nebo udržujte lekci a její referenční materiál viditelné společně.",
+    "features": [
+      {
+        "title": "144 přednastavených rozložení s až 36 videi najednou",
+        "description": "Vyberte složené řádky, pohledy vedle sebe, mřížku se čtyřmi videy nebo hustší uspořádání. iPhone je vhodný pro rychlé prohlížení; iPad dává každému obrázku více prostoru. Plynulé přehrávání závisí na zařízení, kodeku a rozlišení, takže videa přidávejte postupně.",
+        "link": {
+          "label": "Prozkoumejte přehrávání více videí",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Upravte polohu a velikost každé oblasti",
+        "description": "Otevřete Vlastní ve výběru rozvržení a vytvořte si vlastní rozvržení. Posuňte oblasti, změňte velikost jejich rohů nebo rozdělte obrazovku pomocí čar. Dejte hlavní lekci více prostoru a ponechte si vedle ní menší odkaz."
+      },
+      {
+        "title": "Udržujte videa, obrázky, soubory PDF a webové stránky pohromadě",
+        "description": "Každá oblast může zobrazovat jiný druh obsahu, včetně videí, zvuku, obrázků, složek obrázků, souborů PDF a webových stránek. Můžete také otevřít odkazy na streamy HLS (M3U8) a RTSP."
+      },
+      {
+        "title": "Přehrávejte místní MP4, MOV, MKV a další",
+        "description": "Otevřete každodenní nahrávky ve MP4, MOV, M4V nebo 3GP. Vlastní přehrávač v aplikaci také podporuje kontejnery, jako jsou MKV, AVI, WebM, FLV, F4V, WMV a RMVB. Přehrávání závisí na kodeku uvnitř souboru."
+      },
+      {
+        "title": "Seřaďte stejný okamžik v různých nahrávkách",
+        "description": "Když nahrávání začíná v různých časech, nastavte synchronizační bod na stejnou akci v každém klipu a povolte zámek synchronizace. To pomáhá porovnat taneční pohyb, swing nebo stejnou událost z několika kamer.",
+        "link": {
+          "label": "Přečtěte si o synchronizačních bodech a synchronizačním zámku",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mohu na iPhone přehrávat dvě videa současně?",
+        "answer": "Ano. Vyberte rozvržení se dvěma oblastmi a do každé přidejte video. Oba obrázky zůstanou viditelné, se samostatnými ovládacími prvky přehrávání, průběhu a zvuku."
+      },
+      {
+        "question": "Funguje to i na iPad?",
+        "answer": "Ano. Split Screen Player podporuje iPhone i iPad. Větší obrazovka iPad je užitečná pro kontrolu úhlu kamery, srovnání pohybu a sledování lekce spolu s PDF."
+      },
+      {
+        "question": "Musím videa nejprve sloučit?",
+        "answer": "Ne. Přehrávání na rozdělené obrazovce udržuje klipy oddělené. Kdykoli můžete změnit rozvržení nebo pozastavit jedno video. Export videa na rozdělené obrazovce použijte, když chcete sdílet kombinované obrázky jako nový soubor videa."
+      },
+      {
+        "question": "Jak odstraním černé pruhy mezi videi?",
+        "answer": "V nastavení zobrazení videa vyberte režim Vyplnit, aby se celá plocha obrazovky vyplnila obrazem videa. Tento režim ořízne okraje obrazu, když má video a jeho oblast obrazovky různé tvary. Vyberte režim Přizpůsobit, když potřebujete vidět celý původní snímek videa."
+      },
+      {
+        "question": "Mohu tímto způsobem sledovat videa ze dvou streamovacích aplikací?",
+        "answer": "Tato příručka obsahuje videa, která otevřete v Split Screen Player. Do svých regionů neumisťuje dvě samostatné aplikace. Přehrávání webového videa závisí na každé webové stránce a jejích omezeních přehrávání."
+      },
+      {
+        "question": "Je Split Screen Player zdarma?",
+        "answer": "Aplikace je zdarma ke stažení se základním přehráváním videa a bezplatnými rozvrženími. Rozvržení označená jako VIP, použití vlastního rozvržení, záložky a další pokročilé funkce vyžadují členství."
+      }
+    ],
+    "closingTitle": "Udržujte videa, která chcete sledovat, na jedné obrazovce",
+    "closingDescription": "Vyzkoušejte dva klipy na svém iPhone nebo iPad a poté prozkoumejte tři naskládané řádky nebo mřížku se čtyřmi videy. Na Google Play je k dispozici také verze Android."
+  },
+  "keywords": [
+    "Přehrávání více videí",
+    "Rozdělená obrazovka"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

@@ -2,10 +2,7 @@ import { generatedTranslations } from "./generatedTranslations";
 import type { Locale } from "./locales";
 import { translationOverrides } from "./translationOverrides";
 
-export type ExtendedLocale = Exclude<
-	Locale,
-	"en-US" | "zh-Hans" | "zh-Hant"
->;
+export type ExtendedLocale = keyof typeof generatedTranslations;
 
 const structuralStringKeys = new Set([
 	"src",

@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Çoklu video oynatma · iPhone ve iPad",
+  "title": "iPhone'da veya iPad'de aynı anda birden fazla video nasıl oynatılır",
+  "seoTitle": "iPhone'da veya iPad'de aynı anda birden fazla video nasıl oynatılır",
+  "metaDescription": "iPhone ve iPad'de iki videoyu yan yana izleyin, üç videoyu üst üste koyun veya dört videoyu bir tablo halinde oynatın. Bir düzen seçin, yerel klipler ekleyin, sesi kontrol edin ve kurulumunuzu kaydedin.",
+  "summary": "Medya oynatıcı uygulamaları arasında geçiş yapmadan iki video klibi karşılaştırın, üç videoyu dikey sıralar halinde düzenleyin veya cihazı yatay tutarken dört kamera açısını bir ızgarada izleyin. Split Screen Player her videonun iPhone ve iPad görünür ve bağımsız olarak oynatılabilir olmasını sağlar.",
+  "answer": "Bölünmüş ekran düzenini seçin, her boş bölgede + simgesine dokunun ve Fotoğraflar veya Dosyalar'dan bir video ekleyin. Klipler, önce tek bir dosyada birleştirilmeden ayrı bölgelerde oynatılır. İki videoyla başlayın veya aşağıdaki üç satırlı ve dört videolu örnekleri izleyin.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Split Screen Player bir iPhone ayrı satırlarda yığılmış üç video",
+    "caption": "Portre düzeninde üç video görünür kalır.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Üç sıradan dört videolu ızgaraya",
+  "steps": [
+    {
+      "title": "İki veya üç bölgeli bir düzen seçin",
+      "description": "Araç çubuğundaki dört kare düzen simgesine dokunun ve Varsayılan'ı açın. İki video için 1–2 Video'nun altında yığın veya yan yana düzeni seçin. Üç video için Dikey, Toplam 1 Sütun altında vurgulanan üç satırlı küçük resmi seçin.",
+      "detail": "Her dikdörtgen bir video bölgesini temsil eder; ince şerit araç çubuğu konumunu gösterir. Belirli bir düzenleme istediğinizde alttaki sayı ve yön filtrelerini kullanın.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Düzen kitaplığı, özetlenen üç satırlı düzen ile çeşitli düzenlemeleri gösterir",
+        "caption": "Üç yığılmış video için iki bölgeyi veya özetlenen düzeni seçin.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Her bölgeye bir video ekleyin",
+      "description": "Boş bir ekran alanında + öğesine dokunun. Aç menüsünde Videolar'ı seçin ve Fotoğraflar uygulamasından bir klip seçin. Diğer ekran alanları için aynı işlemi tekrarlayın. Videonuz Dosyalar uygulamasında saklanıyorsa Aç menüsünde Dosyalar seçeneğini seçin.",
+      "detail": "Bir klibi değiştirmek için resmine ve ardından kontrollerdeki + öğesine dokunun. Tek bir bölgede birkaç klibi birbiri ardına oynatmak için Oynatma Listesini de kullanabilirsiniz.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "iPhone Açık menüsü Videolar, Dosyalar, Görüntüler ve Oynatma Listesi sunar",
+        "caption": "Fotoğraflar uygulamasından bir video açmak için Videolar seçeneğini seçin; Başka bir yere kaydedilmiş bir videoyu açmak için Dosyalar seçeneğini seçin.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Her videoyu kontrol edin ve ne duyacağınızı seçin",
+      "description": "Kontrollerini ortaya çıkarmak için bir videoya dokunun. Oynatmak veya duraklatmak için ortadaki düğmeyi kullanın ve zaman çizelgesini başka bir ana sürükleyin. Diğer videolar bağımsız olarak oynatılmaya devam edebilir.",
+      "detail": "Duymak istemediğiniz kliplerin sesini hoparlör düğmeleriyle kapatın. Karşılaştırdığınız hareketi yavaşlatmak için hız düğmesini kullanın. Kontroller gizlendiğinde resme tekrar dokunun.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Üç videodan ilki hoparlörü, hızı, oynatmayı ve zaman çizelgesi kontrollerini gösterir",
+        "caption": "Her videonun kendi sesi, hızı ve oynatma kontrolleri vardır.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Yatay 2×2 ızgaraya geçiş yapın",
+      "description": "Düzen seçiciyi tekrar açın. Sayı filtresinde 4 ve yön için Land.(R)'yi seçin, ardından merkez simetri grubunda ikiye iki küçük resmi seçin.",
+      "detail": "Küçük resmin sağındaki küçük şerit, araç çubuğunun sağda olacağı anlamına gelir. Dört bölgeyi yatay olarak görüntülemek için cihazınızı yatay tutun.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "iPhone düzen seçici, sağdaki araç çubuğuyla dört videoya ve manzaraya göre filtrelenir",
+        "caption": "Sağdaki araç çubuğuyla dört bölgeyi seçin.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Dördüncü klibi ekleyin ve kurulumunuzu kaydedin",
+      "description": "İlk üç klibiniz yerinde kalır. Dördüncü bir video eklemek ve tabloyu tamamlamak için boş bölgedeki + simgesine dokunun.",
+      "detail": "Bu kombinasyona daha sonra geri dönmek için araç çubuğundaki yıldıza (Favori) dokunun. Kaydedilen videoları ve düzeni geri yüklemek için yanındaki Favoriler Listesi'ni açın.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Araç çubuğunun sağda olduğu iPhone yatay bir ızgarada dört video",
+        "caption": "Dört kamera açısını veya referans klibini tek bir ekranda bir arada tutun.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "İzlemek istediğiniz şeye uygun bölünmüş ekranı oluşturun",
+    "featuresIntro": "İki kliple başlayın, ardından daha fazla açı ekleyin veya dersi ve referans materyalini birlikte görünür tutun.",
+    "features": [
+      {
+        "title": "Aynı anda 36 kadar video içeren 144 önceden ayarlanmış düzen",
+        "description": "Yığılmış satırları, yan yana görünümleri, dört videolu ızgarayı veya daha yoğun bir düzenlemeyi seçin. iPhone hızlı görüntüleme için uygundur; iPad her resme daha fazla alan sağlıyor. Sorunsuz oynatma cihaza, codec bileşenine ve çözünürlüğe bağlıdır; bu nedenle videoları yavaş yavaş ekleyin.",
+        "link": {
+          "label": "Çoklu video oynatmayı keşfedin",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Her bölgenin konumunu ve boyutunu ayarlayın",
+        "description": "Kendi düzeninizi oluşturmak için düzen seçicide Özel'i açın. Bölgeleri taşıyın, köşelerini yeniden boyutlandırın veya ekranı çizgilerle bölün. Ana derse daha fazla yer verin ve yanında daha küçük bir referans bulundurun."
+      },
+      {
+        "title": "Videoları, resimleri, PDF ve web sayfalarını bir arada tutun",
+        "description": "Her bölge videolar, ses dosyaları, resimler, resim klasörleri, PDF ve web sayfaları dahil olmak üzere farklı türde içerik gösterebilir. Ayrıca HLS (M3U8) ve RTSP akış bağlantılarını da açabilirsiniz."
+      },
+      {
+        "title": "Yerel MP4, MOV, MKV ve daha fazlasını oynatın",
+        "description": "Günlük kayıtları MP4, MOV, M4V veya 3GP olarak açın. Uygulama içi özel oynatıcı aynı zamanda MKV, AVI, WebM, FLV, F4V, WMV ve RMVB gibi kapsayıcıları da destekler. Oynatma, dosyanın içindeki codec bileşenine bağlıdır."
+      },
+      {
+        "title": "Aynı anı farklı kayıtlarda sıralama",
+        "description": "Kayıtlar farklı zamanlarda başladığında, her klipte aynı eylem için bir Senkronizasyon Noktası ayarlayın ve Senkronizasyon Kilidini etkinleştirin. Bu, bir dans hareketini, bir salınımı veya aynı olayı birkaç kameradan karşılaştırmaya yardımcı olur.",
+        "link": {
+          "label": "Senkronizasyon Noktaları ve Senkronizasyon Kilidi hakkında bilgi edinin",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "iPhone aynı anda iki videoyu oynatabilir miyim?",
+        "answer": "Evet. İki bölgeye sahip bir düzen seçin ve her birine bir video ekleyin. Her iki resim de ayrı oynatma, ilerleme ve ses kontrolleriyle görünür durumda kalır."
+      },
+      {
+        "question": "Bu iPad de çalışıyor mu?",
+        "answer": "Evet. Split Screen Player hem iPhone hem de iPad destekler. Daha büyük bir iPad ekranı, kamera açısını incelemek, hareket karşılaştırması yapmak ve bir PDF yanında bir dersi izlemek için kullanışlıdır."
+      },
+      {
+        "question": "Önce videoları birleştirmem gerekiyor mu?",
+        "answer": "Hayır. Bölünmüş ekran oynatma, klipleri ayrı tutar. İstediğiniz zaman düzeni değiştirebilir veya bir videoyu duraklatabilirsiniz. Birleştirilen resimleri yeni bir video dosyası olarak paylaşmak istediğinizde bölünmüş ekran video dışa aktarma özelliğini kullanın."
+      },
+      {
+        "question": "Videolar arasındaki siyah çubukları nasıl kaldırabilirim?",
+        "answer": "Video görüntüleme ayarlarında, tüm ekran alanını video görüntüsüyle doldurmak için Doldurma modunu seçin. Bu mod, video ve ekran alanı farklı şekillere sahip olduğunda görüntünün kenarlarını kırpar. Orijinal video karesinin tamamını görmeniz gerektiğinde Sığdır modunu seçin."
+      },
+      {
+        "question": "Bu şekilde iki akış uygulamasından video izleyebilir miyim?",
+        "answer": "Bu kılavuz Split Screen Player açtığınız videoları kapsar. Bölgelerinin içine iki ayrı uygulama yerleştirmez. Web videosunun oynatılması her web sitesine ve oynatma kısıtlamalarına bağlıdır."
+      },
+      {
+        "question": "Split Screen Player ücretsiz mi?",
+        "answer": "Temel video oynatma ve ücretsiz düzenlerle uygulamayı indirmek ücretsizdir. VIP olarak işaretlenen düzenler, özel düzen kullanımı, yer imleri ve diğer gelişmiş özellikler üyelik gerektirir."
+      }
+    ],
+    "closingTitle": "İzlemek istediğiniz videoları tek ekranda tutun",
+    "closingDescription": "iPhone veya iPad iki klibi deneyin, ardından üst üste üç satırı veya dört videolu bir ızgarayı keşfedin. Google Play Android sürümü de mevcuttur."
+  },
+  "keywords": [
+    "Çoklu video oynatma",
+    "Bölünmüş ekran"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

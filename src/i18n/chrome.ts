@@ -1,3 +1,4 @@
+import { extendCoreContent } from "./coreTranslation";
 import type { Locale } from "./locales";
 
 export interface PageChromeCopy {
@@ -19,7 +20,7 @@ export interface PageChromeCopy {
 	bottomButtons: string;
 }
 
-export const pageChrome: Record<Locale, PageChromeCopy> = {
+const existingPageChrome: Record<string, PageChromeCopy> = {
 	"en-US": {
 		skipToContent: "Skip to content",
 		breadcrumbLabel: "Breadcrumb",
@@ -183,3 +184,18 @@ export const pageChrome: Record<Locale, PageChromeCopy> = {
 		bottomButtons: "Botões inferiores",
 	},
 };
+
+const suggestions: Record<string, [string, string]> = {
+  "en-US": ["Read this page in your preferred language.", "Dismiss language suggestion"],
+  "zh-Hans": ["使用你偏好的语言阅读此页面。", "关闭语言建议"],
+  "zh-Hant": ["使用你偏好的語言閱讀此頁面。", "關閉語言建議"],
+  ja: ["ご希望の言語でこのページを読む。", "言語の提案を閉じる"],
+  ko: ["원하는 언어로 이 페이지를 읽어보세요.", "언어 제안 닫기"],
+  fr: ["Consultez cette page dans votre langue préférée.", "Fermer la suggestion de langue"],
+  de: ["Lies diese Seite in deiner bevorzugten Sprache.", "Sprachvorschlag schließen"],
+  es: ["Lee esta página en tu idioma preferido.", "Cerrar sugerencia de idioma"],
+  "pt-BR": ["Leia esta página no seu idioma preferido.", "Fechar sugestão de idioma"],
+};
+export const pageChrome = extendCoreContent(Object.fromEntries(Object.entries(existingPageChrome).map(([locale, copy]) => [locale, {
+  ...copy, languageSuggestion: suggestions[locale][0], dismissLanguageSuggestion: suggestions[locale][1],
+}])));

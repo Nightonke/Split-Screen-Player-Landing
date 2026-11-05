@@ -1,3 +1,4 @@
+import { extendCoreContent } from "./coreTranslation";
 import platformCopy from "./platformCopy.json";
 import type {
 	FAQ,
@@ -712,7 +713,7 @@ App 和網站按現狀提供。功能可能會變化，播放、匯出、串流�
 如有條款相關問題，請使用分屏播放器 App Store 產品頁中列出的支援管道。`,
 };
 
-const coreLandingContent = {
+const coreLandingContent: Record<"en-US" | "zh-Hans" | "zh-Hant", LocalizedLandingContent> = {
 	"en-US": {
 		locale: "en-US",
 		htmlLang: "en",
@@ -948,7 +949,7 @@ const createExtendedLanding = (
 	};
 };
 
-export const landingContent: Record<Locale, LocalizedLandingContent> = {
+const existingLandingContent: Record<string, LocalizedLandingContent> = {
 	...coreLandingContent,
 	ja: createExtendedLanding("ja"),
 	ko: createExtendedLanding("ko"),
@@ -960,7 +961,7 @@ export const landingContent: Record<Locale, LocalizedLandingContent> = {
 
 // Apply platform facts after translation so every language describes both apps.
 for (const [locale, copy] of Object.entries(platformCopy)) {
-  const page = landingContent[locale as Locale];
+  const page = existingLandingContent[locale as Locale];
   page.seoTitle = copy.seoTitle;
   page.description = copy.description;
   page.metaDescription = copy.description;
@@ -975,7 +976,7 @@ for (const [locale, copy] of Object.entries(platformCopy)) {
 
 // Keep store and platform references current in the existing legal pages.
 for (const [locale, copy] of Object.entries(platformCopy)) {
-  const page = landingContent[locale as Locale];
+  const page = existingLandingContent[locale as Locale];
   for (const key of ['privacy', 'terms'] as const) {
     page.legal[key] = page.legal[key].split('\n\n').map(paragraph => {
       if (key === 'terms' && paragraph.includes('Apple') && paragraph.includes('App Store') && !paragraph.includes('Split Screen Player')) return copy.paid;
@@ -983,3 +984,5 @@ for (const [locale, copy] of Object.entries(platformCopy)) {
     }).join('\n\n').replace('\n\n##', `\n\n${copy.streams}\n\n##`);
   }
 }
+
+export const landingContent = extendCoreContent(existingLandingContent, (value, locale) => ({ ...value, locale, htmlLang: localeMeta[locale].htmlLang }));

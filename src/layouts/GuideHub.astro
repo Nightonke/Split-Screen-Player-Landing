@@ -1,7 +1,8 @@
 ---
 import { landingContent } from "@/i18n/content";
 import { pageChrome } from "@/i18n/chrome";
-import { guideContent } from "@/i18n/guides";
+import { getGuideHub, getGuideEntry } from "@/i18n/guideHub";
+import { featureSlugs, marketingContent } from "@/i18n/marketing";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import type { LanguageLink } from "@/types/content";
 import { getGuides } from "@/i18n/guideCatalog";
@@ -17,9 +18,12 @@ interface Props {
 
 const { locale, languageLinks } = Astro.props;
 const content = landingContent[locale];
-const guides = guideContent[locale];
+const guides = getGuideHub(locale);
 const navigation = getGuideNavigation(locale);
 const pages = getGuides(locale);
+const entry = pages.length ? undefined : getGuideEntry(locale);
+const englishLibrary = pages.length > 0 && pages.length < getGuides("en-US").length ? getGuideEntry(locale) : undefined;
+const marketing = marketingContent[locale];
 const chrome = pageChrome[locale];
 const homeHref = localizedPath(locale);
 const guidesHref = localizedPath(locale, "guides");
@@ -30,7 +34,7 @@ const structuredData = [
 		"@context": "https://schema.org",
 		"@type": "CollectionPage",
 		name: navigation.title,
-		description: navigation.description,
+		description: entry?.description ?? navigation.description,
 		url: new URL(guidesHref, siteURL).href,
 		inLanguage: content.htmlLang,
 		isPartOf: {
@@ -42,19 +46,22 @@ const structuredData = [
 	{
 		"@context": "https://schema.org",
 		"@type": "ItemList",
-		itemListElement: pages.map((guide, index) => ({
+		itemListElement: pages.length ? pages.map((guide, index) => ({
 			"@type": "ListItem",
 			position: index + 1,
 			name: guide.title,
 			url: new URL(localizedPath(locale, `guides/${guide.slug}`), siteURL).href,
-		})),
+		})) : featureSlugs.map((slug, index) => ({
+      "@type": "ListItem", position: index + 1, name: marketing.details.features[slug].title,
+      url: new URL(localizedPath(locale, `features/${slug}`), siteURL).href,
+    })),
 	},
 ];
 ---
 
 <Layout
 	title={navigation.title}
-	description={navigation.description}
+	description={entry?.description ?? navigation.description}
 	lang={content.htmlLang}
 	alternates={languageLinks}
 	appData={content}
@@ -75,12 +82,23 @@ const structuredData = [
 			<section class="guide-hub-hero">
 				<p class="eyebrow">{guides.hub.eyebrow}</p>
 				<h1 class="display-title">{navigation.title}</h1>
-				<p class="detail-intro">{navigation.description}</p>
+				<p class="detail-intro">{entry?.description ?? navigation.description}</p>
 			</section>
 
+			{entry && <section class="guide-entry">
+				<a class="button button-dark" href="/guides/" hreflang="en">{entry.englishGuides} <span lang="en" dir="ltr">(English)</span></a>
+				<h2 class="section-title">{entry.features}</h2>
+				<div class="guide-grid">
+					{featureSlugs.map(slug => <a class="guide-card" href={localizedPath(locale, `features/${slug}`)}>
+						<h3>{marketing.details.features[slug].title}</h3>
+						<p>{marketing.details.features[slug].intro}</p>
+					</a>)}
+				</div>
+			</section>}
+			{pages.length > 0 && <>
 			<div class="guide-filters" role="search" aria-label={navigation.label}>
 				<label class="guide-filter-search">{navigation.search}<input type="search" data-guide-search autocomplete="off" /></label>
-				<GuideFilter name="platform" label={navigation.platform} options={[{ value: "all", label: navigation.allPlatforms }, { value: "ios", label: "iPhone / iPad" }, { value: "android", label: "Android" }]} />
+				<GuideFilter name="platform" label={navigation.platformLabel} options={[{ value: "all", label: navigation.allPlatforms }, { value: "ios", label: "iPhone / iPad" }, { value: "android", label: "Android" }]} />
 				<GuideFilter name="topic" label={navigation.topic} options={[{ value: "all", label: navigation.allTopics }, ...navigation.topics.map(topic => ({ value: topic.id, label: topic.label }))]} />
 			</div>
 			<p class="guide-count" aria-live="polite" data-guide-count data-template={navigation.count}>{navigation.count.replace("{count}", String(pages.length))}</p>
@@ -109,6 +127,8 @@ const structuredData = [
 					);
 				})}
 			</section>
+			{englishLibrary && <p class="guide-library-link"><a class="text-link" href="/guides/" hreflang="en">{englishLibrary.englishGuides} <span lang="en" dir="ltr">(English)</span></a></p>}
+			</>}
 		</div>
 
 		<section class="section closing">
@@ -148,6 +168,8 @@ const structuredData = [
 </script>
 
 <style>
+  .guide-entry { margin-top: 32px; }
+  .guide-entry > h2 { margin-top: 64px; }
   .guide-filters { display: grid; grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 32px; }
   .guide-filter-search { display: grid; grid-template-rows: auto 1fr; gap: 8px; min-width: 0; color: var(--ink-soft); font-size: .875rem; font-weight: 600; }
   .guide-filters input { width: 100%; min-width: 0; min-height: 52px; padding: 12px 16px; border: 1.5px solid var(--line-strong); border-radius: var(--radius-sm); color: var(--ink); background: var(--paper-strong); font: inherit; font-size: .9375rem; line-height: 1.4; }

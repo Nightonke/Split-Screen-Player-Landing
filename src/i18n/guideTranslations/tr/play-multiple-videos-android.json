@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Android telefon veya tablette aynı anda birden fazla video nasıl oynatılır",
+  "seoTitle": "Android telefon veya tablette aynı anda birden fazla video nasıl oynatılır",
+  "metaDescription": "Android telefon veya tabletinizde iki, üç veya dört videoyu aynı anda izleyin. Yığılmış satırları veya 2×2 ızgarayı seçin, yerel klipler ekleyin, sesi kontrol edin ve kurulumunuzu kaydedin.",
+  "summary": "Medya oynatıcı uygulamaları arasında geçiş yapmadan iki video klibi karşılaştırın, üç videoyu dikey sıralar halinde düzenleyin veya cihazı yatay tutarken dört kamera açısını bir ızgarada izleyin. Split Screen Player her videonun bir Android telefon veya tablette görünmesini sağlar.",
+  "answer": "Bölünmüş ekran düzenini seçin, her bölgede + simgesine dokunun ve galerinizden veya dosyalarınızdan bir video ekleyin. Her klibin ayrı oynatma ve ses kontrolleri vardır. İki videoyla başlayabilir ve ihtiyacınız olduğunda daha fazlasını ekleyebilirsiniz.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Yığılmış portre düzeninde oynatılan üç video.",
+    "caption": "Yığılmış portre düzeninde oynatılan üç video.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Üç yığılmış sıradan dört videolu ızgaraya",
+  "steps": [
+    {
+      "title": "İki veya üç video bölgesi seçin",
+      "description": "Araç çubuğundaki dört kare düzen simgesine dokunun. İlk grup, iki video için yığılmış ve yan yana düzenler sunar. Üç klip için dikey tek sütunlu grupta ana hatları çizilen üç satırlı küçük resmi seçin.",
+      "detail": "Her küçük resimdeki küçük şerit, araç çubuğunun nerede bulunduğunu gösterir. Seçenekleri daraltmak için alttaki sayı ve yön filtrelerini kullanın.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Diğer düzenlemeler arasında üç sıralı düzen ana hatlarıyla belirtilmiştir.",
+        "caption": "Üç sıralı düzen diğer düzenlemeler arasında özetlenmiştir.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Her bölgeye bir video ekleyin",
+      "description": "Boş bir bölgede + simgesine dokunun. Aç'ta Albüm videoları'nı seçin ve bir klip seçin. Diğer bölgeler için aynı işlemi tekrarlayın. Cihazın başka bir yerine kaydedilmiş bir video için Dosya'yı kullanın.",
+      "detail": "Bir klibi değiştirmek için resmine ve ardından kontrollerdeki + öğesine dokunun. Oynatma listesi, aynı bölgede birkaç klibin birbiri ardına oynatılmasına olanak tanır.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Video eklemek için Albüm videoları veya Dosya'yı seçin.",
+        "caption": "Video eklemek için Albüm videoları veya Dosya'yı seçin.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Oynatmayı kontrol edin ve ne duyacağınızı seçin",
+      "description": "Kontrollerini ortaya çıkarmak için bir videoya dokunun. Oynatmak veya duraklatmak için ortadaki düğmeyi kullanın ve zaman çizelgesini başka bir ana sürükleyin. Diğer klipler bağımsız olarak oynatılmaya devam edebilir.",
+      "detail": "Duymak istemediğiniz kliplerin sesini hoparlör düğmeleriyle kapatın. Karşılaştırdığınız hareketi yavaşlatmak için hız düğmesini kullanın.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Her videonun kendi sesi, hızı ve oynatma kontrolleri vardır.",
+        "caption": "Her videonun kendi sesi, hızı ve oynatma kontrolleri vardır.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Yatay 2×2 ızgaraya geçiş yapın",
+      "description": "Düzen seçiciyi açın, sayı filtresinde 4 seçin ve Yatay R'yi seçin. Merkez simetri grubunda ikiye iki küçük resmi seçin.",
+      "detail": "Küçük resmin sağındaki şerit araç çubuğunu temsil eder. Dört bölgeyi görüntülemek için cihazınızı yatay tutun.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Sağdaki araç çubuğuyla dört bölgeyi seçin.",
+        "caption": "Sağdaki araç çubuğuyla dört bölgeyi seçin.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Dördüncü klibi ekleyin ve kombinasyonu kaydedin",
+      "description": "İlk üç video, düzen değişikliğinden sonra kullanılabilir durumda kalır. Boş bölgede + simgesine dokunun ve dördüncü bir klip ekleyin.",
+      "detail": "Geçerli videoları ve düzeni kaydetmek için yıldıza, Yer İşaretine dokunun. Daha sonra bu kombinasyonu geri yüklemek için yanındaki Yer İmleri'ni açın.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Yatay bir ızgarada dört video birlikte oynatılır.",
+        "caption": "Dört video yatay bir ızgarada birlikte oynatılıyor.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "İzleme tarzınıza uygun bölünmüş ekranı oluşturun",
+    "featuresIntro": "Kendi kaydınızın yanında bir referans bulundurun, kamera açılarını inceleyin veya destekleyici materyalle birlikte bir ders izleyin.",
+    "features": [
+      {
+        "title": "Aynı anda 36 kadar video içeren 144 düzen",
+        "description": "Yığılmış satırları, yan yana görünümleri, dört videolu ızgarayı veya daha yoğun bir düzenlemeyi seçin. Tabletler her resme daha fazla alan sağlar. Sorunsuz oynatma cihaza, codec bileşenine ve çözünürlüğe bağlıdır; bu nedenle videoları yavaş yavaş ekleyin."
+      },
+      {
+        "title": "Ana resme daha fazla yer verin",
+        "description": "Kendi düzenlemenizi oluşturmak için düzen seçicide Özel'i açın. Ana videoyu ve referanslarını dengelemek için bölgeleri taşıyın, yeniden boyutlandırın ve ekranı çizgilerle bölün."
+      },
+      {
+        "title": "Videoları, görüntüleri, PDF ve web sayfalarını birleştirin",
+        "description": "Her bölgede farklı türde içerik bulunabilir: videolar, ses dosyaları, resim koleksiyonları, PDF veya web sayfaları. Ayrıca HLS (M3U8) ve RTSP akış bağlantılarını da açabilirsiniz."
+      },
+      {
+        "title": "Yerel MP4, MOV, MKV ve WebM dosyalarını açın",
+        "description": "Galerinizden kayıt ekleyin veya bir klasördeki dosyaları açın. Belirli bir dosyanın desteği, yalnızca dosya adı uzantısına değil, video ve ses codec bileşenlerine de bağlıdır."
+      },
+      {
+        "title": "Aynı anı karşılaştırın veya sonucu paylaşın",
+        "description": "Senkronizasyon Noktaları, farklı zamanlarda başlayan kayıtların hizalanmasına yardımcı olur. Birden fazla resmi tek bir video olarak paylaşmak istediğinizde, yerel kliplerinizle bölünmüş ekranlı video aktarımını kullanın."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sadece iki videoyla başlayabilir miyim?",
+        "answer": "Evet. İki bölgeli bir düzen seçin ve her bölgeye bir video ekleyin. Ayrı oynatma ve ses kontrolleriyle bunları üst üste veya yan yana tutabilirsiniz."
+      },
+      {
+        "question": "Tabletlerde çalışıyor mu?",
+        "answer": "Evet. Aynı uygulama telefonları ve tabletleri de destekler. Daha büyük bir ekran, çeşitli açıları incelemek veya bir videonun yanındaki referans materyali okumak için kullanışlıdır."
+      },
+      {
+        "question": "Önce videoları birleştirmem gerekiyor mu?",
+        "answer": "Hayır. Bölünmüş ekran oynatma, klipleri ayrı tutar. Bir çalma listesi, bir bölgedeki klipleri sırayla oynatır; bölünmüş ekran düzeni aynı anda farklı klipleri gösterir."
+      },
+      {
+        "question": "Siyah çubukları nasıl kaldırabilirim?",
+        "answer": "Video ölçeklendirme ayarlarında Doldur ve Kırp'ı seçin. Şekiller farklılık gösterdiğinde kenarları kırparak her bölgeyi doldurur. Orijinal çerçevenin tamamını görmek daha önemli olduğunda Fit'i kullanın."
+      },
+      {
+        "question": "İki ayrı akış uygulamasını görüntüleyebilir mi?",
+        "answer": "Bu kılavuz Split Screen Player açılan içeriği kapsar. Diğer uygulamaları yerleştirmez. Bir web sayfasından oynatma, o web sitesine ve kısıtlamalarına bağlıdır."
+      },
+      {
+        "question": "Uygulama ücretsiz mi?",
+        "answer": "Temel video oynatma ve ücretsiz düzenlerle uygulamayı indirmek ücretsizdir. VIP olarak işaretlenen düzenler, özel düzen kullanımı, yer imleri ve diğer gelişmiş özellikler üyelik gerektirir."
+      }
+    ],
+    "closingTitle": "İzlemek istediğiniz videoları tek ekranda tutun",
+    "closingDescription": "İki kliple başlayın, ardından üç sıralı satırı veya dört videolu ızgarayı deneyin. Cihazınıza uygun sürümü App Store veya Google Play indirin."
+  },
+  "keywords": [
+    "Çoklu video oynatma",
+    "Bölünmüş ekran"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

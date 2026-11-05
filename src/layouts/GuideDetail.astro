@@ -1,14 +1,15 @@
 ---
 import { landingContent } from "@/i18n/content";
+import { getGuideHub } from "@/i18n/guideHub";
 import { pageChrome } from "@/i18n/chrome";
-import { guideContent, guideSlugs, type GuideSlug, type GuidePage } from "@/i18n/guides";
+import { type GuidePage, type GuideSlug } from "@/i18n/guides";
 import { localizedPath, type Locale } from "@/i18n/locales";
 import { marketingContent } from "@/i18n/marketing";
 import type { LanguageLink } from "@/types/content";
 import { mediaAsset } from "@config/media";
 import PlatformDownloads from "../components/guides/PlatformDownloads.astro";
 import Layout from "./Layout.astro";
-import { getGuide } from "@/i18n/guideCatalog";
+import { getGuide, getGuides } from "@/i18n/guideCatalog";
 import GuideArticle from "../components/guides/GuideArticle.astro";
 
 interface Props {
@@ -19,7 +20,7 @@ interface Props {
 
 const { locale, slug, languageLinks } = Astro.props;
 const content = landingContent[locale];
-const guides = guideContent[locale];
+const guides = getGuideHub(locale);
 const marketing = marketingContent[locale];
 const chrome = pageChrome[locale];
 const guide = getGuide(locale, slug);
@@ -27,7 +28,7 @@ const homeHref = localizedPath(locale);
 const guidesHref = localizedPath(locale, "guides");
 const pageHref = localizedPath(locale, `guides/${slug}`);
 const siteURL = Astro.site ?? new URL("https://splitscreenplayer.com");
-const relatedGuides = guideSlugs.filter((item) => item !== slug).slice(0, 3);
+const relatedGuides = getGuides(locale).filter(page => page.slug !== slug).slice(0, 3);
 const feature = marketing.details.features[guide.relatedFeature];
 const showAppPreview = slug === "play-multiple-videos-iphone-ipad" && !guide.heroImage;
 const playChapter = marketing.chapters.find((chapter) => chapter.id === "play");
@@ -277,9 +278,9 @@ if (guide.article) {
 
 				<p class="section-kicker guide-more-label">{guides.labels.moreGuides}</p>
 				<div class="detail-related">
-					{relatedGuides.map((relatedSlug) => (
-						<a href={localizedPath(locale, `guides/${relatedSlug}`)}>
-							{guides.pages[relatedSlug].title}
+					{relatedGuides.map((related) => (
+						<a href={localizedPath(locale, `guides/${related.slug}`)}>
+							{related.title}
 						</a>
 					))}
 				</div>

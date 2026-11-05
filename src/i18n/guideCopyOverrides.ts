@@ -1,4 +1,4 @@
-import type { Locale } from "./locales";
+import type { GuideLocale as Locale } from "./locales";
 import type { GuideSlug } from "./guides";
 
 type GuideHeroCopy = {

@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "iPhone'da veya iPad'de aynı anda iki YouTube videosu nasıl izlenir",
+  "seoTitle": "iPhone'da veya iPad'de aynı anda iki YouTube videosu nasıl izlenir",
+  "metaDescription": "Uyumlu bir YouTube videosunu ayrı bir oynatıcıya taşıyın, ardından iPhone veya iPad'de iki video izlemek için başka bir YouTube sayfası açın.",
+  "summary": "Yukarıdaki web sayfasında ikinci bir video oynatılırken ilk YouTube videosunu bağımsız bir oynatıcıda tutun.",
+  "answer": "İlk YouTube sayfasını açın ve oynatmayı başlatın. Mini Oynatıcıya dokunun, eşleşen algılanan videoyu seçin ve boş bölgede açılmasını sağlayın. Ardından orijinal web bölgesinde ikinci YouTube URL'sini açın ve oynatın.",
+  "note": "Bu iş akışı Premium ve uyumlu bir algılanan kaynak gerektirir. iPhone 17 Pro simülatöründe Blender Big Buck Bunny ve Sintel ile yeniden üretildi. YouTube yayını, reklamları, oturum açma ve koruma diğer videoları etkileyebilir; her bağlantı için garanti değildir. Ekran görüntüleri bir iPhone 17 Pro simülatöründeki İngilizce arayüzü göstermektedir.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Sintel ve Big Buck Bunny videoları ayrı ekran alanlarında oynatılıyor.",
+    "alt": "iPhone 17 Pro — Sintel ve Big Buck Bunny videoları ayrı ekran alanlarında oynatılıyor.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "İlk YouTube videosunu açın",
+      "description": "İki bölgeli bir düzen seçin. Üst bölgede + → Web/Akış'a dokunun ve ilk YouTube izleme sayfası URL'sini Web Sayfası olarak açın. Sayfada oynatmayı başlatın; alt bölge boş kalmalıdır.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Big Buck Bunny videosu web sayfasının üst kısmında, altında boş bir ekran alanıyla oynatılıyor.",
+        "alt": "iPhone 17 Pro — Big Buck Bunny videosu web sayfasının üst kısmında, altında boş bir ekran alanıyla oynatılıyor.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Algılanan videoyu inceleyin",
+      "description": "Web adresinin yanındaki Mini Oynatıcı düğmesine dokunun. Bu düğmedeki sayı, algılanan videoların sayısıdır. Algılanan bir videoyu seçmeden önce başlığın, sürenin ve boyutların istediğiniz videoyla eşleşip eşleşmediğini kontrol edin; algılama tek başına oynatmayı garanti etmez.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Bu oturumda algılanan giriş 10:35 ve 640×360.",
+        "alt": "iPhone 17 Pro — Bu oturumda algılanan giriş 10:35 ve 640×360.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Başka bir bölgede aç",
+      "description": "Eşleşen öğeye dokunun. Boş bir bölge videoyu otomatik olarak alır. Hiçbiri boş değilse, Oynatma Konumunu Seç hangi bölgenin mevcut içeriğinin değiştirileceğini sorar.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Kaynak sayfa bağımsız video oynatıcının üzerinde kalır.",
+        "alt": "iPhone 17 Pro — Kaynak sayfa bağımsız video oynatıcının üzerinde kalır.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Web sayfasında farklı bir video oynatın",
+      "description": "Aktarılan videoyu alt oynatıcıda tutun. Üst ekran alanının web adresine → Web/Akış'a dokunun ve ikinci YouTube izleme URL'sini girin. Sayfadaki videoyu oynatın. Bu örnekte Sintel videosu ekranın üst alanında oynatılırken Big Buck Bunny videosu aşağıda oynatılmaya devam ediyor.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Sintel ve Big Buck Bunny videoları ayrı ekran alanlarında oynatılıyor.",
+        "alt": "iPhone 17 Pro — Sintel ve Big Buck Bunny videoları ayrı ekran alanlarında oynatılıyor.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Yararlı ayrıntılar",
+    "featuresIntro": "Adımları takip ederken bu ayrıntıları kontrol edin.",
+    "features": [
+      {
+        "title": "Kaynak oynatılabilir durumda kalmalıdır",
+        "description": "Süresi dolan medya adresleri, kimlik doğrulama, içerik koruması ve sunucu davranışı oynatmayı engelleyebilir. Kaynak sayfaya dönün ve yeniden denemeden önce videoyu yeniden başlatın. Bu özellik kısıtlı içeriğe erişim izni vermez."
+      },
+      {
+        "title": "Tek bir ses kaynağı bulundurun",
+        "description": "Her ikisi de ses çıkarıyorsa web sayfasını veya bağımsız oynatıcıyı kapatın. İki oynatma kafası bağımsızdır; Kesin karşılaştırma için uyumlu yerel dosyaları ve Senkronizasyon Noktasını kullanın."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mini Oynatıcı neden boş?",
+        "answer": "Sayfada bir video başlatın ve tekrar kontrol edin. Bazı siteler uyumlu bir kaynak göstermez. Tespit edilen bir giriş, istediğiniz video yerine bir reklam da olabilir."
+      },
+      {
+        "question": "Neden sadece iki YouTube web sayfası açmıyorsunuz?",
+        "answer": "Uygulama, iOS birden fazla web bölgesinde eşzamanlı oynatma konusunda uyarıda bulunur. Bu iş akışı, ilk videoyu bağımsız bir oynatıcıya taşır ve yalnızca ikinci videoyu web sayfasında bırakır. Hala kaynak uyumluluğuna bağlıdır."
+      }
+    ],
+    "closingTitle": "Bunu kendi medyanızla deneyin",
+    "closingDescription": "Split Screen Player açın ve kullanmak istediğiniz dosyalarla ilgili adımları izleyin."
+  },
+  "keywords": [
+    "YouTube",
+    "Çift oynatma"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

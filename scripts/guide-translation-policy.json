@@ -1,0 +1,4 @@
+{
+  "structuralKeys": ["slug", "platform", "topic", "relatedSlugs", "otherPlatformSlug", "relatedFeature", "relatedUseCase", "src", "path", "href", "credit", "highlight"],
+  "invariantTerms": ["iPhone 17 Pro", "Big Buck Bunny", "Sintel", "Blender", "MP4", "MOV", "M4V", "3GP", "MKV", "AVI", "WebM", "FLV", "F4V", "WMV", "RMVB"]
+}

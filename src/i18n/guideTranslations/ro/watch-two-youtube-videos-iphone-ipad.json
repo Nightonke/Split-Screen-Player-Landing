@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Cum să vizionezi două videoclipuri YouTube simultan pe iPhone sau iPad",
+  "seoTitle": "Cum să vizionezi două videoclipuri YouTube simultan pe iPhone sau iPad",
+  "metaDescription": "Mutați un videoclip YouTube compatibil într-un player separat, apoi deschideți o altă pagină YouTube pentru a viziona două videoclipuri pe iPhone sau iPad.",
+  "summary": "Păstrați primul videoclip YouTube într-un player independent în timp ce un al doilea videoclip este redat în pagina web de mai sus.",
+  "answer": "Deschide prima pagină YouTube și începe redarea. Atingeți Mini Player, alegeți videoclipul detectat care se potrivește și lăsați-l să se deschidă în regiunea goală. Apoi deschideți și redați a doua adresă URL YouTube din regiunea web originală.",
+  "note": "Acest flux de lucru necesită Premium și o sursă detectată compatibilă. A fost reprodus cu Big Buck Bunny de la Blender și Sintel în simulatorul iPhone 17 Pro. Livrarea YouTube, reclamele, autentificarea și protecția pot afecta alte videoclipuri; nu este o garanție pentru fiecare link. Capturile de ecran arată interfața în limba engleză pe un simulator iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Videoclipurile Sintel și Big Buck Bunny sunt redate ambele în zone separate ale ecranului.",
+    "alt": "iPhone 17 Pro — videoclipurile Sintel și Big Buck Bunny sunt redate ambele în zone separate ale ecranului.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Deschide primul videoclip YouTube",
+      "description": "Alegeți un aspect cu două regiuni. În regiunea superioară, atingeți + → Web/Stream și deschideți prima adresă URL a paginii de vizionare YouTube ca pagină web. Începeți redarea în pagină; regiunea inferioară ar trebui să rămână goală.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Videoclipul Big Buck Bunny este redat în pagina web de sus, cu o zonă de ecran goală dedesubt.",
+        "alt": "iPhone 17 Pro — Videoclipul Big Buck Bunny este redat în pagina web de sus, cu o zonă de ecran goală dedesubt.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Inspectați videoclipul detectat",
+      "description": "Atingeți butonul Mini Player de lângă adresa web. Numărul de pe acest buton este numărul de videoclipuri detectate. Verificați dacă titlul, durata și dimensiunile se potrivesc cu videoclipul dorit înainte de a selecta un videoclip detectat; Numai detectarea nu garantează redarea.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Intrarea detectată este 10:35 și 640×360 în această sesiune.",
+        "alt": "iPhone 17 Pro — Intrarea detectată este 10:35 și 640×360 în această sesiune.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Deschideți-l în altă regiune",
+      "description": "Atingeți elementul potrivit. O regiune goală primește videoclipul automat. Dacă niciunul nu este gol, Alegeți locația de redare vă întreabă conținutul actual al regiunii de înlocuit.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Pagina sursă rămâne deasupra playerului video independent.",
+        "alt": "iPhone 17 Pro — Pagina sursă rămâne deasupra playerului video independent.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Redați un alt videoclip pe pagina web",
+      "description": "Păstrați videoclipul transferat în playerul inferior. Atingeți adresa web a zonei de sus a ecranului → Web/Stream și introduceți a doua adresă URL de vizionare YouTube. Redați videoclipul din pagină. În acest exemplu, videoclipul Sintel este redat în zona de sus a ecranului, în timp ce videoclipul Big Buck Bunny continuă să fie redat mai jos.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Videoclipurile Sintel și Big Buck Bunny sunt redate ambele în zone separate ale ecranului.",
+        "alt": "iPhone 17 Pro — videoclipurile Sintel și Big Buck Bunny sunt redate ambele în zone separate ale ecranului.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Detalii utile",
+    "featuresIntro": "Verificați aceste detalii pe măsură ce urmați pașii.",
+    "features": [
+      {
+        "title": "Sursa trebuie să rămână redabilă",
+        "description": "Adresele media care expiră, autentificarea, protecția conținutului și comportamentul serverului pot împiedica redarea. Reveniți la pagina sursă și începeți din nou videoclipul înainte de a reîncerca. Această caracteristică nu acordă acces la conținut restricționat."
+      },
+      {
+        "title": "Păstrați o sursă audio",
+        "description": "Dezactivați sunetul paginii web sau al playerului independent dacă ambele produc sunet. Cele două capete de joc sunt independente; utilizați fișiere locale compatibile și punct de sincronizare pentru o comparație precisă."
+      }
+    ],
+    "faq": [
+      {
+        "question": "De ce Mini Player este gol?",
+        "answer": "Porniți un videoclip în pagină și verificați din nou. Unele site-uri nu expun o sursă compatibilă. O intrare detectată poate fi, de asemenea, o reclamă, mai degrabă decât videoclipul dorit."
+      },
+      {
+        "question": "De ce nu deschideți doar două pagini web YouTube?",
+        "answer": "Aplicația avertizează despre redarea simultană în mai multe regiuni web pe iOS. Acest flux de lucru mută primul videoclip într-un player independent și îl lasă doar pe al doilea într-o pagină web. Depinde încă de compatibilitatea sursei."
+      }
+    ],
+    "closingTitle": "Încercați acest lucru cu propriile dvs. media",
+    "closingDescription": "Deschideți Split Screen Player și urmați pașii cu fișierele pe care doriți să le utilizați."
+  },
+  "keywords": [
+    "YouTube",
+    "Redare dublă"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Multi-video afspelen · iPhone en iPad",
+  "title": "Hoe u meerdere video's tegelijk kunt afspelen op iPhone of iPad",
+  "seoTitle": "Hoe u meerdere video's tegelijk kunt afspelen op iPhone of iPad",
+  "metaDescription": "Bekijk twee video's naast elkaar, stapel drie video's of speel er vier in een raster af op iPhone en iPad. Kies een lay-out, voeg lokale clips toe, bedien het geluid en sla uw opstelling op.",
+  "summary": "Vergelijk twee videoclips zonder te schakelen tussen mediaspelerapplicaties, rangschik drie video's in verticale rijen of bekijk vier camerahoeken in een raster terwijl u het apparaat horizontaal houdt. Split Screen Player zorgt ervoor dat elke video zichtbaar en afzonderlijk afspeelbaar is op iPhone en iPad.",
+  "answer": "Kies een indeling voor een gesplitst scherm, tik op + in elk leeg gebied en voeg een video toe uit Foto's of Bestanden. De clips worden in afzonderlijke regio's afgespeeld zonder ze eerst in één bestand samen te voegen. Begin met twee video's, of volg de onderstaande voorbeelden met drie rijen en vier video's.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Drie video's gestapeld in afzonderlijke rijen op een iPhone in Split Screen Player",
+    "caption": "Drie video's blijven zichtbaar in een portretindeling.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Van drie rijen naar een raster met vier video's",
+  "steps": [
+    {
+      "title": "Kies een lay-out met twee of drie regio's",
+      "description": "Tik op het vierhoekige lay-outpictogram in de werkbalk en open Standaard. Voor twee video's kiest u een gestapelde of naast elkaar geplaatste indeling onder 1–2 video's. Voor drie video's kiest u de gemarkeerde miniatuur met drie rijen onder Verticaal, 1 kolom totaal.",
+      "detail": "Elke rechthoek vertegenwoordigt een videogebied; de dunne strook toont de positie van de werkbalk. Gebruik de nummer- en oriëntatiefilters onderaan wanneer u een bepaald arrangement wenst.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "De lay-outbibliotheek toont verschillende arrangementen met de drie-rijige lay-out omlijnd",
+        "caption": "Kies twee regio's of de geschetste lay-out voor drie gestapelde video's.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Voeg een video toe aan elke regio",
+      "description": "Tik op + in een leeg schermgebied. Selecteer Video's in het menu Openen en kies een fragment uit de Foto's-app. Herhaal dit voor de andere schermgebieden. Als uw video is opgeslagen in de app Bestanden, selecteert u de optie Bestanden in het menu Openen.",
+      "detail": "Om een ​​fragment te vervangen, tikt u op de afbeelding ervan en vervolgens op + in de bedieningselementen. U kunt Playlist ook gebruiken om binnen één regio meerdere clips achter elkaar af te spelen.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Het iPhone Open-menu biedt video's, bestanden, afbeeldingen en afspeellijsten",
+        "caption": "Selecteer de optie Video's om een ​​video te openen vanuit de Foto's-app; selecteer de optie Bestanden om een ​​video te openen die elders is opgeslagen.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Bedien elke video en kies wat je hoort",
+      "description": "Tik op een video om de bedieningselementen weer te geven. Gebruik de middelste knop om het af te spelen of te pauzeren en sleep de tijdlijn naar een ander moment. De andere video's kunnen onafhankelijk blijven spelen.",
+      "detail": "Demp de clips die u niet wilt horen met de luidsprekerknoppen. Gebruik de snelheidsknop om een ​​beweging die u vergelijkt te vertragen. Tik nogmaals op de afbeelding wanneer de bedieningselementen verbergen.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "De eerste van drie video's toont de bedieningselementen voor luidspreker, snelheid, afspelen en tijdlijn",
+        "caption": "Elke video heeft zijn eigen bedieningselementen voor geluid, snelheid en afspelen.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Schakel over naar een liggend 2×2 -raster",
+      "description": "Open de lay-outkiezer opnieuw. Selecteer 4 in het getalfilter en Land.(R) voor de oriëntatie, en kies vervolgens de miniatuur van twee bij twee in de middensymmetriegroep.",
+      "detail": "De kleine strook aan de rechterkant van de miniatuur betekent dat de werkbalk zich aan de rechterkant bevindt. Houd uw apparaat horizontaal om de vier gebieden in landschapsvorm te bekijken.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "De iPhone indelingskiezer is gefilterd op vier video's en liggend met de werkbalk aan de rechterkant",
+        "caption": "Kies vier regio's met de werkbalk aan de rechterkant.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Voeg de vierde clip toe en sla uw opstelling op",
+      "description": "Je eerste drie clips blijven op hun plaats. Tik op + in het lege gebied om een ​​vierde video toe te voegen en het raster te voltooien.",
+      "detail": "Om later naar deze combinatie terug te keren, tikt u op de ster (Favoriet) in de werkbalk. Open de Favorietenlijst ernaast om de opgeslagen video's en lay-out te herstellen.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Vier video's in een liggend raster op iPhone met de werkbalk aan de rechterkant",
+        "caption": "Houd vier camerahoeken of referentiefragmenten bij elkaar in één scherm.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bouw het gesplitste scherm dat past bij wat u wilt bekijken",
+    "featuresIntro": "Begin met twee clips en voeg vervolgens meer hoeken toe of houd een les en het referentiemateriaal samen zichtbaar.",
+    "features": [
+      {
+        "title": "144 vooraf ingestelde lay-outs, met maximaal 36 video's tegelijk",
+        "description": "Kies gestapelde rijen, zij-aan-zij weergaven, een raster met vier video's of een compactere opstelling. iPhone is handig voor snel bekijken; iPad geeft elke foto meer ruimte. Vloeiend afspelen is afhankelijk van het apparaat, de codec en de resolutie, dus voeg geleidelijk video's toe.",
+        "link": {
+          "label": "Ontdek het afspelen van meerdere video's",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Pas de positie en grootte van elke regio aan",
+        "description": "Open Aangepast in de lay-outkiezer om uw eigen lay-out te maken. Verplaats gebieden, pas de grootte van de hoeken aan of verdeel het scherm met lijnen. Geef de hoofdles meer ruimte en plaats er een kleinere referentie naast."
+      },
+      {
+        "title": "Houd video's, afbeeldingen, PDF 's en webpagina's bij elkaar",
+        "description": "Elke regio kan een ander soort inhoud weergeven, waaronder video's, audio, afbeeldingen, afbeeldingsmappen, PDF 's en webpagina's. U kunt ook HLS (M3U8)- en RTSP streamlinks openen."
+      },
+      {
+        "title": "Speel lokale MP4, MOV, MKV en meer",
+        "description": "Open dagelijkse opnames in MP4, MOV, M4V of 3GP. De aangepaste speler in de app ondersteunt ook containers zoals MKV, AVI, WebM, FLV, F4V, WMV en RMVB. Het afspelen is afhankelijk van de codec in het bestand."
+      },
+      {
+        "title": "Zet hetzelfde moment op een rij in verschillende opnames",
+        "description": "Wanneer de opnames op verschillende tijdstippen beginnen, stelt u in elke clip een synchronisatiepunt in op dezelfde actie en schakelt u Sync Lock in. Dit helpt bij het vergelijken van een dansbeweging, een swing of dezelfde gebeurtenis van verschillende camera's.",
+        "link": {
+          "label": "Meer informatie over synchronisatiepunten en synchronisatievergrendeling",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kan ik twee video's tegelijkertijd afspelen op iPhone?",
+        "answer": "Ja. Kies een lay-out met twee regio's en voeg aan elk een video toe. Beide afbeeldingen blijven zichtbaar, met afzonderlijke bedieningselementen voor afspelen, voortgang en geluid."
+      },
+      {
+        "question": "Werkt dit ook op iPad?",
+        "answer": "Ja. Split Screen Player ondersteunt zowel iPhone als iPad. Een groter iPad scherm is handig voor het bekijken van de camerahoek, het vergelijken van bewegingen en het bekijken van een les naast een PDF."
+      },
+      {
+        "question": "Moet ik de video's eerst samenvoegen?",
+        "answer": "Nee. Bij afspelen op gesplitst scherm blijven de clips gescheiden. Je kunt op elk moment de lay-out wijzigen of één video pauzeren. Gebruik video-export op gesplitst scherm als u de gecombineerde afbeeldingen als een nieuw videobestand wilt delen."
+      },
+      {
+        "question": "Hoe verwijder ik zwarte balken tussen video's?",
+        "answer": "Selecteer in de videoweergave-instellingen de vulmodus om het hele schermgebied met het videobeeld te vullen. In deze modus worden de beeldranden bijgesneden wanneer de video en het schermgebied verschillende vormen hebben. Selecteer de Fit-modus als u het volledige originele videoframe wilt zien."
+      },
+      {
+        "question": "Kan ik op deze manier video's van twee streaming-apps bekijken?",
+        "answer": "Deze handleiding behandelt video's die u opent in Split Screen Player. Het plaatst geen twee afzonderlijke apps in zijn regio's. Het afspelen van webvideo's is afhankelijk van elke website en de afspeelbeperkingen ervan."
+      },
+      {
+        "question": "Is Split Screen Player gratis?",
+        "answer": "De app is gratis te downloaden, met eenvoudige videoweergave en gratis lay-outs. Voor lay-outs gemarkeerd met VIP, gebruik van een aangepaste lay-out, bladwijzers en andere geavanceerde functies is een lidmaatschap vereist."
+      }
+    ],
+    "closingTitle": "Bewaar de video's die u wilt bekijken op één scherm",
+    "closingDescription": "Probeer twee clips op uw iPhone of iPad en verken vervolgens drie gestapelde rijen of een raster met vier video's. Er is ook een Android versie beschikbaar op Google Play."
+  },
+  "keywords": [
+    "Afspelen van meerdere video's",
+    "Gesplitst scherm"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

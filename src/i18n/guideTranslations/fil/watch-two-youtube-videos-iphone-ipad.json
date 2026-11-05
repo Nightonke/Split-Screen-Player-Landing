@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Paano manood ng dalawang YouTube video nang sabay-sabay sa iPhone o iPad",
+  "seoTitle": "Paano manood ng dalawang YouTube video nang sabay-sabay sa iPhone o iPad",
+  "metaDescription": "Ilipat ang isang katugmang video YouTube sa isang hiwalay na player, pagkatapos ay magbukas ng isa pang pahina YouTube upang manood ng dalawang video sa iPhone o iPad.",
+  "summary": "Panatilihin ang unang video YouTube sa isang independent player habang nagpe-play ang pangalawang video sa webpage sa itaas.",
+  "answer": "Buksan ang unang pahina YouTube at simulan ang pag-playback. I-tap ang Mini Player, piliin ang tumutugmang nakitang video, at hayaan itong magbukas sa walang laman na rehiyon. Pagkatapos ay buksan at i-play ang pangalawang URL YouTube sa orihinal na rehiyon ng web.",
+  "note": "Nangangailangan ang workflow na ito ng Premium at isang katugmang natukoy na pinagmulan. Ito ay muling ginawa gamit ang Blender 's Big Buck Bunny at Sintel sa iPhone 17 Pro simulator. Ang paghahatid ng YouTube, mga ad, pag-login at proteksyon ay maaaring makaapekto sa iba pang mga video; hindi ito garantiya para sa bawat link. Ipinapakita ng mga screenshot ang English interface sa isang iPhone 17 Pro simulator.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Ang mga video na Sintel at Big Buck Bunny ay parehong nagpe-play sa magkahiwalay na screen area.",
+    "alt": "iPhone 17 Pro — Ang mga video Sintel at Big Buck Bunny ay parehong nagpe-play sa magkahiwalay na screen area.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Buksan ang unang video YouTube",
+      "description": "Pumili ng layout ng dalawang rehiyon. Sa itaas na rehiyon, i-tap ang + → Web/Stream at buksan ang unang URL ng pahina sa panonood ng YouTube bilang Webpage. Simulan ang pag-playback sa pahina; ang ibabang rehiyon ay dapat manatiling walang laman.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Nagpe-play ang Big Buck Bunny video sa itaas na webpage, na may walang laman na screen area sa ibaba.",
+        "alt": "iPhone 17 Pro — Nagpe-play ang Big Buck Bunny video sa itaas na webpage, na may walang laman na screen area sa ibaba.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Suriin ang nakitang video",
+      "description": "I-tap ang button na Mini Player sa tabi ng web address. Ang numero sa button na ito ay ang bilang ng mga nakitang video. Tingnan kung tumutugma ang pamagat, tagal at mga sukat sa video na gusto mo bago pumili ng nakitang video; Ang pagtuklas lamang ay hindi ginagarantiyahan ang pag-playback.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Ang nakitang entry ay 10:35 at 640×360 sa session na ito.",
+        "alt": "iPhone 17 Pro — Ang nakitang entry ay 10:35 at 640×360 sa session na ito.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Buksan ito sa ibang rehiyon",
+      "description": "I-tap ang tumutugmang item. Awtomatikong natatanggap ng isang walang laman na rehiyon ang video. Kung walang laman, itatanong ng Piliin ang Lokasyon ng Playback kung aling nilalaman ng rehiyon ang papalitan.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Nananatili ang source page sa itaas ng independent video player.",
+        "alt": "iPhone 17 Pro — Ang source page ay nananatili sa itaas ng independent video player.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Mag-play ng ibang video sa webpage",
+      "description": "Panatilihin ang inilipat na video sa mas mababang player. I-tap ang web address sa itaas na bahagi ng screen → Web/Stream at ilagay ang pangalawang URL sa panonood YouTube. I-play ang video sa page. Sa halimbawang ito, nagpe-play ang Sintel video sa itaas na bahagi ng screen habang ang Big Buck Bunny na video ay patuloy na nagpe-play sa ibaba.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Ang mga video na Sintel at Big Buck Bunny ay parehong nagpe-play sa magkahiwalay na screen area.",
+        "alt": "iPhone 17 Pro — Ang mga video Sintel at Big Buck Bunny ay parehong nagpe-play sa magkahiwalay na screen area.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Mga kapaki-pakinabang na detalye",
+    "featuresIntro": "Suriin ang mga detalyeng ito habang sinusunod mo ang mga hakbang.",
+    "features": [
+      {
+        "title": "Ang pinagmulan ay dapat manatiling nalalaro",
+        "description": "Ang pag-expire ng mga address ng media, pagpapatunay, proteksyon ng nilalaman at pag-uugali ng server ay maaaring maiwasan ang pag-playback. Bumalik sa source page at simulan muli ang video bago muling subukan. Ang tampok na ito ay hindi nagbibigay ng access sa pinaghihigpitang nilalaman."
+      },
+      {
+        "title": "Panatilihin ang isang audio source",
+        "description": "I-mute ang webpage o ang independiyenteng player kung pareho silang gumagawa ng tunog. Ang dalawang playhead ay independyente; gumamit ng mga katugmang lokal na file at Sync Point para sa tumpak na paghahambing."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Bakit walang laman ang Mini Player?",
+        "answer": "Magsimula ng video sa page at suriing muli. Ang ilang mga site ay hindi naglalantad ng isang katugmang pinagmulan. Ang isang nakitang entry ay maaari ding isang advertisement sa halip na ang video na gusto mo."
+      },
+      {
+        "question": "Bakit hindi na lang magbukas ng dalawang webpage YouTube?",
+        "answer": "Nagbabala ang app tungkol sa sabay-sabay na pag-playback sa maraming web region sa iOS. Inililipat ng daloy ng trabaho na ito ang unang video sa isang independiyenteng player at iniiwan lamang ang pangalawa sa isang webpage. Depende pa rin ito sa source compatibility."
+      }
+    ],
+    "closingTitle": "Subukan ito gamit ang iyong sariling media",
+    "closingDescription": "Buksan ang Split Screen Player at sundin ang mga hakbang sa mga file na gusto mong gamitin."
+  },
+  "keywords": [
+    "YouTube",
+    "Sabayang pag-play"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

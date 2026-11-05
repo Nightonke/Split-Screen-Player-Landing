@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Come riprodurre più video contemporaneamente su un telefono o tablet Android",
+  "seoTitle": "Come riprodurre più video contemporaneamente su un telefono o tablet Android",
+  "metaDescription": "Guarda due, tre o quattro video contemporaneamente su un telefono o tablet Android. Scegli righe impilate o una griglia 2×2, aggiungi clip locali, controlla l'audio e salva la configurazione.",
+  "summary": "Confronta due video clip senza passare da un'applicazione lettore multimediale all'altra, disponi tre video in file verticali o guarda quattro angolazioni della telecamera in una griglia tenendo il dispositivo in orizzontale. Split Screen Player mantiene ogni video visibile su un telefono o tablet Android.",
+  "answer": "Scegli un layout a schermo diviso, tocca + in ciascun’area e aggiungi un video dalla tua galleria o dai file. Ogni clip ha controlli audio e di riproduzione separati. Puoi iniziare con due video e aggiungerne altri quando ne hai bisogno.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android : tre video riprodotti in un layout verticale impilato.",
+    "caption": "Tre video riprodotti in un layout verticale impilato.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Da tre righe impilate a una griglia di quattro video",
+  "steps": [
+    {
+      "title": "Scegli due o tre aree video",
+      "description": "Tocca l'icona del layout a quattro quadrati nella barra degli strumenti. Il primo gruppo offre layout in pila e affiancati per due video. Per tre clip, scegli la miniatura a tre righe delineata nel gruppo verticale a colonna singola.",
+      "detail": "La piccola striscia in ciascuna miniatura mostra dove si trova la barra degli strumenti. Utilizza i filtri numerici e di orientamento in basso per restringere le scelte.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android : il layout a tre righe è delineato tra le altre disposizioni.",
+        "caption": "Tra le altre disposizioni si delinea la disposizione a tre file.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Aggiungi un video a ciascun’area",
+      "description": "Tocca + in un’area vuota. In Apri, scegli Video dell'album e seleziona una clip. Ripetere per le altre aree. Utilizza File per un video salvato altrove sul dispositivo.",
+      "detail": "Per sostituire una clip, tocca la sua immagine e poi + nei suoi controlli. La playlist consente di riprodurre più clip uno dopo l'altro all'interno della stessa area.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android : scegli Video dell'album o File per aggiungere un video.",
+        "caption": "Scegli Video dell'album o File per aggiungere un video.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Controlla la riproduzione e scegli cosa ascoltare",
+      "description": "Tocca un video per rivelarne i controlli. Utilizza il pulsante centrale per riprodurlo o metterlo in pausa e trascina la timeline su un altro momento. Gli altri clip possono continuare a essere riprodotti in modo indipendente.",
+      "detail": "Disattiva l'audio dei clip che non desideri ascoltare con i pulsanti degli altoparlanti. Utilizza il pulsante della velocità per rallentare un movimento che stai confrontando.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android : ogni video ha i propri controlli di audio, velocità e riproduzione.",
+        "caption": "Ogni video ha i propri controlli di audio, velocità e riproduzione.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Passa a una griglia orizzontale 2×2",
+      "description": "Apri il selettore layout, seleziona 4 nel filtro numerico e scegli Orizzontale R. Seleziona la miniatura due per due nel gruppo simmetria centrale.",
+      "detail": "La striscia a destra della miniatura rappresenta la barra degli strumenti. Tieni il dispositivo in posizione orizzontale per visualizzare le quattro aree.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android : scegli quattro aree con la barra degli strumenti sulla destra.",
+        "caption": "Scegli quattro aree con la barra degli strumenti a destra.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Aggiungi la quarta clip e salva la combinazione",
+      "description": "I primi tre video rimangono disponibili dopo la modifica del layout. Tocca + nell’area vuota e aggiungi una quarta clip.",
+      "detail": "Tocca la stella, Segnalibro, per salvare i video e il layout correnti. Successivamente, apri Segnalibri accanto per ripristinare questa combinazione.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android : quattro video vengono riprodotti insieme in una griglia orizzontale.",
+        "caption": "Quattro video vengono riprodotti insieme in una griglia orizzontale.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Crea lo schermo diviso adatto alla tua visualizzazione",
+    "featuresIntro": "Conserva un riferimento accanto alla tua registrazione, rivedi le angolazioni della telecamera o guarda una lezione con il relativo materiale di supporto.",
+    "features": [
+      {
+        "title": "144 layout, con un massimo di 36 video contemporaneamente",
+        "description": "Scegli righe in pila, visualizzazioni affiancate, una griglia di quattro video o una disposizione più densa. I tablet danno più spazio a ogni immagine. La riproduzione fluida dipende dal dispositivo, dal codec e dalla risoluzione, quindi aggiungi i video gradualmente."
+      },
+      {
+        "title": "Dai più spazio all'immagine principale",
+        "description": "Apri Personalizzato nel selettore di layout per creare la tua disposizione. Sposta le aree, ridimensionale e dividi lo schermo con linee per bilanciare il video principale e i suoi riferimenti."
+      },
+      {
+        "title": "Combina video, immagini, PDF e pagine web",
+        "description": "Ciascun’area può contenere un diverso tipo di contenuto: video, audio, raccolte di immagini, PDF o pagine Web. Puoi anche aprire collegamenti di streaming HLS (M3U8) e RTSP."
+      },
+      {
+        "title": "Apri file locali MP4, MOV, MKV e WebM",
+        "description": "Aggiungi registrazioni dalla tua galleria o apri file da una cartella. Il supporto per un particolare file dipende dai suoi codec video e audio, non solo dall'estensione del nome file."
+      },
+      {
+        "title": "Confronta lo stesso momento o condividi il risultato",
+        "description": "I punti di sincronizzazione aiutano ad allineare le registrazioni iniziate in momenti diversi. Quando desideri condividere più immagini come un unico video, utilizza l'esportazione del video a schermo diviso con le clip locali."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso iniziare con solo due video?",
+        "answer": "Sì. Scegli un layout a due aree e aggiungi un video a ciascun’area. Puoi tenerli impilati o affiancati, con controlli audio e di riproduzione separati."
+      },
+      {
+        "question": "Funziona sui tablet?",
+        "answer": "Sì. La stessa app supporta telefoni e tablet. Uno schermo più grande è utile per rivedere diverse angolazioni o leggere materiale di riferimento accanto a un video."
+      },
+      {
+        "question": "Devo prima unire i video?",
+        "answer": "No. La riproduzione a schermo diviso mantiene i clip separati. Una playlist riproduce le clip in sequenza in un’area; un layout a schermo diviso mostra diversi clip contemporaneamente."
+      },
+      {
+        "question": "Come rimuovo le barre nere?",
+        "answer": "Scegli Riempi e Ritaglia nelle impostazioni di ridimensionamento del video. Riempie ogni area ritagliando i bordi quando le forme differiscono. Utilizza Adatta quando è più importante vedere l'intero fotogramma originale."
+      },
+      {
+        "question": "Può visualizzare due app di streaming separate?",
+        "answer": "Questa guida copre i contenuti aperti all'interno di Split Screen Player. Non incorpora altre app. La riproduzione da una pagina Web dipende da quel sito Web e dalle sue restrizioni."
+      },
+      {
+        "question": "L'app è gratuita?",
+        "answer": "L'app può essere scaricata gratuitamente, con riproduzione video di base e layout gratuiti. I layout contrassegnati come VIP, l'utilizzo del layout personalizzato, i segnalibri e altre funzionalità avanzate richiedono l'iscrizione."
+      }
+    ],
+    "closingTitle": "Mantieni i video che desideri guardare su un'unica schermata",
+    "closingDescription": "Inizia con due clip, quindi prova tre righe sovrapposte o una griglia di quattro video. Scarica la versione per il tuo dispositivo dall'App App Store o Google Play."
+  },
+  "keywords": [
+    "Riproduzione multi-video",
+    "Schermo diviso"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

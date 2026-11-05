@@ -9,8 +9,8 @@ export const appFacts = {
 	maxVideos: 36,
 	layoutCount: 144,
 	rating: {
-		score: 4.8,
-		count: 63,
+		score: 4.9,
+		count: 166,
 	},
 	ageRating: "4+",
 	version: "1.0.26",

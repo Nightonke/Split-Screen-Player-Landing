@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Multi-videouppspelning · iPhone & iPad",
+  "title": "Hur man spelar upp flera videor samtidigt på iPhone eller iPad",
+  "seoTitle": "Hur man spelar flera videor samtidigt på iPhone eller iPad",
+  "metaDescription": "Titta på två videor sida vid sida, stapla tre videor eller spela fyra i ett rutnät på iPhone och iPad. Välj en layout, lägg till lokala klipp, kontrollera ljudet och spara dina inställningar.",
+  "summary": "Jämför två videoklipp utan att växla mellan mediaspelarapplikationer, arrangera tre videor i vertikala rader eller titta på fyra kameravinklar i ett rutnät medan du håller enheten horisontellt. Split Screen Player håller varje video synlig och kan spelas upp oberoende på iPhone och iPad.",
+  "answer": "Välj en layout med delad skärm, tryck på + i varje tom region och lägg till en video från Foton eller Filer. Klippen spelas upp i separata regioner utan att först slå ihop dem till en fil. Börja med två videor, eller följ exemplen med tre rader och fyra videor nedan.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tre videor staplade i separata rader på en iPhone i Split Screen Player",
+    "caption": "Tre videor förblir synliga i en stående layout.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Från tre rader till ett rutnät med fyra videor",
+  "steps": [
+    {
+      "title": "Välj en layout med två eller tre regioner",
+      "description": "Tryck på layoutikonen med fyra kvadrater i verktygsfältet och öppna Standard. För två videor väljer du en staplad eller sida vid sida-layout under 1–2 videor. För tre videor väljer du den markerade miniatyren med tre rader under Vertikal, 1 kolumn totalt.",
+      "detail": "Varje rektangel representerar en videoregion; den tunna remsan visar verktygsfältets position. Använd nummer- och orienteringsfiltren längst ner när du vill ha ett speciellt arrangemang.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Layoutbiblioteket visar flera arrangemang med den treradiga layouten som beskrivs",
+        "caption": "Välj två regioner eller den skisserade layouten för tre staplade videor.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Lägg till en video till varje region",
+      "description": "Tryck på + i ett tomt skärmområde. I menyn Öppna väljer du Videor och väljer ett klipp från appen Foton. Upprepa för de andra skärmområdena. Om din video är lagrad i appen Filer väljer du alternativet Filer i menyn Öppna.",
+      "detail": "För att ersätta ett klipp, tryck på dess bild och sedan på + i dess kontroller. Du kan också använda Spellista för att spela upp flera klipp efter varandra inom en enda region.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "iPhone Öppna-menyn innehåller videor, filer, bilder och spellista",
+        "caption": "Välj alternativet Videor för att öppna en video från appen Foton; välj alternativet Filer för att öppna en video som sparats någon annanstans.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Styr varje video och välj vad du hör",
+      "description": "Tryck på en video för att visa dess kontroller. Använd mittknappen för att spela upp eller pausa den och dra dess tidslinje till ett annat ögonblick. De andra videorna kan fortsätta spelas oberoende.",
+      "detail": "Stäng av ljudet för klippen du inte vill höra med högtalarknapparna. Använd hastighetsknappen för att sakta ner en rörelse som du jämför. Tryck på bilden igen när kontrollerna gömmer sig.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Den första av tre videor visar dess högtalare, hastighet, uppspelning och tidslinjekontroller",
+        "caption": "Varje video har sina egna ljud-, hastighets- och uppspelningskontroller.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Byt till ett liggande 2×2 -rutnät",
+      "description": "Öppna layoutväljaren igen. Välj 4 i nummerfiltret och Land.(R) för orienteringen, välj sedan miniatyren två gånger två i centrumsymmetrigruppen.",
+      "detail": "Den lilla remsan till höger om miniatyrbilden betyder att verktygsfältet kommer att vara till höger. Håll enheten horisontellt för att se de fyra regionerna i landskapet.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "iPhone layoutväljaren filtreras till fyra videor och liggande med verktygsfältet till höger",
+        "caption": "Välj fyra regioner med verktygsfältet till höger.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Lägg till det fjärde klippet och spara din inställning",
+      "description": "Dina första tre klipp förblir på plats. Tryck på + i den tomma regionen för att lägga till en fjärde video och slutföra rutnätet.",
+      "detail": "För att återgå till denna kombination senare, tryck på stjärnan (Favorit) i verktygsfältet. Öppna favoritlistan bredvid den för att återställa sparade videor och layout.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Fyra videor i ett liggande rutnät på iPhone med verktygsfältet till höger",
+        "caption": "Håll fyra kameravinklar eller referensklipp tillsammans på en skärm.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bygg den delade skärmen som passar det du vill titta på",
+    "featuresIntro": "Börja med två klipp, lägg sedan till fler vinklar eller håll en lektion och dess referensmaterial synligt tillsammans.",
+    "features": [
+      {
+        "title": "144 förinställda layouter, med upp till 36 videor samtidigt",
+        "description": "Välj staplade rader, vyer sida vid sida, ett rutnät med fyra videoklipp eller ett tätare arrangemang. iPhone är bekvämt för snabb visning; iPad ger varje bild mer utrymme. Jämn uppspelning beror på enheten, codec och upplösning, så lägg till videor gradvis.",
+        "link": {
+          "label": "Utforska uppspelning av flera videor",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Justera positionen och storleken för varje region",
+        "description": "Öppna Anpassad i layoutväljaren för att skapa din egen layout. Flytta regioner, ändra storlek på deras hörn eller dela skärmen med linjer. Ge huvudlektionen mer utrymme och håll en mindre referens bredvid den."
+      },
+      {
+        "title": "Håll ihop videor, bilder, PDF filer och webbsidor",
+        "description": "Varje region kan visa olika typer av innehåll, inklusive videor, ljud, bilder, bildmappar, PDF filer och webbsidor. Du kan också öppna HLS (M3U8) och RTSP strömlänkar."
+      },
+      {
+        "title": "Spela lokal MP4, MOV, MKV och mer",
+        "description": "Öppna vardagsinspelningar i MP4, MOV, M4V eller 3GP. Den anpassade spelaren i appen stöder även behållare som MKV, AVI, WebM, FLV, F4V, WMV och RMVB. Uppspelningen beror på codec inuti filen."
+      },
+      {
+        "title": "Rada upp samma ögonblick i olika inspelningar",
+        "description": "När inspelningar startar vid olika tidpunkter, ställ in en synkroniseringspunkt vid samma åtgärd i varje klipp och aktivera synkroniseringslås. Detta hjälper till att jämföra ett danssteg, en gunga eller samma händelse från flera kameror.",
+        "link": {
+          "label": "Lär dig om Sync Points och Sync Lock",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kan jag spela upp två videor samtidigt på iPhone?",
+        "answer": "Ja. Välj en layout med två regioner och lägg till en video till varje. Båda bilderna förblir synliga, med separata kontroller för uppspelning, framsteg och ljud."
+      },
+      {
+        "question": "Fungerar detta på iPad också?",
+        "answer": "Ja. Split Screen Player stöder både iPhone och iPad. En större iPad skärm är användbar för kameravinkelgranskning, jämförelse av rörelser och för att titta på en lektion tillsammans med en PDF."
+      },
+      {
+        "question": "Måste jag slå ihop videorna först?",
+        "answer": "Nej. Uppspelning på delad skärm håller klippen åtskilda. Du kan ändra layouten eller pausa en video när som helst. Använd delad videoexport när du vill dela de kombinerade bilderna som en ny videofil."
+      },
+      {
+        "question": "Hur tar jag bort svarta fält mellan videor?",
+        "answer": "I videovisningsinställningarna väljer du Fyllningsläget för att fylla hela skärmområdet med videobilden. Detta läge beskär bildens kanter när videon och dess skärmyta har olika former. Välj läget Anpassa när du behöver se hela den ursprungliga videoramen."
+      },
+      {
+        "question": "Kan jag titta på videor från två streamingappar på det här sättet?",
+        "answer": "Den här guiden täcker videor du öppnar i Split Screen Player. Den placerar inte två separata appar i sina regioner. Uppspelning av webbvideo beror på varje webbplats och dess uppspelningsbegränsningar."
+      },
+      {
+        "question": "Är Split Screen Player gratis?",
+        "answer": "Appen är gratis att ladda ner, med grundläggande videouppspelning och gratis layouter. Layouter märkta VIP, användning av anpassad layout, bokmärken och andra avancerade funktioner kräver medlemskap."
+      }
+    ],
+    "closingTitle": "Håll de videor du vill titta på på en skärm",
+    "closingDescription": "Prova två klipp på din iPhone eller iPad och utforska sedan tre staplade rader eller ett rutnät med fyra videoklipp. En Android version finns också tillgänglig på Google Play."
+  },
+  "keywords": [
+    "Uppspelning av flera videor",
+    "Delad skärm"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

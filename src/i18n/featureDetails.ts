@@ -1,3 +1,4 @@
+import { extendCoreContent } from "./coreTranslation";
 import * as OpenCC from "opencc-js";
 import { mediaAsset } from "@config/media";
 import type { FeatureSlug } from "./marketing";
@@ -608,7 +609,7 @@ const coreFeatureDetails = {
 	"zh-Hant": convertDeep(zhHans),
 };
 
-export const featureDetails: Record<Locale, Record<FeatureSlug, RichFeaturePage>> = {
+const existingFeatureDetails: Record<string, Record<FeatureSlug, RichFeaturePage>> = {
 	...coreFeatureDetails,
 	ja: localizeDeep(en, "ja"),
 	ko: localizeDeep(en, "ko"),
@@ -617,3 +618,5 @@ export const featureDetails: Record<Locale, Record<FeatureSlug, RichFeaturePage>
 	es: localizeDeep(en, "es"),
 	"pt-BR": localizeDeep(en, "pt-BR"),
 };
+
+export const featureDetails = extendCoreContent(existingFeatureDetails);

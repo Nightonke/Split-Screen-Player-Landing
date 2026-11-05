@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Pemutaran multi-video · iPhone & iPad",
+  "title": "Cara memutar banyak video sekaligus di iPhone atau iPad",
+  "seoTitle": "Cara Memutar Banyak Video Sekaligus di iPhone atau iPad",
+  "metaDescription": "Tonton dua video secara berdampingan, susun tiga video, atau putar empat video dalam satu kotak di iPhone dan iPad. Pilih tata letak, tambahkan klip lokal, kontrol audio, dan simpan pengaturan Anda.",
+  "summary": "Bandingkan dua klip video tanpa beralih antar aplikasi pemutar media, menyusun tiga video dalam baris vertikal, atau menonton empat sudut kamera dalam kotak sambil memegang perangkat secara horizontal. Split Screen Player membuat setiap video tetap terlihat dan dapat diputar secara independen di iPhone dan iPad.",
+  "answer": "Pilih tata letak layar terpisah, ketuk + di setiap wilayah kosong, dan tambahkan video dari Foto atau File. Klip diputar di wilayah terpisah tanpa terlebih dahulu menggabungkannya menjadi satu file. Mulailah dengan dua video, atau ikuti contoh tiga baris dan empat video di bawah.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tiga video ditumpuk dalam baris terpisah di iPhone di Split Screen Player",
+    "caption": "Tiga video tetap terlihat dalam tata letak potret.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Dari tiga baris menjadi kisi empat video",
+  "steps": [
+    {
+      "title": "Pilih tata letak dengan dua atau tiga wilayah",
+      "description": "Ketuk ikon tata letak empat persegi di toolbar dan buka Default. Untuk dua video, pilih tata letak bertumpuk atau berdampingan di bawah 1–2 Video. Untuk tiga video, pilih gambar mini tiga baris yang disorot di bawah Vertikal, Total 1 Kolom.",
+      "detail": "Setiap persegi panjang mewakili wilayah video; strip tipis menunjukkan posisi toolbar. Gunakan filter angka dan orientasi di bagian bawah bila Anda menginginkan pengaturan tertentu.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Pustaka tata letak memperlihatkan beberapa pengaturan dengan tata letak tiga baris yang diuraikan",
+        "caption": "Pilih dua wilayah, atau tata letak yang digariskan untuk tiga video bertumpuk.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Tambahkan video ke setiap wilayah",
+      "description": "Ketuk + di area layar kosong. Di menu Buka, pilih Video dan pilih klip dari aplikasi Foto. Ulangi untuk area layar lainnya. Jika video Anda disimpan di aplikasi File, pilih opsi File di menu Buka.",
+      "detail": "Untuk mengganti klip, ketuk gambarnya lalu + di kontrolnya. Anda juga dapat menggunakan Daftar Putar untuk memutar beberapa klip satu demi satu dalam satu wilayah.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Menu iPhone Open menawarkan Video, File, Gambar, dan Daftar Putar",
+        "caption": "Pilih opsi Video untuk membuka video dari aplikasi Foto; pilih opsi File untuk membuka video yang disimpan di tempat lain.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Kontrol setiap video dan pilih apa yang Anda dengar",
+      "description": "Ketuk video untuk menampilkan kontrolnya. Gunakan tombol tengah untuk memutar atau menjedanya dan menyeret garis waktunya ke momen lain. Video lainnya dapat terus diputar secara mandiri.",
+      "detail": "Bisukan klip yang tidak ingin Anda dengar dengan tombol speakernya. Gunakan tombol kecepatan untuk memperlambat gerakan yang Anda bandingkan. Ketuk gambar lagi setiap kali kontrol disembunyikan.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Video pertama dari tiga video menampilkan kontrol speaker, kecepatan, pemutaran, dan garis waktu",
+        "caption": "Setiap video memiliki kontrol suara, kecepatan, dan pemutarannya sendiri.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Beralih ke kisi lanskap 2×2",
+      "description": "Buka pemilih tata letak lagi. Pilih 4 di filter angka dan Tanah.(R) untuk orientasi, lalu pilih gambar mini dua-dua di grup simetri tengah.",
+      "detail": "Strip kecil di sebelah kanan thumbnail berarti toolbar berada di sebelah kanan. Pegang perangkat Anda secara horizontal untuk melihat empat wilayah dalam lanskap.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Pemilih tata letak iPhone difilter menjadi empat video dan lanskap dengan toolbar di sebelah kanan",
+        "caption": "Pilih empat wilayah dengan toolbar di sebelah kanan.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Tambahkan klip keempat dan simpan pengaturan Anda",
+      "description": "Tiga klip pertama Anda tetap di tempatnya. Ketuk + di wilayah kosong untuk menambahkan video keempat dan melengkapi kisi-kisinya.",
+      "detail": "Untuk kembali ke kombinasi ini nanti, ketuk bintang (Favorit) di toolbar. Buka Daftar Favorit di sampingnya untuk memulihkan video dan tata letak yang disimpan.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Empat video dalam kisi lanskap di iPhone dengan toolbar di sebelah kanan",
+        "caption": "Satukan empat sudut kamera atau klip referensi dalam satu layar.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bangun layar terpisah yang sesuai dengan apa yang ingin Anda tonton",
+    "featuresIntro": "Mulailah dengan dua klip, lalu tambahkan lebih banyak sudut atau pertahankan agar pelajaran dan materi referensinya terlihat bersamaan.",
+    "features": [
+      {
+        "title": "144 tata letak prasetel, hingga 36 video sekaligus",
+        "description": "Pilih baris bertumpuk, tampilan berdampingan, kisi empat video, atau susunan yang lebih padat. iPhone nyaman untuk melihat cepat; iPad memberikan lebih banyak ruang pada setiap gambar. Pemutaran yang lancar bergantung pada perangkat, codec, dan resolusi, jadi tambahkan video secara bertahap.",
+        "link": {
+          "label": "Jelajahi pemutaran multi-video",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Sesuaikan posisi dan ukuran masing-masing wilayah",
+        "description": "Buka Kustom di pemilih tata letak untuk membuat tata letak Anda sendiri. Pindahkan bidang, ubah ukuran sudutnya, atau bagi layar dengan garis. Berikan lebih banyak ruang pada pelajaran utama dan simpan referensi yang lebih kecil di sampingnya."
+      },
+      {
+        "title": "Satukan video, gambar, PDF, dan halaman web",
+        "description": "Setiap wilayah dapat menampilkan jenis konten berbeda, termasuk video, audio, gambar, folder gambar, PDF, dan halaman web. Anda juga dapat membuka link streaming HLS (M3U8) dan RTSP."
+      },
+      {
+        "title": "Putar MP4 lokal, MOV, MKV, dan banyak lagi",
+        "description": "Buka rekaman sehari-hari dalam MP4, MOV, M4V, atau 3GP. Pemutar khusus dalam aplikasi juga mendukung wadah seperti MKV, AVI, WebM, FLV, F4V, WMV, dan RMVB. Pemutaran tergantung pada codec di dalam file."
+      },
+      {
+        "title": "Sejajarkan momen yang sama dalam rekaman berbeda",
+        "description": "Saat perekaman dimulai pada waktu yang berbeda, atur Titik Sinkronisasi pada tindakan yang sama di setiap klip dan aktifkan Kunci Sinkronisasi. Ini membantu membandingkan gerakan tarian, ayunan, atau peristiwa yang sama dari beberapa kamera.",
+        "link": {
+          "label": "Pelajari tentang Titik Sinkronisasi dan Kunci Sinkronisasi",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Bisakah saya memutar dua video sekaligus di iPhone?",
+        "answer": "Ya. Pilih tata letak dengan dua wilayah dan tambahkan video ke masing-masing wilayah. Kedua gambar tetap terlihat, dengan pemutaran terpisah, kemajuan, dan kontrol suara."
+      },
+      {
+        "question": "Apakah ini juga berfungsi di iPad?",
+        "answer": "Ya. Split Screen Player mendukung iPhone dan iPad. Layar iPad yang lebih besar berguna untuk tinjauan sudut kamera, perbandingan gerakan, dan menonton pelajaran bersama PDF."
+      },
+      {
+        "question": "Apakah saya perlu menggabungkan videonya terlebih dahulu?",
+        "answer": "Tidak. Pemutaran layar terpisah membuat klip tetap terpisah. Anda dapat mengubah tata letak atau menjeda satu video kapan saja. Gunakan ekspor video layar terpisah saat Anda ingin berbagi gambar gabungan sebagai file video baru."
+      },
+      {
+        "question": "Bagaimana cara menghilangkan bilah hitam di antara video?",
+        "answer": "Pada pengaturan tampilan video, pilih mode Isi untuk mengisi seluruh area layar dengan gambar video. Mode ini memotong tepi gambar ketika video dan area layarnya mempunyai bentuk yang berbeda. Pilih mode Fit bila Anda ingin melihat keseluruhan bingkai video asli."
+      },
+      {
+        "question": "Bisakah saya menonton video dari dua aplikasi streaming dengan cara ini?",
+        "answer": "Panduan ini mencakup video yang Anda buka di dalam Split Screen Player. Itu tidak menempatkan dua aplikasi terpisah di dalam wilayahnya. Pemutaran video web bergantung pada masing-masing situs web dan batasan pemutarannya."
+      },
+      {
+        "question": "Apakah Split Screen Player gratis?",
+        "answer": "Aplikasi ini gratis untuk diunduh, dengan pemutaran video dasar dan tata letak gratis. Tata letak bertanda VIP, penggunaan tata letak khusus, bookmark, dan fitur lanjutan lainnya memerlukan keanggotaan."
+      }
+    ],
+    "closingTitle": "Simpan video yang ingin Anda tonton di satu layar",
+    "closingDescription": "Cobalah dua klip di iPhone atau iPad Anda, lalu jelajahi tiga baris bertumpuk atau empat kisi video. Versi Android juga tersedia di Google Play."
+  },
+  "keywords": [
+    "Pemutaran multi-video",
+    "Layar terpisah"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

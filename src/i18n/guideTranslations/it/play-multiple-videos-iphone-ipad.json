@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Riproduzione multi-video · iPhone e iPad",
+  "title": "Come riprodurre più video contemporaneamente su iPhone o iPad",
+  "seoTitle": "Come riprodurre più video contemporaneamente su iPhone o iPad",
+  "metaDescription": "Guarda due video uno accanto all'altro, impila tre video o riproducine quattro in una griglia su iPhone e iPad. Scegli un layout, aggiungi clip locali, controlla l'audio e salva la configurazione.",
+  "summary": "Confronta due video clip senza passare da un'applicazione lettore multimediale all'altra, disponi tre video in file verticali o guarda quattro angolazioni della telecamera in una griglia tenendo il dispositivo in orizzontale. Split Screen Player mantiene ogni video visibile e riproducibile indipendentemente su iPhone e iPad.",
+  "answer": "Scegli un layout a schermo diviso, tocca + in ciascun’area vuota e aggiungi un video da Foto o File. Le clip vengono riprodotte in aree separate senza prima unirle in un unico file. Inizia con due video o segui gli esempi di tre righe e quattro video riportati di seguito.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tre video impilati in righe separate su un iPhone in Split Screen Player",
+    "caption": "Tre video rimangono visibili in un layout verticale.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Da tre file a una griglia di quattro video",
+  "steps": [
+    {
+      "title": "Scegli un layout con due o tre aree",
+      "description": "Tocca l'icona del layout a quattro quadrati nella barra degli strumenti e apri Predefinito. Per due video, scegli un layout in pila o affiancato in 1–2 video. Per tre video, scegli la miniatura di tre righe evidenziata in Verticale, 1 colonna totale.",
+      "detail": "Ogni rettangolo rappresenta un’area video; la striscia sottile mostra la posizione della barra degli strumenti. Utilizza i filtri numerici e di orientamento in basso quando desideri una disposizione particolare.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "La libreria di layout mostra diverse disposizioni con il layout a tre righe delineato",
+        "caption": "Scegli due aree o il layout delineato per tre video impilati.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Aggiungi un video a ciascun’area",
+      "description": "Tocca + in un'area vuota dello schermo. Nel menu Apri, seleziona Video e scegli un clip dall'app Foto. Ripetere per le altre aree dello schermo. Se il tuo video è archiviato nell'app File, seleziona l'opzione File nel menu Apri.",
+      "detail": "Per sostituire una clip, tocca la sua immagine e poi + nei suoi controlli. Puoi anche utilizzare la playlist per riprodurre più clip uno dopo l'altro all'interno di una singol’area.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Il menu Apri iPhone offre video, file, immagini e playlist",
+        "caption": "Seleziona l'opzione Video per aprire un video dall'app Foto; seleziona l'opzione File per aprire un video salvato altrove.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Controlla ogni video e scegli cosa ascoltare",
+      "description": "Tocca un video per rivelarne i controlli. Utilizza il pulsante centrale per riprodurlo o metterlo in pausa e trascinarne la sequenza temporale in un altro momento. Gli altri video possono continuare a essere riprodotti in modo indipendente.",
+      "detail": "Disattiva l'audio dei clip che non desideri ascoltare con i pulsanti degli altoparlanti. Utilizza il pulsante della velocità per rallentare un movimento che stai confrontando. Tocca di nuovo l'immagine ogni volta che i controlli si nascondono.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Il primo dei tre video mostra i controlli dell'altoparlante, della velocità, della riproduzione e della timeline",
+        "caption": "Ogni video ha i propri controlli di audio, velocità e riproduzione.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Passa a una griglia orizzontale 2×2",
+      "description": "Apri nuovamente il selettore di layout. Seleziona 4 nel filtro numerico e Land.(R) per l'orientamento, quindi scegli la miniatura due per due nel gruppo simmetria centrale.",
+      "detail": "La piccola striscia a destra della miniatura indica che la barra degli strumenti sarà sulla destra. Tieni il dispositivo in orizzontale per visualizzare le quattro aree in orizzontale.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Il selettore di layout iPhone viene filtrato su quattro video e orizzontale con la barra degli strumenti sulla destra",
+        "caption": "Scegli quattro aree con la barra degli strumenti a destra.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Aggiungi la quarta clip e salva la configurazione",
+      "description": "Le tue prime tre clip rimangono al loro posto. Tocca + nell’area vuota per aggiungere un quarto video e completare la griglia.",
+      "detail": "Per tornare a questa combinazione in un secondo momento, tocca la stella (Preferiti) nella barra degli strumenti. Apri l'elenco dei preferiti accanto per ripristinare i video e il layout salvati.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Quattro video in una griglia orizzontale su iPhone con la barra degli strumenti a destra",
+        "caption": "Mantieni insieme quattro angolazioni di ripresa o clip di riferimento in un'unica schermata.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Crea lo schermo diviso adatto a ciò che desideri guardare",
+    "featuresIntro": "Inizia con due clip, quindi aggiungi più angolazioni o mantieni visibili insieme una lezione e il relativo materiale di riferimento.",
+    "features": [
+      {
+        "title": "144 layout preimpostati, con un massimo di 36 video contemporaneamente",
+        "description": "Scegli righe in pila, visualizzazioni affiancate, una griglia di quattro video o una disposizione più densa. iPhone è comodo per la visualizzazione rapida; iPad dà a ogni immagine più spazio. La riproduzione fluida dipende dal dispositivo, dal codec e dalla risoluzione, quindi aggiungi i video gradualmente.",
+        "link": {
+          "label": "Esplora la riproduzione multi-video",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Regola la posizione e la dimensione di ciascun’area",
+        "description": "Apri Personalizzato nel selettore di layout per creare il tuo layout. Sposta le aree, ridimensionane gli angoli o dividi lo schermo con linee. Dai più spazio alla lezione principale e mantieni un riferimento più piccolo accanto ad essa."
+      },
+      {
+        "title": "Tieni insieme video, immagini, PDF e pagine web",
+        "description": "Ciascun’area può mostrare un diverso tipo di contenuto, inclusi video, audio, immagini, cartelle di immagini, PDF e pagine Web. Puoi anche aprire collegamenti di streaming HLS (M3U8) e RTSP."
+      },
+      {
+        "title": "Riproduci MP4, MOV, MKV locali e altro ancora",
+        "description": "Apri le registrazioni quotidiane in MP4, MOV, M4V o 3GP. Il player personalizzato in-app supporta anche contenitori come MKV, AVI, WebM, FLV, F4V, WMV e RMVB. La riproduzione dipende dal codec all'interno del file."
+      },
+      {
+        "title": "Allinea lo stesso momento in registrazioni diverse",
+        "description": "Quando le registrazioni iniziano in momenti diversi, imposta un punto di sincronizzazione nella stessa azione in ciascuna clip e attiva il blocco sincronizzazione. Ciò aiuta a confrontare un passo di danza, uno swing o lo stesso evento da diverse telecamere.",
+        "link": {
+          "label": "Ulteriori informazioni sui punti di sincronizzazione e sul blocco della sincronizzazione",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Posso riprodurre due video contemporaneamente su iPhone?",
+        "answer": "Sì. Scegli un layout con due aree e aggiungi un video a ciascuna. Entrambe le immagini rimangono visibili, con controlli separati di riproduzione, avanzamento e audio."
+      },
+      {
+        "question": "Funziona anche su iPad?",
+        "answer": "Sì. Split Screen Player supporta sia iPhone che iPad. Uno schermo iPad più grande è utile per rivedere l'angolazione della telecamera, confrontare i movimenti e guardare una lezione insieme a un PDF."
+      },
+      {
+        "question": "Devo prima unire i video?",
+        "answer": "No. La riproduzione a schermo diviso mantiene i clip separati. Puoi modificare il layout o mettere in pausa un video in qualsiasi momento. Utilizza l'esportazione video a schermo diviso quando desideri condividere le immagini combinate come un nuovo file video."
+      },
+      {
+        "question": "Come rimuovo le barre nere tra i video?",
+        "answer": "Nelle impostazioni di visualizzazione del video, scegli Riempi per riempire tutta l’area. I bordi vengono ritagliati quando il video e l’area hanno proporzioni diverse. Scegli Adatta per vedere l’intero fotogramma originale."
+      },
+      {
+        "question": "Posso guardare video da due app di streaming in questo modo?",
+        "answer": "Questa guida riguarda i video che apri all'interno di Split Screen Player. Non inserisce due app separate all'interno delle sue aree. La riproduzione di video Web dipende da ciascun sito Web e dalle relative restrizioni di riproduzione."
+      },
+      {
+        "question": "Split Screen Player è gratuito?",
+        "answer": "L'app può essere scaricata gratuitamente, con riproduzione video di base e layout gratuiti. I layout contrassegnati come VIP, l'utilizzo del layout personalizzato, i segnalibri e altre funzionalità avanzate richiedono un abbonamento."
+      }
+    ],
+    "closingTitle": "Mantieni i video che desideri guardare su un'unica schermata",
+    "closingDescription": "Prova due clip sul tuo iPhone o iPad, quindi esplora tre righe impilate o una griglia di quattro video. Una versione Android è disponibile anche su Google Play."
+  },
+  "keywords": [
+    "Riproduzione multi-video",
+    "Schermo diviso"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Kako reproducirati više videozapisa odjednom na Android telefonu ili tabletu",
+  "seoTitle": "Kako reproducirati više videozapisa odjednom na Android telefonu ili tabletu",
+  "metaDescription": "Gledajte dva, tri ili četiri videozapisa odjednom na Android telefonu ili tabletu. Odaberite naslagane retke ili mrežu 2×2, dodajte lokalne isječke, kontrolirajte zvuk i spremite svoje postavke.",
+  "summary": "Usporedite dva video isječka bez prebacivanja između aplikacija za reprodukciju medija, posložite tri videa u okomite retke ili gledajte četiri kuta kamere u mreži dok držite uređaj vodoravno. Split Screen Player održava svaki video vidljivim na Android telefonu ili tabletu.",
+  "answer": "Odaberite raspored podijeljenog zaslona, ​​dodirnite + u svakoj regiji i dodajte videozapis iz svoje galerije ili datoteka. Svaki isječak ima zasebne kontrole reprodukcije i zvuka. Možete započeti s dva videozapisa i dodati ih još kada ih trebate.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tri videozapisa koji se reproduciraju u naslaganom portretnom rasporedu.",
+    "caption": "Tri videozapisa koja se reproduciraju u naslaganom portretnom rasporedu.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Od tri naslagana reda do mreže od četiri videozapisa",
+  "steps": [
+    {
+      "title": "Odaberite dvije ili tri video regije",
+      "description": "Dodirnite ikonu rasporeda s četiri kvadrata na alatnoj traci. Prva grupa nudi naslagane i jedan pored drugog rasporede za dva videozapisa. Za tri isječka odaberite označenu sličicu s tri reda u okomitoj grupi s jednim stupcem.",
+      "detail": "Mala traka na svakoj minijaturi pokazuje gdje se nalazi alatna traka. Upotrijebite filtre brojeva i orijentacije na dnu kako biste suzili izbor.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Raspored u tri reda prikazan je među ostalim rasporedima.",
+        "caption": "Između ostalih rasporeda ocrtava se troredni raspored.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Dodajte videozapis svakoj regiji",
+      "description": "Dodirnite + u praznom području. U Open, odaberite Album videos i odaberite isječak. Ponovite za ostale regije. Upotrijebite datoteku za video spremljen negdje drugdje na uređaju.",
+      "detail": "Da biste zamijenili isječak, dodirnite njegovu sliku, a zatim + u njegovim kontrolama. Popis za reprodukciju omogućuje reprodukciju nekoliko isječaka jedan za drugim unutar iste regije.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Odaberite Album video ili Datoteka za dodavanje videozapisa.",
+        "caption": "Odaberite Album video zapisi ili Datoteka za dodavanje videozapisa.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Upravljajte reprodukcijom i odaberite ono što čujete",
+      "description": "Dodirnite videozapis da biste otkrili njegove kontrole. Koristite središnju tipku za reprodukciju ili pauziranje i povucite vremensku crtu na drugi trenutak. Ostali isječci mogu se reproducirati neovisno.",
+      "detail": "Isključite isječke koje ne želite čuti pomoću gumba zvučnika. Koristite gumb za brzinu da usporite pokret koji uspoređujete.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Svaki video ima vlastiti zvuk, brzinu i kontrolu reprodukcije.",
+        "caption": "Svaki video ima vlastite kontrole zvuka, brzine i reprodukcije.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Prebacite se na pejzažnu mrežu 2×2",
+      "description": "Otvorite alat za odabir izgleda, odaberite 4 u filtru brojeva i odaberite Pejzaž R. Odaberite minijaturu dva puta dva u grupi središnje simetrije.",
+      "detail": "Traka s desne strane minijature predstavlja alatnu traku. Držite uređaj vodoravno kako biste vidjeli četiri regije.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Odaberite četiri regije pomoću alatne trake s desne strane.",
+        "caption": "Odaberite četiri regije pomoću alatne trake s desne strane.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Dodajte četvrti isječak i spremite kombinaciju",
+      "description": "Prva tri videa ostaju dostupna nakon promjene izgleda. Dodirnite + u praznom području i dodajte četvrti isječak.",
+      "detail": "Dodirnite zvjezdicu, Bookmark, za spremanje trenutnih videozapisa i izgleda. Kasnije otvorite Oznake pokraj njega da biste vratili ovu kombinaciju.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — četiri videozapisa reproduciraju se zajedno u pejzažnoj rešetki.",
+        "caption": "Četiri videozapisa reproduciraju se zajedno u pejzažnoj mreži.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Izgradite podijeljeni zaslon koji odgovara vašem gledanju",
+    "featuresIntro": "Zadržite referencu pored vlastite snimke, pregledajte kutove kamere ili pogledajte lekciju s popratnim materijalom.",
+    "features": [
+      {
+        "title": "144 izgleda, s do 36 videozapisa odjednom",
+        "description": "Odaberite naslagane retke, prikaze jedan uz drugi, rešetku od četiri videozapisa ili gušći raspored. Tableti svakoj slici daju više prostora. Glatka reprodukcija ovisi o uređaju, kodeku i razlučivosti, stoga dodajte videozapise postupno."
+      },
+      {
+        "title": "Dajte glavnoj slici više prostora",
+        "description": "Otvorite Custom u alatu za odabir izgleda da biste izradili vlastiti raspored. Premjestite regije, promijenite im veličinu i podijelite zaslon linijama kako biste uravnotežili glavni video i njegove reference."
+      },
+      {
+        "title": "Kombinirajte videozapise, slike, PDF datoteke i web stranice",
+        "description": "Svaka regija može sadržavati različite vrste sadržaja: video zapise, audio zapise, zbirke slika, PDF datoteke ili web stranice. Također možete otvoriti HLS (M3U8) i RTSP stream veze."
+      },
+      {
+        "title": "Otvorite lokalne MP4, MOV, MKV i WebM datoteke",
+        "description": "Dodajte snimke iz svoje galerije ili otvorite datoteke iz mape. Podrška za određenu datoteku ovisi o njezinim video i audio kodecima, a ne samo o ekstenziji naziva datoteke."
+      },
+      {
+        "title": "Usporedite isti trenutak ili podijelite rezultat",
+        "description": "Točke sinkronizacije pomažu uskladiti snimke koje su počele u različito vrijeme. Kada želite podijeliti nekoliko slika kao jedan videozapis, upotrijebite izvoz videozapisa podijeljenog zaslona s lokalnim isječcima."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Mogu li početi sa samo dva videa?",
+        "answer": "Da. Odaberite raspored s dvije regije i dodajte po jedan videozapis svakoj regiji. Možete ih držati naslagane ili jednu pokraj druge, s odvojenim kontrolama reprodukcije i zvuka."
+      },
+      {
+        "question": "Radi li na tabletima?",
+        "answer": "Da. Ista aplikacija podržava telefone i tablete. Veći zaslon koristan je za pregled nekoliko kutova ili čitanje referentnog materijala uz video."
+      },
+      {
+        "question": "Moram li prvo spojiti videozapise?",
+        "answer": "Ne. Reprodukcija podijeljenog zaslona drži isječke odvojene. Popis za reprodukciju reproducira isječke uzastopno u jednoj regiji; raspored podijeljenog zaslona prikazuje različite isječke u isto vrijeme."
+      },
+      {
+        "question": "Kako mogu ukloniti crne trake?",
+        "answer": "Odaberite Ispuni i Izreži u postavkama skaliranja videozapisa. Ispunjava svako područje obrezivanjem rubova kada se oblici razlikuju. Upotrijebite Fit kada vam je važnije vidjeti cijeli izvorni okvir."
+      },
+      {
+        "question": "Može li prikazati dvije odvojene aplikacije za strujanje?",
+        "answer": "Ovaj vodič pokriva sadržaj otvoren u Split Screen Player. Ne ugrađuje druge aplikacije. Reprodukcija s web stranice ovisi o toj web stranici i njenim ograničenjima."
+      },
+      {
+        "question": "Je li aplikacija besplatna?",
+        "answer": "Aplikaciju je besplatno preuzeti, s osnovnom reprodukcijom videozapisa i besplatnim izgledima. Izgledi označeni kao VIP, upotreba prilagođenog izgleda, oznake i druge napredne značajke zahtijevaju članstvo."
+      }
+    ],
+    "closingTitle": "Držite videozapise koje želite gledati na jednom zaslonu",
+    "closingDescription": "Počnite s dva isječka, zatim pokušajte s tri naslagana retka ili mrežom od četiri videozapisa. Preuzmite verziju za svoj uređaj s App Store ili Google Play."
+  },
+  "keywords": [
+    "Reprodukcija više videozapisa",
+    "Podijeljeni ekran"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

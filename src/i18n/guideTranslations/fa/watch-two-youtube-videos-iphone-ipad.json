@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "چگونه دو ویدیوی YouTube را همزمان در iPhone یا iPad تماشا کنیم",
+  "seoTitle": "چگونه دو ویدیوی YouTube را همزمان در iPhone یا iPad تماشا کنیم",
+  "metaDescription": "یک ویدیوی YouTube سازگار را به یک پخش کننده جداگانه منتقل کنید، سپس صفحه YouTube دیگری را برای تماشای دو ویدیو در iPhone یا iPad باز کنید.",
+  "summary": "اولین ویدیوی YouTube را در یک پخش کننده مستقل نگه دارید در حالی که ویدیوی دوم در صفحه وب بالا پخش می شود.",
+  "answer": "اولین صفحه YouTube را باز کنید و پخش را شروع کنید. روی Mini Player ضربه بزنید، ویدیوی شناسایی شده منطبق را انتخاب کنید و اجازه دهید در ناحیه خالی باز شود. سپس دومین URL YouTube را در منطقه اصلی وب باز کرده و پخش کنید.",
+  "note": "این گردش کار به Premium و منبع شناسایی سازگار نیاز دارد. با Blender 's Big Buck Bunny و Sintel در شبیه ساز iPhone 17 Pro تکثیر شد. تحویل YouTube ، تبلیغات، ورود به سیستم و محافظت می‌تواند روی ویدیوهای دیگر تأثیر بگذارد. برای هر لینک تضمینی نیست. اسکرین شات ها رابط انگلیسی شبیه ساز iPhone 17 Pro را نشان می دهد.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "ویدیوهای Sintel و Big Buck Bunny هر دو در مناطق جداگانه صفحه نمایش پخش می شوند.",
+    "alt": "iPhone 17 Pro — ویدیوهای Sintel و Big Buck Bunny هر دو در مناطق جداگانه صفحه نمایش پخش می شوند.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "اولین ویدیوی YouTube را باز کنید",
+      "description": "یک طرح دو منطقه ای را انتخاب کنید. در ناحیه بالا، روی + → Web/Stream ضربه بزنید و اولین URL صفحه تماشای YouTube را به عنوان صفحه وب باز کنید. شروع پخش در صفحه؛ منطقه پایین باید خالی بماند.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "ویدیوی Big Buck Bunny در صفحه وب بالا با یک صفحه خالی در زیر پخش می شود.",
+        "alt": "iPhone 17 Pro — ویدیوی Big Buck Bunny در صفحه وب بالا با یک صفحه خالی در زیر پخش می شود.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "ویدیوی شناسایی شده را بررسی کنید",
+      "description": "روی دکمه Mini Player در کنار آدرس وب ضربه بزنید. عدد روی این دکمه تعداد ویدیوهای شناسایی شده است. قبل از انتخاب یک ویدیوی شناسایی شده، بررسی کنید که عنوان، مدت و ابعاد با ویدیوی مورد نظر مطابقت داشته باشد. تشخیص به تنهایی پخش را تضمین نمی کند.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "ورودی شناسایی شده در این جلسه 10:35 و 640×360 است.",
+        "alt": "iPhone 17 Pro — ورودی شناسایی شده در این جلسه 10:35 و 640×360 است.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "آن را در منطقه دیگری باز کنید",
+      "description": "روی مورد منطبق ضربه بزنید. یک منطقه خالی به طور خودکار ویدیو را دریافت می کند. اگر هیچ کدام خالی نباشد، Choose Playback Location می پرسد محتوای فعلی کدام منطقه جایگزین شود.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "صفحه منبع بالای پخش کننده ویدیوی مستقل باقی می ماند.",
+        "alt": "iPhone 17 Pro - صفحه منبع بالای پخش کننده ویدیوی مستقل باقی می ماند.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "یک ویدیوی متفاوت را در صفحه وب پخش کنید",
+      "description": "ویدیوی منتقل شده را در پخش کننده پایین نگه دارید. روی آدرس وب صفحه بالای صفحه ← Web/Stream ضربه بزنید و دومین URL تماشای YouTube را وارد کنید. ویدیو را در صفحه پخش کنید. در این مثال، ویدیوی Sintel در قسمت بالای صفحه پخش می‌شود در حالی که ویدیوی Big Buck Bunny در زیر ادامه دارد.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "ویدیوهای Sintel و Big Buck Bunny هر دو در مناطق جداگانه صفحه نمایش پخش می شوند.",
+        "alt": "iPhone 17 Pro — ویدیوهای Sintel و Big Buck Bunny هر دو در مناطق جداگانه صفحه نمایش پخش می شوند.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "جزئیات مفید",
+    "featuresIntro": "همانطور که مراحل را دنبال می کنید، این جزئیات را بررسی کنید.",
+    "features": [
+      {
+        "title": "منبع باید قابل پخش باقی بماند",
+        "description": "آدرس‌های رسانه منقضی شده، احراز هویت، محافظت از محتوا و رفتار سرور می‌توانند از پخش جلوگیری کنند. به صفحه منبع بازگردید و قبل از امتحان مجدد ویدیو را دوباره شروع کنید. این ویژگی اجازه دسترسی به محتوای محدود را نمی دهد."
+      },
+      {
+        "title": "یک منبع صوتی را نگه دارید",
+        "description": "اگر هر دو صدا تولید می کنند، صفحه وب یا پخش کننده مستقل را بی صدا کنید. دو بازیکن مستقل هستند. برای مقایسه دقیق از فایل های محلی سازگار و Sync Point استفاده کنید."
+      }
+    ],
+    "faq": [
+      {
+        "question": "چرا مینی پلیر خالی است؟",
+        "answer": "یک ویدیو را در صفحه شروع کنید و دوباره بررسی کنید. برخی از سایت ها منبع سازگار را افشا نمی کنند. یک ورودی شناسایی شده نیز ممکن است یک تبلیغ باشد تا ویدیوی مورد نظر شما."
+      },
+      {
+        "question": "چرا فقط دو صفحه وب YouTube را باز نمی کنید؟",
+        "answer": "این برنامه در مورد پخش همزمان در چندین منطقه وب در iOS هشدار می دهد. این گردش کار اولین ویدیو را به یک پخش کننده مستقل منتقل می کند و تنها ویدیوی دوم را در یک صفحه وب باقی می گذارد. هنوز هم به سازگاری منبع بستگی دارد."
+      }
+    ],
+    "closingTitle": "این را با رسانه خود امتحان کنید",
+    "closingDescription": "Split Screen Player را باز کنید و مراحل را با فایل هایی که می خواهید استفاده کنید دنبال کنید."
+  },
+  "keywords": [
+    "YouTube",
+    "پخش دوگانه"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

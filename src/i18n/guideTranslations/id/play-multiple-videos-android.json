@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Cara memutar banyak video sekaligus di ponsel atau tablet Android",
+  "seoTitle": "Cara memutar banyak video sekaligus di ponsel atau tablet Android",
+  "metaDescription": "Tonton dua, tiga, atau empat video sekaligus di ponsel atau tablet Android. Pilih baris bertumpuk atau kisi 2×2, tambahkan klip lokal, kontrol suara, dan simpan pengaturan Anda.",
+  "summary": "Bandingkan dua klip video tanpa beralih antar aplikasi pemutar media, menyusun tiga video dalam baris vertikal, atau menonton empat sudut kamera dalam kotak sambil memegang perangkat secara horizontal. Split Screen Player membuat setiap video tetap terlihat di ponsel atau tablet Android.",
+  "answer": "Pilih tata letak layar terpisah, ketuk + di setiap wilayah, dan tambahkan video dari galeri atau file Anda. Setiap klip memiliki pemutaran dan kontrol suara terpisah. Anda dapat memulai dengan dua video dan menambahkan lebih banyak saat Anda membutuhkannya.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tiga video diputar dalam tata letak potret bertumpuk.",
+    "caption": "Tiga video diputar dalam tata letak potret bertumpuk.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Dari tiga baris bertumpuk menjadi kisi empat video",
+  "steps": [
+    {
+      "title": "Pilih dua atau tiga wilayah video",
+      "description": "Ketuk ikon tata letak empat persegi di toolbar. Grup pertama menawarkan tata letak bertumpuk dan berdampingan untuk dua video. Untuk tiga klip, pilih gambar mini tiga baris yang dilingkari dalam grup satu kolom vertikal.",
+      "detail": "Strip kecil di setiap thumbnail menunjukkan lokasi toolbar. Gunakan filter angka dan orientasi di bagian bawah untuk mempersempit pilihan.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Tata letak tiga baris diuraikan di antara pengaturan lainnya.",
+        "caption": "Tata letak tiga baris diuraikan di antara pengaturan lainnya.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Tambahkan video ke setiap wilayah",
+      "description": "Ketuk + di wilayah kosong. Di Buka, pilih Video album dan pilih klip. Ulangi untuk wilayah lainnya. Gunakan File untuk video yang disimpan di tempat lain di perangkat.",
+      "detail": "Untuk mengganti klip, ketuk gambarnya lalu + di kontrolnya. Daftar Putar memungkinkan beberapa klip diputar satu demi satu dalam wilayah yang sama.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Pilih Video album atau File untuk menambahkan video.",
+        "caption": "Pilih Video album atau File untuk menambahkan video.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Kontrol pemutaran dan pilih apa yang Anda dengar",
+      "description": "Ketuk video untuk menampilkan kontrolnya. Gunakan tombol tengah untuk memutar atau menjedanya, dan menyeret garis waktu ke momen lain. Klip lain dapat terus diputar secara mandiri.",
+      "detail": "Matikan klip yang tidak ingin Anda dengar dengan tombol speakernya. Gunakan tombol kecepatan untuk memperlambat gerakan yang Anda bandingkan.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Setiap video memiliki kontrol suara, kecepatan, dan pemutarannya sendiri.",
+        "caption": "Setiap video memiliki kontrol suara, kecepatan, dan pemutarannya sendiri.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Beralih ke kisi lanskap 2×2",
+      "description": "Buka pemilih tata letak, pilih 4 di filter angka, dan pilih Lansekap R. Pilih gambar mini dua-dua di grup simetri tengah.",
+      "detail": "Strip di sebelah kanan thumbnail mewakili toolbar. Pegang perangkat Anda secara horizontal untuk melihat empat wilayah.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Pilih empat wilayah dengan toolbar di sebelah kanan.",
+        "caption": "Pilih empat wilayah dengan toolbar di sebelah kanan.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Tambahkan klip keempat dan simpan kombinasinya",
+      "description": "Tiga video pertama tetap tersedia setelah perubahan tata letak. Ketuk + di wilayah kosong dan tambahkan klip keempat.",
+      "detail": "Ketuk bintang, Bookmark, untuk menyimpan video dan tata letak saat ini. Nanti, buka Bookmark di sampingnya untuk memulihkan kombinasi ini.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Empat video diputar bersama dalam kotak lanskap.",
+        "caption": "Empat video diputar bersama dalam grid lanskap.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bangun layar terpisah yang sesuai dengan tampilan Anda",
+    "featuresIntro": "Simpan referensi di samping rekaman Anda sendiri, tinjau sudut kamera, atau tonton pelajaran dengan materi pendukungnya.",
+    "features": [
+      {
+        "title": "144 tata letak, dengan hingga 36 video sekaligus",
+        "description": "Pilih baris bertumpuk, tampilan berdampingan, kisi empat video, atau susunan yang lebih padat. Tablet memberi lebih banyak ruang pada setiap gambar. Pemutaran yang lancar bergantung pada perangkat, codec, dan resolusi, jadi tambahkan video secara bertahap."
+      },
+      {
+        "title": "Berikan lebih banyak ruang pada gambar utama",
+        "description": "Buka Kustom di pemilih tata letak untuk membuat pengaturan Anda sendiri. Pindahkan bidang, ubah ukurannya, dan bagi layar dengan garis untuk menyeimbangkan video utama dan referensinya."
+      },
+      {
+        "title": "Gabungkan video, gambar, PDF, dan halaman web",
+        "description": "Setiap wilayah dapat menyimpan berbagai jenis konten: video, audio, koleksi gambar, PDF, atau halaman web. Anda juga dapat membuka link streaming HLS (M3U8) dan RTSP."
+      },
+      {
+        "title": "Buka file MP4, MOV, MKV, dan WebM lokal",
+        "description": "Tambahkan rekaman dari galeri Anda atau buka file dari folder. Dukungan untuk file tertentu bergantung pada codec video dan audionya, bukan hanya ekstensi nama filenya."
+      },
+      {
+        "title": "Bandingkan momen yang sama atau bagikan hasilnya",
+        "description": "Titik Sinkronisasi membantu menyelaraskan rekaman yang dimulai pada waktu berbeda. Bila Anda ingin berbagi beberapa gambar sebagai satu video, gunakan ekspor video layar terpisah dengan klip lokal Anda."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Bisakah saya memulai hanya dengan dua video?",
+        "answer": "Ya. Pilih tata letak dua wilayah dan tambahkan satu video ke setiap wilayah. Anda dapat menyimpannya secara bertumpuk atau berdampingan, dengan pemutaran dan kontrol suara terpisah."
+      },
+      {
+        "question": "Apakah ini berfungsi di tablet?",
+        "answer": "Ya. Aplikasi yang sama mendukung ponsel dan tablet. Layar yang lebih besar berguna untuk meninjau beberapa sudut atau membaca bahan referensi di samping sebuah video."
+      },
+      {
+        "question": "Apakah saya harus menggabungkan videonya terlebih dahulu?",
+        "answer": "Tidak. Pemutaran layar terpisah membuat klip tetap terpisah. Daftar putar memutar klip secara berurutan di satu wilayah; tata letak layar terpisah menampilkan klip berbeda secara bersamaan."
+      },
+      {
+        "question": "Bagaimana cara menghilangkan bilah hitam?",
+        "answer": "Pilih Isi dan Pangkas dalam pengaturan skala video. Ini mengisi setiap wilayah dengan memotong tepinya ketika bentuknya berbeda. Gunakan Fit saat melihat keseluruhan bingkai asli lebih penting."
+      },
+      {
+        "question": "Bisakah ini menampilkan dua aplikasi streaming terpisah?",
+        "answer": "Panduan ini mencakup konten yang dibuka di dalam Split Screen Player. Itu tidak menyematkan aplikasi lain. Pemutaran dari halaman web bergantung pada situs web tersebut dan batasannya."
+      },
+      {
+        "question": "Apakah aplikasinya gratis?",
+        "answer": "Aplikasi ini gratis untuk diunduh, dengan pemutaran video dasar dan tata letak gratis. Tata letak bertanda VIP, penggunaan tata letak khusus, bookmark, dan fitur lanjutan lainnya memerlukan keanggotaan."
+      }
+    ],
+    "closingTitle": "Simpan video yang ingin Anda tonton di satu layar",
+    "closingDescription": "Mulailah dengan dua klip, lalu coba tiga baris bertumpuk atau kisi empat video. Unduh versi untuk perangkat Anda dari App Store atau Google Play."
+  },
+  "keywords": [
+    "Pemutaran multi-video",
+    "Layar terpisah"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

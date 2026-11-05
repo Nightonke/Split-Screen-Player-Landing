@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Hur man spelar upp flera videor samtidigt på en Android-telefon eller surfplatta",
+  "seoTitle": "Hur man spelar upp flera videor samtidigt på en Android-telefon eller surfplatta",
+  "metaDescription": "Titta på två, tre eller fyra videor samtidigt på en Android-telefon eller surfplatta. Välj staplade rader eller ett 2×2 rutnät, lägg till lokala klipp, kontrollera ljudet och spara dina inställningar.",
+  "summary": "Jämför två videoklipp utan att växla mellan mediaspelarapplikationer, arrangera tre videor i vertikala rader eller titta på fyra kameravinklar i ett rutnät medan du håller enheten horisontellt. Split Screen Player håller varje video synlig på en Android-telefon eller surfplatta.",
+  "answer": "Välj en layout med delad skärm, tryck på + i varje region och lägg till en video från ditt galleri eller dina filer. Varje klipp har separata uppspelnings- och ljudkontroller. Du kan börja med två videor och lägga till fler när du behöver dem.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tre videor spelas upp i en staplad porträttlayout.",
+    "caption": "Tre videor spelas upp i en staplad porträttlayout.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Från tre staplade rader till ett rutnät med fyra videoklipp",
+  "steps": [
+    {
+      "title": "Välj två eller tre videoregioner",
+      "description": "Tryck på layoutikonen med fyra kvadrater i verktygsfältet. Den första gruppen erbjuder staplade och sida vid sida layouter för två videor. För tre klipp, välj den treradiga miniatyrbilden i den vertikala enkolumngruppen.",
+      "detail": "Den lilla remsan i varje miniatyrbild visar var verktygsfältet sitter. Använd nummer- och orienteringsfiltren längst ned för att begränsa valen.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Layouten med tre rader beskrivs bland de andra arrangemangen.",
+        "caption": "Layouten med tre rader beskrivs bland de andra arrangemangen.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Lägg till en video till varje region",
+      "description": "Tryck på + i en tom region. I Öppna väljer du Albumvideor och väljer ett klipp. Upprepa för de andra regionerna. Använd Arkiv för en video som sparats någon annanstans på enheten.",
+      "detail": "För att ersätta ett klipp, tryck på dess bild och sedan på + i dess kontroller. Spellista låter flera klipp spelas upp efter varandra inom samma region.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Välj Albumvideor eller Arkiv för att lägga till en video.",
+        "caption": "Välj Albumvideor eller Arkiv för att lägga till en video.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Styr uppspelningen och välj vad du hör",
+      "description": "Tryck på en video för att visa dess kontroller. Använd mittknappen för att spela upp eller pausa den och dra tidslinjen till ett annat ögonblick. Andra klipp kan fortsätta spelas oberoende.",
+      "detail": "Stäng av ljudet för klippen du inte vill höra med högtalarknapparna. Använd hastighetsknappen för att sakta ner en rörelse som du jämför.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Varje video har sina egna ljud-, hastighets- och uppspelningskontroller.",
+        "caption": "Varje video har sina egna ljud-, hastighets- och uppspelningskontroller.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Byt till ett liggande 2×2 -rutnät",
+      "description": "Öppna layoutväljaren, välj 4 i nummerfiltret och välj Liggande R. Välj miniatyren två gånger två i centrumsymmetrigruppen.",
+      "detail": "Remsan till höger om miniatyrbilden representerar verktygsfältet. Håll enheten horisontellt för att se de fyra regionerna.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Välj fyra regioner med verktygsfältet till höger.",
+        "caption": "Välj fyra regioner med verktygsfältet till höger.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Lägg till det fjärde klippet och spara kombinationen",
+      "description": "De tre första videorna förblir tillgängliga efter layoutändringen. Tryck på + i den tomma regionen och lägg till ett fjärde klipp.",
+      "detail": "Tryck på stjärnan, Bokmärke, för att spara aktuella videor och layout. Öppna Bokmärken bredvid senare för att återställa den här kombinationen.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Fyra videor spelas upp tillsammans i ett liggande rutnät.",
+        "caption": "Fyra videor spelas tillsammans i ett liggande rutnät.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Bygg den delade skärmen som passar din visning",
+    "featuresIntro": "Spara en referens bredvid din egen inspelning, granska kameravinklar eller titta på en lektion med dess stödmaterial.",
+    "features": [
+      {
+        "title": "144 layouter, med upp till 36 videor samtidigt",
+        "description": "Välj staplade rader, vyer sida vid sida, ett rutnät med fyra videoklipp eller ett tätare arrangemang. Tabletter ger varje bild mer utrymme. Jämn uppspelning beror på enheten, codec och upplösning, så lägg till videor gradvis."
+      },
+      {
+        "title": "Ge huvudbilden mer utrymme",
+        "description": "Öppna Anpassad i layoutväljaren för att skapa ditt eget arrangemang. Flytta regioner, ändra storlek på dem och dela skärmen med linjer för att balansera huvudvideon och dess referenser."
+      },
+      {
+        "title": "Kombinera videor, bilder, PDF filer och webbsidor",
+        "description": "Varje region kan innehålla olika typer av innehåll: videor, ljud, bildsamlingar, PDF filer eller webbsidor. Du kan också öppna HLS (M3U8) och RTSP strömlänkar."
+      },
+      {
+        "title": "Öppna lokala MP4, MOV, MKV och WebM -filer",
+        "description": "Lägg till inspelningar från ditt galleri eller öppna filer från en mapp. Stödet för en viss fil beror på dess video- och ljudkodekar, inte bara på filnamnstillägget."
+      },
+      {
+        "title": "Jämför samma ögonblick eller dela resultatet",
+        "description": "Synkroniseringspunkter hjälper till att anpassa inspelningar som började vid olika tidpunkter. När du vill dela flera bilder som en video, använd delad videoexport med dina lokala klipp."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kan jag börja med bara två videor?",
+        "answer": "Ja. Välj en layout med två regioner och lägg till en video till varje region. Du kan hålla dem staplade eller sida vid sida, med separata uppspelnings- och ljudkontroller."
+      },
+      {
+        "question": "Fungerar det på surfplattor?",
+        "answer": "Ja. Samma app stöder telefoner och surfplattor. En större skärm är användbar för att granska flera vinklar eller läsa referensmaterial bredvid en video."
+      },
+      {
+        "question": "Måste jag slå ihop videorna först?",
+        "answer": "Nej. Uppspelning på delad skärm håller klippen åtskilda. En spellista spelar upp klipp sekventiellt i en region; en layout med delad skärm visar olika klipp samtidigt."
+      },
+      {
+        "question": "Hur tar jag bort svarta fält?",
+        "answer": "Välj Fyll och beskär i inställningarna för videoskalning. Den fyller varje område genom att beskära kanterna när formerna skiljer sig åt. Använd Fit när det är viktigare att se hela originalramen."
+      },
+      {
+        "question": "Kan den visa två separata streamingappar?",
+        "answer": "Den här guiden täcker innehåll som öppnas i Split Screen Player. Den bäddar inte in andra appar. Uppspelning från en webbsida beror på den webbplatsen och dess begränsningar."
+      },
+      {
+        "question": "Är appen gratis?",
+        "answer": "Appen är gratis att ladda ner, med grundläggande videouppspelning och gratis layouter. Layouter märkta med VIP, användning av anpassad layout, bokmärken och andra avancerade funktioner kräver medlemskap."
+      }
+    ],
+    "closingTitle": "Håll de videor du vill titta på på en skärm",
+    "closingDescription": "Börja med två klipp och prova sedan tre staplade rader eller ett rutnät med fyra videoklipp. Ladda ner versionen för din enhet från App Store eller Google Play."
+  },
+  "keywords": [
+    "Uppspelning av flera videor",
+    "Delad skärm"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

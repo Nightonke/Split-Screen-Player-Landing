@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Hogyan nézhet egyszerre két YouTube-videót iPhone-on vagy iPaden",
+  "seoTitle": "Hogyan nézhet egyszerre két YouTube-videót iPhone-on vagy iPaden",
+  "metaDescription": "Helyezzen át egy kompatibilis YouTube videót egy külön lejátszóba, majd nyisson meg egy másik YouTube oldalt két videó megtekintéséhez iPhone-on vagy iPad.",
+  "summary": "Tartsa az első YouTube videót egy független lejátszóban, míg a második videót a fenti weboldalon játssza le.",
+  "answer": "Nyissa meg az első YouTube oldalt, és indítsa el a lejátszást. Koppintson a Mini Player elemre, válassza ki a megfelelő észlelt videót, és hagyja megnyílni az üres területen. Ezután nyissa meg és játssza le a második YouTube URL-t az eredeti webrégióban.",
+  "note": "Ehhez a munkafolyamathoz Premium és kompatibilis észlelt forrás szükséges. Blender Big Buck Bunny és Sintel segítségével reprodukálták az iPhone 17 Pro szimulátorban. YouTube kézbesítés, a hirdetések, a bejelentkezés és a védelem hatással lehetnek más videókra; ez nem garancia minden linkre. A képernyőképeken egy iPhone 17 Pro szimulátor angol nyelvű felülete látható.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "A Sintel és Big Buck Bunny videók külön képernyőterületeken játszódnak.",
+    "alt": "iPhone 17 Pro – A Sintel és Big Buck Bunny videók külön képernyőterületeken játszódnak.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Nyissa meg az első YouTube videót",
+      "description": "Válasszon egy kétrégiós elrendezést. A felső régióban érintse meg a + → Web/Stream lehetőséget, és nyissa meg az első YouTube videóoldal URL-jét Weboldalként. Indítsa el a lejátszást az oldalon; az alsó régiónak üresnek kell maradnia.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "A Big Buck Bunny videó a weboldal felső részén látható, alatta egy üres képernyőterülettel.",
+        "alt": "iPhone 17 Pro – A Big Buck Bunny videó a weboldal felső részén látható, alatta egy üres képernyőterülettel.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Vizsgálja meg az észlelt videót",
+      "description": "Érintse meg a Mini Player gombot a webcím mellett. A gombon lévő szám az észlelt videók száma. Az észlelt videó kiválasztása előtt ellenőrizze, hogy a cím, az időtartam és a méretek megegyeznek-e a kívánt videóval; az észlelés önmagában nem garantálja a lejátszást.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Az észlelt bejegyzés 10:35 és 640×360 ebben a munkamenetben.",
+        "alt": "iPhone 17 Pro – Az észlelt bejegyzés 10:35 és 640×360 ebben a munkamenetben.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Nyissa meg egy másik régióban",
+      "description": "Koppintson a megfelelő elemre. Egy üres terület automatikusan fogadja a videót. Ha egyik sem üres, a Choose Playback Location elem megkérdezi, hogy melyik régió jelenlegi tartalmát kell lecserélni.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "A forrásoldal a független videólejátszó felett marad.",
+        "alt": "iPhone 17 Pro – A forrásoldal a független videolejátszó felett marad.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Játsszon le egy másik videót a weboldalon",
+      "description": "Tartsa az átvitt videót az alsó lejátszóban. Érintse meg a képernyő felső részének webcímét → Web/Stream, és írja be a második YouTube megtekintési URL-t. Játssza le a videót az oldalon. Ebben a példában a Sintel videó a képernyő felső részén, míg a Big Buck Bunny videó lejátszása lent folytatódik.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "A Sintel és Big Buck Bunny videók külön képernyőterületeken játszódnak.",
+        "alt": "iPhone 17 Pro – A Sintel és Big Buck Bunny videók külön képernyőterületeken játszódnak.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Hasznos részletek",
+    "featuresIntro": "A lépéseket követve ellenőrizze ezeket a részleteket.",
+    "features": [
+      {
+        "title": "A forrásnak lejátszhatónak kell maradnia",
+        "description": "A lejáró médiacímek, a hitelesítés, a tartalomvédelem és a szerver viselkedése megakadályozhatja a lejátszást. Térjen vissza a forrásoldalra, és indítsa újra a videót, mielőtt újra próbálkozna. Ez a funkció nem ad hozzáférést a korlátozott tartalmakhoz."
+      },
+      {
+        "title": "Tartson egy hangforrást",
+        "description": "Némítsa el a weboldalt vagy a független lejátszót, ha mindkettő hangot ad. A két játszófej független; a pontos összehasonlításhoz használjon kompatibilis helyi fájlokat és szinkronizálási pontot."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Miért üres a Mini Player?",
+        "answer": "Indítson el egy videót az oldalon, és ellenőrizze újra. Egyes webhelyek nem tesznek közzé kompatibilis forrást. Az észlelt bejegyzés is lehet hirdetés, nem pedig a kívánt videó."
+      },
+      {
+        "question": "Miért nem nyit meg két YouTube weblapot?",
+        "answer": "Az alkalmazás figyelmeztet az egyidejű lejátszásra több webrégióban iOS rendszeren. Ez a munkafolyamat az első videót egy független lejátszóba helyezi át, és csak a másodikat hagyja a weboldalon. Ez továbbra is a forrás kompatibilitásától függ."
+      }
+    ],
+    "closingTitle": "Próbáld ki ezt a saját médiával",
+    "closingDescription": "Nyissa meg Split Screen Player, és kövesse a lépéseket a használni kívánt fájlokkal kapcsolatban."
+  },
+  "keywords": [
+    "YouTube",
+    "Kettős lejátszás"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

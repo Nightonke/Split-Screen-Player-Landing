@@ -1,0 +1,159 @@
+{
+  "slug": "play-multiple-videos-iphone-ipad",
+  "platform": "ios",
+  "otherPlatformSlug": "play-multiple-videos-android",
+  "eyebrow": "Multi-video playback · iPhone at iPad",
+  "title": "Paano mag-play ng maraming video nang sabay-sabay sa iPhone o iPad",
+  "seoTitle": "Paano Magpatugtog ng Maramihang Mga Video nang Sabay-sabay sa iPhone o iPad",
+  "metaDescription": "Manood ng dalawang video na magkatabi, mag-stack ng tatlong video, o mag-play ng apat sa isang grid sa iPhone at iPad. Pumili ng layout, magdagdag ng mga lokal na clip, kontrolin ang audio, at i-save ang iyong setup.",
+  "summary": "Paghambingin ang dalawang video clip nang hindi lumilipat sa pagitan ng mga application ng media player, ayusin ang tatlong video sa mga patayong row, o panoorin ang apat na anggulo ng camera sa isang grid habang hinahawakan ang device nang pahalang. Pinapanatili ng Split Screen Player na nakikita ang bawat video at nakapag-iisa na nape-play sa iPhone at iPad.",
+  "answer": "Pumili ng split-screen na layout, i-tap ang + sa bawat bakanteng rehiyon, at magdagdag ng video mula sa Mga Larawan o File. Nagpe-play ang mga clip sa magkakahiwalay na rehiyon nang hindi muna pinagsasama ang mga ito sa isang file. Magsimula sa dalawang video, o sundin ang tatlong row at apat na video na mga halimbawa sa ibaba.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/en/03-three-videos.webp",
+    "alt": "Tatlong video na nakasalansan sa magkahiwalay na row sa isang iPhone sa Split Screen Player",
+    "caption": "Tatlong video ang mananatiling nakikita sa isang portrait na layout.",
+    "width": 1319,
+    "height": 2748
+  },
+  "stepsHeading": "Mula sa tatlong hilera hanggang sa apat na video na grid",
+  "steps": [
+    {
+      "title": "Pumili ng layout na may dalawa o tatlong rehiyon",
+      "description": "I-tap ang icon na may apat na parisukat na layout sa toolbar at buksan ang Default. Para sa dalawang video, pumili ng stacked o side-by-side na layout sa ilalim 1–2 na Video. Para sa tatlong video, piliin ang naka-highlight na three-row na thumbnail sa ilalim ng Vertical, 1 Column Total.",
+      "detail": "Ang bawat parihaba ay kumakatawan sa isang rehiyon ng video; ipinapakita ng manipis na strip ang posisyon ng toolbar. Gamitin ang mga filter ng numero at oryentasyon sa ibaba kapag gusto mo ng partikular na kaayusan.",
+      "image": {
+        "src": "/images/guides/multi-video/en/01-layout-choices.webp",
+        "alt": "Ang layout library ay nagpapakita ng ilang mga kaayusan na may tatlong-row na layout na nakabalangkas",
+        "caption": "Pumili ng dalawang rehiyon, o ang nakabalangkas na layout para sa tatlong naka-stack na video.",
+        "width": 1319,
+        "height": 2748,
+        "highlight": {
+          "x": 102,
+          "y": 1574,
+          "width": 275,
+          "height": 275
+        }
+      }
+    },
+    {
+      "title": "Magdagdag ng video sa bawat rehiyon",
+      "description": "I-tap ang + sa isang walang laman na lugar ng screen. Sa Open menu, piliin ang Mga Video at pumili ng clip mula sa Photos app. Ulitin para sa iba pang mga lugar ng screen. Kung naka-store ang iyong video sa Files app, piliin ang opsyong Files sa Open menu.",
+      "detail": "Upang palitan ang isang clip, i-tap ang larawan nito at pagkatapos ay + sa mga kontrol nito. Maaari mo ring gamitin ang Playlist upang mag-play ng ilang clip nang sunud-sunod sa loob ng isang rehiyon.",
+      "image": {
+        "src": "/images/guides/multi-video/en/02-open-videos.webp",
+        "alt": "Ang iPhone Open menu ay nag-aalok ng Mga Video, File, Larawan, at Playlist",
+        "caption": "Piliin ang opsyong Mga Video upang magbukas ng video mula sa Photos app; piliin ang opsyong Mga File upang magbukas ng video na naka-save sa ibang lugar.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Kontrolin ang bawat video at piliin kung ano ang iyong maririnig",
+      "description": "I-tap ang isang video para ipakita ang mga kontrol nito. Gamitin ang center button upang i-play o i-pause ito at i-drag ang timeline nito sa isa pang sandali. Ang iba pang mga video ay maaaring magpatuloy sa paglalaro nang nakapag-iisa.",
+      "detail": "I-mute ang mga clip na hindi mo gustong marinig gamit ang kanilang mga speaker button. Gamitin ang pindutan ng bilis upang pabagalin ang isang paggalaw na iyong inihahambing. I-tap muli ang larawan sa tuwing nagtatago ang mga kontrol.",
+      "image": {
+        "src": "/images/guides/multi-video/en/06-playback-controls.webp",
+        "alt": "Ipinapakita ng una sa tatlong video ang mga kontrol nito sa speaker, bilis, pag-playback, at timeline",
+        "caption": "Ang bawat video ay may sariling mga kontrol sa tunog, bilis, at pag-playback.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Lumipat sa isang landscape 2×2 grid",
+      "description": "Buksan muli ang tagapili ng layout. Piliin 4 sa number filter at Land.(R) para sa oryentasyon, pagkatapos ay piliin ang two-by-two thumbnail sa center-symmetry group.",
+      "detail": "Ang maliit na strip sa kanan ng thumbnail ay nangangahulugan na ang toolbar ay nasa kanan. Hawakan nang pahalang ang iyong device upang tingnan ang apat na rehiyon sa landscape.",
+      "image": {
+        "src": "/images/guides/multi-video/en/04-select-grid.webp",
+        "alt": "Ang iPhone layout picker ay na-filter sa apat na video at landscape na may toolbar sa kanan",
+        "caption": "Pumili ng apat na rehiyon na may toolbar sa kanan.",
+        "width": 1319,
+        "height": 2748
+      }
+    },
+    {
+      "title": "Idagdag ang pang-apat na clip at i-save ang iyong setup",
+      "description": "Ang iyong unang tatlong clip ay nananatili sa lugar. I-tap ang + sa walang laman na rehiyon para magdagdag ng pang-apat na video at kumpletuhin ang grid.",
+      "detail": "Upang bumalik sa kumbinasyong ito sa ibang pagkakataon, i-tap ang star (Paborito) sa toolbar. Buksan ang Listahan ng Mga Paborito sa tabi nito upang maibalik ang mga na-save na video at layout.",
+      "image": {
+        "src": "/images/guides/multi-video/en/05-four-videos.webp",
+        "alt": "Apat na video sa isang landscape grid sa iPhone na may toolbar sa kanan",
+        "caption": "Panatilihing magkasama ang apat na anggulo ng camera o reference clip sa isang screen.",
+        "width": 2748,
+        "height": 1319
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Buuin ang split screen na akma sa gusto mong panoorin",
+    "featuresIntro": "Magsimula sa dalawang clip, pagkatapos ay magdagdag ng higit pang mga anggulo o panatilihin ang isang aralin at ang sangguniang materyal nito na nakikita nang magkasama.",
+    "features": [
+      {
+        "title": "144 na mga preset na layout, na may hanggang 36 na video nang sabay-sabay",
+        "description": "Pumili ng mga stacked row, side-by-side view, four-video grid, o mas siksik na arrangement. iPhone ay maginhawa para sa mabilis na pagtingin; Binibigyan ng iPad ang bawat larawan ng higit pang silid. Nakadepende ang maayos na pag-playback sa device, codec, at resolution, kaya dahan-dahang magdagdag ng mga video.",
+        "link": {
+          "label": "Galugarin ang multi-video playback",
+          "path": "features/multi-video-player"
+        }
+      },
+      {
+        "title": "Ayusin ang posisyon at laki ng bawat rehiyon",
+        "description": "Buksan ang Custom sa tagapili ng layout upang lumikha ng iyong sariling layout. Ilipat ang mga rehiyon, i-resize ang kanilang mga sulok, o hatiin ang screen gamit ang mga linya. Bigyan ng mas maraming espasyo ang pangunahing aralin at maglagay ng mas maliit na sanggunian sa tabi nito."
+      },
+      {
+        "title": "Panatilihing magkasama ang mga video, larawan, PDF, at web page",
+        "description": "Ang bawat rehiyon ay maaaring magpakita ng ibang uri ng nilalaman, kabilang ang mga video, audio, mga larawan, mga folder ng larawan, PDF, at mga web page. Maaari mo ring buksan HLS (M3U8) at RTSP stream links."
+      },
+      {
+        "title": "I-play ang lokal na MP4, MOV, MKV, at higit pa",
+        "description": "Buksan ang pang-araw-araw na pag-record sa MP4, MOV, M4V, o 3GP. Sinusuportahan din ng in-app na custom na player ang mga container gaya ng MKV, AVI, WebM, FLV, F4V, WMV, at RMVB. Ang pag-playback ay depende sa codec sa loob ng file."
+      },
+      {
+        "title": "Pumila sa parehong sandali sa iba't ibang mga pag-record",
+        "description": "Kapag nagsimula ang mga pag-record sa iba't ibang oras, magtakda ng Sync Point sa parehong aksyon sa bawat clip at paganahin ang Sync Lock. Nakakatulong ito na ihambing ang isang dance move, isang swing, o ang parehong kaganapan mula sa ilang mga camera.",
+        "link": {
+          "label": "Matuto tungkol sa Sync Points at Sync Lock",
+          "path": "guides/sync-videos-different-start-times"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Maaari ba akong mag-play ng dalawang video sa parehong oras sa iPhone?",
+        "answer": "Oo. Pumili ng layout na may dalawang rehiyon at magdagdag ng video sa bawat isa. Ang parehong mga larawan ay nananatiling nakikita, na may hiwalay na pag-playback, pag-unlad, at mga kontrol ng tunog."
+      },
+      {
+        "question": "Gumagana rin ba ito sa iPad?",
+        "answer": "Oo. Sinusuportahan ng Split Screen Player ang parehong iPhone at iPad. Ang isang mas malaking screen iPad ay kapaki-pakinabang para sa pagsusuri ng anggulo ng camera, paghahambing ng paggalaw, at panonood ng isang aralin kasama ng isang PDF."
+      },
+      {
+        "question": "Kailangan ko bang pagsamahin muna ang mga video?",
+        "answer": "Hindi. Ang split-screen playback ay nagpapanatili sa mga clip na magkahiwalay. Maaari mong baguhin ang layout o i-pause ang isang video anumang oras. Gumamit ng split-screen na video export kapag gusto mong ibahagi ang pinagsamang mga larawan bilang bagong video file."
+      },
+      {
+        "question": "Paano ko aalisin ang mga itim na bar sa pagitan ng mga video?",
+        "answer": "Sa mga setting ng pagpapakita ng video, piliin ang Fill mode upang punan ang buong lugar ng screen ng larawan ng video. Pino-crop ng mode na ito ang mga gilid ng larawan kapag may iba't ibang hugis ang video at ang screen area nito. Piliin ang Fit mode kapag kailangan mong makita ang buong orihinal na video frame."
+      },
+      {
+        "question": "Maaari ba akong manood ng mga video mula sa dalawang streaming app sa ganitong paraan?",
+        "answer": "Sinasaklaw ng gabay na ito ang mga video na binuksan mo sa loob ng Split Screen Player. Hindi ito naglalagay ng dalawang magkahiwalay na app sa loob ng mga rehiyon nito. Ang pag-playback ng web-video ay nakasalalay sa bawat website at sa mga paghihigpit sa pag-playback nito."
+      },
+      {
+        "question": "Libre ba ang Split Screen Player?",
+        "answer": "Ang app ay libre upang i-download, na may pangunahing pag-playback ng video at mga libreng layout. Ang mga layout na minarkahang VIP, paggamit ng custom-layout, mga bookmark, at iba pang advanced na feature ay nangangailangan ng membership."
+      }
+    ],
+    "closingTitle": "Panatilihin ang mga video na gusto mong panoorin sa isang screen",
+    "closingDescription": "Subukan ang dalawang clip sa iyong iPhone o iPad, pagkatapos ay galugarin ang tatlong stacked row o isang four-video grid. Available din ang isang bersyon Android sa Google Play."
+  },
+  "keywords": [
+    "Pag-play ng maraming video",
+    "Hating screen"
+  ],
+  "_translation": {
+    "sourceDigest": "ae50613389c656a07b2e6550d2e8caee2ddda0b767a2070943cbb5965736430e",
+    "method": "machine-assisted"
+  }
+}

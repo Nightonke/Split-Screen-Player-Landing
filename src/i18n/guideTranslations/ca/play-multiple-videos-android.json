@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Com reproduir diversos vídeos alhora en un telèfon o tauleta Android",
+  "seoTitle": "Com reproduir diversos vídeos alhora en un telèfon o tauleta Android",
+  "metaDescription": "Mira dos, tres o quatre vídeos alhora en un telèfon o tauleta Android. Trieu files apilades o una graella 2×2, afegiu clips locals, controleu el so i deseu la vostra configuració.",
+  "summary": "Compareu dos clips de vídeo sense canviar entre aplicacions de reproductor multimèdia, organitzeu tres vídeos en files verticals o mireu quatre angles de càmera en una quadrícula mentre sosteniu el dispositiu horitzontalment. Split Screen Player manté cada vídeo visible en un telèfon o tauleta Android.",
+  "answer": "Trieu un disseny de pantalla dividida, toqueu + a cada regió i afegiu un vídeo de la vostra galeria o fitxers. Cada clip té controls de so i reproducció separats. Podeu començar amb dos vídeos i afegir-ne més quan els necessiteu.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tres vídeos que es reprodueixen en un disseny vertical apilat.",
+    "caption": "Es reprodueixen tres vídeos en un disseny retrat apilat.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Des de tres files apilades fins a una graella de quatre vídeos",
+  "steps": [
+    {
+      "title": "Trieu dues o tres regions de vídeo",
+      "description": "Toqueu la icona de disseny de quatre quadrats a la barra d'eines. El primer grup ofereix dissenys apilats i de costat per a dos vídeos. Per a tres clips, trieu la miniatura de tres files delineada al grup vertical d'una sola columna.",
+      "detail": "La petita tira de cada miniatura mostra on es troba la barra d'eines. Utilitzeu els filtres de nombre i orientació de la part inferior per restringir les opcions.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — El disseny de tres files es descriu entre els altres arranjaments.",
+        "caption": "El disseny de tres fileres es descriu entre els altres arranjaments.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Afegeix un vídeo a cada regió",
+      "description": "Toca + en una regió buida. A Obre, tria Vídeos de l'àlbum i selecciona un clip. Repetiu per a les altres regions. Utilitzeu Fitxer per a un vídeo desat en un altre lloc del dispositiu.",
+      "detail": "Per substituir un clip, toqueu la seva imatge i després + als seus controls. La llista de reproducció permet reproduir diversos clips un darrere l'altre dins de la mateixa regió.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Trieu Vídeos de l'àlbum o Fitxer per afegir un vídeo.",
+        "caption": "Trieu Vídeos de l'àlbum o Fitxer per afegir un vídeo.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Controla la reproducció i tria el que escoltes",
+      "description": "Toca un vídeo per mostrar-ne els controls. Feu servir el botó central per reproduir-lo o posar-lo en pausa i arrossegueu la línia de temps a un altre moment. Altres clips poden continuar reproduint-se de manera independent.",
+      "detail": "Silencia els clips que no vols escoltar amb els botons dels altaveus. Utilitzeu el botó de velocitat per frenar un moviment que esteu comparant.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android : cada vídeo té els seus propis controls de so, velocitat i reproducció.",
+        "caption": "Cada vídeo té els seus propis controls de so, velocitat i reproducció.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Canvia a una quadrícula horitzontal 2×2",
+      "description": "Obriu el selector de disseny, seleccioneu 4 al filtre de números i seleccioneu Horizontal R. Seleccioneu la miniatura de dos en dos al grup de simetria central.",
+      "detail": "La tira a la dreta de la miniatura representa la barra d'eines. Mantingueu el dispositiu horitzontalment per veure les quatre regions.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Trieu quatre regions amb la barra d'eines a la dreta.",
+        "caption": "Trieu quatre regions amb la barra d'eines de la dreta.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Afegiu el quart clip i deseu la combinació",
+      "description": "Els tres primers vídeos romanen disponibles després del canvi de disseny. Toqueu + a la regió buida i afegiu un quart clip.",
+      "detail": "Toqueu l'estrella, Marcador, per desar els vídeos i el disseny actuals. Més tard, obriu els marcadors al costat per restaurar aquesta combinació.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Es reprodueixen quatre vídeos junts en una quadrícula horitzontal.",
+        "caption": "Es reprodueixen quatre vídeos junts en una quadrícula horitzontal.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Creeu la pantalla dividida que s'adapti a la vostra visualització",
+    "featuresIntro": "Manteniu una referència al costat de la vostra pròpia gravació, reviseu els angles de la càmera o mireu una lliçó amb el seu material de suport.",
+    "features": [
+      {
+        "title": "144 dissenys, amb fins a 36 vídeos alhora",
+        "description": "Trieu files apilades, vistes una al costat de l'altra, una quadrícula de quatre vídeos o una disposició més densa. Les tauletes donen més espai a cada imatge. La reproducció fluida depèn del dispositiu, el còdec i la resolució, així que afegiu vídeos gradualment."
+      },
+      {
+        "title": "Doneu més espai a la imatge principal",
+        "description": "Obriu Personalitzat al selector de disseny per crear el vostre propi arranjament. Mou regions, canvia la mida i divideix la pantalla amb línies per equilibrar el vídeo principal i les seves referències."
+      },
+      {
+        "title": "Combina vídeos, imatges, PDF i pàgines web",
+        "description": "Cada regió pot contenir un tipus de contingut diferent: vídeos, àudio, col·leccions d'imatges, PDF o pàgines web. També podeu obrir els enllaços de flux HLS (M3U8) i RTSP."
+      },
+      {
+        "title": "Obriu fitxers locals MP4, MOV, MKV i WebM",
+        "description": "Afegiu gravacions de la vostra galeria o obriu fitxers des d'una carpeta. El suport per a un fitxer en particular depèn dels seus còdecs de vídeo i àudio, no només de la seva extensió de nom de fitxer."
+      },
+      {
+        "title": "Compara el mateix moment o comparteix el resultat",
+        "description": "Els punts de sincronització ajuden a alinear les gravacions que van començar en diferents moments. Quan vulgueu compartir diverses imatges com un sol vídeo, utilitzeu l'exportació de vídeo de pantalla dividida amb els vostres clips locals."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Puc començar només amb dos vídeos?",
+        "answer": "Sí. Trieu un disseny de dues regions i afegiu un vídeo a cada regió. Podeu mantenir-los apilats o un al costat de l'altre, amb controls de so i reproducció separats."
+      },
+      {
+        "question": "Funciona en tauletes?",
+        "answer": "Sí. La mateixa aplicació és compatible amb telèfons i tauletes. Una pantalla més gran és útil per revisar diversos angles o llegir material de referència al costat d'un vídeo."
+      },
+      {
+        "question": "He de combinar els vídeos primer?",
+        "answer": "No. La reproducció en pantalla dividida manté els clips separats. Una llista de reproducció reprodueix clips seqüencialment en una regió; un disseny de pantalla dividida mostra diferents clips al mateix temps."
+      },
+      {
+        "question": "Com puc eliminar les barres negres?",
+        "answer": "Trieu Omplir i retallar a la configuració d'escala de vídeo. Omple cada regió retallant les vores quan les formes difereixen. Utilitzeu Fit quan vegeu tot el marc original és més important."
+      },
+      {
+        "question": "Pot mostrar dues aplicacions de transmissió separades?",
+        "answer": "Aquesta guia cobreix el contingut obert a Split Screen Player. No incrusta altres aplicacions. La reproducció des d'una pàgina web depèn d'aquest lloc web i de les seves restriccions."
+      },
+      {
+        "question": "L'aplicació és gratuïta?",
+        "answer": "L'aplicació es pot descarregar gratuïtament, amb reproducció de vídeo bàsica i dissenys gratuïts. Els dissenys marcats com VIP, l'ús de disseny personalitzat, les adreces d'interès i altres funcions avançades requereixen ser membre."
+      }
+    ],
+    "closingTitle": "Manteniu els vídeos que voleu veure en una pantalla",
+    "closingDescription": "Comenceu amb dos clips i, a continuació, proveu tres files apilades o una graella de quatre vídeos. Baixeu la versió del vostre dispositiu des de l' App Store o Google Play."
+  },
+  "keywords": [
+    "Reproducció de múltiples vídeos",
+    "Pantalla dividida"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

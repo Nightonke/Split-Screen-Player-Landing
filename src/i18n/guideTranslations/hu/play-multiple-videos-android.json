@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Több videó lejátszása egyszerre Android telefonon vagy táblagépen",
+  "seoTitle": "Több videó lejátszása egyszerre Android telefonon vagy táblagépen",
+  "metaDescription": "Nézz meg egyszerre két, három vagy négy videót Android telefonon vagy táblagépen. Válasszon halmozott sorokat vagy 2×2 rácsot, adjon hozzá helyi klipeket, vezérelje a hangot, és mentse el a beállításokat.",
+  "summary": "Hasonlítson össze két videoklipet a médialejátszó-alkalmazások közötti váltás nélkül, rendezzen három videót függőleges sorokba, vagy nézzen négy kameraállást egy rácsban, miközben a készüléket vízszintesen tartja. Split Screen Player minden videót láthatóvá tesz Android telefonon vagy táblagépen.",
+  "answer": "Válasszon egy osztott képernyős elrendezést, érintse meg a + jelet minden régióban, és adjon hozzá egy videót a galériából vagy a fájlokból. Minden klip külön lejátszási és hangvezérlőkkel rendelkezik. Kezdheti két videóval, és hozzáadhat továbbiakat, amikor szüksége van rájuk.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android – Három videó egymásra halmozott álló elrendezésben.",
+    "caption": "Három videó egymásra helyezett álló elrendezésben.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Három egymásra helyezett sortól a négy videóból álló rácsig",
+  "steps": [
+    {
+      "title": "Válasszon két vagy három videó régiót",
+      "description": "Érintse meg a négyszögletes elrendezés ikont az eszköztáron. Az első csoport halmozott és egymás melletti elrendezéseket kínál két videóhoz. Három kliphez válassza ki a körvonalazott háromsoros bélyegképet a függőleges egyoszlopos csoportban.",
+      "detail": "Az egyes miniatűrök kis csíkja mutatja az eszköztár helyét. A választási lehetőségek szűkítéséhez használja az alján található szám- és tájolásszűrőket.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android – A háromsoros elrendezést az egyéb elrendezések között vázoljuk fel.",
+        "caption": "A háromsoros elrendezés az egyéb elrendezések között szerepel.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Adjon hozzá egy videót minden régióhoz",
+      "description": "Érintse meg a + gombot egy üres területen. A Megnyitásban válassza az Albumvideók lehetőséget, és válasszon ki egy klipet. Ismételje meg a többi régióval. Használja a Fájl funkciót az eszköz más helyére mentett videóhoz.",
+      "detail": "A klip cseréjéhez érintse meg a képét, majd a + gombot a vezérlőelemekben. A lejátszási lista lehetővé teszi több klip egymás után lejátszását ugyanazon a területen.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android – Videó hozzáadásához válassza az Albumvideók vagy a Fájl lehetőséget.",
+        "caption": "Videó hozzáadásához válassza az Albumvideók vagy a Fájl lehetőséget.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Irányítsd a lejátszást, és válaszd ki, mit hallasz",
+      "description": "Koppintson egy videóra a vezérlőelemek megjelenítéséhez. Használja a középső gombot a lejátszáshoz vagy szüneteltetéshez, és húzza az idővonalat egy másik pillanatra. A többi klip önállóan is lejátszható.",
+      "detail": "A hangszóró gombjaival némítsa el azokat a klipeket, amelyeket nem szeretne hallani. A sebesség gombbal lelassíthatja az összehasonlítandó mozgást.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android – Minden videónak saját hang-, sebesség- és lejátszásvezérlője van.",
+        "caption": "Minden videónak saját hang-, sebesség- és lejátszásvezérlője van.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Váltson fekvő 2×2 rácsra",
+      "description": "Nyissa meg az elrendezésválasztót, válassza ki 4 a számszűrőben, majd válassza a Fekvő R lehetőséget. Válassza ki a két-két bélyegképet a középső szimmetria csoportban.",
+      "detail": "A miniatűr jobb oldalán lévő csík az eszköztárat képviseli. Tartsa a készüléket vízszintesen a négy régió megtekintéséhez.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Válasszon négy régiót a jobb oldali eszköztárral.",
+        "caption": "Válasszon négy régiót a jobb oldali eszköztárral.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Adja hozzá a negyedik klipet, és mentse el a kombinációt",
+      "description": "Az első három videó az elrendezés módosítása után is elérhető marad. Érintse meg a + gombot az üres területen, és adjon hozzá egy negyedik klipet.",
+      "detail": "Érintse meg a csillagot, a Könyvjelzőt az aktuális videók és elrendezés mentéséhez. Később nyissa meg mellette a Könyvjelzőket a kombináció visszaállításához.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android – Négy videót játszanak le együtt egy fekvő rácsban.",
+        "caption": "Négy videó játszható együtt egy fekvő rácsban.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Készítse el az osztott képernyőt, amely illeszkedik a megtekintéshez",
+    "featuresIntro": "Tartson hivatkozást saját felvétele mellett, tekintse át a kameraállásokat, vagy nézzen meg egy leckét a segédanyagokkal együtt.",
+    "features": [
+      {
+        "title": "144 elrendezés, akár 36 videóval egyszerre",
+        "description": "Válasszon halmozott sorokat, egymás melletti nézeteket, négy videóból álló rácsot vagy sűrűbb elrendezést. A táblagépek minden képnek több helyet biztosítanak. A sima lejátszás az eszköztől, a kodektől és a felbontástól függ, ezért fokozatosan adjon hozzá videókat."
+      },
+      {
+        "title": "Hagyjon több helyet a fő képnek",
+        "description": "Saját elrendezésének létrehozásához nyissa meg az Egyéni elemet az elrendezésválasztóban. Mozgassa át a régiókat, méretezze át őket, és ossza el a képernyőt vonalakkal, hogy egyensúlyba hozza a fő videót és a hivatkozásokat."
+      },
+      {
+        "title": "Kombinálja a videókat, képeket, PDF eket és weboldalakat",
+        "description": "Minden régióban más-más tartalom tárolható: videók, hanganyagok, képgyűjtemények, PDF -ek vagy weboldalak. HLS (M3U8) és RTSP adatfolyam hivatkozásokat is megnyithat."
+      },
+      {
+        "title": "Nyissa meg a helyi MP4, MOV, MKV és WebM fájlokat",
+        "description": "Adjon hozzá felvételeket a galériából, vagy nyissa meg a fájlokat egy mappából. Egy adott fájl támogatása a videó- ​​és audiokodekektől függ, nem csak a fájlnév-kiterjesztéstől."
+      },
+      {
+        "title": "Hasonlítsa össze ugyanazt a pillanatot, vagy ossza meg az eredményt",
+        "description": "A szinkronizálási pontok segítenek a különböző időpontokban kezdődő felvételek összehangolásában. Ha több képet szeretne megosztani egy videóként, használja az osztott képernyős videóexportálást a helyi klipekkel."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kezdhetem csak két videóval?",
+        "answer": "Igen. Válasszon egy kétrégiós elrendezést, és adjon hozzá egy videót mindegyik régióhoz. Egymásba rakva vagy egymás mellett tarthatja őket, külön lejátszási és hangvezérlőkkel."
+      },
+      {
+        "question": "Tableten működik?",
+        "answer": "Igen. Ugyanez az alkalmazás támogatja a telefonokat és a táblagépeket. A nagyobb képernyő hasznos több szögből való áttekintéshez vagy referenciaanyag olvasásához egy videó mellett."
+      },
+      {
+        "question": "Előbb össze kell vonnom a videókat?",
+        "answer": "Nem. Az osztott képernyős lejátszás külön tartja a klipeket. A lejátszási lista sorban játssza le a klipeket egy régióban; az osztott képernyős elrendezés különböző klipeket jelenít meg egyszerre."
+      },
+      {
+        "question": "Hogyan távolíthatom el a fekete sávokat?",
+        "answer": "Válassza a Kitöltés és körbevágás lehetőséget a videó méretezési beállításainál. Minden régiót kitölt a szélek levágásával, ha az alakzatok különböznek. Használja a Fitt, ha a teljes eredeti keret fontosabb."
+      },
+      {
+        "question": "Meg tud jeleníteni két különálló streaming alkalmazást?",
+        "answer": "Ez az útmutató Split Screen Player megnyitott tartalmakra vonatkozik. Nem ágyaz be más alkalmazásokat. A weboldalról történő lejátszás az adott webhelytől és annak korlátozásaitól függ."
+      },
+      {
+        "question": "Ingyenes az alkalmazás?",
+        "answer": "Az alkalmazás ingyenesen letölthető, alapvető videólejátszással és ingyenes elrendezésekkel. VIP jelölésű elrendezésekhez, az egyéni elrendezés használatához, a könyvjelzőkhöz és egyéb speciális funkciókhoz tagság szükséges."
+      }
+    ],
+    "closingTitle": "Tartsa a megtekinteni kívánt videókat egy képernyőn",
+    "closingDescription": "Kezdje két klippel, majd próbáljon ki három egymásra helyezett sort vagy egy négy videóból álló rácsot. Töltse le a készülékéhez tartozó verziót az App Store vagy Google Play áruházból."
+  },
+  "keywords": [
+    "Több videó lejátszása",
+    "Osztott képernyő"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

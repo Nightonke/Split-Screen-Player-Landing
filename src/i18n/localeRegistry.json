@@ -1,0 +1,481 @@
+{
+  "en-US": {
+    "label": "English",
+    "hrefLang": "en",
+    "htmlLang": "en",
+    "ogLocale": "en_US",
+    "languagePrefixes": [
+      "en"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "us"
+  },
+  "zh-Hans": {
+    "label": "简体中文",
+    "hrefLang": "zh-Hans",
+    "htmlLang": "zh-Hans",
+    "ogLocale": "zh_CN",
+    "languagePrefixes": [
+      "zh-hans",
+      "zh-cn",
+      "zh-sg",
+      "zh"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "cn"
+  },
+  "zh-Hant": {
+    "label": "繁體中文",
+    "hrefLang": "zh-Hant",
+    "htmlLang": "zh-Hant",
+    "ogLocale": "zh_TW",
+    "languagePrefixes": [
+      "zh-hant",
+      "zh-tw",
+      "zh-hk",
+      "zh-mo"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "tw"
+  },
+  "ja": {
+    "label": "日本語",
+    "hrefLang": "ja",
+    "htmlLang": "ja",
+    "ogLocale": "ja_JP",
+    "languagePrefixes": [
+      "ja"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "jp"
+  },
+  "ko": {
+    "label": "한국어",
+    "hrefLang": "ko",
+    "htmlLang": "ko",
+    "ogLocale": "ko_KR",
+    "languagePrefixes": [
+      "ko"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "kr"
+  },
+  "fr": {
+    "label": "Français",
+    "hrefLang": "fr",
+    "htmlLang": "fr",
+    "ogLocale": "fr_FR",
+    "languagePrefixes": [
+      "fr"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "fr"
+  },
+  "de": {
+    "label": "Deutsch",
+    "hrefLang": "de",
+    "htmlLang": "de",
+    "ogLocale": "de_DE",
+    "languagePrefixes": [
+      "de"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "de"
+  },
+  "es": {
+    "label": "Español",
+    "hrefLang": "es",
+    "htmlLang": "es",
+    "ogLocale": "es_ES",
+    "languagePrefixes": [
+      "es"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "es"
+  },
+  "pt-BR": {
+    "label": "Português (Brasil)",
+    "hrefLang": "pt-BR",
+    "htmlLang": "pt-BR",
+    "ogLocale": "pt_BR",
+    "languagePrefixes": [
+      "pt-br",
+      "pt"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": true,
+    "flagCode": "br"
+  },
+  "ar": {
+    "label": "العربية",
+    "hrefLang": "ar",
+    "htmlLang": "ar",
+    "ogLocale": "ar_AR",
+    "languagePrefixes": [
+      "ar"
+    ],
+    "direction": "rtl",
+    "legacyGuideSource": false,
+    "flagCode": "sa"
+  },
+  "bg": {
+    "label": "Български",
+    "hrefLang": "bg",
+    "htmlLang": "bg",
+    "ogLocale": "bg_BG",
+    "languagePrefixes": [
+      "bg"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "bg"
+  },
+  "bn": {
+    "label": "বাংলা",
+    "hrefLang": "bn",
+    "htmlLang": "bn",
+    "ogLocale": "bn_BD",
+    "languagePrefixes": [
+      "bn"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "bd"
+  },
+  "ca": {
+    "label": "Català",
+    "hrefLang": "ca",
+    "htmlLang": "ca",
+    "ogLocale": "ca_ES",
+    "languagePrefixes": [
+      "ca"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "es-ct"
+  },
+  "cs": {
+    "label": "Čeština",
+    "hrefLang": "cs",
+    "htmlLang": "cs",
+    "ogLocale": "cs_CZ",
+    "languagePrefixes": [
+      "cs"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "cz"
+  },
+  "da": {
+    "label": "Dansk",
+    "hrefLang": "da",
+    "htmlLang": "da",
+    "ogLocale": "da_DK",
+    "languagePrefixes": [
+      "da"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "dk"
+  },
+  "el": {
+    "label": "Ελληνικά",
+    "hrefLang": "el",
+    "htmlLang": "el",
+    "ogLocale": "el_GR",
+    "languagePrefixes": [
+      "el"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "gr"
+  },
+  "fa": {
+    "label": "فارسی",
+    "hrefLang": "fa",
+    "htmlLang": "fa",
+    "ogLocale": "fa_IR",
+    "languagePrefixes": [
+      "fa"
+    ],
+    "direction": "rtl",
+    "legacyGuideSource": false,
+    "flagCode": "ir"
+  },
+  "fi": {
+    "label": "Suomi",
+    "hrefLang": "fi",
+    "htmlLang": "fi",
+    "ogLocale": "fi_FI",
+    "languagePrefixes": [
+      "fi"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "fi"
+  },
+  "fil": {
+    "label": "Filipino",
+    "hrefLang": "tl",
+    "htmlLang": "fil",
+    "ogLocale": "fil_PH",
+    "languagePrefixes": [
+      "fil",
+      "tl"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "ph"
+  },
+  "he": {
+    "label": "עברית",
+    "hrefLang": "he",
+    "htmlLang": "he",
+    "ogLocale": "he_IL",
+    "languagePrefixes": [
+      "he",
+      "iw"
+    ],
+    "direction": "rtl",
+    "legacyGuideSource": false,
+    "flagCode": "il"
+  },
+  "hi": {
+    "label": "हिन्दी",
+    "hrefLang": "hi",
+    "htmlLang": "hi",
+    "ogLocale": "hi_IN",
+    "languagePrefixes": [
+      "hi"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "in"
+  },
+  "hr": {
+    "label": "Hrvatski",
+    "hrefLang": "hr",
+    "htmlLang": "hr",
+    "ogLocale": "hr_HR",
+    "languagePrefixes": [
+      "hr"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "hr"
+  },
+  "hu": {
+    "label": "Magyar",
+    "hrefLang": "hu",
+    "htmlLang": "hu",
+    "ogLocale": "hu_HU",
+    "languagePrefixes": [
+      "hu"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "hu"
+  },
+  "id": {
+    "label": "Bahasa Indonesia",
+    "hrefLang": "id",
+    "htmlLang": "id",
+    "ogLocale": "id_ID",
+    "languagePrefixes": [
+      "id",
+      "in"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "id"
+  },
+  "it": {
+    "label": "Italiano",
+    "hrefLang": "it",
+    "htmlLang": "it",
+    "ogLocale": "it_IT",
+    "languagePrefixes": [
+      "it"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "it"
+  },
+  "kk": {
+    "label": "Қазақша",
+    "hrefLang": "kk",
+    "htmlLang": "kk",
+    "ogLocale": "kk_KZ",
+    "languagePrefixes": [
+      "kk"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "kz"
+  },
+  "ms": {
+    "label": "Bahasa Melayu",
+    "hrefLang": "ms",
+    "htmlLang": "ms",
+    "ogLocale": "ms_MY",
+    "languagePrefixes": [
+      "ms"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "my"
+  },
+  "nb": {
+    "label": "Norsk bokmål",
+    "hrefLang": "nb",
+    "htmlLang": "nb",
+    "ogLocale": "nb_NO",
+    "languagePrefixes": [
+      "nb",
+      "no"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "no"
+  },
+  "nl": {
+    "label": "Nederlands",
+    "hrefLang": "nl",
+    "htmlLang": "nl",
+    "ogLocale": "nl_NL",
+    "languagePrefixes": [
+      "nl"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "nl"
+  },
+  "pl": {
+    "label": "Polski",
+    "hrefLang": "pl",
+    "htmlLang": "pl",
+    "ogLocale": "pl_PL",
+    "languagePrefixes": [
+      "pl"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "pl"
+  },
+  "pt-PT": {
+    "label": "Português (Portugal)",
+    "hrefLang": "pt-PT",
+    "htmlLang": "pt-PT",
+    "ogLocale": "pt_PT",
+    "languagePrefixes": [
+      "pt-pt"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "pt"
+  },
+  "ro": {
+    "label": "Română",
+    "hrefLang": "ro",
+    "htmlLang": "ro",
+    "ogLocale": "ro_RO",
+    "languagePrefixes": [
+      "ro"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "ro"
+  },
+  "ru": {
+    "label": "Русский",
+    "hrefLang": "ru",
+    "htmlLang": "ru",
+    "ogLocale": "ru_RU",
+    "languagePrefixes": [
+      "ru"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "ru"
+  },
+  "sv": {
+    "label": "Svenska",
+    "hrefLang": "sv",
+    "htmlLang": "sv",
+    "ogLocale": "sv_SE",
+    "languagePrefixes": [
+      "sv"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "se"
+  },
+  "th": {
+    "label": "ไทย",
+    "hrefLang": "th",
+    "htmlLang": "th",
+    "ogLocale": "th_TH",
+    "languagePrefixes": [
+      "th"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "th"
+  },
+  "tr": {
+    "label": "Türkçe",
+    "hrefLang": "tr",
+    "htmlLang": "tr",
+    "ogLocale": "tr_TR",
+    "languagePrefixes": [
+      "tr"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "tr"
+  },
+  "uk": {
+    "label": "Українська",
+    "hrefLang": "uk",
+    "htmlLang": "uk",
+    "ogLocale": "uk_UA",
+    "languagePrefixes": [
+      "uk"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "ua"
+  },
+  "ur": {
+    "label": "اردو",
+    "hrefLang": "ur",
+    "htmlLang": "ur",
+    "ogLocale": "ur_PK",
+    "languagePrefixes": [
+      "ur"
+    ],
+    "direction": "rtl",
+    "legacyGuideSource": false,
+    "flagCode": "pk"
+  },
+  "vi": {
+    "label": "Tiếng Việt",
+    "hrefLang": "vi",
+    "htmlLang": "vi",
+    "ogLocale": "vi_VN",
+    "languagePrefixes": [
+      "vi"
+    ],
+    "direction": "ltr",
+    "legacyGuideSource": false,
+    "flagCode": "vn"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "play-multiple-videos-android",
+  "platform": "android",
+  "otherPlatformSlug": "play-multiple-videos-iphone-ipad",
+  "eyebrow": "Android",
+  "title": "Paano mag-play ng maraming video nang sabay-sabay sa isang Android phone o tablet",
+  "seoTitle": "Paano mag-play ng maraming video nang sabay-sabay sa isang Android phone o tablet",
+  "metaDescription": "Manood ng dalawa, tatlo, o apat na video nang sabay-sabay sa isang Android phone o tablet. Pumili ng mga stacked row o isang 2×2 grid, magdagdag ng mga lokal na clip, kontrolin ang tunog, at i-save ang iyong setup.",
+  "summary": "Paghambingin ang dalawang video clip nang hindi lumilipat sa pagitan ng mga application ng media player, ayusin ang tatlong video sa mga patayong row, o panoorin ang apat na anggulo ng camera sa isang grid habang hinahawakan ang device nang pahalang. Pinapanatili Split Screen Player na nakikita ang bawat video sa isang Android phone o tablet.",
+  "answer": "Pumili ng split-screen na layout, i-tap ang + sa bawat rehiyon, at magdagdag ng video mula sa iyong gallery o mga file. Ang bawat clip ay may hiwalay na playback at sound control. Maaari kang magsimula sa dalawang video at magdagdag ng higit pa kapag kailangan mo ang mga ito.",
+  "heroImage": {
+    "src": "/images/guides/multi-video/android/en/03-three-videos.webp",
+    "alt": "Split Screen Player · Android — Tatlong video na nagpe-play sa isang stacked portrait na layout.",
+    "caption": "Tatlong video na nagpe-play sa isang stacked portrait na layout.",
+    "width": 1191,
+    "height": 2508
+  },
+  "stepsHeading": "Mula sa tatlong naka-stack na row hanggang sa four-video grid",
+  "steps": [
+    {
+      "title": "Pumili ng dalawa o tatlong rehiyon ng video",
+      "description": "I-tap ang icon na may apat na parisukat na layout sa toolbar. Nag-aalok ang unang grupo ng mga stacked at side-by-side na layout para sa dalawang video. Para sa tatlong clip, piliin ang nakabalangkas na tatlong row na thumbnail sa patayong solong hanay na pangkat.",
+      "detail": "Ipinapakita ng maliit na strip sa bawat thumbnail kung saan nakaupo ang toolbar. Gamitin ang mga filter ng numero at oryentasyon sa ibaba upang paliitin ang mga pagpipilian.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/01-layout-choices.webp",
+        "alt": "Split Screen Player · Android — Ang tatlong-row na layout ay nakabalangkas kasama ng iba pang mga pagsasaayos.",
+        "caption": "Ang layout na may tatlong hilera ay nakabalangkas kasama ng iba pang mga kaayusan.",
+        "width": 1191,
+        "height": 2508,
+        "highlight": {
+          "x": 116,
+          "y": 1260,
+          "width": 236,
+          "height": 236
+        }
+      }
+    },
+    {
+      "title": "Magdagdag ng video sa bawat rehiyon",
+      "description": "I-tap ang + sa isang walang laman na rehiyon. Sa Open, piliin ang Album videos at pumili ng clip. Ulitin para sa iba pang mga rehiyon. Gamitin ang File para sa isang video na naka-save sa ibang lugar sa device.",
+      "detail": "Upang palitan ang isang clip, i-tap ang larawan nito at pagkatapos ay + sa mga kontrol nito. Hinahayaan ng Playlist ang ilang clip na mag-play nang sunud-sunod sa loob ng parehong rehiyon.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/02-open-videos.webp",
+        "alt": "Split Screen Player · Android — Pumili ng mga album na video o File upang magdagdag ng video.",
+        "caption": "Piliin ang Album na mga video o File para magdagdag ng video.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Kontrolin ang pag-playback at piliin kung ano ang iyong maririnig",
+      "description": "I-tap ang isang video para ipakita ang mga kontrol nito. Gamitin ang center button upang i-play o i-pause ito, at i-drag ang timeline sa isa pang sandali. Ang iba pang mga clip ay maaaring magpatuloy sa paglalaro nang nakapag-iisa.",
+      "detail": "I-mute ang mga clip na hindi mo gustong marinig gamit ang kanilang mga speaker button. Gamitin ang pindutan ng bilis upang pabagalin ang isang paggalaw na iyong inihahambing.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/06-playback-controls.webp",
+        "alt": "Split Screen Player · Android — Ang bawat video ay may sariling tunog, bilis, at mga kontrol sa pag-playback.",
+        "caption": "Ang bawat video ay may sariling mga kontrol sa tunog, bilis, at pag-playback.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Lumipat sa isang landscape 2×2 grid",
+      "description": "Buksan ang tagapili ng layout, piliin 4 sa filter ng numero, at piliin ang Landscape R. Piliin ang two-by-two thumbnail sa pangkat ng center-symmetry.",
+      "detail": "Ang strip sa kanan ng thumbnail ay kumakatawan sa toolbar. Hawakan nang pahalang ang iyong device upang tingnan ang apat na rehiyon.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/04-select-grid.webp",
+        "alt": "Split Screen Player · Android — Pumili ng apat na rehiyon na may toolbar sa kanan.",
+        "caption": "Pumili ng apat na rehiyon na may toolbar sa kanan.",
+        "width": 1191,
+        "height": 2508
+      }
+    },
+    {
+      "title": "Idagdag ang ikaapat na clip at i-save ang kumbinasyon",
+      "description": "Mananatiling available ang unang tatlong video pagkatapos ng pagbabago ng layout. I-tap ang + sa walang laman na rehiyon at magdagdag ng pang-apat na clip.",
+      "detail": "I-tap ang star, Bookmark, para i-save ang mga kasalukuyang video at layout. Sa ibang pagkakataon, buksan ang Mga Bookmark sa tabi nito upang ibalik ang kumbinasyong ito.",
+      "image": {
+        "src": "/images/guides/multi-video/android/en/05-four-videos.webp",
+        "alt": "Split Screen Player · Android — Apat na video ang nagpe-play nang magkasama sa isang landscape grid.",
+        "caption": "Apat na video ang nagpe-play nang magkasama sa isang landscape grid.",
+        "width": 2508,
+        "height": 1191
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Buuin ang split screen na akma sa iyong panonood",
+    "featuresIntro": "Panatilihin ang isang sanggunian sa tabi ng iyong sariling pag-record, suriin ang mga anggulo ng camera, o manood ng isang aralin kasama ang mga sumusuportang materyal nito.",
+    "features": [
+      {
+        "title": "144 na layout, na may hanggang 36 na video nang sabay-sabay",
+        "description": "Pumili ng mga stacked row, side-by-side view, four-video grid, o mas siksik na arrangement. Ang mga tablet ay nagbibigay sa bawat larawan ng mas maraming silid. Nakadepende ang maayos na pag-playback sa device, codec, at resolution, kaya dahan-dahang magdagdag ng mga video."
+      },
+      {
+        "title": "Bigyan ng mas maraming espasyo ang pangunahing larawan",
+        "description": "Buksan ang Custom sa tagapili ng layout upang lumikha ng iyong sariling pag-aayos. Ilipat ang mga rehiyon, i-resize ang mga ito, at hatiin ang screen gamit ang mga linya upang balansehin ang pangunahing video at ang mga reference nito."
+      },
+      {
+        "title": "Pagsamahin ang mga video, larawan, PDF, at mga web page",
+        "description": "Ang bawat rehiyon ay maaaring maglaman ng iba't ibang uri ng nilalaman: mga video, audio, mga koleksyon ng larawan, PDF, o mga web page. Maaari mo ring buksan HLS (M3U8) at RTSP stream links."
+      },
+      {
+        "title": "Buksan ang lokal na MP4, MOV, MKV, at WebM na mga file",
+        "description": "Magdagdag ng mga recording mula sa iyong gallery o magbukas ng mga file mula sa isang folder. Nakadepende ang suporta para sa isang partikular na file sa mga video at audio codec nito, hindi lang sa extension ng filename nito."
+      },
+      {
+        "title": "Ihambing ang parehong sandali o ibahagi ang resulta",
+        "description": "Tumutulong ang Sync Points na ihanay ang mga pag-record na nagsimula sa iba't ibang panahon. Kapag gusto mong magbahagi ng ilang larawan bilang isang video, gumamit ng split-screen na video export sa iyong mga lokal na clip."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Maaari ba akong magsimula sa dalawang video lang?",
+        "answer": "Oo. Pumili ng layout ng dalawang rehiyon at magdagdag ng isang video sa bawat rehiyon. Maaari mong panatilihing naka-stack o magkatabi ang mga ito, na may hiwalay na playback at sound control."
+      },
+      {
+        "question": "Gumagana ba ito sa mga tablet?",
+        "answer": "Oo. Sinusuportahan ng parehong app ang mga telepono at tablet. Ang isang mas malaking screen ay kapaki-pakinabang para sa pagsusuri ng ilang mga anggulo o pagbabasa ng reference na materyal sa tabi ng isang video."
+      },
+      {
+        "question": "Kailangan ko bang pagsamahin muna ang mga video?",
+        "answer": "Hindi. Ang split-screen playback ay nagpapanatili sa mga clip na magkahiwalay. Ang isang playlist ay nagpe-play ng mga clip nang sunud-sunod sa isang rehiyon; ang isang split-screen na layout ay nagpapakita ng iba't ibang mga clip sa parehong oras."
+      },
+      {
+        "question": "Paano ko aalisin ang mga itim na bar?",
+        "answer": "Piliin ang Punan at I-crop sa mga setting ng pag-scale ng video. Pinupuno nito ang bawat rehiyon sa pamamagitan ng pag-crop sa mga gilid kapag nagkakaiba ang mga hugis. Gamitin ang Fit kapag mas mahalaga ang buong orihinal na frame."
+      },
+      {
+        "question": "Maaari ba itong magpakita ng dalawang magkahiwalay na streaming app?",
+        "answer": "Sinasaklaw ng gabay na ito ang nilalamang binuksan sa loob ng Split Screen Player. Hindi ito nag-e-embed ng iba pang apps. Ang pag-playback mula sa isang web page ay nakasalalay sa website na iyon at sa mga paghihigpit nito."
+      },
+      {
+        "question": "Libre ba ang app?",
+        "answer": "Ang app ay libre upang i-download, na may pangunahing pag-playback ng video at mga libreng layout. Ang mga layout na minarkahang VIP, paggamit ng custom-layout, mga bookmark, at iba pang advanced na feature ay nangangailangan ng membership."
+      }
+    ],
+    "closingTitle": "Panatilihin ang mga video na gusto mong panoorin sa isang screen",
+    "closingDescription": "Magsimula sa dalawang clip, pagkatapos ay subukan ang tatlong naka-stack na row o isang four-video grid. I-download ang bersyon para sa iyong device mula sa App Store o Google Play."
+  },
+  "keywords": [
+    "Pag-play ng maraming video",
+    "Hating screen"
+  ],
+  "_translation": {
+    "sourceDigest": "b890b5db6e634c7c4193cded71f4c9b3fd0b48a5a8236be8d99ba651bb26fb36",
+    "method": "machine-assisted"
+  }
+}

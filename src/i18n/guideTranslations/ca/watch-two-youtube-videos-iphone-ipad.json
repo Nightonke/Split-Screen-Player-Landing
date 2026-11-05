@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "Com veure dos vídeos YouTube alhora a iPhone o iPad",
+  "seoTitle": "Com veure dos vídeos YouTube alhora a iPhone o iPad",
+  "metaDescription": "Mou un vídeo YouTube compatible a un reproductor independent i, a continuació, obriu una altra pàgina YouTube per veure dos vídeos a iPhone o iPad.",
+  "summary": "Conserveu el primer vídeo YouTube en un reproductor independent mentre es reprodueix un segon vídeo a la pàgina web de dalt.",
+  "answer": "Obriu la primera pàgina YouTube i inicieu la reproducció. Toca Mini reproductor, tria el vídeo detectat coincident i deixa que s'obri a la regió buida. A continuació, obriu i reproduïu el segon URL YouTube a la regió web original.",
+  "note": "Aquest flux de treball requereix Premium i una font detectada compatible. Es va reproduir amb Big Buck Bunny i Sintel de Blender al simulador de iPhone 17 Pro. L'entrega, els anuncis, l'inici de sessió i la protecció YouTube poden afectar altres vídeos; no és una garantia per a tots els enllaços. Les captures de pantalla mostren la interfície en anglès en un simulador iPhone 17 Pro.",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "Els vídeos Sintel i Big Buck Bunny es reprodueixen en zones de pantalla separades.",
+    "alt": "iPhone 17 Pro : els vídeos Sintel i Big Buck Bunny es reprodueixen en zones de pantalla separades.",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "Obriu el primer vídeo YouTube",
+      "description": "Trieu un disseny de dues regions. A la regió superior, toqueu + → Web/Stream i obriu el primer URL de la pàgina de visualització YouTube com a pàgina web. Inicieu la reproducció a la pàgina; la regió inferior hauria de romandre buida.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "El vídeo Big Buck Bunny es reprodueix a la pàgina web superior, amb una àrea de pantalla buida a sota.",
+        "alt": "iPhone 17 Pro : el vídeo Big Buck Bunny es reprodueix a la pàgina web superior, amb una àrea de pantalla buida a sota.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Inspeccioneu el vídeo detectat",
+      "description": "Toqueu el botó Mini Player al costat de l'adreça web. El número d'aquest botó és el nombre de vídeos detectats. Comproveu que el títol, la durada i les dimensions coincideixen amb el vídeo que voleu abans de seleccionar un vídeo detectat; la detecció sola no garanteix la reproducció.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "L'entrada detectada és 10:35 i 640×360 en aquesta sessió.",
+        "alt": "iPhone 17 Pro : l'entrada detectada és 10:35 i 640×360 en aquesta sessió.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Obriu-lo en una altra regió",
+      "description": "Toqueu l'element coincident. Una regió buida rep el vídeo automàticament. Si no n'hi ha cap buit, Trieu la ubicació de reproducció us demana el contingut actual de la regió que voleu substituir.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "La pàgina d'origen es manté per sobre del reproductor de vídeo independent.",
+        "alt": "iPhone 17 Pro : la pàgina d'origen es manté per sobre del reproductor de vídeo independent.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "Reprodueix un vídeo diferent a la pàgina web",
+      "description": "Conserveu el vídeo transferit al reproductor inferior. Toqueu l'adreça web de l'àrea de la pantalla superior → Web/Stream i introduïu la segona URL de visualització YouTube. Reprodueix el vídeo a la pàgina. En aquest exemple, el vídeo Sintel es reprodueix a l'àrea de la pantalla superior mentre que el vídeo Big Buck Bunny continua reproduint-se a continuació.",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "Els vídeos Sintel i Big Buck Bunny es reprodueixen en zones de pantalla separades.",
+        "alt": "iPhone 17 Pro : els vídeos Sintel i Big Buck Bunny es reprodueixen en zones de pantalla separades.",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "Detalls útils",
+    "featuresIntro": "Comproveu aquests detalls mentre seguiu els passos.",
+    "features": [
+      {
+        "title": "La font ha de romandre reproduïble",
+        "description": "Les adreces multimèdia caducades, l'autenticació, la protecció del contingut i el comportament del servidor poden impedir la reproducció. Torna a la pàgina d'origen i torna a iniciar el vídeo abans de tornar-ho a provar. Aquesta funció no dóna accés a contingut restringit."
+      },
+      {
+        "title": "Mantingueu una font d'àudio",
+        "description": "Silencia la pàgina web o el reproductor independent si tots dos produeixen so. Els dos caps de joc són independents; utilitzeu fitxers locals compatibles i punt de sincronització per a una comparació precisa."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Per què el Mini Player està buit?",
+        "answer": "Inicieu un vídeo a la pàgina i torneu a comprovar-ho. Alguns llocs no exposen una font compatible. Una entrada detectada també pot ser un anunci en lloc del vídeo que volíeu."
+      },
+      {
+        "question": "Per què no obriu dues pàgines web YouTube?",
+        "answer": "L'aplicació adverteix sobre la reproducció simultània en diverses regions web a iOS. Aquest flux de treball mou el primer vídeo a un reproductor independent i només deixa el segon en una pàgina web. Encara depèn de la compatibilitat de la font."
+      }
+    ],
+    "closingTitle": "Prova-ho amb els teus propis mitjans",
+    "closingDescription": "Obriu Split Screen Player i seguiu els passos amb els fitxers que voleu utilitzar."
+  },
+  "keywords": [
+    "YouTube",
+    "Reproducció dual"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}

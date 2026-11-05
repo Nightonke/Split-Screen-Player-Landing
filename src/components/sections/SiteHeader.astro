@@ -1,6 +1,7 @@
 ---
 import type { LanguageLink } from "@/types/content";
-import { FaApple, FaBars, FaGlobe, FaDownload, FaGooglePlay } from "react-icons/fa";
+import LanguagePicker from "../LanguagePicker.astro";
+import { FaApple, FaBars, FaDownload, FaGooglePlay } from "react-icons/fa";
 
 interface Props {
 	name: string;
@@ -26,8 +27,6 @@ interface Props {
 }
 
 const { name, logo, homeHref, storeHref, googlePlayHref, languageLinks, labels, nav } = Astro.props;
-const currentLanguage =
-	languageLinks.find((link) => link.isActive)?.label ?? languageLinks[0]?.label;
 const homeAnchor = (anchor: string) =>
 	homeHref === "/" ? `/${anchor}` : `${homeHref}${anchor}`;
 const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
@@ -48,21 +47,7 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 		</nav>
 
 		<div class="header-actions">
-			<details class="language-menu">
-				<summary aria-label={currentLanguage}>{currentLanguage}</summary>
-				<div class="language-popover">
-					{languageLinks.map((link) => (
-						<a
-							href={link.href}
-							hreflang={link.hrefLang}
-							data-locale-choice={link.locale}
-							aria-current={link.isActive ? "page" : undefined}
-						>
-							{link.label}
-						</a>
-					))}
-				</div>
-			</details>
+			<LanguagePicker languageLinks={languageLinks} />
 
 			{googlePlayHref ? <details class="platform-store-menu" name="mobile-header-menu">
 				<summary class="button button-dark button-small" aria-label={nav.getApp}><FaDownload aria-hidden="true" /><span>{nav.getApp}</span></summary>
@@ -80,24 +65,6 @@ const guidesHref = homeHref === "/" ? "/guides/" : `${homeHref}guides/`;
 				<FaApple aria-hidden="true" />
 				<span>{nav.getApp}</span>
 			</a>}
-
-			<details class="mobile-language-menu" name="mobile-header-menu">
-				<summary aria-label={currentLanguage} title={currentLanguage}>
-					<FaGlobe aria-hidden="true" />
-				</summary>
-				<div class="language-popover mobile-language-popover">
-					{languageLinks.map((link) => (
-						<a
-							href={link.href}
-							hreflang={link.hrefLang}
-							data-locale-choice={link.locale}
-							aria-current={link.isActive ? "page" : undefined}
-						>
-							{link.label}
-						</a>
-					))}
-				</div>
-			</details>
 
 			<details class="mobile-menu" name="mobile-header-menu">
 				<summary aria-label={nav.menu} title={nav.menu}>

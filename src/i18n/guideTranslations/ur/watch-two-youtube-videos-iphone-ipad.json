@@ -1,0 +1,126 @@
+{
+  "slug": "watch-two-youtube-videos-iphone-ipad",
+  "platform": "ios",
+  "topic": "web",
+  "relatedSlugs": [
+    "open-web-video-in-another-player-iphone-ipad",
+    "listen-to-one-video-at-a-time-iphone-ipad",
+    "customize-bottom-toolbar-iphone-ipad"
+  ],
+  "eyebrow": "iPhone / iPad",
+  "title": "iPhone یا iPad پر ایک ساتھ دو YouTube ویڈیوز کیسے دیکھیں",
+  "seoTitle": "iPhone یا iPad پر ایک ساتھ دو YouTube ویڈیوز کیسے دیکھیں",
+  "metaDescription": "ایک مطابقت پذیر YouTube ویڈیو کو الگ پلیئر میں منتقل کریں، پھر iPhone یا iPad پر دو ویڈیوز دیکھنے کے لیے دوسرا YouTube صفحہ کھولیں۔",
+  "summary": "پہلی YouTube ویڈیو کو ایک آزاد پلیئر میں رکھیں جب کہ دوسری ویڈیو اوپر والے ویب پیج پر چلتی ہے۔",
+  "answer": "پہلا YouTube صفحہ کھولیں اور پلے بیک شروع کریں۔ منی پلیئر کو تھپتھپائیں، مماثل پتہ چلنے والی ویڈیو کا انتخاب کریں، اور اسے خالی علاقے میں کھولنے دیں۔ پھر اصلی ویب ریجن میں دوسرا YouTube یو آر ایل کھولیں اور چلائیں۔",
+  "note": "اس ورک فلو کے لیے پریمیم اور ایک ہم آہنگ پتہ شدہ ذریعہ کی ضرورت ہے۔ اسے iPhone 17 Pro سمیلیٹر میں Blender کے Big Buck Bunny اور Sintel کے ساتھ دوبارہ تیار کیا گیا تھا۔ YouTube کی ترسیل، اشتہارات، لاگ ان اور تحفظ دیگر ویڈیوز کو متاثر کر سکتے ہیں۔ یہ ہر لنک کی ضمانت نہیں ہے۔ اسکرین شاٹس iPhone 17 Pro سمیلیٹر پر انگریزی انٹرفیس دکھاتے ہیں۔",
+  "heroImage": {
+    "src": "/images/guides/youtube/ios/en/04-both.webp",
+    "width": 1319,
+    "height": 2748,
+    "caption": "ویڈیوز Sintel اور Big Buck Bunny دونوں الگ الگ اسکرین ایریاز میں چل رہے ہیں۔",
+    "alt": "iPhone 17 Pro - ویڈیوز Sintel اور Big Buck Bunny دونوں الگ الگ اسکرین والے علاقوں میں چل رہے ہیں۔",
+    "credit": {
+      "label": "Big Buck Bunny / Sintel — Blender Foundation",
+      "href": "https://www.youtube.com/@BlenderOfficial"
+    }
+  },
+  "steps": [
+    {
+      "title": "پہلی YouTube ویڈیو کھولیں۔",
+      "description": "دو ریجن لے آؤٹ کا انتخاب کریں۔ اوپری علاقے میں، + → ویب/اسٹریم کو تھپتھپائیں اور پہلے YouTube دیکھنے کے صفحے کا URL بطور ویب پیج کھولیں۔ صفحہ میں پلے بیک شروع کریں؛ زیریں علاقہ خالی رہنا چاہیے۔",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/01-source.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "The Big Buck Bunny ویڈیو اوپری ویب پیج میں چلتی ہے، نیچے اسکرین کے خالی حصے کے ساتھ۔",
+        "alt": "iPhone 17 Pro - دی Big Buck Bunny ویڈیو اوپری ویب پیج میں چلتی ہے، نیچے اسکرین کے خالی حصے کے ساتھ۔",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "دریافت شدہ ویڈیو کا معائنہ کریں۔",
+      "description": "ویب ایڈریس کے ساتھ مینی پلیئر بٹن کو تھپتھپائیں۔ اس بٹن پر موجود نمبر معلوم شدہ ویڈیوز کی تعداد ہے۔ چیک کریں کہ عنوان، دورانیہ اور طول و عرض اس ویڈیو سے مماثل ہیں جو آپ چاہتے ہیں کہ کوئی پتہ چلا ویڈیو منتخب کرنے سے پہلے؛ اکیلے پتہ لگانا پلے بیک کی ضمانت نہیں دیتا۔",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/02-detected.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "اس سیشن میں دریافت شدہ اندراج 10:35 اور 640×360 ہے۔",
+        "alt": "iPhone 17 Pro - اس سیشن میں پتہ چلا اندراج 10:35 اور 640×360 ہے۔",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "اسے کسی دوسرے علاقے میں کھولیں۔",
+      "description": "مماثل آئٹم کو تھپتھپائیں۔ ایک خالی علاقہ خود بخود ویڈیو وصول کرتا ہے۔ اگر کوئی بھی خالی نہیں ہے، تو پلے بیک مقام کا انتخاب کریں یہ پوچھتا ہے کہ کس علاقے کے موجودہ مواد کو تبدیل کرنا ہے۔",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/03-transferred.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "ماخذ صفحہ آزاد ویڈیو پلیئر کے اوپر رہتا ہے۔",
+        "alt": "iPhone 17 Pro - ماخذ صفحہ آزاد ویڈیو پلیئر کے اوپر رہتا ہے۔",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    },
+    {
+      "title": "ویب پیج میں ایک مختلف ویڈیو چلائیں۔",
+      "description": "منتقل شدہ ویڈیو کو نچلے پلیئر میں رکھیں۔ اوپری اسکرین ایریا کے ویب ایڈریس → ویب/اسٹریم کو تھپتھپائیں اور YouTube دیکھنے کا دوسرا URL درج کریں۔ پیج میں ویڈیو چلائیں۔ اس مثال میں، Sintel ویڈیو اوپری اسکرین کے علاقے میں چلتی ہے جبکہ Big Buck Bunny ویڈیو نیچے چلتی رہتی ہے۔",
+      "image": {
+        "src": "/images/guides/youtube/ios/en/04-both.webp",
+        "width": 1319,
+        "height": 2748,
+        "caption": "ویڈیوز Sintel اور Big Buck Bunny دونوں الگ الگ اسکرین ایریاز میں چل رہے ہیں۔",
+        "alt": "iPhone 17 Pro - ویڈیوز Sintel اور Big Buck Bunny دونوں الگ الگ اسکرین والے علاقوں میں چل رہے ہیں۔",
+        "credit": {
+          "label": "Big Buck Bunny / Sintel — Blender Foundation",
+          "href": "https://www.youtube.com/@BlenderOfficial"
+        }
+      }
+    }
+  ],
+  "tips": [],
+  "relatedFeature": "multi-video-player",
+  "article": {
+    "featuresHeading": "مفید تفصیلات",
+    "featuresIntro": "ان تفصیلات کو چیک کریں جیسا کہ آپ مراحل کی پیروی کرتے ہیں.",
+    "features": [
+      {
+        "title": "ماخذ کو چلانے کے قابل رہنا چاہیے۔",
+        "description": "میعاد ختم ہونے والے میڈیا ایڈریس، تصدیق، مواد کی حفاظت اور سرور کا رویہ پلے بیک کو روک سکتا ہے۔ سورس پیج پر واپس جائیں اور دوبارہ کوشش کرنے سے پہلے ویڈیو دوبارہ شروع کریں۔ یہ خصوصیت محدود مواد تک رسائی کی اجازت نہیں دیتی ہے۔"
+      },
+      {
+        "title": "ایک آڈیو ماخذ رکھیں",
+        "description": "اگر دونوں آواز پیدا کرتے ہیں تو ویب پیج یا آزاد پلیئر کو خاموش کریں۔ دو پلے ہیڈز آزاد ہیں۔ درست موازنہ کے لیے مطابقت پذیر مقامی فائلیں اور سنک پوائنٹ استعمال کریں۔"
+      }
+    ],
+    "faq": [
+      {
+        "question": "منی پلیئر کیوں خالی ہے؟",
+        "answer": "صفحہ میں ایک ویڈیو شروع کریں اور دوبارہ چیک کریں۔ کچھ سائٹیں مطابقت پذیر ذریعہ کو ظاہر نہیں کرتی ہیں۔ پتہ چلا اندراج آپ کی مطلوبہ ویڈیو کے بجائے ایک اشتہار بھی ہو سکتا ہے۔"
+      },
+      {
+        "question": "کیوں نہ صرف YouTube دو ویب صفحات کھولیں؟",
+        "answer": "ایپ iOS پر متعدد ویب علاقوں میں بیک وقت پلے بیک کے بارے میں خبردار کرتی ہے۔ یہ ورک فلو پہلی ویڈیو کو ایک آزاد پلیئر میں منتقل کرتا ہے اور ویب صفحہ میں صرف دوسرا چھوڑ دیتا ہے۔ یہ اب بھی ماخذ کی مطابقت پر منحصر ہے۔"
+      }
+    ],
+    "closingTitle": "اسے اپنے میڈیا سے آزمائیں۔",
+    "closingDescription": "Split Screen Player کھولیں اور ان فائلوں کے ساتھ ان مراحل پر عمل کریں جنہیں آپ استعمال کرنا چاہتے ہیں۔"
+  },
+  "keywords": [
+    "YouTube",
+    "دوہری پلے بیک"
+  ],
+  "_translation": {
+    "sourceDigest": "c8b7b1347fc064689fc6384c1625663e9dcfd9808e1d04343548cd8dd9ee4e99",
+    "method": "machine-assisted"
+  }
+}
