@@ -158,3 +158,5 @@ The custom domain is configured in `public/CNAME`.
 ## License
 
 MIT. See `LICENSE`.
+
+Cloudflare 的 `Cache public R2 media` 规则只匹配上述公开素材域名和目录，将资源设为 Eligible for cache，并遵循对象的 Cache-Control。缓存后的完整视频和 206 分段响应需同时通过 SHA-256 与 CORS 检查。
