@@ -1,0 +1,15 @@
+{
+  "redirect": {
+    "name": "Mainland China media mirror",
+    "expression": "(http.host eq \"assets.splitscreenplayer.com\" and starts_with(http.request.uri.path, \"/assets/v1/\") and ip.src.country eq \"CN\")",
+    "targetExpression": "concat(\"https://assets-cn-test.splitscreenplayer.com\", http.request.uri.path)",
+    "statusCode": 307,
+    "preserveQueryString": true
+  },
+  "responseHeaders": {
+    "expression": "(http.host eq \"assets.splitscreenplayer.com\" and starts_with(http.request.uri.path, \"/assets/v1/\"))",
+    "set": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

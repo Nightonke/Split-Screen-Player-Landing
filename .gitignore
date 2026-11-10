@@ -20,3 +20,6 @@ Thumbs.db
 
 # Local tutorial captures, media copies, and temporary tooling
 .tmp/
+
+# Local media verification receipts
+.deploy/

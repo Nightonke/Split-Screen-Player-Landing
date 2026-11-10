@@ -36,7 +36,9 @@
 		"preview": "astro preview",
 		"toolbar:disable": "astro preferences disable devToolbar",
 		"toolbar:enable": "astro preferences enable devToolbar",
-		"check:localization": "node scripts/check-core-copy.mjs && node scripts/check-guide-copy.mjs && node scripts/check-guide-pages.mjs && node scripts/check-core-pages.mjs"
+		"check:localization": "node scripts/check-core-copy.mjs && node scripts/check-guide-copy.mjs && node scripts/check-guide-pages.mjs && node scripts/check-core-pages.mjs",
+		"media:publish:r2": "node scripts/publish-r2.mjs",
+		"media:prepare": "node infrastructure/media-cdn/scripts/sync-assets.mjs"
 	},
 	"dependencies": {
 		"@astrojs/react": "^4.4.2",

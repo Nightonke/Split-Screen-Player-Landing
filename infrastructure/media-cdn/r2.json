@@ -1,0 +1,6 @@
+{
+  "accountId": "70ad819df5f969ba3d602c0cd5db021e",
+  "bucket": "split-screen-player-assets",
+  "keyPattern": "^assets/v1/.+",
+  "immutable": false
+}
